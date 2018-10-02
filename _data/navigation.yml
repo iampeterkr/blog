@@ -3,7 +3,8 @@ main:
   - title: "Codecademy-Python"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+    url ://iampeterkr.github.io
+  #  url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Sample Posts"
   #   url: /year-archive/
   - title: "Sample Collections"
