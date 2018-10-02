@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Peter's Git Hub Blog "
+title                    : "Peter's github.io Blog "
 title_separator          : "-"
 name                     : "Wonyoung Lee"
 description              : "This is Python Guide for Korean by Codecademy.com website."
