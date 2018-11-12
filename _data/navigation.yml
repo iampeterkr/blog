@@ -30,7 +30,7 @@ foo:
 # main links
 main:
   - title: "Codecademy-Python Guide"
-    url: /Codecademy-Python/
+    url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
   - title: "Reference Guide"
