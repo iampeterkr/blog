@@ -30,13 +30,13 @@ foo:
 # main links
 main:
   - title: "Codecademy-Python Guide"
-    url: /docs/quick-start-guide/
+    url: /quick-start-guide/
   - title: "About"
     url: /about/
   - title: "Reference Guide"
     url: /quick-start-guide/
- # - title: "Sample Posts"
- #   url: /year-archive/
+  - title: "Sample Posts"
+    url: /year-archive/
  # - title: "Sample Collections"
  #   url: /collection-archive/
  # - title: "Terms &amp; Privacy Policy"
@@ -48,9 +48,9 @@ docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: /quick-start-guide/
       - title: "Structure"
-        url: /docs/structure/
+        url: /structure/
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
@@ -101,7 +101,21 @@ docs:
         url: /terms/
 
 # sidebar navigation list sample
-sidebar-sample:
+# sidebar:
+#   nav: "docs"
+sidebar:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /quick-start-guide/
+      - title: "Structure"
+        url: /structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+sidebar:
   - title: "Parent Page A"
     children:
       - title: "Child Page A1"
