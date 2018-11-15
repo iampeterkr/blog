@@ -59,18 +59,18 @@ docs:
     children:
       - title: "Explain Screen"
         url: /explain-screen/
-      - title: "What is Learn"
-        url: /what-is-learn/
-      - title: "What is Instructions"
-        url: /what-is-instructions/
-      - title: "What is Stuck? Get a hint"
-        url: /what-is-stuck-get-a-hint/
-      - title: "What is Solution?"
-        url: /what-is-solution/
-      - title: "What is Community Forums"
-        url: /what-is-community-forums/
-      - title: "What is Report a Bug"
-        url: /what-is-report-a-bug/
+      - title: "- Learn"
+        url: /learn/
+      - title: "- Instructions"
+        url: /instructions/
+      - title: "- Stuck? Get a hint"
+        url: /stuck-get-a-hint/
+      - title: "- Solution?"
+        url: /solution/
+      - title: "- Community Forums"
+        url: /community-forums/
+      - title: "- Report a Bug"
+        url: /report-a-bug/
 
 # sidebar navigation list sample
 sidebar:
