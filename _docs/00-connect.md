@@ -1,9 +1,9 @@
 ---
 # layout : rchive
-title: "Syllabus"
-permalink: /syllabus/
-excerpt: "Introduce Python Syllabus Pages."
-last_modified_at: 2018-11-12T09:00:00-04:00
+title: "Connect"
+permalink: /connect/
+excerpt: "Show that How to connect to Codecademy.com "
+last_modified_at: 2018-11-15T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -14,11 +14,11 @@ toc: true
 <hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy_logo.svg)
-   
+    
 #### https://codecademy.com
-
-
 <hr/>    
+    
+    
     
 
 <b>1.	Python Syntax</b> [§]({{site.baseurl}}/python-syntax/) 

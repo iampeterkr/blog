@@ -59,18 +59,46 @@ docs:
     children:
       - title: "Explain Screen"
         url: /explain-screen/
-      - title: "- Learn"
+      - title: " • Learn"
         url: /learn/
-      - title: "- Instructions"
+      - title: " • Instructions"
         url: /instructions/
-      - title: "- Stuck? Get a hint"
+      - title: " • Stuck? Get a hint"
         url: /stuck-get-a-hint/
-      - title: "- Solution?"
+      - title: " • Solution?"
         url: /solution/
-      - title: "- Community Forums"
+      - title: " • Community Forums"
         url: /community-forums/
-      - title: "- Report a Bug"
+      - title: " • Report a Bug"
         url: /report-a-bug/
+  - title: Lecture
+    children:
+      - title: " 01. Python Syntax"
+        url: /python-syntax/
+      - title: " 02. String & Console Output"
+        url: /string-console-output/
+      - title: " 03. Conditionals and Control Flow"
+        url: /conditionals-control-flow/
+      - title: " 04. Functions "
+        url: /functions/
+      - title: " 05. Lists & Dictionaries"
+        url: /list-dictionaries/
+      - title: " 06. Student Becomes the Teacher"
+        url: /student-becomes-teacher/
+      - title: " 07. Lists and Functions"
+        url: /lists-functions/
+      - title: " 08. Loops"
+        url: /loops/
+      - title: " 09. Exam Statistics"
+        url: /exam-statistics/
+      - title: " 10. Advanced Topics in Python"
+        url: /advanced-topics-python/
+      - title: " 11. Introduction to Classes"
+        url: /introduction-classes/
+      - title: " 12. File Input and Output"
+        url: /file-input-output/
+      - title: " 13. PYTHON FINAL PROJECT"
+        url: /python-final-project/
 
 # sidebar navigation list sample
 sidebar:
