@@ -15,7 +15,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy_logo.svg)
    
-#### https://codecademy.com
+<h6> https://codecademy.com </h6>
 
 
 <hr/>    
