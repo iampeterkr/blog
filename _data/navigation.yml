@@ -63,16 +63,16 @@ docs:
         url: /learn/
       - title: " • Instructions"
         url: /instructions/
-      - title: " • Stuck? Get a hint"
+      - title: " ⤷ ° Stuck? Get a hint"
         url: /stuck-get-a-hint/
-      - title: " • Solution?"
+      - title: " ⤷ ° Run and Error"
+        url: /run-error/
+      - title: " ⤷ ° Solution?"
         url: /solution/
       - title: " • Community Forums"
         url: /community-forums/
       - title: " • Report a Bug"
-        url: /report-a-bug/
-      - title: " • Run and Error"
-        url: /run-error/
+        url: /report-bug/
   - title: Lecture
     children:
       - title: " 01. Python Syntax"
