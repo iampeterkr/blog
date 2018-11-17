@@ -15,14 +15,15 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-00.png)    
 <br>
+<hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* ① We should complete the instructions by Python syntax we were learned in `Learn` parts in the upper step.
+* We should complete the instructions by Python syntax we were learned in `Learn` parts in the upper step.
+* Example, this instruction case is that ① Using a `print` statement, **output** a message of your choosing to the terminal.
 
-* ② Reference the `Hint` if you hard to understand the instructions.
 
-**설명:** ① 우리가 배운 Python 문법을 활용하여, 지시사항을 수행해야 한다. ② 미션을 수행하기 어려운 경우 `Hint`를 참조한다.   
+**설명:**  우리가 배운 Python 문법을 활용하여, **지시사항을** 수행 한다. 예를 들면 ① `print` 문을 사용하여 출력 화면에 당신이 생각하는 문장을 **출력** 하는 것이 이번 지시사항 이다. 
 {: .notice--info}
 
 

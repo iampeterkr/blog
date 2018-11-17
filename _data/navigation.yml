@@ -71,6 +71,8 @@ docs:
         url: /community-forums/
       - title: " • Report a Bug"
         url: /report-a-bug/
+      - title: " • Run and Error"
+        url: /run-error/
   - title: Lecture
     children:
       - title: " 01. Python Syntax"
