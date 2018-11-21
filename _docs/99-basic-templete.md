@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "String & Console Output"
-permalink: /string-console-output/
+permalink: /--/
 excerpt: "We learn about String, Console, and Output Syntax."
 last_modified_at: 2018-11-21T09:00:00-04:00
 redirect_from:
@@ -15,9 +15,7 @@ toc: true
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 1. Strings 
 
 
@@ -59,9 +57,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 2.  
 
 
@@ -103,9 +99,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 3.  
 
 
@@ -147,9 +141,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 4.
 
 
@@ -191,9 +183,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 5. 
 
 
@@ -235,9 +225,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 6. 
 
 
@@ -279,9 +267,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 7. 
 
 
@@ -323,9 +309,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 8. 
 
 
@@ -367,9 +351,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 9. 
 
 
@@ -411,9 +393,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 10. 
 
 
@@ -455,9 +435,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 11. 
 
 
@@ -499,9 +477,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 12. 
 
 
@@ -543,9 +519,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 13.
 
 
@@ -587,9 +561,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 14. 
 
 
@@ -631,9 +603,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 15.
 
 
@@ -675,9 +645,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 16. 
 
 
@@ -719,9 +687,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 17.
 
 
@@ -763,9 +729,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 18.
 
 
@@ -807,9 +771,7 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 19.
 
 

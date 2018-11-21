@@ -15,10 +15,21 @@ toc: true
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 1. Strings 
+
+Another useful data type is the **string**. A **string** can contain letters, numbers, and symbols.
+
+```python
+name = "Ryan"
+age = "19"
+food = "cheese"
+```
+In the above example, we create a variable `name` and set it to the string value "Ryan".
+We also set `age` to "19" and `food` to "cheese".
+Strings need to be within quotes.
 
 
 
@@ -59,8 +70,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 2.  
 
@@ -103,8 +114,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 3.  
 
@@ -147,8 +158,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 4.
 
@@ -191,8 +202,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 5. 
 
@@ -235,8 +246,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 6. 
 
@@ -279,8 +290,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 7. 
 
@@ -323,8 +334,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 8. 
 
@@ -367,8 +378,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 9. 
 
@@ -411,8 +422,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 10. 
 
@@ -455,8 +466,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 11. 
 
@@ -499,8 +510,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 12. 
 
@@ -543,8 +554,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 13.
 
@@ -587,8 +598,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 14. 
 
@@ -631,8 +642,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 15.
 
@@ -675,8 +686,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 16. 
 
@@ -719,8 +730,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 17.
 
@@ -763,8 +774,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 18.
 
@@ -807,8 +818,8 @@ Strings & Console Output
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-Strings & Console Output
+
+<font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 19.
 

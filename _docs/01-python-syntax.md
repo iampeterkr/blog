@@ -15,9 +15,7 @@ toc: true
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 1. Hello World!
 
 
@@ -78,9 +76,7 @@ print "Your Message!"
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 2. Print Statements
 
 There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has parentheses.
@@ -134,9 +130,7 @@ print("Your message!")
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 3. String
 
 When printing things in Python, we are supplying a text block that we want to be printed. Text in Python is considered a specific type of data called a string. A string, so named because they're a series of letters, numbers, or symbols connected in order — as if threaded together by string. Strings can be defined in different ways:
@@ -194,9 +188,7 @@ print "Hello " + "Nicole"
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 4. Handling Errors
 
 
@@ -266,9 +258,7 @@ print "This is also a good print statement"
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 5. Variables
 
 In Python, and when programming in general, we need to build systems for dealing with data that changes over time. That data could be the location of a plane, or the time of day, or the television show you're currently watching. The only important thing is that it may be different at different times. Python uses variables to define things that are subject to change.
@@ -320,9 +310,7 @@ todays_date = "March 31, 2023"
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 6. Arithmetic
 
 One thing computers are capable of doing exceptionally well is performing arithmetic. Addition, subtraction, multiplication, division, and other numeric calculations are easy to do in most programming languages, and Python is no exception. Some examples:
@@ -417,9 +405,7 @@ remainder = 1398 % 11
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 7. Updating Variables
 
 Changing the contents of a variable is one of the essential operations. As the flow of a program progresses, data should be updated to reflect changes that have happened.
@@ -530,9 +516,7 @@ print annual_rainfall
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 8. Comments
 
 Most of the time, code should be written in such a way that it is easy to understand on its own. However, if you want to include a piece of information to explain a part of your code, you can use the # sign. A line of text preceded by a # is called a comment. The machine does not run this code — it is only for humans to read. When you look back at your code later, comments may help you figure out what it was intended to do.
@@ -596,9 +580,7 @@ city_pop = 340000
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 9. Numbers
 
 Variables can also hold numeric values. The simplest kind of number in Python is the **integer**, which is a whole number with no decimal point:
@@ -694,9 +676,7 @@ print total_cost
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 10. Two Types of Division 
 
 In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine:
@@ -815,9 +795,7 @@ print float_cucumbers_per_person
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 11. Multi-line Strings 
 
 We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:
@@ -903,9 +881,7 @@ Plop!
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 12. Booleans
 
 Sometimes we have a need for variables that are either true or false. This datatype, which can only ever take one of two values, is called a boolean. In Python, we define booleans using the keywords True and False:
@@ -981,9 +957,7 @@ name_is_maria = True
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 13. ValueError
 
 Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value `7` is an **integer**, `7.` is a **float**, "7" is a **string**. Sometimes we will want to convert variables to different datatypes. For example, if we wanted to print out an **integer** as part of a **string**, we would want to convert that **integer to a string** first. We can do that using `str()`:
@@ -1086,9 +1060,7 @@ big_string = "The product was " + str(product)
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
+<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 14. Review
 
 Great! So far we’ve looked at:
