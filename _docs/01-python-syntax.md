@@ -48,10 +48,10 @@ A `print` statement is the easiest way to get your Python program to communicate
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Using a print statement, output a message of your choosing to the terminal.   
+**①** Using a print statement, output a message of your choosing to the terminal.   
 
 
-**설명:** 1. `print` 문 을 사용하여 당신이 쓰고 싶은 문장을 컴퓨터에게 화면에 출력하도록 시켜라. 
+**설명:** ① `print` 문 을 사용하여 당신이 쓰고 싶은 문장을 컴퓨터에게 화면에 출력하도록 시켜라. 
 {: .notice--info}
 
 
@@ -105,9 +105,9 @@ In this course we will be using Python 2. If you go on to write Python 3 it will
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Print something using Python 3's syntax.
+**①** Print something using Python 3's syntax.
 
-**설명:** 1. `print` 문을 Python3 문법을 사용하여 출력 하라. 
+**설명:** ① `print` 문을 Python3 문법을 사용하여 출력 하라. 
 {: .notice--info}
 
 
@@ -167,10 +167,10 @@ This code will print out "This is a good string".
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Try adding your name to the print statement with the + operator so that this Python program prints "Hello [your_name]"
+**①** Try adding your name to the print statement with the + operator so that this Python program prints "Hello [your_name]"
 
 
-**설명:** `+` 를 사용하여 두개의 `String`을 연결하여 *Hello Hongkildong* 이 출력 하라. 
+**설명:** ① `+` 를 사용하여 두개의 `String`을 연결하여 *Hello Hongkildong* 이 출력 하라. 
 {: .notice--info}
 
 
@@ -219,7 +219,7 @@ Another issue you might run into is attempting to create a string without quotes
 
 
 
-**설명:** ①쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 `EOL` Error를 발생시킨다. 시작이 `'` 이면 끝도 `'`이어야 하면, 시작이 `"`이면, 끝도 `"` 이어야 한다. ② 문자열을 만들때, 양 끝을 쿼트(quotest)가 없으면 Python은 해당 문자열을 `print`와 같은 명령문으로 인식한다. 이런경우 해당 문자열이 명령어 리스트에 없으면 `NameError`를 발생시킨다.  
+**설명:** ① 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 `EOL` Error를 발생시킨다. 시작이 `'` 이면 끝도 `'`이어야 하면, 시작이 `"`이면, 끝도 `"` 이어야 한다. ② 문자열을 만들때, 양 끝을 쿼트(quotest)가 없으면 Python은 해당 문자열을 `print`와 같은 명령문으로 인식한다. 이런경우 해당 문자열이 명령어 리스트에 없으면 `NameError`를 발생시킨다.  
 {: .notice--info}
 
 
@@ -229,11 +229,11 @@ Another issue you might run into is attempting to create a string without quotes
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. We've written two print statements that will raise errors. One has mismatched quotes and the other has no quotes at all.
+**①** We've written two print statements that will raise errors. One has mismatched quotes and the other has no quotes at all.
 
 Fix the two print statements to successfully debug the program!
 
-**설명:** 쿼트(quotes)를 잘못 적용하여 Error가 발생하는 Python 프로그램을 고쳐라.  
+**설명:** ① 쿼트(quotes)를 잘못 적용하여 Error가 발생하는 Python 프로그램을 고쳐라.  
 {: .notice--info}
 
 
@@ -283,8 +283,8 @@ In the above example, we defined a variable called `greeting_message` and set it
 
 
 
-**설명:** 변수란? 문자열이나, 숫자를 저장하기 위한 상자 이름 이다. 우리는 `greeting_message`라는 변수를 만들고 거기에 *"Welcome to Codecademy!"* 라는 문자열을 저장하면, 해당 변수 `greeting_message`는 문자를 담은 변수가 된다. 
-그리고 그 변수를 변수 `greeting_message`라고 부른다. 마찬가지로 우리는 숫자를 담기위한 `current_exercise`라는 변수를 만들고, 거기에 숫자 *5*를 담는다. `current_exercise`는 숫자를 담은 변수가 되고, 우리는 이를 변수 `current_exercise`라고 부른다. 
+**설명:** 변수란? 문자열이나, 숫자를 저장하기 위한 상자 이름 이다. ① 우리는 `greeting_message`라는 변수를 만들고 거기에 *"Welcome to Codecademy!"* 라는 문자열을 저장하면, 해당 변수 `greeting_message`는 문자를 담은 변수가 된다. 
+② 그리고 그 변수를 변수 `greeting_message`라고 부른다. 마찬가지로 우리는 숫자를 담기위한 `current_exercise`라는 변수를 만들고, 거기에 숫자 *5*를 담는다. `current_exercise`는 숫자를 담은 변수가 되고, 우리는 이를 변수 `current_exercise`라고 부른다. 
 {: .notice--info}
 
 
@@ -294,9 +294,9 @@ In the above example, we defined a variable called `greeting_message` and set it
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a variable called `toodays_date` and assign a value that will represent today's date to that variable.
+**①** Create a variable called `toodays_date` and assign a value that will represent today's date to that variable.
 
-**설명:** 변수 `todays_date`를 만들고 이 변수에 오늘 날짜를 담아라.
+**설명:** ① 변수 `todays_date`를 만들고 이 변수에 오늘 날짜를 담아라.
 {: .notice--info}
 
 
@@ -361,12 +361,12 @@ We also check the remainder of `133 / 7`. Since `133` divided by `7` has no rema
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Multiply two numbers together and assign the result to a variable called `product`.
+**①** Multiply two numbers together and assign the result to a variable called `product`.
 
 **설명:** ①변수 `product`를 만들고 ② 변수 `product`에 2개의 숫자를 곱셈 하여라. 
 {: .notice--info}
 
-2. What is the remainder when 1398 is divided by 11? Save the results in a variable called remainder.   
+**②** What is the remainder when 1398 is divided by 11? Save the results in a variable called remainder.   
 
 **설명:** ① `1398 / 11` 의 나머지는 무엇일까? 변수 `remainder`를 만들고 ② 변수 `reminder`에 `1397 / 11` 의 나머지 값을 저장하여라.  
 {: .notice--info}
@@ -467,9 +467,9 @@ In the above example, we use the price of a sandwich to calculate sales tax. Aft
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-1. We're trying to figure out how much it rained in the past year! Update the `annual_rainfall` variable to include the values from September to December.
+**①** We're trying to figure out how much it rained in the past year! Update the `annual_rainfall` variable to include the values from September to December.
 
-**설명:** 우리는 작년에 얼마나 많은 비가 왔는지 계산 하려고 한다. `annual_rainfall` 변수에 9월 부터 12월까지의 비의 양을 값을 더하여라. 
+**설명:** ① 우리는 작년에 얼마나 많은 비가 왔는지 계산 하려고 한다. `annual_rainfall` 변수에 9월 부터 12월까지의 비의 양을 값을 더하여라. 
 {: .notice--info}
 
 
@@ -533,13 +533,18 @@ print annual_rainfall
 <br>
 PYTHON SYNTAX
 
-### 8. 
+### 8. Comments
+
+Most of the time, code should be written in such a way that it is easy to understand on its own. However, if you want to include a piece of information to explain a part of your code, you can use the # sign. A line of text preceded by a # is called a comment. The machine does not run this code — it is only for humans to read. When you look back at your code later, comments may help you figure out what it was intended to do.
+
+```python
+# this variable counts how many rows of
+the spreadsheet we have:
+row_count = 13
+```
 
 
-
-
-
-**설명:** 
+**설명:** Python에서 프로그램으로 인식되지 않는 부분을 주석(Comment) 이라고 부르며, 이들의 사용 목적은 프로그램에 정보를 남겨두거나 설명하기 위해서이다. 주석 처리된 부분은 컴퓨터는 인식 못하고 오직 프로그램을 읽는 사람만이 인식한다. 주석을 만들때는 `#` 을 사용한다. 한줄 주석(Comment)은 `#`으로 처리한다.   
 {: .notice--info}
 
 
@@ -549,8 +554,10 @@ PYTHON SYNTAX
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+**①** Add a comment above the declaration of `city_pop` with a description of what you think the variable contains.
 
-**설명:** 
+
+**설명:** ① 변수 `city_pop` 위에 주석을 만들어라. 
 {: .notice--info}
 
 
@@ -562,7 +569,7 @@ PYTHON SYNTAX
 
 
 
-**설명:** 
+**설명:** # 
 {: .notice--info}   
 
 
@@ -573,10 +580,13 @@ PYTHON SYNTAX
 
 
 ```python
+city_name = "St. Potatosburg"
 
+# This number tracks the population count of the spudizens of St. Potatosburg
+city_pop = 340000
 ```
 
-**설명:** ① `*` 는 곱셈 ② `%`는 나머지를 구하는 모듈(module) 이다. 
+**설명:**  **#** 을 사용하여, 변수 `city_pop`에 저장한 `34000`에 대한 설명을 남겨둔다.  
 {: .notice--info}
 
 <br>
@@ -589,13 +599,34 @@ PYTHON SYNTAX
 <br>
 PYTHON SYNTAX
 
-### 9. 
+### 9. Numbers
+
+Variables can also hold numeric values. The simplest kind of number in Python is the **integer**, which is a whole number with no decimal point:
+
+```python
+int1 = 1
+int2 = 10
+int3 = -5
+```
+
+A number with a decimal point is called a **float**. You can define **floats** with numbers after the decimal point or by just including a decimal point at the end:
+
+```python
+float1 = 1.0
+float2 = 10.
+float3 = -5.5
+```
+
+You can also define a **float** using scientific notation, with e indicating the power of 10:
+
+```python
+# this evaluates to 150:
+float4 = 1.5e2
+```
 
 
-
-
-
-**설명:** 
+**설명:** Python에서는 숫자 관련 변수는 정수(integer)와 실수(float)2종류가 있다. 정수는 소숫점 이하를 표현 할수 없으며, 실수는 소수점을 표현할 수 있다. 
+생서하는 변수가 정수인지, 실수인지는 해당 값을 대입할때 정해진다. 즉, 변수에 정수를 넣으면 정수형 변수가 되고, 실수를 넣으면 실수형 변수가 된다.   
 {: .notice--info}
 
 
@@ -605,8 +636,25 @@ PYTHON SYNTAX
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+**①** You are going shopping. Let's make a grocery list so that you can plan your budget. Store the number of cucumbers you want to buy in a variable called `cucumbers`. Make sure it's at least `1`, and that it's the appropriate datatype! The store doesn't sell partial cucumbers.
 
-**설명:** 
+**설명:** ① `cucumbers` 변수를 만들고, 정수 `1`을 대입하라.
+{: .notice--info}
+
+**②** Each cucumber costs 3.25 doubloons. Store the price per cucumber in a variable called price_per_cucumber.
+
+**설명:** ② `price_per_cucumber` 변수를 만들고, `3.25`를 대입하라. 
+{: .notice--info}
+
+**③** Create a new variable called total_cost which is the product of how many cucumbers you are going to buy and the cost per cucumber.
+
+**설명:**  ③ `total_cost` 변수를 만들고, 구매할 오이의 총 가격을 계산하라. 
+{: .notice--info}
+
+**④** Print out total_cost.
+What datatype is it?
+
+**설명:** ④ `total_cost` 를 `print` 명령어를 사용하여 출력하라.  
 {: .notice--info}
 
 
@@ -618,7 +666,7 @@ PYTHON SYNTAX
 
 
 
-**설명:** 
+**설명:** `*` 연산자를 사용하여 총 합을 계산하라. 
 {: .notice--info}
 
 <br>
@@ -628,10 +676,14 @@ PYTHON SYNTAX
 
 
 ```python
+cucumbers = 3
+price_per_cucumber = 3.25
 
+total_cost = cucumbers * price_per_cucumber
+print total_cost
 ```
 
-**설명:** ① `*` 는 곱셈 ② `%`는 나머지를 구하는 모듈(module) 이다. 
+**설명:** ① `*` 을 이용하여 총합을 구합니다. Python은 정수와 실수의 곱을 자동으로 계산해 준다. 입력 된 두 값(`3`,`3.25`)중 하나(`3.25`)가 실수 이기에 Python은 내부적으로 그 계산 결과값은 실수로 계산되어지고, `total_cost`는 실수형 변수가 된다.  
 {: .notice--info}
 
 
@@ -645,13 +697,41 @@ PYTHON SYNTAX
 <br>
 PYTHON SYNTAX
 
-### 10. 
+### 10. Two Types of Division 
+
+In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine:
+
+```python
+quotient = 6/2
+# the value of quotient is now 3, which makes sense
+```
+
+However, if the numbers do not divide evenly, the result of the division is truncated into an integer. In other words, the quotient is rounded down to a whole number. This can be surprising when you expect to receive a decimal and you receive a rounded-down integer:
+
+```python
+quotient = 7/2
+''' the value of quotient is 3, even though the result
+  of the division here is 3.5 '''
+```
+
+To yield a float as the result instead, programmers often change either the numerator or the denominator (or both) to be a float:
+
+```python
+quotient1 = 7./2
+# the value of quotient1 is 3.5
+quotient2 = 7/2.
+# the value of quotient2 is 3.5
+quotient3 = 7./2.
+""" the value of quotient3 is 3.5
+ An alternative way is to use the float() method: """
+
+quotient1 = float(7)/2 
+# the value of quotient1 is 3.5
+```
 
 
 
-
-
-**설명:** 
+**설명:** Python은 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다. 그러나 입력된 값이 정수(`7/3`) 이면 그 계산한 결값이 실수이어도 정수(`3`)만 남고, 나머지는 `0.5`는 버려진다. 이런 실수를 방지하기 위하여 값을 대입할때, 계산한 결과 값이 실수 일 것을 대비하여야 한다. 입력값을 실수형으로 넣어주거나, 임의적으로 입력값을 `float(7)` 실수형 값으로 변경후 입력 후 계산 처리하면 이를 방지할 수 있다. 
 {: .notice--info}
 
 
@@ -661,8 +741,123 @@ PYTHON SYNTAX
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+**①** You have come home from the grocery store with 100 cucumbers to split amongst yourself and your 5 roommates (6 people total).
 
-**설명:** 
+Create a variable cucumbers that holds 100 and num_people that holds 6.
+
+**설명:**  100개의 오이를 룸메이트 6명과 나눠 가질려고 한다. 
+①`cucumbers`변수를 만들고 값 `100`을 대입하고, 변수 `num_people`를 만들고 값 `6`을 대입하라.
+{: .notice--info}
+
+**②** Create a variable called whole_cucumbers_per_person that is the integer result of dividing cucumbers by num_people.
+
+Print whole_cucumbers_per_person to the console.
+
+**설명:** ② 변수 `whole_cucumbers_per_person` 에 `cucumbers` / `num_people` 한 값을 계산한후 그 결과값을 출력하라. 
+{: .notice--info}
+
+
+**③** You realize that the numbers don't divide evenly and you don't want to throw out the remaining cucumbers. Create a variable called float_cucumbers_per_person that holds the float result of dividing cucumbers by num_people.
+
+Print float_cucumbers_per_person to the console.
+
+**설명:** `100/6` 의 계산값은 `16.66...` 으로 예상했지만, ② 결과에서 `16`만 출력 되는것을 볼 것이다. ③ `float_cucumbers_per_person` 변수를 만들고, 이변수에 실수 값이 출력 될수 있도록 만들어라. 그리고 출력하라.  
+{: .notice--info}
+
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+You can do float division by casting either the numerator or denominator as a float:
+
+```python
+quotient_with_decimals = float(5)/2
+#yields 2.5
+```
+
+**설명:** `float()` 함수를 사용하여라. 
+{: .notice--info}
+
+
+<br>
+<hr/>
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+cucumbers = 100
+num_people = 6
+
+whole_cucumbers_per_person = cucumbers/num_people
+print whole_cucumbers_per_person
+
+float_cucumbers_per_person = float(cucumbers)/num_people
+print float_cucumbers_per_person
+```
+
+**설명:** `float_cucumbers_per_person` 변수를 계산할때, `float()`함수를 사용하여 `float(cucumbers)`를 실수로 변경하여 계산한다.  
+{: .notice--info}
+
+**출력**
+```
+16
+16.6666666667
+```
+
+
+<br>
+<br>    
+<br>    
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+<br>
+<br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
+<br>
+PYTHON SYNTAX
+
+### 11. Multi-line Strings 
+
+We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:
+
+```python
+address_string = """136 Whowho Rd
+Apt 7
+Whosville, WZ 44494"""
+```
+
+This address spans multiple lines, and is still contained in one variable, `address_string`.
+
+When a string like this is not assigned to a variable, it works as a multi-line comment. This can be helpful as your code gets more complex:
+
+```python
+""" The following piece of code does the following steps:
+takes in some input
+does An Important Calculation
+returns the modified input and a string that says "Success!" or "Failure..."
+"""
+... a complicated piece of code here...
+```
+
+
+
+
+**설명:** `""" """` or `''' '''` 를 이용하여 여러줄의 문자열을 만들수 있다.
+이는 문자열도 만들수 있지만, 한 줄 주석(`#`)외에 여러줄의 주석을 만들때도 사용한다. 
+{: .notice--info}
+
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+
+**①** Create a variable called `haiku` and store this haiku as a multi-line string: The old pond, A frog jumps in: Plop!
+
+**설명:** ① 변수 `haiku`를 만들고, `The old pond, A frog jumps in: Plop!` 여러줄의 문자열을 대입하라. 
 {: .notice--info}
 
 
@@ -674,9 +869,8 @@ PYTHON SYNTAX
 
 
 
-**설명:** 
+**설명:** `""" """` or `''' '''` 를 사용 하여라. 
 {: .notice--info}
-
 
 <br>
 <hr/>
@@ -685,12 +879,22 @@ PYTHON SYNTAX
 
 
 ```python
+haiku = """The old pond,
+A frog jumps in:
+Plop!"""
 
+print haiku
 ```
 
-**설명:** ① `*` 는 곱셈 ② `%`는 나머지를 구하는 모듈(module) 이다. 
+**설명:** `""" """` 사용하여 여러줄의 문자열을 변수에 대입한다.  
 {: .notice--info}
 
+**결과**
+```
+The old pond,
+A frog jumps in:
+Plop!
+```
 
 <br>
 <br>    
@@ -702,13 +906,19 @@ PYTHON SYNTAX
 <br>
 PYTHON SYNTAX
 
-### 11. 
+### 12. Booleans
+
+Sometimes we have a need for variables that are either true or false. This datatype, which can only ever take one of two values, is called a boolean. In Python, we define booleans using the keywords True and False:
+
+```python
+a = True
+b = False
+```
+
+A boolean is actually a special case of an integer. A value of True corresponds to an integer value of 1, and will behave the same. A value of False corresponds to an integer value of 0.
 
 
-
-
-
-**설명:** 
+**설명:** Python에서 `참`, `거짓`을 표현해야 할 때가 있다. `참`은 문자열로 `True`로 표현하고, `거짓`은 문자열로 `False`로 표현한다. 그리고 `참`의 값은 숫자 `1` 이고,  `거짓`의 값은 숫자  `0` 이다. 
 {: .notice--info}
 
 
@@ -717,9 +927,16 @@ PYTHON SYNTAX
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+**①** Someone has introduced themselves to you using comments in script.py.
 
+Read the comments and then create a variable called `age_is_12` and set it to be `True` or `False` depending on if this person's age is 12.
 
-**설명:** 
+**설명:** ① 변수 `age_is_12`를 만들고, 주석에서 설명하는 사람의 나이가 12살이면 `True`, 그렇지 않으면 `False`를 입력하라. 
+{: .notice--info}
+
+**②** Create a variable called `name_is_maria` and set it to be `True` or `False` depending on if this person's name is Maria.
+
+**설명:** ② 변수 `name_is_maria`를 만들고, 주석에서 설명하는 사람의 이름이 Maria 이면 `True`, 그렇지 않으면 `False`를 입력하라. 
 {: .notice--info}
 
 
@@ -729,9 +946,12 @@ PYTHON SYNTAX
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
+To set a boolean to True, you would use:
 
-
-**설명:** 
+```python
+some_variable = True
+```
+**설명:** 주석 문을 읽고 `True`, `False`를 이용하여 대입하라. 
 {: .notice--info}
 
 <br>
@@ -741,10 +961,15 @@ PYTHON SYNTAX
 
 
 ```python
+# Hi! I'm Maria and I live in script.py.
+# I'm an expert Python coder.
+# I'm 21 years old and I plan to program cool stuff forever.
 
+age_is_12 = False
+name_is_maria = True
 ```
 
-**설명:** ① `*` 는 곱셈 ② `%`는 나머지를 구하는 모듈(module) 이다. 
+**설명:** 주석에서 Python coder 나이는 21살, 이름은 Maria 이다.  
 {: .notice--info}
 
 
@@ -759,13 +984,47 @@ PYTHON SYNTAX
 <br>
 PYTHON SYNTAX
 
-### 12. 
+### 13. ValueError
 
+Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value `7` is an **integer**, `7.` is a **float**, "7" is a **string**. Sometimes we will want to convert variables to different datatypes. For example, if we wanted to print out an **integer** as part of a **string**, we would want to convert that **integer to a string** first. We can do that using `str()`:
 
+```python
+age = 13
+print "I am " + str(age) + " years old!"
+```
+**설명:** 변수 `age`가 정수 `13`이 대입되어 정수형 변수이다. 이를 `str()` 함수를 사용하여 `str(age)`로 바꾸면 이는 **string** 형으로 바뀌게 된다. *주의)* 정수형 `age`를 출력 할때 **string** 형태로 출력하는 것이지, `age`가 **string**형이 되는것은 아니다.  
+{: .notice--info}
 
+This would print:
+``` python
+>>> "I am 13 years old!"
+```
+Similarly, if we have a string like "7" and we want to perform arithmetic operations on it, we must convert it to a numeric datatype. We can do this using `int()`:
 
+```python
+number1 = "100"
+number2 = "10"
 
-**설명:** 
+string_addition = number1 + number2 
+#string_addition now has a value of "10010"
+
+int_addition = int(number1) + int(number2)
+#int_addition has a value of 110
+```
+**설명:** 변수 `number1, number2`는 문자형 변수이다. Python 에서는 문자형 데이타 이지만, 데이타가 숫자 이면 계산을 할수가 있다. 단, 계산할때, `int()`함수를 사용하여 정수형으로 바꾸어 주어야 한다. *주의)* 문자형 `number1, number2`를 계산 목적으로  **integer** 로 바꾸어 주는 것이지, `number1, number2`가 **integer**형이 되는것은 아니다.  
+{: .notice--info}
+
+If you use `int()` on a floating point number, it will round the number down. To preserve the decimal, you can use `float()`:
+
+```python
+string_num = "7.5"
+print int(string_num)
+print float(string_num)
+>>> 7
+>>> 7.5
+```
+
+**설명:** `int()` 함수를 사용하면 정수형 이 되고, `float()`를 사용하면 실수형 모양이 된다.  
 {: .notice--info}
 
 
@@ -775,77 +1034,30 @@ PYTHON SYNTAX
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+**①** Create a variable called `product` that contains the result of multiplying the float value of `float_1` and `float_2`.
 
-**설명:** 
+**설명:** ① 변수 `product`를 만들고 거기에 `float_1`, `float_2` 곱한 값을 대입하라.  
 {: .notice--info}
 
+**②**Create a string called `big_string` that says:
 
+The product was X
+with the value of product where the X is.
 <br>
 <hr/>
+
+**설명:** ② 변수 `big_string`를 만들고 거기에 "with the value of product where the `X` is." `X` 자리에는 `product` 값이 출력 되게 하라.    
+{: .notice--info}
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
+You can combine strings by casting the numerical value to a string and using the + operator:
 
 ```python
-
+"I have " + str(18) + " dogs at home!"
 ```
 
-**설명:** ① `*` 는 곱셈 ② `%`는 나머지를 구하는 모듈(module) 이다. 
-{: .notice--info}
-
-
-
-<br>
-<br>    
-<br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
-<br>
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<br>
-PYTHON SYNTAX
-
-### 13. 
-
-
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
+**설명:** `product`를 문자 데이타형으로 변환하라. 
 {: .notice--info}
 
 
@@ -856,10 +1068,14 @@ PYTHON SYNTAX
 
 
 ```python
+float_1 = 0.25
+float_2 = 40.0
 
+product = float_1 * float_2
+big_string = "The product was " + str(product)
 ```
 
-**설명:** ① `*` 는 곱셈 ② `%`는 나머지를 구하는 모듈(module) 이다. 
+**설명:** **float** 데이타형인 `product`를 **string** 형으로 변환해주고 대입한다. 
 {: .notice--info}
 
 
@@ -873,13 +1089,26 @@ PYTHON SYNTAX
 <br>
 PYTHON SYNTAX
 
-### 14. 
+### 14. Review
 
+Great! So far we’ve looked at:
 
+* Print statements
+* How to create, modify, and use variables
+* Arithmetic operations like addition, subtraction, division, and multiplication
+* How to use comments to make your code easy to understand
+* Different data types, including strings, ints, floats, and booleans
+* Converting between data types
 
 
 
 **설명:** 
+* 
+* 
+* 
+* 
+* 
+* 
 {: .notice--info}
 
 
