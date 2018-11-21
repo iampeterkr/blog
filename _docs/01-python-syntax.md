@@ -1102,13 +1102,7 @@ Great! So far we’ve looked at:
 
 
 
-**설명:** 
-* 
-* 
-* 
-* 
-* 
-* 
+**설명:** 지금까지 1장 Python Syntax에서는 `print`문 **사용법**, **변수 생성**, **사칙연산**, **주석처리**, **데이터 종류(integer, float, string, boolean)환**, **테이타 형변환** 을 공부하였다.  
 {: .notice--info}
 
 
@@ -1118,10 +1112,52 @@ Great! So far we’ve looked at:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+**①** Let's apply all of the concepts you have learned one more time!
 
-**설명:** 
+Create a variable called `skill_completed` and set it equal to the string "Python Syntax".
+
+**설명:** ① 변수 `skill_completed` 에 "Python Syntax"를 대입 하시오. 
 {: .notice--info}
 
+**②** Create a variable called `exercises_completed` and set it equal to `13`. Create another variable called `points_per_exercise` and set it equal to `5`.
+
+**설명:** 
+② 변수 `exercises_completed` 에 `13`을 대입하고, 변수 `points_per_exercise` 에 값 `5`를 대입 하시오.  
+{: .notice--info}
+
+**③** Create a variable called `point_total` and set it equal to `100`.
+
+**설명:**  
+③ 변수 `point_total` 에 값 `100`을 대입 하시오.
+{: .notice--info}
+
+
+**④** Update `point_total` to be what it was before plus the result of multiplying `exercises_completed` and `points_per_exercise`.
+
+**설명:**  
+④ 변수 `point_total` 에 변수 `exercises_completed` * `points_per_exercise` 곱한 결과값을 더하라. 
+{: .notice--info}
+
+**⑤** Add a comment above your declaration of points_per_exercise that says:
+```
+The amount of points for each exercise may change, because points don't exist yet
+```
+**설명:**  
+⑤ The amount 부터 yet 까지의 문자열을 주석 처리 하라.   
+{: .notice--info}
+
+
+**⑥** Print a string to the console that says:
+
+```
+I got X points!
+```
+
+with the value of `point_total` where `X` is.
+
+**설명:**  
+⑥ The amount 부터 yet 까지의 문자열을 주석 처리 하라.   
+{: .notice--info}
 
 <br>
 <hr/>
@@ -1129,9 +1165,30 @@ Great! So far we’ve looked at:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
+④ You can add to a variable by using +=:
+
+```python
+total += number_to_add
+```
+
+which is shorthand for:
+
+```python
+[new value of] total = [old value of] total + number_to_add
+```
+
+**설명:** ④ `+=` 기법을 사용하라. 
+{: .notice--info}
 
 
-**설명:** 
+⑥ You can cast a numerical variable to a string and then add it to another string:
+
+```python
+print("This is " + str(1) + " long string!")
+>>> "This is 1 long string!"
+```
+
+**설명:** ⑥ `str()` 사용하여, 숫자를 문자열로 바꾸어 출력한다. 
 {: .notice--info}
 
 <br>
@@ -1141,8 +1198,20 @@ Great! So far we’ve looked at:
 
 
 ```python
+skill_completed = "Python Syntax"
+exercises_completed = 13
+#The amount of points for each exercise may change, because points don't exist yet
+points_per_exercise = 5
+point_total = 100
+point_total += exercises_completed * points_per_exercise
 
+print("I got "+str(point_total)+" points!")
 ```
 
-**설명:** ① `*` 는 곱셈 ② `%`는 나머지를 구하는 모듈(module) 이다. 
+**설명:** 문자열, integer, 주석, `+=` 연산, 사칙연산, 문자형 변환을 참조 하세요. 
 {: .notice--info}
+
+**결과**
+```
+I got 165 points!
+```
