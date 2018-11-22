@@ -48,6 +48,20 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 **결과**
 
 <br>
@@ -89,6 +103,20 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
 
 **결과**
 
@@ -132,6 +160,21 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
+
 **결과**
 
 <br>
@@ -173,6 +216,21 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 
 **결과**
 
@@ -216,6 +274,21 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
+
 **결과**
 
 <br>
@@ -257,6 +330,21 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 
 **결과**
 
@@ -300,6 +388,21 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
+
 **결과**
 
 <br>
@@ -341,6 +444,21 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 
 **결과**
 
@@ -384,6 +502,21 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
+
 **결과**
 
 <br>
@@ -425,6 +558,21 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 
 **결과**
 
@@ -468,6 +616,21 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
+
 **결과**
 
 <br>
@@ -510,6 +673,21 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
+
 **결과**
 
 <br>
@@ -551,6 +729,16 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
 
 **결과**
 
@@ -597,6 +785,24 @@ toc: true
 **결과**
 
 <br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
+**결과**
+
+
+
+<br>
 <br>    
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
@@ -635,6 +841,20 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
 
 **결과**
 
@@ -678,6 +898,20 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 **결과**
 
 <br>
@@ -719,6 +953,20 @@ toc: true
 
 **설명:** 
 {: .notice--info}
+
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
 
 **결과**
 
@@ -762,6 +1010,20 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 **결과**
 
 <br>
@@ -804,7 +1066,22 @@ toc: true
 **설명:** 
 {: .notice--info}
 
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+```
+
+**설명:** 
+{: .notice--info}
+
+
 **결과**
+
 
 <br>
 <br>    
