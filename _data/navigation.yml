@@ -79,6 +79,8 @@ docs:
         url: /python-syntax/
       - title: " 02. String & Console Output"
         url: /string-console-output/
+      - title: " ⤷ ° Date and Time"
+        url: /date-and-time/
       - title: " 03. Conditionals and Control Flow"
         url: /conditionals-control-flow/
       - title: " 04. Functions "

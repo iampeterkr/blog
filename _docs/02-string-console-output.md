@@ -1109,12 +1109,12 @@ Think about `%` and `%()`
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+```python
 string_1 = "Camelot"
 string_2 = "place"
 
 print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
-
-```python
 ```
 
 **설명:** 1번째 `%s`에는 변수 `string_1`값이 , 2번째 `%s`에는 변수 `string_2`의 값이 출력된다.  
@@ -1158,10 +1158,14 @@ print "The %s who %s %s!" % ("Knights", "say", "Ni")
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**** Now it's your turn! We have ___ in the code to show you what you need to change!
-**①** Inside the string, replace the three ___ with %s.
-**②** After the string but before the three variables, replace the final ___ with a %.
-**③** Hit Run.
+ Now it's your turn! We have ___ in the code to show you what you need to change!    
+
+**①** Inside the string, replace the three ___ with %s.    
+
+**②** After the string but before the three variables, replace the final ___ with a %.    
+
+**③** Hit Run.    
+
 **④** Answer the questions in the console as they pop up! Type in your answer and hit Enter.
 
 
