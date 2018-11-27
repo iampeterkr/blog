@@ -320,7 +320,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+#  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
