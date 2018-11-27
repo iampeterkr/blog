@@ -1,9 +1,9 @@
 ---
 # layout : rchive
-title: "String & Console Output"
-permalink: /--/
-excerpt: "We learn about String, Console, and Output Syntax."
-last_modified_at: 2018-11-21T09:00:00-04:00
+title: "Conditionals and Control Flow"
+permalink: /conditionals-control-flow/
+excerpt: "We learn about Conditionals, Control Flow Syntax."
+last_modified_at: 2018-11-27T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
