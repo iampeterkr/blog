@@ -1,9 +1,9 @@
 ---
 # layout : rchive
-title: "String & Console Output"
-permalink: /--/
-excerpt: "We learn about String, Console, and Output Syntax."
-last_modified_at: 2018-11-21T09:00:00-04:00
+title: "Lists & Dictionaries"
+permalink: /lists-dictionaries/
+excerpt: "We learn about Lists and Dictonaries Syntax."
+last_modified_at: 2018-12-04T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -16,7 +16,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 1. Strings 
+### 1.  
 
 
 

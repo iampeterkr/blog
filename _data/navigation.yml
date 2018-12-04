@@ -83,10 +83,12 @@ docs:
         url: /date-and-time/
       - title: " 03. Conditionals and Control Flow"
         url: /conditionals-control-flow/
+      - title: " ⤷ ° PygLatin"
+        url: /pyglatin/
       - title: " 04. Functions "
         url: /functions/
       - title: " 05. Lists & Dictionaries"
-        url: /list-dictionaries/
+        url: /lists-dictionaries/
       - title: " 06. Student Becomes the Teacher"
         url: /student-becomes-teacher/
       - title: " 07. Lists and Functions"
