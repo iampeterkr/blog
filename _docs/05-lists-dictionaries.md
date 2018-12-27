@@ -55,7 +55,9 @@ Lists are very similar to strings, but there are a few key differences
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)Remember:
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)
+
+Remember:
 
 ```python
 list_name = ["item_0", "item_1", "item_2", "your_item"]
@@ -63,7 +65,7 @@ list_name = ["item_0", "item_1", "item_2", "your_item"]
 If your favorite animals are already on the list, add an animal that's exciting, but inexpensive. (This is a poor zoo with very few animals.)    
 
 **설명:**    
-본이이 좋아하는 동물이 이미 리스트에 있다면, 리스트에 없는 동물을 추가해 보라. 
+자신이 좋아하는 동물이 이미 리스트에 있다면, 리스트에 없는 동물을 추가해 보라. 
 {: .notice--info}
 
 <br>
@@ -144,7 +146,9 @@ print "Adding the numbers at indices 1 and 3..."
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)Remember:
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)
+
+Remember:
 
 1 List indices begin with 0, not 1.
 2 The second item will have an index of 1.
@@ -238,7 +242,9 @@ zoo_animals[2] = "hyena"
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)Remember:
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)
+
+Remember:
 
 1. List indices begin with 0, not 1!
 2. The fourth item will have an index of 3.    
@@ -284,11 +290,26 @@ Skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 4.
+### 4. Late Arrivals & List Length
+A list doesn't have to have a fixed length. You can add items to the end of a list any time you like!
+
+```python
+letters = ['a', 'b', 'c']
+letters.append('d')
+print len(letters)
+print letters
+```
+1. In the above example, we first create a list called `letters`.
+2. Then, we **add** the string `'d'` to the end of the letters list.
+3. Next, we print out **4**, the length of the letters list.
+4. Finally, we print out `['a', 'b', 'c', 'd']`.
 
 
-
-**설명:** 
+**설명:**    
+① 리스트 `letters` 만들고, 그 값으로 `a`,`b`,`c` 값을 넣는다.
+② 값 `d`를 append 내장 함수 `append`를 사용하여 추가한다. 
+③ 리스트 `letters`의 길이를 내장 함수 `len`을 사용하여 출력한다.  
+④ 리스트 `letters`의 전체 값을 출력한다. 
 {: .notice--info}
 
 
@@ -298,10 +319,12 @@ Skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** On lines 5, 6, and 7, append three more items to the `suitcase` list, just like the second line of the example above. (Maybe bring a bathing suit?)
+
+Then, set `list_length` equal to the length of the suitcase list.
 
 
-**설명:** ① 
+**설명:** ① 5,6,7 라인에 리스트 `suitcase`에 3개의 아이템 값을 추가하고(`append`활용 ), 변수 `list_length`에 리스트 `suitcase`의 길이(`len`활용)를 저장하라. 
 {: .notice--info}
 
 
@@ -309,11 +332,11 @@ Skip
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)That bit of `%` magic on line 11 is the string formatting we learned earlier. The `%d` tells Python to expect an integer to insert instead of a string value (%s).    
 
 
 
-**설명:** 
+**설명:** `%`는 앞에서 배운 변수의 갑을 대체하는 기호이며, `%d` 는 숫자를 출력하기 위한 형태이다. 스트링을 출력하기 위해선 `%s`를 활용한다.   
 {: .notice--info}
 
 <br>
@@ -324,14 +347,30 @@ Skip
 
 
 ```python
+suitcase = [] 
+suitcase.append("sunglasses")
+
+# Your code here!
+suitcase.append("shirt")
+suitcase.append("pants")
+suitcase.append("shoes")
+
+list_length = len(suitcase) # Set this to the length of suitcase
+
+print "There are %d items in the suitcase." % (list_length)
+print suitcase
 ```
 
-**설명:** 
+**설명:** `.append`내장 함수를 활용하여, 각 `shirt`, `pants`, `shoes`를 추가하고, 리스트 `suitcase`의 길이를 `len(suitcase)`를 활용하여 구하여 변수 `list_length`에 저장한다. 마지막으로 해당 변수값을 출력한다.  
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+There are 4 items in the suitcase.
+['sunglasses', 'shirt', 'pants', 'shoes']
+```
 
 <br>
 <br>    
