@@ -90,7 +90,7 @@ With tip: 124.200000
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -194,7 +194,7 @@ Eggs!
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -264,7 +264,7 @@ square(10)
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -350,7 +350,7 @@ power(37, 4)  # Add your arguments here!
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -426,7 +426,7 @@ def deserves_another(n):
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -533,7 +533,7 @@ def by_three(number):
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -606,7 +606,7 @@ NameError: name 'sqrt' is not defined
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -675,7 +675,7 @@ print math.sqrt(25)
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -748,7 +748,7 @@ from math import sqrt
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -819,7 +819,7 @@ from math import *
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -892,7 +892,7 @@ print everything # Prints 'em all!
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -972,7 +972,7 @@ distance_from_zero(-10)
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1034,7 +1034,7 @@ print maximum
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1102,7 +1102,7 @@ print minimum
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1164,7 +1164,7 @@ print absolute
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1245,7 +1245,7 @@ print type('hello')
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1336,7 +1336,7 @@ def shut_down(s):
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1401,7 +1401,7 @@ print math.sqrt(13689)
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1487,5 +1487,5 @@ def distance_from_zero(num):
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>

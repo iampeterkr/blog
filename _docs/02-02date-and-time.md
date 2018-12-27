@@ -72,7 +72,7 @@ Here we'll use datetime to print the date and time in a nice format.
 <br>    
 
 
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -155,7 +155,10 @@ print now
 <br>    
 
 
-<hr style="border: solid 1px #dddddd ;">
+# ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+<br>
+<br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -244,7 +247,7 @@ print now.day
 <br>    
 
 
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -329,7 +332,7 @@ print '%02d/%02d/%04d' % (now.month, now.day, now.year)
 
 
 
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -420,7 +423,7 @@ print '%02d:%02d:%02d' % (now.hour, now.minute, now.second)
 
 
 
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 

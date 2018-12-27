@@ -80,7 +80,7 @@ Pig Latin is a language game, where you move the first letter of the word to the
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -140,7 +140,7 @@ Pig Latin
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -227,7 +227,7 @@ original = raw_input("Enter a word:")
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -320,7 +320,7 @@ empty
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -411,7 +411,7 @@ Hellow
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -490,7 +490,7 @@ abcd
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -555,7 +555,7 @@ pyg = 'ay'
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -662,7 +662,7 @@ Enter a word:ABCD
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -746,7 +746,7 @@ Enter a word:ABCD
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
@@ -849,7 +849,7 @@ Enter a word:ABCD
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 

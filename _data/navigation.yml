@@ -63,11 +63,11 @@ docs:
         url: /learn/
       - title: " • Instructions"
         url: /instructions/
-      - title: " ⤷ ° Stuck? Get a hint"
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint"
         url: /stuck-get-a-hint/
-      - title: " ⤷ ° Run and Error"
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error"
         url: /run-error/
-      - title: " ⤷ ° Solution?"
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Solution?"
         url: /solution/
       - title: " • Community Forums"
         url: /community-forums/
@@ -79,14 +79,16 @@ docs:
         url: /python-syntax/
       - title: " 02. String & Console Output"
         url: /string-console-output/
-      - title: " ⤷ ° Date and Time"
+      - title: " ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time"
         url: /date-and-time/
       - title: " 03. Conditionals and Control Flow"
         url: /conditionals-control-flow/
-      - title: " ⤷ ° PygLatin"
+      - title: "⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin"
         url: /pyglatin/
       - title: " 04. Functions "
         url: /functions/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation"
+        url: /taking-vacation/
       - title: " 05. Lists & Dictionaries"
         url: /lists-dictionaries/
       - title: " 06. Student Becomes the Teacher"

@@ -71,9 +71,11 @@ print "Your Message!"
 
 <br>
 <br>    
-<br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+<br>   
+
+----------------------
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -128,8 +130,8 @@ print("Your message!")
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
+<br>![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 3. String
 
@@ -186,6 +188,7 @@ print "Hello " + "Nicole"
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -257,6 +260,9 @@ print "This is also a good print statement"
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
 <br>
+<br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 5. Variables
@@ -308,6 +314,7 @@ todays_date = "March 31, 2023"
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -403,6 +410,7 @@ remainder = 1398 % 11
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -514,6 +522,7 @@ print annual_rainfall
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -578,6 +587,7 @@ city_pop = 340000
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -674,6 +684,7 @@ print total_cost
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -793,6 +804,7 @@ print float_cucumbers_per_person
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -879,6 +891,7 @@ Plop!
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -955,6 +968,7 @@ name_is_maria = True
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1058,6 +1072,7 @@ big_string = "The product was " + str(product)
 <br>    
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
 <br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 

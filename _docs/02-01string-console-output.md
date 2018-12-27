@@ -102,7 +102,7 @@ brian = "Hello life!"
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -175,7 +175,7 @@ Teresa
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -269,7 +269,7 @@ This isn't flying, this is falling with style!
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -383,7 +383,7 @@ Y
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -464,7 +464,7 @@ print len(parrot)
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)     
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -538,7 +538,7 @@ norwegian blue
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -604,7 +604,7 @@ NORWEGIAN BLUE
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -682,7 +682,7 @@ print str(pi)
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -756,7 +756,7 @@ THE MINISTRY OF SILLY WALKS
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -829,7 +829,7 @@ Monty Python
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)     
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -900,7 +900,7 @@ Ping!
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -973,7 +973,7 @@ Spam and eggs
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1049,7 +1049,7 @@ The value of pi is around 3.14
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1128,7 +1128,7 @@ Let's not go to Camelot. 'Tis a silly place.
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1220,7 +1220,7 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 <br>
 <br>    
 <br>    
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *     
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

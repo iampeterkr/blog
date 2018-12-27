@@ -10,9 +10,7 @@ toc: true
 ---
     
     
-    
-<hr style="border: solid 1px #dddddd ;">
-
+ <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -67,7 +65,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -122,7 +120,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -178,7 +176,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -234,7 +232,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -290,7 +288,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -346,7 +344,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -402,7 +400,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -458,7 +456,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -514,7 +512,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -570,7 +568,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -626,7 +624,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -682,7 +680,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -733,7 +731,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -792,7 +790,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -847,7 +845,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -902,7 +900,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -957,7 +955,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1012,7 +1010,7 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -1068,5 +1066,5 @@ toc: true
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>

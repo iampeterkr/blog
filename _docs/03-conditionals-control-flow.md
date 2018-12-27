@@ -92,7 +92,7 @@ Type left or right and hit 'Enter'.
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -228,7 +228,7 @@ True == True
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -316,7 +316,7 @@ bool_five = False
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -405,7 +405,7 @@ bool_five = "tomato" == "tomato"
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -473,7 +473,7 @@ Click next to continue.
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -570,7 +570,7 @@ bool_five = True and True
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -664,7 +664,7 @@ bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -762,7 +762,7 @@ bool_five = not not False
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -865,7 +865,7 @@ bool_five = False or not (True and True)
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -948,7 +948,7 @@ bool_five = True or True
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -1032,7 +1032,7 @@ This is the Verbal Abuse Room, you heap of parrot droppings!
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -1125,7 +1125,7 @@ Success #2
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -1207,7 +1207,7 @@ def french_soldier():
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
@@ -1309,7 +1309,7 @@ print greater_less_equal_5(6)
 <br>
 <br>    
 <br>    
-<hr style="border: solid 1px #dddddd ;">
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
