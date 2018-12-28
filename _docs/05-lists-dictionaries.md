@@ -16,7 +16,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 1.Introduction to Lists
+### 1. Introduction to Lists    
 
 **Lists** are a **datatype** you can use to store a collection of different pieces of information as a sequence under a single variable name. (Datatypes you've already learned about include strings, numbers, and booleans.)
 
@@ -106,7 +106,8 @@ The fourth animal at the zoo is the dog
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 2. Access by Index
+### 2. Access by Index    
+
 You can access an individual item on the list by its index. An index is like an address that identifies the item's place in the list. The index appears directly after the list name, in between brackets, like this: ```python
 list_name[index]
 ```
@@ -196,6 +197,7 @@ Adding the numbers at indices 1 and 3...
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
 ### 3. New Neighbors   
+
 A list index behaves like any other variable name! It can be used to access as well as assign values.
 ```python
 zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
@@ -290,7 +292,8 @@ Skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 4. Late Arrivals & List Length
+### 4. Late Arrivals & List Length    
+
 A list doesn't have to have a fixed length. You can add items to the end of a list any time you like!
 
 ```python
@@ -381,7 +384,8 @@ There are 4 items in the suitcase.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 5. List Slicing
+### 5. List Slicing    
+
 Sometimes, you only want to access a portion of a list. Consider the following code:
 ```python
 letters = ['a', 'b', 'c', 'd', 'e']
@@ -479,7 +483,8 @@ Skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 6. Slicing Lists and Strings
+### 6. Slicing Lists and Strings    
+
 You can **slice** a string exactly like a list! In fact, you can think of strings as lists of characters: each character is a sequential item in the list, starting from index **0**.
 ```python
 my_list[:2]
@@ -567,7 +572,8 @@ Skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 7. Maintaining Order
+### 7. Maintaining Order    
+
 Sometimes you need to search for an item in a list.
 ```python
 animals = ["ant", "bat", "cat"]
@@ -660,7 +666,8 @@ print animals # Observe what prints after the insert operation
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 8. For One and All
+### 8. For One and All    
+
 If you want to do something with **every item** in the list, you can use a for **loop**. If you've learned about for **loops** in JavaScript, pay close attention! They're different in Python.
 ```python
 for variable in list_name:
@@ -747,7 +754,8 @@ for number in my_list:
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 9. More with 'for'
+### 9. More with 'for'    
+
 If your list is a jumbled mess, you may need to `sort()` it.
 
 ```python
@@ -850,7 +858,8 @@ print square_list
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 10. This Next Part is Key
+### 10. This Next Part is Key    
+
 A **dictionary** is similar to a **list**, but you access values by looking up a **key** instead of an **index**. A key can be **any string or number**. Dictionaries are **enclosed** in curly braces, like so:
 ```python
 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
@@ -942,7 +951,8 @@ print residents['Burmese Python']
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 11. New Entries
+### 11. New Entries    
+
 Like Lists, Dictionaries are **mutable**. This means they can be changed after they are created. One advantage of this is that we can add new **key/value** pairs to the dictionary after it is created like so:
 ```python
 dict_name[new_key] = new_value
@@ -1032,7 +1042,8 @@ There are 4 items on the menu.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 12. Changing Your Mind
+### 12. Changing Your Mind    
+
 Because dictionaries are mutable, they can be changed in many ways. Items can be removed from a dictionary with the `del` command:
 ```python
 del dict_name[key_name]
@@ -1129,7 +1140,8 @@ print zoo_animals
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 13. Remove a Few Things
+### 13. Remove a Few Things    
+
 Sometimes you need to remove something from a list.
 
 ```python
@@ -1205,7 +1217,8 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
-### 14. It's Dangerous to Go Alone! Take This
+### 14. It's Dangerous to Go Alone! Take This    
+
 Let's go over a few last notes about dictionaries
 ```python
 my_dict = {
