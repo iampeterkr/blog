@@ -576,11 +576,14 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 7. 
+### 7. Investing in Stock   
+
+Good work! As a store manager, you’re also in charge of keeping track of your stock/inventory.
 
 
 
-**설명:** 
+**설명:**     
+딕셔너리를 이용하여 재고를 정리하는 프로그램을 작성해 볼것이다. 
 {: .notice--info}
 
 
@@ -590,10 +593,17 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Create a stock dictionary with the values below.
 
+```python
+"banana": 6,
+"apple": 0,
+"orange": 32,
+"pear": 15
+```
 
-**설명:** ① 
+**설명:**     
+① 딕셔너리 `stock` 을 다음 내용을 포함해서 재고 `stock` 딕서너리를 만들어라.  
 {: .notice--info}
 
 
@@ -602,10 +612,11 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Remember to use curly braces to make a dictionary. Don't forget to separate each key/value pair with a comma!
 
 
-
-**설명:** 
+**설명:**     
+딕셔너리를 만들때 `{}`와, 각 key/value 사이에 `,`로 구분하는것을 잊지 말자. 
 {: .notice--info}
 
 <br>
@@ -616,14 +627,21 @@ skip
 
 
 ```python
+prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
+
+stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
 ```
 
-**설명:** 
+**설명:**     
+재고 정보를 가지고 있는 `stock` 딕셔너리를 만들어 본 것이다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+skip
+```
 
 <br>
 <br>    
@@ -632,11 +650,24 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 8. 
+### 8. Keeping Track of the Produce    
+
+Now that you have all of your product info, you should print out all of your inventory information.
+```python
+once  = {'a': 1, 'b': 2}
+twice = {'a': 2, 'b': 4}
+for key in once:
+  print "Once: %s" % once[key]
+  print "Twice: %s" % twice[key]
+```  
+In the above example, we create two dictionaries, once and twice, that have the same keys.
+Because we know that they have the same keys, we can loop through one dictionary and print values from both once and twice.
 
 
 
-**설명:** 
+
+**설명:**     
+2개의 딕셔너리를 사용하는 key 이름이 동일 하여도, 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.  
 {: .notice--info}
 
 
@@ -646,10 +677,31 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Loop through each key in prices.
+
+Like the example above, for each key, print out the key along with its price and stock information.
+
+Print the answer in EXACTLY the following format:
+```
+apple
+price: 2
+stock: 0
+```
+Like the example above, because you know that the prices and stock dictionary have the same keys, you can access the stock dictionary while you are looping through prices.
+
+When you're printing, you can use the syntax from the example above.
 
 
-**설명:** ① 
+
+
+**설명:**     
+① 다음 포맷으로 출력 되도록 하라. 
+```
+apple
+price:2 
+stock: 0
+```
+② 위와 같이 출력할려면, 우선 딕셔너리 `price`, `stock`의 key 값이 동일해야 한다.     
 {: .notice--info}
 
 
@@ -658,10 +710,11 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Reference above example !!
 
 
-
-**설명:** 
+**설명:**     
+상단의 Learn 예제를 참조하라. 
 {: .notice--info}
 
 <br>
@@ -672,14 +725,37 @@ skip
 
 
 ```python
+prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
+
+stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
+
+for food in prices:
+  print food
+  print "price: %s" % prices[food]
+  print "stock: %s" % stock[food]
 ```
 
-**설명:** 
+**설명:**     
+`prices`에서 key를 기준으로 추출하고, for 문을 돌면서 `prices`, `stock`에서 해당 key에 매칭되는 values 값을 출력한다.  
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+orange
+price: 1.5
+stock: 32
+pear
+price: 3
+stock: 15
+banana
+price: 4
+stock: 6
+apple
+price: 2
+stock: 0
+```
 
 <br>
 <br>    
