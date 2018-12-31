@@ -764,11 +764,14 @@ stock: 0
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 9. 
+### 9. Something of Value   
+
+For paperwork and accounting purposes, let's record the total value of your inventory. It's nice to know what we're worth! 
 
 
 
-**설명:** 
+**설명:**     
+이번 장에서는 모든 물품의 제고와 가격을 정리해 보는 일을 하자.  
 {: .notice--info}
 
 
@@ -778,10 +781,21 @@ stock: 0
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Let's determine how much money you would make if you sold all of your food.
+
+• Create a variable called `total` and set it to zero.
+• Loop through the `prices` dictionary.
+• For each key in `prices`, **multiply** the number in prices by the number in stock. Print that value into the console and then **add** it to `total`.
+• Finally, outside your loop, **print** `total`.
 
 
-**설명:** ① 
+
+**설명:**     
+**①** 가지고 있는 모든 물건을 팔았을 경우 전체 금액이 얼마인지를 계산해 보자.    
+• 변수 `total`을 만들고, 0으로 초기화 한다.    
+• 딕셔너리 `prices`를 for 문으로 돌리는 문을 만들자.    
+• `prices`와 `stock`의 각 key 별 값을 곱하여 항목별 전체 금액을 계산한다. 
+• for 문을 빠져나와 최종 `total`값을 출력한다.   
 {: .notice--info}
 
 
@@ -790,10 +804,14 @@ stock: 0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+The value of any given product is its number of items in stock multiplied by its price. For instance, the total cost for bananas would be 24 (a price of 4 multiplied by 6 bananas in stock).
+
+You should print the number all by itself—no need for any additional text!
 
 
 
-**설명:** 
+**설명:**     
+각 항목별 제고 갯수와 가격을 곱한 금액을 `total`변수에 추가로 더한다. 예를 들면, 바나나의 전체 가격은 개별 가격 4 x 제고 6 = 24 이다.  
 {: .notice--info}
 
 <br>
@@ -804,14 +822,35 @@ stock: 0
 
 
 ```python
+prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
+
+stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
+
+total = 0
+for food in prices:
+  print prices[food] * stock[food]
+  total = total + prices[food] * stock[food]
+print total
 ```
 
-**설명:** 
+**설명:**     
+• 변수 `total`을 초기화 한다.     
+• 딕셔너리 `prices`를 for 문으로 돌면서 `prices`와 `stock`의 값을 추출하여 곱하여 항목별 전체 가격을 구한다. 제품별 전체 가격을 출력한다.      
+• `total`변수에 `prices`와 `stock`의 곱으로 구한 값을 더한다. 
+• 최종 전체 제품의 가격을 더한 `total`을 출력한다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+48.0
+45
+24
+0
+117.0
+
+```
 
 <br>
 <br>    
@@ -820,11 +859,17 @@ stock: 0
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 10. 
+### 10. Shopping at the Market    
+
+Great work! Now we're going to take a step back from the management side and take a look through the eyes of the shopper.
+
+In order for customers to order online, we are going to have to make a consumer interface. Don't worry: it's easier than it sounds!
 
 
 
-**설명:** 
+
+**설명:**     
+판매자의 입장이 아닌 구매자의 입장으로 만들어 볼 예정이다. 차례로 진행할 예정이니, 걱정하지 마라. 천천히 따라하면 된다.  
 {: .notice--info}
 
 
@@ -834,10 +879,11 @@ stock: 0
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** First, make a list called `groceries` with the values "banana","orange", and "apple".
 
 
-**설명:** ① 
+**설명:**     
+**①** 리스트 `groceries`를 만들어라. 그리고 그안에 "banana", "orange", apple"항목을 넣어라.  
 {: .notice--info}
 
 
@@ -846,10 +892,11 @@ stock: 0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Remember to use square brackets for a list: `[]`.
 
 
-
-**설명:** 
+**설명:**     
+리스트 임을 잊지 말자. `[]` 
 {: .notice--info}
 
 <br>
@@ -860,14 +907,19 @@ stock: 0
 
 
 ```python
+groceries = ["banana", "orange", "apple"]
 ```
 
-**설명:** 
+**설명:**     
+리스트(`[]`)를 만들어서, 항목을 넣는다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+skip
+```
 
 <br>
 <br>    
@@ -876,11 +928,31 @@ stock: 0
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 11. 
+### 11. Making a Purchase    
+
+Good! Now you're going to need to know **how much** you’re **paying** for all of the items on your grocery list.
+```python
+def sum(numbers):
+  total = 0
+  for number in numbers:
+    total += number
+  return total
+
+n = [1, 2, 5, 10, 13]
+print sum(n)
+```
+In the above example, we first define a function called `sum` with a parameter `numbers`.
+We initialize the variable `total` which we will use as our running `sum`.
+For each `number` in the list, we add that `number` to the running sum `total`.
+At the end of the function, we return the running `sum`.
+After the function, we create, `n`, a list of numbers.
+Finally, we call the `sum(numbers)` function with the variable `n` and print the result.
 
 
 
-**설명:** 
+**설명:**     
+• 함수 `sum()`은 리스트를 입력받아, 리스트의 각 값을 더하여 최종 반환한다.
+• 맨 하단 `print sum(n)`은 리스트 `n=[1,2,5,10,13]`을 입력하여, 리스트의 전체 합을 출력한다.  
 {: .notice--info}
 
 
@@ -890,10 +962,25 @@ stock: 0
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function `compute_bill` that takes one argument food as input.
+
+• In the function, create a variable total with an initial value of zero.
+
+• For each item in the food list, add the price of that item to total.
+
+• Finally, return the total.
+
+Ignore whether or not the item you're billing for is in stock.Note that your function should work for any food list.
 
 
-**설명:** ① 
+
+
+**설명:**     
+**①** 함수 `compute_bill()`을 정의하여라. 이 함수는 argument 로 `food`를 입력 받는다.    
+• 함수 기능으로는, 변수 `total`을 만들고 0으로 초기화 하라.     
+• 입력받은 `food`리스트의 값을 하나씩 뽑아내어, `total`변수에 그 가격을 저장하라.    
+• 최종 `total`값을 반환하라.     
+청구 대상 품목의 재고가 있는지 여부를 신경쓰지 마라. (즉, 리스트에 있는것은 재고 목록에 있다는 전제하에 작성하라.)
 {: .notice--info}
 
 
@@ -902,10 +989,11 @@ stock: 0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Only add the prices of the items !!
 
 
-
-**설명:** 
+**설명:**     
+항목별 가격만 더하는 것이다. 
 {: .notice--info}
 
 <br>
@@ -916,14 +1004,41 @@ stock: 0
 
 
 ```python
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+  "banana": 6,
+  "apple": 0,
+  "orange": 32,
+  "pear": 15
+}
+    
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+  total = 0
+  for item in food:
+    total = total + prices[item]
+  return total
+
 ```
 
-**설명:** 
+**설명:**     
+함수 `compute_bill()`를 작성한다. 이 함수는 입력 받은 리스트의 해당 항목의 가격을 구하여, 전체 리스트의 가격을 합한후, 반환하는 함수이다.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+skip
+```
 
 <br>
 <br>    
@@ -932,11 +1047,16 @@ stock: 0
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 12. 
+### 12. Stocking Out    
+
+Now you need your `compute_bill` function to take the stock/inventory of a particular item into account when computing the cost.
+
+Ultimately, if an item isn't in stock, then it shouldn't be included in the total. You can't buy or sell what you don't have!
 
 
 
-**설명:** 
+**설명:**    
+`compute_bill()`함수를 통하여 쇼핑을 할 수 있다. 다만, 재고가 없는것은 상품은 구매 할수 없으므로 가격을 계산하면 안된다. 이 요건을 연습해 볼 것이다.   
 {: .notice--info}
 
 
@@ -946,10 +1066,16 @@ stock: 0
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Make the following changes to your `compute_bill` function:
+
+While you loop through each item of food, **only add the price** of the item to total if the item's **stock count** is greater than zero.
+
+if the item is in stock and after you add the price to the total, subtract one from the item's stock count.
 
 
-**설명:** ① 
+**설명:**     
+**①** 함수 `compute_bill()`을 계산할때, `stock` 항목에 재고 가 있는것만 계산해야 한다. (즉, stock에 재고가 0인것은 계산하면 안된다.) 
+**②** 만약, 상품이 재고가 있으면, 그 가격을 전체 `total`에 추가하고, 해당 제품의 숫자를 1개 감소시켜야 한다.   
 {: .notice--info}
 
 
@@ -958,10 +1084,11 @@ stock: 0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+If you're buying a banana, check if it's in stock (larger than zero). If it's in stock, add the cost of a banana to your bill. Finally, decrement the stock of bananas by one!
 
 
-
-**설명:** 
+**설명:**    
+"banana"의 경우는 재고가 있으므로, 가격을 구할수 있다. 그러나, "apple"의 경우 재고가 없기에 함수에서 재고 유무를 점검해야 한다. 
 {: .notice--info}
 
 <br>
@@ -972,14 +1099,42 @@ stock: 0
 
 
 ```python
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+  "banana": 6,
+  "apple": 0,
+  "orange": 32,
+  "pear": 15
+}
+    
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+  total = 0
+  for item in food:
+    if stock[item] > 0:
+      total += prices[item]
+      stock[item] -= 1
+  return total
 ```
 
-**설명:** 
+**설명:**     
+`stock[item] > 0`인 것들만 계산한다. 그리고 해당 `stock[item]`의 갯수를 하나 줄여준다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+skip
+```
 
 <br>
 <br>    
@@ -988,11 +1143,25 @@ stock: 0
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 13.
+### 13. Let's Check Out!    
+
+Perfect! You've done a great job with lists and dictionaries in this project. You've practiced:
+
+* Using for loops with lists and dictionaries
+* Writing functions with loops, lists, and dictionaries
+* Updating data in response to changes in the environment (for instance, decreasing the number of bananas in stock by 1 when you sell one).
+Thanks for shopping at the Codecademy supermarket!
 
 
 
-**설명:** 
+
+
+**설명:**     
+종합적으로 정리하면 다음과 같다.
+• 리스트와 딕셔너리를 for문으로 활요하는 법을 배웠다.     
+• 함수에서 리스트, 딕셕너리, for문을 활용하는 법을 배웠다.
+• 딕셔너리의 값을 추가, 삭제 하는 법을 배웠다. 
+지금가지 수고하셨습니다. 
 {: .notice--info}
 
 
@@ -1002,10 +1171,11 @@ stock: 0
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Print your result and click Run to finish this course.
 
 
-**설명:** ① 
+**설명:** 
+**①** Print your result and click Run to finish this course. 
 {: .notice--info}
 
 
@@ -1014,361 +1184,52 @@ stock: 0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+skip
 
 
 **설명:** 
+skip
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
 ```python
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+  "banana": 6,
+  "apple": 0,
+  "orange": 32,
+  "pear": 15
+}
+    
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+  total = 0
+  for item in food:
+    if stock[item] > 0:
+      total += prices[item]
+      stock[item] -= 1
+  return total
+
+print (compute_bill(shopping_list))
 ```
 
-**설명:** 
+**설명:**     
+최종으로 함수  `compute_bill(shopping_list)`을 호출하여 출력해 보자. 
+
 {: .notice--info}
 
 
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 14. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-**결과** ``` ```
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
+**결과** 
+``` 
+5.5
 ```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 15.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 16. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 17.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 18.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 19.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
