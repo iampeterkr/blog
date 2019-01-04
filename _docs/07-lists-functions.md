@@ -1462,12 +1462,12 @@ Then, we iterate through our outer list.
 For each of the two inner lists (as lst), we iterate through the numbers (as item) and print them out.
 We end up printing out:
 
-1
-2
-3
-4
-5
-6
+1    
+2    
+3    
+4    
+5    
+6    
 
 
 
