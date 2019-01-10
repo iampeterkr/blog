@@ -1136,11 +1136,19 @@ X   b i r d   i n   t h e   h X n d . . .
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 13. 
+### 13. For your lists    
+
+Perhaps the most useful (and most common) use of for loops is to go through a list.
+
+On each iteration, the variable **`num`** will be the next value in the list. So, the first time through, it will be **7**, the second time it will be **9**, then **12, 54, 99,** and then the loop will exit when there are no more values in the list.
+
+ 
 
 
 
-**설명:** 
+**설명:**    
+리스트를 사용할때 for 문이 많이 유용하다.     
+for 문으로 리스트 `numbers`의 값들을 하나식 꺼집어 낼 수 있다. 변수 `num`에는 그 꺼집어낸 값들이 하나씩 들어 있다. 
 {: .notice--info}
 
 
@@ -1150,10 +1158,13 @@ X   b i r d   i n   t h e   h X n d . . .
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Write a **second for loop** that goes through the **numbers list** and **prints** each **element squared**, each on its own line.
 
 
-**설명:** ① 
+
+
+**설명:**     
+① 두번째 for 문을 통하여, `numbers`의 값들을 꺼내어 그 값의 제곱근을 구하여 출력하라.  
 {: .notice--info}
 
 
@@ -1162,23 +1173,48 @@ X   b i r d   i n   t h e   h X n d . . .
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Use the **`**`** operator for exponentiation. The rest of the loop should be very similar to the first one.
 
 
-
-**설명:** 
+**설명:**     
+`**`를 사용하여 제곱근을 구하라. for문 사용법은 첫번째 for문과 비슷하다. 
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
 ```python
+numbers  = [7, 9, 12, 54, 99]
+
+print "This list contains: "
+
+for num in numbers:
+  print num
+
+# Add your loop below!
+for num in numbers:
+  print num ** 2
 ```
 
-**설명:** 
+**설명:**     
+변수 `numbers`에 있는 값을 변수`num`에 넣고, `num`을 제곱근을 구하여 출력한다. 
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+This list contains: 
+7
+9
+12
+54
+99
+49
+81
+144
+2916
+9801
+```
 
 <br>
 <br>    
