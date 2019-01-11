@@ -1395,11 +1395,20 @@ Your choices are:
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 16. 
+### 16. Multiple lists    
+
+It's also common to need to iterate over **two lists at once**. This is where the built-in **`zip`** function comes in handy.
+
+**`zip`** will create pairs of elements when passed two lists, and will **stop at the end of the shorter list**.
+
+**`zip`** can handle three or more lists as well!
 
 
 
-**설명:** 
+
+**설명:**     
+한번에 두개의 리스트를 반복적으로 사용해야 할 경우에, 우리는 `zip` 내장 함수를 이용할수 있다.     
+`zip`은 2개의 리스트를 쌍으로 만들어주고, 잛은 리스트의 기준에 맞춰진다. 
 {: .notice--info}
 
 
@@ -1409,10 +1418,11 @@ Your choices are:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Compare each pair of elements and print the larger of the two.
 
 
-**설명:** ① 
+**설명:**     
+① 각 원소들의 쌍을 비교하고, 두개중 더 큰것을 출력하라.  
 {: .notice--info}
 
 
@@ -1421,10 +1431,13 @@ Your choices are:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+**`a`** is an element from **`list_a`** and **`b`** is an element of **`list_b`**.
+
+You have two options: Use an **`if/else`** statement to compare the two and print whichever is larger. Alternatively, you can use the **`max`** function that you learned in unit 4.
 
 
-
-**설명:** 
+**설명:**     
+list_a를 변수 a로 받고, list_b를 변수 b로 값을 받는다. 그리고 각각의 변수를 `if/else`를 사용하여 어느것이 더 큰지를 비교한다. (또는 내장함수 `max()`를 활용해도 된다.)
 {: .notice--info}
 
 <br>
@@ -1435,13 +1448,27 @@ Your choices are:
 
 
 ```python
+list_a = [3, 9, 17, 15, 19]
+list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
+
+for a, b in zip(list_a, list_b):
+  # Add your code here!
+    print max(a, b)
 ```
 
-**설명:** 
+**설명:**     
+각각의 리스트를 변수 a, b로 받아서, `max(a,b)`를 비교하여 큰값을 출력한다.
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+3
+9
+17
+15
+30
+```
 
 <br>
 <br>    
