@@ -1223,12 +1223,32 @@ This list contains:
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 14. 
+### 14. Looping over a dictionary    
+
+You may be wondering how looping over a dictionary would work. Would you get the key or the value?
+
+The short answer is: you get the key which you can use to get the value.
+```python
+d = {'x': 9, 'y': 10, 'z': 20}
+for key in d:
+  if d[key] == 10:
+    print "This dictionary has the value 10!"
+```    
+1. First, we create a dictionary with strings as the keys and numbers as the values.
+2. Then, we iterate through the dictionary, each time storing the key in key.
+3. Next, we check if that key's value is equal to 10.
+4. If so, we print "This dictionary has the value 10!"
 
 
 
-**설명:** 
-{: .notice--info}
+
+**설명:**     
+딕셔너리의 경우 반복문을 어떻게 사용하는지를 알아보자. 먼저 간단하게 이야기하면, key 로 값을 얻어 낼수 있다.  
+① 먼저, key와 value로 구성된 딕셔너리를 만든다.      
+② 딕셔너리의 key를 반복적으로 꺼낸다.    
+③ 꺼낸 key의 value 값이 10인지를 비교한다.    
+④ value 값이 10이면 "This dictionary has the value 10!"    
+x{: .notice--info}
 
 
 <br>
@@ -1237,10 +1257,11 @@ This list contains:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** On line 5, print the **key**, followed by a space, followed by the value associated with that key.
 
 
-**설명:** ① 
+**설명:**     
+① 5라인에서, key를 출력하고, 공백을 하나 뛰고 key의 value를 출력하시오.  
 {: .notice--info}
 
 
@@ -1249,13 +1270,19 @@ This list contains:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+An easy way to print in the requested format is to use the , character, like so:
+```python
+greeting = "Hello"
+name = "World"
 
+print greeting, name
+# prints "Hello World"
+```
 
-
-**설명:** 
+**설명:**     
+`,`를 사용하면, 같은 줄에 출력 할 수 있다.
 {: .notice--info}
 
-**결과** ``` ```
 
 <br>
 <hr/>
@@ -1265,13 +1292,24 @@ This list contains:
 
 
 ```python
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for key in d:
+  # Your code here!
+  print key, d[key]
 ```
 
-**설명:** 
+**설명:**     
+`key`는 'a'이고, 그 값은 `d[key]`로 나타 낼수 있다.  
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+a apple
+c cherry
+b berry
+```
 
 
 
@@ -1282,11 +1320,16 @@ This list contains:
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 15.
+### 15. Counting as you go    
+
+A weakness of using this for-each style of iteration is that **you don't know the index** of the thing you're looking at. Generally this isn't an issue, but at times it is useful to know how far into the list you are. Thankfully the built-in **`enumerate`** function helps with this.
+
+**`enumerate`** works by supplying a corresponding index to each element in the list that you pass it. Each time you go through the loop, index will be one greater, and item will be the next item in the sequence. It's very similar to using a normal for loop with a list, except this gives us an easy way to count how many items we've seen so far.
 
 
 
-**설명:** 
+**설명:**    
+for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값의 인덱스는 알려주지 않는다. 다만 그 값만 뽑아 내 준다. 이러한 약점은 `enumerate`내재 함수를 사용하면 해당 값의 인덱스 값을 알수 있다. 
 {: .notice--info}
 
 
