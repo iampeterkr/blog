@@ -1339,10 +1339,11 @@ for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** We don't want the user to see things listed from index 0, since this looks unnatural. Instead, the items should appear to start at index 1. Modify the print statement to reflect this behavior. See the Hint for help. 
 
 
-**설명:** ① 
+**설명:**     
+① 리스트의 index를 출력하면 0부터 출력된다. 그런데, 우리는 흔히 4가지중 하나를 고를때 리스트 번호를 1번 부터 번호를 매기는게 더 자연스럽다. 비록 index값이 0부터 출력되지만, print 할때는 1부터 하는것 처럼 보이게 하라.  
 {: .notice--info}
 
 
@@ -1351,10 +1352,11 @@ for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값�
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Instead of just printing index, print index + 1!
 
 
-
-**설명:** 
+**설명:**     
+출력할때, index 값에 +1을 하여라. 
 {: .notice--info}
 
 <br>
@@ -1365,13 +1367,26 @@ for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값�
 
 
 ```python
+choices = ['pizza', 'pasta', 'salad', 'nachos']
+
+print 'Your choices are:'
+for index, item in enumerate(choices):
+  print index + 1, item
 ```
 
-**설명:** 
+**설명:**     
+index 값에 +1을 하여 1 부터 보이게 한다. 
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+Your choices are:
+1 pizza
+2 pasta
+3 salad
+4 nachos
+```
 
 <br>
 <br>    
