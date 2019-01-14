@@ -1477,11 +1477,16 @@ for a, b in zip(list_a, list_b):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 17.
+### 17. For / else    
+
+Just like with **`while`**, **`for`** loops may have an else associated with them.
+
+In this case, the **`else`** statement is executed after the **`for`**, but only **`if`** the **`for`** ends normally—that is, not with a **`break`**. This code will break when it hits 'tomato', so the **`else`** block won't be executed.
 
 
 
-**설명:** 
+**설명:**     
+`for` 반복절은 `else`를 가질수 있다. `for`문이 다 실행되고, 빠져나오면 마지막으로 `else`문이 실행된다. 단, `for`문에서 `break`가 발생되면, `else`문은 실행되지 않는다. 
 {: .notice--info}
 
 
@@ -1491,10 +1496,11 @@ for a, b in zip(list_a, list_b):
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Click Run to see how for and else work together.
 
 
-**설명:** ① 
+**설명:**     
+① `Run`을 실행시켜, 소스가 어떻게 동작되는지 확인한다. 
 {: .notice--info}
 
 
@@ -1503,10 +1509,11 @@ for a, b in zip(list_a, list_b):
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+skip
 
 
-
-**설명:** 
+**설명:**     
+skip
 {: .notice--info}
 
 <br>
@@ -1517,13 +1524,45 @@ for a, b in zip(list_a, list_b):
 
 
 ```python
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+  if f == 'tomato':
+    print 'A tomato is not a fruit!' # (It actually is.)
+    break
+  print 'A', f
+else:
+  print 'A fine selection of fruits!'
 ```
 
-**설명:** 
+**설명:**     
+`for`문을 돌면서, 리스트 `fruits`의 값이 "tomato" 이면 "A tomato is not a fruit!"가 출력되고 `break`가 실행된다. 이 경우는 `else`가 실행되지 않는다. 만약에 `for`문에서 `break`가 안걸리고 정상적으로 다 돌게 되면, `else`가 마지막에 실행된다.
 {: .notice--info}
 
 
-**결과** ``` ```
+
+**결과** 
+```
+# break 문을 만난 경우 
+You have...
+A banana
+A apple
+A orange
+A tomato is not a fruit!
+```
+**결과** 
+```
+# break 문을 만나지 못한  경우 
+You have...
+A banana
+A apple
+A orange
+A tomato
+A pear
+A grape
+A fine selection of fruits!
+```
 
 <br>
 <br>    
@@ -1532,7 +1571,7 @@ for a, b in zip(list_a, list_b):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 18.
+### 18. 
 
 
 
