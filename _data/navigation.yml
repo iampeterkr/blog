@@ -101,6 +101,8 @@ docs:
         url: /battleship/
       - title: " 08. Loops"
         url: /loops/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect"
+        url: /practice-makes-perfect/
       - title: " 09. Exam Statistics"
         url: /exam-statistics/
       - title: " 10. Advanced Topics in Python"
