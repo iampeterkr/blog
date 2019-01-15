@@ -255,11 +255,14 @@ False
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 4.
+### 4. digit_sum    
+
+Awesome! Now let's try something a little trickier. Try summing the digits of a number. 
 
 
 
-**설명:** 
+**설명:**     
+각 자리별 수를 더하여 보자. 
 {: .notice--info}
 
 
@@ -269,10 +272,13 @@ False
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Write a function called **`digit_sum`** that takes a **positive integer `n`** as input and returns the **sum of all** that number's digits. For example: digit_sum(1234) should return 10 which is 1 + 2 + 3 + 4. (Assume that the number you are given will always be positive.)
+
+Check the hint if you need help!
 
 
-**설명:** ① 
+**설명:**     
+① 함수 `digit_sum(n)`을 만들어 보자. 이 함수는 입력된 `n`값의 각 자리 수를 더하여 결과를 반환하는 함수이다. 예를 들면 `digit_sum(1234)`이면 반환값은 10이다. 즉, 1+2+3+4=10 인 것이다. 입력값은 항상 양수만 들어가야 한다.  
 {: .notice--info}
 
 
@@ -281,10 +287,17 @@ False
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+One way might be to convert the integer to a string with **`str()`**, iterate over it, and turn the substrings back into integers with **`int()`** to do the addition.
+
+If you're looking for a challenge, try this: to get the rightmost digit of a number, you can modulo **`(%)`** the number by 10. To remove the rightmost digit you can floor divide (//) the number by 10. (Don't worry if you're not familiar with floor division—you can look up the documentation here. Remember, this is a challenge!)
+
+Try working this into a pattern to isolate all of the digits and add them to a total.
 
 
 
-**설명:** 
+
+**설명:**     
+`str()`함수를 사용하여 입력값을 문자열로 바꾼다. for 문을 돌면서 각 값을 빼내어 `int()`를 사용하여 변환한다. 각 값을 합한다. 그외에도 `%`연산자를 사용하여 10으로 나누어 나머지 값을 더하면 되는 방법도 있다. 한번 시도해 봐라. `%`와 비슷한 `//` 연산자도 있다. 
 {: .notice--info}
 
 <br>
@@ -295,14 +308,36 @@ False
 
 
 ```python
+def digit_sum(n):
+  total = 0
+  string_n = str(n)
+  for char in string_n:
+    total += int(char)
+  return total
+
+#Alternate Solution:
+
+#def digit_sum(n):
+#  total = 0
+#  while n > 0:
+#    total += n % 10
+#    n = n // 10
+#  return total
+  
+print digit_sum(1234)
 ```
 
-**설명:** 
+**설명:**     
+입력값 `n`을 문자열로 바꾼다. 그리고 문자열을 하나씩 뽑아내서 `int(char)`숫자로 바꾼다. `total`변수에 각 값을 더한다.    
+또다른 방법은 입력값 `n`을 `%10`을 하여 제일 마지막 자릿수 4를 반환하여 전체 `total`값에 더한다. `n`값을 `//10`하여 마지막 자릿수를 버리고 `123`을 다시 `%10`으로 나누어 나머지 3을 `total`변수에 저장한다.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+10
+```
 
 <br>
 <br>    
@@ -311,7 +346,16 @@ False
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 5. 
+### 5. factorial    
+
+All right! Now we're cooking. Let's try a factorial problem.
+
+To calculate the factorial of a non-negative integer x, just multiply all the integers from 1 through x. For example:
+
+factorial(4) would equal 4 * 3 * 2 * 1, which is 24.
+factorial(1) would equal 1.
+factorial(3) would equal 3 * 2 * 1, which is 6.
+
 
 
 
