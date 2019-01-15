@@ -348,9 +348,9 @@ print digit_sum(1234)
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
 ### 5. factorial    
 
-All right! Now we're cooking. Let's try a factorial problem.
+All right! Now we're cooking. Let's try a **factorial problem**.
 
-To calculate the factorial of a non-negative integer x, just multiply all the integers from 1 through x. For example:
+To calculate the factorial of a non-negative integer **x**, just multiply all the integers from **1 through x**. For example:
 
 factorial(4) would equal 4 * 3 * 2 * 1, which is 24.
 factorial(1) would equal 1.
@@ -359,7 +359,8 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 
 
-**설명:** 
+**설명:**     
+수학이 factorial(계승)을 구현해 보자. `factorial(3)`은 6 이다. 계산하는 방법은 3 x 2 x 1 = 6 이다. 
 {: .notice--info}
 
 
@@ -369,10 +370,13 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function **`factorial`** that takes an integer **`x`** as input.
+
+Calculate and return the factorial of that number.
 
 
-**설명:** ① 
+**설명:**     
+① 함수 `factorial(x)`를 만들어라. `factorial(x)` 함수는 입력한 값의 계산값을 반환하라. 
 {: .notice--info}
 
 
@@ -381,10 +385,13 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Consider having **`factorial()`** call itself. When the input is 1, your function could just return 1. Otherwise, it could return the number multiplied by **`factorial(n - 1)`**.
+
+Note that mathematically, factorial(0) is 1.
 
 
-
-**설명:** 
+**설명:**     
+`facotorial(x)`함수는 `n` 값이 1이 될때까지 자신의 함수를 호출한다. 그리고 최종적으로 `factorial(0)`이면 값은 1을 반환한다.
 {: .notice--info}
 
 <br>
@@ -395,14 +402,35 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 
 ```python
+def factorial(x):
+    total = 1
+    while x>0:
+        total *= x
+        x-=1
+    return total
+  
+print factorial(5)
+
+# def factorial2(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial2(n-1)
+
+# print factorial2(5)      
 ```
 
-**설명:** 
+**설명:**     
+`x`값을 1씩 줄여가면서 `total`값에 곱해 준다. `x`가 1이 될때까지 while문을 돌면서 진행한다.    
+또다른 방법은 `factorial2(n-1)`을 하는 방법이다. 자신의 함수를 다시 호출해서 사용하는 방법으로 나중에 배우게 될 것이다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+120
+```
 
 <br>
 <br>    
@@ -411,7 +439,7 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 6. 
+### 6ke  ㅇ다 ㄱ사하느ㅂㅂㅇ3 x 2 x 1 = 6 ㅇ다 . 
 
 
 
