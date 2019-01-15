@@ -1571,11 +1571,14 @@ A fine selection of fruits!
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 18. 
+### 18. Change it up 
+
+As mentioned, the **`else`** block won't run in this case, since break executes when it hits **'tomato'**.
 
 
 
-**설명:** 
+**설명:**     
+`break`문이 실행되면(즉, 'tomato'가 있으면), `for/else`의 `else`는 실행되지 않는다. 
 {: .notice--info}
 
 
@@ -1585,10 +1588,11 @@ A fine selection of fruits!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Modify the code in the editor such that the **`for`** loop's **`else`** statement is executed.
 
 
-**설명:** ① 
+**설명:**     
+① `for`문의 `else`구문이 동작되도록 소스를 수정하라.  
 {: .notice--info}
 
 
@@ -1597,10 +1601,11 @@ A fine selection of fruits!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+You can change the contents of fruits or the contents of the for statement such that the loop doesn't break on "tomato".
 
 
-
-**설명:** 
+**설명:**     
+리스트 `fruits`의 내용이 'tomato'가 없게 하거나, `if`문에서 'tomato'가 일치 하지 않게 만들어, `break`문이 작동하지 않게 하면, `else`문이 실행된다.
 {: .notice--info}
 
 <br>
@@ -1611,13 +1616,34 @@ A fine selection of fruits!
 
 
 ```python
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+  if f == 'tomato':
+    print 'A tomato is not a fruit!' # (It actually is.)
+  print 'A', f
+else:
+  print 'A fine selection of fruits!'
 ```
 
-**설명:** 
+**설명:**     
+이 경우엔, `break`문을 삭제 했다. `for`문이 실행되고, `else`문도 실행 된다.
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+You have...
+A banana
+A apple
+A orange
+A tomato is not a fruit!
+A tomato
+A pear
+A grape
+A fine selection of fruits!
+```
 
 <br>
 <br>    
