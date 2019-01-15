@@ -439,11 +439,20 @@ print factorial(5)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 6ke  ㅇ다 ㄱ사하느ㅂㅂㅇ3 x 2 x 1 = 6 ㅇ다 . 
+### 6. is_prime    
+
+A prime number is a positive integer greater than 1 that has no positive divisors other than 1 and itself. (That's a mouthful!)
+
+In other words, if you want to test if a number in a variable **`x`** is prime, then no other number should go into **`x`** evenly besides 1 and x. So 2 and 5 and 11 are all prime, but 4 and 18 and 21 are not.
+
+If there is a number between 1 and x that goes in evenly, then x is not prime.
 
 
 
-**설명:** 
+
+
+**설명:**     
+prime(소수)는 1 과 자신 이외에는 나눌수 없는 값을 말한다. 어떤 입력값 `x`를 입력해서 소수 인지를 확인하는 함수를 만들어 보자. 1, 2, 3, 5, 7, 11은 소수의 예이다. 4는 2로 나누어 지기에 소수가 아니다.
 {: .notice--info}
 
 
@@ -453,10 +462,17 @@ print factorial(5)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function called **`is_prime`** that takes a number **`x`** as input.
+
+For each number n **from 2 to x - 1**, test if x is evenly divisible by **n**.
+
+If it is, return False.
+
+If none of them are, then return True.
 
 
-**설명:** ① 
+**설명:**     
+① 함수 `is_prime(x)`를 만들어라. 이 함수는 1과 자신 `x`이외에는 나누어 지지 않는다. 즉 2부터 `x-1`까지 값으로 나누어서 0이 나오면 소수가 아니기에 False를 반환하고, 그렇지 않으면 True를 반환하라. 
 {: .notice--info}
 
 
@@ -465,10 +481,11 @@ print factorial(5)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Remember: all numbers less than 2 are not prime numbers!
 
 
-
-**설명:** 
+**설명:**     
+2보다 작은 모든 숫자는 소수가 아니다.
 {: .notice--info}
 
 <br>
@@ -479,14 +496,30 @@ print factorial(5)
 
 
 ```python
+def is_prime(x):
+    if x < 2:
+        return False
+    else:
+        for n in range(2, x-1):
+            if x % n == 0:
+                return False
+        return True
+
+print is_prime(13)
+print is_prime(10)
 ```
 
-**설명:** 
+**설명:**     
+입력값 `x-1`값이 될때까지 2부터 나머지를 구해서 나누어지는 상황(`x%n==0`)이 발생하면 소수가 아니기에 False를 반환하고, 그외에는 True를 반환한다. 입력값이 2보다 작은 값이 들어오면 무조건 False를 반환한다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+True
+False
+```
 
 <br>
 <br>    
@@ -495,11 +528,14 @@ print factorial(5)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 7. 
+### 7. reverse    
+
+Great work so far! Let's practice writing some functions that work with strings.
 
 
 
-**설명:** 
+**설명:**     
+문자열을 조작하는 방법을 연습해 보자. 
 {: .notice--info}
 
 
@@ -509,10 +545,16 @@ print factorial(5)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function called **`reverse`** that takes a string textand returns that string in reverse. For example: reverse("abcd") should return "dcba".
+
+You may not use reversed or [::-1] to help you with this.
+
+You may get a string containing special characters (for example, !, @, or #).
 
 
-**설명:** ① 
+**설명:**     
+① `reverse()`함수를 만들어 보자. 이 함수는 입력한 문자열을 반대로 출력해주는 함수이다. 예를 들면 `reverse("abcd")`를 입력하면 "dcba"를 반환해 준다.    
+물론, 앞에서 배운 `[::-1]`, `reversed()`을 사용해도 되지만, 여기서는 직접 함수를 만들어 본다. 특수 문자도 포함된다.  
 {: .notice--info}
 
 
@@ -521,10 +563,11 @@ print factorial(5)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Consider how you would loop through text starting from the last character through the first character.
 
 
-
-**설명:** 
+**설명:**     
+입력받은 문자열의 마지막 부터 추출하여 리스트에 저장한다. 
 {: .notice--info}
 
 <br>
@@ -535,14 +578,30 @@ print factorial(5)
 
 
 ```python
+def reverse(text):
+    word = ""
+    l = len(text) - 1
+    while l >= 0:
+        word = word + text[l]
+        l -= 1
+    return word
+  
+print reverse("Hello World")
+#print ''.join(reversed("abcd"))
+#print ("Hello world")[::-1]
+
 ```
 
-**설명:** 
+**설명:**     
+입력한 문자열의 길이 -1 만큰 반복한다. 그리고 마지막 문자 index 값으로 읽어서 `word`에 저장한다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+dlroW olleH
+```
 
 <br>
 <br>    
@@ -551,11 +610,14 @@ print factorial(5)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 8. 
+### 8. anti_vowel    
+
+Nice work. Next up: vowels!
 
 
 
-**설명:** 
+**설명:**     
+모음을 찾아서 조작하는 방법을 연습해 보자. 
 {: .notice--info}
 
 
@@ -565,10 +627,13 @@ print factorial(5)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function called **`anti_vowel`** that takes one string, **`text`**, as input and returns the text with all of the **vowels removed**.
+
+For example: anti_vowel("Hey You!") should return "Hy Y!". Don't count Y as a vowel. Make sure to remove lowercase and uppercase vowels. 
 
 
-**설명:** ① 
+**설명:**     
+① 함수 `anti_vowel(text)`을 만들어라. 이 함수는 모음을 찾아서 없앤 문자열을 반환한다. 예를 들면 `anti_vowel("Hey You!")`를 호출하면, "Hy Y!"를 반환한다. 단, 대문자 "Y"를 없애지 말라. 그 외 대/소문자 모음 모두를 삭제하라.  
 {: .notice--info}
 
 
@@ -577,10 +642,11 @@ print factorial(5)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+To check to see if **`c`** is a vowel, you can do: c in "aeiouAEIOU".
 
 
-
-**설명:** 
+**설명:**     
+모음 모둠인 "aeiouAEIOU"에 해당 문자가 속하는지를 점검한다. 
 {: .notice--info}
 
 <br>
@@ -591,14 +657,27 @@ print factorial(5)
 
 
 ```python
+def anti_vowel(text):
+    result = ""
+    vowels = "ieaouIEAOU"
+    for char in text:
+          if char not in vowels:
+            result += char
+    return result
+
+print anti_vowel("hello book")
 ```
 
-**설명:** 
+**설명:**     
+입력한 문자열을 한 글자씩 추출하여 "ieaouIEAOU"에 속하는지를 점검하여, 속하지 않으면 문자열을 저장하여 반환한다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+hll bk
+```
 
 <br>
 <br>    
