@@ -179,7 +179,8 @@ If the difference between a number and that same number rounded is greater than 
 
 
 
-**설명:** 
+**설명:**     
+정수(integer)는 소수가 없는 10진수이다. (예, 소수점 있는 수 98.6), 그리고, 소수점 있는 수(예, 7.0)도 정수이다. 프로그램에서 정수인지를 어떻게 파악 할수 있을까? 우리는 어떤 수에서 그수를 반올림 한 값의 차리를 봐서, 0이면, 정수이고, 0이 아니면 정수가 아니라고 알수 있다.  이장에서 이것에 관하여 공부해 보자.  
 {: .notice--info}
 
 
@@ -189,10 +190,20 @@ If the difference between a number and that same number rounded is greater than 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function **`is_int`** that takes a number **`x`** as an input.
+
+Have it return True if the number is an **integer** (as defined above) and **False** otherwise.
+
+For example:
+```python
+is_int(7.0)   # True    
+is_int(7.5)   # False    
+is_int(-1)    # True
+```
 
 
-**설명:** ① 
+**설명:**     
+① 함수 `is_int(x)`를 만드시오. 이 함수는 입력값 `x`가 정수(interger)이면 True를 반환하고, 아니면 False를 반환하라. 
 {: .notice--info}
 
 
@@ -201,10 +212,11 @@ If the difference between a number and that same number rounded is greater than 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+To use the function **`abs()`**, **`round()`**
 
 
-
-**설명:** 
+**설명:**     
+내장 함수 `abs()`는 절대값을 반환하고, `round()`는 소수점을 버린 정수만을 반환한다. 이를 활용하라. 
 {: .notice--info}
 
 <br>
@@ -215,14 +227,26 @@ If the difference between a number and that same number rounded is greater than 
 
 
 ```python
+def is_int(x):
+  absolute = abs(x)
+  rounded = round(absolute)
+  return absolute - rounded == 0
+
+print is_int(10)
+print is_int(10.5)
 ```
 
-**설명:** 
+**설명:**     
+함수 `is_int(x)`는 입력값 `x`를 절대값을 구하고, 이 값에서 round한 값을 뺀다. 이 두 수의 차이가 0보다 크면 이 `x`값은 정수가 아니다.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+True
+False
+```
 
 <br>
 <br>    
