@@ -1652,11 +1652,15 @@ A fine selection of fruits!
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 19.
+### 19. Create your own    
+
+To wrap up this lesson, let's create our own **`for/else`** statement from scratch.
 
 
 
-**설명:** 
+
+**설명:**     
+지금까지 배운것을 종합하여, `for/else`문을 활용하여 자신만의 소스를 만들어 보자. 
 {: .notice--info}
 
 
@@ -1666,10 +1670,11 @@ A fine selection of fruits!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Build your **`for/else`** statement in the editor. Execution of the **`else`** branch is optional, but your code should print a string of your choice to the editor regardless.
 
 
-**설명:** ① 
+**설명:**     
+①  `for/else`문을 사용하여 프로그램을 짜 보자. `else`문이 실행되고 안되고는 자유다. 하지만, 당신이 원하는대로 출력이 되어야 한다.  
 {: .notice--info}
 
 
@@ -1678,10 +1683,11 @@ A fine selection of fruits!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+skip
 
 
-
-**설명:** 
+**설명:**     
+skip
 {: .notice--info}
 
 <br>
@@ -1692,13 +1698,26 @@ A fine selection of fruits!
 
 
 ```python
+test = ["bleh", "blah", "bloh"]
+
+for x in test:
+    print x
+else:
+    print "ok"
 ```
 
-**설명:** 
+**설명:**     
+리스트 `test`에 3개의 값을 넣고, `for/else`문을 돌린다. 변수 `x`에 리스트이 값을 하나씩 추출하여, 출력하고, `for` 문이 다 돌고 나면, 마지막에 `else`문이 실행된다.
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+bleh
+blah
+bloh
+ok
+```
 
 
 <br>
