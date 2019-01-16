@@ -686,11 +686,20 @@ hll bk
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 9. 
+### 9. scrabble_score    
+
+Scrabble is a game where players get points by spelling words. Words are scored by adding together the point values of each individual letter (we'll leave out the double and triple letter and word scores for now).
+
+To the right is a dictionary containing all of the letters in the alphabet with their corresponding Scrabble point values.
+
+For example: the word "Helix" would score 15 points due to the sum of the letters: 4 + 1 + 1 + 1 + 8.
+
+ 
 
 
 
-**설명:** 
+**설명:**     
+Scrabble 게임은 각 알파벳에 다른 점수를 매겨서, 각 단어의 알파벳 점수를 합한 값을 가지는 게임이다. 우리는 기존에 배운 딕셔너리 변수에 각 알파벳의 점수를 할당하여 각 단어별 점수를 매긴다. 예를 들면, "Helix"는 각 알파벳 점수는 H:4, e:1, l:1, i:1, x:8이다 이들 점수의 합은 15점이다. Scrabble 게임을 통하여 딕셔너리 활용법을 배워보자. 
 {: .notice--info}
 
 
@@ -700,10 +709,20 @@ hll bk
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function **`scrabble_score`** that takes a string **`word`** as input and returns the **equivalent scrabble score** for that word.
+
+* Assume your input is only one word containing no spaces or punctuation.
+* As mentioned, no need to worry about score multipliers!
+* Your function should work even if the letters you get are uppercase, lowercase, or a mix.
+* Assume that you're only given non-empty strings.
 
 
-**설명:** ① 
+**설명:**     
+① 함수 `scrabble_score(word)`를 만들고, 이 함수는 입력한 `word`의 점수를 반환한다.     
+• 입력 단어는 공백이나, 구두점이 없어야 한다.     
+• 점수 배열에 대해서는 걱정하지 마라.      
+• 함수는 대문자, 소문자, 또는 대/소문자가 섞여 있어도 동작한다.     
+• 입력은 반드시 해야 한다. 
 {: .notice--info}
 
 
@@ -712,10 +731,16 @@ hll bk
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Have your function loop through the word that you are given as input and look up the score for each letter in the score dictionary. Add the score for each letter into a total of some sort.
+
+Remember you can use a string's .lower() method to make your string lower case!
 
 
 
-**설명:** 
+
+**설명:**     
+입력된 워드의 알파벳을 순차적으로 `score` 딕셔너리에 있는 각 알파벳 점수를 참조하여 더한다.    
+모든 입력된 문자는 `.lower()`를 사용하여 소문자로 일원화 하여 `score`딕셔너리에서 찾는다. 
 {: .notice--info}
 
 <br>
@@ -726,14 +751,51 @@ hll bk
 
 
 ```python
+score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2, 
+         "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3, 
+         "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1, 
+         "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4, 
+         "x": 8, "z": 10}
+         
+def scrabble_score(word):
+  word = word.lower()
+  total = 0
+  for letter in word:
+    for leter in score:
+      if letter == leter:
+        total = total + score[leter]
+  return total
+
+print scrabble_score("pizza")
+
+# def scrabble_score(word):
+#   totla = 0
+#   for i in word:
+#      w = i.lower()
+#      r = score[w]
+#      totla += r
+#   return totla
+
+# print scrabble_score("pizza")
 ```
 
-**설명:** 
+**설명:**    
+입력 문자열 `word.lower()`로 소문자로 일원화한다.    
+전체값을 저장할 변수 `total`을 초기화 한다.    
+변수 `word`의 글자를 하나씩 뽑아낸다.    
+그 뽑아낸 글자를 딕셔너리 `score`에서 반복적으로 찾는다.    
+찾았으면, 그 글자가 맞는지 다시한번 확인하고.   
+변수 `total`에 해당 글자의 점수를 더한다.     
+결과를 반환한다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+
+**결과** 
+``` 
+25
+```
 
 <br>
 <br>    
