@@ -804,11 +804,14 @@ print scrabble_score("pizza")
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 10. 
+### 10. censor    
+
+You're doing great with these string function challenges. Last one!
 
 
 
-**설명:** 
+**설명:**     
+문자열 조작 기능을 하나더 연습해 봅시다. 
 {: .notice--info}
 
 
@@ -818,10 +821,23 @@ print scrabble_score("pizza")
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Write a function called **`censor`** that takes two strings, **`text`** and **`word`**, as input. It should return the text with the word you chose **replaced with asterisks**. For example:
+```python
+censor("this hack is wack hack", "hack")
+```
+should return:
+```python
+"this **** is wack ****"
+```
+* Assume your input strings won't contain punctuation or upper case letters.
+* The number of asterisks you put should correspond to the number of letters in the censored word.
 
 
-**설명:** ① 
+
+**설명:**     
+① 함수 `censor(text, word)`를 만들어라. 이 함수는 입력받은 `text`중 `word`글자 부분만 `*`로 변경하는 함수이다.     
+• 대문자는 사용하지 않는다
+• `*`로 대체할때, `word` 수 만큼만 `*`로 대체해야 한다. 
 {: .notice--info}
 
 
@@ -830,10 +846,27 @@ print scrabble_score("pizza")
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+You can use
+```python
+string.split()
+# and 
+" ".join(list)
+```
+to help you here.
+
+Remember: "*" * 4 equals "****"
+
+After splitting the string with string.split(), you can loop through the indices in the list and replace the words you are looking for with their asterisk equivalent. Join the list at the end to get your sentence!
 
 
 
-**설명:** 
+
+**설명:**     
+`string.split()`와 `" ".join(list)`를 활용 할수 있다.    
+`"*" * 4 -> "****"`이 만들어 진다.    
+입력된 문자열의 분리하여, 반복하며 돌면서 해당 문자가 대치할 문자와 같은지를 비교하여 찾아 낸다.     
+해당 문자를 찾았으면 그 문자 크기만큼 "*"를 변경하고, 해당 문자열을 리스트에 저장한다.    
+마지막에 저장된 리스트를 하나의 스트링으로 만든다.그리고 반환한다.
 {: .notice--info}
 
 <br>
@@ -844,14 +877,54 @@ print scrabble_score("pizza")
 
 
 ```python
+def censor(text, word):
+    words = text.split()
+    result = ''
+    stars = '*' * len(word)
+    count = 0
+    for i in words:
+        if i == word:
+            words[count] = stars
+        count += 1
+    result =' '.join(words)
+
+    return result
+  
+print censor("this hack is wack hack", "hack")
+
+
+# def censor2(text, word):
+#   low_text = text.lower()
+#   low_word = word.lower()
+  
+#   list_text = []
+#   for t in low_text.split():
+#     if t == low_word:
+#        t = "*" * len(t)
+#        list_text.append(t)
+#     else:
+#       list_text.append(t)
+  
+#   return " ".join(list_text)
+
+# print censor2("this hack is wack hack", "hack")
 ```
 
-**설명:** 
+**설명:**     
+입력 받은 문장을 잘라서 리스트 `words`에 넣는다.    
+결과물을 저장할 변수 `result`를 초기화한다.    
+`*`로 변경할 `word` 갯수를 계산하여 변수 `star`에 저장한다. 
+리스트 `words`에서 하나씩 꺼내어, 변경할 `word`와 같은 지 확인한다.    
+리스트 `words`의 변경할 인덱스`words[count]`에 `star`를 저장한다.    
+리스트 `words`를 문자열로 변경하여 반환한다. 
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+this **** is wack ****
+```
 
 <br>
 <br>    
