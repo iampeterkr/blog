@@ -1183,11 +1183,14 @@ print product([4, 5, 5])
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 14. 
+### 14. remove_duplicates    
+
+Awesome! Now for something a bit trickier.
 
 
 
-**설명:** 
+**설명:**     
+지금 부터 약간 더 복잡하게 조작하여 중복 된것을 제거하는 연습을 해보자. 
 {: .notice--info}
 
 
@@ -1197,10 +1200,21 @@ print product([4, 5, 5])
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Write a function **`remove_duplicates`** that takes in a list and removes elements of the list that are the same.
+
+For example: remove_duplicates([1, 1, 2, 2]) should return [1, 2].
+
+* Don't remove every occurrence, since you need to keep a single occurrence of a number.
+* The order in which you present your output does not matter. So returning [1, 2, 3] is the same as returning [3, 1, 2].
+* Do not modify the list you take as input! Instead, return a new list.
 
 
-**설명:** ① 
+
+**설명:**     
+① 함수 `remove_duplicates(lst)`는 리스트 안에 중복되는 것이 있으면 삭제하는 리스트르 만들어 준다.  예를 들면 `remove_duplicates([1,1,2,2])`호출하면, `[1,2]`를 return(반환)한다.    
+• 모두 다 지우는 것이 아니라, 1개만 존재하는것은 놔 둔다.    
+• return(반환)값의 순서는 중요치 않다. (ex. [1,2,3] : ok, [3,2,1] : ok)   
+• 입력받은 리스트 `lst`를 직접 수정하지 말고 새로운 빈 리스트 `new_lst=[]`를 만들어 return(반환)하라.
 {: .notice--info}
 
 
@@ -1209,13 +1223,17 @@ print product([4, 5, 5])
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+The easiest way to approach this problem is to create a new list in your function, loop through your input list, and add items from your input list to your new list if the current item is not already contained in your new list. Using the a not in b syntax might help you here.
+
+Also, note that destructively modifying a list while you are looping through it is bad practice and will likely lead to bugs somewhere down the line! That's why we always make a fresh copy to work on.
 
 
 
-**설명:** 
+
+**설명:**     
+가장 쉬운 방법은 함수안에 새로운 리스트를 하나 만들고, 입력 받은 리스트를 반복하여 돌면서 해당 항목값을 추출하여 새로운 리스트에 추가한다. 이때, 추가할때, 새로운 리스트에 내가 추가할려는 항목이 있는지를 점검하여 없으면 추가하고, 있으면 다음 단계로 넘어간다.     
+그리고, 
 {: .notice--info}
-
-**결과** ``` ```
 
 <br>
 <hr/>
@@ -1225,13 +1243,39 @@ print product([4, 5, 5])
 
 
 ```python
+def remove_duplicates(inputlist):
+    if inputlist == []:
+        return []
+    
+    # Sort the input list from low to high    
+    inputlist = sorted(inputlist)
+    # Initialize the output list, and give it the first value of the now-sorted input list
+    outputlist = [inputlist[0]]
+
+    # Go through the values of the sorted list and append to the output list
+    # ...any values that are greater than the last value of the output list
+    for i in inputlist:
+        if i > outputlist[-1]:
+            outputlist.append(i)
+        
+    return outputlist
+  
+print remove_duplicates([1, 1, 2, 2])
 ```
 
-**설명:** 
+**설명:**     
+• 입력값 리스트 `inputlist`가  비어 있으면 빈 리스트 `[]`를 return(반환)한다.    
+• `sorted(inputlist)` : 입력값 리스트 `inputlist`를 정렬한다.   
+• 정렬된 `inputlist[0]` 즉 첫번째 값을 `outputlist`에 추가한다.     
+• 정렬된 `inputlist`의 값을 하나씩 추출하여, `outputlist[-1]`제일 마지막 값보다 큰 경우만 `outputlist.append(i)`추가한다. 이이야기는 `outputlist`의 제일 마지막보다 큰값이 추출된 경우만 `outputlist`에 추가하겠다는 이야기다.     
+• 최종 `outputlist`를 return(반환)한다.
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+[1, 2, 4]
+```
 
 
 
