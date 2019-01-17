@@ -1286,11 +1286,31 @@ print remove_duplicates([1, 1, 2, 2])
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 15.
+### 15. median    
+
+Great work! You've covered a lot in these exercises. Last but not least, let's write a function to **find the median of a list**.
+
+The median is the middle number in a sorted sequence of numbers.
+
+Finding the median of [7, 12, 3, 1, 6] would first consist of sorting the sequence into [1, 3, 6, 7, 12] and then locating the middle value, which would be 6.
+
+If you are **given** a sequence with an **even number** of elements, you must **average the two elements surrounding the middle**.
+
+For example, the median of the sequence [7, 3, 1, 4] is 3.5, since the middle elements after sorting the list are 3 and 4 and (3 + 4) / (2.0) is 3.5.
+
+You can sort the sequence using the sorted() function, like so:
+```python
+sorted([5, 2, 3, 1, 4])
+[1, 2, 3, 4, 5]
+```
 
 
 
-**설명:** 
+**설명:**     
+리스트의 중앙에 위치한 값을 찾는 함수를 만드는 연습을 해보자.    
+• 리스트 `[7, 12, 3, 1, 6]`입력되면, 먼저 정렬하여 `[1,3,6,7,12]`를 만든다. 그리고 리스트의 중앙에 위치한 6을 return(반환)한다.    
+• 리스트 `[7, 3, 1, 4]` 짝수개가 입력되면, 정렬후 `[1,3,4,7]` 중앙값 3과 4의 평균값이 3.5가 return(반환)된다.   
+• 정렬은 내장함수인 `sorted([5,2,3,1,4])`를 사용하면 `[1,2,3,4,5]`로 정렬이 된다.
 {: .notice--info}
 
 
@@ -1300,10 +1320,17 @@ print remove_duplicates([1, 1, 2, 2])
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Write a function called **`median`** that takes a list as an input and **returns the median** value of the list. For example: median([1, 1, 2]) should return 1.
+
+The list can be of any size and the numbers are not guaranteed to be in any particular order. Make sure to sort it!
+If the list contains an **even number** of elements, your function should **return the average of the middle two**.
+ 
 
 
-**설명:** ① 
+**설명:**     
+① 함수 `median(lst)`만드시오. 이 함수는 입력된 리스트의 중간 항목을 return(반환) 합니다.    
+• 입력되는 리스트의 크기는 다를수 있으며, 리스트에 들어있는 값들은 정렬되어 있지 않습니다.     
+• 짝수개의 리스트가 입력되면 중간 항목 2개의 평균값을 return(반환) 합니다.
 {: .notice--info}
 
 
@@ -1312,10 +1339,22 @@ print remove_duplicates([1, 1, 2, 2])
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+In order to find the median of a list with an even number of elements, you're going to need to find the indices of the middle two elements.
+
+You can find the middle two elements by halving the length of the array to find the index of the first element, and subtracting one from the first index to find the second index.
+
+For example, with an array of length 6 like [0, 1, 2, 3, 4, 5], the two middle elements that need to be averaged in order find the median would be 2 and 3. You get 3 by cutting the length of the array in half and 2 by subtracting 1 from the previous index: 3. You can use a similar pattern to find the middle element of an odd-length list.
+
+Last but not least, **note that (2 + 3) / 2 is not the same as (2 + 3) / 2.0!** The former is integer division, meaning Python will try to give you an integer back. You'll want a float, so something like **(2 + 3) / 2.0** is the way to go.
 
 
 
-**설명:** 
+
+**설명:**     
+짝수개의 리스트가 들어오면 중간값을 찾는 방법은 다음과 같다.    
+• 입력된 리스트의 길이를 구한다. 만약 `[0,1,2,3,4,5]`가 입력되면 길이는 6 이다. 이를 반으로 나누면 중간 값은 3이다. 리스트의 index 값이 3인 자리의 값은 `3`이다. 우리가 필요한 값은 index 2와 3이므로, 3에서 1을 뺀 index값을 선택하면 된다.    
+
+• 두개의 값을 나누어 중간값을 계산할때, `(2+3)/2`과 `(2+3)/2.0`의 결과 값은 다르다. 앞의 경우는 2가 반환되고, 후자는 2.5가 반환다. 이 함수에서는 후자 `(2+3)/2.0`을 이용해야 한다.
 {: .notice--info}
 
 <br>
@@ -1326,237 +1365,42 @@ print remove_duplicates([1, 1, 2, 2])
 
 
 ```python
+def median(lst):
+    sorted_list = sorted(lst)
+    if len(sorted_list) % 2 != 0:
+        #odd number of elements
+        index = len(sorted_list)//2 
+        return sorted_list[index]
+    elif len(sorted_list) % 2 == 0:
+        #even no. of elements
+        index_1 = len(sorted_list)/2 - 1
+        index_2 = len(sorted_list)/2
+        mean = (sorted_list[index_1] + sorted_list[index_2])/2.0
+        return mean
+   
+print median([2, 4, 5, 9])
+
 ```
 
-**설명:** 
+**설명:**     
+• 입력된 리스트를 정렬한다. `sorted_list = sorted(lst)`    
+• if 절의 block 내용은 홀수 개가 입력 되었을때 동작한다.     
+•`len(sorted_list) %2 != 0` : 리스트 `%` 연산자로 계산해서 0이 아니면 홀수개이다    
+• 리스트의 중간값을 `//2`로 소수점 버리는 중간값으로 계산한다.   
+• `sorted_list[index]`가 중간 값이므로 return(반환) 한다.   
+• else 절의 block 내용은 짝수 개가 입력 되었을때 동작한다.       
+• `len(sorted_list) %2 == 0` : 리스트 `%` 연산자로 계산해서 0이면 짝수개이다.   
+• 리스트의 길이를 구하여 `len(sorted_list)/2` 하여 반으로 나누면 중간 index값이 된다.   ex.[0,1,2,3] 는 길이는 4, 중간 index 계산값은 2가 나온다.    
+• 우리가 필요한 1,2의 index 값은 1,2 이므로 `index_1`=중간 index -1, `index_2`=중간 index이다.     
+• 두개의 index 값을 더하여 평균값을 구하여 return(반환)한다.
 {: .notice--info}
 
 
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 16. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
+**결과** 
+``` 
+4.5
 ```
 
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 17.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 18.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 19.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
