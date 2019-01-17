@@ -1022,11 +1022,14 @@ print count([1, 2, 1, 1], 1)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 12. 
+### 12. purify    
+
+Awesome! Now let's practice filtering a list. 
 
 
 
-**설명:** 
+**설명:**     
+리스트의 필터링을 연습해 보자. 
 {: .notice--info}
 
 
@@ -1036,10 +1039,16 @@ print count([1, 2, 1, 1], 1)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function called **`purify`** that takes in a list of numbers, **removes all odd numbers** in the list, and **returns the result**. For example, purify([1,2,3]) should return [2].
+
+**Do not directly modify** the list you are given as input; instead, return a new list with only the **even numbers**.
 
 
-**설명:** ① 
+
+
+**설명:**     
+① 함수 `purify(list)`를 만들어라. 이 함수는 리스트의 값중 홀수를 삭제하고 해당 리스트를 return(반환) 하는 함수이다.     
+• 입력받은 리스트를 바로 수정하지 말고, 새로운 리스트를 만들어 결과값을 저장하라.  
 {: .notice--info}
 
 
@@ -1048,10 +1057,12 @@ print count([1, 2, 1, 1], 1)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Your code should share something in common with the **`is_even`** function you defined earlier.
 
 
-
-**설명:** 
+**설명:**     
+앞에서 연습한 함수 `is_even()`의 기능을 활용하여 홀수인지 짝수인지를 판단하라.     
+`if i % 2 == 0` 이면 짝수이다. 
 {: .notice--info}
 
 <br>
@@ -1062,14 +1073,27 @@ print count([1, 2, 1, 1], 1)
 
 
 ```python
+def purify(lst):
+    res = []
+    for ele in lst:
+        if ele % 2 == 0:
+            res.append(ele)
+    return res
+  
+print purify([1, 2, 3, 4])
 ```
 
-**설명:** 
+**설명:**     
+리스트 `lst`를 입력받고, 새로운 빈 리스트 `res`를 초기화 하자.     
+`lst`의 값을 추출하여 `ele` 변수에 저장하고, 이 `ele`변수가 짝수인지를 (`ele % 2==0`)를 검사하여 짝수이면 리스트 `res=[]`에 추가한다. for 반복문이 끝나면 그 결과값을 return(반환)한다.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+[2, 4]
+```
 
 <br>
 <br>    
@@ -1078,7 +1102,7 @@ print count([1, 2, 1, 1], 1)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 13.
+### 13. 
 
 
 
