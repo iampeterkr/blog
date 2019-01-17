@@ -1102,11 +1102,14 @@ print purify([1, 2, 3, 4])
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 13. 
+### 13. product    
+
+Great! Now let's try a little multiplication.
 
 
 
-**설명:** 
+**설명:**     
+리스트의 내용을 곱해 보자.  
 {: .notice--info}
 
 
@@ -1116,10 +1119,17 @@ print purify([1, 2, 3, 4])
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function called **`product`** that takes a list of integers as input and **returns** the product of all of the elements in the **list**. For example: product([4, 5, 5]) should return 100 (because 4 * 5 * 5 is 100).
+
+Don't worry about the list being empty.
+Your function should return an integer.
 
 
-**설명:** ① 
+
+**설명:**     
+① 함수 `product(lst)`를 만들어 보자. 이 함수는 정수를 입력값으로 가지면 리스트의 모든 값을 곱한 결과를 return(반환)한다. 예를 들면 `product([4,5,5])`를 호출하면, return(반환)값은 100 이다.    
+• 리스트가 비어 있을 경우는 없다.    
+• return(반환)값은 정수이다.
 {: .notice--info}
 
 
@@ -1128,23 +1138,43 @@ print purify([1, 2, 3, 4])
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+You can use a loop to go through the elements of the list.
+
+It'll probably be useful to use the **`*=`** operator.
+
+Be careful **not to start your total at 0**, as this would make the overall result of the multiplication equal to 0! (Anything multiplied by zero equals zero.)
 
 
 
-**설명:** 
+
+**설명:**     
+입력받은 리스트의 값을 하나씩 추출하여 `*=` 기능을 사용하여라.    
+전체 값을 담는 변수 `total`의 초기값은 0으로 해선 안된다. 이유는 곱셈에서 0은 어떤 값을 곱해도 0이다. `total` 초기값은 1로 초기화하라.  
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
 ```python
+def product(list):
+  total = 1
+  for num in list:
+    total = total * num
+    #total *=num
+  return total
+
+print product([4, 5, 5])
 ```
 
-**설명:** 
+**설명:**     
+입력받은 리스트 `list`의 항목 값을 하나씩 추출하여 변수 `total`값에 곱한다. 최종적으로 `total`값을 return(반환)한다. 
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+100
+```
 
 <br>
 <br>    
