@@ -933,11 +933,14 @@ this **** is wack ****
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 11. 
+### 11. count     
+
+Great work so far. Let's finish up by practicing with a few functions that take lists as arguments.
 
 
 
-**설명:** 
+**설명:**     
+리스트를 arguments로 가지는 함수들에 대해서 연습해 보자. 
 {: .notice--info}
 
 
@@ -947,10 +950,26 @@ this **** is wack ****
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function called **`count`** that has two arguments called **`sequence`** and **`item`**.
+
+Return the number of times the item occurs in the list.
+
+For example: count([1, 2, 1, 1], 1) should return 3 (because 1 appears 3 times in the list).
+
+* There is a list method in Python that you can use for this, but you should do it the long way for practice.
+* Your function should return an integer.
+* The item you input may be an integer, string, float, or even another list!
+* Be careful not to use list as a variable name in your code—it's a reserved word in Python!
 
 
-**설명:** ① 
+
+**설명:**     
+① 함수 `count(sequence, item)`을 만들어라.
+예를 들면 `count([1,2,1,1], 1)`을 호출하면 3이 반환된다. 이유는 1이 리스트에 3개가 들어 있기 때문이다.    
+• python 자체 내장 함수에서 리스트의 특정 항목의 갯수를 찾아주는 기능이 있지만, 연습을 위해서 우리는 직접 만들어 보자    
+• return(반환값)은 정수(integer) 이다.    
+• 입력값은 정수(integer), 문자(string), 실수(float) 또는 다른 것일 수 있다.    
+• 리스트 변수명을 정할때, python에서 예약된 코드(ex, if )를 사용하면 안된다.    
 {: .notice--info}
 
 
@@ -959,10 +978,11 @@ this **** is wack ****
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+You can set a **`sum`** variable inside count. You can then iterate over sequence and increment **`sum`** every time you find an element in the sequence that matches item.
 
 
-
-**설명:** 
+**설명:**     
+변수 `sum`을 만들어, 찾고자 하는 숫자와 같은 것이 있으면 `sum`을 1씩 증가시킨다. 
 {: .notice--info}
 
 <br>
@@ -973,14 +993,27 @@ this **** is wack ****
 
 
 ```python
+def count(sequence, item):
+    count = 0
+    for i in sequence:
+        if i == item:
+            count += 1
+    return count
+  
+print count([1, 2, 1, 1], 1)
 ```
 
-**설명:** 
+**설명:**     
+리스트 [1,2,1,1]을 입력받고, 이중 1이 몇개 있는가를 찾는 프로그램이다.    
+`sequence=[1,2,1,1]`에서 `i`가 하나씩 추출하여, `if i==item`비교하여 일치하면, 변수 `count`를 1씩 증가시킨다. for 문이 끝나고 최종 `count`값을 return(반환)한다.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+3
+```
 
 <br>
 <br>    
