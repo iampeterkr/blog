@@ -1,9 +1,9 @@
 ---
 # layout : rchive
-title: "String & Console Output"
-permalink: /--/
+title: "Advanced Topics in Python"
+permalink: /advanced-topics-python/
 excerpt: "We learn about String, Console, and Output Syntax."
-last_modified_at: 2019-01-01T09:00:00-04:00
+last_modified_at: 2019-01-18T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -18,7 +18,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -31,7 +31,8 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
 {: .notice--info}
 
 
@@ -43,7 +44,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -56,7 +57,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -75,7 +77,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -85,10 +87,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -100,7 +104,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -113,7 +118,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
@@ -132,7 +137,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -142,10 +147,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -157,7 +164,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -170,14 +178,15 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
 
-**결과**     
+**결과** 
 ``` 
-```   
+```
 
 <br>
 <br>    
@@ -190,7 +199,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]      
 {: .notice--info}
 
 
@@ -200,10 +209,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -215,7 +226,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -228,7 +240,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -248,7 +261,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]      
 {: .notice--info}
 
 
@@ -258,10 +271,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -273,7 +288,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -286,14 +302,15 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
-```   
+```
 
 <br>
 <br>    
@@ -306,7 +323,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -316,10 +333,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -331,7 +350,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -344,14 +364,15 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
 
 **결과**     
+``` 
 ```
-```   
 
 <br>
 <br>    
@@ -364,7 +385,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -374,10 +395,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -389,7 +412,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -402,7 +426,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -422,7 +447,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -432,10 +457,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -447,7 +474,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -460,7 +488,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -480,7 +509,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -490,10 +519,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -505,7 +536,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -518,7 +550,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -538,7 +571,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -548,10 +581,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -563,7 +598,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -576,7 +612,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -596,7 +633,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -606,10 +643,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -621,7 +660,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -634,7 +674,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -654,7 +695,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -664,10 +705,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -679,7 +722,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -692,7 +736,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -712,7 +757,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -722,10 +767,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -737,7 +784,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -746,7 +794,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -765,7 +814,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -775,10 +824,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -790,7 +841,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 **결과**     
@@ -807,7 +859,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -828,7 +881,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -838,10 +891,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -853,7 +908,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -866,7 +922,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -885,7 +942,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -895,10 +952,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -910,7 +969,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -923,7 +983,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -942,7 +1003,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -952,10 +1013,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -967,7 +1030,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -980,7 +1044,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -999,7 +1064,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -1009,10 +1074,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -1024,7 +1091,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -1037,7 +1105,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 
@@ -1056,7 +1125,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -1066,10 +1135,12 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -1081,7 +1152,8 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]     
+
 {: .notice--info}
 
 <br>
@@ -1094,7 +1166,8 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
+
 {: .notice--info}
 
 

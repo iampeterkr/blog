@@ -18,7 +18,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -31,7 +31,8 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
 {: .notice--info}
 
 
@@ -43,7 +44,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -56,11 +57,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -73,7 +76,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -86,7 +89,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -98,7 +103,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -111,11 +116,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -128,7 +135,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -141,7 +148,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -153,7 +162,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -166,12 +175,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+```
 
 <br>
 <br>    
@@ -184,7 +195,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]      
 {: .notice--info}
 
 
@@ -197,7 +208,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -209,7 +222,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -222,12 +235,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -240,7 +255,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]      
 {: .notice--info}
 
 
@@ -253,7 +268,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -265,7 +282,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -278,12 +295,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```
 
 <br>
 <br>    
@@ -296,7 +315,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -309,7 +328,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -321,7 +342,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -334,12 +355,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```
 
 <br>
 <br>    
@@ -352,7 +375,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -365,7 +388,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -377,7 +402,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -390,12 +415,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -408,7 +434,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -421,7 +447,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -433,7 +461,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -446,12 +474,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -464,7 +494,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -477,7 +507,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -489,7 +521,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -502,12 +534,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -520,7 +554,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -533,7 +567,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -545,7 +581,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -558,12 +594,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -576,7 +614,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -589,7 +627,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -601,7 +641,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -614,12 +654,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -632,7 +674,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -645,7 +687,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -657,7 +701,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -670,12 +714,14 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -688,7 +734,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -701,7 +747,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -713,7 +761,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -722,11 +770,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -739,7 +789,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -752,7 +802,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -764,10 +816,12 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <hr/>
@@ -779,11 +833,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 
 
@@ -798,7 +854,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -811,7 +867,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -823,7 +881,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -836,11 +894,12 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
-
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -853,7 +912,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -866,7 +925,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -878,7 +939,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -891,11 +952,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -908,7 +971,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -921,7 +984,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -933,7 +998,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -946,11 +1011,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -963,7 +1030,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -976,7 +1043,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -988,7 +1057,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -1001,11 +1070,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 <br>
 <br>    
@@ -1018,7 +1089,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Learn ]     
 {: .notice--info}
 
 
@@ -1031,7 +1102,9 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ Instruction ]    
+① 
+
 {: .notice--info}
 
 
@@ -1043,7 +1116,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ Hint ]    
 {: .notice--info}
 
 <br>
@@ -1056,11 +1129,13 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ Solution ]     
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과**     
+``` 
+```   
 
 
 <br>
