@@ -652,11 +652,17 @@ print grades_variance(grades)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 8. 
+### 8. Standard Deviation    
+
+Great job computing the variance! The last statistic will be much simpler: standard deviation.
+
+The standard deviation is the square root of the variance. You can calculate the square root by raising the number to the one-half power.
 
 
 
-**설명:** 
+**설명:** [ 표준편차 ]    
+• 분산에 이어, 우리가 연습할 것은 표준편차 이다.    
+• 표준편차는 분산을 square root(√, 양의 제곱근)한 것이다. 
 {: .notice--info}
 
 
@@ -666,10 +672,22 @@ print grades_variance(grades)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function, `grades_std_deviation`, that takes one argument called `variance`.
+
+return the result of `variance ** 0.5`
+
+After the function, create a new variable called `variance` and store the result of calling `grades_variance(grades)`.
+
+Finally print the result of calling `grades_std_deviation(variance)`.
 
 
-**설명:** ① 
+
+
+**설명:**     
+① 함수 `grades_std_deviation(variance)`를 만드시오.    
+• 함수는 `variance ** 0.5`를 return(반환)한다.        
+• 함수 밖에서 변수 `variance`를 만들고, `grades_variance(grades)`호출하여 받은 결과값을 저장하라.    
+• 함수 `grades_std_deviation(variance)`를 호출하여, 그 결과 값을 출력하라.
 {: .notice--info}
 
 
@@ -678,10 +696,12 @@ print grades_variance(grades)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Remember, raising a number to an exponent involves using the exponentiation `**` operator.
 
 
+**설명:** [hint]    
+`**`연산자는 지수를 계산해주는 연산자 이다. 
 
-**설명:** 
 {: .notice--info}
 
 <br>
@@ -692,14 +712,49 @@ print grades_variance(grades)
 
 
 ```python
+grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
+
+def print_grades(grades_input):
+  for grade in grades_input:
+    print grade
+
+def grades_sum(scores):
+  total = 0
+  for score in scores: 
+    total += score
+  return total
+    
+def grades_average(grades_input):
+  sum_of_grades = grades_sum(grades_input)
+  average = sum_of_grades / float(len(grades_input))
+  return average
+
+def grades_variance(grades):
+    variance = 0
+    for number in grades:
+        variance += (grades_average(grades) - number) ** 2
+    return variance / len(grades)
+
+def grades_std_deviation(variance):
+  return variance ** 0.5
+
+variance = grades_variance(grades)
+
+print grades_std_deviation(variance)
 ```
 
-**설명:** 
+**설명:** [solution]    
+• 함수 `grades_std_deviation(variance)`는 `variance ** 0.5`를 계산하여 반환합니다.     
+• 외부 변수 `variance`에 grades_variance(grades)분산을 호출하여 그 결과값을 저장합니다.    
+• `grades_std_deviation(variance)`호출하여 표준편차를 출력합니다.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+18.2776094147
+```
 
 <br>
 <br>    
@@ -708,11 +763,23 @@ print grades_variance(grades)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 9. 
+### 9. Review    
+
+You've done a great job completing this program.
+
+We've created quite a few meaningful functions. Namely, we've created helper functions to print a list of grades, compute the sum, average, variance, and standard deviation about a set of grades.
+
+Let's wrap up by printing out all of the statistics.
+
+Who needs to pay for grade calculation software when you can write your own? :)
 
 
 
-**설명:** 
+
+
+**설명:** [ learn ]    
+• 우리는 점수를 출력해주는 함수, 합, 평균, 분산, 표준편차를 계산해 주는 함수를 직접 만들어 보았다.    
+• 이 장에서는 모든 통계값들을 출력해 보자.    
 {: .notice--info}
 
 
@@ -722,10 +789,23 @@ print grades_variance(grades)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① Print out the following:
+
+* all of the grades
+* sum of grades
+* average grade
+* variance
+* standard deviation
 
 
-**설명:** ① 
+
+**설명:** [ Instruction ]     
+① 아래 내용들을 출력하여라.    
+• 모든 점수들    
+• 점수의 합   
+• 평균 점수   
+• 분산 값    
+• 표준편차 값
 {: .notice--info}
 
 
@@ -734,10 +814,11 @@ print grades_variance(grades)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+You need to use all of the helper functions that you've created and print out their results.
 
 
-
-**설명:** 
+**설명:** [ Hint ]    
+• 지금껏 만든 함수를 호출하면 된다. 
 {: .notice--info}
 
 <br>
@@ -748,571 +829,73 @@ print grades_variance(grades)
 
 
 ```python
+grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
+
+def print_grades(grades_input):
+  for grade in grades_input:
+    print grade
+
+def grades_sum(scores):
+  total = 0
+  for score in scores: 
+    total += score
+  return total
+    
+def grades_average(grades_input):
+  sum_of_grades = grades_sum(grades_input)
+  average = sum_of_grades / float(len(grades_input))
+  return average
+
+def grades_variance(grades):
+    variance = 0
+    for number in grades:
+        variance += (grades_average(grades) - number) ** 2
+    return variance / len(grades)
+
+def grades_std_deviation(variance):
+  return variance ** 0.5
+
+variance = grades_variance(grades)
+
+for grade in grades:
+  print grade
+print grades_sum(grades)
+print grades_average(grades)
+print grades_variance(grades)
+print grades_std_deviation(variance)
 ```
 
-**설명:** 
+**설명:** [ Solution ]    
+• `for grade in grades:` 각 점수는 for문을 돌면서 출력해야 한다.    
+• `print grades_sum(grades)` 점수 합    
+• `print grades_average(grades)` 평균 점수    
+• `print grades_variance(grades)`분산 값   
+• `print grades_std_deviation(variance)`표준편차 값 
 {: .notice--info}
 
 
 
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 10. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
+**결과** 
+``` 
+100
+100
+90
+40
+80
+100
+85
+70
+90
+65
+90
+85
+50.5
+1045.5
+80.4230769231
+334.071005917
+18.2776094147
 ```
 
-**설명:** 
-{: .notice--info}
-
-
-
-**결과** ``` ```
-
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 11. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 12. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 13.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 14. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-**결과** ``` ```
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 15.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 16. 
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 17.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 18.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 19.
-
-
-
-**설명:** 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-**①** 
-
-
-**설명:** ① 
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** 
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** 
-{: .notice--info}
-
-
-**결과** ``` ```
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
