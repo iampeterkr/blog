@@ -469,11 +469,17 @@ print grades_average(grades)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 6. 
+### 6. Review    
+
+Great work creating the capability to compute the average of the test grades.
+
+We're going to use the average for computing the variance. The variance allows us to see how widespread the grades were from the average.
 
 
 
-**설명:** 
+**설명:**     
+지금껏 우리는 시험 점수의 평균을 계산하는 작업을 수행하였다.   
+다음장에서 우리는 다양한 평균을 통하여, 그 평균을 등급으로 전환하는 프로그램을 만들 것이다. 
 {: .notice--info}
 
 
@@ -483,10 +489,11 @@ print grades_average(grades)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Hit Run to continue.
 
 
-**설명:** ① 
+**설명:**     
+① `Run`을 실행 하여라.  
 {: .notice--info}
 
 
@@ -495,10 +502,11 @@ print grades_average(grades)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+skip
 
 
-
-**설명:** 
+**설명:**     
+skip
 {: .notice--info}
 
 <br>
@@ -509,14 +517,19 @@ print grades_average(grades)
 
 
 ```python
+print "Time to conquer the variance!"
 ```
 
 **설명:** 
+skip
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+Time to conquer the variance!
+```
 
 <br>
 <br>    
