@@ -366,11 +366,15 @@ print grades_sum(grades)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 5. 
+### 5. Computing the Average    
+
+The average test grade can be found by **dividing** the sum of the grades by the total number of grades.
+
+Luckily, we just created an awesome function, **`grades_sum`** to compute the sum.
 
 
-
-**설명:** 
+**설명:**    
+시험 점수의 평균을 구하기 위해선, 전체 점수를 과목별로 나누는 것이다. 우리는 앞에서 이미 `grade_sum()` 함수를 만들었다. 이장에서는 dividing(나누기)에 대하여 연습해 보자.  
 {: .notice--info}
 
 
@@ -380,10 +384,24 @@ print grades_sum(grades)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function, **`grades_average`**, below the **`grades_sum`** function that does the following:
+
+* Has one argument, `grades_input`, a list
+* Calls `grades_sum` with `grades_input`
+* Computes the average of the grades by **dividing that sum by float(len(grades_input))**.
+* Returns the **average**.
+Call the newly created **`grades_average`** function with the list of grades and print the result.
 
 
-**설명:** ① 
+
+
+**설명:**     
+① 함수 `grades_average()`밑에 `grades_sum(grades_input)`함수를 만드시오.     
+• 함수는 `grades_input` 입력값을 가진다.    
+• `grades_sum(grades_input)`으로 함수를 호출한다.   
+• 평균을 구하기 위하여 전체 합을 나눌때 `float(len(grades_input))`으로 나눈다.   
+• `average`를 return(반환)한다.    
+마지막에 `grades_average(grades)`을 호출하여 출력한다.  
 {: .notice--info}
 
 
@@ -392,10 +410,14 @@ print grades_sum(grades)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Your **`grades_average`** function should use the built-in Python **`len`** function and your **`grades_sum`** function to compute the average.
+
+Remember that **integer division** in Python will always **result in an integer**. We convert **len(grades_input) is a float** so that the average is a float.
 
 
-
-**설명:** 
+**설명:**     
+`grades_average()`함수는 내재 함수인 `len()`을 사용하면 된다. 그리고, `grades_sum()`함수는 평균을 구하면 된다.    
+정수로 나누면 정수가 반환되고, 실수로 나누면 실수가 반환된다. 우리는 실수로 나눌 것이다.
 {: .notice--info}
 
 <br>
@@ -406,14 +428,39 @@ print grades_sum(grades)
 
 
 ```python
+grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
+
+def grades_sum(scores):
+  total = 0
+  for score in scores: 
+    total += score
+  return total
+
+print grades_sum(grades)
+
+def grades_average(grades_input):
+  sum_of_grades = grades_sum(grades_input)
+  average = sum_of_grades / float(len(grades_input))
+  return average
+
+print grades_average(grades)
 ```
 
-**설명:** 
+**설명:**     
+• `grades_input`을 입력 받는다.    
+•  함수 `grades_average(grades_input)`는 전체 성적의 합(`sum_of_grades`)을 구한다.    
+• `float(len(grades_input))` 리스트의 갯수를 구하고 그 값은 float(실수) 로 변환한다.        
+• `sum_of_grades`전체 합을 `float(len(grades_input))`으로 나눈다.       
+• `average`계산된 평균값을 return(반환)한다.    
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+1045.5
+80.4230769231
+```
 
 <br>
 <br>    
