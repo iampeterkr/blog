@@ -189,11 +189,23 @@ print_grades(grades)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 3.  
+### 3. Review    
+
+So far, you've created a helper function that will be used in the next sections.
+
+You also have a solid handle on the concepts that we'll need to continue.
+
+The next step in the creation of our grade statistics program involves computing the mean (average) of the grades.
+
+Onwards.
+
+ 
 
 
 
-**설명:** 
+**설명:**     
+지금까지는, 다음 장에서 사용할 함수들을 만들었습니다. 또한 당신은 앞으로도 확실한 개념을 잡아갈 것입니다.     
+다음 장에는 우리의 성적 통계를 평균값을 만드는것을 해 보도록 하겠습니다.
 {: .notice--info}
 
 
@@ -203,10 +215,11 @@ print_grades(grades)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Hit Run to continue.
 
 
-**설명:** ① 
+**설명:**     
+① `Run`을 실행하세요. 
 {: .notice--info}
 
 
@@ -215,10 +228,11 @@ print_grades(grades)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+skip
 
 
-
-**설명:** 
+**설명:**     
+skip 
 {: .notice--info}
 
 <br>
@@ -229,6 +243,7 @@ print_grades(grades)
 
 
 ```python
+print "Let's compute some stats!"
 ```
 
 **설명:** 
@@ -236,7 +251,10 @@ print_grades(grades)
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+Let's compute some stats!
+```
 
 <br>
 <br>    
@@ -245,11 +263,26 @@ print_grades(grades)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 4.
+### 4. The sum of scores    
+
+Now that we have a function to **print the grades**, let's create another function to compute the sum of all of the test grades.
+
+This will be super-helpful when we need to compute the average score.
+
+I know what you're thinking, "let's just use the built-in sum function!" The built-in function would work beautifully, but it would be too easy.
+
+Computing the sum manually involves computing a rolling sum. As you loop through the list, add the current grade to a variable that keeps track of the total, let's call that variable total.
 
 
 
-**설명:** 
+
+
+**설명:**     
+우리는 성적을 출력해주는 함수와, 시험 성적의 전체 합을 계산해주는 함수를 만든다    
+이 두함수는 평균 점수를 계산할때 필요하며, 아주 유용하다.    
+당신은 내재 함수인 `sum()`을 사용하면 간단할텐데 라고 생각할 것이다. 하지만, 그것은 너무 쉬운 방법이다.    
+우리는 수동 으로 sum(합)을 계산하는 함수를 만든다.   
+이 함수는 리스트를 읽으며 loop(반복)를 돈다. 그리고 각 점수들을 더하여 변수 `total` 에 저장한다. 
 {: .notice--info}
 
 
@@ -259,10 +292,22 @@ print_grades(grades)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** On line 3, define a function, **`grades_sum`**, that does the following:
+
+* Takes in a list of scores, `scores`
+* Computes the sum of the scores
+* Returns the computed sum.
+Call the newly created **`grades_sum`** function with the list of grades and print the result.
 
 
-**설명:** ① 
+
+
+**설명:**     
+① 함수 `grades_sum(scores)`를 만들어라.    
+• 점수들이 들어 있는 리스트 `scores`를 가진다.   
+• 점수들을 합하여라.     
+• sum(합계)을 반환하라.   
+함수 `grades_sum(grades)`를 호출하여 출력하라. 
 {: .notice--info}
 
 
@@ -271,10 +316,14 @@ print_grades(grades)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+To compute a rolling sum, create a variable total that's initialized to zero. Then, as you loop through the list of grades, add the current grade to total.
+
+Avoid using sum as a variable name as it has a special meaning in Python!
 
 
-
-**설명:** 
+**설명:**     
+합계를 반복적으로 돌리기 위해선, 변수 `total`를 0으로 초기화 해야 한다. 그런 다음 입력 받은 리스트를 하나씩 값을 읽으며 그 값을 변수 `total`에 저장해야 한다.    
+단, 변수명을 지정할때, Python 예약어는 피해야 한다.  
 {: .notice--info}
 
 <br>
@@ -285,14 +334,30 @@ print_grades(grades)
 
 
 ```python
+grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
+
+def grades_sum(scores):
+  total = 0
+  for score in scores: 
+    total += score
+  return total
+
+print grades_sum(grades)
 ```
 
-**설명:** 
+**설명:**     
+• 합계를 저장할 변수 `total`을 0으로 초기화 환다.    
+• 입력받은 리스트 `scores`를 하나씩 읽어서 값을 추출한다.
+• 추출한 값을 변수 `total`에 더한다.   
+• for 반복문이 끝나면 변수 `total`값을 return(반환)한다.    
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+1045.5
+```
 
 <br>
 <br>    
