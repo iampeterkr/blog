@@ -83,7 +83,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -138,7 +138,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -194,7 +194,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -250,7 +250,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -306,7 +306,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -362,7 +362,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -418,7 +418,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -474,7 +474,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -530,7 +530,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -586,7 +586,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -642,7 +642,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -698,7 +698,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -749,7 +749,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -808,7 +808,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -863,7 +863,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -918,7 +918,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -973,7 +973,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 
@@ -1028,7 +1028,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① 
 
 
 **설명:** ① 

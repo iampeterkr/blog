@@ -479,7 +479,7 @@ We're going to use the average for computing the variance. The variance allows u
 
 **설명:**     
 지금껏 우리는 시험 점수의 평균을 계산하는 작업을 수행하였다.   
-다음장에서 우리는 다양한 평균을 통하여, 그 평균을 등급으로 전환하는 프로그램을 만들 것이다. 
+다음장에서 우리는 평균으로 부터 variance(분산)을 통하여 성적의 분포도를 볼 것이다. 
 {: .notice--info}
 
 
@@ -538,11 +538,16 @@ Time to conquer the variance!
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 7. 
+### 7. The Variance    
+
+Let's see how the grades varied against the average. This is called computing the variance.
+
+A very large variance means that the students' grades were all over the place, while a small variance (relatively close to the average) means that the majority of the students had similar grades.
 
 
-
-**설명:** 
+**설명:**    
+성적들이 평균과 얼마나 떨어져 있는지를 살펴보자. 이것을 분산이라고 부른다.    
+평균에서 많이 떨어져 있다는 것은 학생들의 점수가 다양하게 넓게 흩어져 있다는 의미이고, 반대인 경우는 학생들의 점수가 좁게 분포되어 있다는 의미이다.  
 {: .notice--info}
 
 
@@ -552,10 +557,25 @@ Time to conquer the variance!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+① On line 18, define a new function called **`grades_variance`** that accepts one argument, **`scores`**, a list.
+
+* First, create a variable **`average`** and store the result of calling **`grades_average(scores)`**.
+* Next, create another variable **`variance`** and set it to zero. We will use this as a rolling sum.
+* for each score in scores: Compute its squared difference: `(average - score) ** 2` and add that to `variance`.
+* Divide the total `variance` by the number of scores.
+* Then, return that result.
+Finally, after your function code, print `grades_variance(grades)`.
 
 
-**설명:** ① 
+
+**설명:**    
+① 함수 `grades_variance(scores)`를 만들어라.    
+• 먼저, 변수 `average`를 만들고, `grades_average(scores)`를 호출하여 얻은 결과값을 저장하라.    
+• 다음으로, 변수 `variance`를 만들고, 0으로 초기화 하라. 나중에 분산값들을 합을 구할때 사용할 것이다.       
+• for 문에서 각각의 점수들을 추출하여 차이를 계산한다.`( average - score)**2`, 그리고 그 결과값을 `variance`에 저장한다.     
+• 전체 `variance`를 점수들의 갯수(`len(grades)`) 로 나눈다      
+• 그리고, 그 결과 값을 return(반환)한다.    
+마지막으로 `grades_variance(grades)`를 호출하여 출력한다.
 {: .notice--info}
 
 
@@ -564,10 +584,13 @@ Time to conquer the variance!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+```python
+return variance / len(grades)
+```
 
 
-
-**설명:** 
+**설명:**     
+최종 점수 값들의 수만큼 나눠 줘야 한다. 
 {: .notice--info}
 
 <br>
@@ -578,14 +601,49 @@ Time to conquer the variance!
 
 
 ```python
+grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
+
+def print_grades(grades_input):
+  for grade in grades_input:
+    print grade
+
+def grades_sum(scores):
+  total = 0
+  for score in scores: 
+    total += score
+  return total
+    
+def grades_average(grades_input):
+  sum_of_grades = grades_sum(grades_input)
+  average = sum_of_grades / float(len(grades_input))
+  return average
+
+def grades_variance(scores):
+    average = grades_average(scores)
+    variance = 0
+    for score in scores:
+        variance += (average - score) ** 2
+    return variance / len(scores)
+
+print grades_variance(grades)
 ```
 
-**설명:** 
+**설명:**     
+• 변수 `average`에 `grades_average(scores)`호출하여 얻은 결과값을 저장한다.   
+• 변수 `variance = 0` 0으로 초기화 한다.   
+• for 문을 돌면서 입력값 리스트 `scores`의 항목 값들을 하나씩 추출한다.   
+• `(average - score) ** 2` 변수 `average`과 `score`의 차이를 구하고, 그 결과값을 제곱근하여 값을 구한다.    
+• 변수 `variance`에 `(average - score) ** 2`결고 값을 반복하여 저장한다.     
+• 합해진 `variance`에 `len(scores)`를 나누어 산출된 그 결과 값을 return(반환)한다.    
+함수 `grades_variance(grades)`를 호출하여 출력한다.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
+``` 
+334.071005917
+```
 
 <br>
 <br>    
