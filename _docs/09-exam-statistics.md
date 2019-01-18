@@ -91,11 +91,14 @@ Grades: [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
-### 2.  
+### 2. Print those grades    
+
+As a refresher, let's start off by writing a function to print out the list of grades, one element at a time. 
 
 
 
-**설명:** 
+**설명:**     
+복습 겸, 등급 리스트를 출력해주는 함수를 만들어 보자. 한번에 한 항목 하나씩 출력된다.  
 {: .notice--info}
 
 
@@ -105,10 +108,19 @@ Grades: [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** 
+**①** Define a function on line 3 called **`print_grades`** with one argument, a list called **`grades_input`**.
+
+* Inside the function, iterate through **`grades_input`** and print each item on its own line.
+
+* After your function, call **`print_grades`** with the grades list as the parameter.
 
 
-**설명:** ① 
+
+
+**설명:**     
+① 함수 `print_grades(grades_input)`를 만들어 보자.   
+• `grade_input`을 반복적으로 돌면서 항목을 하나씩 추출하여 출력한다.     
+•  `print_grade(grade)`로 호출 합니다. 
 {: .notice--info}
 
 
@@ -117,10 +129,16 @@ Grades: [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Need help with your for loop?
+```python
+numbers = [2, 3, 5, 8, 13]
 
+for n in numbers:
+  print n
+```
 
-
-**설명:** 
+**설명:**     
+`for` 문을 활용하여 loop(반복) 한다. 
 {: .notice--info}
 
 <br>
@@ -131,13 +149,38 @@ Grades: [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 
 
 ```python
+grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
+
+def print_grades(grades_input):
+  for grade in grades_input:
+    print grade
+
+print_grades(grades)
 ```
 
-**설명:** 
+**설명:**     
+• `print_grades(grades)`를 호출하면, 해당 함수가 호출됩니다.   
+• for 문을 반복하여 입력받은 리스트 `grades_input`을 하나씩 추출하여 변수 `grade` 에 저장합니다.    
+• 변수 `grade`를 출력합니다. 
 {: .notice--info}
 
 
-**결과** ``` ```
+**결과** 
+``` 
+100
+100
+90
+40
+80
+100
+85
+70
+90
+65
+90
+85
+50.5
+```
 
 <br>
 <br>    
