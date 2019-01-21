@@ -294,11 +294,20 @@ occupation Dentist
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 4.
+### 4. Building Lists    
 
+Let's say you wanted to build a list of the numbers from 0 to 50 (inclusive). We could do this pretty easily:
+```python
+my_list = range(51)
+```
+But what if we wanted to generate a list according to some logic—for example, a list of all the even numbers from 0 to 50?
+
+Python's answer to this is the list comprehension. List comprehensions are a powerful way to generate lists using the for/in and if keywords we've learned.
 
 
 **설명:** [ Learn ]      
+0부터 50까지의 정수를 리스트에 저장하고 싶으면 `my_list = range(51)`이라고 사용하면 된다. 만약, 0부터 50사이의 짝수만 저장하고 싶다면?     
+Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여 list comprehension을 기능을 사용하면 쉽게 만들수 있다.
 {: .notice--info}
 
 
@@ -308,12 +317,11 @@ occupation Dentist
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Check out the list comprehension example in the editor. When you're pretty sure you know what it'll do, click Run to see it in action.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① edit 창에 있는 소스를 이해하고 실행시켜 보아라. 
 {: .notice--info}
 
 
@@ -322,10 +330,11 @@ occupation Dentist
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+skip
 
 
 **설명:** [ Hint ]    
+skip
 {: .notice--info}
 
 <br>
@@ -336,15 +345,19 @@ occupation Dentist
 
 
 ```python
+evens_to_50 = [i for i in range(51) if i % 2 == 0]
+print evens_to_50
 ```
 
 **설명:** [ Solution ]     
-{: .notice--info}
+리스트 안에 for 문과 if문을 두어 해당 결과값이 for 앞에 있는 i에 저장되어 리스트에 i 값이 장된다. 
+{: .notipce--info}
 
 
 
 **결과**     
 ``` 
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
 ```   
 
 <br>
@@ -354,11 +367,31 @@ occupation Dentist
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 5. 
+### 5. List Comprehension Syntax    
+
+Here's a simple example of list comprehension syntax:
+```python
+new_list = [x for x in range(1, 6)]
+# => [1, 2, 3, 4, 5]
+```
+This will create a new_list populated by the numbers one to five. If you want those numbers doubled, you could use:
+```python
+doubles = [x * 2 for x in range(1, 6)]
+# => [2, 4, 6, 8, 10]
+```
+And if you only wanted the doubled numbers that are evenly divisible by three:
+```python
+doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
+# => [6]
+```
 
 
 
 **설명:** [ Learn ]      
+다음 예제는 list comprehension에 관한것이다.    
+• `new_list = [ x for x in range(1, 6)]`는 맨 앞 x에 for 문 결과값이 저장된다.    
+• `doubles = [x * 2 for x in range(1, 6)]`는 맨 앞 x에 for문 결과값이 저장되고 그 결과에에  `x * 2` 한값이 저장된다.   
+• `doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]` for문과 if문이 실행되어 만족한 x 값 3이 맨앞 x 변수에 저장되어, 그 값에 `x * 2`한 값 6이 리스트에 저장된다. 
 {: .notice--info}
 
 
@@ -368,12 +401,14 @@ occupation Dentist
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Use a list comprehension to build a list called `even_squares` in the editor.
+
+Your `even_squares` list should include the squares of the even numbers between 1 to 11. Your list should start [4, 16, 36...] and go from there.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① 리스트 `even_squares`를 만들어라.     
+• 이 리스트 `even_squares`는 1부터 11사이의 숫자중 짝수의 제곱근을 저장하는 리스트이다.
 {: .notice--info}
 
 
@@ -382,10 +417,16 @@ occupation Dentist
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+You can use `x ** 2` to square a number, and `x % 2 == 0` to check if it's even.
+```python
+# from 1 to 10
+range(1,11) 
+# from 1 to 11
+range(1,12)
+```
 
 **설명:** [ Hint ]    
+제곱근은 `x ** 2`로 구하고, 짝수는 `x % 2 == 0`으로 구한다.
 {: .notice--info}
 
 <br>
@@ -396,15 +437,25 @@ occupation Dentist
 
 
 ```python
+doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
+
+# Complete the following line. Use the line above for help.
+even_squares = [x ** 2 for x in range(1, 12) if x % 2 == 0]
+
+print even_squares
 ```
 
 **설명:** [ Solution ]     
+• 먼저 for문을 실행하여 1부터 11까지의 숫자를 변수 x에 저장된다.    
+• if 문에서 추출된 x 의 값이 2로 나누어 나머지가 0이면, 즉 짝수인지를 판단하고,   
+• x가 if 조건을 만족하면 해당 x 값의 제곱을 구하여 리스트에 저장한다.   
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+[4, 16, 36, 64, 100]
 ```
 
 <br>
