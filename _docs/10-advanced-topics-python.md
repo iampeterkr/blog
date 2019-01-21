@@ -465,11 +465,19 @@ print even_squares
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 6. 
+### 6. Now You Try!    
 
+Great work! Now it's time for you to create a list comprehension all on your own.
+```python
+c = ['C' for x in range(5) if x < 3]
+print c
+```
+The example above creates and prints out a list containing ['C', 'C', 'C'].
 
+ 
 
 **설명:** [ Learn ]     
+for문에서 5개의 x값을 구하고 이 x 값이 3보다 작은 경우는 0, 1, 2이다. 즉, 3번의 'C'문자가 리스트에 저장되고, 이 리스트 c 를 출력한다.
 {: .notice--info}
 
 
@@ -479,11 +487,23 @@ print even_squares
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Use a list comprehension to create a list, `cubes_by_four`.
+
+* The comprehension should consist of the cubes of the numbers 1 through 10 only if the cube is evenly divisible by four.
+
+* Finally, print that list to the console.
+
+Note that in this case, the cubed number should be evenly divisible by 4, not the original number.
+
+
 
 
 **설명:** [ Instruction ]    
-① 
+① 리스트 `cubes_by_four`에 list comprehension을 만들어라.     
+• 1부터 10까지의 숫자를 3제곱(cube) 하여 4로 나누어 떨어지는 값을 리스트에 저장하라.     
+• 위 결과가 담긴 리스트 `cubes_by_four`을 출력하라.    
+리스트 `cubes_by_four`는 4로 나눈 나머지 값들이다.    
+
 
 {: .notice--info}
 
