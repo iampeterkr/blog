@@ -9,11 +9,16 @@ redirect_from:
 toc: true
 ---
     
+<hr style="border: solid 1px #dddddd ;">    
+LESSON
+
+In this lesson, we'll cover some of the more complex aspects of Python, including iterating over data structures, list comprehensions, list slicing, and lambda expressions.    
     
- <hr style="border: solid 1px #dddddd ;">
+<hr style="border: solid 1px #dddddd ;">    
+
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 1. Strings 
 
 
@@ -71,7 +76,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 2.  
 
 
@@ -130,7 +135,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 3.  
 
 
@@ -190,7 +195,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 4.
 
 
@@ -250,7 +255,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 5. 
 
 
@@ -310,7 +315,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 6. 
 
 
@@ -370,7 +375,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 7. 
 
 
@@ -429,7 +434,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 8. 
 
 
@@ -489,7 +494,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 9. 
 
 
@@ -549,7 +554,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 10. 
 
 
@@ -609,7 +614,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 11. 
 
 
@@ -669,7 +674,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 12. 
 
 
@@ -729,7 +734,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 13.
 
 
@@ -784,7 +789,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 14. 
 
 
@@ -849,7 +854,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 15.
 
 
@@ -907,7 +912,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 16. 
 
 
@@ -966,7 +971,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 17.
 
 
@@ -1025,7 +1030,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 18.
 
 
@@ -1084,7 +1089,7 @@ toc: true
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 19.
 
 

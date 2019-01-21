@@ -1,7 +1,7 @@
 ---
 # layout : rchive
-title: "Advanced Topics in Python"
-permalink: /advanced-topics-python/
+title: ""
+permalink: /--/
 excerpt: "We learn about String, Console, and Output Syntax."
 last_modified_at: 2019-01-18T09:00:00-04:00
 redirect_from:
