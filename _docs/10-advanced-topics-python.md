@@ -500,11 +500,9 @@ Note that in this case, the cubed number should be evenly divisible by 4, not th
 
 **설명:** [ Instruction ]    
 ① 리스트 `cubes_by_four`에 list comprehension을 만들어라.     
-• 1부터 10까지의 숫자를 3제곱(cube) 하여 4로 나누어 떨어지는 값을 리스트에 저장하라.     
+• 1부터 10까지의 숫자를 3제곱(cube) 하여 4로 나누어 떨어지는 값(X ** 3)을 리스트에 저장하라.     
 • 위 결과가 담긴 리스트 `cubes_by_four`을 출력하라.    
-리스트 `cubes_by_four`는 4로 나눈 나머지 값들이다.    
-
-
+리스트 `cubes_by_four`는 4로 나눈 나머지 값들이다. 원래 x 값이 아니라, x ** 3한 값을 저장하는 것이다.     
 {: .notice--info}
 
 
@@ -513,10 +511,15 @@ Note that in this case, the cubed number should be evenly divisible by 4, not th
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+```python
+#from 1 to 10
+range(1,11)
+```
 
 
 **설명:** [ Hint ]    
+• 1부터 10까지를 출력하려면, `range(1,11)`을 해야한다.    
+• x ** 3 한 값이 `x%4 ==0` 인 값을 저장하는 것이다. 
 {: .notice--info}
 
 <br>
@@ -527,15 +530,21 @@ Note that in this case, the cubed number should be evenly divisible by 4, not th
 
 
 ```python
+cubes_by_four = [x ** 3 for x in range(1, 11) if ((x ** 3) % 4) == 0]
+print cubes_by_four
 ```
 
 **설명:** [ Solution ]     
+• 8 은 `8%4==0`를 충족하고, x=2일때, `2 ** 3` 도 충족한다.      
+• 16 은 `16%4==0`은 충족하지만 `x ** 3 = 16`은 충족하지 않는다.    
+• 64 는 `64%4==0`을 충족하고, x=4일때, `4 ** 3`도 충족한다. 
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+[8, 64, 216, 512, 1000]
 ```
 
 <br>
@@ -545,11 +554,25 @@ Note that in this case, the cubed number should be evenly divisible by 4, not th
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 7. 
+### 7. List Slicing Syntax    
+
+* Sometimes we only want part of a Python list. Maybe we only want the first few elements; maybe we only want the last few. Maybe we want every other element!
+
+* List slicing allows us to access elements of a list in a concise manner. The syntax looks like this:
+```python
+[start:end:stride]
+```
+* Where start describes where the slice starts (inclusive), end is where it ends (exclusive), and stride describes the space between items in the sliced list. For example, a stride of 2 would select every other item from the original list to place in the sliced list.
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]    
+• 우리는 list의 일부분을 발췌하고 싶을때가 있다. 이럴때 List slicing 을 사용한다.    
+• List slicing은 우리가 리스트를 간편하게 접근하게 해준다. 문법은 다음과 같다. `[시작:끝:간격]    
+`시작(start)` : Slicing을 시작할 위치(포함)    
+`끝(end)` : Slicing 끝낼 위치(포함하지 않음)    
+`간격(stride)` : 시작을 포함하여 몇번째를 가져올지(옵션)
+• 시작은 포함하고, 끝은 포함하지 않는다. 간격은 옵션으로 시작을 포함하여 몇 번씩 가져올지를 나타낸다. 
 {: .notice--info}
 
 
@@ -559,12 +582,11 @@ Note that in this case, the cubed number should be evenly divisible by 4, not th
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① We've generated a list with a list comprehension in the editor to the right, and we're about to print a selection from the list using list slicing. Can you guess what will be printed out? Click Run when you think you know!
 
 
 **설명:** [ Instruction ]    
-① 
-
+① Edit 창에서 list comprehension을 돌려 보자. 어떤 값이 예상되는가? 결과값과 당신이 예상한 값이 맞는지 확인해 보라. 
 {: .notice--info}
 
 
@@ -573,10 +595,11 @@ Note that in this case, the cubed number should be evenly divisible by 4, not th
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+skip
 
 
 **설명:** [ Hint ]    
+skip
 {: .notice--info}
 
 <br>
@@ -587,14 +610,21 @@ Note that in this case, the cubed number should be evenly divisible by 4, not th
 
 
 ```python
+l = [i ** 2 for i in range(1, 11)]
+# Should be [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+print l[2:9:2]
 ```
 
 **설명:** [ Solution ]     
+• 리스트의 값은 i 값의 제곱값이 저장된다.[1, 4, 9, 16, ... 81, 100]    
+• 출력되는 값은 index 두번째 값인 9 부터(포함) index 아홉번째 값인 100(미포함)중, 9부터 2번째 항목인 `[9, 25, 49, 81]`가 출력 될 것이다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+[9, 25, 49, 81]
 ```   
 
 <br>
