@@ -1152,11 +1152,21 @@ print filter(lambda x: x == "Python", languages)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 14. 
+### 14. Try It!    
+
+All right! Time to test out `filter()` and `lambda` expressions.
+```python
+cubes = [x ** 3 for x in range(1, 11)]
+filter(lambda x: x % 3 == 0, cubes)
+```
+The example above is just a reminder of the syntax.
 
 
 
 **설명:** [ Learn ]     
+• `filter()`과 `lambda`표현을 조금 더 연습해 보자.    
+• list comprehension을 사용하여 변수 리스트 `cubes`에 `x`가 1부터 10까지의 x 값을 이용하여 `x ** 3`값을 저장한다. 
+• `filter`에서 `cubes`를 입력받아, `x % 3 ==0`값을 골라 낸다.
 {: .notice--info}
 
 
@@ -1166,11 +1176,14 @@ print filter(lambda x: x == "Python", languages)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Create a list, `squares`, that consists of the squares of the numbers 1 to 10. A list comprehension could be useful here!
+
+* Use `filter()` and a `lambda` expression to print out only the squares that are between 30 and 70 (inclusive).
 
 
 **설명:** [ Instruction ]    
-① 
+① 변수 리스트 `squares`에  1부터 10까지의 제곱근 값을 list comprehension 을 사용하여 저장하라.   
+• `filter()`, `lambda`를 사용하여 제곱근 값중 30과 70이하의 값을 출력하라. 
 
 {: .notice--info}
 
@@ -1180,15 +1193,15 @@ print filter(lambda x: x == "Python", languages)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+You'll want to filter for 
+```python
+x >= 30 and x <= 70.
+```
 
 **설명:** [ Hint ]    
+`x >=30 and x <= 70`을 활용하라.
 {: .notice--info}
 
-**결과**     
-``` 
-```   
 
 <br>
 <hr/>
@@ -1198,14 +1211,21 @@ print filter(lambda x: x == "Python", languages)
 
 
 ```python
+squares = [x ** 2 for x in range(1, 11)]
+
+print filter(lambda x: x >= 30 and x <= 70, squares)
 ```
 
 **설명:** [ Solution ]     
+• list comprehension 을 사용하여 1부터 10까지를 산출(`range(1,11)`)한 값을 제곱근(`x ** 2`)한 결과를 변수 `squares`에 저장한다.     
+• `filter()`를 사용하여 입력값 `squares`를 두번째 인자에 넣고, `lambda`로 조건(`x>=30 and x<=70`)을 첫번째 인자에 기술한다.    
+• `filter()`결과값을 출력한다. 
 {: .notice--info}
 
 
 **결과**     
 ``` 
+[36, 49, 64]
 ```   
 
 
@@ -1217,11 +1237,14 @@ print filter(lambda x: x == "Python", languages)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 15.
+### 15. Iterating Over Dictionaries    
+
+First, let's review iterating over a `dict`.
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]   
+딕셔너리의 반복을 다시 복습해 보자.
 {: .notice--info}
 
 
@@ -1231,12 +1254,13 @@ print filter(lambda x: x == "Python", languages)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Call the appropriate method on `movies` such that it will print out all the items (hint, hint) in the dictionary—that is, each key and each value.
+
+
 
 
 **설명:** [ Instruction ]    
-① 
-
+① 적당한 내재 함수를 이용하여 변수 `movies`에 들어있는 항목들 key/value값을 출력하라.
 {: .notice--info}
 
 
@@ -1245,10 +1269,11 @@ print filter(lambda x: x == "Python", languages)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+You'll just want to print the result of calling the `.items()` method on your `movies`. No loops necessary!
 
 
 **설명:** [ Hint ]    
+`.items()`를 활용하여 딕셔너리 `movies`의 항목들 key/value을 출력하여라. loop를 사용할 필요가 없다. 
 {: .notice--info}
 
 <br>
@@ -1259,13 +1284,22 @@ print filter(lambda x: x == "Python", languages)
 
 
 ```python
+movies = {
+  "Monty Python and the Holy Grail": "Great",
+  "Monty Python's Life of Brian": "Good",
+  "Monty Python's Meaning of Life": "Okay"
+}
+
+print ( movies.items() )
 ```
 
 **설명:** [ Solution ]     
+`movies.items()`는 딕셔너리의 항목값들을 튜플 상태로 반환해 준다. 
 {: .notice--info}
 
 **결과**     
 ``` 
+[("Monty Python's Life of Brian", 'Good'), ("Monty Python's Meaning of Life", 'Okay'), ('Monty Python and the Holy Grail', 'Great')]
 ```   
 
 <br>
@@ -1275,11 +1309,17 @@ print filter(lambda x: x == "Python", languages)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 16. 
+## 16. Comprehending Comprehensions    
+
+Good! Now let's take another look at list comprehensions.
+```python
+squares = [x ** 2 for x in range(5)]
+```
 
 
 
 **설명:** [ Learn ]     
+list comprehensions를 복습해 보자.
 {: .notice--info}
 
 
@@ -1289,12 +1329,11 @@ print filter(lambda x: x == "Python", languages)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Use a list comprehension to create a list, `threes_and_fives`, that consists only of the numbers between 1 and 15 (inclusive) that are evenly divisible by 3 or 5.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① 변수 리스트`threes_and_fives`를 만들고, 1부터 15까지의 숫자중 3 or 5로 나누어 떨어지는 값들만 저장하라.
 {: .notice--info}
 
 
@@ -1303,10 +1342,20 @@ print filter(lambda x: x == "Python", languages)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Remember, list comprehension syntax looks like this:
+```python
+list_name = [var for var in range]
+```
+You can include an optional `if` statement after the range. (You'll need such an `if` statement to check whether the numbers are evenly divisible by 3 or 5.)
+
+Remember, modulo (`%`) is a good way to check if a number is evenly divisible by another.
+
 
 
 
 **설명:** [ Hint ]    
+• `for`문으로 `range()`를 구하고, 그 밑에 `if`문과 모듈연산자 `%`를 이용하여 3 or 5로 나누어 지는 값을 구한다. 
+• 출력할 필요는 없지만, print문을 사용하여 확인해 보는것도 좋다. 
 {: .notice--info}
 
 <br>
@@ -1317,14 +1366,21 @@ print filter(lambda x: x == "Python", languages)
 
 
 ```python
+threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
+
+#print (threes_and_fives)
+#[3, 5, 6, 9, 10, 12, 15]
 ```
 
 **설명:** [ Solution ]     
+`for`문으로 `range(1,16)`으로 1부터 15까지의 값을 구하고, 그값 `x`가 `x%3==0 or x%5==0`인지를 확인하고, 그 결과를 맨 앞 `x`에 넣어서 저장한다. 
+변수 `threes_and_fives`를 출력하면 `[3,5,6,9,10,12,15]`가 출력할 것이다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
@@ -1334,11 +1390,21 @@ print filter(lambda x: x == "Python", languages)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 17.
+### 17. List Slicing    
+
+Great! Next up: list slicing.
+```python
+str = "ABCDEFGHIJ"
+start, end, stride = 1, 6, 2
+str[start:end:stride]
+```
+You can think of a Python string as a list of characters.
 
 
 
 **설명:** [ Learn ]     
+list slicing을 복습해 보자.    
+변수 문자열 `str`의 무자열을 list slicing으로 `[1:6:2]`즉, 1번(포함) index부터 6번(미포함) index까지의 값중 2칸씩 건너 뛰어 저장하라.
 {: .notice--info}
 
 
@@ -1348,12 +1414,20 @@ print filter(lambda x: x == "Python", languages)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① The string in the editor is garbled in two ways:
+
+* Our message is backwards.
+* The letter we want is every other letter.    
+Use list slicing to extract the message and save it to a variable called message.
+
+
 
 
 **설명:** [ Instruction ]    
-① 
-
+① edit 창에 있는 문자열을 다음 2가지 문제가 있다.         
+• 글자를 거꾸로 읽어야 한다.    
+• 우리가 원하지 않는 문자들이 섞여 있다.    
+list slicing을 사용하여 변수 `message`에 원하는 문자만 저장해라.
 {: .notice--info}
 
 
@@ -1362,10 +1436,17 @@ print filter(lambda x: x == "Python", languages)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+It's important to remember that lists are mutable (changeable) in Python, but strings aren't; when you slice a string, you get back a new string. The original string is unchanged unless you purposely "save over" it, like this:
+```python
+my_string = "Monty Python"
+# => Monty Python
+my_string = my_string[:-7]
+# => Monty
+```
 
 **설명:** [ Hint ]    
+• 역순으로 index -7부터 읽는 방법은 `my_string[:-7]`이다.    
+• 역순 index도 0부터 -1,-2 씩으로 읽는다.
 {: .notice--info}
 
 <br>
@@ -1376,14 +1457,23 @@ print filter(lambda x: x == "Python", languages)
 
 
 ```python
+garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"
+
+message = garbled[::-2]
+
+#print message
+#I am the secret message!
 ```
 
 **설명:** [ Solution ]     
+• -2값은 1칸씩을 건너 뛰는 것이다. 첫번째 글자는 포함하고 즉, I 찍고, X 건너뛰고, " "찍고, X건너뛰고, a찍고, X건너뛰고......마지막에 !를 찍는다.    
+• 만약, print문을 실행해 보면, 다음과 같이 결과가 나올 것이다.  
 {: .notice--info}
 
 
 **결과**     
 ``` 
+I am the secret message!
 ```   
 
 <br>
@@ -1393,11 +1483,19 @@ print filter(lambda x: x == "Python", languages)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 18.
+### 18. Lambda Expressions    
+
+Last but not least, let's look over some `lambdas`.
+```python
+my_list = range(16)
+filter(lambda x: x % 3 == 0, my_list)
+```
+We've given you another (slightly different) garbled. Sort it out with a `filter()` and a `lambda`.
 
 
 
 **설명:** [ Learn ]     
+`fileter()`와 `lambda`를 사용하여 복습해 보자. 
 {: .notice--info}
 
 
@@ -1407,12 +1505,20 @@ print filter(lambda x: x == "Python", languages)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Create a new variable called `message`.
+
+* Set it to the result of calling `filter()` with the appropriate `lambda` that will filter out the "X"s. The second argument will be `garbled`.
+
+Finally, print your `message` to the console.
+
+
 
 
 **설명:** [ Instruction ]    
-① 
-
+① 변수 `message`를 만들어라.    
+• `filter()`와 `lambda`를 사용하여 입력값 `garbled`에 있는 "X"를 제거하라.    
+• 변수 `message`에 의 결과값을 저장하여라.    
+• 변수 `message`값을 출력하여라. 
 {: .notice--info}
 
 
@@ -1421,10 +1527,17 @@ print filter(lambda x: x == "Python", languages)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+Remember, a lambda expression looks like this:
+```python
+lambda variable: variable expression
+```
+For example, you might have
+```python
+lambda x: x != 10
+```
 
 **설명:** [ Hint ]    
+• `lambda` 사용법은 `lambda x: x != 10`와 같이 `x`가 10이 아닌 값을 `x`에 저장한다.
 {: .notice--info}
 
 <br>
@@ -1435,78 +1548,24 @@ print filter(lambda x: x == "Python", languages)
 
 
 ```python
+garbled = "IXXX aXXmX aXXXnXoXXXXXtXhXeXXXXrX sXXXXeXcXXXrXeXt mXXeXsXXXsXaXXXXXXgXeX!XX"
+
+message = filter(lambda x: x != "X", garbled)
+print message
 ```
 
 **설명:** [ Solution ]     
+• `filter()`에 입력값 `garbled`를 두번째 인수에 입력한다.    
+• 첫번째 인수에는 `lambda x: x != "X"`의 조건값을 실행하여 `x`가 "X"가 아닌 값만 `lambda` `x`에 저장한다.    
+• 최종, `filter()`값이 반환되어 출력된다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+I am another secret message!
 ```   
 
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 19.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-① 
-
-
-**설명:** [ Instruction ]    
-① 
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]    
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
