@@ -822,11 +822,17 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 10. 
+### 10. Stride Length    
+
+A positive stride length traverses the list from left to right, and a negative one traverses the list from right to left.
+
+Further, a stride length of 1 traverses the list "by ones," a stride length of 2 traverses the list "by twos," and so on.
 
 
 
 :**설명:** [ Learn ]     
+• 옵션인 stride(건너뛰다) 는 양수이면 왼쪽에서 오른쪽으로, 음수이면 오른쪽에서 왼쪽으로 진행한다.  
+• 게다가 stride의 값에 따라, 1이면 1칸씩 , 2이면 두칸씩 건너뛴다. 
 {: .notice--info}
 
 
@@ -836,12 +842,16 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Create a variable, `backwards_by_tens`, and set it equal to the result of going backwards through `to_one_hundred` by tens. Go ahead and print `backwards_by_tens` to the console.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① 역순 list slicing에서 stride 값을 주는것을 연습해 보자.    
+• 리스트 변수 `backwards_by_tens`를 만들어라.    
+• 리스트 `to_one_hundred`에서 생성된 값을 역순으로 만어라.    
+• `to_one_hundred`를 역순으로 만들때, 옵션으로 10칸씩 건너뛰게 하라.    
+• 생성된 값을 `backwards_by_tens`에 넣어라.     
+• 그리고 `backwards_by_tens`를 출력한다.
 {: .notice--info}
 
 
@@ -850,10 +860,14 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+Remember, the syntax is:
+```python
+new_list = old_list[begin:end:stride]
+```
 
 **설명:** [ Hint ]    
+• `old_list[begin:end:stride]`를 활용하세요.    
+• stride 값으로 역순이고, 10칸씩 건너뛰는 것은 -10
 {: .notice--info}
 
 <br>
@@ -864,15 +878,23 @@ skip
 
 
 ```python
+to_one_hundred = range(101)
+# Add your code below!
+
+backwards_by_tens = to_one_hundred[::-10]
+print backwards_by_tens
 ```
 
 **설명:** [ Solution ]     
+• `range(101)`은 0부터 100까지 총 101개 생성한다.   
+• `to_one_hundred[::-10]`은 역순으로 10칸씩 건너뛰는 것이다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+[100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0]
 ```   
 
 <br>
@@ -882,11 +904,16 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 11. 
+### 11. Practice Makes Perfect    
+
+Great work! See? This list slicing business is pretty straightforward.
+
+Let's do one more, just to prove you really know your stuff.
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]    
+list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘를 해보세요.  
 {: .notice--info}
 
 
@@ -896,12 +923,17 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Create a list, `to_21`, that's just the numbers from 1 to 21, inclusive.
+
+* Create a second list, `odds`, that contains only the odd numbers in the `to_21` list (1, 3, 5, and so on). Use list slicing for this one instead of a list comprehension.
+
+* Finally, create a third list, `middle_third`, that's equal to the middle third of `to_21`, from 8 to 14, inclusive.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① 리스트 변수 `to_21`을 만들고, 값을 1부터 21까지 저장하라.    
+• 리스트 변수 `odds`에 `to_21`의 홀수 값(1,3,5,...)를 입력하라. 단, list slicing만 사용하여야 한다.(list comprehension사용하지 말라.)    
+• 리스트 변수 `middle_third`에 `to_21`중 8부터 14까지 값을 저장하라.
 {: .notice--info}
 
 
@@ -910,10 +942,11 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+skip
 
 
 **설명:** [ Hint ]    
+skip
 {: .notice--info}
 
 <br>
@@ -924,15 +957,28 @@ skip
 
 
 ```python
+to_21 = range(1, 22)
+#print (to_21)
+#[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+odds = to_21[::2]
+#print (odds)
+#[1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21]
+middle_third = to_21[7:14]
+#print (middle_third)
+#[8, 9, 10, 11, 12, 13, 14]
 ```
 
 **설명:** [ Solution ]     
+• `range(1,22)`는 1붜 21까지 총 21개 정수 발생    
+• `to_21[::2]`는 index 0 값(1)부터 끝까지 중 2칸씩 건너뛰어 발생   
+• `to_21[7:14]`는 index 7값(8)부터 index 14(15) 값을 발생
 {: .notice--info}
 
 
 
 **결과**     
-``` 
+```
+skip
 ```   
 
 <br>
@@ -942,11 +988,30 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 12. 
+### 12. Anonymous Functions    
+
+One of the more powerful aspects of Python is that it allows for a style of programming called **functional programming**, which means that you're allowed to pass functions around just as if they were variables or values. Sometimes we take this for granted, but not all languages allow this!
+
+Check out the code at the right. See the **lambda** bit? Typing
+```python
+lambda x: x % 3 == 0
+```
+Is the same as
+```python
+def by_three(x):
+  return x % 3 == 0
+```
+Only we don't need to actually give the function a name; it does its work and returns a value without one. That's why the function the lambda creates is an anonymous function.
+
+When we pass the lambda to filter, filter uses the lambda to determine what to filter, and the second argument (my_list, which is just the numbers 0 – 15) is the list it does the filtering on.
+
 
 
 
 **설명:** [ Learn ]     
+• Python의 특징중 하나가, 변수나 값을 넘기듯이 함수 자체를 넘길수 있다는 것이다. 이는 모든 언어에서 지원하는 것은 아니고, Python에서는 이 기능을 지원한다.    
+• Python의 특징중, 독특한 것이 하나 있는데, `lambda`라는 것이다. `lambda`는 함수의 이름을 호출하지 않고도 함수를 호출하여 계산한 것처럼, anonymous함수를 만들어 동작한다. 다음장에서 `lambda`에 대한 자세한 문법을 배울것이다. 
+• `lambda`는 입력값에서 값을 인자에 넘겨(필터링 한다고 표현), 표현식을 진행하고 그 결과값을 다시 돌려 받는다.`lambda`의 두번째 인수는 입력값 이다.  
 {: .notice--info}
 
 
@@ -956,12 +1021,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Can you guess what the this code will print to the console? Click Run to see.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① Edit 창에 있는 소스를 실행시켜 어떻게 처리 되는지 알아보자.
 {: .notice--info}
 
 
@@ -969,11 +1033,12 @@ skip
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png) 
+skip
 
 
 **설명:** [ Hint ]    
+skip
 {: .notice--info}
 
 <br>
@@ -984,15 +1049,21 @@ skip
 
 
 ```python
+my_list = range(16)
+print filter(lambda x: x % 3 == 0, my_list)
 ```
 
 **설명:** [ Solution ]     
+• 입력값 `my_list`에서 값을 추출하여 `x`에 저장한다.     
+• `x%3==0`인것만 `filter` 하여 뽑아낸다.    
+• 출력한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+[0, 3, 6, 9, 12, 15]
 ```   
 
 <br>
@@ -1002,11 +1073,22 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 13.
+### 13. Lambda Syntax
+Lambda functions are defined using the following syntax:
+```python
+my_list = range(16)
+filter(lambda x: x % 3 == 0, my_list)
+```
+Lambdas are useful when you need a quick function to do some work for you.
+
+If you plan on creating a function you'll use over and over, you're better off using def and giving that function a name.
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]    
+`lambda`함수는 다음 예와 같이 사용한다.     
+`filter(lambda x: x % 3 == 0, my_list)`    
+`lamda`는 함수를 정의할때, `def`함수 선언이 필요없이 빠르게 한줄로 함수를 구현할때 사용이 가능하다. 함수 이름을 줄 필요도 없다.(Anonymous function)  
 {: .notice--info}
 
 
@@ -1016,12 +1098,14 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Fill in the first part of the `filter` function with a `lambda`. The `lambda` should ensure that only "Python" is returned by the filter.
+
+• Fill in the second part of the filter function with languages, the list to filter.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① `filter` 첫번째 항목에 `lambda`를 사용하라. `lambda` 기능은 `x`가 "Python"인지를 확인한여 맞으면 `filter`에 그 결과를 반환한다.    
+•  `filter` 두번째 항목에 전달할 리스트를 넣어라.
 {: .notice--info}
 
 
@@ -1030,24 +1114,35 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+Remember, `filter()` takes **two arguments**: the first is the function that tells it what to filter, and the second is the object to perform the filtering on.
 
 
 **설명:** [ Hint ]    
+• `filter()`함수는 2개의 arguments를 가진다.     
+• 첫번째 인자는 필터링할 내용(즉, 조건 `lambda x:x=="Python"`)을 적어준다.    
+• 두번째 인자는 필터링할 대상(즉, 입력값 `languages`)를 적어준다.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
 ```python
+languages = ["HTML", "JavaScript", "Python", "Ruby"]
+
+# Add arguments to the filter()
+print filter(lambda x: x == "Python", languages)
 ```
 
 **설명:** [ Solution ]     
+• `filter()`함수에서 첫번째, `lambda`를 실행시켜 `x`가 "Python" 인것만 반환한다.   
+• 두번째 인자에는 입력값 `languages`를 넣어준다.   
+• 그 결과값을 반환한다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+['Python']
 ```   
 
 <br>

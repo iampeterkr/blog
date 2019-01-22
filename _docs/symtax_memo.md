@@ -21,6 +21,12 @@ toc: true
 * my_dic.keys()  : 딕셔너리의 key만 리스트로 출력
 * my_dic.values() : 딕셔너리의 value만 리스트로 출력
 
+[ list comprehension ]
+* list = [ x*2 for i in aa_list if x % 4 ==0 ]
+
+
+[ list slicing ]
+* list[start:end:stride]
 
 
 
