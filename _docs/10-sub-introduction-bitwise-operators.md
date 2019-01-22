@@ -1,26 +1,29 @@
 ---
 # layout : rchive
-title: ""
-permalink: /--/
-excerpt: "We learn about String, Console, and Output Syntax."
-last_modified_at: 2019-01-18T09:00:00-04:00
+title: "Introduction to Bitwise Operators"
+permalink: /introduction-bitwise-operators/
+excerpt: "We learn about Bitwise Syntax."
+last_modified_at: 2019-01-22T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
 ---
     
 <hr style="border: solid 1px #dddddd ;">    
+
 LESSON    
 
+Bitwise operations directly manipulate bits—patterns of 0s and 1s. Though they can be tricky to learn at first, their speed makes them a useful addition to any programmer's toolbox.
+
 **설명:** [ 학습방향 ]     
-이 장에서는 Python 을 활용한 다양한 자료구조를 학습한다. 딕셔너리, 리스트 등을 합칙, 분리하고, lambda 표현등을 연습한다. 
-{: .notice--info}     
+이 장에서는 비트(bit) 0, 1 에 관한 것을 다룰 것이다.  처음에는 배우기가 어렵지만, 익숙해지면 코딩의 속도를 높여주니 공부해 보자.
+{: .notice--info}  
      
  <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 1. Strings 
+### 1. 
 
 
 

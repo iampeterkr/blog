@@ -10,7 +10,8 @@ toc: true
 ---
     
 <hr style="border: solid 1px #dddddd ;">    
-LESSON
+
+LESSON    
 
 In this lesson, we'll cover some of the more complex aspects of Python, including iterating over data structures, list comprehensions, list slicing, and lambda expressions.      
 
