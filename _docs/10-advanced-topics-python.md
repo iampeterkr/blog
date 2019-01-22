@@ -741,19 +741,20 @@ print my_list[::2]
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 9. Reversing a List    
 
-We have seen that a positive stride progresses through the list from left to right.
+We have seen that a **positive stride** progresses through the list from left to right.
 
-A negative stride progresses through the list from right to left.
-
+A **negative stride** progresses through the list from right to left.
+```python
 letters = ['A', 'B', 'C', 'D', 'E']
 print letters[::-1]
+```
 In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 
 
-
-
 **설명:** [ Learn ]     
+지금껏 옵션(stride)을 양수값만 주었는데, 양수값은 왼쪽부터 오른쪽으로 index를 읽는다. 반대로 이번에는 음수값을 주어 보자.    
+• 옵션(stride)을 음수를 지정하면, 오른쪽부터 왼쪽으로 index를 읽어 처리한다.       
 {: .notice--info}
 
 
@@ -763,12 +764,14 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Create a variable called `backwards` and set it equal to the reversed version of `my_list`.
+
+Make sure to reverse the list in the editor by passing your list slice a negative stride, like in the example above.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① 리스트 변수 `backwards`를 만들어서, `my_list`의 값을 역순으로 `backwards`에 저장하라.    
+• edit 창에서, list slice의 옵션(stride)를 사용하여 역순으로 만들어라.
 {: .notice--info}
 
 
@@ -777,10 +780,13 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+```python
+list_reverse[::-1] # reverse
+```
+Do not print `backwards`
 
 **설명:** [ Hint ]    
+`list_reverse[::-1]`는 리스트를 역순으로 만든다. 역순인 `backwards`만 만들고 출력은 하지 마라.
 {: .notice--info}
 
 <br>
@@ -791,15 +797,22 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 
 ```python
+my_list = range(1, 11)
+
+# Add your code below!
+backwards = my_list[::-1]
 ```
 
 **설명:** [ Solution ]     
+`backwards`에는 [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 이 저장 될 것이다.    
+궁금하면, 살짝 `print (backwards)`를 코딩하고, 실행 시켜 본다. 확인후 print문은 지우고 다음으로 넘어가자.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
@@ -813,7 +826,7 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 
 
-**설명:** [ Learn ]     
+:**설명:** [ Learn ]     
 {: .notice--info}
 
 
