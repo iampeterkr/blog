@@ -634,11 +634,35 @@ print l[2:9:2]
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 8. 
+### 8. Omitting Indices    
+
+If you don't pass a particular index to the list slice, Python will pick a default.
+```python
+to_five = ['A', 'B', 'C', 'D', 'E']
+
+print to_five[3:]
+# prints ['D', 'E'] 
+
+print to_five[:2]
+# prints ['A', 'B']
+
+print to_five[::2]
+# print ['A', 'C', 'E']
+```
+The default starting index is 0.
+The default ending index is the end of the list.
+The default stride is 1.
 
 
 
-**설명:** [ Learn ]     
+
+**설명:** [ Learn ]   
+리스트에서 특정 index를 지정하지 못할 경우에는, 범위와 조건을 주어 리스트의 특정 값을 골라 낼수 있다.     
+[예]    
+• `to_five[3:]` 는 index 3번(포함)부터 마지막(불포함)까지의 값을 골라 낸다.    
+• `to_five[:2]` 는 처음(포함)부터 index 2번(불포함)까지의 값을 골라 낸다.   
+• `to_five[::2]`는 처음(포함)부터 마지막(불포함)까지의 값 중, 하나씩 건너 뛰면서 골라낸다.   
+• index의 처음은 0부터 시작한다.    
 {: .notice--info}
 
 
@@ -648,12 +672,17 @@ print l[2:9:2]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+① Use list slicing to print out every odd element of `my_list` from start to finish.
+
+* Omit the start and end index. You only need to specify a stride.
+
+* Check the Hint if you need help.
 
 
 **설명:** [ Instruction ]    
-① 
-
+① `my_list` 에서 홀수 값만 골라 내어 출력하여라.    
+• 처음과 마지막을 표현한는 곳에는 값을 넣지 말라. 옵션인 조건(stride)을 활용하여라.    
+• 힌트를 참조하여라.
 {: .notice--info}
 
 
@@ -662,10 +691,17 @@ print l[2:9:2]
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+Remember, the syntax for list slicing is
+```python
+[start:end:stride]
+```
+Since you're using the entire list, you should leave out the start and end indices (but leave in the colons!) and give the slice a stride that will select every other (that is, odd) element.
 
 
 **설명:** [ Hint ]    
+`[start(처음):end(마지막):stride(조건, 옵션)]`    
+• 전체를 사용해야 하므로 `[::stride]` 처음과 마지막에 빈칸이어야 한다.     
+• 홀수만 추출해야 하기에, 옵션인 `조건(stride)`을 주어야 한다.
 {: .notice--info}
 
 <br>
@@ -676,15 +712,24 @@ print l[2:9:2]
 
 
 ```python
+my_list = range(1, 11) # List of numbers 1 - 10
+
+# Add your code below!
+print my_list[::2]
 ```
 
 **설명:** [ Solution ]     
+• 1부터 10까지의 정수를 리스트 `my_list=[1,2,3,4,5,6,7,8,9,10]`에 생성한다.   
+• `my_list[::2]`를 index 처음(0)부터 끝(9)까지 추출하는데, 첫번(0)째 index부터 2칸 뛴 값 들을 출력한다.
+• my_list=[1,2,3,4,5,6,7,8,9,10]    
+• index -> 0,1,2,3,4,5,6,7,8, 9 
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+[1, 3, 5, 7, 9]
 ```   
 
 <br>
@@ -694,7 +739,17 @@ print l[2:9:2]
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 9. 
+### 9. Reversing a List    
+
+We have seen that a positive stride progresses through the list from left to right.
+
+A negative stride progresses through the list from right to left.
+
+letters = ['A', 'B', 'C', 'D', 'E']
+print letters[::-1]
+In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
+
+
 
 
 
