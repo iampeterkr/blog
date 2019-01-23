@@ -23,7 +23,7 @@ Bitwise operations directly manipulate bits—patterns of 0s and 1s. Though they
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 1. Just a Little BIT  
+### 1. Just a Little BIT     
 
 Welcome to an intro level explanation of bitwise operations in Python!
 
@@ -47,11 +47,11 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① In the editor are the 6 basic bitwise operations. Click Run and see what the console prints out. All of them will be explained in due time!
+1. In the editor are the 6 basic bitwise operations. Click Run and see what the console prints out. All of them will be explained in due time!
 
 
 **설명:** [ Instruction ]    
-① 6개의 bit 연산자에 대하여 실행하여 어떻게 동작되는지를 설명해 보는 시간을 가지자. 
+• 6개의 bit 연산자에 대하여 실행하여 어떻게 동작되는지를 설명해 보는 시간을 가지자. 
 {: .notice--info}
 
 
@@ -59,7 +59,7 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png) i
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 skip   
 
 
@@ -128,13 +128,15 @@ In Python, you can write numbers in binary format by starting the number with 0b
 
 
 **설명:** [ Learn ]     
-{: .notice--info}
 • 우리는 10진수를 사용한다. 10진수는 0부터 9까지의 수를 조합하여 사용한다.     
 • 컴퓨터는 2진수를 사용한다. 2진수는 0부터 1까지의 수를 조합하여 사용한다.    
 • 10진수는 9에서 1이 추가되면 자리수가 바뀌면서 10이 된다.   
 • 2진수는 0b1에서 0b1이 추가되면 자리수가 바뀌면서 0b10가 된다.   
 • 2진수는 각 자리에 값이 있으면 해당 값이 매겨진다.     
 • 2진수 0b1010는 10진수 10이다. 
+{: .notice--info}
+     
+
 
 <br>
 <hr/>
@@ -142,11 +144,11 @@ In Python, you can write numbers in binary format by starting the number with 0b
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① Take a look at the examples in the editor. Really try to understand this pattern before moving on. Click Run when you're ready to continue.
+1.  Take a look at the examples in the editor. Really try to understand this pattern before moving on. Click Run when you're ready to continue.
 
 
 **설명:** [ Instruction ]    
-① edit 창에 있는 소스들이 이해해보고, 실행하여 계속 진행해 보자.
+• edit 창에 있는 소스들이 이해해보고, 실행하여 계속 진행해 보자.
 {: .notice--info}
 
 
@@ -246,11 +248,11 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① Fill out the rest of the numbers with their corresponding binary values up to `twelve` in the editor to the right, using the 0bxxx format.
+1.  Fill out the rest of the numbers with their corresponding binary values up to `twelve` in the editor to the right, using the 0bxxx format.
 
 
 **설명:** [ Instruction ]    
-① edit창에서 변수 `twelve` 까지 값을 채워 넣어라. 형식은 2진수 `0bxx`이다. 
+• edit창에서 변수 `twelve` 까지 값을 채워 넣어라. 형식은 2진수 `0bxx`이다. 
 {: .notice--info}
 
 
@@ -263,7 +265,7 @@ Feel free to peek back at the previous exercise if you're having trouble!
 
 
 **설명:** [ Hint ]     
-앞에서 배운것을 자유롭게 참조하라.
+• 앞에서 배운것을 자유롭게 참조하라.
 {: .notice--info}
 
 <br>
@@ -289,7 +291,7 @@ twelve = 0b1100
 ```
 
 **설명:** [ Solution ]     
-1부터 12까지의 2진수를 나타낸 것이다.
+• 1부터 12까지의 2진수를 나타낸 것이다.
 {: .notice--info}
 
 
@@ -306,11 +308,24 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 4.
+### 4. The bin() Function   
+
+Excellent! The biggest hurdle you have to jump over in order to understand bitwise operators is learning how to count in base 2. Hopefully the lesson should be easier for you from here on out.
+
+There are Python functions that can aid you with bitwise operations. In order to print a number in its binary representation, you can use the bin() function. bin() takes an integer as input and returns the binary representation of that integer in a string. (Keep in mind that after using the bin function, you can no longer operate on the value like a number.)
+
+You can also represent numbers in base 8 and base 16 using the oct() and hex() functions. (We won't be dealing with those here, however.)
+
+
 
 
 
 **설명:** [ Learn ]      
+• Python에는 bit 연산자를 지원하는 함수가 있다.    
+• print 출력할때 2진수로 재표현 해주는 것으로 `bin()` 함수를 사용하면 된다.    
+• `bin()`함수는 정수를 입력값으로 가지면, 2진수를 반환해 준다.    
+• print 출력할때, 2진수로 보여주지만, 그 값은 실제로는 string(문자)이다.    
+• `bin()`과 비슷한것으로 8진수(`oct()`), 16진수(`hex()`)도 있다.
 {: .notice--info}
 
 
@@ -320,12 +335,12 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+1. We've provided an example of the bin function in the editor. Go ahead and use `print` and `bin()` to print out the binary representations of the numbers 2 through 5, each on its own line. 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• `bin()`를 사용하여 정수 2부터 5까지를 출력하라.
+• 각 라인마다 출력하라.
 {: .notice--info}
 
 
@@ -334,11 +349,12 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+Use the code on line 1 as a guide! You can use a separate `print` statement for each number, though a loop or range should work just as well.
 
 
 **설명:** [ Hint ]     
-
+• edit 창의 1 라인을 참조 하세요.    
+• loop 또는 range를 사용할 줄 알지만, `print`문을 개별로 사용하세요.  
 {: .notice--info}
 
 <br>
@@ -349,16 +365,26 @@ skip
 
 
 ```python
+print bin(1)
+print bin(2)
+print bin(3)
+print bin(4)
+print bin(5)
 ```
 
 **설명:** [ Solution ]     
-
+• `bin(2)`는 정수 2를 2진수 0b10으로 바꿔 준다. 
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+0b1
+0b10
+0b11
+0b100
+0b101
 ```   
 
 <br>
@@ -382,11 +408,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+*.  
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -444,12 +470,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
-
+* 
 {: .notice--info}
 
 
@@ -462,7 +487,7 @@ skip
 
 
 **설명:** [ Hint ]     
-
+* 
 {: .notice--info}
 
 <br>
@@ -476,7 +501,7 @@ skip
 ```
 
 **설명:** [ Solution ]     
-
+* 
 {: .notice--info}
 
 
@@ -496,7 +521,8 @@ skip
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]   
+*  
 {: .notice--info}
 
 
@@ -506,12 +532,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
-
+* 
 {: .notice--info}
 
 
@@ -538,7 +563,7 @@ skip
 ```
 
 **설명:** [ Solution ]     
-
+* 
 {: .notice--info}
 
 
@@ -559,6 +584,7 @@ skip
 
 
 **설명:** [ Learn ]     
+* 
 {: .notice--info}
 
 
@@ -568,12 +594,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
-
+* 
 {: .notice--info}
 
 
@@ -586,7 +611,7 @@ skip
 
 
 **설명:** [ Hint ]     
-
+* 
 {: .notice--info}
 
 <br>
@@ -600,7 +625,7 @@ skip
 ```
 
 **설명:** [ Solution ]     
-
+* 
 {: .notice--info}
 
 
@@ -621,6 +646,7 @@ skip
 
 
 **설명:** [ Learn ]     
+* 
 {: .notice--info}
 
 
@@ -630,12 +656,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
-
+* 
 {: .notice--info}
 
 
@@ -648,7 +673,7 @@ skip
 
 
 **설명:** [ Hint ]     
-
+* 
 {: .notice--info}
 
 <br>
@@ -662,7 +687,7 @@ skip
 ```
 
 **설명:** [ Solution ]     
-
+•   
 {: .notice--info}
 
 
@@ -683,6 +708,7 @@ skip
 
 
 **설명:** [ Learn ]     
+•   
 {: .notice--info}
 
 
@@ -692,12 +718,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
-
+•   
 {: .notice--info}
 
 
@@ -710,7 +735,7 @@ skip
 
 
 **설명:** [ Hint ]     
-
+•   
 {: .notice--info}
 
 <br>
@@ -724,7 +749,7 @@ skip
 ```
 
 **설명:** [ Solution ]     
-
+•   
 {: .notice--info}
 
 
@@ -754,12 +779,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
-
+•   
 {: .notice--info}
 
 
@@ -771,8 +795,8 @@ skip
 
 
 
-**설명:** [ Hint ]     
-
+**설명:** [ Hint ]    
+•  
 {: .notice--info}
 
 <br>
@@ -786,7 +810,7 @@ skip
 ```
 
 **설명:** [ Solution ]     
-
+•  
 {: .notice--info}
 
 
@@ -816,11 +840,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -878,11 +902,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -935,11 +959,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -1002,11 +1026,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -1063,11 +1087,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -1124,11 +1148,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -1185,11 +1209,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 
@@ -1246,11 +1270,11 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* 
 
 
 **설명:** [ Instruction ]    
-① 
+* 
 
 {: .notice--info}
 

@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Advanced Topics in Python"
-permalink: /advanced-topics-python/
+permalink: /bk-advanced-topics-python/
 excerpt: "We learn about String, Console, and Output Syntax."
 last_modified_at: 2019-01-18T09:00:00-04:00
 redirect_from:
@@ -54,8 +54,9 @@ Note that the .items() method doesn't return key/value pairs in any specific ord
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create your own Python dictionary, `my_dict`, in the editor to the right with **two or three key/value** pairs.    
-* Then, print the result of calling the `my_dict.items()`.
+① Create your own Python dictionary, `my_dict`, in the editor to the right with **two or three key/value** pairs.
+
+Then, print the result of calling the `my_dict.items()`.
 
 
 **설명:** [ Instruction ]    
@@ -135,7 +136,7 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Remove your call to `.items()` and replace it with a call to `.keys()` and a call to `.values()`, each on its own line. Make sure to print both!
+① Remove your call to `.items()` and replace it with a call to `.keys()` and a call to `.values()`, each on its own line. Make sure to print both!
 
 
 **설명:** [ Instruction ]    
@@ -233,7 +234,7 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. For each key in `my_dict`: print out the key , then a space, then the value stored by that key. (You should use print a, b rather than print a + " " + b.)
+① For each key in `my_dict`: print out the key , then a space, then the value stored by that key. (You should use print a, b rather than print a + " " + b.)
 
 
 **설명:** [ Instruction ]    
@@ -317,7 +318,7 @@ Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여 lis
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Check out the list comprehension example in the editor. When you're pretty sure you know what it'll do, click Run to see it in action.
+① Check out the list comprehension example in the editor. When you're pretty sure you know what it'll do, click Run to see it in action.
 
 
 **설명:** [ Instruction ]    
@@ -401,7 +402,7 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use a list comprehension to build a list called `even_squares` in the editor.
+① Use a list comprehension to build a list called `even_squares` in the editor.
 
 Your `even_squares` list should include the squares of the even numbers between 1 to 11. Your list should start [4, 16, 36...] and go from there.
 
@@ -487,7 +488,7 @@ for문에서 5개의 x값을 구하고 이 x 값이 3보다 작은 경우는 0, 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use a list comprehension to create a list, `cubes_by_four`.
+① Use a list comprehension to create a list, `cubes_by_four`.
 
 * The comprehension should consist of the cubes of the numbers 1 through 10 only if the cube is evenly divisible by four.
 
@@ -582,7 +583,7 @@ print cubes_by_four
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. We've generated a list with a list comprehension in the editor to the right, and we're about to print a selection from the list using list slicing. Can you guess what will be printed out? Click Run when you think you know!
+① We've generated a list with a list comprehension in the editor to the right, and we're about to print a selection from the list using list slicing. Can you guess what will be printed out? Click Run when you think you know!
 
 
 **설명:** [ Instruction ]    
@@ -672,7 +673,7 @@ The default stride is 1.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use list slicing to print out every odd element of `my_list` from start to finish.
+① Use list slicing to print out every odd element of `my_list` from start to finish.
 
 * Omit the start and end index. You only need to specify a stride.
 
@@ -764,7 +765,7 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a variable called `backwards` and set it equal to the reversed version of `my_list`.
+① Create a variable called `backwards` and set it equal to the reversed version of `my_list`.
 
 Make sure to reverse the list in the editor by passing your list slice a negative stride, like in the example above.
 
@@ -842,7 +843,7 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a variable, `backwards_by_tens`, and set it equal to the result of going backwards through `to_one_hundred` by tens. Go ahead and print `backwards_by_tens` to the console.
+① Create a variable, `backwards_by_tens`, and set it equal to the result of going backwards through `to_one_hundred` by tens. Go ahead and print `backwards_by_tens` to the console.
 
 
 **설명:** [ Instruction ]    
@@ -923,7 +924,7 @@ list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a list, `to_21`, that's just the numbers from 1 to 21, inclusive.
+① Create a list, `to_21`, that's just the numbers from 1 to 21, inclusive.
 
 * Create a second list, `odds`, that contains only the odd numbers in the `to_21` list (1, 3, 5, and so on). Use list slicing for this one instead of a list comprehension.
 
@@ -1021,7 +1022,7 @@ When we pass the lambda to filter, filter uses the lambda to determine what to f
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Can you guess what the this code will print to the console? Click Run to see.
+① Can you guess what the this code will print to the console? Click Run to see.
 
 
 **설명:** [ Instruction ]    
@@ -1098,7 +1099,7 @@ If you plan on creating a function you'll use over and over, you're better off u
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Fill in the first part of the `filter` function with a `lambda`. The `lambda` should ensure that only "Python" is returned by the filter.
+① Fill in the first part of the `filter` function with a `lambda`. The `lambda` should ensure that only "Python" is returned by the filter.
 
 • Fill in the second part of the filter function with languages, the list to filter.
 
@@ -1176,7 +1177,7 @@ The example above is just a reminder of the syntax.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a list, `squares`, that consists of the squares of the numbers 1 to 10. A list comprehension could be useful here!
+① Create a list, `squares`, that consists of the squares of the numbers 1 to 10. A list comprehension could be useful here!
 
 * Use `filter()` and a `lambda` expression to print out only the squares that are between 30 and 70 (inclusive).
 
@@ -1254,7 +1255,7 @@ First, let's review iterating over a `dict`.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Call the appropriate method on `movies` such that it will print out all the items (hint, hint) in the dictionary—that is, each key and each value.
+① Call the appropriate method on `movies` such that it will print out all the items (hint, hint) in the dictionary—that is, each key and each value.
 
 
 
@@ -1329,7 +1330,7 @@ list comprehensions를 복습해 보자.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use a list comprehension to create a list, `threes_and_fives`, that consists only of the numbers between 1 and 15 (inclusive) that are evenly divisible by 3 or 5.
+① Use a list comprehension to create a list, `threes_and_fives`, that consists only of the numbers between 1 and 15 (inclusive) that are evenly divisible by 3 or 5.
 
 
 **설명:** [ Instruction ]    
@@ -1414,7 +1415,7 @@ list slicing을 복습해 보자.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. The string in the editor is garbled in two ways:
+① The string in the editor is garbled in two ways:
 
 * Our message is backwards.
 * The letter we want is every other letter.    
@@ -1505,7 +1506,7 @@ We've given you another (slightly different) garbled. Sort it out with a `filter
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a new variable called `message`.
+① Create a new variable called `message`.
 
 * Set it to the result of calling `filter()` with the appropriate `lambda` that will filter out the "X"s. The second argument will be `garbled`.
 
