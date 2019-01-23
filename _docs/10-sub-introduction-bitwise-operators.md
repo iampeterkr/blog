@@ -394,11 +394,28 @@ print bin(5)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 5. 
+### 5. int()'s Second Parameter    
+
+Python has an `int()` function that you've seen a bit of already. It can turn non-integer input into an integer, like this:
+```python
+int("42")
+# ==> 42
+```
+What you might not know is that the int function actually has an optional second parameter.
+```python
+int("110", 2)
+# ==> 6
+```
+When given a string containing a number and the base that number is in, the function will return the value of that number converted to base ten.
 
 
 
 **설명:** [ Learn ]      
+• `int()`는 입력값을 int로 바꿔주는 함수이다.    
+• `int("42")` 는 문자열 "42"를 입력하면, 정수 42가 반환된다.    
+• `int()`는 또다른 옵션 기능이 있다.    
+• `int("110", 2)` 는 2진수 "110"을 입력하고, 옵션값을 2로 입력한다.    
+• `int()`는 입력값 2진수 "110"을 int(정수) 6을 반환한다. 
 {: .notice--info}
 
 
@@ -408,12 +425,12 @@ print bin(5)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*.  
+1. In the console are several different ways that you can use the int function's second parameter.On line 7, use int to print the base 10 equivalent of the binary number 11001001.  
 
 
 **설명:** [ Instruction ]    
-* 
-
+* Console 화면에는 몇개의 int 함수 사용한 예제들이 있다.    
+* 라인 7에서, 2진수 11001001 을 int 함수를 사용하여 10진수로 변경해서 출력하라.
 {: .notice--info}
 
 
@@ -422,11 +439,11 @@ print bin(5)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* Use the examples on lines 1 – 4 as a guide!
 
 
 **설명:** [ Hint ]     
-
+• 라인 1~4의 예제들을 참조하여라. 
 {: .notice--info}
 
 <br>
@@ -437,16 +454,29 @@ print bin(5)
 
 
 ```python
+print int("1",2)
+print int("10",2)
+print int("111",2)
+print int("0b100",2)
+print int(bin(5),2)
+# Print out the decimal equivalent of the binary 11001001.
+print int("11001001", 2)
 ```
 
 **설명:** [ Solution ]     
-
+• `int("11001001",2)`는 2진수 "11001001"을 10진수로 변환해서 출력한다
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+1
+2
+7
+4
+5
+201
 ```
 
 <br>
