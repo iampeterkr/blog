@@ -709,7 +709,8 @@ Meaning
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* For practice, print out the result of using ` | `on 0b1110 and 0b101 as a binary string. Try to do it on your own without using the `|` operator if you can help it.
+* For practice, print out the result of using `OR(|)`on 0b1110 and 0b101 as a binary string.    
+* Try to do it on your own without using the `OR(|)` operator if you can help it.
 
 
 **설명:** [ Instruction ]    
@@ -723,11 +724,11 @@ Meaning
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* This is pretty similar to what you did in the previous exercise! You're just using | instead of &.
+* This is pretty similar to what you did in the previous exercise! You're just using `OR(|)` instead of `AND(&)`.
 
 
 **설명:** [ Hint ]     
-• & 연사자 대신에 | 연산자를 사용한다. 
+• AND(&) 연사자 대신에 OR(|) 연산자를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -797,12 +798,12 @@ Therefore:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* For practice, print the result of using `^` on 0b1110 and 0b101 as a binary string. Try to do it on your own without using the `^` operator. 
+* For practice, print the result of using `XOR(^)` on 0b1110 and 0b101 as a binary string. Try to do it on your own without using the `XOR(^)` operator. 
 
 
 **설명:** [ Instruction ]    
-• XOR (^) 연산자를 사용하여 0b1110 과 0b101을 계산하시오.    
-• ^ 연산자 없이 한번 시도해 보시오.  
+• XOR(^) 연산자를 사용하여 0b1110 과 0b101을 계산하시오.    
+• XOR(^) 연산자 없이 한번 시도해 보시오.  
 {: .notice--info}
 
 
@@ -811,11 +812,11 @@ Therefore:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* This is pretty similar to what you did in the previous exercise! You're just using ^ instead of |.
+* This is pretty similar to what you did in the previous exercise! You're just using `XOR(^)` instead of `OR(|)`.
 
 
 **설명:** [ Hint ]     
-• 기존 소스에서 | 대신에 ^를 넣으면 된다. 
+• 기존 소스에서 OR(|) 대신에 AND(^) 를 넣으면 된다. 
 {: .notice--info}
 
 <br>
@@ -953,7 +954,7 @@ In the example above, we want to see if the third bit from the right is on.
 • bit mask는 특정 bit의 값을 활성화 하기 하는데 도움을 준다.    
 • 우리는 bit 가 1이면 On(켜짐)이라 하고, 0이면 Off(꺼짐)이라 표현한다.    
 • 특정 자리의 bit만을 On(켜짐)하기 위해서 사용되는 것을 bit mask라 한다.    
-• 예제에서는 변수 `num`의 3번째 bit 만을 On(켜기)위해서 사용되는 것을 bit mask라 한다.    
+• 변수 `num`의 3번째 bit 만을 On(1)위해서 사용되는 것을 bit mask라 한다.    
 • 변수 `num & mask` 한 값이 0보다 클려면, mask 값이 0b0100이어야 한다.    
 • 변수 `desired` 가 0보다 크므로 "Bit was on" 출력된다.
 {: .notice--info}
@@ -967,7 +968,7 @@ In the example above, we want to see if the third bit from the right is on.
 
 * Define a function, `check_bit4`, with one argument, `input`, an integer.
 
-* It should check to see if the **fourth bit** from the right is on.
+* It should check to see if the **4th bit** from the right is on.
 
 * If the bit is on, return "on" (not print!)
 
@@ -1029,7 +1030,7 @@ def check_bit4(input):
 • `mask`가 4번째 bit 가 1 인 경우에만 정수 8값(0b1000)이상이 생성된다.    
 • 그 결과값을 `desired`에 저장한다.   
 • `desired`가 0보다 큰 경우(4번째 bit가 1 인 경우) "on"을 반환한다.     
-• 그렇지 않으면 결과값이 0 이므로 "off" 를 반환한다.
+• `desired`가 0보다 작은 경우 "off" 를 반환한다.    
 • `print check_bit4(0b1010)`을 입력하여 실행해 보자. 
 {: .notice--info}
 
@@ -1055,14 +1056,14 @@ a = 0b110 # 6
 mask = 0b1 # 1
 desired =  a | mask # 0b111, or 7
 ```
-Using the bitwise `|` operator will turn a corresponding bit on if it is off and leave it on if it is already on.
+Using the bitwise `OR(|)` operator will turn a corresponding bit on if it is off and leave it on if it is already on.
 
  
 
 **설명:** [ Learn ]     
-• `|` 연산자를 사용하여 bit mask 를 만들 수 있다.    
-• `|` 연산자는 두 수의 계산값중 하나라도 1이면 결과값이 1이된다.    
-• `|` bit mask 는 off 되어 있는 bit, 0 을 on, 즉 1로 만들어 준다.    
+• OR(|) 연산자를 사용하여 bit mask 를 만들 수 있다.    
+• OR(|) 연산자는 두 수의 계산값중 하나라도 1이면 결과값이 1이된다.    
+• OR(|) bit mask 는 off 되어 있는 bit, 0 을 on, 즉 1로 만들어 준다.    
 • 이미 on, bit 1은 on 되어 있는것은 on으로 유지한다. 
 {: .notice--info}
 
@@ -1074,7 +1075,7 @@ Using the bitwise `|` operator will turn a corresponding bit on if it is off and
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * In the editor is a variable, `a`.    
-* Use a bitmask and the value `a` in order to achieve a result where the **third bit** from the right of `a` is turned on.     
+* Use a bitmask and the value `a` in order to achieve a result where the **3th bit** from the right of `a` is turned on.     
 * Be sure to print your answer as a `bin()` string! 
 
 
@@ -1089,7 +1090,7 @@ Using the bitwise `|` operator will turn a corresponding bit on if it is off and
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* You should use `|` and the variable `a` with a mask where the third bit from the right, and only the third bit from the right, is on.
+* You should use `OR(|)` and the variable `a` with a mask where the third bit from the right, and only the third bit from the right, is on.
 * If you do not use `bin()` then you will see integer results
 
 **설명:** [ Hint ]     
@@ -1138,7 +1139,8 @@ print bin(desired)
 
 Using the **XOR (^)** operator is very useful for flipping bits. Using **^** on a bit with the number one will return a result where that bit is flipped.
 
-For example, let's say I want to flip all of the bits in `a`. I might do this:
+For example, let's say I want to flip all of the bits in `a`.    
+I might do this:
 ```python
 a = 0b110 # 6
 mask = 0b111 # 7
@@ -1239,7 +1241,7 @@ We use 9 because we only need to slide the mask nine places over from the first 
 
 **설명:** [ Learn ]     
 • 변수 `a` 값의 10번째 bit를 on(1)로 만들려고 한다.    
-• 변수 `mask`를 `0b1` 을 `<<9` 9bit를 왼쪽으로 민다.     
+• 변수 `mask`를 `0b1` 을 `<< 9` 9bit를 왼쪽으로 민다.     
 • 즉, `0b1`다음에 0이 9개가 온다. `mask=0b1000000000`    
 • 10번째 bit에 1이 오기 위해선, bit를 옆으로 9번 민다(slid).    
 • `a`의 10번째 bit를 on 하려면, `a ^ mask` 한다.    
@@ -1254,7 +1256,7 @@ We use 9 because we only need to slide the mask nine places over from the first 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function called `flip_bit` that takes the inputs `(number, n)`.
+* Define a function called `flip_bit` that takes the inputs`(number, n)`.
 
 * Flip the **nth** bit (with the ones bit being the first bit) and store it in `result`.
 
@@ -1274,7 +1276,7 @@ We use 9 because we only need to slide the mask nine places over from the first 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Use the `<<` operator to move your mask into place and the `^` operator to flip your desired bit.
+* Use the `<<` operator to move your mask into place and the `XOR(^)` operator to flip your desired bit.
 
 * The base bit is 0b1 
 * if you want 10th slide bit, you have to move `<<(10 -1)`
@@ -1321,312 +1323,6 @@ def flip_bit(number, n):
 0b110
 ```   
 
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font sizㅇ1e="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 15.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-* 
-
-
-**설명:** [ Instruction ]    
-* 
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 16. 
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-* 
-
-
-**설명:** [ Instruction ]    
-* 
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 17.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-* 
-
-
-**설명:** [ Instruction ]    
-* 
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 18.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-* 
-
-
-**설명:** [ Instruction ]    
-* 
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 19.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-* 
-
-
-**설명:** [ Instruction ]    
-* 
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
 
 
 <br>
