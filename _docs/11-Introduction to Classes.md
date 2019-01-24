@@ -245,9 +245,9 @@ You may have noticed in our example back in the first exercise that we started o
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Remove the pass statement in your class definition, then go ahead and define an __init__() function for your Animal class.     
+* Remove the pass statement in your class definition, then go ahead and define an `__init__()` function for your Animal class.     
 * Pass it the argument self for now; we'll explain how this works in greater detail in the next section.     
-* Finally, put the pass into the body of the __init__() definition, since it will expect an indented block.
+* Finally, put the pass into the body of the `__init__()` definition, since it will expect an indented block.
 
  
 
@@ -265,14 +265,14 @@ You may have noticed in our example back in the first exercise that we started o
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Your __init__() function should look something like this:
+* Your `__init__()` function should look something like this:
 ```python
 def __init__(self):
   pass
 ```
 
 **설명:** [ Hint ]     
-• __init__() 사용법을 참조하라.
+• `__init__(self)` 사용법을 참조하라.
 {: .notice--info}
 
 <br>
@@ -290,7 +290,7 @@ class Animal(object):
 
 **설명:** [ Solution ]     
 • 클래스 Animal(object)를 정의한다.    
-• 내부 메서드 __init__(self)를 선언한다. 
+• 내부 메서드 `__init__(self)`를 선언한다. 
 • 그안에 pass 키워드를 입력한다. 
 {: .notice--info}
 
@@ -312,13 +312,18 @@ skip
 
 Excellent! Let's make one more tweak to our class definition, then go ahead and instantiate (create) our first object.
 
-So far, __init__() only takes one parameter: self. This is a Python convention; there's nothing magic about the word self. However, it's overwhelmingly common to use self as the first parameter in __init__(), so you should do this so that other people will understand your code.
+So far, `__init__()` only takes one parameter: `self`. This is a Python convention; there's nothing magic about the word `self`. However, it's overwhelmingly common to use `self` as the first parameter in `__init__()`, so you should do this so that other people will understand your code.
 
-The part that is magic is the fact that self is the first parameter passed to __init__(). Python will use the first parameter that __init__() receives to refer to the object being created; this is why it's often called self, since this parameter gives the object being created its identity.
+The part that is magic is the fact that `self` is the first parameter passed to `__init__()`. Python will use the first parameter that `__init__()` receives to refer to the object being created; this is why it's often called `self`, since this parameter gives the object being created its identity.
 
 
 
-**설명:** [ Learn ]      
+**설명:** [ Learn ]     
+• `__inti__()`는 `self`를 매개변수를 가진다. 이것은 Python 약속이다.    
+• `self`가 특별한 것은 없지만, 무조건 `__inti__()`첫번째 매개변수로 사용된다.    
+• 클래스가 호출되면, 자동으로 `__init__(slef)`가 호출된다.     
+• 호출될때, 자기 자신을 호출하기에, `self`라고 부른다.    
+• `self`가 호출되는것은 이 객체의 정체성(누구 것인지)를 알게 해준다.     
 {: .notice--info}
 
 
@@ -328,12 +333,17 @@ The part that is magic is the fact that self is the first parameter passed to __
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Let's do two things in the editor:
+
+* Pass `__init__()` a second parameter, `name`.    
+
+* In the body of `__init__()`, let the function know that `name` refers to the created object's `name` by typing `self.name = name.` (This will become crystal clear in the next section.)
+ 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• `__init__(self)`의 두번째 매개변수(parameter)에 name을 넣자.    
+• `__init__(self, name)`의 내부에 `self.name = name`라고 하자.
 {: .notice--info}
 
 
@@ -341,12 +351,16 @@ The part that is magic is the fact that self is the first parameter passed to __
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)
 
-
+```python    
+class Animal(object):
+  def __init__(self, name):
+    # Set the name parameter here!
+```
 
 **설명:** [ Hint ]     
-
+• `__init__(self, namee)`에 두번째 매개변수에 `name`을 정의하자.    
 {: .notice--info}
 
 <br>
@@ -357,16 +371,22 @@ The part that is magic is the fact that self is the first parameter passed to __
 
 
 ```python
+class Animal(object):
+  def __init__(self, name):
+    self.name = name
 ```
 
 **설명:** [ Solution ]     
-
+• `def __init__(self, name):`를 정의한다.    
+• `self.name = name`이라고 정의한다.     
+• 이 뜻은 매개변수 `name`의 값을 `self.name`에 저장한다는 뜻이다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
@@ -376,7 +396,21 @@ The part that is magic is the fact that self is the first parameter passed to __
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 5. 
+### 5. Instantiating Your First Object    
+
+Perfect! Now we're ready to start creating objects.
+
+We can access attributes of our objects using dot notation. Here's how it works:
+
+class Square(object):
+  def __init__(self):
+    self.sides = 4
+
+my_shape = Square()
+print my_shape.sides
+First we create a class named Square with an attribute sides.
+Outside the class definition, we create a new instance of Square named my_shape and access that attribute using my_shape.sides.
+
 
 
 
