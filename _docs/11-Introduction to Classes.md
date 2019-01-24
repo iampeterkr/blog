@@ -401,20 +401,29 @@ skip
 Perfect! Now we're ready to start creating objects.
 
 We can access attributes of our objects using dot notation. Here's how it works:
-
+```python
 class Square(object):
   def __init__(self):
     self.sides = 4
 
 my_shape = Square()
-print my_shape.sides
-First we create a class named Square with an attribute sides.
-Outside the class definition, we create a new instance of Square named my_shape and access that attribute using my_shape.sides.
-
-
+print my_shape.sides 
+# my_shape. 찍는순간 __init__(self)가 호출된다.
+```
+* First we create a class named Square with an attribute sides.
+* Outside the class definition, we create a new instance of Square named my_shape and access that attribute using my_shape.sides.
 
 
 **설명:** [ Learn ]      
+• 클래스의 기본은 만들어 졌다. 우리는 객체를 만들수 있다.     
+• `.`을 사용하여 우리는 객체의 속성에 접근할수가 있다.    
+• `my_shape = Square()`는 클래스 Square()의 속성을 그대로 사용할수 있는    
+•  Object(객체) `my_shape`가 만들어 진다.    
+• `my_shape`객체는 `Square()`의 내부 속성을 사용할려면,     
+• `my_shape.` 이라고 `.`을 찍는 순간 클래스의 `__init__(self)`가 호출된다.    
+• `my_shape.sides`는 `__init__(self)`의 `self.sides`에 접근할수가 있다.    
+• `self.sides = 4` 이기에,    
+• `print my_shape.sides`는 4가 출력된다. 
 {: .notice--info}
 
 
@@ -424,11 +433,15 @@ Outside the class definition, we create a new instance of Square named my_shape 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Outside the `Animal` class definition, create a variable named `zebra` and set it equal to `Animal("Jeffrey")`.
+
+* Then print out zebra's name. 
 
 
 **설명:** [ Instruction ]    
-① 
+• 클래스 `Animal` 바깥에, 변수 `zebra`를 만들어라.    
+• `zebra = Animal("Jeffrey")` 선언하라.(객체 생성)      
+• zebra의 이름을 출력하라.
 
 {: .notice--info}
 
@@ -438,11 +451,21 @@ Outside the class definition, we create a new instance of Square named my_shape 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+You can create a new `Animal` object named "Jeffrey" like this:
 
+```python
+zebra = Animal("Jeffrey")
+```
+You can print out "Jeffrey"'s name like this:
+
+```python
+print zebra.name
+```
 
 
 **설명:** [ Hint ]     
-
+• Animal 클래스를 사용하는 객체(object) zebra를 생성한다.    
+• zebra.name을 호출하면, 클래스 Animal의 name에 있는 내용이 출력된다.
 {: .notice--info}
 
 <br>
@@ -453,16 +476,30 @@ Outside the class definition, we create a new instance of Square named my_shape 
 
 
 ```python
+class Animal(object):
+  def __init__(self, name):
+    self.name = name
+    
+zebra = Animal("Jeffrey")
+
+print zebra.name
 ```
 
 **설명:** [ Solution ]     
-
+• `zebra = Animal("Jeffrey")`    
+• 클래스 Animal을 instance 하는 객체 `zebra`를 생성한다.   
+• 클래스 Animal()의 파라메터에 값 "Jeffrey"를 넣는다.    
+• 변수 `name`에는 "Jeffrey"가 넘겨진다.
+• 객체 `zebra`는 클래스 Aniaml의 속성을 그대로 가지고 있다.    
+• `zebra.`하는 순간 클래스 Animal()의 `__init__(self)`가 호출된다.    
+• `zebra.name`은 클래스 Animal의 name이 출력된다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+Jeffrey
 ```
 
 <br>
@@ -472,7 +509,13 @@ Outside the class definition, we create a new instance of Square named my_shape 
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 6. 
+### 6. More on __init__() and self    
+
+Now that you're starting to understand how classes and objects work, it's worth delving a bit more into __init__() and self. They can be confusing!
+
+As mentioned, you can think of __init__() as the method that "boots up" a class' instance object: the init bit is short for "initialize."
+
+The first argument __init__() gets is used to refer to the instance object, and by convention, that argument is called self. If you add additional arguments—for instance, a name and age for your animal—setting each of those equal to self.name and self.age in the body of __init__() will make it so that when you create an instance object of your Animal class, you need to give each instance a name and an age, and those will be associated with the particular instance you create.
 
 
 
