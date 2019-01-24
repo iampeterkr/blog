@@ -47,7 +47,7 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. In the editor are the 6 basic bitwise operations. Click Run and see what the console prints out. All of them will be explained in due time!
+* In the editor are the 6 basic bitwise operations. Click Run and see what the console prints out. All of them will be explained in due time!
 
 
 **설명:** [ Instruction ]    
@@ -144,7 +144,7 @@ In Python, you can write numbers in binary format by starting the number with 0b
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1.  Take a look at the examples in the editor. Really try to understand this pattern before moving on. Click Run when you're ready to continue.
+*  Take a look at the examples in the editor. Really try to understand this pattern before moving on. Click Run when you're ready to continue.
 
 
 **설명:** [ Instruction ]    
@@ -248,7 +248,7 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1.  Fill out the rest of the numbers with their corresponding binary values up to `twelve` in the editor to the right, using the 0bxxx format.
+*  Fill out the rest of the numbers with their corresponding binary values up to `twelve` in the editor to the right, using the 0bxxx format.
 
 
 **설명:** [ Instruction ]    
@@ -335,7 +335,7 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. We've provided an example of the bin function in the editor. Go ahead and use `print` and `bin()` to print out the binary representations of the numbers 2 through 5, each on its own line. 
+* We've provided an example of the bin function in the editor. Go ahead and use `print` and `bin()` to print out the binary representations of the numbers 2 through 5, each on its own line. 
 
 
 **설명:** [ Instruction ]    
@@ -425,12 +425,12 @@ When given a string containing a number and the base that number is in, the func
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. In the console are several different ways that you can use the int function's second parameter.On line 7, use int to print the base 10 equivalent of the binary number 11001001.  
+* In the console are several different ways that you can use the int function's second parameter.On line 7, use int to print the base 10 equivalent of the binary number 11001001.     
+     
 
-
-**설명:** [ Instruction ]    
-* Console 화면에는 몇개의 int 함수 사용한 예제들이 있다.    
-* 라인 7에서, 2진수 11001001 을 int 함수를 사용하여 10진수로 변경해서 출력하라.
+**설명:** [ Instruction ]     
+• Console 화면에는 몇개의 int 함수 사용한 예제들이 있다.    
+• 라인 7에서, 2진수 11001001 을 int 함수를 사용하여 10진수로 변경해서 출력하라.
 {: .notice--info}
 
 
@@ -486,11 +486,31 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 6. 
+### 6. Slide to the Left! Slide to the Right!    
+
+The next two operations we are going to talk about are the **left** and **right** shift bitwise operators. These operators work by shifting the bits of a number over by a designated number of slots.
+
+The block below shows how these operators work on the bit level. Note that in the diagram, the shift is always a positive integer:
+```python
+# Left Bit Shift (<<)  
+0b000001 << 2 == 0b000100 (1 << 2 = 4)
+0b000101 << 3 == 0b101000 (5 << 3 = 40)       
+
+# Right Bit Shift (>>)
+0b0010100 >> 3 == 0b000010 (20 >> 3 = 2)
+0b0000010 >> 2 == 0b000000 (2 >> 2 = 0)
+```
+Shift operations are similar to rounding down after **dividing** and **multiplying** by 2 (respectively) for every time you shift, but it's often easier just to think of it as shifting all the 1s and 0s left or right by the specified number of slots.
+
+Note that you can only do bitwise operations on an **integer** Trying to do them on strings or floats will result in nonsensical output!
+
+
 
 
 
 **설명:** [ Learn ]     
+• bit를 왼쪽으로 옮기면 제곱근, 오른족으로 옮기면 2로 나누는 효과가 있다.    
+• bit 연산자는 int(정수)만 가능하고, 나머지(문자열, 실수)은 아무런 반응이 없다.
 {: .notice--info}
 
 
@@ -500,11 +520,12 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* Shift the variable `shift_right` to the right twice (`>> 2`) and shift the variable `shift_left` to the left twice (`<< 2`). Try to guess what the printed output will be!
 
 
 **설명:** [ Instruction ]    
-* 
+• 변수 `shift_right`에는 `>>2`를 하고, `shift_left`에는 `<<2`를 하여라.    
+• 출력이 어떻게 될지 생각해 보자. 
 {: .notice--info}
 
 
@@ -513,11 +534,11 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* Use the example in the instructions above as a guide.
 
 
 **설명:** [ Hint ]     
-* 
+• 상단의 설명을 참조하자. 
 {: .notice--info}
 
 <br>
@@ -528,16 +549,29 @@ print int("11001001", 2)
 
 
 ```python
+shift_right = 0b1100
+shift_left = 0b1
+
+# Your code here!
+shift_right = shift_right >> 2
+shift_left = shift_left << 2
+
+print bin(shift_right)
+print bin(shift_left)
 ```
 
 **설명:** [ Solution ]     
-* 
+• 변수 `shift_right`는 오른쪽으로 bit를 2칸 이동한후 저장한다. (`0b11`)   
+• 변수 `shift_left`는 왼쪽으로 bit를 2칸 이동한후 저장한다.(`0b100`)     
+• 변수 `shift_right`, `shift_left`를 출력한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+0b11
+0b100
 ```
 
 <br>
@@ -547,12 +581,35 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 7. 
+### 7. A BIT of This AND That    
 
+The bitwise **AND (&)** operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if the corresponding bits of both numbers are 1. For example:
+```python
+
+     a:   00101010   42
+     b:   00001111   15       
+===================
+ a & b:   00001010   10
+```
+As you can see, the 2's bit and the 8's bit are the only bits that are on in both a and b, so a & b only contains those bits. Note that using the & operator can only result in a number that is less than or equal to the smaller of the two values.
+
+So remember, for every given bit in a and b:
+```python
+0 & 0 = 0
+0 & 1 = 0
+1 & 0 = 0
+1 & 1 = 1
+```
+Therefore,
+```python
+0b111 (7) & 0b1010 (10) = 0b10
+```
+which equals two.
 
 
 **설명:** [ Learn ]   
-*  
+• `AND (&)`연산자는 두개의 비교 할 a, b가 모두 1일때 1을 반환한다.    
+• a, b중 하나라도 0이면 0을 반환한다.   
 {: .notice--info}
 
 
@@ -562,11 +619,14 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* print out the result of calling `bin()` on 0b1110 & 0b101.
+
+* See if you can guess what the output will be!
 
 
 **설명:** [ Instruction ]    
-* 
+• `bin()`함수를 사용하여 0b110 & 0b101 을 계산하여 출력하자.     
+• 그결과가 어떻게 나타나는지 지켜보자. 
 {: .notice--info}
 
 
@@ -575,11 +635,12 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+```python
+print ( bin ( a & b ) )
+```
 
 **설명:** [ Hint ]     
-
+• `bin()`함수 안에 2진수를 넣자.
 {: .notice--info}
 
 <br>
@@ -590,16 +651,19 @@ print int("11001001", 2)
 
 
 ```python
+print (bin(0b110 & 0b101))
 ```
 
 **설명:** [ Solution ]     
-* 
+• `bin()`안에 단순히 2진수만 넣는게 아니라, AND (&) 연산자도 넣어서 계산한다.    
+• 먼저, 0b110 & 0b101 이 계산된 2진수 0b100이 `bin(0b100)`로 입력된다.
 {: .notice--info}
 
 
 
 **결과**     
-``` 
+```
+0b100 
 ```   
 
 <br>
@@ -609,12 +673,33 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 8. 
+### 8. A BIT of This OR That    
 
+The bitwise **OR (|)** operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if either of the corresponding bits of either number are 1. For example:
+```python
+    a:  00101010  42
+    b:  00001111  15       
+================
+a | b:  00101111  47
+```
+Note that the bitwise | operator can only create results that are greater than or equal to the larger of the two integer inputs.
+
+So remember, for every given bit in a and b:
+```python
+0 | 0 = 0
+0 | 1 = 1 
+1 | 0 = 1
+1 | 1 = 1
+```
+Meaning
+```python
+110 (6) | 1010 (10) = 1110 (14)
+```
 
 
 **설명:** [ Learn ]     
-* 
+• OR (|) 연산자는 두 수 a, b를 비교하여, 값이 하나라도 1 이면 1을 반환한다.    
+• 값 a, b 모두 0 이면 0을 반환한다. 
 {: .notice--info}
 
 
@@ -624,11 +709,12 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* For practice, print out the result of using ` | `on 0b1110 and 0b101 as a binary string. Try to do it on your own without using the `|` operator if you can help it.
 
 
 **설명:** [ Instruction ]    
-* 
+• OR (|) 연산자를 사용하여 0b1110 과 0b101 을 계산하여라.   
+• OR (|) 연산자를 사용하지 않고 한번 해보세요.(??? 잘못된 문제 제출임) 
 {: .notice--info}
 
 
@@ -637,11 +723,11 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* This is pretty similar to what you did in the previous exercise! You're just using | instead of &.
 
 
 **설명:** [ Hint ]     
-* 
+• & 연사자 대신에 | 연산자를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -652,16 +738,19 @@ print int("11001001", 2)
 
 
 ```python
+print bin(0b1110 | 0b101)
 ```
 
 **설명:** [ Solution ]     
-* 
+• 0b1110 과 0b101을 OR (|) 연산자로 계산한다.    
+• 0b1110 | 0b101 계산하면 0b1011이 된다. 그 결과값을 2진수 `bin()`을 출력한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+0b1111
 ```   
 
 <br>
@@ -671,12 +760,34 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 9. 
+### 9. This XOR That?    
+
+The **XOR (^)** or **exclusive** or operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if either of the corresponding bits of the two numbers are 1, but not both.
+```python
+    a:  00101010   42
+    b:  00001111   15       
+================
+a ^ b:  00100101   37
+```
+Keep in mind that if a bit is off in both numbers, it stays off in the result. Note that XOR-ing a number with itself will always result in 0.
+
+So remember, for every given bit in a and b:
+```python
+0 ^ 0 = 0
+0 ^ 1 = 1
+1 ^ 0 = 1
+1 ^ 1 = 0
+```
+Therefore:
+```python
+ 111 (7) ^ 1010 (10) = 1101 (13)
+```
 
 
 
 **설명:** [ Learn ]     
-* 
+• XOR(^)는 두 수 a, b의 값이 같으면 0을 반환한다.    
+• 두 수 a, b중 하나라도 틀리면, 1을 반환한다. 
 {: .notice--info}
 
 
@@ -686,11 +797,12 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* For practice, print the result of using `^` on 0b1110 and 0b101 as a binary string. Try to do it on your own without using the `^` operator. 
 
 
 **설명:** [ Instruction ]    
-* 
+• XOR (^) 연산자를 사용하여 0b1110 과 0b101을 계산하시오.    
+• ^ 연산자 없이 한번 시도해 보시오.  
 {: .notice--info}
 
 
@@ -699,11 +811,11 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* This is pretty similar to what you did in the previous exercise! You're just using ^ instead of |.
 
 
 **설명:** [ Hint ]     
-* 
+• 기존 소스에서 | 대신에 ^를 넣으면 된다. 
 {: .notice--info}
 
 <br>
@@ -714,16 +826,19 @@ print int("11001001", 2)
 
 
 ```python
+print bin(0b1110 ^ 0b101)
 ```
 
 **설명:** [ Solution ]     
-•   
+• 0b1110 과 0b101을 XOR(^) 연산자를 하면, 같은 자리의 숫자가 같으면 0을 반환한다.   
+• 0b1110 ^ 0b101 계산하면 0b1011이 된다. 그 결과값을 `bin()`을 출력한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+0b1011
 ```   
 
 <br>
@@ -733,12 +848,17 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 10. 
+### 10. See? This is NOT That Hard!    
+
+The bitwise **NOT** operator **(~)** just flips all of the bits in a single number. What this actually means to the computer is actually very complicated, so we're not going to get into it. Just know that mathematically, this is equivalent to adding one to the number and then making it negative.
+
+And with that, you've seen all of the basic bitwise operators! We'll see what we can do with these in the next section.
 
 
 
 **설명:** [ Learn ]     
-•   
+• NOT (~)은 반대 값을 출력한다.    
+• 0은 1을 출력하고, 1은 0을 출력한다.  
 {: .notice--info}
 
 
@@ -748,11 +868,11 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* Click Run and observe what the console prints out.
 
 
 **설명:** [ Instruction ]    
-•   
+• 소스를 실행하여 어떻게 출력되는지 살펴보자.   
 {: .notice--info}
 
 
@@ -761,11 +881,11 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* skip
 
 
 **설명:** [ Hint ]     
-•   
+• skip   
 {: .notice--info}
 
 <br>
@@ -776,16 +896,29 @@ print int("11001001", 2)
 
 
 ```python
+print ~1
+print ~2
+print ~3
+print ~42
+print ~123
 ```
 
 **설명:** [ Solution ]     
-•   
+• 1의 2진수는 0b01이고, ~ 는 첫째 bit에 1을 더한 값 0b10 이다.    
+• 0b11의 정수값은 2이고, ~ 이기에 - 값을 붙인다. 즉 -2 이다.     
+• 2의 2진수는 0b10이고, ~ 는 첫째 bit에 1을 더한 값 0b11 이다. 
+• 0b11의 정수값은 3이고, ~ 이기에 - 값을 붙인다. 즉 -3 이다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+-2
+-3
+-4
+-43
+-124
 ```   
 
 <br>
@@ -795,11 +928,34 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 11. 
+### 11. The Man Behind the Bit Mask    
+
+A **bit mask** is just a variable that aids you with bitwise operations. A bit mask can help you turn specific bits on, turn others off, or just collect data from an integer about which bits are on or off.
+```python
+num  = 0b1100
+mask = 0b0100
+
+desired = num & mask
+if desired > 0:
+  print "Bit was on"
+```
+In the example above, we want to see if the third bit from the right is on.
+
+1. First, we first create a variable num containing the number 12, or 0b1100.
+2. Next, we create a mask with the third bit on.
+3. Then, we use a bitwise-and operation to see if the third bit from the right of num is on.
+4. If desired is greater than zero, then the third bit of num must have been one.
 
 
 
 **설명:** [ Learn ]     
+• bit mask는 bit 단위 연산을 돕기 위한 단순한 변수이다.     
+• bit mask는 특정 bit의 값을 활성화 하기 하는데 도움을 준다.    
+• 우리는 bit 가 1이면 On(켜짐)이라 하고, 0이면 Off(꺼짐)이라 표현한다.    
+• 특정 자리의 bit만을 On(켜짐)하기 위해서 사용되는 것을 bit mask라 한다.    
+• 예제에서는 변수 `num`의 3번째 bit 만을 On(켜기)위해서 사용되는 것을 bit mask라 한다.    
+• 변수 `num & mask` 한 값이 0보다 클려면, mask 값이 0b0100이어야 한다.    
+• 변수 `desired` 가 0보다 크므로 "Bit was on" 출력된다.
 {: .notice--info}
 
 
@@ -809,11 +965,24 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* Define a function, `check_bit4`, with one argument, `input`, an integer.
+
+* It should check to see if the **fourth bit** from the right is on.
+
+* If the bit is on, return "on" (not print!)
+
+* If the bit is off, return "off".
+
+* Check the Hint for some examples!
+
+
 
 
 **설명:** [ Instruction ]    
-•   
+• 함수 `check_bit4(input)`을 만들어라.    
+• 함수는 입력한 2진수의 4번째 bit 값이 1 이면 "on" 을 반환한다.    
+• 입력한 4번째의 bit 값이 0 이면 "off" 를 반환한다.
+• 함수만 구현하고, 출력하는 함수 호출은 하지 않는다.   
 {: .notice--info}
 
 
@@ -822,11 +991,17 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* Here are some examples:
+```python
+check_bit4(0b1) # ==> "off"
+check_bit4(0b11011) # ==> "on"
+check_bit4(0b1010) # ==> "on"
+```
+* You'll need to use a mask where all bits are off except for the fourth bit from the right.
 
 
 **설명:** [ Hint ]    
-•  
+• 입력한 4번째 bit 값이 1 인지를 확인하는 함수를 만들어라. 
 {: .notice--info}
 
 <br>
@@ -837,16 +1012,32 @@ print int("11001001", 2)
 
 
 ```python
+def check_bit4(input):
+  mask = 0b1000
+  desired = input & mask
+  if desired > 0:
+    return "on"
+  else:
+    return "off"
+
+#print check_bit4(0b1010)      
 ```
 
 **설명:** [ Solution ]     
-•  
+• 변수 `mask = 0b1000` 4번째 bit 만 1인것을 만든다.    
+• 입력받은 `input` 과 `mask`값을 AND 연산을 한다.    
+• `mask`가 4번째 bit 가 1 인 경우에만 정수 8값(0b1000)이상이 생성된다.    
+• 그 결과값을 `desired`에 저장한다.   
+• `desired`가 0보다 큰 경우(4번째 bit가 1 인 경우) "on"을 반환한다.     
+• 그렇지 않으면 결과값이 0 이므로 "off" 를 반환한다.
+• `print check_bit4(0b1010)`을 입력하여 실행해 보자. 
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+on
 ```   
 
 <br>
@@ -856,11 +1047,23 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 12. 
+### 12. Turn It On    
 
+You can also use masks to turn a bit in a number on using `|`. For example, let's say I want to make sure the rightmost bit of number a is turned on. I could do this:
+```python
+a = 0b110 # 6
+mask = 0b1 # 1
+desired =  a | mask # 0b111, or 7
+```
+Using the bitwise `|` operator will turn a corresponding bit on if it is off and leave it on if it is already on.
 
+ 
 
 **설명:** [ Learn ]     
+• `|` 연산자를 사용하여 bit mask 를 만들 수 있다.    
+• `|` 연산자는 두 수의 계산값중 하나라도 1이면 결과값이 1이된다.    
+• `|` bit mask 는 off 되어 있는 bit, 0 을 on, 즉 1로 만들어 준다.    
+• 이미 on, bit 1은 on 되어 있는것은 on으로 유지한다. 
 {: .notice--info}
 
 
@@ -870,12 +1073,14 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* In the editor is a variable, `a`.    
+* Use a bitmask and the value `a` in order to achieve a result where the **third bit** from the right of `a` is turned on.     
+* Be sure to print your answer as a `bin()` string! 
 
 
 **설명:** [ Instruction ]    
-* 
-
+• 변수 `a`에 있는 3번째 bit를 on(1) 시켜라.    
+• `bin()`를 사용하여 출력하여라.
 {: .notice--info}
 
 
@@ -884,11 +1089,12 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+* You should use `|` and the variable `a` with a mask where the third bit from the right, and only the third bit from the right, is on.
+* If you do not use `bin()` then you will see integer results
 
 **설명:** [ Hint ]     
-
+• 변수 `a`의 3번째 bit가 0이든 1이든 mask를 사용하여 무조건 1(on)이 되게 한다.    
+• 결과값을 `bin()`을 사용하지 않으면 정수값이 출력된다.
 {: .notice--info}
 
 <br>
@@ -899,16 +1105,26 @@ print int("11001001", 2)
 
 
 ```python
+a = 0b10111011
+
+mask = 0b100
+desired = a | mask
+print bin(desired)
+
 ```
 
 **설명:** [ Solution ]     
-
+• 3번째 bit가 1 인 변수 `mask = 0b1000`를 만든다.    
+• 변수 `a`와 `mask`를 OR (|) 연산을 한다.    
+• 그 결괄를 변수 `desired`에 저장한다.    
+• 변수 `desired`를 `bin(desired)`로 변환하여 출력한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+0b10111111
 ```   
 
 <br>
@@ -918,11 +1134,22 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 13.
+### 13. Just Flip Out    
+
+Using the **XOR (^)** operator is very useful for flipping bits. Using **^** on a bit with the number one will return a result where that bit is flipped.
+
+For example, let's say I want to flip all of the bits in `a`. I might do this:
+```python
+a = 0b110 # 6
+mask = 0b111 # 7
+desired =  a ^ mask # 0b1
+```
 
 
 
 **설명:** [ Learn ]     
+• XOR (^) 연산자는 두 수가 같으면 0 틀리면 1을 반환한다.   
+• 변수 `a`에다가 `mask` 0b111을 연산해 주면 XOR 현상이 일어난다.
 {: .notice--info}
 
 
@@ -932,12 +1159,15 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* In the editor is the 8 bit variable `a`.     
+* Use a bitmask and the value `a` in order to achieve a result where all of the bits in a are **flipped**.     
+* Be sure to print your answer as a `bin()` string!
 
 
 **설명:** [ Instruction ]    
-* 
-
+• 변수 `a`는 8개의 bit가 저장되어 있다.    
+• 변수 `a`의 값 모두를 반대로 만들어라.    
+• 출력할때, `bin()`를 사용하여라.   
 {: .notice--info}
 
 
@@ -946,26 +1176,37 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* You'll need a mask the same length as a in which all of the bits are turned on (all set to 1).
 
 
 **설명:** [ Hint ]     
-
+• mask 값을 만들때, 바꿔야할 변수에 저장되어 있는 2진수의 갯수를 알아내야 한다.    
+• 그 길이만큼, 1을 만들어야 한다.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
 ```python
+a = 0b11101110
+
+mask = 0b11111111
+desired = a ^ mask
+
+print bin(desired)
 ```
 
 **설명:** [ Solution ]     
-
+• 변수 `a`의 길이만큼 `mask`에 1을 채운다.    
+• 변수 `a`와 `mask`를 XOR (^) 계산한다.    
+• 계산 결과값을 변수 `desired`에 저장한다.    
+• 변수 `desired`를 `bin(desired)`출력한다. 
 {: .notice--info}
 
 
 **결과**     
 ``` 
+0b10001
 ```   
 
 <br>
@@ -975,11 +1216,35 @@ print int("11001001", 2)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
-### 14. 
+### 14. Slip and Slide    
 
+Finally, you can also use the **left shift** (<<) and **right shift** (>>) operators to slide masks into place.
+```python
+a = 0b101 
+# Tenth bit mask
+mask = (0b1 << 9)  # One less than ten 
+#0b1000000000
+desired = a ^ mask
+#0b0000000101
+#0b1000000000
+#----------------
+#0b1000000101
+```
+Let's say that I want to turn on the **10th bit** from the right of the integer `a`.
+
+Instead of writing out the entire number, we **slide a bit** over using the `<<` operator.
+
+We use 9 because we only need to slide the mask nine places over from the first bit to reach the tenth bit.
 
 
 **설명:** [ Learn ]     
+• 변수 `a` 값의 10번째 bit를 on(1)로 만들려고 한다.    
+• 변수 `mask`를 `0b1` 을 `<<9` 9bit를 왼쪽으로 민다.     
+• 즉, `0b1`다음에 0이 9개가 온다. `mask=0b1000000000`    
+• 10번째 bit에 1이 오기 위해선, bit를 옆으로 9번 민다(slid).    
+• `a`의 10번째 bit를 on 하려면, `a ^ mask` 한다.    
+• 두 비트가 같으면 0, 하나라도 틀리면 1이 된다.    
+• 변수 `desired` 값은 `0b1000000101`이 된다.
 {: .notice--info}
 
 
@@ -989,12 +1254,18 @@ print int("11001001", 2)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 
+* Define a function called `flip_bit` that takes the inputs `(number, n)`.
+
+* Flip the **nth** bit (with the ones bit being the first bit) and store it in `result`.
+
+* Return the `result` of calling `bin(result)`. 
 
 
 **설명:** [ Instruction ]    
-* 
-
+• 함수 `flip_bit(number, n)`을 만들어라.    
+• `number`에는 bit를 `n`에는 몇번째를 반전 시킬것인지를 입력하라.    
+• 반전시킨 값을 `result`에 저장하고 return(반환) 하라.
+• `bin(result)`를 호출하여 값을 출력하라. 
 {: .notice--info}
 
 
@@ -1003,16 +1274,20 @@ print int("11001001", 2)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* Use the `<<` operator to move your mask into place and the `^` operator to flip your desired bit.
 
-
+* The base bit is 0b1 
+* if you want 10th slide bit, you have to move `<<(10 -1)`
+* No print and call the `flip_bit()` function
 
 **설명:** [ Hint ]     
-
+• << 연산자를 사용하여, 원하는 곳까지 이동(slide) 시켜라.    
+• 그리고 원하는 bit를 반전시키기 위하여 ^를 사용하여 연산하라.    
+• 기본 bit는 `0b1`이다.    
+• `0b`을 10번째 bit로 옮기고 싶으면 `<<(10번째 -1)`로 코딩해야 한다.    
+• 함수 `flip_bit()`를 호출하여 출력하지 말라.
 {: .notice--info}
 
-**결과**     
-``` 
-```   
 
 <br>
 <hr/>
@@ -1022,15 +1297,28 @@ print int("11001001", 2)
 
 
 ```python
+def flip_bit(number, n):
+  bit_to_flip = 0b1 << (n -1)
+  result = number ^ bit_to_flip
+  return bin(result)
+
+
+#print (flip_bit(2,3))
 ```
 
 **설명:** [ Solution ]     
-
+• `number`에 옮길 정수값을 입력한다.    
+• `n`에 옮길 bit의 위치를 입력한다.    
+• 0b1 비트를 (n-1) 만큼 << 왼쪽 으로 보낸다.    
+• 그 결과값 `result`는 정수이다.    
+• `bin(result)`를 반환한다.    
+• 임의로 해당 값을 출력해 본다. 
 {: .notice--info}
 
 
 **결과**     
 ``` 
+0b110
 ```   
 
 
@@ -1041,7 +1329,7 @@ print int("11001001", 2)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
+<font sizㅇ1e="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
 ### 15.
 
 
@@ -1344,5 +1632,3 @@ print int("11001001", 2)
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
