@@ -16,7 +16,7 @@ LESSON
 Classes are a crucial part of object-oriented programming (OOP). In this lesson, we'll explain what classes are, why they're important, and how to use them effectively.
 
 **설명:** [ 학습방향 ]     
-클래스는 객체지향의 끝판황이라 할수 있다. 이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 배우겠다.
+클래스는 객체지향의 끝판왕 이라 할수 있다. 이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 배우겠다.
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">
@@ -813,23 +813,31 @@ Anderson
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
 ### 9. They're Multiplying!    
 
-A class can have any number of member variables. These are variables that are available to all members of a class.
-
+A class can have any number of **member variables**. These are variables that are available to all members of a class.
+```python
 hippo = Animal("Jake", 12)
 cat = Animal("Boots", 3)
 print hippo.is_alive
 hippo.is_alive = False
 print hippo.is_alive
 print cat.is_alive
-In the example above, we create two instances of an Animal.
-Then we print out True, the default value stored in hippo's is_alive member variable.
+```
+In the example above, we create **two instances** of an Animal.
+Then we print out True, the default value stored in hippo's `is_alive` member variable.
 Next, we set that to False and print it out to make sure.
 Finally, we print out True, the value stored in cat's is_alive member variable. We only changed the variable in hippo, not in cat.
 Let's add another member variable to Animal.
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]   
+• 클래스 Animal의 instance 를 가진 2개의 object(객체) hippo, cat을 만든다.   
+• object hippo.is_alive member 변수(클래스 변수)를 호출후, 출력한다.    
+• object hippo.is_alive 변수 값을 False로 변경한다.    
+• hippo.is_alive를 출력한다.    
+• object cat.is_alive를 호출후, 출력한다.
+• member variables(클래스변수) is_alive가 어떻게 동작되는지 생각해 본다. 
+• 각각의 member variables가 따로 관리되기에, 다른 object에 영향을 주지 않는다.   
 {: .notice--info}
 
 
@@ -839,12 +847,19 @@ Let's add another member variable to Animal.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* After line 3, add a second member variable called `health` that contains the string "good".
 
+* Then, create two new Animals: `sloth` and `ocelot`. (Give them whatever names and ages you like.)
 
+* Finally, on three separate lines, print out the `health` of your `hippo`, `sloth`, and `ocelot`.
+
+ 
 **설명:** [ Instruction ]    
-① 
-
+• 라인 3에서, 2번째 member 변수 health 를 추가한다.    
+• 변수 health = "good"라고 할당한다.   
+• 클래스 Animals의 instance를 가지는 sloth, ocelot를 생성한다.    
+• object(객체) sloth, coelot에 이름과, 나이는 적당히 넣어라.    
+• hippo, sloth, ocelot의 health를 각 라인에서 출력하라.  
 {: .notice--info}
 
 
@@ -853,11 +868,20 @@ Let's add another member variable to Animal.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* You can add your member variable right under `is_alive`, like so:
+```python
+is_alive = True
+health   = "good"
+```
+* You can print out your hippo's `health` with
+```python
+print hippo.health
+```
 
 
 **설명:** [ Hint ]     
-
+• 변수 is_alive 밑에 변수 health를 추가한다.     
+• object(객체) hippo.health 호출후 출력한다.
 {: .notice--info}
 
 <br>
@@ -868,16 +892,40 @@ Let's add another member variable to Animal.
 
 
 ```python
+class Animal(object):
+  """Makes cute animals."""
+  is_alive = True
+  health = "good"
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  # Add your method here!
+  def description(self):
+    print self.name
+    print self.age
+    
+hippo = Animal('Anderson', 36)
+sloth = Animal('Dale', 15)
+ocelot = Animal('Fuzzy', 7)
+
+print hippo.health
+print sloth.health
+print ocelot.health
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 Animal에 member 변수 health = "good" 를 추가한다.     
+• 클래스 Animal의 instance 인 object hippo, sloth, ocelt를 생성한다.    
+• objec의 health값을 각각 호출 후, 출력한다. 
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+good
+good
+good
 ```   
 
 <br>
@@ -887,11 +935,16 @@ Let's add another member variable to Animal.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 10. 
+### 10. It's Not All Animals and Fruits 
+
+Classes like `Animal` and `Fruit` make it easy to understand the concepts of **classes** and **instances**, but you probably won't see many `zebras` or `lemons` in real-world programs.
+
+However, classes and objects are often used to model real-world objects. The code in the editor is a more realistic demonstration of the kind of classes and objects you might find in commercial software. Here we have a basic `ShoppingCart` class for creating shopping cart objects for website customers; though basic, it's similar to what you'd see in a real program.
 
 
 
 **설명:** [ Learn ]     
+• 실전에서 클래스, 객체, 인스탄스가 어떻게 사용되는지를 쇼핑몰 카트를 예를 들면 이해해보자.
 {: .notice--info}
 
 
@@ -901,12 +954,14 @@ Let's add another member variable to Animal.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Create an **instance** of `ShoppingCart` called `my_cart`.     
+* Initialize it with any values you like, then use the `add_item` method to add an item to your cart. 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 클래스 ShoppingCart의 instance 인 객체 my_cart를 만드시오.    
+• 메서드 add_item()의 parameter인 product, price에 자신이 좋아하는 값을 넣어라.    
+• object(객체) my_cart의 메서드 add_item()을 통하여 product와 price를 추가하라.
 {: .notice--info}
 
 
@@ -915,11 +970,20 @@ Let's add another member variable to Animal.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* Since the `ShoppingCart` class has an `__init__()` method that takes a customer `name`, I'd create `my_cart` like so:
+```python
+my_cart = ShoppingCart("Eric")
+```
+* Calling the `add_item()` method might then be:
+```python
+my_cart.add_item("Ukelele", 10)
+```
 
 
 **설명:** [ Hint ]     
-
+• 클래스 ShoppingCart 의 instance인 my_cart를 생성한다.    
+• 이때, parameter를 "Eric"을 넣는다.    
+• 객체(object) my_cart 에서 add_item() 메서드를 호출한다.
 {: .notice--info}
 
 <br>
@@ -930,16 +994,45 @@ Let's add another member variable to Animal.
 
 
 ```python
+class ShoppingCart(object):
+  """Creates shopping cart objects
+  for users of our fine website."""
+  
+  def __init__(self, customer_name):
+    self.customer_name = customer_name
+    self.items_in_cart = {}
+  def add_item(self, product, price):
+    """Add product to the cart."""
+    if not product in self.items_in_cart:
+      self.items_in_cart[product] = price
+      print product + " added."
+    else:
+      print product + " is already in the cart."
+
+  def remove_item(self, product):
+    """Remove product from the cart."""
+    if product in self.items_in_cart:
+      del self.items_in_cart[product]
+      print product + " removed."
+    else:
+      print product + " is not in the cart."
+
+my_cart = ShoppingCart("Eric")
+my_cart.add_item("Ukelele", 10)
 ```
 
 **설명:** [ Solution ]     
-
+• my_cart = ShoppingCart("Eric")    
+• 클래스 ShoopingCart("Eric")의 instance인 my_cart를 생성한다.    
+• my_cart.add_item("Ukelele", 10)
+• 객체(object) my_cart의 메서드인 add_item("Ukelele", 10)을 호출한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+Ukelele added.
 ```   
 
 <br>
