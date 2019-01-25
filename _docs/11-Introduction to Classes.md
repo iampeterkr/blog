@@ -1042,11 +1042,21 @@ Ukelele added.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 11. 
+### 11. Warning: Here Be Dragons    
+
+**Inheritance** is a tricky concept, so let's go through it step by step.
+
+Inheritance is the process by which one class takes on the attributes and methods of another, and it's used to express an *is-a* relationship. For example, a Panda is a bear, so a Panda class could inherit from a Bear class. However, a Toyota is not a Tractor, so it shouldn't inherit from the Tractor class (even if they have a lot of attributes and methods in common). Instead, both Toyota and Tractor could ultimately inherit from the same Vehicle class. 
 
 
 
 **설명:** [ Learn ]     
+• Inheritance(상속)에 대해서 배워보자.    
+• Q1. 클래스 Panda는 클래스 Bear의 일부분 이다. 동의 하는가?    
+• Q2. 클래스 Toyota는 클래스 Tractor의 일부분 이다. 동의 하는가?    
+• Q3. 클래스 Toyota는 클래스 Vehicle의 일부분 이다. 동의 하는가?    
+• Q4. 클래스 Tractor는 클래스 Vehicle의 일부분 이다. 동의 하는가?
+• 위 에서, Q2는 동의 되지 않는다. Toyota는 Tractor의 개념적 하위가 될 수 없다.
 {: .notice--info}
 
 
@@ -1056,12 +1066,18 @@ Ukelele added.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Check out the code in the editor.    
+* We've defined a class, `Customer`, as well as a `ReturningCustomer` class that inherits from `Customer`.     
+* Note that we don't define the `display_cart` method in the body of `ReturningCustomer`, but it will still have access to that method via **inheritance**.     
+* Click Run to see for yourself! 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• edit 창에 있는 Code를 살펴보자.    
+• 클래스 Customer 가 정의되어 있다.    
+• 클래스 ReturningCustomer가 클래스 Customer를 inheritance(상속)하고 있다.    
+• 주),클래스 ReturningCustomer 내부에, 메소드 display_cart()를 정의하지 않는다.    
+• Run 실행하여, 결과를 살펴보자.
 {: .notice--info}
 
 
@@ -1070,11 +1086,11 @@ Ukelele added.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* skip
 
 
 **설명:** [ Hint ]     
-
+• skip
 {: .notice--info}
 
 <br>
@@ -1085,16 +1101,35 @@ Ukelele added.
 
 
 ```python
+class Customer(object):
+    """Produces objects that represent customers."""
+    def __init__(self, customer_id):
+        self.customer_id = customer_id
+
+    def display_cart(self):
+        print "I'm a string that stands in for the contents of your shopping cart!"
+
+class ReturningCustomer(Customer):
+    """For customers of the repeat variety."""
+    def display_order_history(self):
+        print "I'm a string that stands in for your order history!"
+
+monty_python = ReturningCustomer("ID: 12345")
+monty_python.display_cart()
+monty_python.display_order_history()
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 Customer를 inheritance(상속)한 ReturningCustomer(Customer)은 내부에 display_cart() 메서드를 정의하지 않았다.    
+• 그럼에도 불구하고, object(객체) monty_python은 .display_cart()를 호출한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+I'm a string that stands in for the contents of your shopping cart!
+I'm a string that stands in for your order history!
 ```   
 
 <br>
@@ -1104,11 +1139,20 @@ Ukelele added.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 12. 
+### 12. Inheritance Syntax    
+
+In Python, inheritance works like this:
+```python
+class DerivedClass(BaseClass):
+```
+  # code goes here
+where `DerivedClass` is the new class you're making and `BaseClass` is the class from which that new class inherits.
 
 
 
 **설명:** [ Learn ]     
+• 클래스(BaseClass)를 inhertance 하여 새로운 클래스(DerivedClass)를 만들려면,    
+• DerivedClass의 ()안에 상위 클래스 이름(BaseClass)을 넣으면 된다. 
 {: .notice--info}
 
 
@@ -1118,12 +1162,24 @@ Ukelele added.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* On lines 1-4, we've created a class named `Shape`.
+
+* Create your own class, `Triangle`, that inherits from `Shape`, like this:
+```python
+class Triangle(Shape):
+# code goes here
+```
+* Inside the `Triangle` class, write an `__init__()` function that takes four arguments: `self`, `side1`, `side2`, and `side3`.    
+
+* Inside the `__init__()` function, set `self.side1 = side1`, `self.side2 = side2`, and `self.side3 = side3`.    
+
+* Click "Stuck? Get a hint!" for an example. 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 상위 클래스 Shape를 inheritance 하는 새로운 클래스 Triangle를 만든다.    
+• 클래스 Triangle 내부에는 `__init__(self, side1, dise2, side3)` 메서드를 가지고 있다.    
+• 메서드 `__init__()` 내부에는 `self.side1 = side1`, `self.side2 = side2`, and `self.side3 = side3`을 작성한다. 
 {: .notice--info}
 
 
@@ -1132,11 +1188,17 @@ Ukelele added.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+* Your code should look something like this:
+```python
+class Triangle(Shape):
+  def __init__(self, side1, side2, side3):
+   self.side1 = side1
+   self.side2 = side2
+   self.side3 = side3
+```
 
 **설명:** [ Hint ]     
-
+• 클래스 Shape를 inheritance한 새로운 클래스 Triangle 정의하는 법
 {: .notice--info}
 
 <br>
@@ -1147,16 +1209,30 @@ Ukelele added.
 
 
 ```python
+class Shape(object):
+  """Makes shapes!"""
+  def __init__(self, number_of_sides):
+    self.number_of_sides = number_of_sides
+
+# Add your Triangle class below!
+class Triangle(Shape):
+  def __init__(self, side1, side2, side3):
+    self.side1 = side1
+    self.side2 = side2
+    self.side3 = side3
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 Triangle()는 클래스 Shape를 inheritance 한다.    
+• 메서드 `__init__()`는 1개 self와 3개의 arguments를 가진다.    
+• 본문 내부에서는 self.side1 = side1 처럼 입력받은 arguments를 매칭 시킨다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
@@ -1166,11 +1242,38 @@ Ukelele added.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 13.
+### 13. Override!    
+
+Sometimes you'll want one class that inherits from another to not only take on the methods and attributes of its parent, but to **override** one or more of them.
+```python
+class Employee(object):
+  def __init__(self, name):
+    self.name = name
+  def greet(self, other):
+    print "Hello, %s" % other.name
+
+class CEO(Employee):
+  def greet(self, other):
+    print "Get back to work, %s!" % other.name
+
+ceo = CEO("Emily")
+emp = Employee("Steve")
+emp.greet(ceo)
+# Hello, Emily
+ceo.greet(emp)
+# Get back to work, Steve!
+```
+Rather than have a separate greet_underling method for our CEO, we override (or re-create) the `greet` method on top of the base `Employee.greet` method. This way, we don't need to know what type of `Employee` we have before we `greet` another `Employee`.
 
 
 
 **설명:** [ Learn ]     
+• Override 에 대해서 알아보자.    
+• Inheritance 는 상위 클래스의 속성과 메서드를 이용한다.    
+• 속성과 메서드 를 포함한 전체를 가져오고 싶을때는 override를 한다.    
+• ceo.greet()를 호출하면 "Get back to work, Emily"가 출력될 것이라고 예상할 것이다.    
+• ceo.greet(emp)호출하면, "Get back to work, Steve"가 호출된다.    
+• 이유는 object(객체) emp를 객체 ceo가 override 하였기 때문이다.  
 {: .notice--info}
 
 
@@ -1180,12 +1283,25 @@ Ukelele added.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Create a new class, `PartTimeEmployee`, that inherits from `Employee`.
+
+* Give your derived class a `calculate_wage` method that overrides Employee's. It should take `self` and `hours` as arguments.
+
+* Because `PartTimeEmployee.calculate_wage` overrides `Employee.calculate_wage`, it still needs to set `self.hours = hours`.
+
+* It should return the part-time employee's number of `hours` worked multiplied by 12.00 (that is, they get $12.00 per hour instead of $20.00).
+
+ 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 클래스 Employee를 inheritance 하는 PartTimeEmployee를 만드시오.    
+• 클래스 Employee의 메서드 calculate_wage()를 클래스 PartTimeEmployee 에서 override 하시오.    
+• override 한 calculate_wage(self, hours)를 가진다.    
+• Employee.calcuate_wage의 override 한 것은 PartTimeEmployee.calculate_wage 이다.    
+• 클래스 PartTimeEmployee 의 메서드 calculate_wage() 메서드는 self.hours = hours를 가진다.    
+• 클래스 PartTimeEmployee 의 메서드 calculate_wage(self, hours)의 return 값은 hours x 12.00 이다.    
+• 참고로, 상위 클래스 PartTimeEmployee 의 메서드 calculate_wage()의 return 값은 hours x 20.00 이다. 
 {: .notice--info}
 
 
@@ -1194,26 +1310,47 @@ Ukelele added.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* In the example code above, we created an overriding `CEO.greet` method.     
+* It had the same arguments as `Employee.greet`.     
+* You'll want to add a `calculate_wage()` method to your `PartTimeEmployee` class, and it should also take `self` and `hours` as arguments.     
+* Instead of returning `hours * 20.00`, though, it should return `hours * 12.00`.
 
 
 **설명:** [ Hint ]     
-
+• 클래스 PartTimeEmployee 는 `__init__()`는 정의하지 않는다.    
+• 클래스 PartTimeEmployee 의 메서드 calculate_wage(self, hours)를 가진다.    
+• 클래스 PartTimeEmployee 의 메서드 calculate_wage()는 hours x 12.00을 반환한다. 
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
 ```python
+class Employee(object):
+  """Models real-life employees!"""
+  def __init__(self, employee_name):
+    self.employee_name = employee_name
+
+  def calculate_wage(self, hours):
+    self.hours = hours
+    return hours * 20.00
+
+# Add your code below!
+class PartTimeEmployee(Employee):
+  def calculate_wage(self, hours):
+    self.hours = hours
+    return hours * 12.00
 ```
 
 **설명:** [ Solution ]     
-
+• Override한 PartTimeEmployee는 `__init__()`를 정의하지 않는다.    
+• 내부 calculate_wage()는 return 값을 `hours * 12.00`를 반환한다.  
 {: .notice--info}
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
@@ -1223,7 +1360,16 @@ Ukelele added.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 14. 
+### 14. This Looks Like a Job For...    
+
+On the flip side, sometimes you'll be working with a derived class (or subclass) and realize that you've overwritten a method or attribute defined in that class' base class (also called a parent or superclass) that you actually need. Have no fear! You can directly access the attributes or methods of a superclass with Python's built-in super call.
+
+The syntax looks like this:
+
+class Derived(Base):
+  def m(self):
+    return super(Derived, self).m()
+Where m() is a method from the base class.
 
 
 
