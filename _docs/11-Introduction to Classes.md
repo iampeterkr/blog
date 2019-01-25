@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Introduction to Classes"
-permalink: /introduction-classes-/
+permalink: /introduction-classes/
 excerpt: "We learn about Classes Syntax."
 last_modified_at: 2019-01-24T09:00:00-04:00
 redirect_from:
