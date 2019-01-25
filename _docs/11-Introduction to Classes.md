@@ -511,15 +511,18 @@ Jeffrey
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
 ### 6. More on __init__() and self    
 
-Now that you're starting to understand how classes and objects work, it's worth delving a bit more into __init__() and self. They can be confusing!
+Now that you're starting to understand how classes and objects work, it's worth delving a bit more into `__init__()` and `self`. They can be confusing!
 
-As mentioned, you can think of __init__() as the method that "boots up" a class' instance object: the init bit is short for "initialize."
+As mentioned, you can think of `__init__()` as the method that "boots up" a class' instance object: the init bit is short for "initialize."
 
-The first argument __init__() gets is used to refer to the instance object, and by convention, that argument is called self. If you add additional arguments—for instance, a name and age for your animal—setting each of those equal to self.name and self.age in the body of __init__() will make it so that when you create an instance object of your Animal class, you need to give each instance a name and an age, and those will be associated with the particular instance you create.
+The first argument `__init__()` gets is used to refer to the instance object, and by convention, that argument is called `self`. If you add additional arguments—for instance, a `name` and `age` for your animal—setting each of those equal to `self.name` and `self.age` in the body of `__init__()` will make it so that when you create an instance object of your `Animal` class, you need to give each instance a `name` and an `age`, and those will be associated with the particular instance you create.
 
 
 
 **설명:** [ Learn ]     
+• 객체를 생성할때, `__init__(self)`가 호출된다.     
+• self 외에도 name, age 매개 변수를 추가할 수 있다.    
+• `__init__()` 호출되면 내부에는 self.name, self.age 가 만들어진다.    
 {: .notice--info}
 
 
@@ -529,12 +532,14 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Check out the examples in the editor.     
+* See how `__init__()` "boots up" each object to expect a `name` and an `age`, then uses `self.name` and `self.age` to assign those names and ages to each object?     
+* Add a third attribute, `is_hungry` to `__init__()`, and click Run to see the results.
 
 
 **설명:** [ Instruction ]    
-① 
-
+• `__init__()`에 `is_hungry`를 세번재 매개변수로 추가하여라.    
+• 실행시켜 보아라. 그리고 결과를 지켜보자.
 {: .notice--info}
 
 
@@ -543,11 +548,18 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+Your code should look something like this:
+```python
+def __init__(self, name, age, is_hungry)
+  self.name = name
+  self.age = age
+  self.is_hungry = is_hungry
+```
 
 
 **설명:** [ Hint ]     
-
+• `is_hungry`를 세번째 매개변수로 추가한다.     
+• `self.is_hungry = is_hungry`로 정의한다. 
 {: .notice--info}
 
 <br>
@@ -558,16 +570,43 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 
 ```python
+# Class definition
+class Animal(object):
+  """Makes cute animals."""
+  # For initializing our instance objects
+  def __init__(self, name, age, is_hungry):
+    self.name = name
+    self.age = age
+    self.is_hungry = is_hungry
+
+# Note that self is only used in the __init__()
+# function definition; we don't need to pass it
+# to our instance objects.
+
+zebra = Animal("Jeffrey", 2, True)
+giraffe = Animal("Bruce", 1, False)
+panda = Animal("Chad", 7, True)
+
+print zebra.name, zebra.age, zebra.is_hungry
+print giraffe.name, giraffe.age, giraffe.is_hungry
+print panda.name, panda.age, panda.is_hungry
+
 ```
 
 **설명:** [ Solution ]     
-
+• `def __init__(self, name, age, is_hungry):`    
+• 세번째 매개변수 `is_hungry`를 추가하였다.    
+• `self.is_hungry = is_hungry`    
+• 세번째 매개변수를 매칭 시켜 준다.   
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+Jeffrey 2 True
+Bruce 1 False
+Chad 7 True
 ```
 
 <br>
@@ -577,11 +616,22 @@ The first argument __init__() gets is used to refer to the instance object, and 
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 7. 
+### 7. Class Scope    
 
+Another important aspect of Python classes is **scope**. The **scope of a variable** is the **context** in which it's visible to the program.
+
+It may surprise you to learn that not all variables are accessible to all parts of a Python program at all times. When dealing with classes, you can have variables that are available everywhere (global variables), variables that are only available to members of a certain class (member variables), and variables that are only available to particular instances of a class (instance variables).
+
+The same goes for functions: some are available everywhere, some are only available to members of a certain class, and still others are only available to particular instance objects.
 
 
 **설명:** [ Learn ]     
+• 클래스에서 중요한게 변수의 주기(scope)이다.      
+• 우리는 변수는 한번 생성되면 계속 접속 할수 있다고 생각한다.      
+• 클래스 변수에는 3종류가 있다.    
+  `-` 전역변수(global variables):어디서든 접근 가능    
+  `-` 변수(member variables) : 클래스 멤버만 접근 가능    
+  `-` instance variables:클래스의 객체만 접근 가능 
 {: .notice--info}
 
 
@@ -591,12 +641,14 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Check out the code in the editor.     
+* Note that each individual animal gets its own `name` and `age` (since they're all initialized individually), but they all have access to the member variable `is_alive`, since they're all members of the `Animal` class.     
+* Click Run to see the output! 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• `name`, `age`는 instance 변수 이다.        
+• `is_alive`는 클래스 변수 이다.     
 {: .notice--info}
 
 
@@ -605,11 +657,11 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* skip
 
 
 **설명:** [ Hint ]     
-
+• skip
 {: .notice--info}
 
 <br>
@@ -620,16 +672,37 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 
 ```python
+class Animal(object):
+  """Makes cute animals."""
+  # class variables
+  is_alive = True 
+  def __init__(self, name, age):
+    # instance variables
+    self.name = name
+    self.age = age
+
+zebra = Animal("Jeffrey", 2)
+giraffe = Animal("Bruce", 1)
+panda = Animal("Chad", 7)
+
+print zebra.name, zebra.age, zebra.is_alive
+print giraffe.name, giraffe.age, giraffe.is_alive
+print panda.name, panda.age, panda.is_alive
+
 ```
 
 **설명:** [ Solution ]     
-
+• `is_alive`는 클래스 변수이다.    
+• `name`, `age`는 instance 변수이다. 
 {: .notice--info}
 
 
 
 **결과**     
-``` 
+```
+Jeffrey 2 True
+Bruce 1 True
+Chad 7 True
 ```   
 
 <br>
@@ -639,11 +712,15 @@ The first argument __init__() gets is used to refer to the instance object, and 
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 8. 
+### 8. A Methodical Approach    
+
+When a class has its own functions, those functions are called **methods**. You've already seen one such method: `__init__()`. But you can also define your own methods!
 
 
 
 **설명:** [ Learn ]     
+• 클래스가 가지고 있는 함수를 메서드(method) 라고 부른다.    
+• `__init__()`도 클래스의 메서드 이다.  
 {: .notice--info}
 
 
@@ -653,12 +730,16 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Add a method, `description`, to your `Animal` class.     
+* Using two separate print statements, it should print out the `name` and `age` of the animal it's called on.     
+* Then, create an instance of Animal, `hippo` (with whatever name and age you like), and call its `description` method. 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• Animal 클래스에 메서드 description()를 추가하여라.     
+• description()는 동물의 이름(name)과 나이(age)를 출력(print)한다.    
+• Animal 클래스의 instance를 가진 hippo를 만드시오.(ex.`hippo = Animal()`)    
+• 그 객체(object) hippo의 메서드(method)인 description()를 호출하라.  
 {: .notice--info}
 
 
@@ -667,11 +748,22 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* Remember to pass `self` as an argument to `description`. 
+* Otherwise, printing `self.name` and `self.age` won't work, since Python won't know which `self` (that is, which object) you're talking about!
 
+* Your method should look something like this:
+```python
+def description(self):
+  print self.name
+  print self.age
+```  
+* After that, all you need to do is create a `hippo` and call its description method with `hippo.description()`!
 
 
 **설명:** [ Hint ]     
-
+• 메서드 description(self)은 self parameter가 있어야 한다.
+• 메서드 description()가 호출되면, name과 age가 출력된다.    
+• hippo.description() 으로 호출 한다. 
 {: .notice--info}
 
 <br>
@@ -682,16 +774,34 @@ The first argument __init__() gets is used to refer to the instance object, and 
 
 
 ```python
+class Animal(object):
+  """Makes cute animals."""
+  is_alive = True
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  # Add your method here!
+  def description(self):
+    print self.name
+    print self.age
+    
+hippo = Animal("Anderson", 36)
+hippo.description()
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 Animal 내부에 description(self) 메서드를 만들었다.    
+• 메서드 description(self)는 name과 age를 출력한다.    
+• 클래스 Animal("Anderson", 36)을 instance 하는 object(객체) hippo를 생성한다.    
+• object(객체)를 이요하여, 메서드 description()을 호출한다.  
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+Anderson
+36
 ```   
 
 <br>
@@ -701,7 +811,21 @@ The first argument __init__() gets is used to refer to the instance object, and 
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 9. 
+### 9. They're Multiplying!    
+
+A class can have any number of member variables. These are variables that are available to all members of a class.
+
+hippo = Animal("Jake", 12)
+cat = Animal("Boots", 3)
+print hippo.is_alive
+hippo.is_alive = False
+print hippo.is_alive
+print cat.is_alive
+In the example above, we create two instances of an Animal.
+Then we print out True, the default value stored in hippo's is_alive member variable.
+Next, we set that to False and print it out to make sure.
+Finally, we print out True, the value stored in cat's is_alive member variable. We only changed the variable in hippo, not in cat.
+Let's add another member variable to Animal.
 
 
 
