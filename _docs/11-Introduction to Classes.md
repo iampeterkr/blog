@@ -1488,11 +1488,14 @@ print milton.full_time_wage(10)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 15. 
+### 15. Class Basics    
+
+First things first: let's create a class to work with.
 
 
 
 **설명:** [ Learn ]     
+• 실전 클래스를 만들어 보자.
 {: .notice--info}
 
 
@@ -1502,12 +1505,15 @@ print milton.full_time_wage(10)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Create a class, `Triangle`.    
+* Its `__init__()` method should take `self`, `angle1`, `angle2`, and `angle3` as arguments.     
+* Make sure to set these appropriately in the body of the `__init__()` method (see the Hint for more). 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 클래스 Triangle 를 만들어라.    
+• 클래스 Triangle 는 메서드 `__init__(self, angle1, angle2, angle3)`를 가진다.    
+• `init__()`의 내부에 `self.angle1 = angle1`,`self.angle2 = angle2`,`self.angle3 = angle3` 를 추가하라. 
 {: .notice--info}
 
 
@@ -1516,11 +1522,17 @@ print milton.full_time_wage(10)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+* Make sure your Triangle inherits from `object`.     
+* Remember, class syntax looks like this:
+```python
+class ClassName(object):
+  def __init__(args):
+    # Set self.args = args
+```
 
 **설명:** [ Hint ]     
-
+• 클래스는 object를 inheritance 한다.    
+• 클래스를 만드는 문법을 참고한다. 
 {: .notice--info}
 
 <br>
@@ -1531,15 +1543,23 @@ print milton.full_time_wage(10)
 
 
 ```python
+class Triangle(object):
+  def __init__(self, angle1, angle2, angle3):
+    self.angle1 = angle1
+    self.angle2 = angle2
+    self.angle3 = angle3
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 Triangle은 (object)를 inhertance 한다.    
+• 메서드 `__init__(self, angle1, angle2, angle3)`를 parameter를 가진다.    
+• `__init__()`의 내부를 초기화 (ex. self.angle1 = angle1) 한다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
