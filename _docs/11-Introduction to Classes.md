@@ -1362,18 +1362,22 @@ skip
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
 ### 14. This Looks Like a Job For...    
 
-On the flip side, sometimes you'll be working with a derived class (or subclass) and realize that you've overwritten a method or attribute defined in that class' base class (also called a parent or superclass) that you actually need. Have no fear! You can directly access the attributes or methods of a superclass with Python's built-in super call.
+On the flip side, sometimes you'll be working with a derived class (or subclass) and realize that you've overwritten a method or attribute defined in that class' base class (also called a parent or superclass) that you actually need. Have no fear! You can directly access the attributes or methods of a superclass with Python's built-in `super` call.
 
 The syntax looks like this:
-
+```python
 class Derived(Base):
   def m(self):
     return super(Derived, self).m()
-Where m() is a method from the base class.
+```    
+Where `m()` is a method from the base class.
 
 
 
 **설명:** [ Learn ]     
+• 상위 클래스에 속해 있는 메서드를 수정 할려면, 내재 함수 super 를 이용한다.   
+• 사용법은 super(Derived, self).m() 이라고 사용한다.    
+• m()은 상위 클래스의 메서드를 가리킨다.
 {: .notice--info}
 
 
@@ -1383,12 +1387,29 @@ Where m() is a method from the base class.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* First, inside your `PartTimeEmployee` class:
+
+* Add a new method called `full_time_wage` with the arguments `self` and `hours`.
+* That method should return the result of a **super** call to the `calculate_wage` method of PartTimeEmployee's parent class.     
+* Use the example above for help.    
+
+* Then, after your class:
+
+* Create an instance of the `PartTimeEmployee` class called `milton`.    
+* Don't forget to give it a **name**.    
+* Finally, print out the result of calling his `full_time_wage` method.    
+* You should see his wage printed out at **$20.00 per hour**! (That is, for 10 hours, the result should be 200.00.)
+ 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 클래스 PartTimeEmployee 의 메서드 full_time_wage(self, hours)를 추가하라.   
+• 메서드 full_time_wage()는 super를 이용하여 return 값을 반환한다.    
+• super를 이용한 return 값은, 상위 클래스 Employee 의 calculate_wage()의 결과값을 호출하여 사용한다.    
+• milton = PartTimeEmployee("peter"), object를 생성한다.    
+• parameter에 이름을 넣는것을 잊지 말라.    
+• prit milton.full_time_wage(10) 를 호출하여 출력하라.     
+• 시간 x 20.00, 즉 200.00이 출력 될 것이다.
 {: .notice--info}
 
 
@@ -1397,11 +1418,17 @@ Where m() is a method from the base class.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* You super call should look something like this:
+```python
+def full_time_wage(self, hours):
+  return super(PartTimeEmployee, self).method(args)
+```  
+* Where method is the method you want (`calculate_wage`) and args are the arguments that method takes.
 
 
 **설명:** [ Hint ]     
-
+• super를 사용하는 방법을 참조하자.    
+• .method(args) -> calculate_wage(name) 이라고 바꾸자.
 {: .notice--info}
 
 **결과**     
@@ -1416,15 +1443,40 @@ Where m() is a method from the base class.
 
 
 ```python
+class Employee(object):
+  """Models real-life employees!"""
+  def __init__(self, employee_name):
+    self.employee_name = employee_name
+
+  def calculate_wage(self, hours):
+    self.hours = hours
+    return hours * 20.00
+
+# Add your code below!
+class PartTimeEmployee(Employee):
+  def calculate_wage(self, hours):
+    self.hours = hours
+    return hours * 12.00
+  
+  def full_time_wage(self, hours):
+    return super(PartTimeEmployee, self).calculate_wage(hours)
+
+milton = PartTimeEmployee('Milton')
+print milton.full_time_wage(10)
 ```
 
 **설명:** [ Solution ]     
-
+• def full_time_wage(self, hours): 를 정의한다.     
+• return super(PartTimeEmployee, self).calculate_wage(hours)    
+• 이 메서드는 상위클래스의 calculate_wage(hours)를 호출한다.    
+• 클래스 PartTimeEmployee('Milton') 의 instance 인 object milton을 만든다.    
+• object milton.full_time_wage(10)을 호출하여 출력한다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+200.0
 ```   
 
 
@@ -1436,7 +1488,7 @@ Where m() is a method from the base class.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 15.
+### 15. 
 
 
 
