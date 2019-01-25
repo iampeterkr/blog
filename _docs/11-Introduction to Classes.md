@@ -1569,11 +1569,14 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 16. 
+### 16. Class It Up    
+
+Great! Now let's **add** a **member variable** and a **method** to our class.
 
 
 
 **설명:** [ Learn ]     
+• member variable 와 method를 추가해 보자.
 {: .notice--info}
 
 
@@ -1583,12 +1586,22 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Inside the `Triangle` class:    
+
+* Create a variable named `number_of_sides` and set it equal to 3.    
+
+* Create a method named `check_angles`.    
+* The sum of a triangle's three angles should **return True** if the sum of `self.angle1`, `self.angle2`, and `self.angle3` is equal 180, and False otherwise.
+ 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 클래스 Triangle 안에 다음 내용을 추가 하시오.   
+• number_of_sides = 3    
+• def check_angles(self):   
+• 메서드 check_angles()는 True or False를 반환한다.        
+• True : `self.angle1`, `self.angle2`, `self.angle3` 합이 180    
+• False : True가 아닌 경우.
 {: .notice--info}
 
 
@@ -1597,11 +1610,19 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
+* The check_angles method should look something like this:
+```python
+def check_angles(self):
+  if (self.angle1 + self.angle2 + self.angle3 == 180):
+    return True
+  else:
+    return False
+```
 
 **설명:** [ Hint ]     
-
+• member variables를 추가하라.
+• 메서드 check_angles(self)는 self만 parameter로 가진다.    
+• 메서드 작성 방법을 참조하자.
 {: .notice--info}
 
 <br>
@@ -1612,15 +1633,31 @@ skip
 
 
 ```python
+class Triangle(object):
+  number_of_sides = 3
+  def __init__(self, angle1, angle2, angle3):
+    self.angle1 = angle1
+    self.angle2 = angle2
+    self.angle3 = angle3
+    
+  def check_angles(self):
+    if (self.angle1 + self.angle2 + self.angle3) == 180:
+      return True
+    else:
+      return False
 ```
 
 **설명:** [ Solution ]     
-
+• member 변수  number_of_sides = 3 를 추가한다.    
+• 메서드 def check_angles(self):를 추가한다. parameter는 self만 있다.    
+• 클래스에서 입력받은 parameter 값을 합하여 180이면 True를 반환한다.    
+• 그 외는 False를 반환한다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
@@ -1630,11 +1667,14 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 17.
+### 17. Instantiate an Object    
+
+Let's go ahead and create an **instance** of our `Triangle` class.
 
 
 
 **설명:** [ Learn ]     
+• 클래스 Triangle 의 instance를 만들어 보자.
 {: .notice--info}
 
 
@@ -1644,12 +1684,21 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Create a variable named `my_triangle` and set it equal to a new instance of your `Triangle` class.     
+* Pass it three angles that sum to 180 (e.g. 90, 30, 60).
+
+* Print out my_triangle.number_of_sides
+
+* Print out my_triangle.check_angles()
+
+ 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 클래스 Triangle 의 instance 인 object my_triangle를 만들어라.    
+• parameter 값으로 3개 합이 180이 되게 넣는다.(e.g. 90, 30, 60)   
+• print my_triangle.number_of_sides 를 호출하고 출력한다.   
+• print my_triangle.check_angles()를 호출하고 출력한다.
 {: .notice--info}
 
 
@@ -1658,11 +1707,16 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* Remember, we can instantiate an `object` like so:
+```python
+instance = Class(args)
+```
+* Where args are the arguments `__init__()` takes, not including self.
 
 
 **설명:** [ Hint ]     
-
+• instance인 objec를 만드는 법을 참조 하자.    
+• arguments에는 self가 들어가지 않는다.
 {: .notice--info}
 
 <br>
@@ -1673,15 +1727,36 @@ skip
 
 
 ```python
+class Triangle(object):
+  number_of_sides = 3
+  def __init__(self, angle1, angle2, angle3):
+    self.angle1 = angle1
+    self.angle2 = angle2
+    self.angle3 = angle3
+    
+  def check_angles(self):
+    if (self.angle1 + self.angle2 + self.angle3) == 180:
+      return True
+    else:
+      return False
+    
+my_triangle = Triangle(30, 60, 90)
+
+print my_triangle.number_of_sides
+print my_triangle.check_angles()
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 Triangle(30, 60, 90)을 instance 한 object my_triangle를 만든다.   
+• object my_triangle의 변수 number_of_sides 를 호출하고 출력한다.    
+• object my_triangle의 메서드 check_angles()를 호출하고 출력한다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+3
+True
 ```   
 
 <br>
@@ -1691,11 +1766,15 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 18.
+### 18. Inheritance    
+
+Finally, let's create an `Equilateral` class that **inherits** from our `Triangle` class. (An equilateral triangle is a triangle whose angles are all 60˚, which also means that its three sides are equal in length.)
 
 
 
 **설명:** [ Learn ]     
+• 클래스 Triangle를 inheritance 한 클래스 Equilateral를 만들어 보자.    
+• Equilateral 은 3각 모두가 60˚ 인 삼각형이다.
 {: .notice--info}
 
 
@@ -1705,12 +1784,20 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-① 
+* Create a class named `Equilateral` that **inherits** from `Triangle`.
+
+* Inside `Equilateral`, create a member variable named `angle` and set it equal to 60.
+
+* Create an `__init__()` function with only the parameter `self`, and set `self.angle1`, `self.angle2`, and `self.angle3` equal to `self.angle` (since an equilateral triangle's angles will always be 60˚).
+
+ 
 
 
 **설명:** [ Instruction ]    
-① 
-
+• 클래스 Triangle 를 inheritance 한 클래스 Equilateral 를 만들어라.        
+• 클래스 Equilateral 내부에는 member 변수인 angle = 60 을 만들어라.  
+• 내부에 메서드 `__init__(self)`를 만들어라.  
+• 내부 메서드의 3개 초기화 (e.g. self.angle1 = self.angle)로 초기화를 하여라.
 {: .notice--info}
 
 
@@ -1719,11 +1806,18 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* Remember, **inheritance** looks like this:
+```python
+class DerivedClass(BaseClass):
+  # Your code here
+```  
+where `DerivedClass` is the new class you're making, and `BaseClass` is the class it **inherits** from.
 
 
 **설명:** [ Hint ]     
-
+• Inheritance는 상위 클래스의 속성과 메서드를 상속 받는 것이다.   
+• Inheritance를 했기에, partamerter도 inheritance 된다. 
+• 예제를 참고 하시오.
 {: .notice--info}
 
 <br>
@@ -1734,81 +1828,41 @@ skip
 
 
 ```python
+class Triangle(object):
+  number_of_sides = 3
+  def __init__(self, angle1, angle2, angle3):
+    self.angle1 = angle1
+    self.angle2 = angle2
+    self.angle3 = angle3
+    
+  def check_angles(self):
+    if (self.angle1 + self.angle2 + self.angle3) == 180:
+      return True
+    else:
+      return False
+    
+class Equilateral(Triangle):
+  angle = 60
+  def __init__(self):
+    self.angle1 = self.angle
+    self.angle2 = self.angle
+    self.angle3 = self.angle
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 Equilateral은 클래스 Triangle를 inheritance 하여 정의한다.    
+• member 변수에 60을 할당한다.    
+• 메서드 `__init__(self)`를 정의한다.(이때, arguments가 없다.)    
+• 이유는 inheritance 했기 때문이다.     
+• 하지만, 초기화(e.g. self.angle1 = self.angle ) 은 한다.
 {: .notice--info}
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
-### 19.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-① 
-
-
-**설명:** [ Instruction ]    
-① 
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
