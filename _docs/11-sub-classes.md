@@ -436,11 +436,22 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
-### 6.  
+### 6. Referring to member variables    
+
+Calling class member variables works the same whether those values are created within the class (like our car's condition) or values are passed into the new object at initialization. We use dot notation to access the member variables of classes since those variables belong to the object.
+
+For instance, if we had created a member variable named new_variable, a new instance of the class named new_object could access this variable by saying:
+```python
+new_object.new_variable
+```
 
 
 
 **설명:** [ Learn ]     
+• member 변수 인용    
+• member 변수는 클래스가 만들어질때 값이 초기화 되거나, 객체가 생성될때 전달되기도 한다.    
+• member 변수는 . 을 사용하여 접근 할 수 있다.     
+• new_object.new_variable 로 접근한다.
 {: .notice--info}
 
 
@@ -450,12 +461,18 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*  
+* Now that you've created `my_car` print its member variables:
+
+* First print the `model` of `my_car`. Click "Stuck? Get a hint!" for an example.
+* Then print out the `color` of `my_car`.
+* Then print out the `mpg` of `my_car`.
+ 
 
 
 **설명:** [ Instruction ]    
-*  
-
+• my_car 의 member 변수를 출력하시오.    
+• my_car 의 color 변수를 출력하시오.    
+• my_car 의 mpg 변수를 출력하시오.
 {: .notice--info}
 
 
@@ -464,11 +481,14 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* To print my_car's model, you'd type:
+```python
+print my_car.model
+```
 
 
 **설명:** [ Hint ]     
-
+• my_car.model 
 {: .notice--info}
 
 <br>
@@ -479,16 +499,36 @@ skip
 
 
 ```python
+class Car(object):
+  condition = "new"
+  def __init__(self, model, color, mpg):
+    self.model = model
+    self.color = color
+    self.mpg   = mpg
+
+my_car = Car("DeLorean", "silver", 88)
+
+# model = "DeLorean"
+# color = "silver"
+# mpg = 88
+# my_car = Car(model, color, mpg)
+
+print my_car.model
+print my_car.color
+print my_car.mpg
 ```
 
 **설명:** [ Solution ]     
-
+• 생성된 my_car 의 member 변수를 호출하여 출력한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+DeLorean
+silver
+88
 ```
 
 <br>
@@ -498,11 +538,28 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
-### 7. 
+### 7. Creating class methods    
+
+Besides member variables, classes can also have their own methods. For example:
+
+```python
+class Square(object):
+  def __init__(self, side):
+    self.side = side
+
+  def perimeter(self):
+    return self.side * 4
+```
+The `perimeter()` class method is identical to defining any other function, except that it is written inside of the Square class definition.
+
+Just like when we defined `__init__()`, you need to provide `self` as the first argument of any class method.
 
 
 
 **설명:** [ Learn ]     
+• 클래스 안에는 `__init__()`외에도 다른 메서드를 만들수 있다.    
+• 메서드 perimeter()는 클래스 내의 다른 메서드에서 정의된 부분을 제외하고 정의하였다.    
+• 메서드는 무조건 첫번째 인자는 self 이다.  
 {: .notice--info}
 
 
@@ -512,12 +569,19 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*  
+* Inside the `Car` class, add a method named `display_car` to `Car` that will reference the Car's member variables to return the string,     
+* "This is a [color] [model] with [mpg] MPG."     
+* You can use the `str()` function to turn your `mpg` into a string when creating the display string.   
+* Replace the individual print statements with a single print command that displays the result of calling `my_car.display_car()`
+
+  
 
 
 **설명:** [ Instruction ]    
-*  
-
+• 클래스 Car 내부에 메서드 display_car를 정의 하시오.    
+• 메서드 display_car()은 color, model, mpg 를 반환한다.    
+• mpg 는 str(mpg) 로 변경후 반환한다.    
+• my_car.display_car()를 호출하면, 각각의 color, model, mpg를 출력한다. 
 {: .notice--info}
 
 
@@ -526,11 +590,16 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+Remember, in order to access member variables of a class (even while inside of that class), we have to use the self keyword and dot notation to specify that we mean the member variable that belongs to the class.
 
-
+```python
+def display_car(self):
+  print self.color
+```  
 
 **설명:** [ Hint ]     
-
+• 클래스의 member 변수에 접근하기 위해선 . 를 사용한다.     
+• 메서드 display_car(self) 내부에서 변수를 사용할때는 (e.g. self.color)
 {: .notice--info}
 
 <br>
@@ -540,17 +609,31 @@ skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
-```python
+```python    
+class Car(object):
+  condition = "new"
+  def __init__(self, model, color, mpg):
+    self.model = model
+    self.color = color
+    self.mpg   = mpg
+   
+  def display_car(self):
+    print "This is a %s %s with %s MPG." % (self.color, self.model, str(self.mpg))
+
+my_car = Car("DeLorean", "silver", 88)
+
+my_car.display_car()
 ```
 
 **설명:** [ Solution ]     
-
+• 메서드 display_car(self) 에서 color, model, mpg를 사용할때는 self를 사용한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+This is a silver DeLorean with 88 MPG.
 ```   
 
 <br>
@@ -560,11 +643,15 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
-### 8. 
+### 8. Modifying member variables    
+
+We can modify variables that belong to a class the same way that we initialize those member variables. This can be useful when we want to change the value a variable takes on based on something that happens inside of a class method.
 
 
 
 **설명:** [ Learn ]     
+• member 변수의 수정    
+• 클래스 내부의 member 변수를 수정해서 사용할 필요가 있을때 변경 할수 있다.
 {: .notice--info}
 
 
@@ -574,12 +661,22 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*  
+* Inside the `Car` class, add a method `drive_car` that sets `self.condition` to the string "used".
+
+* Remove the call to `my_car.display_car()` and instead print only the `condition` of your car.
+
+* Then drive your car by calling the `drive_car` method.
+
+* Finally, print the `condition` of your car again to see how its value changes.  
 
 
 **설명:** [ Instruction ]    
-*  
-
+• 클래스 Car 내부에 메서드 drive_car를 만들어라.    
+• 메서드 drive_car 내부에 self.condition = "used" 을 만들어라.    
+• my_car.display_car()를 삭제 하여라. 대신에 my_car.condition 값을 출력하라.    
+• my_car.drive_car()를 호출하여라.    
+• my_car.condition을 출력하여라.    
+• condition 값이 어떻게 변했는지 살펴 보아라.
 {: .notice--info}
 
 
@@ -588,11 +685,11 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* skip
 
 
 **설명:** [ Hint ]     
-
+• skip
 {: .notice--info}
 
 <br>
@@ -603,16 +700,38 @@ skip
 
 
 ```python
+class Car(object):
+  condition = "new"
+  def __init__(self, model, color, mpg):
+    self.model = model
+    self.color = color
+    self.mpg   = mpg
+   
+  def display_car(self):
+    print "This is a %s %s with %s MPG." % (self.color, self.model, str(self.mpg))
+    
+  def drive_car(self):
+    self.condition = "used"
+
+my_car = Car("DeLorean", "silver", 88)
+
+print my_car.condition
+my_car.drive_car()
+print my_car.condition
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 내부에서 처음 정의한 condition 값은 "new" 이었다.    
+• 메서드 drive_car()가 호출되어 그 내부에 재정의한 condition 값은 "used" 이다.    
+• member 변수 condition 값이 "new" 에서 "used"로 변경 되었다.
 {: .notice--info}
 
 
 
 **결과**     
-``` 
+```
+new
+used
 ```   
 
 <br>
@@ -622,11 +741,27 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
-### 9. 
+### 9. Inheritance    
+
+One of the benefits of classes is that we can create more complicated classes that inherit variables or methods from their parent classes. This saves us time and helps us build more complicated objects, since these child classes can also include additional variables or methods.
+
+We define a "child" class that inherits all of the variables and functions from its "parent" class like so:
+```python
+class ChildClass(ParentClass):
+  # new variables and functions go here
+```
+Normally we use object as the parent class because it is the most basic type of class, but by specifying a different class, we can inherit more complicated functionality.
 
 
 
 **설명:** [ Learn ]     
+• Inheritance(상속)    
+• 클래스의 가장 유용한 점은 inheritanc 을 할 수 있다는 것이다.    
+• Inheritance는 상위 클래스의 변수와 메소드를 상속 받을 수 있다.     
+• 상속 받은 하위 클래스는 상위 클래스의 변수와 메소드에다 더 추가 할수가 있다.    
+• 상위 클래스는 부모 클래스라고 부르고, 하위 클래스는 자식 클래스라고 한다.   
+• 부모 클래스는 대부분 object를 부모 클래스로 두고 있다.    
+• 이런 inheritance로 우리는 다양하고 복잡한 클래스를 만들수 있다.
 {: .notice--info}
 
 
@@ -636,12 +771,18 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*  
+* Create a class `ElectricCar` that inherits from `Car`.     
+* Give your new class an `__init__()` method of that includes a `battery_type` member variable in addition to the `model`, `color` and `mpg`.
+
+* Then, create an electric car named `my_car` with a "molten salt" battery_type.     
+* Supply values of your choice for the other three inputs (model, color and mpg).  
 
 
 **설명:** [ Instruction ]    
-*  
-
+• 클래스 Car 를 inheritance 하는 클래스 ElectricCar 를 만들어라.    
+• 클래스 ElectricCar 의 메서드 `__init__()` 내부에 member 변수 battery_type를 추가하라.    
+• my_car = ElectricCar("molten salt", model, color, mpg)를 만들어라.     
+• model, color, mpg 도 당신이 원하는 값을 넣어라.
 {: .notice--info}
 
 
@@ -650,11 +791,14 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* Redefining a method of a "child" class is as simple as including a definition for that function inside the "child" class; this version will take precedence over the inherited version.
 
+* Remember to include the self keyword as the first input when you define the `__init__()` method!
 
 
 **설명:** [ Hint ]     
-
+• 자식 클래스는 () 안에 부모 클래스 이름을 적는다.    
+• 자식 클래스의 `__init__()`에 self를 넣는것을 잊지 말자.
 {: .notice--info}
 
 <br>
@@ -665,16 +809,39 @@ skip
 
 
 ```python
+class Car(object):
+  condition = "new"
+  def __init__(self, model, color, mpg):
+    self.model = model
+    self.color = color
+    self.mpg   = mpg
+   
+  def display_car(self):
+    print "This is a %s %s with %s MPG." % (self.color, self.model, str(self.mpg))
+    
+  def drive_car(self):
+    self.condition = "used"
+    
+class ElectricCar(Car):
+  def __init__(self, model, color, mpg, battery_type):
+    self.model = model
+    self.color = color
+    self.mpg   = mpg
+    self.battery_type = battery_type
+
+my_car = ElectricCar("DeLorean", "silver", 88, "molten salt")
 ```
 
 **설명:** [ Solution ]     
-
+• 클래스 ElectricCar 는 부모 클래스 Car를 inheritance 한다.    
+• 입력 받은 파라미터들을 초기화 한다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+skip
 ```   
 
 <br>
@@ -684,11 +851,16 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
-### 10. 
+### 10. Overriding methods    
+
+Since our `ElectricCar` is a more specialized type of `Car`, we can give the `ElectricCar` its own `drive_car()` method that has different functionality than the original `Car` class's.
 
 
 
 **설명:** [ Learn ]     
+• Overriding
+• 클래스 ElectricCar는 부모 클래스 Car의 특화된 클래스이다.    
+• 클래스 ElectricCar의 내부 메서드 drive_car()는 클래스 Car의 메소드 drive_car()보다 다른 기능을 수행할수 있다.
 {: .notice--info}
 
 
@@ -698,12 +870,20 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*  
+* Inside `ElectricCar` add a new method `drive_car` that changes the car's `condition` to the string "like new".
 
+* Then, outside of `ElectricCar`, print the `condition` of `my_car`
 
+* Next, drive `my_car` by calling the `drive_car` function
+
+* Finally, print the `condition` of `my_car` again
+
+ 
 **설명:** [ Instruction ]    
-*  
-
+• 클래스 ElectricCar의 내부 메서드 drive_car의 member변수 condition="like new"  라고 추가한다.    
+• 외부에, my_car = ElectricCar() 한 my_car.condition을 출력한다.    
+• my_car.drive_car()를 호출한다.    
+• my_car.condition을 출력한다.
 {: .notice--info}
 
 
@@ -712,11 +892,11 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
+* This should be very similar to what you did in the second exercise of this section.
 
 
 **설명:** [ Hint ]     
-
+• 앞장에서 배운 override 예제를 참조 하시오.
 {: .notice--info}
 
 <br>
@@ -727,16 +907,48 @@ skip
 
 
 ```python
+class Car(object):
+  condition = "new"
+  def __init__(self, model, color, mpg):
+    self.model = model
+    self.color = color
+    self.mpg   = mpg
+   
+  def display_car(self):
+    print "This is a %s %s with %s MPG." % (self.color, self.model, str(self.mpg))
+    
+  def drive_car(self):
+    self.condition = "used"
+    
+class ElectricCar(Car):
+  def __init__(self, model, color, mpg, battery_type):
+    self.model = model
+    self.color = color
+    self.mpg   = mpg
+    self.battery_type = battery_type
+    
+  def drive_car(self):
+    self.condition = "like new"
+
+my_car = ElectricCar("DeLorean", "silver", 88, "molten salt")
+
+print my_car.condition
+my_car.drive_car()
+print my_car.condition
 ```
 
 **설명:** [ Solution ]     
-
+• 첫번째, print my_car.condition 은 "new"가 출력된다.     
+• my_car.drive_car()를 호출하면 기존 클래스가 아닌, ElectriCar에서 재정의한 drive_Car()가 호출되면서, override가 된다.    
+• 다시, print my_car.condition 을 호출하면 "like new" 가 출력된다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+new
+like new
 ```   
 
 <br>
@@ -746,11 +958,20 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
-### 11. 
+### 11. Building useful classes    
+
+Chances are, you won't be designing `Car` classes in the real world anytime soon. Usually, classes are most useful for holding and accessing abstract collections of data.
+
+One useful class method to override is the built-in `__repr__()` method, which is short for representation; by providing a return value in this method, we can tell Python how to represent an object of our class (for instance, when using a print statement).
 
 
 
 **설명:** [ Learn ]     
+• 실전 프로그램에서, 클래스는 유용하게 사용된다.     
+• 하지만, 여러분이 바로 클래스를 만들고 사용하는 일은 조금 시간이 걸린다.   
+• 이렇게 유용한 클래스를 잘 사용하게끔 하려고, 새로운 내장 override 메서드가 있다.    
+• 메서드 `__repr__()`이다.    
+• 이 메서드는 Python에서 객체를 반환할때, 어떻게 표현할지를 알려 줄수 있다. 
 {: .notice--info}
 
 
@@ -760,12 +981,33 @@ skip
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*  
+* Define a `Point3D` class that inherits from `object`
+
+* Inside the `Point3D` class, define an `__init__()` function that accepts `self`, `x`, `y`, and `z`, and assigns these numbers to the member variables `self.x`, `self.y`, `self.z`
+
+* Define a `__repr__()` method that returns "(%d, %d, %d)" % (self.x, self.y, self.z).     
+* This tells Python to represent this `object` in the following format: 
+```python
+(x, y, z).
+```
+* Outside the class definition, create a variable named `my_point` containing a new instance of `Point3D` with `x=1`, `y=2`, and `z=3`.
+
+* Finally, print `my_point`.
+
+ 
 
 
 **설명:** [ Instruction ]    
-*  
-
+• `__repr__()`의 개념을 익히기 위하여 연습해 보자.    
+• 클래스 Point3D(object)를 만드시오.    
+• 클래스 Point3D는 메서드 `__init__()`를 가진다.    
+• 메서드 `__init__()`는 parameter로 self, x, y, z 를 가진다.    
+• 그리고, 각 변수 x, y, z를 초기화 한다. (e.g. self.x )    
+• 클래스 Point3D에 메서드 `__repr__()`를 추가한다.    
+• 메서드 `__repr__()`는 "(%d, %d, %d)" % (self.x, self.y, self.z)을 반환한다.    
+• 출력시 (x,y,z) 로 출력이 된다.     
+• 외부에서 my_point = Point3D(1, 2, 3) 이라고 호출한다.    
+• my_point를 출력하여라.
 {: .notice--info}
 
 
@@ -774,11 +1016,21 @@ skip
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* When defining a new `__repr__()`, return a string value that uses the member variables of the class to display the 3D point properly.     
+* You can use the `str()` function to put these numbers in the proper string.
 
+* For advanced users: For more information on `__repr__` and other special methods see this Python documentation. Note the slight difference between the `__repr__` and `__str__` methods.
 
-
+```python
+# x=1, y=2, z=3
+my_point = point3D(1,2,3)
+```
 **설명:** [ Hint ]     
-
+• `__repr__()`를 사용할때는 문자열이 반환된다.    
+• 반환할때, 숫자는 `str()`를 사용하여 반환하여라.    
+• `__repr__`이외의 다른 특별한 메서드에 대해서 궁금하면 Python 매뉴얼을 참조하라.    
+• `__repr__`과 `__str__` 사이의 약간의 차이점도 알아보자. 
+• `__repr__`는 정확하게 내가 표현할때 사용하고, `__str__`은 Python이 제공하는 기능을 참조하여 정해진 기본값을 보여줄때, 사용한다. e.g. 소숫점 20자리의 결과 값을 보여줄때, `__repr__`는 정확히 20자리를 보여줄수있지만, `__str__`은 Python 해석기가 기본으로 보여줄수 있는 적당한 값(15자리 or 그보다도 적거나 많을수도 있음)을 보여준다.
 {: .notice--info}
 
 <br>
@@ -789,512 +1041,30 @@ skip
 
 
 ```python
+class Point3D(object):
+  def __init__(self, x, y, z):
+    self.x = x
+    self.y = y
+    self.z = z
+    
+  def __repr__(self):
+    return "(%d, %d, %d)" % (self.x, self.y, self.z)
+    
+my_point = Point3D(1, 2, 3)
+print my_point
 ```
 
 **설명:** [ Solution ]     
-
+• `__repr__(self)`는 내가 object에서 호출시 정확히 보여주고자 하는 결과값을 출력해준다.
 {: .notice--info}
 
 
 
 **결과**     
 ``` 
+(1,2,3)
 ```   
 
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 12. 
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 13.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 14. 
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-**결과**     
-``` 
-```   
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 15.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 16. 
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 17.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 18.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">CLASSES</font> 
-### 19.
-
-
-
-**설명:** [ Learn ]     
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-
-*  
-
-
-**설명:** [ Instruction ]    
-*  
-
-{: .notice--info}
-
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-
-
-**설명:** [ Hint ]     
-
-{: .notice--info}
-
-<br>
-<hr/>
-
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
-
-```python
-```
-
-**설명:** [ Solution ]     
-
-{: .notice--info}
-
-
-**결과**     
-``` 
-```   
-
-
-<br>
-<br>    
-<br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
