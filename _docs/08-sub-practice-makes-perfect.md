@@ -8,7 +8,19 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
-    
+
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+You know a lot of Python now. Let's do some practice problems!    
+
+**설명:** [ 학습방향 ]     
+반복문에 대한 연습을 해보자.
+{: .notice--info}     
+     
+
     
  <hr style="border: solid 1px #dddddd ;">
 

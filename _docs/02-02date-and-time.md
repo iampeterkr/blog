@@ -9,7 +9,17 @@ redirect_from:
 toc: true
 ---
     
-    
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+This lesson is a follow up to Unit 2: Strings and Console input and will give you practice with the concepts introduced in that lesson.
+
+
+**설명:** [ 학습방향 ]     
+이 장에서는 2장의 연장선으로 문자열 콘솔 출력에 대한 연습을 한다. 
+{: .notice--info}     
+     
     
 <hr style="border: solid 1px #dddddd ;">
 
@@ -93,6 +103,10 @@ The second line will `print` out the current **date** and **time**.
 
 
 **설명:**  `datetime.now()`는 현재 날짜와 시간을 알려주는 함수이다. `datetime`을 사용하기 위해서는 `import`를 사용하여 `datetiem`이라는 기본제공 함수를 사용한다. 
+{: .notice--info}
+
+
+**설명:**  datetime.now() 는 현재 날짜와 시간을 알려주는 함수이다.  datetime 을 사용하기 위해서는 import 를 사용하여 datetiem 이라는 기본제공 함수를 사용한다. 
 {: .notice--info}
 
 

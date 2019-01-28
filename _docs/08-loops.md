@@ -9,7 +9,20 @@ redirect_from:
 toc: true
 ---
     
-    
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+Loops allow you to quickly iterate over information in Python. In this lesson, we'll cover two types of loop: 'while' and 'for'.
+
+**설명:** [ 학습방향 ]     
+반복문은 파이썬에서 정보를 반복적으로 빠르게 발생시켜 준다.    
+이 장에서는 while 문과, for문을 배워보자.
+{: .notice--info}     
+     
+
+
  <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

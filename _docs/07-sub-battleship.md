@@ -9,7 +9,20 @@ redirect_from:
 toc: true
 ---
     
-    
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+In this lesson, we will make a simplified version of the classic board game Battleship! We'll use functions, lists, and conditionals to make our game.
+
+**설명:** [ 학습방향 ]     
+이 장에서는 고전 게임인 배틀쉽을 구현해 보자. 이 게임을 구현하면서, 함수, 리스트, 조건절 등을 연습해 보자.
+{: .notice--info}     
+     
+
+
+
  <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

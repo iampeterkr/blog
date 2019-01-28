@@ -8,6 +8,19 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
+
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+Now that you've learned about lists, let's turbo-charge them with functions.    
+
+**설명:** [ 학습방향 ]     
+지금까지 리스트에 관한 것들을 배웠고, 함수를 배워 봄으로써, 더 강화해 나가자.
+{: .notice--info}     
+     
+
     
     
  <hr style="border: solid 1px #dddddd ;">

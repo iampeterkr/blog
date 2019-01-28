@@ -8,11 +8,19 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
-    
-    
-    
-<hr/>
+   
+<hr style="border: solid 1px #dddddd ;">    
+LESSON    
 
+This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.    
+
+
+**설명:** [ 학습방향 ]     
+
+이 장에서는 수많은 독립형 프로젝트와 스크립트 응용 프로그램에 사용할 수 있는 객체지향적 프로그램 언어 Python을 소개합니다.
+{: .notice--info}     
+     
+ <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 

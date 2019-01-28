@@ -8,8 +8,19 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
-    
-    
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+Hard day at work? Rough day at school? Take a load off with a programming vacation!    
+
+
+**설명:** [ 학습방향 ]     
+함수에 대해서 연습해 보자.
+{: .notice--info}     
+     
+
     
 <hr style="border: solid 1px #dddddd ;">
 

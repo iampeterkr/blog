@@ -9,10 +9,16 @@ redirect_from:
 toc: true
 ---
     
-    
-    
-<hr/>
+<hr style="border: solid 1px #dddddd ;">    
+LESSON    
 
+This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the "print" keyword.    
+
+**설명:** [ 학습방향 ]     
+이 장에서는 Python에서 문자열의 콘솔 출력, 생성, 함수 등을 출력에 관하여 배운다.
+{: .notice--info}     
+     
+ <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 

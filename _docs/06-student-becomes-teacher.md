@@ -8,7 +8,19 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
-    
+
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+Use what you've learned so far to manage your own class.    
+
+**설명:** [ 학습방향 ]     
+지금까지 배운 것을 반복 연습하여, 자신의 것으로 완전히 만들자.
+{: .notice--info}     
+     
+     
     
  <hr style="border: solid 1px #dddddd ;">
 

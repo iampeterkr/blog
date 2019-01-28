@@ -8,7 +8,18 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
-    
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+Let's manage our own supermarket and buy some goods along the way!    
+
+**설명:** [ 학습방향 ]     
+수퍼마켓에서 물건을 구입 및 계산하는 프로그램을 만들어 보면서, 리스트와 딕셔너리의 기능을 익힌다.
+{: .notice--info}     
+     
+     
     
  <hr style="border: solid 1px #dddddd ;">
 

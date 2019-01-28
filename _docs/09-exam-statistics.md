@@ -9,7 +9,19 @@ redirect_from:
 toc: true
 ---
     
-    
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+Your students just took their first test. It's time to see how everyone did. Let's write a program to compute the mean, variance, and standard deviation of the test scores.    
+
+**설명:** [ 학습방향 ]     
+학생들의 시험 점수를 가지고, 평균, 분산 및 표준편차를 계산하는 연습을 해보자.
+{: .notice--info}     
+     
+
+
  <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

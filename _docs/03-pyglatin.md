@@ -8,6 +8,19 @@ redirect_from:
   - /theme-setup/
 toc: true
 ---
+
+<hr style="border: solid 1px #dddddd ;">    
+
+LESSON    
+
+In this lesson we'll put together all of the Python skills we've learned so far including string manipulation and branching. We'll be building a Pyg Latin translator. (That's Pig Latin for Python Programmers!)    
+
+
+**설명:** [ 학습방향 ]     
+이 장에서는 지금까지 배운 것을 복습해보자. 
+{: .notice--info}     
+     
+
     
     
     
