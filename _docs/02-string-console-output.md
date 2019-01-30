@@ -3,7 +3,7 @@
 title: "String & Console Output"
 permalink: /string-console-output/
 excerpt: "We learn about String, Console, and Output Syntax."
-last_modified_at: 2018-11-21T09:00:00-04:00
+last_modified_at: 2019-01-30T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -15,7 +15,7 @@ LESSON
 This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the "print" keyword.    
 
 **설명:** [ 학습방향 ]     
-• 이 장에서는 Python 에서 문자열의 콘솔 출력, 생성, 함수 등 출력하는 법에 관하여 배운다.
+• 이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 출력하는 법에 관하여 배운다.
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">
