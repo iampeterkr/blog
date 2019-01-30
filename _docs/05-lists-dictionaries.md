@@ -17,8 +17,8 @@ LESSON
 Lists and dictionaries are powerful tools you can use to store, organize, and manipulate all kinds of information.
 
 **설명:** [ 학습방향 ]     
-리스트와 딕셔너리는 모든 종류의 정보를 저장, 구성 및 조작하는데 활용할 수 있는 강력한 도구이다.     
-리스트와 딕셔너리에 대한 공부를 해보자.
+리스트와 딕셔너리에 대한 공부를 해보자.    
+이들은 모든 종류의 데이타를 저장, 구성 및 조작 하는데 활용할 수 있는 강력한 도구이다.     
 {: .notice--info}     
      
     

@@ -17,7 +17,7 @@ In this lesson we'll put together all of the Python skills we've learned so far 
 
 
 **설명:** [ 학습방향 ]     
-이 장에서는 지금까지 배운 것을 복습해보자. 
+이 장에서는 지금까지 배운 것을 복습 해보자. 
 {: .notice--info}     
      
 

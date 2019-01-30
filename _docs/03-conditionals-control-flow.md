@@ -17,7 +17,7 @@ In this lesson, we'll learn how to create programs that generate different outco
 
 
 **설명:** [ 학습방향 ]     
-이 장에서는 사용자의 의도에 따라 다른 결과 값을 생성하는 프로그램을 만드는것을 연습한다. 
+이 장에서는 사용자의 의도에 따라 다른 결과 값을 생성하는 프로그램을 만드는 것을 연습한다. 
 {: .notice--info}     
      
     

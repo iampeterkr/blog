@@ -17,7 +17,7 @@ LESSON
 Loops allow you to quickly iterate over information in Python. In this lesson, we'll cover two types of loop: 'while' and 'for'.
 
 **설명:** [ 학습방향 ]     
-반복문은 파이썬에서 정보를 반복적으로 빠르게 발생시켜 준다.    
+반복문을 활용하면, 파이썬에서 데이타를 신속하게 반복할 수 있다.    
 이 장에서는 while 문과, for문을 배워보자.
 {: .notice--info}     
      

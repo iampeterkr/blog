@@ -17,7 +17,8 @@ LESSON
 Classes are a crucial part of object-oriented programming (OOP). In this lesson, we'll explain what classes are, why they're important, and how to use them effectively.
 
 **설명:** [ 학습방향 ]     
-클래스는 객체지향의 끝판왕 이라 할수 있다. 이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 배우겠다.
+클래스는 객체지향의 끝판왕 이라 할수 있다.    
+이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 배우겠다.
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">

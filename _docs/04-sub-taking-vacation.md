@@ -17,7 +17,7 @@ Hard day at work? Rough day at school? Take a load off with a programming vacati
 
 
 **설명:** [ 학습방향 ]     
-함수에 대해서 연습해 보자.
+함수에 대해서 좀 더 연습해 보자.
 {: .notice--info}     
      
 

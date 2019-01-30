@@ -17,7 +17,8 @@ LESSON
 Bitwise operations directly manipulate bits—patterns of 0s and 1s. Though they can be tricky to learn at first, their speed makes them a useful addition to any programmer's toolbox.
 
 **설명:** [ 학습방향 ]     
-이 장에서는 비트(bit) 0, 1 에 관한 것을 다룰 것이다.  처음에는 배우기가 어렵지만, 익숙해지면 코딩의 속도를 높여주니 공부해 보자.
+이 장에서는 비트(bit) 0, 1 에 관한 것을 다룰 것이다.    
+처음에는 배우기가 어렵지만, 익숙 해지면 코딩의 속도를 높여주니 공부해 보자.
 {: .notice--info}  
      
  <hr style="border: solid 1px #dddddd ;">

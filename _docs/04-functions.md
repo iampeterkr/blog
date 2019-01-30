@@ -17,7 +17,7 @@ A function is a reusable section of code written to perform a specific task in a
 
 **설명:** [ 학습방향 ]     
 이 장에서는 함수에 대해서 기본적으로 배웁니다.    
-함수는 프로그램내에서 특정 작업을 수용하도록 만들어진 재사용 가능한 코드이다.
+함수는 프로그램 내에서 특정 작업을 수행 하도록 만들어진 재사용 가능한 코드이다.
 {: .notice--info}     
      
     

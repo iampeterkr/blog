@@ -16,7 +16,8 @@ LESSON
 Now that you understand Python syntax and have been introduced to some Python best practices, let's apply what you've learned to a real-world application: writing data to a file.
 
 **설명:** [ 학습방향 ]     
-이 장에서는 Python 을 활용한 File 입출력 구조를 학습한다. 그 외 지금까지 배워온 Python 문법을 이해하고 연습 해보자.  
+이 장에서는 Python 을 활용한 File 입출력 구조를 학습한다.    
+그 외 지금까지 배워온 Python 문법을 이해하고 연습 해보자.  
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">
