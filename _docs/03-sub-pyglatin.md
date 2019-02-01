@@ -389,7 +389,7 @@ empty
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 5. Check Yourself... Some More
+### 5. Check Yourself... Some More    
 
 Now we know we have a non-empty string. Let's be even more thorough and check that our string only contains letters.
 
@@ -407,7 +407,10 @@ The second line then runs the method `.isalpha()` which returns False since the 
 You can use `.isalpha()` to check that a string doesn't contain any non-letter characters! For example:
 
 
-**설명:** 변수 `x`에 `.isalpha()` 함수를 사용하여 변수 `x`에 저장된 값이 알파벳인지 검증한다. 만약 알파벳이면 `True`값을 반환하고, 아니면 `False`를 반환한다.  
+**설명:** [ Learn ]    
+• 함수 .isalpha() 은 변수 x 에 저장된 값이 알파벳 인지 검증한다.    
+• 변수 x 에 알파벳이 있으면 True 값을 반환한다.    
+• 변수 x 에 알파벳이 없으면 False 값을 반환한다.  
 {: .notice--info}
 
 
@@ -416,12 +419,16 @@ You can use `.isalpha()` to check that a string doesn't contain any non-letter c
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-**①** Use and to add a second condition to your `if` statement. In addition to your existing check that the string contains characters, you should also use `.isalpha()` to make sure that it only contains letters.
 
-Don't forget to keep the **colon** at the end of the `if` statement!
+* Use and to add a second condition to your `if` statement.     
+* In addition to your existing check that the string contains characters, you should also use `.isalpha()` to make sure that it only contains letters.
+
+* Don't forget to keep the **colon** at the end of the `if` statement!
 
 
-**설명:** ① `.isalpha()`를 사용하여 문자에 알파벳이 포함되었는지를 확인하라. (주의: `if`조건문 맨끝에 `:`쓰는것을 주의하자.)
+**설명:** [ Instruction ]     
+• 함수 .isalpha() 를 사용하여 변수에 입력된 값에 알파벳 포함 여부를 획인하라.    
+• # 주의 : if 조건문 맨끝에 ( : ) 쓰는 것을 주의하자.
 {: .notice--info}
 
 
@@ -430,8 +437,7 @@ Don't forget to keep the **colon** at the end of the `if` statement!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
-To combine multiple conditions in one `if`, you can use and between the two conditions, like this:
+* To combine multiple conditions in one `if`, you can use and between the two conditions, like this:
 
 ```python
 if has_chars(the_string) and the_string.isalpha():
@@ -440,7 +446,9 @@ else:
   print "empty"
 ```
 
-**설명:** `if` 조건무에는 1개 이상의 조건절이 들어갈수 있다. 
+**설명:** [ Hint ]    
+• if 문의 조건절에는 1 개 이상의 조건들이 들어갈 수 있다.     
+• ' the_string.isalpha() ' 은 변수 the_string 에 알파벳이 있는지 점검한다.
 {: .notice--info}
 
 <br>
@@ -448,6 +456,7 @@ else:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
 ```python
 print 'Welcome to the Pig Latin Translator!'
 
@@ -459,7 +468,11 @@ else:
   print "empty"
 ```
 
-**설명:** `original.isalpha()`를 사용하여 `if` 조건문에서 변수 `origianl`길이와 알파벳 여부 2가지를 체크한다. 
+**설명:** [ Solution ]     
+• if 문에서는 2가지를 비교한다.    
+• 1st : 변수 original 에 값이 들어 있는지 ( if len(origial) > 0)    
+• 2nd : 변수 original 에 알파벳이 들어 있는지 ( original.isalpha() )    
+• 그 외( else )에는 "empty"를 출력한다.
 {: .notice--info}
 
 
