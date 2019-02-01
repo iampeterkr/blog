@@ -17,7 +17,7 @@ In this lesson, we'll learn how to create programs that generate different outco
 
 
 **설명:** [ 학습방향 ]     
-이 장에서는 사용자의 의도에 따라 다른 결과 값을 생성하는 프로그램을 만드는 것을 연습한다. 
+이 장에서는 사용자의 의도에 따라 다른 결과 값을 생성하는 프로그램을 만드는 연습을 한다. 
 {: .notice--info}     
      
     
@@ -27,7 +27,7 @@ In this lesson, we'll learn how to create programs that generate different outco
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
-### 1. Go With the Flow
+### 1. Go With the Flow    
 
 Just like in real life, sometimes we'd like our code to be able to make decisions.
 
@@ -36,10 +36,8 @@ The Python programs we've written so far have had one-track minds: they can add 
 **Control flow** gives us this ability to choose among outcomes based on what else is happening in the program.
 
 
-
-
-**설명:** 현재까지, 우리는 Python의 여러가지 기능, 출력, 사칙연사, 문자열 처리 등을 을 연습했다.
-지금부터는 우리는 **Control flow** 기능을 통하여 Python 프로그램에서 다중 선택을 할수 있는 방법을 연습한다. 
+**설명:** [ Learn ]     
+• Control flow 기능을 사용하여 다중 선택 방법을 연습한다. 
 {: .notice--info}
 
 
@@ -49,10 +47,13 @@ The Python programs we've written so far have had one-track minds: they can add 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Check out the code in the editor. You'll see the type of program you'll be able to write once you've mastered control flow. Click `Run` to see what happens!
+* Check out the code in the editor.     
+* You'll see the type of program you'll be able to write once you've mastered control flow.     
+* Click `Run` to see what happens!
 
 
-**설명:** ① `Run` 시켜 Python 프로그램이 어떻게 동작 되는지 보아라. 
+**설명:** [ Instruction ]    
+• Run 클리 후, 프로그램이 어떻게 동작 되는지 확인하라. 
 {: .notice--info}
 
 
@@ -61,10 +62,11 @@ The Python programs we've written so far have had one-track minds: they can add 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-**skip**
+* skip
 
 
-**설명:** `skip`
+**설명:** [ Hint ]    
+• skip
 {: .notice--info}
 
 <br>
@@ -90,7 +92,8 @@ def clinic():
 clinic()
 ```
 
-**설명:** 출력 창에서, right or r, left or l, or Enter를 입력하면 Python 프로그램에서 만들어 놓은 대로 출력 될 것이다. 
+**설명:** [ Solution ]     
+• Console 창에서, right or r, left or l, or Enter를 입력하면, 입력값에 따라 결과물이 출력 된다.
 {: .notice--info}
 
 
@@ -108,7 +111,7 @@ Type left or right and hit 'Enter'.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 2.  Compare Closely!
+### 2.  Compare Closely!    
 
 Let's start with the simplest aspect of control flow: comparators. There are six:
 
@@ -161,7 +164,7 @@ True
 False
 ```
 
-Greater than or equal to (>=)
+Greater than or equal to (`>=`)
 
 ```python
 >>> 5 >= 5
@@ -176,7 +179,13 @@ Note that `==` compares whether two things are **equal**, and `=` assigns a valu
 
 
 
-**설명:** `==` 같다, `!=` 같지 않다, `>` 크다, `>=` 크거나 같아, `<` 작다, `<=` 작거나 같다  `==`와 `=`는 틀린 표현이다. `==`는 ex) A == B, A와 B가 같은지를 표현하는 것이고, ex) A=3, 은 변수 A에 값 3을 넣으라는 뜻이다. 
+**설명:** [ Learn ]    
+• `==` 같다, `!=` 같지 않다.    
+• `>`  크다, `>=` 크거나 같다.    
+• `<`  작다, `<=` 작거나 같다.    
+• `==`와 `=`는 다른 표현이다.    
+• `==`는 ex) A == B, A와 B가 같은지를 비교한다.     
+• `=` 는 ex) A = 3, 변수 A 에 값 3을 대입한다.  
 {: .notice--info}
 
 
@@ -186,17 +195,24 @@ Note that `==` compares whether two things are **equal**, and `=` assigns a valu
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Set each variable to `True` or `False` depending on what you think the result will be. For example, `1 < 2` will be `True`, because **one** is **less than two**.
+* Set each variable to `True` or `False` depending on what you think the result will be.    
+* For example, `1 < 2` will be `True`, because **one** is **less than two**.
 
-* Set bool_one equal to the result of 17 < 328
-* Set bool_two equal to the result of 100 == (2 * 50)
-* Set bool_three equal to the result of 19 <= 19
-* Set bool_four equal to the result of -22 >= -18
-* Set bool_five equal to the result of 99 != (98 + 1)
+* Set `bool_one`   equal to the result of `17 < 328`
+* Set `bool_two`   equal to the result of `100 == (2 * 50)`
+* Set `bool_three` equal to the result of `19 <= 19`
+* Set `bool_four`  equal to the result of `-22 >= -18`
+* Set `bool_five`  equal to the result of `99 != (98 + 1)`
 
 
 
-**설명:** ① 변수 `bool_one`, `bool_two`, `bool_three`, `bool_four`, `bool_five`에 `17 < 328`, `100==(2*50)`, `19 <= 19`, `-22 >= -18`, `99 !=(98+1)`의 계산값을 `True` or `False`로 각각 대입하라.  
+**설명:** [ Instruction ]    
+• 아래 계산값의 결과를 True  or  Fasle 로 각 변수에 대입하라.    
+• 변수 bool_one   에  17 < 238         의 결과 값을 저장하라.   
+• 변수 bool_two   에  100 == ( 2 * 50) 의 결과 값을 저장하라.   
+• 변수 bool_three 에  19 <= 19         의 결과 값을 저장하라.   
+• 변수 bool_four  에  -22 >= -18       의 결과 값을 저장하라.   
+• 변수 bool_five  에  99 != (98 + 1)   의 결과 값을 저장하라.   
 {: .notice--info}
 
 
@@ -205,17 +221,21 @@ Note that `==` compares whether two things are **equal**, and `=` assigns a valu
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, you set variables like this:
+* Remember, you set variables like this:    
+
 ```python
 bool_one = True
-```
-Keep in mind that checking for equality uses a double equals sign:
+```    
+
+* Keep in mind that checking for equality uses a double equals sign:    
+
 ```python
 True == True
 ```
 
 
-**설명:** 변수에 `True` or `False` 값을 대입하라. 
+**설명:** [ Hint ]    
+• 변수 bool_one 에  True or False 값을 대입하라. 
 {: .notice--info}
 
 <br>
@@ -225,10 +245,26 @@ True == True
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-# skip
+# Assign True or False as appropriate on the lines below!
+
+# Set this to True if 17 < 328 or to False if it is not.
+bool_one = True   # We did this one for you!
+
+# Set this to True if 100 == (2 * 50) or to False otherwise.
+bool_two = True
+
+# Set this to True if 19 <= 19 or to False if it is not.
+bool_three = True
+
+# Set this to True if -22 >= -18 or to False if it is not.
+bool_four = False
+
+# Set this to True if 99 != (98 + 1) or to False otherwise.
+bool_five = False
 ```
 
-**설명:** 각 변수에 결과값이 맞으면 `True`, 틀리면 `False`를 대입하라. 
+**설명:** [ Solution ]    
+• 각 변수에 결과값이 맞으면 `True`, 틀리면 `False`를 대입한다. 
 {: .notice--info}
 
 **결과** 
@@ -244,7 +280,7 @@ True == True
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 3. Compare... Closelier!
+### 3. Compare... Closelier!    
 
 Excellent! It looks like you're comfortable with **basic expressions** and **comparators**.
 
@@ -252,7 +288,10 @@ But what about extreme expressions and comparators?
 
 
 
-**설명:** 대입과 `=` 와 `==`는 완전히 틀리다는 것을 안다. 수식을 표현하는것 ex) (3 + 2) x 100 과 비교하는것 ex) 3 > 2 를 Python 에서는 어떻게 표현하는지 이해해 본다.  
+**설명:** [ Learn ]    
+• ( = ) 과 ( == ) 는 완전히 다르다.    
+• ( = ) 는 대입할때 사용한다.    
+• ( == )는 비교할때 사용한다. 
 {: .notice--info}
 
 
@@ -262,16 +301,17 @@ But what about extreme expressions and comparators?
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Let's run through the comparators again with more complex expressions. Set each variable to True or False depending on what you think the result will be.
+* Let's run through the comparators again with more complex expressions. Set each variable to `True` or `False` depending on what you think the result will be.
 
-* Set bool_one to the result of (20 - 10) > 15
-* Set bool_two to the result of (10 + 17) == 3**16
-* Set bool_three to the result of 1**2 <= -1
-* Set bool_four to the result of 40 * 4 >= -4
-* Set bool_five to the result of 100 != 10**2
+* Set `bool_one`   to the result of `(20 - 10) > 15`
+* Set `bool_two`   to the result of `(10 + 17) == 3**16`
+* Set `bool_three` to the result of `1**2 <= -1`
+* Set `bool_four`  to the result of `40 * 4 >= -4`
+* Set `bool_five`  to the result of `100 != 10**2`
 
 
-**설명:** ① 각 변수에 각 계산을 할 경우 예상되는 결과값을 `True` or `False`로 각각 대입하라. 
+**설명:** [ Instruction ]    
+• 각 변수에 계산시 예상되는 결과값이 맞으면 : True , 틀리면 : False 를 대입하라. 
 {: .notice--info}
 
 
@@ -280,12 +320,15 @@ But what about extreme expressions and comparators?
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-An Expression (20-10) > 15 is `False` 
+* An Expression `(20-10) > 15` is `False`     
+
 ```python
 bool_one = False
 ```
 
-**설명:** 수식 (20-10) >  15 , 10 > 15라는 표현은 틀린 표현이다. 즉 `False` 이다. 
+**설명:** [ Hint ]    
+• 수식 (20-10) >  15 , 10 > 15라는 표현은 틀린 표현이다.    
+• 즉 False 이다. 
 {: .notice--info}
 
 <br>
@@ -315,14 +358,16 @@ bool_four = True
 bool_five = False
 ```
 
-**설명:** 각 주석의 값을 `True` 인지 `False`인지를 판단해 보고, 그 결과값을 해당 변수에 대입한다. 
+**설명:** [ Solution ]    
+• 각 주석의 계산 값이 True  이면, 변수에 True  를 입력하라.    
+• 각 주석의 계산 값이 False 이면, 변수에 False 를 입력하라.  
 {: .notice--info}
 
 
 
 **결과** 
 ```
-#skip
+skip
 ```
 <br>
 <br>    
@@ -332,19 +377,26 @@ bool_five = False
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 4. How the Tables Have Turned
+### 4. How the Tables Have Turned    
 
-Comparisons result in either `True` or `False`, which are **booleans** as we learned before in this exercise.
+Comparisons result in either `True` or `False`, which are **booleans** as we learned before in this exercise.    
+
 ```python
 # Make me true!
 bool_one = 3 < 5
-```
+```    
+
 Let's switch it up: we'll give the boolean, and you'll write the expression, just like the example above.
 
 
 
 
-**설명:** 이전에 우리는 `boolean`에 대하여 잠시 공부한적이 있다. Python은 수식을 변수에 대합하면(ex bool_one = 3 < 5) 그 결과 값이 참(True)인지 거짓(False)인지를 판단하여 해당 변수에 참 (True) 또는 거짓(False) 값이 대입된다. 우리는 변수 `bool_one`에 어떤 값이 들어 가 있을지를 생각해 보자.  
+**설명:** [ Learn ]     
+• 이전에 우리는 `boolean`에 대하여 잠시 공부한적이 있다.     
+• Python은 수식을 변수에 대입 하면(e.g. bool_one = 3 < 5)    
+• 그 결과 값이 참(True)이면 참(True) 값이 대입된다.    
+• 그 결과 값이 거짓(False)이면 거짓(True) 값이 대입된다.   
+• 변수 `bool_one`에 어떤 값이 대입될지 생각해 보자.  
 {: .notice--info}
 
 
@@ -353,16 +405,21 @@ Let's switch it up: we'll give the boolean, and you'll write the expression, jus
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
-**①** For each boolean value in the editor, write an expression that evaluates to that value. Remember, comparators are: `==`, `!=`, `>`, `>=`, `<`, and `<=`.
 
-Use at least three different ones!
+* For each boolean value in the editor, write an expression that evaluates to that value.     
+* Remember, comparators are: `==`, `!=`, `>`, `>=`, `<`, and `<=`.
 
-Don't just use `True` and `False`! That's cheating!
+* Use at least three different ones!
+
+* Don't just use `True` and `False`! That's cheating!
 
  
 
 
-**설명:** ① 주석을 보고, 주석에서 수식을 참(True)으로 만들라고 하면 `==`, `!=`, `>`, `>=`, `<`, `<=`를 사용하여 다음 예제와 같이 ex) bool_one = 3 < 5  참(True)을 만든다. 각 비교수식을 사용하여 표현하라. 
+**설명:** [ Learn ]    
+• 각 주석문에서 지시하는 사항을 보고, 그 지시사항에 맞게끔 대입하라.    
+• e.g. #Make me True  "bool_one = 3 < 5 "  참(True)을 만든다.    
+• 각 비교수식을 사용하여 작성하라. 
 {: .notice--info}
 
 
@@ -371,12 +428,14 @@ Don't just use `True` and `False`! That's cheating!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-bool_two should store a false expression, so you could try:
+* `bool_two` should store a false expression, so you could try:
 
+```python
 bool_two = 8 < 7
+```
 
-
-**설명:** 
+**설명:** [ Hint ]    
+• 변수 bool_two 에 Fasle 값이 들어가게 오른족 비교문을 만들어라.
 {: .notice--info}
 
 <br>
@@ -384,6 +443,7 @@ bool_two = 8 < 7
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
 ```python
 # Create comparative statements as appropriate on the lines below!
 
@@ -403,14 +463,15 @@ bool_four = "potato" != "potato"
 bool_five = "tomato" == "tomato"
 ```
 
-**설명:** 주석에서 요구하는 참(True), 거짓(False)을 비교수식을 통하여 만든다. 
+**설명:** [ Instruction ]    
+• 주석에서 지시하는 조건을 맞게끔, 참(True), 거짓(False)을 비교수식을 작성하여 대입하라.
 {: .notice--info}
 
 
 
-**결과** ``` ```
+**결과** 
 ```
-#skip
+skip
 ```
 
 <br>
@@ -421,7 +482,7 @@ bool_five = "tomato" == "tomato"
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 5. To Be and/or Not to Be
+### 5. To Be and/or Not to Be    
 
 **Boolean** operators compare statements and result in boolean values. There are three boolean operators:
 
@@ -431,7 +492,8 @@ bool_five = "tomato" == "tomato"
 We'll go through the operators one by one.
 
 
-**설명:** Boolean에는 `and`, `or`, `not` 이 있다. 다음 아래의 boolean 표를 참조하자. 
+**설명:** [ Learn ]     
+• Boolean 에는 and , or , not 이 있다. 다음 아래의 boolean 표를 참조하자. 
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/03-boolean-00.svg)    
@@ -442,11 +504,13 @@ We'll go through the operators one by one.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)  
 
-**①** Check out the truth tables to the right. They show the results of using AND, OR, and NOT boolean operators given the boolean inputs A and B.
+* Check out the truth tables to the right.     
+* They show the results of using `AND`, `OR`, and `NOT` boolean operators given the boolean inputs `A` and `B`.
 
-Click next to continue. 
+* Click next to continue. 
 
-**설명:** ① Boolean 표를 보고, boolean이 어떻게 동작되는지를 공부해 보자. 
+**설명:** [ Instruction ]    
+• Boolean 표를 보고, boolean이 어떻게 동작 되는지를 이해하자. 
 {: .notice--info}
 
 
@@ -455,10 +519,11 @@ Click next to continue.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-**skip
+* skip
 
 
-**설명:** `skip`
+**설명:** [ Hint ]    
+* skip
 {: .notice--info}
 
 <br>
@@ -469,17 +534,18 @@ Click next to continue.
 
 
 ```python
-#skip
+skip
 ```
 
-**설명:** `skip`
+**설명:** [ Solution ]    
+• skip
 {: .notice--info}
 
 
 
 **결과** 
 ```
-#skip
+skip
 ```
 <br>
 <br>    
@@ -489,7 +555,7 @@ Click next to continue.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 6. And
+### 6. And    
 
 The boolean operator and returns `True` when the expressions on both sides of `and` are `true`. For instance:
 
@@ -497,7 +563,9 @@ The boolean operator and returns `True` when the expressions on both sides of `a
 * 1 < 2 and 2 > 3 is False.
 
 
-**설명:** `And` 는 `and` 연산자 양 쪽의 값이 모두 참(True)이면, 참(True)이다. 한쪽이라도 거짓(False)이면 거짓(False)이다. 
+**설명:** [ Learn ]    
+• And 는 연산자 양 쪽 A, B의 값이 모두 참(True)이면, 참(True)이다.    
+• A or B 둘중 하나라도 거짓(False)이면 거짓(False)이다. 
 {: .notice--info}
 
 
@@ -507,32 +575,45 @@ The boolean operator and returns `True` when the expressions on both sides of `a
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png) 
 
-**①** Let's practice with `and`. Assign each variable to the appropriate `boolean` value.
+* Let's practice with `and`.     
+* Assign each variable to the appropriate `boolean` value.
 
 
-* Set `bool_one` equal to the result of 
+* Set `bool_one` equal to the result of    
+
 ``` python
 `False` and `False` 
-```
-* Set `bool_two` equal to the result of
+```    
+
+* Set `bool_two` equal to the result of    
+
 ```python
  `-(-(-(-2))) == -2` and `4 >= 16 ** 0.5`
-```
-* Set `bool_three` equal to the result of 
+```    
+
+* Set `bool_three` equal to the result of     
+
 ```python
 `19 % 4 != 300 / 10 / 10` and `False`
-```
-* Set `bool_four` equal to the result of
+```    
+
+* Set `bool_four` equal to the result of    
+
 ```python
 `-(1 ** 2) < 2 ** 0` and `10 % 10 <= 20 - 10 * 2`
-```
-* Set `bool_five` equal to the result of 
+```    
+
+* Set `bool_five` equal to the result of     
+
 ```python
 `True` and `True`
-```
+```    
+
    
 
-**설명:** ① `AND` 연산자 양변의 계산하여, 각 변수에 양 변의 계산으로 예상되어 지는 참(True), 거짓(False)을 대입하라.
+**설명:** [ Instruction ]    
+• AND 연산자 양변 A, B를 계산하여라.    
+• 각 변수에, 계산 결과값이 참이면, 참(True), 거짓이면, 거짓(False)을 대입하라.
 {: .notice--info}
 
 
@@ -546,7 +627,9 @@ bool_one = False and False
 ```
 
 
-**설명:** 변수 `bool_one` 에 거짓(False) and 거짓(False)을 대입해 본다. 
+**설명:** [ Hint ]    
+• False(거짓) and False(거짓) 은 False(거짓) 이다. 
+• 변수 `bool_one` 에 결과값 거짓(False)을 대입한다.
 {: .notice--info}
 
 <br>
@@ -568,14 +651,17 @@ bool_four = -(1 ** 2) < 2 ** 0 and 10 % 10 <= 20 - 10 * 2
 bool_five = True and True
 ```
 
-**설명:** Python은 오른쪽의 결과 값이 참(True) or 거짓(False)을 계산하여 각 변수에 저장된다. `and` 연산자는 양 변이 모두 참(True)여야, 참(Ture)를 반환한다. 
+**설명:** [ Solution ]    
+• 오른쪽의 계산 결과 값이 참(True) or 거짓(False) 인지를 계산한다.    
+• 그 결과가 각 변수에 저장된다.     
+• And  연산자는 양 변이 모두 참(True)일 때만, 참(Ture)을 반환한다. 
 {: .notice--info}
 
 
 
 **결과** 
 ```
-#skip
+skip
 ```
 
 <br>
@@ -586,16 +672,18 @@ bool_five = True and True
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 7. Or
+### 7. Or    
 
 The **boolean** operator or returns `True` when at least one expression on either side of or is true. For example:
+
 ```python
 1 < 2 or 2 > 3 is True;
 1 > 2 or 2 > 3 is False.
 ```
 
 
-**설명:** `OR` 연산자는 양 변이 하나라도 참(True)이면 참(True)를 반환한다. 
+**설명:** [ Learn ]    
+• OR 연산자는 양 변이 하나라도 참(True)이면, 참(True)을 반환한다. 
 {: .notice--info}
 
 
@@ -605,30 +693,40 @@ The **boolean** operator or returns `True` when at least one expression on eithe
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Time to practice with or!
+* Time to practice with or!
 
-Set bool_one equal to the result of
+* Set `bool_one` equal to the result of    
+
 ```python
 2 ** 3 == 108 % 100 or 'Cleese' == 'King Arthur'
-```
-Set bool_two equal to the result of
+```    
+* Set `bool_two` equal to the result of    
+
 ```python
 True or False
-```
-Set bool_three equal to the result of
+```    
+
+* Set `bool_three` equal to the result of    
+
 ```python
 100 ** 0.5 >= 50 or False
-```
-Set bool_four equal to the result of
+```    
+
+* Set `bool_four` equal to the result of    
+
 ```python
 True or True
-```
-Set bool_five equal to the result of
+```    
+
+* Set `bool_five` equal to the result of    
+
 ```python
 1 ** 100 == 100 ** 1 or 3 * 2 * 1 != 3 + 2 + 1
-```
+```   
 
-**설명:** ① `OR` 연산자는 양변의 계산하여, 각 변수에 양 변의 계산으로 예상되어 지는 참(True), 거짓(False)을 대입하라.
+
+**설명:** [ Instruction ]     
+• 각 변수에 OR 연산자를 한 결과 값( True or False ) 을 대입하라.
 {: .notice--info}
 
 
@@ -637,10 +735,10 @@ Set bool_five equal to the result of
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* Remember, or is True when either (or both!) of the expressions involved are true.
 
-Remember, or is True when either (or both!) of the expressions involved are true.
-
-**설명:** `OR`의 경우 양변중 하나라도 참(True)이면 참(True)이 된다. 
+**설명:** [ Hint ]    
+• OR 의 경우 양변 A , B 중 하나라도 참(True)이면 참(True)이 된다. 
 {: .notice--info}
 
 <br>
@@ -662,14 +760,16 @@ bool_four = True or True
 bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
 ```
 
-**설명:** `OR` 연산자 양 변의 값이 계산되어 자동으로 참(True), 거짓(False)값이 변수에 대입된다. 
+**설명:** [ Solution ]     
+• OR 연산자 양 변의 A , B 값이 계산된다.    
+• 계산된 값 참(True), 거짓(False)값이 자동으로 변수에 대입된다. 
 {: .notice--info}
 
 
 
 **결과** 
 ```
-#skip 
+skip 
 ```
 
 <br>
@@ -680,7 +780,7 @@ bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 8. Not
+### 8. Not    
 
 The **boolean** operator `not` returns `True` for `false` statements and `False` for `true` statements.
 
@@ -690,7 +790,12 @@ not `False` will evaluate to `True`, while not `41 > 40` will return `False`.
 
 
 
-**설명:** `Not`은 `True`문은 `False`를 반환하고, `False`문은 `True`를 반환한다. `41 > 40`은 `True`이지만, 앞에 `!`연산자가 있으므로, `False`를 반환한다. 
+**설명:** [ Learn ]    
+• Not 은 다음과 같이 동작한다.    
+• True -> False 를 반환한다.    
+• False -> True 를 반환한다.    
+• 41 > 40 은 계산 결과는 True 이다.    
+• 하지만, 앞에  NOT(!) 연산자가 있으므로, False 를 반환한다. 
 {: .notice--info}
 
 
@@ -700,31 +805,42 @@ not `False` will evaluate to `True`, while not `41 > 40` will return `False`.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Let's get some practice with not.
+* Let's get some practice with not.
 
-* Set `bool_one` equal to the result of
+* Set `bool_one` equal to the result of    
+
 ```python
 not True
-```
-* Set `bool_two` equal to the result of
+```    
+
+* Set `bool_two` equal to the result of    
+
 ```python
 not 3 ** 4 < 4 ** 3
-```
-* Set `bool_three` equal to the result of
+```    
+
+* Set `bool_three` equal to the result of    
+
 ```python
 not 10 % 3 <= 10 % 2
-```
-* Set `bool_four` equal to the result of
+```    
+
+* Set `bool_four` equal to the result of    
+
 ```python
 not 3 ** 2 + 4 ** 2 != 5 ** 2
-```
-* Set `bool_five` equal to the result of
+```    
+
+* Set `bool_five` equal to the result of    
+
 ```python
 not not False
-```
+```    
 
 
-**설명:** ① 각 변수에 양변의 계산값을 대입하여라. 
+
+**설명:** [ Instruction ]    
+• 각 변수에 양변의 계산 결과 값을 True or False 로 대입하라. 
 {: .notice--info}
 
 
@@ -733,12 +849,14 @@ not not False
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, not True is False and not False is True. So, for example, bool_one should be:
+* Remember, not True is False and not False is True. So, for example, bool_one should be:   
+
 ```python
 bool_one = False
 ```
 
-**설명:** `!` 연산자는 양 변의 최종 결과값의 반대를 반환한다.  
+**설명:** [ Hint ]    
+• NOT (!) 연산자는 양 변의 최종 결과값의 반대를 반환한다.  
 {: .notice--info}
 
 <br>
@@ -760,14 +878,15 @@ bool_four = not 3**2 + 4**2 != 5**2
 bool_five = not not False
 ```
 
-**설명:** 각 변수의 반환값이 무엇일지 생각해 보자. 
+**설명:** [ Solution ]    
+• 각 변수의 반환값이 무엇일지 생각해 보자. 
 {: .notice--info}
 
 
 
 **결과**
 ``` 
-#skip
+skip
 ```
 
 <br>
@@ -790,7 +909,12 @@ For example, `True` or not `False` and `False` returns `True`. If this isn't cle
 Parentheses `()` ensure your expressions are evaluated in the order you want. Anything in parentheses is evaluated as its own unit.
 
 
-**설명:** `boolean`에서 계산되어지는 순서는 수의 계산과 값다. 그중 `not`이 제일 먼저 계산되고, `and` 그다음, `or`가 마지막에 계산된다. 즉 `not` -> `and` -> `or` 순으로 계산된다. `()`는 이들 보다 먼저 계산된다.  
+**설명:** [ Learn ]    
+• boolean 의 계산 순서는 수학의 계산 우선 순위와 값다.    
+• 1st : NOT     
+• 2nd : AND    
+• 3rd : OR    
+• () 는 NOT 보다 순서가 빠르다.
 {: .notice--info}
 
 
@@ -800,31 +924,41 @@ Parentheses `()` ensure your expressions are evaluated in the order you want. An
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Assign True or False as appropriate for bool_one through bool_five.
+* Assign `True` or `False` as appropriate for `bool_one` through `bool_five`.
 
-* Set `bool_one` equal to the result of
+* Set `bool_one` equal to the result of    
+
 ```python
 False or not True and True
-```
-* Set `bool_two` equal to the result of
+```    
+
+* Set `bool_two` equal to the result of   
+
 ```python
 False and not True or True
-```
-* Set `bool_three` equal to the result of
+```   
+
+* Set `bool_three` equal to the result of    
+
 ```python
 True and not (False or False)
-```
-* Set `bool_four` equal to the result of
+```    
+
+* Set `bool_four` equal to the result of    
+
 ```python
 not not True or False and not True
-```
-* Set `bool_five` equal to the result of
+```    
+
+* Set `bool_five` equal to the result of    
+
 ```python
 False or not (True and True)
 ```
 
 
-**설명:** ① 각 변수에 값을 대입 하라. 
+**설명:** [ Instruction ]    
+• 각 변수에 True or False 를 대입 하라. 
 {: .notice--info}
 
 
@@ -833,7 +967,8 @@ False or not (True and True)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-`True or not False and False`. 
+* `True or not False and False`.     
+
 1. `not` gets evaluated **first**, 
 2. so we have `True or True and False`. 
 3. `and` goes next, 
@@ -842,7 +977,8 @@ False or not (True and True)
 6. so the value finally returned is `True`!
 
 
-**설명:** `not` -> `and` -> `or` 순으로 계산 되어진다. 
+**설명:** [ Hint ]    
+• NOT -> AND -> OR 순으로 계산한다. 
 {: .notice--info}
 
 <br>
@@ -863,14 +999,16 @@ bool_four = not not True or False and not True
 bool_five = False or not (True and True)
 ```
 
-**설명:** 각 변수에 `not`, `and`, `or` 순으로 계산한다. 
+**설명:** [ Solution ]    
+• 각 변수에 NOT , AND , OR 순으로 계산한다. 그 결과값 True or False 가 대입된다. 
+• 각 변수를 출력해 보면, 계산 결과값을 알 수 있다.
 {: .notice--info}
 
 
 
 **결과** 
 ``` 
-#skip
+skip
 ```
 
 <br>
@@ -881,7 +1019,7 @@ bool_five = False or not (True and True)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 10. Mix 'n' Match
+### 10. Mix 'n' Match    
 
 Great work! We're almost done with **boolean** operators.
 
@@ -890,7 +1028,8 @@ Great work! We're almost done with **boolean** operators.
 bool_one = (2 <= 2) and "Alpha" == "Bravo"
 ```
 
-**설명:** 변수 `bool_one`에는 `False`가 반횐 되어 진다. 
+**설명:** [ Learn ]     
+• 변수 bool_one 에는 False 값이 반환된다. 
 {: .notice--info}
 
 
@@ -900,12 +1039,15 @@ bool_one = (2 <= 2) and "Alpha" == "Bravo"
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** This time we'll give the expected result, and you'll use some combination of **boolean** operators to achieve that result.
+* This time we'll give the expected result, and you'll use some combination of **boolean** operators to achieve that result.
 
-Remember, the **boolean** operators are `and`, `or`, and `not`. Use each one at least once!
+* Remember, the **boolean** operators are `and`, `or`, and `not`. Use each one at least once!
 
 
-**설명:** ① boolean 연산자 (`not`, `and`, `or`)를 활용하여, 주석에서 지시하는 대로 결과값을 만들어라. 
+**설명:** [ Instruction ]     
+• Coding 창의 소스에서 주석을 읽고 이해하라.    
+• 주석에서 지시하는대로 결과 값을 만들어라.    
+• Boolean 은 연산자 ( NOT , AND , OR ) 를 활용하라.
 {: .notice--info}
 
 
@@ -915,9 +1057,10 @@ Remember, the **boolean** operators are `and`, `or`, and `not`. Use each one at 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Make sure to use at least one `and`, `or`, or `not`.
+* Make sure to use at least one `and`, `or`, or `not`.
 
-**설명:** boolean 연산자 `and`, `or`, or `not` 사용하여 만들어라. 
+**설명:** [ Hint ]    
+• Boolean 연산자 NOT , AND , OR 사용하여 만들라. 
 {: .notice--info}
 
 <br>
@@ -946,14 +1089,15 @@ bool_four = not False
 bool_five = True or True
 ```
 
-**설명:** 주석에 주어진 지시대로 각 변수에 값을 대입하라. 
+**설명:** [ Solution ]    
+• 주석에서 True 를 만들라면, 우변의 값을 True로 만들어 대입한다.
 {: .notice--info}
 
 
 
 **결과** 
 ``` 
-#skip
+skip
 ```
 
 <br>
@@ -964,15 +1108,17 @@ bool_five = True or True
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 11. Conditional Statement Syntax
+### 11. Conditional Statement Syntax    
 
 `if` is a **conditional statement** that executes some specified code after checking if its expression is `True`.
 
-Here's an example of `if` statement syntax:
+Here's an example of `if` statement syntax:    
+
 ```python
 if 8 < 9:
   print "Eight is less than nine!"
-```
+```    
+
 In this example, `8 < 9` is the checked expression and print **"Eight is less than nine!"** is the specified code.
 
 Pay **attention** to the **indentation** before the `print` statement. This space, called white space, is how Python knows we are entering a **new block** of code. Python accepts many different kinds of **indentation to indicate blocks**. In this lesson, we use four **spaces** but elsewhere you might encounter **two-space** indentation or tabs (which Python will see as different from spaces).
