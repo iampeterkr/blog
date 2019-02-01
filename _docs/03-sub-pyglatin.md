@@ -276,7 +276,8 @@ skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 4. Check Yourself!
+### 4. Check Yourself!    
+
 Next we need to ensure that the user actually typed something.
 
 ```python
@@ -287,10 +288,14 @@ if len(empty_string) > 0:
 else:
   # That string must have been empty.
 ```  
+
 We can check that the user's string actually has characters!
 
 
-**설명:** 변수 `empty_string`에 저장된 문자열의 길이를 조건문을 사용하여 비교처리 한다.  
+**설명:** [ Learn ]    
+• 변수 empty_string 를 빈 문자열로 초기화 한다.    
+• 변수 empty_string 에 저장된 문자열의 길이를 함수 len() 을 사용하여 구한다.    
+• 변수 empty_string 의 길이가 0보다 큰지를 비교한다.
 {: .notice--info}
 
 
@@ -300,16 +305,23 @@ We can check that the user's string actually has characters!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write an `if` statement that verifies that the string has characters.
+* Write an `if` statement that verifies that the string has characters.
 
-* Add an `if` statement that checks that `len(original)` is greater than zero. Don't forget the : at the end of the if statement!
+* Add an `if` statement that checks that `len(original)` is greater than zero. Don't forget the : at the end of the if statement!    
+
 * If the string actually has some characters in it, **print** the user's word.
+
 * Otherwise (i.e. an `else`: statement), please print **"empty"**.
 
-You'll want to run your code multiple times, testing an empty string and a string with characters. When you're confident your code works, continue to the next exercise.
+* You'll want to run your code multiple times, testing an empty string and a string with characters. When you're confident your code works, continue to the next exercise.
 
 
-**설명:** ① `if` 조건문을 사용하여 입력받은 문자의 길이를 함수 `len()`를 이용하여 계산한다. (주의: `if` 문 다음에 `:`를 꼭 적어야 한다.). 만약 글자가 입력되지 않았으면, `empty`를 출력한다. 
+**설명:** [ Instruction ]    
+• if 문을 사용하여 입력 받은 값이 문자열인지 확인한다.    
+• if 문의 조건절에서 변수 original 의 길이를 len() 함수를 이용하여 구한다.    
+• if 문의 조건절에서 len(original) 값이 0 보다 큰지 비교한다.     
+• # if 문 끝에는 ( : ) 을 꼭 확인한다.     
+• else 문에서는 변수 original 에 문자가 입력되지 않으면, empty 를 출력한다. 
 {: .notice--info}
 
 
@@ -318,12 +330,17 @@ You'll want to run your code multiple times, testing an empty string and a strin
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Don't forget that `>` is the greater than operator!
+* Don't forget that `>` is the greater than operator!
 
-Does it look like your code is stuck? Is there a spinning circle? That probably means that your code is waiting for you to type something! Click inside the console window on the other side, type a word, then press Enter (or Return).
+* Does it look like your code is stuck? Is there a spinning circle?    
+* That probably means that your code is waiting for you to type something!    
+* Click inside the console window on the other side, type a word, then press Enter (or Return).
 
 
-**설명:** `>=` 과 `>`를 잘 구분하라. 
+**설명:** [ Hint ]    
+• 같거나 크다 :  >=    
+• 크다      :  >     
+• # Console 에서 문자를 입력하고 Enter 를 클릭하면 입력이 되는 것이다  
 {: .notice--info}
 
 <br>
@@ -343,7 +360,10 @@ else:
   print "empty"
 ```
 
-**설명:** 입력 받은 변수 `original`값에 문자가 있으면 해당 문자를 출력하고, 없으면 `empty`를 출력한다. 
+**설명:** [ Solution ]    
+• 변수 original 에 Console 에서 입력값 이 들어가 있다.    
+• 변수 original 에 문자가 들어가 있으면 해당 문자를 출력한다.(if 문)    
+• 변수 original 에 문자가 없으면 "empty"를 출력한다.(else 문). 
 {: .notice--info}
 
 
