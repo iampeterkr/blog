@@ -171,23 +171,31 @@ Pig Latin
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 3.  Input!
-Next, we need to ask the user for input.
+### 3.  Input!    
+
+Next, we need to ask the user for input.    
+
 ```python
 name = raw_input("What's your name?")
 print name
-```
+```    
+
 In the above example, `raw_input()` accepts a string, prints it, and then waits for the user to type something and press Enter (or Return).
 
 In the interpreter, Python will ask:
 
 ```
 What's your name?
-```
+```    
+
 Once you type in your name and hit Enter, it will be stored in name.
 
 
-**설명:** "What's your name?" 메시지가 뜨면, 당신의 이름을 입력하며 된다. `raw_input()` 함수를 사용하여, 입력 받는다. 
+**설명:** [ Learn ]     
+• Console 창에 다음과 같은 문자열이 출력된다.    
+• "What's your name?"     
+• Console 창에 당신의 이름을 입력하라. 그리고 Enter를 클릭하라.        
+• # 함수 raw_input() 는 console 창에 문자열을 입력받는 함수이다.
 {: .notice--info}
 
 
@@ -197,15 +205,17 @@ Once you type in your name and hit Enter, it will be stored in name.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)
 
-**①** On line 4, use **raw_input("Enter a word: ")** to ask the user to enter a word. Save the results of `raw_input()` in a variable called original.
+* On line 4, use **raw_input("Enter a word: ")** to ask the user to enter a word. Save the results of `raw_input()` in a variable called original.
 
-Click `Run`
+* Click `Run`
 
-Type a word in the console window and press Enter (or Return).
+* Type a word in the console window and press Enter (or Return).
 
 
 
-**설명:** ① `raw_input()`함수를 사용하여 `raw_input("Enter a word: ")`를 작성하라.
+**설명:** [ Instruction ]    
+• 함수 raw_input() 를 사용하여 다음과 같이 Editor 창에 코딩하라.    
+• ' raw_input("Enter a word: ") '
 {: .notice--info}
 
 
@@ -215,15 +225,22 @@ Type a word in the console window and press Enter (or Return).
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Your code should look something like this:
+* Your code should look something like this:   
+
 ```python
 variable_name = raw_input('Prompt')
-```
-Does it look like your code is stuck? Is there a spinning circle? That probably means that your code is waiting for you to type something! Click inside the console window on the other side, type a word, then press Enter (or Return).
+```    
+
+* Does it look like your code is stuck?     
+* Is there a spinning circle?     
+* That probably means that your code is waiting for you to type something!     
+* Click inside the console window on the other side, type a word, then press Enter (or Return).
 
 
 
-**설명:** `raw_input()` 함수 사용법이다. `()` 속에 질문을 넣으면 된다. 
+**설명:** [ Hint ]    
+• 함수 raw_input() 은 Console 창에서 문자열을 입력 받는 함수이다.    
+• 'Prompt'는 console 창에 출력되는 질문 메시지 이다.     
 {: .notice--info}
 
 <br>
@@ -240,14 +257,15 @@ print 'Welcome to the Pig Latin Translator!'
 original = raw_input("Enter a word:")
 ```
 
-**설명:** `raw_input()`함수를 사용하여, 문자를 입력 받는 연습을 한다. 
+**설명:** [ Solution ]    
+• 함수 ' raw_input("Enter a word:") ' 로 문자를 입력 받는다.
 {: .notice--info}
 
 
 
 **결과**
 ``` 
-#skip
+skip
 ```
 
 <br>
