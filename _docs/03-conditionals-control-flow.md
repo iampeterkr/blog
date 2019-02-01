@@ -1351,7 +1351,7 @@ else:
 * To complete your `else` statement lines, the only thing you need to do is add `False` after the returns on lines 7 and 13.
 
 **설명:** [ Hint ]    
-else 문 부분을 False 로 수정하라.
+• else 문 부분을 False 로 수정하라.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    

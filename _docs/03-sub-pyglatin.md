@@ -29,7 +29,7 @@ In this lesson we'll put together all of the Python skills we've learned so far 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
-### 1.  Break It Down
+### 1.  Break It Down    
 
 Now let's take what we've learned so far and write a Pig Latin translator.
 
@@ -42,7 +42,12 @@ Pig Latin is a language game, where you move the first letter of the word to the
 
 
 
-**설명:** 지금까지 배운 Python 문법을 정리할 겸 배운것을 응용하는 재미있는 프로그램을 만들것이다. 1.단어를 입력받아서, 2. 입력 받은 단어를 점검하고, ,3. 입력받은 단어를 Pig Latin문자로 바꾸로, 4. 그 결과를 출력 할 것이다.  
+**설명:** [ Learn ]    
+• 지금까지 배운 Python 문법을 정리할 겸 배운것을 활용하여 응용 프로그램을 만든다.    
+• 1st : 단어를 입력받아라.    
+• 2nd : 입력 받은 단어를 비교하고 체크하라.    
+• 3rd : 입력 받은 단어를 Pig Latin 문자로 변경하라.    
+• 4th : 그 결과를 출력하라.  
 {: .notice--info}
 
 
@@ -52,10 +57,11 @@ Pig Latin is a language game, where you move the first letter of the word to the
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** When you're ready to get coding, click `Next`. Since we took the time to write out the steps for our solution, you'll know what's coming!
+* When you're ready to get coding, click `Next`. Since we took the time to write out the steps for our solution, you'll know what's coming!
 
 
-**설명:** ① 이해가 되고, 준비가 되었으면 `Next`를 클릭하라. 
+**설명:** [ Instruction ]    
+• Coding 창의 소스가 이해가 되면, 마음의 준비가 되었으면, Next 를 클릭하라. 
 {: .notice--info}
 
 
@@ -64,10 +70,11 @@ Pig Latin is a language game, where you move the first letter of the word to the
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-**skip**
+* skip
 
 
-**설명:** `skip`
+**설명:** [ Hint ]    
+• skip
 {: .notice--info}
 
 <br>
@@ -75,19 +82,20 @@ Pig Latin is a language game, where you move the first letter of the word to the
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-**skip**
+* skip
 
 ```python
-#skip
+skip
 ```
 
-**설명:** skip
+**설명:** [ Solution ]    
+• skip
 {: .notice--info}
 
 
 **결과** 
 ```
-#skip
+skip
 ```
 
 <br>
@@ -98,12 +106,13 @@ Pig Latin is a language game, where you move the first letter of the word to the
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 2. Ahoy! (or Should I Say Ahoyay!)
+### 2. Ahoy! (or Should I Say Ahoyay!)    
 
 Let's warm up by **printing** a welcome message for our translator users.
 
 
-**설명:** 연습삼아 `print`를 해보자. 
+**설명:** [ Learn ]    
+• 몸 풀기로  print 를 해보자. 
 {: .notice--info}
 
 
