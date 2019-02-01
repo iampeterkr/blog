@@ -493,12 +493,14 @@ Hellow
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 6. Pop Quiz!
+### 6. Pop Quiz!    
+
 When you finish one part of your program, it's important to test it multiple times, using a variety of inputs. 
 
 
 
-**설명:** 프로그램을 만들었으면 여러번 테스트 해 보자. 
+**설명:** [ Learn ]    
+• 프로그램을 만들었으면 다양하게 입력하면서 테스트 해 보자. 
 {: .notice--info}
 
 
@@ -508,12 +510,18 @@ When you finish one part of your program, it's important to test it multiple tim
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Take some time to **test your current code**. Try some inputs that should pass and some that should fail. Enter some strings that contain **non-alphabetical** characters and an **empty** string.
+* Take some time to **test your current code**.     
+* Try some inputs that should pass and some that should fail.     
+* Enter some strings that contain **non-alphabetical** characters and an **empty** string.
 
-When you're convinced your code is ready to go, click Next to move forward!
+* When you're convinced your code is ready to go, click Next to move forward!
 
 
-**설명:** ① 현재 코드를 이용하여, 알파벳이 아닌 것을 넣어 보고, 공백도 넣어보라.  
+**설명:** [ Instruction ]    
+• 현재 코드를 이용하여 테스트를 하라.    
+• 통과할 값(알파벳이 포함된)과 실패할 값(알파벳이 없을 값)을 넣어라.    
+• 알파벳이 포함된 문자열도 넣고, 없는것도 넣어라.    
+• 소스가 확실히 이해가고, 다음 장으로 넘어갈 준비가 되면 다음장으로 넘어가라.
 {: .notice--info}
 
 
@@ -523,9 +531,10 @@ When you're convinced your code is ready to go, click Next to move forward!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-No trick here! Just test your code to make sure it works as expected.
+* No trick here! Just test your code to make sure it works as expected.
 
-**설명:** 특별한 것이 없다. 그냥 테스트 하면 된다. 
+**설명:** [ Hint ]    
+• 특별한 것이 없다. 그냥 테스트 하면 된다. 
 {: .notice--info}
 
 <br>
@@ -546,7 +555,10 @@ else:
   print "empty"
 ```
 
-**설명:** 변수 `original`에 입력된 문자열이 알파벳이면 입력된 값을 출력하고, 알파벳이 아니것(ex. !, # , and %)이 들어 있으면, `empty`가 출력 된다. 
+**설명:** [ Solution ]    
+• 변수 original 에 입력된 문자열이 존재하고 알파벳이면 포함되어 있는지 비교한다.    
+• if 조건절을 만족하면 변수 original 값이 출력된다.    
+• 그렇지 않으면 "empty" 가 출력된다. 
 {: .notice--info}
 
 
@@ -572,7 +584,8 @@ abcd
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 7. Ay B C
+### 7. Ay B C    
+
 Now we can get ready to start translating to Pig Latin! Let's review the rules for translation:
 
 You move the first letter of the word to the end and then append the suffix 'ay'. Example: python -> ythonpay
@@ -580,7 +593,12 @@ You move the first letter of the word to the end and then append the suffix 'ay'
 Let's create a variable to hold our translation suffix.
 
 
-**설명:** 문자열을 제어하는 방법을 배워보자.  `python`의 첫글지 `p`를 `python`의 제일 뒤로 보내고, 그다음에 `ay`를 붙이자. 예) `python -> ythonpay` 자, `ay`를 담을 변수를 만들어 보자.
+**설명:** [ Learn ]    
+• 이 장에서는 문자열을 제어하는 방법을 배워보자.    
+• "python" 의 첫글지 "p" 를 "python" 의 제일 뒤로 보낸다.        
+• 그다음에 문자열 "ay" 를 붙이자.    
+• e.g. "python" -> "ythonpay"    
+• 문자 "ay" 를 담을 변수를 만든다.
 {: .notice--info}
 
 
@@ -590,10 +608,11 @@ Let's create a variable to hold our translation suffix.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a variable named pyg and set it equal to the suffix 'ay'.
+* Create a variable named `pyg` and set it equal to the suffix 'ay'.
 
 
-**설명:** ① 변수 `pyg`를 만들고 여기에 `ay`문자열을 대입하여라. 
+**설명:** [ Instruction ]    
+• 변수 pyg 를 만들고 여기에  문자열 'ay' 를 대입하라. 
 {: .notice--info}
 
 
@@ -603,9 +622,10 @@ Let's create a variable to hold our translation suffix.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Remember to use a single equal sign to do the assignment and to put quotation marks around the string **'ay'**!
+* Remember to use a single equal sign to do the assignment and to put quotation marks around the string **'ay'**!
 
-**설명:** 문자열을 변수에 대입할때는 `' '`를 활용한다. 
+**설명:** [ Hint ]    
+• 문자열을 변수에 대입 할때는 (' ')를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -619,14 +639,15 @@ Remember to use a single equal sign to do the assignment and to put quotation ma
 pyg = 'ay'
 ```
 
-**설명:** 변수 `pyg`를 생성하고 문자열 `'ay'`를 입력한다. 
+**설명:** [ Solution ]    
+• 변수 pyg 를 생성하고 문자열 'ay' 를 입력한다. 
 {: .notice--info}
 
 
 
 **결과** 
 ``` 
-#skip
+skip
 ```
 
 <br>
