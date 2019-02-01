@@ -122,10 +122,11 @@ Let's warm up by **printing** a welcome message for our translator users.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Please **print** the phrase "Pig Latin".
+* Please **print** the phrase "Pig Latin".
 
 
-**설명:** ① `print` "Pig Latin" 을 실행해 보자. 
+**설명:** [ Instruction ]    
+• 'print "Pig Latin' 을 실행하라.  
 {: .notice--info}
 
 
@@ -138,7 +139,8 @@ Let's warm up by **printing** a welcome message for our translator users.
 ```python
 print " Hellow World"
 ```
-**설명:** 이미 배운 `print` 문을 상기하자. 
+**설명:** [ Hint ]    
+• print " Hellow World" 라고 사용한다. 
 {: .notice--info}
 
 <br>
@@ -146,11 +148,13 @@ print " Hellow World"
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
 ```python
 print "Pig Latin"
 ```
 
-**설명:** `print` 문을 사용해 보자. 
+**설명:** [ Solution ]    
+• print 문을 사용하여 문자 "Pig Latin"을 출력한다. 
 {: .notice--info}
 
 
