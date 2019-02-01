@@ -1128,9 +1128,15 @@ If the **indentation** from one line to the next is different and there is no co
 
 
 
-**설명:** `if`는 **조건문** 이다. 주어진 조건이 `True`이면, 다음 정의 내용을 실행하는 것이다. `if`문을 사용할때, 주의할 것이 있다. `if`의 조건 뒤에 `;`으로 마무리 해주어, `if`문의 조건이 끝났음을 명시해야 하며, 다음 정의 내용은 `if`문의 위치보다 **space** 2칸을 들어간채 정의해야 한다.
-Python은 `if`문의 범위를 자신보다 안쪽에 들여쓰기가 되어 있는 정의 문들을 자신의 범위로 여긴다.
-들여쓰기가 space 2칸이 아니면, Python은 `IndentationError` 라는 Error를 출력하면, 잘못된 위치를 `^`로 표히해 준다. 
+**설명:** [ Learn ]    
+• if 문은 조건문 이다.     
+• 조건이 True 이면, if 절 내부의 정의 내용을 실행한다.    
+• if 문 사용시 주의 사항이 있다.    
+• if 문 조건 뒤에 항상 ( : )을 붙여줘야 한다.      
+• 이것은 if 문 조건이 끝났음을 의미한다.    
+• if 문 내부를 정의할때, if 문 보다 안쪽으로 Space 2칸이 들어간 상태에서 시작한다.    
+• if 문은 자신보다 안쪽에 위치한 내용을 자신의 처리 범위로 여긴다.    
+• 들여쓰기가 정상적이지 않으면 Python 해석기는 Error 를 발생시킨다.
 {: .notice--info}
 
 
@@ -1140,10 +1146,12 @@ Python은 `if`문의 범위를 자신보다 안쪽에 들여쓰기가 되어 있
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** If you think the `print` statement will print to the console, set `response` equal to **'Y'*; otherwise, set response equal to **'N'**.
+* If you think the `print` statement will print to the console, set `response` equal to **'Y'*; otherwise, set response equal to **'N'**.
 
 
-**설명:** ① 출력되어지는 문장의 내용이 맞다고 생각되면 변수 `response`에 'Y'를 대입하고, 그렇지 않다면 'N'를 대입하라. 
+**설명:** [ Instruction ]    
+• 출력되는 문장의 내용이 맞으면 변수 response 에 'Y' 를 대입한다.    
+• 그렇지 않으면 변수 response 에 'N'를 대입한다. 
 {: .notice--info}
 
 
@@ -1152,10 +1160,11 @@ Python은 `if`문의 범위를 자신보다 안쪽에 들여쓰기가 되어 있
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Make sure to set response to "Y" or "N"!
+* Make sure to set response to "Y" or "N"!
 
 
-**설명:** 변수 `response`에 "Y" or "N"를 입력한다. 
+**설명:** [ Hint ]    
+• 변수 response 에 'Y' or 'N' 를 대입한다.  
 {: .notice--info}
 
 <br>
@@ -1176,7 +1185,8 @@ if answer == "Left":
 # Set response to 'Y' if you think so, and 'N' if you think not.
 ```
 
-**설명:** 출력문의 내용이 마음에 들지 않으므로 나는 변수 `response`에  "N" 를 대입한다. 
+**설명:** [ Solution ]    
+• 출력문의 내용이 마음에 들지 않으므로 변수 response 에  'N' 를 대입한다. 
 {: .notice--info}
 
 
@@ -1194,7 +1204,7 @@ This is the Verbal Abuse Room, you heap of parrot droppings!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 12. If You're Having...
+### 12. If You're Having...    
 
 Let's get some practice with `if` statements. Remember, the syntax looks like this:
 
@@ -1203,13 +1213,18 @@ if some_function():
   # block line one
   # block line two
   # et cetera
-```  
+```    
+
 Looking at the example above, in the event that `some_function()` returns `True,` then the indented block of code after it will be executed. In the event that it returns False, then the indented block will be **skipped**.
 
 Also, make sure you notice the `colons` at the end of the `if` statement. We've added them for you, but they're important.
 
 
-**설명:** `if`문이 `some_function()`의 결과값이 `True`이면 `if`문 보다 안쪽에 들여쓰진 #block line one, #block line two, # et cetera 의 정의문들이 실행된다. 그렇지 않고 `some_function()`의 결과값이 `False` 이면 정의문들은 실행되지 않는다. 그리고 `if`문의 끝에는 `;`이 항상 와야 한다. 
+**설명:** [ Learn ]    
+• if 문 은 some_function()을 호출하여 받은 결과값이 True 인지를 비교한다.    
+• 결과값이 True 이면, 다음 라인에 들여쓰진  #block line one, #block line two, # et cetera 의 정의문 들이 실행된다.    
+• 결과값이 False 이면 정의문 들은 실행되지 않는다.    
+• if 문의 끝에는 ( : ) 이 항상 와야한다. 
 {: .notice--info}
 
 
@@ -1219,14 +1234,16 @@ Also, make sure you notice the `colons` at the end of the `if` statement. We've 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** In the editor you'll see two functions. Don't worry about anything unfamiliar. We'll explain soon enough.
+* In the editor you'll see two functions.    
+* Don't worry about anything unfamiliar.     
+* We'll explain soon enough.    
+* Replace the underline on line 2 with an expression that returns `True`.    
+* Replace the underline on line 6 with an expression that returns `True`.    
+* If you do it successfully, then both "Success #1" and "Success #2" are printed.
 
-* Replace the underline on line 2 with an expression that returns `True`.
-* Replace the underline on line 6 with an expression that returns `True`.
-If you do it successfully, then both "Success #1" and "Success #2" are printed.
 
-
-**설명:** ① 2라인과 6라인에 각 `True`가 되도록 계산식으로 대체하라. 
+**설명:** [ Instruction ] 
+• 2 라인과 6 라인에 각 True 가 되도록 계산식을 수정하라. 
 {: .notice--info}
 
 
@@ -1236,16 +1253,19 @@ If you do it successfully, then both "Success #1" and "Success #2" are printed.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Here's an example to remind you of the syntax:
+* Here's an example to remind you of the syntax:
+
 ```python
 def true_function():
   if 1 < 2:
     return True
-```
-Don't forget the colon at the end of the line!
+```    
+
+* Don't forget the colon at the end of the line!
 
 
-**설명:** `if`문 다음에 계산식을 만든다. 
+**설명:** [ Hint ]    
+• if 문 다음의 조건절에 True 값이 되도록 계산식을 만든다. 
 {: .notice--info}
 
 <br>
@@ -1268,7 +1288,9 @@ print using_control_once()
 print using_control_again()
 ```
 
-**설명:** `if` 문 다음에 `True`값이 되도록 만든다. 그 결과 값이 반환되어 출력된다. 
+**설명:** [ Solution ]    
+• " if 2 <  3: " 이 True 가 되도록 조건문을 만들었다.    
+• " if 3 == 3: " 이 True 가 되도록 조건문을 만들었다.
 {: .notice--info}
 
 
@@ -1287,7 +1309,7 @@ Success #2
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 13. Else Problems, I Feel Bad for You, Son...
+### 13. Else Problems, I Feel Bad for You, Son...    
 
 The `else` statement complements the if statement. An `if/else` pair says: "If this expression is true, run this indented code block; otherwise, run this code after the else statement."
 
@@ -1300,7 +1322,9 @@ else:
   print "I get printed!"
 ```
 
-**설명:** `else`문은 `if`문과 함께 쓰는 것으로 `if`문 조건에 해당되지 않으면 `else` 조건문이 실행된다.  
+**설명:** [ Learn ]     
+• else 문은 if 문과 함께 사용한다.     
+• if 문 조건을 체크하고, 조건에 맞지 않으면, else 문이 실행된다.
 {: .notice--info}
 
 
@@ -1310,10 +1334,11 @@ else:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Complete the `else` statements to the right. Note the indentation for each line!
+* Complete the `else` statements to the right. Note the indentation for each line!
 
 
-**설명:** ① `else`문을 완성시켜라. 들여쓰기를 주의 하라. 
+**설명:** [ Instruction ]    
+• Coding 창에 있는 소스중, else 문을 완성하라. (단, 들여 쓰기를 주의하라.)
 {: .notice--info}
 
 
@@ -1323,9 +1348,10 @@ else:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-To complete your else statement lines, the only thing you need to do is add False after the returns on lines 7 and 13.
+* To complete your `else` statement lines, the only thing you need to do is add `False` after the returns on lines 7 and 13.
 
-**설명:** `else`문이 어떻게 사용되는지 해당 부분에 고쳐 보라. 
+**설명:** [ Hint ]    
+else 문 부분을 False 로 수정하라.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1352,13 +1378,19 @@ def french_soldier():
       
 ```
 
-**설명:** 함수 `black_knight()`에서 `if`문이 `answer`와 비교하여 맞으면 `True`를 돌려주고, 틀리면 `else`문이 동작되어 `print ("else call")이 출력되고, `False`가 반환된다.
+**설명:** [ Solution ]    
+• 함수 black_knight() 에서 if 문이 answer 과 비교한다.    
+• 비교한 결과가 참이면 True 를 반환한다.    
+• 비교한 결과가 거짓이면 else 문이 작동된다.    
+• else 문의 'print ("else call")' 이 출력된다.    
+• 그리고 False 가 반환된다.
+• # 각 line 에 print 문을 작성해 보면, 그 결과를 알 수 있다.
 {: .notice--info}
 
 
 **결과** 
 ``` 
-#skip
+skip
 ```
 
 <br>
@@ -1369,7 +1401,7 @@ def french_soldier():
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 14. I Got 99 Problems, But a Switch Ain't One
+### 14. I Got 99 Problems, But a Switch Ain't One    
 
 `elif` is short for **"else if."** It means exactly what it sounds like: "otherwise, if the following expression is true, do this!"
 
@@ -1380,11 +1412,15 @@ elif 8 < 9:
   print "I get printed!"
 else:
   print "I also don't get printed!"
-```
+```    
+
 In the example above, the `elif` statement is only checked if the original if statement is `False`.
 
 
-**설명:** `elif`는 "else if" 의 줄인 말이다. `if`조건절이 아닐때, 다른 조건절을 사용하고자 할때, `elif`를 사용한다. `else`차이는 `else`는 조건을 걸수 없지만, `elif`는 조건을 걸수 있다. 
+**설명:** [ Learn ]    
+• elif 는 "else if" 의 줄인 말이다.    
+• elif 는 if 조건절이 아니고 그다음에 다른 조건을 체크 하고 싶을때 사용한다.    
+• else 차이는 else 는 조건을 만들수 없디만, elif 문은 조건을 만들수 있다.
 {: .notice--info}
 
 
@@ -1394,12 +1430,16 @@ In the example above, the `elif` statement is only checked if the original if st
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** On line 2, fill in the `if` statement to check if answer is greater than `5`.
+* On line 2, fill in the `if` statement to check if answer is greater than `5`.
 
-On line 4, fill in the `elif` so that the function outputs `-1` if answer is less than `5`.
+* On line 4, fill in the `elif` so that the function outputs `-1` if answer is less than `5`.
 
 
-**설명:** ① 2 라인에서 `if`문을 사용하여 변수 `answer`값이 `5`보다 크면 `1`을 반환하고, 4 라인에서 `elif`문을 사용하여 `5`보다 작으면 `-1`을 반환하라.  
+**설명:** [ Instruction ]    
+• 2 라인에서 if 문을 사용한다.    
+• 조건은 변수 answer 값이 5 보다 크면 1 을 반환한다.    
+• 4 라인에서 elif 문을 사용한다.    
+• 조건은 변수 answer 값이 5 보다 작으면 -1 을 반환하라.  
 {: .notice--info}
 
 
@@ -1409,9 +1449,9 @@ On line 4, fill in the `elif` so that the function outputs `-1` if answer is les
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Make sure the if and elif statements end with colons :
+* Make sure the `if` and `elif` statements end with colons :
 
-Your code should look something like:
+* Your code should look something like:
 
 ```python
 if EXPRESSION:
@@ -1422,12 +1462,11 @@ else:
   # do something
 ```
 
-**설명:** `if`, `elif`, `else` 끝에 `:`를 잘 살펴봐라. 
-{: .notice--info}
+**설명:** [ Hint ]    
+• if , elif , else 문의 끝에 ( : ) 를 꼭 넣어야 한다.
+• 마지막에 각 함수를 출력해보면, 결과 값을 알수있다.
+{: .notice--info}    
 
-**결과** 
-``` 
-```
 
 <br>
 <hr/>
@@ -1450,7 +1489,8 @@ print greater_less_equal_5(6)
 
 ```
 
-**설명:** 변수 `answer`이 5보다 큰지, 작은지, 같은지를 보여준다. 
+**설명:** [ Solution ]    
+• 변수 answer 이 5 보다 큰지, 작은지, 같은지를 비교하여 그 결과값을 반환한다. 
 {: .notice--info}
 
 
@@ -1471,7 +1511,7 @@ print greater_less_equal_5(6)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 15. The Big If
+### 15. The Big If    
 
 Really great work! Here's what you've learned in this unit:
 
@@ -1503,7 +1543,8 @@ Let's get to the grand finale.
 
 
 
-**설명:** 우리는 비교교문, Boolean 연산자, 조건문(`if`, `elif`, `else`)를 배웠다. 
+**설명:** [ Learn ]    
+• 지금까지 배운 비교문, Boolean 연산자, 조건문( if , elif , else )를 복습하자.
 {: .notice--info}
 
 
@@ -1513,22 +1554,25 @@ Let's get to the grand finale.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** In the workspace to your right, there is the outline of a function called `grade_converter()`.
+* In the workspace to your right, there is the outline of a function called `grade_converter()`.
 
-The purpose of this function is to take a number grade **(1-100)**, defined by the variable `grade`, and to return the appropriate letter **grade (A, B, C, D, or F)**.
+* The purpose of this function is to take a number grade **(1-100)**, defined by the variable `grade`, and to return the appropriate letter **grade (A, B, C, D, or F)**.
 
-Your task is to complete the function by creating appropriate `if` and `elif` statements that will compare the input `grade` with a number and then return a letter `grade`.
+* Your task is to complete the function by creating appropriate `if` and `elif` statements that will compare the input `grade` with a number and then return a letter `grade`.
 
-Your function should return the following letter grades:
+* Your function should return the following letter grades:
 
-* 90 or higher should get an "A"
-* 80 - 89 should get a "B"
-* 70 - 79 should get a "C"
-* 65 - 69 should get a "D"
-* Anything below a 65 should receive an "F"
+  * 90 or higher should get an "A"
+  * 80 - 89 should get a "B"
+  * 70 - 79 should get a "C"
+  * 65 - 69 should get a "D"
+  * Anything below a 65 should receive an "F"
 
 
-**설명:** ①`grade_converter()` 함수를 다음 조건에 따라 동작 되게끔 지금가지 배운 **비교문**, **조건문** 등을 사용하여 작성하라. 
+**설명:** [ Instruction ]    
+• 함수 `grade_converter()` 를 만든다.    
+• 함수의 동작은 비교문, 조건문을 사용하여라.    
+• 함수 조건은 점수 구간에 따라 A, B, C, D, F 등급을 준다.
 {: .notice--info}
 
 
@@ -1538,16 +1582,20 @@ Your function should return the following letter grades:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Be careful with your indentation—grade_converter() is a function (which we'll get to in the next unit), and as you can see from the comment, function blocks are indented the same way if, elif, and else blocks are.
+* Be careful with your indentation—grade_converter() is a function (which we'll get to in the next unit), and as you can see from the comment, function blocks are indented the same way if, elif, and else blocks are.
 
-If you are having trouble creating the if and elif statements, here's the first one you can use as an example:
+* If you are having trouble creating the if and elif statements, here's the first one you can use as an example:    
+
 ```python
 if grade >= 90:
      return "A"
 ```     
+
 This will compare the variable grade with the value 90 and if it is greater than or equal to 90 it will return the letter A.
 
-**설명:** `if` grade`>=` 90: 은 변수 `grade` 값이 `90`보다 크거나 같다는 표현이다.  
+**설명:** [ Hint ]    
+• 조건문 'if grade >= 90:' 은 변수 grade 값이 90 보다 크거나 같다는 표현이다.   
+• 이 조건이 맞으면 if 문 내부에 A 가 반환되도록 작성한다.
 {: .notice--info}
 
 <br>
@@ -1555,6 +1603,7 @@ This will compare the variable grade with the value 90 and if it is greater than
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
 ```python
 # Complete the if and elif statements!
 def grade_converter(grade):
@@ -1579,7 +1628,8 @@ print grade_converter(70)
 print grade_converter(61)
 ```
 
-**설명:** 각 `if`, `elif`, `else`를 사용한다. 
+**설명:** [ Solution ]    
+• if , elif , else 를 사용하여 점수 구간별 A, B, C, D, F 등급을 반환한다.
 {: .notice--info}
 
 
