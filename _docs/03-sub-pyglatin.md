@@ -658,7 +658,8 @@ skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 8. Word Up
+### 8. Word Up    
+
 Let's simplify things by making the letters in our word **lowercase**.
 
 ```python
@@ -668,7 +669,9 @@ the_string = the_string.lower()
 The `.lower()` function does not modify the string itself, it simply returns a lowercase-version. In the example above, we store the result back into the same variable.
 
 
-**설명:** `.lower()`함수 기능은 단순히 문자열을 변경하는 것이 아니라, 단순히 소문자로 변경하는 것이다. 변수 `the_string`에 저장된 문자열을 다시 소문자로 변경하여 다시 변수 `the_string`에 저장한다.  
+**설명:** [ Learn ]    
+• 함수 .lower() 는 입력된 문자열을 모두 소문자로 변환하는 함수이다.    
+• 변수 the_string 에 저장된 문자열을 소문자로 변경후, 변수 the_string에 재 저장한다. 
 {: .notice--info}
 
 
@@ -681,7 +684,9 @@ third_letter  = the_string[2]
 ```
 Remember that we start counting from **zero**, not one, so we access the first letter by asking for **[0]**.
 
-**설명:** 우리는 변수 `the_string`에 들어 있는 문자열의 개별 알파벳 문자를 추출할수 있다. 우리는 `index`주소를 0번 부터 시작한다. 
+**설명:** [ Learn ]    
+• 변수 the_string 에 저장되어 있는 문자 하나씩 추출할 수 있다.    
+• 첫번째 문자에 접근할 수 있는 주소(index)는 0번 부터 시작한다. 
 {: .notice--info}
 
 
@@ -691,14 +696,17 @@ Remember that we start counting from **zero**, not one, so we access the first l
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Inside your `if` statement:
+* Inside your `if` statement:
 
-• Create a new variable called word that holds the .lower()-case conversion of original.
-• Create a new variable called first that holds word[0], the first letter of word.
+  * Create a new variable called `word` that holds the `.lower()`-case conversion of `original`.    
+  * Create a new variable called `first` that holds word[0], the `first` letter of `word`.
 
 
-**설명:** ① `if` 조건문에서, 변수 `word`를 만들고 해당 변수에 변수 `origanl`값을 소문자로 변경하여 대압히라.    
-② 변수 `first`를 만들고 변수 `word[0]`주소의 값을 대입하라. `word[0]`은 첫번째 문자이다.
+**설명:** [ Instruction ]    
+• if 문 안에서 다음 2가지를 작성하라.    
+• 변수 word 를 만들고, 변수 origanl 값을 소문자로 변경후 대압히라.    
+• 변수 first 를 만들고, 변수 word[0] index 값을 대입하라.   
+• # word[0] 은 첫번째 문자이다.
 {: .notice--info}
 
 
@@ -707,16 +715,15 @@ Remember that we start counting from **zero**, not one, so we access the first l
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* Use a variable called `word` to store the result of `original.lower()`.
 
-Use a variable called word to store the result of original.lower().
+* Use a variable called `first` to store the result of `word[0]`.
 
-Use a variable called first to store the result of word[0].
+* And make sure that you do this inside your `if` statement.
 
-And make sure that you do this inside your if statement.
+* Note: You can print out the values of the variables `word` and `first` to double-check your work (remove these print statements when you're done debugging).
 
-Note: You can print out the values of the variables word and first to double-check your work (remove these print statements when you're done debugging).
-
-Remember that the first letter of a string can be found at index 0, like this:
+* Remember that the `first` letter of a string can be found at index 0, like this:
 
 ```python
 first = "python"[0]
@@ -724,7 +731,12 @@ first # "p"
 ```
 
 
-**설명:** 변수 `word`를 만들고, 해당 변수에 입력값을 소문자로 변경하여 저장하라. 그리고 변수 `word`의 첫번째 글자를 출력하라. 
+**설명:** [ Hint ]    
+• 변수 word 를 만들고, 변수 word 에 orginal.lower() 결과값을 저장하라.   
+• 변수 first 에 변수 word[0] 결과값을 저장하라.    
+• 위 2 가지를 if 문 구문 안에 구현하라.    
+• 변수 word, first 값을 중간 중간 출력하여 확인 하라.   
+• 변수 first 의 첫번째 index 는 0 이다. 
 {: .notice--info}
 
 <br>
@@ -746,7 +758,12 @@ else:
     print 'empty'
 ```
 
-**설명:** ① 입력변수 `original`의 소문자를 변수 `word`에 대입하고, ② `word`의 첫번째 글자 `word[0]`를 변수 `first`에 대입하라. 
+**설명:** [ Solution ]    
+• 입력 변수 original 에 문자열을 입력 받는다.    
+• 변수 original 에 문자열이 존재하고 알파멧만 존재하는지 비교한다.    
+• 변수 word 에 original.lower()결과 값을 저장한다.    
+• 변수 word[0] 의 글자를 변수 first 에 저장한다.    
+• if 문의 조건을 만족 못하면 (else) 'empty' 출력한다.
 {: .notice--info}
 
 
@@ -754,7 +771,6 @@ else:
 **결과** 
 ``` 
 Enter a word:ABCD
-
 ```
 
 <br>
@@ -765,8 +781,9 @@ Enter a word:ABCD
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 9. Move it on Back
-Now that we have the first letter stored, we need to add both the letter and the string stored in pyg to the end of the original string.
+### 9. Move it on Back    
+
+Now that we have the first letter stored, we need to add both the letter and the string stored in `pyg` to the end of the original string.
 
 Remember how to **concatenate** (i.e. add) strings together?
 
@@ -776,7 +793,8 @@ name = "D. Y."
 welcome = greeting + name
 ```
 
-**설명:** 각각의 변수에 저장된 문자열을 `+`을 이용하여 문자열을 연결할 수 있다. 
+**설명:** [ Learn ]    
+• 변수 pyg 에 ( + ) 를 이용하여 다른 문자열을 연결할 수 있다.
 {: .notice--info}
 
 
@@ -786,12 +804,15 @@ welcome = greeting + name
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** On a new line after where you created the `first` variable:
+* On a new line after where you created the `first` variable:
 
-Create a new variable called `new_word` and set it equal to the concatenation of `word`, `first`, and `pyg`.
+* Create a new variable called `new_word` and set it equal to the concatenation of `word`, `first`, and `pyg`.
 
 
-**설명:** ① 변수 `first`다음 라인에 변수 `new_word`를 만들고, ②`new_word`에 변수 `word`, `first`, `pyg` 문자열을 연결하여 대입하라. 
+**설명:** [ Instruction ]    
+• 변수 first 다음 라인에서 작업하시오.   
+• 변수 new_word 를 만들어라.   
+• 변수 new_word 에 변수 word , first , pyg 의 문자열을 연결하여라.  
 {: .notice--info}
 
 
@@ -801,13 +822,14 @@ Create a new variable called `new_word` and set it equal to the concatenation of
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-You can use `+` to concatenate (put together) two strings, like this:
+* You can use `+` to concatenate (put together) two strings, like this:
 
 ```python
 word + first + pyg
 ```
 
-**설명:** `+`를 연결하여 문자열을 연결한다. 
+**설명:** [ Hint ]    
+• ( + ) 를 사용하여, 변수를 연결하면, 변수내 문자열이 연결된다. 
 {: .notice--info}
 
 <br>
@@ -830,7 +852,8 @@ else:
     print 'empty'
 ```
 
-**설명:** 변수 `new_word`에 변수 `word`, `first`, `pyg`를 `+`를 사용하여 문자열을 연결한다.
+**설명:** [ Solution ]    
+• 변수 new_word 에 변수 word, first , pyg 를 ( + ) 를 사용하여 연결한다.
 {: .notice--info}
 
 
@@ -849,7 +872,8 @@ Enter a word:ABCD
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 10. Ending Up
+### 10. Ending Up    
+
 Well done! However, now we have the first letter showing up both at the beginning and near the end.
 
 ```python
@@ -860,14 +884,22 @@ print s[0]
 
 print s[1:4]
 # will print "har"
-```
-1. First we create a variable `s` and give it the string **"Charlie"**
-2. Next we access the **first letter** of **"Charlie"** using `s[0]`. Remember letter positions start at **0**.
-3. Then we access a slice of **"Charlie"** using `s[1:4]`. This returns everything from the letter at position `1` up till position `4`.
-We are going to **slice** the string just like in the 3rd example above.
+```    
+
+* First we create a variable `s` and give it the string "Charlie"
+
+* Next we access the **first letter** of "Charlie" using `s[0]`. Remember letter positions start at **0**.
+
+* Then we access a slice of "Charlie" using `s[1:4]`. This returns everything from the letter at position `1` up till position `4`.    
+
+* We are going to **slice** the string just like in the 3rd example above.
 
 
-**설명:** ① 변수 `s`를 만들고 문자열 **"Charlie"**를 대입하고, ② 변수 `s[0]`는 첫번째 글자를 가리킨다. ③ 변수 `s`의 문자열을 다음과 같이 주면 `s[1:4]` 문자열 **"harl"**만 잘라낸다. 우리는 이번장에서는 문자열을 잘라내는 것을 연습한다.
+**설명:**     
+• 변수 s 를 만들고, 문자열 "Charlie" 를 대입한다.    
+• 변수 s[0] 는 첫번째 글자를 가리킨다.    
+• 변수 s[1:4] 는 변수 s 에서 문자열 "harl" 를 잘라낸다.    
+• 이 장에서는 문자열을 잘라내는 연습을 한다.
 {: .notice--info}
 
 
@@ -877,10 +909,13 @@ We are going to **slice** the string just like in the 3rd example above.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Set `new_word` equal to the slice from the 1st index all the way to the end of `new_word`. Use [1:len(new_word)] to do this.
+* Set `new_word` equal to the slice from the 1st index all the way to the end of `new_word`.    
+* Use [1:len(new_word)] to do this.
 
 
-**설명:** ① 변수 `new_word`에 index 1번 문자열부터 변수 `new_word`에 들어있는 문자 끝까지를 잘내라. `[1:len(new_word)]`를 사용하라.
+**설명:**     
+• 변수 new_word 에 index 1번 문자부터 마지막 index 문자까지 잘라라.    
+• [1:len(new_word)] 를 사용하라.
 {: .notice--info}
 
 
@@ -890,9 +925,9 @@ We are going to **slice** the string just like in the 3rd example above.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-The first character in a string is at index `0`.
+* The first character in a string is at index `0`.
 
-Remember that slicing a string looks a lot like accessing a single character.
+* Remember that slicing a string looks a lot like accessing a single character.
 
 ```python
 # single character
@@ -900,16 +935,20 @@ s[3]
 
 # slice from 3 up until 6
 s[3:6]
-```
-Advanced Tip! When slicing until the end of the string, instead of providing `len(new_word)`, you can also not supply the second index:
+```    
+
+* Advanced Tip! When slicing until the end of the string, instead of providing `len(new_word)`, you can also not supply the second index:
 
 ```python
 my_string = "Python"
 my_string[1:] # "ython"
 ```
 
-**설명:** 문자열의 주소는 `0`부터 시작한다. `s[3]`은 실지로 4번째 문자열을 가리킨다. `s[3:6]`은 
-`s[3]`부터 `s[6]`까지 문자열을 잘라낸다. `my_string[1:]`은 해당 변수 주소 1번부터 끝까지를 잘라낸다. 
+**설명:**    
+• 문자열의 주소는 0 부터 시작한다.    
+• s[3] 은 4번째 문자를 가리킨다.    
+• s[3:6] 은 s[3] 부터 s[6] 까지의 문자열을 잘라낸다.    
+• my_string[1:] 은 해당 주소 1번부터 끝까지를 잘라낸다. 
 {: .notice--info}
 
 <br>
@@ -933,7 +972,12 @@ else:
     print 'empty'
 ```
 
-**설명:** `new_word[1:len(new_word)]`는 변수 `new_word` 1번 주소 부터 변수 `new_word`에 저장되어 있는 문자열의 길이만큼 잘라내는 것이다. 
+**설명:**    
+ • new_word[1:len(new_word)] 는 다음과 같이 동작한다.    
+ • len(new_word) 는 변수 new_word 의 길이를 계산한다.    
+ • new_word[시작주소:끝주소]이다.    
+ • 시작주소는 포함, 끝주소는 미포함이다.    
+ • 변수 new_word 1번부터, 변수 길이만큼 잘라내라.
 {: .notice--info}
 
 
@@ -952,13 +996,17 @@ Enter a word:ABCD
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 11. Testing, Testing, is This Thing On?
+### 11. Testing, Testing, is This Thing On?    
+
 Yay! You should have a fully functioning Pig Latin translator. Test your code thorougly to be sure everything is working smoothly.
 
 You'll also want to take out any `print` statements you were using to help debug intermediate steps of your code. Now might be a good time to add some comments too! Making sure your code is clean, commented, and fully functional is just as important as writing it in the first place.
 
 
-**설명:** 지금까지 작성한 프로그램을 테스트 해보자. 프로그래밍 사이에 `print`를 사용하여 해당 변수를 출력해보면서, 단계별로 어떻게 진행되었는지도 확인해 보자. 이해가 되었다면, 프로그램에 `#`를 사용하여 주석도 달아보자. 
+**설명:**     
+• 코드 사이에 print 문을 사용하여 변수값을 출력한다.    
+• 코드가 어떻게 진행되는지 단계별로 확인한다.    
+• 코드가 이해가 되었으면, 프로그램에 주석(#)을 단다.
 {: .notice--info}
 
 
@@ -968,10 +1016,11 @@ You'll also want to take out any `print` statements you were using to help debug
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** When you're sure your translator is working just the way you want it, click Run Code to finish this project.
+* When you're sure your translator is working just the way you want it, click Run Code to finish this project.
 
 
-**설명:** ① 실행하여 테스트 해보자. 
+**설명:**    
+• Run 을 실행 후, 어떻게 동작되는지 확인한다.
 {: .notice--info}
 
 
@@ -981,9 +1030,10 @@ You'll also want to take out any `print` statements you were using to help debug
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-#skip
+* skip
 
-**설명:** `#skip`
+**설명:**    
+• skip
 {: .notice--info}
 
 <br>
@@ -1010,7 +1060,15 @@ else:
     print 'empty'
 ```
 
-**설명:** ① 변수 `first`에는 `a`가 저장된다. ② 변수 `new_word`에는 `abcdefaay`가 저장된다. ③변수 `new_word`에 index 1번 문자부터 `new_word` 전체 길이 9번째 index 만큼 잘라낸다. 
+**설명:**    
+• 입력값을 문자열 "ABCDEF"가 입력된다고 가정하자.    
+• 변수 original 에 문자열 "ABCDEF"가 저장된다.    
+• 변수 original 에 문자열이 들었거나, 모두 알파벳인지를 확인한다.    
+• 변수 original 을 모두 소문자로 바꾼다.    
+• 변수 first 에 변수 word[0], 입력한 첫글자 소문자 `a`가 저장된다.    
+• 변수 new_word 에는 변수 word: "abcdef", first: "a", pyg: "ay" 가 저장된다.   
+• 변수 new_word 에, 변수 new_word[1:9]의 slicing 한 값이 저장된다.    
+• else 문에서는 변수 original 에 문자열이 없거나, 모두 알파벳이 아니면 "empty"를 출력한다.
 {: .notice--info}
 
 
