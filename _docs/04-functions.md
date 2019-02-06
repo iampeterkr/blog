@@ -26,12 +26,15 @@ A function is a reusable section of code written to perform a specific task in a
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 1. What Good are Functions?
+### 1. What Good are Functions?    
 
 You might have considered the situation where you would like to reuse a piece of code, just with a few different values. Instead of rewriting the whole code, it's much cleaner to define a *function*, which can then be used repeatedly.
 
 
-**설명:** 가끔식, 자주 사용되는 기능을 반복적으로 사용하기를 원할때가 있을 것이다. 이럴때 반복을 여러번 프로그래밍 하기보다는 하나의 함수로 만들어 놓고, 그것을 필요 할때마다 불러서 사용하는것이 보다 현명할 것이다. 
+**설명:**     
+• 가끔식, 자주 사용되는 기능을 반복적으로 사용할 필요성이 있다.    
+• 코딩을 할때마다, 반복적으로 만들것이 아니라, 해당 기능을 함수로 만들어 놓고 재 사용하자.   
+• 코딩중 해당 기능이 필요 할때마다 불러서 사용하는 것이 현명하다.
 {: .notice--info}
 
 
@@ -41,13 +44,20 @@ You might have considered the situation where you would like to reuse a piece of
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Check out the code in the editor. If you completed the Tip Calculator lesson, you'll remember going through and calculating `tax` and `tip` in one chunk of program. Here you can see we've `def`ined two functions: `tax` to calculate the tax on a bill, and `tip` to compute the tip.
+* Check out the code in the editor.     
+* If you completed the Tip Calculator lesson, you'll remember going through and calculating `tax` and `tip` in one chunk of program.     
+* Here you can see we've `def`ined two functions: `tax` to calculate the tax on a bill, and `tip` to compute the tip.
 
-See how much of the code you understand at first glance (we'll explain it all soon). When you're ready, click Run to continue.
+* See how much of the code you understand at first glance (we'll explain it all soon).     
+* When you're ready, click Run to continue.
 
 
 
-**설명:** ① editor 창에서 `tax`를 계산하는 함수와 `tip`을 계산하는 함수가 어떻게 작동되는지를 눈으로 보면서 예상해 봐라. 그리고 실행해보고, 당신이 생각한대로 동작되는지 확인해 보자. 
+**설명:**     
+• editor 창에 구현되어 있는 tax 함수와, tip 함수를 해석해 보자.    
+• 참고로, tax 함수는 세금을 계산해 주고, tip 함수는 팁을 계산해주는 함수이다.    
+• 각 함수가 어떻게 작동 되는지를 이해해 보자.    
+• 그리고 실행해보고, 당신이 생각한대로 동작되는지 확인해 보자. 
 {: .notice--info}
 
 
@@ -57,9 +67,10 @@ See how much of the code you understand at first glance (we'll explain it all so
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Remember how we used `%s` to print strings? We can use `%f` to print floats! (That is, numbers with decimals in them.)
+* Remember how we used `%s` to print strings? We can use `%f` to print floats! (That is, numbers with decimals in them.)
 
-**설명:** `%s`는 문자열을 출력할때, `%f`는 실수를 출력할때 사용한다. 
+**설명:**    
+• %s 는 문자열을 출력할때, %f 는 실수를 출력할때 사용한다. 
 {: .notice--info}
 
 <br>
@@ -87,7 +98,12 @@ meal_with_tax = tax(meal_cost)
 meal_with_tip = tip(meal_with_tax)
 ```
 
-**설명:** 변수 `meal_cost`에 100을 대입하고, tax를 계산하는 함수에 변수 `meal_cost`를 대입하여 호출한다. 그리고 그 결과값을 다시 tip을 계산하는 함수에 대입하여 호출한다. 그리고 그 결과값을 변수 `meal_with_tip`에 저장한다. 
+**설명:**     
+• 변수 meal_cost 에 100 을 대입한다.    
+• tax 함수에 변수 meal_cost 를 대입하여 호출한다.    
+• 변수 meal_with_tex 에 tax 함수 호출한 결과값을 저장한다.    
+• tip 함수에 변수 meal_with_tax 를 대입하여 호출한다.    
+• 변수 meal_with_tip 에 tip 함수 호출한 결과값을 저장한다.
 {: .notice--info}
 
 
@@ -105,36 +121,39 @@ With tip: 124.200000
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 
-### 2. Function Junction
+### 2. Function Junction    
 
 Functions are defined with three components:
 
-① The header, which includes the def keyword, the name of the function, and any parameters the function requires. Here's an example:
+* The header, which includes the def keyword, the name of the function, and any parameters the function requires. Here's an example:
 
 ```python
 def hello_world(): # There are no parameters
 ```
 
-**설명:** 함수를 사용하기 위해선 3가지 구성이 필요하다. ① 먼저 사용할 함수 이름을 선언한다. 함수를 선언할때는 인자가 없다.   
+**설명:**     
+• 함수를 사용하기 위해선 다음 3가지 구성이 필요하다.     
+• 첫째, 사용할 함수 이름을 선언한다. 함수를 선언할때는 인자가 없다.   
 {: .notice--info}
 
 
-② An optional comment that explains what the function does.
+* An optional comment that explains what the function does.
 
 ```python
 """Prints 'Hello World!' to the console."""
 ```
 
-**설명:** ② 함수가 하는 기능을 주석을 단다.    
+**설명:**     
+• 둘째, 함수가 하는 기능을 주석 처리한다.    
 {: .notice--info}
 
 
-③ The body, which describes the procedures the function carries out. The body is indented, just like conditional statements.
+* The body, which describes the procedures the function carries out. The body is indented, just like conditional statements.
 
 ```python
 print "Hello World!"
 ```
-Here's the full function pieced together:
+* Here's the full function pieced together:
 
 ```python
 def hello_world():
@@ -143,7 +162,9 @@ def hello_world():
 ```
 
 
-**설명:** ③ 함수가 처리할 기능을 구현한다. `def hello_world()`는 인자가 없고, 함수의 기능은 "Hello World"를 출력하는 것이다. 
+**설명:**     
+• 셋째, 함수가 처리할 기능을 구현한다.     
+• 함수 'def hello_world()' 는 인자가 없으며, "Hello world"를 출력한다.
 {: .notice--info}
 
 
@@ -153,10 +174,11 @@ def hello_world():
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Go ahead and create a function, spam, that prints the string "Eggs!" to the console. Don't forget to include a comment of your own choosing (enclose it in triple quotes!).
+* Go ahead and create a function, spam, that prints the string "Eggs!" to the console. Don't forget to include a comment of your own choosing (enclose it in triple quotes!).
 
 
-**설명:** ① 함수 `spam`을 만들고, 이 함수는 "Eggs!" 를 출력하는 역할을 한다. 해당 함수를 만들때, 이 함수가 무슨 기능을 하는지 주석(`""" """`사용) 다는것도 잊지마라.   
+**설명:**     
+① 함수 `spam`을 만들고, 이 함수는 "Eggs!" 를 출력하는 역할을 한다. 해당 함수를 만들때, 이 함수가 무슨 기능을 하는지 주석(`""" """`사용) 다는것도 잊지마라.   
 {: .notice--info}
 
 
