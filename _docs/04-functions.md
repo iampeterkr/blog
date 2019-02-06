@@ -144,7 +144,7 @@ def hello_world(): # There are no parameters
 ```
 
 **설명:**     
-• 둘째, 함수가 하는 기능을 주석 처리한다.    
+• 둘째, 함수가 하는 기능을 문자열 주석( """ """ ) 처리한다.    
 {: .notice--info}
 
 
@@ -178,7 +178,9 @@ def hello_world():
 
 
 **설명:**     
-① 함수 `spam`을 만들고, 이 함수는 "Eggs!" 를 출력하는 역할을 한다. 해당 함수를 만들때, 이 함수가 무슨 기능을 하는지 주석(`""" """`사용) 다는것도 잊지마라.   
+• 함수 spam 을 만들어라.    
+• 함수 spam 은  "Eggs!" 를 출력하는 역할을 한다.    
+• 함수 spam 이 무슨 기능을 하는지 주석( """ """ ) 을 단다. 
 {: .notice--info}
 
 
@@ -187,10 +189,12 @@ def hello_world():
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-If you're stuck, look closely at the example function syntax in the instructional text. Remember: whitespace counts in Python!
+* If you're stuck, look closely at the example function syntax in the instructional text. Remember: whitespace counts in Python!
 
 
-**설명:** 함수를 구현하기 어렵다면, 앞장의 함수 를 구성하는 3단계를 다시 보세요. 함수 를 선언할때 끝에 `:`를 잊지 마세요. 
+**설명:**     
+• 앞장의 함수를 구성하는 3단계를 다시 학습해보자.     
+• 함수를 선언할때, 함수 끝에 ( : ) 를 주의 하자. 
 {: .notice--info}
 
 <br>
@@ -214,7 +218,10 @@ spam()
 
 ```
 
-**설명:** ① 함수 `def spam():`를 선언한다.  ② 선언한 함수안에 주석을 작성하여 어떤 기능을 하는지 설명한다.  ③ 함수 기능을 구현한다. 
+**설명:**     
+• 함수 spam(): 을 선언한다.    
+• 함수 spam 내부에 어떤 기능을 처리 하는지를 문자열 주석 처리한다.    
+• 함수 spam 기능, 즉 "Eggs!" 를 출력하는 기능을 구현한다. 
 {: .notice--info}
 
 
