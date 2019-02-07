@@ -529,7 +529,9 @@ The example above is just there to help you remember how functions are structure
 
 Don't forget the **colon** at the end of your function definition!
 
-**설명:** 함수를 어떻게 호출하고 처리 되는지 다시한번 상기하자. 함수 뒤에 `:`을 주의 하자. 
+**설명:**     
+• 함수를 어떻게 호출하고 처리 되는지 다시한번 상기하자.     
+• 함수 뒤에 ( : ) 을 생략하지 않도록 주의하자. 
 {: .notice--info}
 
 
@@ -539,29 +541,43 @@ Don't forget the **colon** at the end of your function definition!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** First, def a function called `cube` that takes an **argument** called `number`. Don't forget the parentheses and the **colon**!
+* First, def a function called `cube` that takes an **argument** called `number`.     
+* Don't forget the parentheses and the **colon**!
 
-**설명:** ① 함수 `cube()`를 만들자. argument는 `number`를 가진다. 함수 끝에는 `:`을 빼먹지 말자.
+**설명:**     
+• 함수 cube() 를 만들어라.    
+• 함수 cube(number) 는 parameter 로 number 를 가진다.    
+• 함수 cube(number): 끝에 ( : ) 를 생략하지 않도록 주의하라.
 {: .notice--info}
 
-**②**Make that function return the `cube` of that `number` (i.e. that number multiplied by itself and multiplied by itself once again).
+* Make that function return the `cube` of that `number` (i.e. that number multiplied by itself and multiplied by itself once again).
 
-**설명:** ② 함수 `cube()`는 전달 받은 argument `number`를 두번 곱한 결과값(`number * number * number`)을 반환한다.  argument는 `number`를 가진다. 함수 끝에는 `:`을 빼먹지 말자.
+**설명:**     
+• 함수 cube(number) 를 만들어라.    
+• 함수 cube(number) 는 number 의 argument 값을 다음과 같이 계산한다.    
+• 받은 number 의 값을 두번 곱한 결과값(number * number * number)을 반환한다.   
+• 함수 cube(number) 끝에는 ( : ) 를 생략하지 않도록 주의한다.
 {: .notice--info}
 
-**③** Define a second function called `by_three` that takes an argument called `number`.
+* Define a second function called `by_three` that takes an argument called `number`.
 
-**설명:** ③ 함수 `by_three()`는 argument `number`를 가지는 함수를 만든다. 
+**설명:**     
+• 함수 by_three(number) 를 만들어라.   
+• 함수 by_three(number) 는 parameter로 number 를 가진다.  
 {: .notice--info}
 
-**④** if that number is divisible by `3`, `by_three` should call `cube(number)` and return its result. Otherwise, `by_three` should return **False**.
+* if that `number` is divisible by `3`, `by_three` should call `cube(number)` and return its result. Otherwise, `by_three` should return **False**.
 
-**설명:** ④ 함수 `by_three()`는 `3`으로 나누어 떨어지면 함수 `cube(number)`를 호출하고, 그 결과값을 출력한다. 만약, `3`으로 나누어 떨어지지 않으면, False를 반환한다. 
+**설명:**     
+• 함수 by_three(number) 는 다음과 같이 동작한다.    
+• 3 으로 나누어 떨어지면 함수 cube(number) 를 호출한다. 그리고 그 결과값을 출력한다.    
+• 3 으로 나누어 떨어지지 않으면, False를 반환한다. 
 {: .notice--info}
 
-Don't forget that if and else statements need a : at the end of that line!
+* Don't forget that `if` and `else` statements need a `:` at the end of that line!
 
-**설명:** `else`문을 사용할때 `:`을 주의하라. 
+**설명:**     
+• if 문과 else 문의 끝에는 꼭 ( : ) 가 존재한다.
 {: .notice--info}
 
 
@@ -575,12 +591,15 @@ if n % 3 == 0:
   print "n is divisible by 3"
 else:
   print "n is not"
-```
-Make sure both functions return their values rather than printing them.
+```    
 
-Both branches of the `if/else` statement in by_three need to have return statements in them (that's three returns total, two for by_three and one for cube).
+* Make sure both functions return their values rather than printing them.
 
-**설명:** `%` 연산자를 사용하여 함수의 기능을 처리하고, `if/else`문을 사용할때, `:`을 주의하라.
+* Both branches of the `if/else` statement in `by_three` need to have return statements in them (that's three returns total, two for `by_three` and one for `cube`).
+
+**설명:**     
+• 연사자 ( % ) 를 사용하여 함수의 기능을 처리하라.    
+• if, else 문의 끝에는 항상 ( : ) 가 있어야 한다.
 {: .notice--info}
 
 <br>
@@ -601,14 +620,18 @@ def by_three(number):
     return False
 ```
 
-**설명:** 함수 `by_three()`에서 함수 `cube()`를 호출한다. 
+**설명:**    
+• 함수 by_three(number) 는 다음과 같이 처리하는 기능이 있다.    
+• if 문에서는 number 에 전달된 값이 3 으로 나누어 떨어지면, 함수 cube()를 호출한다.    
+• 그리고, 그 결과 값을 반환한다.    
+• else 문에서는 number 에 전달된 값이 3으로 나누어 떨어지지 않으면 False 를 반환한다.
 {: .notice--info}
 
 
 
 **결과** 
 ``` 
-#No answer
+skip
 ```
 
 <br>
@@ -619,12 +642,16 @@ def by_three(number):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 7. I Know Kung Fu
+### 7. I Know Kung Fu    
+
 Remember `import` this from the first exercise in this course? That was an example of importing a module. A module is a file that contains definitions—including variables and functions—that you can use once it is imported.
 
 
 
-**설명:** `import`는 맨 첫 번째에서 사용한적이 있다. `import`는 미리 만들어진 변수, 함수들의 집합체로 묶어둔것을 호출하여 사용하는 것이다. 
+**설명:**     
+• 이 장에서는 import 모듈을 배운다.    
+• 모듈 import 는 미리 만들어진 변수, 함수들을 묶어둔 것이다.    
+• 명령어 import 는 이것들을 호출하여 사용하는 것이다. 
 {: .notice--info}
 
 
@@ -634,17 +661,24 @@ Remember `import` this from the first exercise in this course? That was an examp
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Before we try any fancy importing, let's see what **Python** already knows about square roots. On line 3 in the editor, ask Python to
+* Before we try any fancy importing, let's see what **Python** already knows about square roots. On line 3 in the editor, ask Python to
 
 ```python
 print sqrt(25)
 ```
-which we would expect to equal five.
+* which we would expect to equal five.
 
-Instead, it throws an error.
+* Instead, it throws an error.
 
 
-**설명:** ① Python에서는 미리 만들어 놓은 함수들을 묶어서 정의해 둔 것이 있다. 그중 하나가 함수 `sqrt()` 이다. `sqrt(5)`는 argument `5`를 루트 값을 구하는 함수이다. editor 3라인에서 `sqrt(25)`를 사용하면 루트5가 계산되어지는것이 아니라, error가 발생할 것이다. editor 창에서 시도 해 보라.   
+**설명:**     
+• Python에서는 미리 만들어 놓은 함수들을 묶어서 정의해 둔 것이 있다.     
+• 그 중 예를 하나 들면, 함수 sqrt()  이다.     
+• e.g. sqrt(5) argument 값 5 의 루트 값을 구하는 함수이다.    
+• Editor 창 3 라인에서 sqrt(25) 를 호출해보자.    
+• 예상한대로, 값 루트 5가 계산되어 반환되는가?    
+• 예상과 달리, error 가 발생한다.     
+• Editor 창에서 시도 해 보라.   
 {: .notice--info}
 
 
@@ -654,9 +688,10 @@ Instead, it throws an error.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-No answer !!
+* skip 
 
-**설명:** No answer !!
+**설명:**    
+skip 
 {: .notice--info}
 
 <br>
@@ -672,7 +707,8 @@ No answer !!
 print sqrt(25)
 ```
 
-**설명:** print sqrt(25)를 하면 Error 가 발생한다. 
+**설명:**     
+• sqrt(25)의 결과 값을 출력하면 Error 가 발생한다. 
 {: .notice--info}
 
 
