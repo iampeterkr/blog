@@ -424,7 +424,7 @@ power(37, 4)  # Add your arguments here!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 5. Functions Calling Functions
+### 5. Functions Calling Functions    
 
 We've seen functions that can print text or do simple arithmetic, but functions can be much more powerful than that. For example, a function can call another function:
 
@@ -437,7 +437,8 @@ def fun_two(m):
 ```
 
 
-**설명:** 함수는 단순히 계산하고, 출력하는것 외에, 함수가 함수를 호출 할수도 있다.
+**설명:**    
+• 함수는 단순히 계산하고, 출력하는것 외에, 함수가 함수를 호출 할 수 있다.
 {: .notice--info}
 
 
@@ -447,12 +448,19 @@ def fun_two(m):
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Let's look at the two functions in the editor: `one_good_turn` (which adds `1` to the number it takes in as an argument) and `deserves_another` (which adds 2).
+* Let's look at the two functions in the editor: `one_good_turn` (which adds `1` to the number it takes in as an argument) and `deserves_another` (which adds `2`).
 
-Change the body of deserves_another so that it always adds 2 to the output of one_good_turn.
+* Change the body of `deserves_another` so that it always adds `2` to the output of `one_good_turn`.
 
 
-**설명:** ① editor에 2개의 함수, `one_good_turn()`과 `deserves_another()`함수가 있다. `one_good_turn()`는 1개의 parameter `n`을 받아서 그 값에 `1`을 더하는 기능을 한다. `deservers_another()`는 1개의 parameter `n`을 받아서 그값에 `2`를 더하는 기능을 한다. 그럼 `deservers_another()`를 `one_good_turn()` 함수에 항상 `2`를 더하는 함수로 변경하라.  
+**설명:**     
+• Editor 창에 함수 2개가 있다. 함수 one_good_turn(), deserves_another().    
+• 함수 one_good_turn(n) 은 parameter 1개 n 을 받는다.    
+• 함수 one_good_turn(n) 은 n 값에 + 1 결과를 반환한다.    
+• 함수 deserves_another(n) 는 parameter 1개 n 을 받는다.    
+• 함수 deserves_another(n) 는 n 값에 + 2 결과를 반환한다.    
+• 함수 deserves_another(n)를 다음과 같이 변경하라.    
+• 함수 one_good_turn(n) 값에 + 2 결과를 반환하는 프로그램으로 변경하라.
 {: .notice--info}
 
 
@@ -462,9 +470,10 @@ Change the body of deserves_another so that it always adds 2 to the output of on
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-The n in the body of deserves_another should be replaced by a call to the function `one_good_turn(n)`.
+* The n in the body of deserves_another should be replaced by a call to the function `one_good_turn(n)`.
 
-**설명:** `deserves_another()`함수의 body `n` 자리에 `one_good_turn(n)`이 오도록 수정한다.
+**설명:**    
+• 함수 deserves_another(n) 의 return 문 변수 n 자리에 함수 one_good_turn(n)를 넣어라.
 {: .notice--info}
 
 <br>
@@ -482,14 +491,16 @@ def deserves_another(n):
   return one_good_turn(n) + 2
 ```
 
-**설명:** `deserves_another()`의 내부 `n` 자리에 `one_good_turn(n)`로 교체하여 함수가 함수를 호출하는 기능을 한다. 
+**설명:**     
+• 함수 deserves_another(n) 의 return 문에서,함수 one_good_turn(n)을 호출한다.    
+• 함수 one_good_turn(n) 결과값에 + 2를 한 결과값을 반환한다.
 {: .notice--info}
 
 
 
 **결과** 
 ``` 
-#No answer
+skip
 ```
 
 <br>
@@ -500,7 +511,8 @@ def deserves_another(n):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 6. Practice Makes Perfect
+### 6. Practice Makes Perfect    
+
 Let's create a few more **functions** just for good measure.
 
 ```python
