@@ -25,7 +25,7 @@ A function is a reusable section of code written to perform a specific task in a
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 ### 1. What Good are Functions?    
 
 You might have considered the situation where you would like to reuse a piece of code, just with a few different values. Instead of rewriting the whole code, it's much cleaner to define a *function*, which can then be used repeatedly.
@@ -119,7 +119,7 @@ With tip: 124.200000
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 2. Function Junction    
 
@@ -236,13 +236,17 @@ Eggs!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 3. Call and Response
+### 3. Call and Response    
+
 After defining a function, it must be *called* to be implemented. In the previous exercise, **spam()** in the last line told the program to look for the function called **spam** and execute the code inside it.
 
  
-**설명:** 함수는 먼저 선언을 하고, 이후에 해당 함수를 호출 하면, 해당 함수가 호출되어 실행된다. 그리고 그 결과값을 처음 호출한 곳으로 반환된다.  
+**설명:**    
+• 함수를 사용하기 위해선, 먼저 함수 선언을 해야 한다.    
+• 함수 선언이 되어 있으면, 해당 함수를 호출 한다.    
+• 함수는 호출을 받으면, 해당 함수가 실행하고, 그 실행 결과값을 처음 호출한 곳으로 반환한다.
 {: .notice--info}
 
 
@@ -252,10 +256,13 @@ After defining a function, it must be *called* to be implemented. In the previou
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** We've set up a function, `square`. Call it on the number `10` (by putting 10 between the parentheses of `square()`) on line 10!
+* We've set up a function, `square`.    
+* Call it on the number `10` (by putting 10 between the parentheses of `square()`) on line 10!
 
 
-**설명:** ① 함수 `squar()`를 호출하라. 호출할때, 인자 값을 `10`을 준다.(ex. `square(10)`)
+**설명:**     
+• 함수 squar() 를 호출하라.     
+• 호출할때, 인자 값으로 10 을 준다.(e.g. square(10) )
 {: .notice--info}
 
 
@@ -264,10 +271,14 @@ After defining a function, it must be *called* to be implemented. In the previou
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember when we called spam in the previous exercise, like this: spam()? You can do the same here with square(), only you'll need to put 10 in between the parentheses so square knows what number to... well, square.  
+* Remember when we called `spam` in the previous exercise,    
+* like this: `spam()`?    
+* You can do the same here with `square()`, only you'll need to put `10` in between the parentheses so square knows what number to... well, square.  
 
 
-**설명:** 앞에서 배운 함수 `spam()` 은 인자 값이 없이 함수를 호출했지만, 이번에는 인자값을 괄호 사이에 인자값을 주어야 한다. 
+**설명:**     
+• 앞에서 배운 함수 spam() 은 인자 값이 없이 함수를 호출 하였다.    
+• 이 장에서는 인자값을 괄호 사이에 주어 함수를 호출하는것을 배워본다. 
 {: .notice--info}
 
 <br>
@@ -290,7 +301,12 @@ def square(n):
 square(10)
 ```
 
-**설명:** 함수 `square(10)`를 호출하면, 정의된 `square()` 함수가 호출되어 입력된 `n`값 `10`이 계산되고, 해당 값이 출력되고, 마지막에 변수 `squared`값이 반환된다. 
+**설명:**    
+• 함수 square(n) 를 정의한다.     
+• 함수 square(n) 는 parameter 값으로 n 을 입력 받는다. 
+• 함수 square(n) 는 입력 받은 값 n 을 제곱근한다.    
+• 함수 square(n) 는 입력값 n 과 결과값 squared 를 출력한다.    
+• 함수 square(n) 는 결과값 squared 를 반환한다.
 {: .notice--info}
 
 
@@ -306,9 +322,10 @@ square(10)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 4. Parameters and Arguments
+### 4. Parameters and Arguments    
+
 Let's take another look at the definition of the function square from the previous exercise:
 
 ```python
@@ -331,7 +348,9 @@ When defining a function, placeholder variables are called parameters.
 When using, or calling, a function, inputs into the function are called arguments.
 
 
-**설명:** `square(n)`에서 `n`은 parameter라고 부르고, `square(10)`에서 `10`은 arugument라고 부른다. 
+**설명:**    
+• 함수 square(n) 에서 n 은 parameter 라고 부른다.    
+• 함수 square(10) 호출 할때, 값 10 을 arugument 라고 부른다. 
 {: .notice--info}
 
 
@@ -341,11 +360,16 @@ When using, or calling, a function, inputs into the function are called argument
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Check out the function in the editor, `power`. It should take two **arguments**, a base and an exponent, and raise the first to the power of the second. It's currently broken, however, because its **parameters** are missing.
+* Check out the function in the editor, `power`.    
+* It should take two **arguments**, a base and an exponent, and raise the first to the power of the second.     
+* It's currently broken, however, because its **parameters** are missing.
 
-Replace the `___s` with the **parameters** base and exponent and then call the `power` function with a base of `37` and an exponent of `4`.
+* Replace the `___s` with the **parameters** base and exponent and then call the `power` function with a base of `37` and an exponent of `4`.
 
-**설명:** ① `power`함수를 호출하는데, 먼저 `square()`의 비어져 있는 parameter를  정의하고, 호출하는 함수 `power(37,4)`argument를 작성하여라. 
+**설명:**    
+• 함수 power 가 어떻게 동작되는지를 먼저 확인하라.        
+• 함수 power 는 2개의 parameter 를 가진다. power(base, exponent)    
+• e.g. 37^4 = 1874161, base:37, exponent:4 , power(37,4) = 1874161
 {: .notice--info}
 
 
@@ -355,10 +379,12 @@ Replace the `___s` with the **parameters** base and exponent and then call the `
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Make sure to include the parameters base and exponent between the parentheses on line 1, and the arguments 37 and 4 between the parentheses on line 5. Your parameters and arguments need to be separated by a comma, like this: (base, exponent).
+* Make sure to include the parameters base and exponent between the parentheses on line 1, and the arguments 37 and 4 between the parentheses on line 5.     
+* Your parameters and arguments need to be separated by a comma, like this: (base, exponent).
 
 
-**설명:** base:37, exponent:4 , power(base, exponent) 구조이다. 
+**설명:**     
+• base:37, exponent:4 , power(base, exponent) 구조이다. 
 {: .notice--info}
 
 <br>
@@ -376,7 +402,11 @@ def power(base, exponent):  # Add your parameters here!
 power(37, 4)  # Add your arguments here!
 ```
 
-**설명:** 함수 `power(37,4)`에 arguments를 넣고, 호출하면, 함수에 정의된 parameter 즉, `base`, `exponent`에 값이 전달된다. 
+**설명:**     
+• 함수 power(37,4) 에 2개의 arguments로 37, 4를 입력하여 호출한다.    
+• 함수 power(base, exponent) 에 정의된 parameter 에 값이 전달된다.    
+• Parameter, base=37, exponent=4 에 값이 전달된다.     
+• 거듭제곱근 공식인 37 ** 4 의 결과값이 출력된다.
 {: .notice--info}
 
 
@@ -392,7 +422,7 @@ power(37, 4)  # Add your arguments here!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 5. Functions Calling Functions
 
@@ -468,7 +498,7 @@ def deserves_another(n):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 6. Practice Makes Perfect
 Let's create a few more **functions** just for good measure.
@@ -575,7 +605,7 @@ def by_three(number):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 7. I Know Kung Fu
 Remember `import` this from the first exercise in this course? That was an example of importing a module. A module is a file that contains definitions—including variables and functions—that you can use once it is imported.
@@ -648,7 +678,7 @@ NameError: name 'sqrt' is not defined
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 8. Generic Imports
 Did you see that? Python said: **NameError: name 'sqrt' is not defined**. Python doesn't know what square roots are—yet.
@@ -717,7 +747,7 @@ print math.sqrt(25)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 9. Function Imports
 Nice work! Now Python knows how to take the square root of a number.
@@ -790,7 +820,7 @@ from math import sqrt
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 10. Universal Imports
 Great! We've found a way to handpick the variables and functions we want from modules.
@@ -861,7 +891,7 @@ from math import *
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 11. Here Be Dragons
 Universal imports may look great on the surface, **but they're not a good idea for one very important reason** : they fill your program with a ton of variable and function names without the safety of those names still being associated with the module(s) they came from.
@@ -934,7 +964,7 @@ print everything # Prints 'em all!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 12. On Beyond Strings
 
@@ -1014,7 +1044,7 @@ distance_from_zero(-10)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 13. max()
 The `max()` function takes any number of arguments and returns the largest one. ("Largest" can have odd definitions here, so it's best to use `max()` on **integers** and **floats**, where the results are straightforward, and not on other objects, like **strings**.)
@@ -1076,7 +1106,7 @@ print maximum
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 14. min()
 `min()` then returns the smallest of a given series of arguments.
@@ -1144,7 +1174,7 @@ print minimum
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 15. abs()
 The `abs()` function returns the absolute value of the number it takes as an argument—that is, that **number's distance from 0** on an imagined number line. For instance, 3 and -3 both have the same absolute value: 3. The `abs()` function **always returns a positive value**, and unlike `max()` and `min()`, it only takes a **single number**.
@@ -1206,7 +1236,7 @@ print absolute
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 16. type()
 
@@ -1287,7 +1317,7 @@ print type('hello')
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 17. Review: Functions
 
@@ -1378,7 +1408,7 @@ def shut_down(s):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 18. Review: Modules
 Good work! Now let's see what you remember about importing modules (and, specifically, what's available in the `math` module).
@@ -1443,7 +1473,7 @@ print math.sqrt(13689)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
+<font size="3"  face="돋움">FUNCTIONS</font> 
 
 ### 19. Review: Built-In Functions
 
