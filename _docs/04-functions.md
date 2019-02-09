@@ -728,13 +728,19 @@ NameError: name 'sqrt' is not defined
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 8. Generic Imports
+### 8. Generic Imports     
+
 Did you see that? Python said: **NameError: name 'sqrt' is not defined**. Python doesn't know what square roots are—yet.
 
-There is a Python module named math that includes a number of useful variables and functions, and sqrt() is one of those functions. In order to access math, all you need is the import keyword. When you simply import a module this way, it's called a generic import.
+There is a Python module named math that includes a number of useful variables and functions, and `sqrt()` is one of those functions. In order to access math, all you need is the import keyword. When you simply import a module this way, it's called a generic `import`.
 
 
-**설명:** "NameError: name 'sqrt' is not defined" 는 해당 함수를 사용했지만, 그 함수를 찾지 못했을 경우 나타내는 Error 메시지 이다. Python은 각종 수학 관련 함수들을 모아놓은 모듈들의 묶음이 있다. 이 모듈에는 `sqrt()` 함수도 속해 있다. 이런 각 종 함수들을 우리는 직접 구현하지 않고, 간단히 `import`만 하여도 사용 할 수 있다.  
+**설명:**     
+• "NameError: name 'sqrt' is not defined" 는 해당 함수를 사용했지만, 그 함수를 찾지 못했을 경우 나타내는 Error 메시지 이다.     
+• Python 은 각종 수학 관련 함수들을 모아놓은 모듈들의 묶음이 있다.    
+• 이 모듈에는 sqrt() 함수도 속해 있다.    
+• sqrt() 함수와 같은 함수들을 우리는 직접 구현하지 않고 사용할 수 있다.    
+• import 문을 사용하여, 정의해 놓으면 사용할 수 있다.  
 {: .notice--info}
 
 
@@ -744,13 +750,19 @@ There is a Python module named math that includes a number of useful variables a
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** You'll need to do two things here:
+* You'll need to do two things here:
 
-• Type `import math` on line 2 in the editor.
-• Insert `math`. before `sqrt()` so that it has the form `math.sqrt()`. This tells Python not only to `import math`, but to get the `sqrt()` function from within `math`. Then hit `Run` to see what Python now knows.
+  * Type `import math` on line 2 in the editor.    
+  * Insert `math`. before `sqrt()` so that it has the form `math.sqrt()`.     
+  * This tells Python not only to `import math`, but to get the `sqrt()` function from within `math`.     
+  * Then hit `Run` to see what Python now knows.
 
 
-**설명:** ① 2가지 일들을 해줘야 하는데, 그중 한가지는 2번 라인에 `import math`를 선언해 주고, `sqrt()`함수를 사용하기 위해선 `math.sqrt()`라고 사용해야 한다. 이후, `Run` 실행을 시켜보자. 
+**설명:**     
+• 아래와 같이 2가지 작업을 실행하라.    
+• 첫번째, 2번 라인에 import math 를 선언한다.    
+• sqrt() 함수를 사용하기 위해선 import 한 math.sqrt() 라고 사용해야 한다.    
+• Run 실행하라. 
 {: .notice--info}
 
 
@@ -760,9 +772,11 @@ There is a Python module named math that includes a number of useful variables a
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Make sure you  `import math` (no colons or anything like that), and make sure you ask Python to print `math.sqrt(25)`.
+* Make sure you  `import math` (no colons or anything like that), and make sure you ask Python to print `math.sqrt(25)`.
 
-**설명:** `import math` `math` 모듈을 불러오고, 해당 모듈은 `math.sqrt(25)`로 사용한다. 
+**설명:**    
+• import math 를 선언하여 math 모듈을 불러온다.    
+• math.sqrt(25) 를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -779,7 +793,9 @@ print math.sqrt(25)
 
 ```
 
-**설명:** 수학 관련 내장된 함수 모듈을 사용할려면 `import math` 모듈을 불러놓고, `math` 함수는 `.`을 사용하여 `math.sqrt(25)` 로 사용해 한다. 
+**설명:**     
+• 수학 관련 내장된 함수를 사용하기 위해선, import math 를 선언한다.    
+• 사용 방법은 예제와 같다.(e.g. math.sqrt(25) )
 {: .notice--info}
 
 
@@ -797,7 +813,8 @@ print math.sqrt(25)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 9. Function Imports
+### 9. Function Imports    
+
 Nice work! Now Python knows how to take the square root of a number.
 
 However, we only really needed the sqrt function, and it can be frustrating to have to keep typing `math.sqrt()`.
@@ -813,7 +830,12 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 
 
 
-**설명:** `math.sqrt()`를 사용할수도 있지만, `import` 선언시 좀더 구체적으로 `math`에 대하여 선언해주면 `math`함수의 `sqrt()`를 사용한다고 `math.sqrt()`라고 쓰지않고 단순히 `sqrt()`만 사용할수 있다. 그러기 위해선, `import`할때, `from moudle import function` 이라고 구체적으로 선언해 주면 된다.  
+**설명:**    
+• sqrt()를 사용하기 위해선, import math 를 선언해 주고,  math.sqrt()를 사용했다.    
+• math.sqrt() 를 사용할 수도 있지만, 다른 방법도 있다.    
+• import 선언시 좀더 구체적으로 math 모듈에 대하여 자세히 선언해 주면 된다.    
+• e.g. from moudle import sqrt     
+• 이렇게 선언하면, math.sqrt() 라고 쓰지않고 단순히 sqrt() 만 사용할 수 있다.    
 {: .notice--info}
 
 
@@ -823,10 +845,12 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Let's import only the `sqrt` function from `math` this time. (You don't need the `()` after `sqrt` in the `from math import sqrt` bit.)
+* Let's import only the `sqrt` function from `math` this time. (You don't need the `()` after `sqrt` in the `from math import sqrt` bit.)
 
 
-**설명:** ① `from math import sqrt`에서 `sqrt`뒤에 '`()`를 안붙여 줘도 된다. `sqrt` 한수를 선언해 보자. 
+**설명:**     
+• from math import sqrt 에서 함수 sqrt 뒤에 '()'를 안붙여 줘도 된다.     
+• 함수 sqrt 를 선언해 보자. 
 {: .notice--info}
 
 
@@ -836,9 +860,10 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Remember: from module import function! (Don't include the parentheses here—just the function name, e.g. sqrt.)
+* Remember: from module import function! (Don't include the parentheses here—just the function name, e.g. sqrt.)
 
-**설명:** `from moudle import function` 방식으로 선언한다. 
+**설명:**     
+• from moudle import sqrt 로 선언한다.
 {: .notice--info}
 
 <br>
@@ -852,14 +877,15 @@ Remember: from module import function! (Don't include the parentheses here—jus
 from math import sqrt
 ```
 
-**설명:** `math` 모듈에서 `sqrt`함수를 사용하겠다는 것을 명확하게 선언해 준다. 
+**설명:**     
+• 모듈 math 에서 함수 sqrt 를 사용 하겠다는 것을 명확하게 선언해 준다. 
 {: .notice--info}
 
 
 
 **결과** 
 ``` 
-#No answer!!
+skip
 ```
 
 <br>
