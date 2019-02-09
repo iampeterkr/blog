@@ -1177,6 +1177,7 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 
 
 **설명:**     
+• Editor 창의 라인 3 에서 함수 max()를 사용하라.    
 • 숫자만 입력된다는 조건에서 가장 큰수를 반환한다.  
 {: .notice--info}
 
@@ -1228,7 +1229,11 @@ print maximum
 
 
 
-**설명:** `min()` 함수는 가장 작은 숫자를 반환한다. 
+**설명:**     
+• Python 내장 함수 min() 는 arguments 중 가장 작은 값을 반환한다.    
+• 단, arguments 값이 integer와 floats 만 있다는 조건이다.
+• 만약 arguments 값이 문자열이면, 문자열 값을 계산해서 더 작은 값을 반환한다.    
+• 이 장에서는 숫자만 입력 된다는 조건에서 이야기 한다.
 {: .notice--info}
 
 
@@ -1238,10 +1243,13 @@ print maximum
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Go ahead and set minimum equal to the `min()` of any set of integers or floats you'd like.
+* Go ahead and set minimum equal to the `min()` of any set of integers or floats you'd like.
 
 
-**설명:** ① `min()`함수에 아무 숫자를 넣어서 가장 작은 수가 반환되는것을 보여라. 
+**설명:**    
+• 함수 min()를 사용하여라.    
+• Arguments 로 어떤값을 넣어도 가장 작은 값을 반환한다.    
+• 단, arguments는 숫자만 입력한다.
 {: .notice--info}
 
 
@@ -1251,9 +1259,10 @@ print maximum
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-No answer !!
+skip
 
-**설명:** `No answer !!`
+**설명:**    
+• skip
 {: .notice--info}
 
 
@@ -1272,7 +1281,8 @@ minimum = min(4, 8, 15)
 print minimum
 ```
 
-**설명:** `min()`함수를 사용하여 가장 작은 값을 반환한다. 
+**설명:**    
+• 함수 min()를 사용하여, 입력값 4, 8, 15 중 가장 작은 값을 반환한다.
 {: .notice--info}
 
 
@@ -1291,11 +1301,16 @@ print minimum
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 15. abs()
+### 15. abs()    
+
 The `abs()` function returns the absolute value of the number it takes as an argument—that is, that **number's distance from 0** on an imagined number line. For instance, 3 and -3 both have the same absolute value: 3. The `abs()` function **always returns a positive value**, and unlike `max()` and `min()`, it only takes a **single number**.
 
 
-**설명:** `abs()`함수는 절대값을 구하는 함수이다. 쉽게 이야기 하면 `0`에서 멀이 떨어진 값을 구하는 것이다. `-3`과 `3`은 같은 값이 반환된다. `abs()`함수는 argument 가 1개만 쓸수 있다. 
+**설명:**    
+• 함수 abs() 는 절대값을 구하는 함수이다.    
+• 절대값이란? 입력값이 0 에서 얼마나 떨어져 있는지를 구하는 것이다.    
+• -3 과 3 은 절대값이 같다. 같은 값이 반환된다.     
+• 함수 abs() 는 argument 를 1개 만 입력할 수 있다. 
 {: .notice--info}
 
 
@@ -1305,10 +1320,11 @@ The `abs()` function returns the absolute value of the number it takes as an arg
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Set absolute equal to the absolute value of -42 on line 1.
+* Set absolute equal to the absolute value of -42 on line 1.
 
 
-**설명:** ① argument 값이 `-42`인 절대값을 구하라. 
+**설명:**    
+• Argument 값으로 -42 를 입력하고, -42 의 절대값을 구하라. 
 {: .notice--info}
 
 
@@ -1318,9 +1334,10 @@ The `abs()` function returns the absolute value of the number it takes as an arg
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-No answer !!
+skip
 
-**설명:** `No answer !!`
+**설명:**    
+• skip
 {: .notice--info}
 
 <br>
@@ -1336,7 +1353,8 @@ absolute = abs(-42)
 print absolute
 ```
 
-**설명:** argument `-42`의 절대값을 구한다. 
+**설명:**     
+• abs(-42) 는 절대값 42 를 반환한다.
 {: .notice--info}
 
 
@@ -1353,7 +1371,7 @@ print absolute
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 16. type()
+### 16. type()    
 
 Finally, the `type()` function returns the type of the data it receives as an argument. If you ask Python to do the following:
 
@@ -1372,7 +1390,9 @@ Python will output:
 
 
 
-**설명:** `type()`함수는 argument의 값의 type이 무엇인지 반환해 준다. `type(42)`는 `42`가 integer type임을 알려준다. 
+**설명:**    
+• 함수 type() 는 arguments의 값의 type 이 무엇인지 반환해 준다.    
+• type(42) 를 호출하면, arguments 42 가 integer type 임을 알려준다. 
 {: .notice--info}
 
 
@@ -1382,10 +1402,13 @@ Python will output:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Have Python print out the type of an **int**, a **float**, and a **str** string in the editor. You can pick any values on which to call `type()`, so long as they produce one of each.
+* Have Python print out the type of an **int**, a **float**, and a **str** string in the editor.     
+* You can pick any values on which to call `type()`, so long as they produce one of each.
 
 
-**설명:** ① `type()`함수를 사용하여 interger, float, string type이 출력되도록 Python으로 작성하라.  
+**설명:**     
+• 함수 type() 를 사용하여라.     
+• 입력된 argumetns 값이 interger, float, string type 이 출력 되도록 하라.
 {: .notice--info}
 
 
@@ -1395,8 +1418,11 @@ Python will output:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Here's a freebie if you're a bit stuck: print type('I have to push the pram a lot') will cover your str string requirement.
-**설명:** `print type('i am a boy`)라고 하면, `<type 'str'>`라고 출력된다.
+* Here's a freebie if you're a bit stuck: print type('I have to push the pram a lot') will cover your str string requirement.    
+
+**설명:**     
+• type('i am a boy') 은 argument 'i am a boy' 의 값이 string 임을 알려준다.    
+• 이것을 출력하면, "<type 'str'>" 라고 출력된다.
 {: .notice--info}
 
 <br>
@@ -1415,7 +1441,11 @@ print type(3.14)
 print type('hello')
 ```
 
-**설명:** `type()`함수는 argument의 값이 어떤 type인이지를 알려준다.
+**설명:**    
+• 함수 type() 은 argument의 값이 어떤 type 인지를 알려준다.    
+• type(108) 은 argument 가 integer 이므로 "<type 'int'>"를 출력한다.    
+• type(3.14) 은 argument 가 float 이므로 "<type 'float'>"를 출력한다.    
+• type('hello') 은 argument 가 string 이므로 "<type 'str'>"를 출력한다.
 {: .notice--info}
 
 
@@ -1434,7 +1464,7 @@ print type('hello')
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 17. Review: Functions
+### 17. Review: Functions    
 
 Okay! Let's review functions.
 
@@ -1453,7 +1483,10 @@ else:
 Again, the example code above is just there for your reference!
 
 
-**설명:** 위 함수를 설명해 보자. 
+**설명:**     
+• 위 함수를 설명해 보자.    
+• 함수 speak()는 arguments 의 값을 반환한다.    
+• 조건문 if/elif/else의 조건절에 따라 함수 speak()가 호출된다.
 {: .notice--info}
 
 
@@ -1463,17 +1496,22 @@ Again, the example code above is just there for your reference!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** First, def a function, `shut_down`, that takes one argument `s`. Don't forget the **parentheses** or the **colon**!
+* First, def a function, `shut_down`, that takes one argument `s`. Don't forget the **parentheses** or the **colon**!
 
-Then, if the `shut_down` function receives an s equal to **"yes"**, it should return **"Shutting down"**
+* Then, if the `shut_down` function receives an s equal to **"yes"**, it should return **"Shutting down"**
 
-Alternatively, elif s is equal to "no", then the function should return "Shutdown aborted".
+* Alternatively, elif s is equal to **"no"**, then the function should return **"Shutdown aborted"**.
 
-Finally, if `shut_down` gets anything other than those inputs, the function should return "Sorry"
+* Finally, if `shut_down` gets anything other than those inputs, the function should return **"Sorry"**
 
 
 
-**설명:** ① 먼저, 함수 `shut_down`을 정의하고, argument는 `s`를 취한다. `(), :`을 주의하라. 그런다음, `shut_down` 함수는 argument가 "yes"가 입력되면, "Shuttingdown"을 출력한다. 그렇지 않고, 만약 "no"가 입력되면, "Shutdown aborted"가 출력된다. 마지막으로, "yes"도 "no"도 아닌 값이면 "Sorry"를 출력하라.
+**설명:**     
+• 함수 shut_down(s) 을 정의한다. arguments로 s 를 가진다.    
+• 함수 뒤에는 ( : ) 가 있어야 하는것을 잊지 말자.    
+• 함수 shut_down() 는 argument가 "yes"가 입력시, "Shuttingdown"을 출력한다.    
+• 만약 "no"가 입력되면, "Shutdown aborted" 가 출력된다.    
+• 마지막으로, "yes"도 "no"도 아닌 값이면 "Sorry"를 출력한다.
 {: .notice--info}
 
 
@@ -1484,11 +1522,13 @@ Finally, if `shut_down` gets anything other than those inputs, the function shou
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Ensure your function outputs appear exactly as shown!
+* Ensure your function outputs appear exactly as shown!
 
-Also, ensure your function returns the above values rather than printing them.
+* Also, ensure your function returns the above values rather than printing them.
 
-**설명:** `return` 하기전에 먼저 출력(`print`)하여라. 
+**설명:**     
+• return 문을 실행하기 전에 먼저 출력( print ) 해 보아라.    
+• 그렇게 하면, 입력된 값이 무엇인지를 정확히 알 수 있다.
 {: .notice--info}
 
 <br>
@@ -1508,13 +1548,18 @@ def shut_down(s):
     return "Sorry"
 ```
 
-**설명:** 함수의 if/elif/else 뒤에 `:`가 오는것을 주의하자. 
+**설명:**     
+• 함수 shut_down(s) 는 arguments 값 s 를 가진다.   
+• 입력값 s 가 "yes" 이면, 문자열 "Shutting down"    를 반환한다.    
+• 입력값 s 가 "no"  이면, 문자열 "Shutting aborted" 를 반환한다.    
+• 입력값 s 가 "yes" 도 "no" 도 아니면, 문자열 "Sorry" 를 반환한다.    
+• 조건문 if/elif/else 뒤에 ( : ) 가 오는것을 주의하자. 
 {: .notice--info}
 
 
 **결과** 
 ``` 
-#No answer !!
+skip
 ```
 
 <br>
@@ -1525,11 +1570,13 @@ def shut_down(s):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 18. Review: Modules
+### 18. Review: Modules    
+
 Good work! Now let's see what you remember about importing modules (and, specifically, what's available in the `math` module).
 
 
-**설명:** 모듈에 대하여 정리한다. 
+**설명:**     
+• 이 장에서는 import 모듈에 대하여 배워보자. 
 {: .notice--info}
 
 
@@ -1539,10 +1586,15 @@ Good work! Now let's see what you remember about importing modules (and, specifi
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Import the `math` module in whatever way you prefer. Call its `sqrt` function on the number `13689` and `print` that value to the console.
+* Import the `math` module in whatever way you prefer.    
+* Call its `sqrt` function on the number `13689` and `print` that value to the console.
 
 
-**설명:** ① `math`를 import 하고, `sqrt`함수를 사용하여 argument값을 `13689`를 입력하고 그 결과를 출력하라. 
+**설명:**     
+• 모듈 math 를 import 선언하여라.    
+• 함수 sqrt() 를 사용하여라.    
+• Arguments 값을 13689 를 입력하여라.     
+• 그 결과를 출력하라. 
 {: .notice--info}
 
 
@@ -1552,13 +1604,20 @@ Good work! Now let's see what you remember about importing modules (and, specifi
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-There are three ways you can import the `sqrt()` function, but we'd probably go with
+* There are three ways you can import the `sqrt()` function, but we'd probably go with    
+
 ```python
 from math import sqrt
-```
-You can figure out the rest. We believe in you!
+```    
 
-**설명:** `math.sqrt()`를 사용하려면 어떻게 선언해야 할지 고민하자.
+* You can figure out the rest. We believe in you!
+
+**설명:**     
+• 함수 sqrt() 를 사용하는 방법은 3가지 이다.    
+• 첫째, 직접 함수 sqrt()를 만든다.   
+• 둘째, 모듈 math 를 import 한다.    
+• 셋째, 모듈 math 를 구체적으로 import 한다.(i.g. from math import sqrt)
+• 3가지 방법중 하나를 사용하라.
 {: .notice--info}
 
 <br>
@@ -1590,7 +1649,7 @@ print math.sqrt(13689)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 19. Review: Built-In Functions
+### 19. Review: Built-In Functions    
 
 Perfect! Last but not least, let's review the `built-in functions` you've learned about in this lesson.
 
@@ -1605,7 +1664,11 @@ abs(2) # 2
 abs(-2) # 2
 ```
 
-**설명:** `built-in function` 사용 방법을 다시 생각해 보자.  
+**설명:**     
+• 내장함수(built-in function) 을 복습해 본다.   
+• 함수 is_numeric(num) 은 arguments 값 num 을 받는다.    
+• 함수 type(num)을 사용하여, 입력값 num 의 type 값을 반환한다.    
+• 입력값 num 의 type 이 int 이거나, float 이면 해당, type 값을 반환한다.
 {: .notice--info}
 
 
@@ -1615,15 +1678,19 @@ abs(-2) # 2
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** First, def a function called `distance_from_zero`, with one **argument** (choose any argument name you like).
+* First, def a function called `distance_from_zero`, with one **argument** (choose any argument name you like).
 
-If the type of the argument is either **int** or **float**, the function should return the **absolute value** of the function input.
+* If the type of the argument is either **int** or **float**, the function should return the **absolute value** of the function input.
 
-Otherwise, the function should return **"Nope"**
+* Otherwise, the function should return **"Nope"**
 
 
 
-**설명:** ① 함수 `distance_from_zero()`를 만들고, argument이름은 자신이 좋아하는 이름으로 짓는다. argument의 type이 int or float 이면, 입력된 값의 절대값을 출력하고, 그렇지 않으면 "Nope"가 출력되게 하라. 
+**설명:**     
+• 함수 distance_from_zero() 를 만들어라.    
+• Arguments 명은 자신이 좋아하는 이름으로 짓는다.    
+• Arguments 의 type 이 int or float 이면, 입력된 값의 절대값을 출력한다.    
+• 그렇지 않으면 "Nope"가 출력되게 한다. 
 {: .notice--info}
 
 
@@ -1633,14 +1700,18 @@ Otherwise, the function should return **"Nope"**
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-You can check to see if a value is of type int just as shown in the instructions:
+* You can check to see if a value is of type int just as shown in the instructions:    
+
 ```python
 if type(thing) == int or type(thing) == float:
   # do something with the number
-```
-Make sure your capitalization and punctuation are exactly as shown!
+```    
 
-**설명:** `type()`를 사용하여 int or floast 인지를 알수 있다. 
+* Make sure your capitalization and punctuation are exactly as shown!
+
+**설명:**     
+• Arguments 의 type을 알려주는 함수 type() 를 사용하여라.    
+• 함수 type() 를 사용하여 입력갑이 int or floast 인지를 알수 있다. 
 {: .notice--info}
 
 <br>
@@ -1658,13 +1729,16 @@ def distance_from_zero(num):
     return "Nope"
 ```
 
-**설명:** argument `num`입력값 type이 int or float 이면 해당 값의 절대값을 출력한다. 그렇지 않으면 "Nope"를 출력한다.
+**설명:**     
+• 함수 distance_from_zero(num) 은 arguments 값 num 을 가진다.    
+• 입력값 num 의 type 이 int 이거나 float 이면 절대값 abs(num)을 반환한다.    
+• 그 외에는 문자열 "Nope"가 반환된다.
 {: .notice--info}
 
 
 **결과** 
 ``` 
-#No answer
+skip
 ```
 
 
