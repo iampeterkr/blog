@@ -500,7 +500,7 @@ def deserves_another(n):
 
 **결과** 
 ``` 
-skip
+• skip
 ```
 
 <br>
@@ -631,7 +631,7 @@ def by_three(number):
 
 **결과** 
 ``` 
-skip
+• skip
 ```
 
 <br>
@@ -691,7 +691,7 @@ print sqrt(25)
 * skip 
 
 **설명:** [ Hint ]   
-skip 
+• skip 
 {: .notice--info}
 
 <br>
@@ -885,7 +885,7 @@ from math import sqrt
 
 **결과** 
 ``` 
-skip
+• skip
 ```
 
 <br>
@@ -965,7 +965,7 @@ from math import *
 
 **결과** 
 ``` 
-skip
+• skip
 ```
 
 <br>
@@ -1024,10 +1024,10 @@ For these reasons, it's best to stick with either import module and type module.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-skip
+* skip
 
 **설명:** [ Hint ]    
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -1098,10 +1098,10 @@ You already know about some of the **built-in functions** we've used with string
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-skip
+* skip
 
 **설명:** [ Hint ]    
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -1188,7 +1188,7 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-skip
+* skip
 
 **설명:** [ Hint ]    
 • skip
@@ -1259,7 +1259,7 @@ print maximum
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-skip
+* skip
 
 **설명:** [ Hint ]   
 • skip
@@ -1334,7 +1334,7 @@ The `abs()` function returns the absolute value of the number it takes as an arg
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-skip
+* skip
 
 **설명:**    
 • skip
@@ -1738,7 +1738,7 @@ def distance_from_zero(num):
 
 **결과** 
 ``` 
-skip
+• skip
 ```
 
 
