@@ -126,7 +126,7 @@ homework", "quizzes", "tests"는 빈 리스트 이다.
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -174,11 +174,11 @@ Test Scores: 75.0, 90.0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -216,7 +216,7 @@ tyler = {
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -262,11 +262,11 @@ The above example is just a reminder on how to create a list. Afterwards, my_lis
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 
@@ -308,7 +308,7 @@ students = [lloyd, alice, tyler]
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -547,7 +547,7 @@ def average(numbers):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -669,7 +669,7 @@ def get_average(student):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -936,7 +936,7 @@ def get_class_average(class_list):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

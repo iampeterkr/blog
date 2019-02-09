@@ -332,11 +332,11 @@ Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여 lis
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ Hint ]    
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -597,11 +597,11 @@ print cubes_by_four
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ Hint ]    
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -814,7 +814,7 @@ backwards = my_list[::-1]
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -944,11 +944,11 @@ list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘�
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ Hint ]    
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -980,7 +980,7 @@ middle_third = to_21[7:14]
 
 **결과**     
 ```
-skip
+#skip
 ```   
 
 <br>
@@ -1036,11 +1036,11 @@ When we pass the lambda to filter, filter uses the lambda to determine what to f
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png) 
-skip
+* skip
 
 
 **설명:** [ Hint ]    
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -1382,7 +1382,7 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>

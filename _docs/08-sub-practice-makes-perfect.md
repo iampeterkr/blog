@@ -60,11 +60,11 @@ The more challenging programs will contain some helpful hints to nudge you in th
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -79,13 +79,13 @@ skip
 ```
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

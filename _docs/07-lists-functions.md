@@ -602,11 +602,11 @@ You pass a list to a function the same way you pass any other argument to a func
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -685,11 +685,11 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -1252,7 +1252,7 @@ def total(numbers):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

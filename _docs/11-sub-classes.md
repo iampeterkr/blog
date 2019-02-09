@@ -88,7 +88,7 @@ class Car(object):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -162,7 +162,7 @@ my_car = Car()
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -240,7 +240,7 @@ my_car = Car()
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -427,7 +427,7 @@ my_car = Car("DeLorean", "silver", 88)
 
 **결과**     
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -842,7 +842,7 @@ my_car = ElectricCar("DeLorean", "silver", 88, "molten salt")
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>

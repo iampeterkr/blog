@@ -293,7 +293,7 @@ zoo_animals[3] = "lion"
 
 **결과** 
 ``` 
-Skip
+#skip
 ```
 
 <br>
@@ -484,7 +484,7 @@ last = suitcase[4:6]
 
 **결과** 
 ``` 
-Skip
+#skip
 ```
 
 <br>
@@ -573,7 +573,7 @@ frog = animals[6:]
 
 **결과** 
 ``` 
-Skip
+#skip
 ```
 
 <br>
@@ -1218,7 +1218,7 @@ backpack.remove('dagger')
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

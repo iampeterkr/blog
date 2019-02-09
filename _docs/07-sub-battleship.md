@@ -62,11 +62,11 @@ To build this game we will use our knowledge of lists, conditionals and function
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -81,13 +81,13 @@ skip
 ```
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -154,7 +154,7 @@ board = []
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -261,7 +261,7 @@ for i in range(5):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -639,7 +639,7 @@ random_col(board)
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1447,11 +1447,11 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 
@@ -1506,13 +1506,13 @@ else:
 ```
 
 **설명:** [ ]          
-skip 
+• skip 
 {: .notice--info}
 
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 

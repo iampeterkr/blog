@@ -211,7 +211,7 @@ class Animal(object):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -300,7 +300,7 @@ class Animal(object):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -388,7 +388,7 @@ class Animal(object):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -1234,7 +1234,7 @@ class Triangle(Shape):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -1352,7 +1352,7 @@ class PartTimeEmployee(Employee):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -1561,7 +1561,7 @@ class Triangle(object):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -1659,7 +1659,7 @@ class Triangle(object):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -1862,7 +1862,7 @@ class Equilateral(Triangle):
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>

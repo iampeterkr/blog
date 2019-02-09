@@ -67,11 +67,11 @@ Edit 창에서 학생들의 개인적인 점수들이 리스트에 있는것을 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -240,11 +240,11 @@ Onwards.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip 
+• skip 
 {: .notice--info}
 
 <br>
@@ -514,11 +514,11 @@ We're going to use the average for computing the variance. The variance allows u
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -533,7 +533,7 @@ print "Time to conquer the variance!"
 ```
 
 **설명:** [ ]      
-skip
+• skip
 {: .notice--info}
 
 

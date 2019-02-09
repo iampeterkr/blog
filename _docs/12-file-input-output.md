@@ -99,7 +99,7 @@ f.close()
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -195,7 +195,7 @@ my_file = open("output.txt", "r+")
 
 **결과**     
 ```
-skip 
+#skip 
 ```   
 
 <br>
@@ -321,7 +321,7 @@ my_file.close()
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

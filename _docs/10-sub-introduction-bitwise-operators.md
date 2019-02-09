@@ -62,12 +62,12 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip   
+* skip   
 
 
 
 **설명:** [ Hint ]    
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -159,11 +159,11 @@ In Python, you can write numbers in binary format by starting the number with 0b
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ Hint ]     
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -300,7 +300,7 @@ twelve = 0b1100
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

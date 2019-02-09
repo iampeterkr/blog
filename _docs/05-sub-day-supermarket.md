@@ -399,7 +399,7 @@ def fizz_count(x):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -438,11 +438,11 @@ As we've mentioned, strings are like lists with characters as elements. You can 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]          
-skip
+• skip
 {: .notice--info}
 
 <br>
@@ -577,7 +577,7 @@ prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -651,7 +651,7 @@ stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -929,7 +929,7 @@ groceries = ["banana", "orange", "apple"]
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1048,7 +1048,7 @@ def compute_bill(food):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1144,7 +1144,7 @@ def compute_bill(food):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1195,11 +1195,11 @@ Thanks for shopping at the Codecademy supermarket!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-skip
+* skip
 
 
 **설명:** [ ]      
-skip
+• skip
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    

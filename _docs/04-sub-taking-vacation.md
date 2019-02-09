@@ -65,11 +65,14 @@ Even without arguments, you will still need **parentheses**. Don't forget the **
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)skip    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)
+
+* skip    
 
 
 
-**설명:** [ ]      skip
+**설명:** [ ]      
+• skip
 {: .notice--info}
 
 <br>
@@ -90,7 +93,7 @@ def answer():
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -161,7 +164,7 @@ def hotel_cost(nights):
 
 **결과** 
 ```
-skip 
+#skip 
 ```
 
 <br>
@@ -253,7 +256,7 @@ def plane_ride_cost(city):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -365,7 +368,7 @@ def rental_car_cost(days):
 
 **결과** 
 ```
-skip 
+#skip 
 ```
 
 <br>
@@ -465,7 +468,7 @@ def trip_cost(city, days):
 
 **결과** 
 ```
-skip
+#skip
 ```
 
 <br>
@@ -549,7 +552,7 @@ def trip_cost(city, days, spending_money):
 
 **결과** 
 ```
-skip 
+#skip 
 ```
 
 <br>
