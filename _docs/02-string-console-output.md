@@ -107,7 +107,7 @@ brian = "Hello life!"
 
 **결과**
 ```
-• skip
+ #skip
 ```
 
 

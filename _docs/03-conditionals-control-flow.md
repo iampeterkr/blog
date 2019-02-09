@@ -367,7 +367,7 @@ bool_five = False
 
 **결과** 
 ```
-skip
+#skip
 ```
 <br>
 <br>    
@@ -471,7 +471,7 @@ bool_five = "tomato" == "tomato"
 
 **결과** 
 ```
-skip
+#skip
 ```
 
 <br>
@@ -545,7 +545,7 @@ skip
 
 **결과** 
 ```
-skip
+#skip
 ```
 <br>
 <br>    
@@ -661,7 +661,7 @@ bool_five = True and True
 
 **결과** 
 ```
-skip
+#skip
 ```
 
 <br>
@@ -769,7 +769,7 @@ bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
 
 **결과** 
 ```
-skip 
+#skip 
 ```
 
 <br>
@@ -886,7 +886,7 @@ bool_five = not not False
 
 **결과**
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1008,7 +1008,7 @@ bool_five = False or not (True and True)
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1097,7 +1097,7 @@ bool_five = True or True
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1390,7 +1390,7 @@ def french_soldier():
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

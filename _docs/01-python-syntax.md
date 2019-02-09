@@ -438,7 +438,7 @@ todays_date = "November 19, 2018"
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -548,7 +548,7 @@ remainder = 1398 % 11
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -752,7 +752,7 @@ city_pop = 340000
 
 **결과**     
 ``` 
-skip
+#skip
 ```   
 
 <br>
@@ -1290,7 +1290,7 @@ big_string = "The product was " + str(product)
 
 **결과**     
 ```
-skip 
+#skip 
 ```   
 
 <br>

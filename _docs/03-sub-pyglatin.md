@@ -95,7 +95,7 @@ skip
 
 **결과** 
 ```
-skip
+#skip
 ```
 
 <br>
@@ -265,7 +265,7 @@ original = raw_input("Enter a word:")
 
 **결과**
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -647,7 +647,7 @@ pyg = 'ay'
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>

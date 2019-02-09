@@ -18,7 +18,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -31,7 +31,7 @@ toc: true
 ① 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -43,7 +43,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -56,7 +56,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -75,7 +75,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -88,7 +88,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -100,7 +100,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -113,7 +113,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -132,7 +132,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -145,7 +145,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -157,7 +157,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -170,7 +170,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -190,7 +190,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -203,7 +203,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -215,7 +215,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -228,7 +228,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -248,7 +248,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -261,7 +261,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -273,7 +273,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -286,7 +286,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -306,7 +306,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -319,7 +319,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -331,7 +331,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -344,7 +344,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -364,7 +364,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -377,7 +377,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -389,7 +389,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -402,7 +402,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -422,7 +422,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -435,7 +435,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -447,7 +447,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -460,7 +460,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -480,7 +480,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -493,7 +493,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -505,7 +505,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -518,7 +518,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -538,7 +538,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -551,7 +551,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -563,7 +563,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -576,7 +576,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -596,7 +596,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -609,7 +609,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -621,7 +621,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -634,7 +634,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -654,7 +654,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -667,7 +667,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -679,7 +679,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -692,7 +692,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -712,7 +712,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -725,7 +725,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -737,7 +737,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -746,7 +746,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -765,7 +765,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -778,7 +778,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -790,7 +790,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 **결과**     
@@ -807,7 +807,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -828,7 +828,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -841,7 +841,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -853,7 +853,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -866,7 +866,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -885,7 +885,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -898,7 +898,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -910,7 +910,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -923,7 +923,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -942,7 +942,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -955,7 +955,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -967,7 +967,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -980,7 +980,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -999,7 +999,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -1012,7 +1012,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -1024,7 +1024,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -1037,7 +1037,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -1056,7 +1056,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -1069,7 +1069,7 @@ toc: true
 **①** 
 
 
-**설명:** ① 
+**설명:** [ ]      ① 
 {: .notice--info}
 
 
@@ -1081,7 +1081,7 @@ toc: true
 
 
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 <br>
@@ -1094,7 +1094,7 @@ toc: true
 ```python
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 

@@ -33,7 +33,7 @@ This exercise goes over just pulling information from a list, which we've covere
 
 
 
-**설명:**    
+**설명:** [ ]         
 리스트의 항목값을 접근하는 방법을 배운다. 이미 우리는 앞장에서 이와 관련하여 해보았다. 
 {: .notice--info}
 
@@ -47,7 +47,7 @@ This exercise goes over just pulling information from a list, which we've covere
 **①** Please add the code to print out the second element in the list.
 
 
-**설명:** ① 리스트 `n`의 두번째 항목을 출력하라. 
+**설명:** [ ]      ① 리스트 `n`의 두번째 항목을 출력하라. 
 {: .notice--info}
 
 
@@ -63,7 +63,7 @@ x[n]
 where `x` is the name of the list and n is the index in that list that you're trying to access.
 
 
-**설명:**     
+**설명:** [ ]          
 리스트의 인덱스는 0 부터 시작한다. 만약 첫번째 자리의 값을 접근할려면 `n[0]`으로 해야 한다.
 {: .notice--info}
 
@@ -81,7 +81,7 @@ n = [1, 3, 5]
 print n[1]
 ```
 
-**설명:**     
+**설명:** [ ]          
 리스트 n 의 `3`을 접근할려면, `n[1]`로 해야 한다. 
 {: .notice--info}
 
@@ -104,7 +104,7 @@ You've already learned how to modify elements of a **list** in a previous sectio
 
 
 
-**설명:**     
+**설명:** [ ]          
 앞장에서 배운 리스트를 다시한번 연습해 보자. 
 {: .notice--info}
 
@@ -122,7 +122,7 @@ You've already learned how to modify elements of a **list** in a previous sectio
 Make sure to print the list when you are done!
 
 
-**설명:**     
+**설명:** [ ]          
 ① 3 라인에서, 두번째 항목의 `3`값에 `x 5`한 값으로 변경하시오. 작업이 완료되면 출력하시오. 
 
 {: .notice--info}
@@ -140,7 +140,7 @@ x[n] = v
 where x is the name of the list, n is the index in the array and v is the value you want to set.
 
 
-**설명:**    
+**설명:** [ ]         
 리스트의 특정 항목을 변경하기 위해서는 `x[n]=v`와 같이 `n:index`, `v=값`이다.  
 {: .notice--info}
 
@@ -158,7 +158,7 @@ n[1] = n[1] * 5
 print n
 ```
 
-**설명:**     
+**설명:** [ ]          
 인덱스 1번(두번째값) 자리에, `n[1]`값에다 x 5 한 값을 저장한다. 
 {: .notice--info}
 
@@ -181,7 +181,7 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트에  `.append()`를 이용하면, 제일 마지막에 값을 추가할 수 있다. 
 {: .notice--info}
 
@@ -195,7 +195,7 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 **①** Append the number 4 to the end of the list n.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 리스트 `n[]`에 정수 4를 추가하라.  
 {: .notice--info}
 
@@ -212,7 +212,7 @@ x.append(item)
 where `x` is the name of the list and item is the object you want to append.
 
 
-**설명:**     
+**설명:** [ ]          
 리스트 `x` 에 `.append(item)`을 활용하라.  
 {: .notice--info}
 
@@ -230,7 +230,7 @@ n.append(4)
 print n
 ```
 
-**설명:**     
+**설명:** [ ]          
 `n.append(4)`는 리스트의 맨 끝에 추가된다. 
 {: .notice--info}
 
@@ -280,7 +280,7 @@ print n
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트의 항목값을 삭제 하는 것을 다시 연습해보자.    
 `n.pop(index)` index 값에 해당하는 항목이 삭제 된다. 
 `n.remove(1)`  값 1을 찾아서 그 값이 삭제 된다. 
@@ -297,7 +297,7 @@ print n
 **①** Remove the first item from the list n using either `.pop()`, `.remove()`, or `del`.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 리스트 `n`를 `.pop()`, `.remove()`, `del`중 하나를 사용하여 첫번째 값을 지워라.  
 {: .notice--info}
 
@@ -315,7 +315,7 @@ where x is the list and index is the item you want to pop off the list. If no in
 
 
 
-**설명:**     
+**설명:** [ ]          
 `n.pop(0)`은 첫번째 인덱스를 지우는 것이다. 만약, 인덱스 값을 주지 않으면 마지막 인덱스를 지운다. 
 {: .notice--info}
 
@@ -333,7 +333,7 @@ n.pop(0)
 print n
 ```
 
-**설명:**     
+**설명:** [ ]          
 `n.pop(0)`을 사용하여 첫번째 값을 지웠다. 
 {: .notice--info}
 
@@ -357,7 +357,7 @@ In this exercise, you will just be making a minor change to a function to change
 
 
 
-**설명:**     
+**설명:** [ ]          
 함수를 설명하기 위해서 함수를 약간 변형해 볼것이다. 
 {: .notice--info}
 
@@ -371,7 +371,7 @@ In this exercise, you will just be making a minor change to a function to change
 **①** Change the function so the given argument is multiplied by 3 and returned.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 주어진 함수를 입력값에 `x 3`한후 그 결과값을 반환하는 하는 기능을 하는 함수로 변경하라. 
 {: .notice--info}
 
@@ -384,7 +384,7 @@ In this exercise, you will just be making a minor change to a function to change
 You'll want to change the `+` to a `*`.
 
 
-**설명:**     
+**설명:** [ ]          
 `+` 를 `*`로 변경하라. 
 {: .notice--info}
 
@@ -404,7 +404,7 @@ def my_function(x):
 print my_function(number)
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력값 `x`를 x 3하여 반환한다. 
 {: .notice--info}
 
@@ -428,7 +428,7 @@ This exercise will recap how to use **more than one argument** in a function.
 
 
 
-**설명:** 입력 argument가 1개 이상 일때를 연습해 보자. 
+**설명:** [ ]      입력 argument가 1개 이상 일때를 연습해 보자. 
 {: .notice--info}
 
 
@@ -441,7 +441,7 @@ This exercise will recap how to use **more than one argument** in a function.
 **①** Define a function called `add_function` that has `2` parameters `x` and `y` and adds them together.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `add_function`은 `x`, `y` 2개의 parameters를 가지는 함수를 정의하라.  
 {: .notice--info}
 
@@ -459,7 +459,7 @@ def my_function(argument1, argument2, etc.):
 ```
 
 
-**설명:**     
+**설명:** [ ]          
 함수의 parameters 갯수는 다음과 같이 `def my_function(argument1, argument2, etc.):` 정의한다. 
 {: .notice--info}
 
@@ -480,7 +480,7 @@ def add_function(x, y):
 print add_function(m, n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 `x`, `y` parameter로 입력 받은 값 m=5, n=13을 더하는 함수이다. 
 {: .notice--info}
 
@@ -504,7 +504,7 @@ This is a basic recap on using strings in functions.
 
 
 
-**설명:**   
+**설명:** [ ]        
 함수에서 문자열을 사용하는 방법을 연습해 보자.  
 {: .notice--info}
 
@@ -518,7 +518,7 @@ This is a basic recap on using strings in functions.
 **①** Write a function called `string_function` that takes in a string argument `(s)` and then returns that argument **concatenated** with the word `'world'`. Don't add a space before world!
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `string_function`은 스트링 parameter `s`를 입력받아, 입력받은 문자열에 `world` 문자열을 덧붙이는 기능을 하는 함수이다. ("world" 앞에 스페이스는 없다. ) 
 {: .notice--info}
 
@@ -534,7 +534,7 @@ print "Hello" + "world"
 # outputs "Helloworld"
 ```
 
-**설명:**     
+**설명:** [ ]          
 `+` 연산자를 사용하여 문자를 이어 붙여라. 
 {: .notice--info}
 
@@ -554,7 +554,7 @@ def string_function(s):
 print string_function(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력받은 `s = "Hello"` 에다가 "world"를 붙인다. 
 {: .notice--info}
 
@@ -578,7 +578,7 @@ You pass a list to a function the same way you pass any other argument to a func
 
 
 
-**설명:**    
+**설명:** [ ]         
 함수에 리스트를 전달하는 연습을 해보자. 함수에 여러개의 인수를 전달할 수 있듯이, 함수에 리스트도 전달 할수 있다.
 {: .notice--info}
 
@@ -592,7 +592,7 @@ You pass a list to a function the same way you pass any other argument to a func
 **①** Click Run to see that using a list as an argument in a function is essentially the same as using just a number or string!
 
 
-**설명:**     
+**설명:** [ ]          
 ① Run을 클릭하여 소스를 실행시켜 보자. 함수에 리스르를 넘겼더니, 다시 리스트를 반환하는 것이다.  
 {: .notice--info}
 
@@ -605,7 +605,7 @@ You pass a list to a function the same way you pass any other argument to a func
 skip
 
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -624,7 +624,7 @@ n = [3, 5, 7]
 print list_function(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 함수 `list_function(n)`에 리스트 `n`을 넣어서 호출 하였더니, 해당 함수가 입력받은 `x`를 그대로 반환했다. 리스트를 입력하고, 리스트를 반환하는 소스이다.  
 {: .notice--info}
 
@@ -660,7 +660,7 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 
 
 
-**설명:**     
+**설명:** [ ]          
 함수 `first_item(numbers)`를 호출하면, 리스트 `numbers =[2,7,9]`가 넘겨지고,
 이미 정의되어진 함수 `first_item()`는 인자 `numbers`에 `[2, 7, 9]`가 들어가 있다. 리스트 `items[0]` 첫번째 인자 값은 `2`가 출력된다. 
 {: .notice--info}
@@ -675,7 +675,7 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 **①** Change line 2 so that `list_function` returns only the item stored in index **one of x**, rather than the entire x list.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `list_function(x)`의 기능을 다음과 같이 변경 하라. 입력 받은 `x`의 1번 index의 값을 출력하는 기능으로 바꿔라.   
 {: .notice--info}
 
@@ -688,7 +688,7 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 skip
 
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -708,7 +708,7 @@ print list_function(n)
 
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력값 `n=[3,5,7]`중 1번 index 값만 출력하는 (ex. `x[1]`) 함수이다. 
 {: .notice--info}
 
@@ -745,7 +745,7 @@ When we pass a list to a function and modify that list, like in the double_first
 
 
 
-**설명:**     
+**설명:** [ ]          
 함수를 이용하여 리스트의 특정 값을 변경 할수 있다. 
 {: .notice--info}
 
@@ -763,7 +763,7 @@ When we pass a list to a function and modify that list, like in the double_first
 * Return the list.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `list_function`을 수정하라.    
   • 입력 받은 리스트 x의 index 1번 값에 3을 더하라.
   • 그 결과 값을 리스트 x의 index 1번 값에 저장하라.     
@@ -782,7 +782,7 @@ Add 3 to x[1]'s value and store result
 x[1] = x[1] + 3
 ```
 
-**설명:**     
+**설명:** [ ]          
 결과값(x[1] + 3)을 x[1]에 저장하라. 
 {: .notice--info}
 
@@ -802,7 +802,7 @@ n = [3, 5, 7]
 print list_function(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력받은 리스트 `x`의 1번 index에 `3`을 더하고, 그 결과 값을 다시 `x[1]`에 저장한후 반환한다.
 {: .notice--info}
 
@@ -835,7 +835,7 @@ The example above is just a reminder of how to append items to a list.
 
 
 
-**설명:**     
+**설명:** [ ]          
 함수를 통하여 리스트를 추가, 삭제 하는 등 조작해 보자. 
 {: .notice--info}
 
@@ -853,7 +853,7 @@ The example above is just a reminder of how to append items to a list.
 * Then return the modified list.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `list_extender()`는 `lst`라는 파라미터를 하나 가진다.   
   • 입력받은 리스트 `lst`에 숫자 9를 추가하라.     
   • 변경된 리스트 `lst`를 반환하라. 
@@ -868,7 +868,7 @@ The example above is just a reminder of how to append items to a list.
 Check `.append()` learned before chapter
 
 
-**설명:**     
+**설명:** [ ]          
 앞자에서 배운 `.append()`를 확인해 보자. 
 {: .notice--info}
 
@@ -890,7 +890,7 @@ def list_extender(lst):
 print list_extender(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 리스트에 값을 추구하는 것은 `lst.append(9)` 이다. 
 {: .notice--info}
 
@@ -918,7 +918,7 @@ Don't worry about the range function quite yet—we'll explain it later in this 
 
 
 
-**설명:**     
+**설명:** [ ]          
 함수를 사용하여 리스트의 값들을 활용하는 방법을 배워보자. 
 {: .notice--info}
 
@@ -936,7 +936,7 @@ Don't worry about the range function quite yet—we'll explain it later in this 
 * Then call your function with the argument n.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `print_list(x)` 를 정의하자.    
   • 함수 내부 기능으론, 리스트의 항목을 하나씩 출력하는 것이다. 기존의 코드를 발판으로 활용하세요.    
   • argument `n`을 가진 함수를 호출 하세요. 
@@ -951,7 +951,7 @@ Don't worry about the range function quite yet—we'll explain it later in this 
 You can simply place the code on lines 3 - 4 inside a function definition. Make sure to indent properly! And you'll have to change the `n` to `x`
 
 
-**설명:**     
+**설명:** [ ]          
 for 문의 argument `n`값을 `x`으로 바꿔 주시오. 
 {: .notice--info}
 
@@ -972,7 +972,7 @@ def print_list(x):
 print_list(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 함수 `print_list(x)`는 리스트를 입력 받안 해당 항목들을 하나씩 출력해주는 기능을 한다. 
 {: .notice--info}
 
@@ -1000,7 +1000,7 @@ This exercise shows how to **modify each element in a list**. It is useful to do
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트의 각 항목들을 수정하는 것을 연습해 보자.     
 **len(n)**함수를 이용하여 리스트의 길이를 알수 있다.    
 어떤 길이의 리스트도 함수를 통하여 쉽게 조작할 수 있다. 
@@ -1016,7 +1016,7 @@ This exercise shows how to **modify each element in a list**. It is useful to do
 **①** Create a function called **`double_list`** that takes a single argument **`x`** (which will be a list) and **multiplies each element by 2** and **returns that list**. Use the existing code as a scaffold.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 **`double_list`**를 만들고, 이 함수는 argument **` x`**를 가진다. 그리고 이 함수는 리스트의 각 항목의 값에다 **`x 2`**를 한 결과 값을 반환한다. 작성되어진 코드를 활용하여 작성하라.     
 {: .notice--info}
 
@@ -1029,7 +1029,7 @@ This exercise shows how to **modify each element in a list**. It is useful to do
 You can place the code on lines 3 - 5 inside a function definition. You will need to change the n[i]s in the for loop to x[i]. Make sure to indent properly!
 
 
-**설명:**     
+**설명:** [ ]          
 3~5라인 사이에서 함수를 정의하라. for 문 안에 있는 **`n[1]`**를 **`x[1]`**로 바꿔야 한다.
 {: .notice--info}
 
@@ -1048,7 +1048,7 @@ def double_list(x):
 print double_list(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 리스트 **`n`**을 argument **`x`**로 넘겨 받은 함수 **`double_list(x)`**는 각 항목의 값에다 **`X 2`** 한 값을 반환한다. 
 {: .notice--info}
 
@@ -1087,7 +1087,7 @@ In all cases, the **`range()`** function **returns a list** of numbers from **st
 
 
 
-**설명:**     
+**설명:** [ ]          
 내장 함수 **`range()`**는 1~3개의 arguments를 가질수 있다.    
 • range(stop) : 예)range(6)는 index 6까지 리스트를 생성하는데, 6은 포함하지 않는다. # [0,1,2,3,4,5]   
 • range(start, stop) : 예)range(1,6)는 index 1번 부터 6번까지 리스트 생성, 단, 6은 생성하지 않음 # [1,2,3,4,5]      
@@ -1104,7 +1104,7 @@ In all cases, the **`range()`** function **returns a list** of numbers from **st
 **①** On line 6, **replace** the (____) with a **`range()`** that returns a list containing [0, 1, 2].
 
 
-**설명:**     
+**설명:** [ ]          
 ① 6라인 **`(____)`**에 [0,1,2]가 출력되도록 **`range()`**함수를 사용하여 작성하라.  
 {: .notice--info}
 
@@ -1120,7 +1120,7 @@ range(0,3) # [0,1,2]
 range(0,3,1) # [0,1,2]
 ```
 
-**설명:**         
+**설명:** [ ]              
 **`range()`**를 사용하여 리스트 [0,1,2]를 만들어 내는 방법은 여러가지가 있다. 
 {: .notice--info}
 
@@ -1140,7 +1140,7 @@ def my_function(x):
 print my_function(range(3)) # Add your range between the parentheses!
 ```
 
-**설명:**     
+**설명:** [ ]          
 우리는 **`range(3)`**을 활용하여 리스트 [0,1,2]를 생성했다. 
 {: .notice--info}
 
@@ -1181,7 +1181,7 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트를 자동으로 생성해주는 방법에는 2가지가 있다. **for**문을 활용하는 법과 **indexes**를 활용하는 법이다.     
 첫번째는 리스트를 생성할수는 있으나, 변경은 불가능하다.     
 두번째는 리스트를 생성하고, 변경도 가능하다.     
@@ -1204,7 +1204,7 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 리스트안에 있는 숫자들의 값을 더하는 함수를 만드시오.    
 • 3라인에서, 함수 **`total(numbers)`** 를 만드시오. **`numbers`**는 리스트이다.    
 • 함수 안에서 변수 **`result`**를 만들고 기본 값으로 **0**으로 채우시오.    
@@ -1224,7 +1224,7 @@ for in range(0, len(numbers)):
 ```  
 
 
-**설명:**    
+**설명:** [ ]         
 방법 2를 사용할 경우, **`range()`** 함수를 사용할때, 리스트를 산출할 범위를 지정해 주어라. 
 {: .notice--info}
 
@@ -1245,7 +1245,7 @@ def total(numbers):
   return result
 ```
 
-**설명:**     
+**설명:** [ ]          
 **`range(0, len(numbers))`**는 0번부터 입력된 `numbers`의 갯수만큼 리스트를 만드는 것이다. 
 {: .notice--info}
 
@@ -1279,7 +1279,7 @@ The example above is just a reminder of the two methods for iterating over a lis
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트를 자동 생성하는 방법은 2가지가 있다는 것을 잊지 말자. 
 {: .notice--info}
 
@@ -1301,7 +1301,7 @@ Don't add spaces between the joined strings!
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 문자열을 연결하는 함수를 만드시오.     
 • 함수 **`join_strings(words)`**를 만드시오.    
 • 함수 내부에 변수 **`result`**를 만들고, ""로 초기화 하시오.    
@@ -1321,7 +1321,7 @@ join_strings("Hello", "there")
 should return "Hellothere".
 ```
 
-**설명:**      
+**설명:** [ ]           
 두개의 문자열을 입력 받아서 연결하는 것이다. 
 {: .notice--info}
 
@@ -1352,7 +1352,7 @@ def join_strings(words):
 print join_strings(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 **`word`**에 두개의 문자가 들어 있고, 각 항목을 하나씩 추출하여 **`result`**에 더한후 반환한다. 
 {: .notice--info}
 
@@ -1383,7 +1383,7 @@ The example above is just a reminder of how to concatenate two lists.
 
 
 
-**설명:**     
+**설명:** [ ]          
 두개의 리스트를 argument로 넘기는 방법을 연습해 보자.     
 상기 2개의 리스트를 합치는 방법은 이미 공부한바 있다.   
 {: .notice--info}
@@ -1402,7 +1402,7 @@ Inside that function, **return the result** of concatenating **`x`** and **`y`**
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 두개의 리스트를 합치는 함수를 만드시오.    
 • 함수 **`join_lists(x, y)`** 만드시오. arguments 는 리스트 이다.    
 • 함수 내부에서 **`x`, `y`**를 연결하여 결과 값을 반환하라. 
@@ -1417,7 +1417,7 @@ Inside that function, **return the result** of concatenating **`x`** and **`y`**
 You can just use **`+`** to concatenate two lists. (You don't want to use append, because this just adds the entire second list as a single object at the end of the first.)
 
 
-**설명:**     
+**설명:** [ ]          
 **`+`**를 사용하여 리스트를 연결하라. 
 {: .notice--info}
 
@@ -1442,7 +1442,7 @@ print join_lists(m, n)
 # You want this to print [1, 2, 3, 4, 5, 6]
 ```
 
-**설명:**     
+**설명:** [ ]          
 **`+`** 연산자를 활용하여 두개의 리스느를 합친다. 
 {: .notice--info}
 
@@ -1485,7 +1485,7 @@ We end up printing out:
 
 
 
-**설명:**    
+**설명:** [ ]         
 하나의 리스트에 여러개의 리스트가 값으로 들어가 있는 리스트를 어떻게 활용하는지를 배워 보자.    
 하나의 리스트안에 또다시 2개의 리스트가 항목 값으로 들어가 있다. 이를 다시 각 값으로 봅아내는 함수이다. 
 for 문 2개를 활용하여 사용한다.  
@@ -1509,7 +1509,7 @@ for 문 2개를 활용하여 사용한다.
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 **`flatten(lists)`** 은 여러개 리스트를 포함한 싱글 리스트를 하나의 싱글 리스트를 가지는 리스트로 만드는 함수를 만드시오.    
 • 3라인에서, 함수 **`flatten(lists)`**를 만드시오.    
 • **`results`** 리스트를 만들고 초기화 하시오.    
@@ -1534,7 +1534,7 @@ into
 ```
 **results is list**
 
-**설명:**     
+**설명:** [ ]          
 **`[[1,2,3], [4,5,6]]`**을 **`[1,2,3,4,5,6]`**으로 변경하시오.     
 **`results`** 는 리스트다. 
 {: .notice--info}
@@ -1570,7 +1570,7 @@ def flatten(lists):
 print flatten(n)
 ```
 
-**설명:**     
+**설명:** [ ]          
 만약, 방법2 range()를 사용할 경우 인덱스 주소와 값을 혼동하지 말지. 
 {: .notice--info}
 

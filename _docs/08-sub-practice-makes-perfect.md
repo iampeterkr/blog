@@ -36,7 +36,7 @@ The more challenging programs will contain some helpful hints to nudge you in th
 
 
 
-**설명:**     
+**설명:** [ ]          
 프로그램을 잘 짜는 방법은 오직 연습뿐이다. loop를 배웠으니, 반복적으로 연습하면 프로그래밍 실력이 높아진다. 
 {: .notice--info}
 
@@ -50,7 +50,7 @@ The more challenging programs will contain some helpful hints to nudge you in th
 **①** Hit Run to continue.
 
 
-**설명:**     
+**설명:** [ ]          
 ① `Run`을 클릭하여 다음으로 넘어가시오.
 {: .notice--info}
 
@@ -63,7 +63,7 @@ The more challenging programs will contain some helpful hints to nudge you in th
 skip
 
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -78,7 +78,7 @@ skip
 skip
 ```
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -103,7 +103,7 @@ Remember how an even number is a number that is divisible by 2?
 
 
 
-**설명:**     
+**설명:** [ ]          
 짝수는 `2`로 나누어지는 것을 기억하고 있는가?     
 `2`로 나누어지는 숫자는 짝수이다. 짝수인지를 어떻게 알수 있는지 공부해 보자.  
 {: .notice--info}
@@ -122,7 +122,7 @@ If **`x`** is even, then return **True**.
 Otherwise, return **False**.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `is_even(x)`을 만들어라. `x`가 짝수이면 True를 반환하고, 홀수이면 False 를 반환하라. 
 {: .notice--info}
 
@@ -137,7 +137,7 @@ The modulo **`%`** operation is useful for determining if one number is divisibl
 Make sure to return True instead of printing it!
 
 
-**설명:**     
+**설명:** [ ]          
 `%` 연산자는 하나의 숫자를 나누어서 남는 나머지를 반환해 주는 연산자이다. 나머지가 0인것은 나누어서 떨어진다는 의미이다. 즉 2로 나누어서 나머지가 0이면, 그것은 짝수인것이다. 단, 0은 제외이다. 함수를 만들고 해당 함수를 호출하고 출력하는것을 잊지 말라.
 {: .notice--info}
 
@@ -159,7 +159,7 @@ print is_even(5)
 print is_even(6)
 ```
 
-**설명:**     
+**설명:** [ ]          
 `is_even(5)`를 호출하면 함수 `is_even()`이 호출되어 x가 2로 나누어 0으로 떨어지는지를 점검한다. 2로 떨어지면 True를 반환하고, 그렇지 않으면 False를 반환한다.
 {: .notice--info}
 
@@ -191,7 +191,7 @@ If the difference between a number and that same number rounded is greater than 
 
 
 
-**설명:**     
+**설명:** [ ]          
 정수(integer)는 소수가 없는 10진수이다. (예, 소수점 있는 수 98.6), 그리고, 소수점 있는 수(예, 7.0)도 정수이다. 프로그램에서 정수인지를 어떻게 파악 할수 있을까? 우리는 어떤 수에서 그수를 반올림 한 값의 차리를 봐서, 0이면, 정수이고, 0이 아니면 정수가 아니라고 알수 있다.  이장에서 이것에 관하여 공부해 보자.  
 {: .notice--info}
 
@@ -214,7 +214,7 @@ is_int(-1)    # True
 ```
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `is_int(x)`를 만드시오. 이 함수는 입력값 `x`가 정수(interger)이면 True를 반환하고, 아니면 False를 반환하라. 
 {: .notice--info}
 
@@ -227,7 +227,7 @@ is_int(-1)    # True
 To use the function **`abs()`**, **`round()`**
 
 
-**설명:**     
+**설명:** [ ]          
 내장 함수 `abs()`는 절대값을 반환하고, `round()`는 소수점을 버린 정수만을 반환한다. 이를 활용하라. 
 {: .notice--info}
 
@@ -248,7 +248,7 @@ print is_int(10)
 print is_int(10.5)
 ```
 
-**설명:**     
+**설명:** [ ]          
 함수 `is_int(x)`는 입력값 `x`를 절대값을 구하고, 이 값에서 round한 값을 뺀다. 이 두 수의 차이가 0보다 크면 이 `x`값은 정수가 아니다.
 {: .notice--info}
 
@@ -273,7 +273,7 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 
 
 
-**설명:**     
+**설명:** [ ]          
 각 자리별 수를 더하여 보자. 
 {: .notice--info}
 
@@ -289,7 +289,7 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 Check the hint if you need help!
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `digit_sum(n)`을 만들어 보자. 이 함수는 입력된 `n`값의 각 자리 수를 더하여 결과를 반환하는 함수이다. 예를 들면 `digit_sum(1234)`이면 반환값은 10이다. 즉, 1+2+3+4=10 인 것이다. 입력값은 항상 양수만 들어가야 한다.  
 {: .notice--info}
 
@@ -308,7 +308,7 @@ Try working this into a pattern to isolate all of the digits and add them to a t
 
 
 
-**설명:**     
+**설명:** [ ]          
 `str()`함수를 사용하여 입력값을 문자열로 바꾼다. for 문을 돌면서 각 값을 빼내어 `int()`를 사용하여 변환한다. 각 값을 합한다. 그외에도 `%`연산자를 사용하여 10으로 나누어 나머지 값을 더하면 되는 방법도 있다. 한번 시도해 봐라. `%`와 비슷한 `//` 연산자도 있다. 
 {: .notice--info}
 
@@ -339,7 +339,7 @@ def digit_sum(n):
 print digit_sum(1234)
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력값 `n`을 문자열로 바꾼다. 그리고 문자열을 하나씩 뽑아내서 `int(char)`숫자로 바꾼다. `total`변수에 각 값을 더한다.    
 또다른 방법은 입력값 `n`을 `%10`을 하여 제일 마지막 자릿수 4를 반환하여 전체 `total`값에 더한다. `n`값을 `//10`하여 마지막 자릿수를 버리고 `123`을 다시 `%10`으로 나누어 나머지 3을 `total`변수에 저장한다.
 {: .notice--info}
@@ -371,7 +371,7 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 
 
-**설명:**     
+**설명:** [ ]          
 수학이 factorial(계승)을 구현해 보자. `factorial(3)`은 6 이다. 계산하는 방법은 3 x 2 x 1 = 6 이다. 
 {: .notice--info}
 
@@ -387,7 +387,7 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 Calculate and return the factorial of that number.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `factorial(x)`를 만들어라. `factorial(x)` 함수는 입력한 값의 계산값을 반환하라. 
 {: .notice--info}
 
@@ -402,7 +402,7 @@ Consider having **`factorial()`** call itself. When the input is 1, your functio
 Note that mathematically, factorial(0) is 1.
 
 
-**설명:**     
+**설명:** [ ]          
 `facotorial(x)`함수는 `n` 값이 1이 될때까지 자신의 함수를 호출한다. 그리고 최종적으로 `factorial(0)`이면 값은 1을 반환한다.
 {: .notice--info}
 
@@ -432,7 +432,7 @@ print factorial(5)
 # print factorial2(5)      
 ```
 
-**설명:**     
+**설명:** [ ]          
 `x`값을 1씩 줄여가면서 `total`값에 곱해 준다. `x`가 1이 될때까지 while문을 돌면서 진행한다.    
 또다른 방법은 `factorial2(n-1)`을 하는 방법이다. 자신의 함수를 다시 호출해서 사용하는 방법으로 나중에 배우게 될 것이다. 
 {: .notice--info}
@@ -463,7 +463,7 @@ If there is a number between 1 and x that goes in evenly, then x is not prime.
 
 
 
-**설명:**     
+**설명:** [ ]          
 prime(소수)는 1 과 자신 이외에는 나눌수 없는 값을 말한다. 어떤 입력값 `x`를 입력해서 소수 인지를 확인하는 함수를 만들어 보자. 1, 2, 3, 5, 7, 11은 소수의 예이다. 4는 2로 나누어 지기에 소수가 아니다.
 {: .notice--info}
 
@@ -483,7 +483,7 @@ If it is, return False.
 If none of them are, then return True.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `is_prime(x)`를 만들어라. 이 함수는 1과 자신 `x`이외에는 나누어 지지 않는다. 즉 2부터 `x-1`까지 값으로 나누어서 0이 나오면 소수가 아니기에 False를 반환하고, 그렇지 않으면 True를 반환하라. 
 {: .notice--info}
 
@@ -496,7 +496,7 @@ If none of them are, then return True.
 Remember: all numbers less than 2 are not prime numbers!
 
 
-**설명:**     
+**설명:** [ ]          
 2보다 작은 모든 숫자는 소수가 아니다.
 {: .notice--info}
 
@@ -521,7 +521,7 @@ print is_prime(13)
 print is_prime(10)
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력값 `x-1`값이 될때까지 2부터 나머지를 구해서 나누어지는 상황(`x%n==0`)이 발생하면 소수가 아니기에 False를 반환하고, 그외에는 True를 반환한다. 입력값이 2보다 작은 값이 들어오면 무조건 False를 반환한다. 
 {: .notice--info}
 
@@ -546,7 +546,7 @@ Great work so far! Let's practice writing some functions that work with strings.
 
 
 
-**설명:**     
+**설명:** [ ]          
 문자열을 조작하는 방법을 연습해 보자. 
 {: .notice--info}
 
@@ -564,7 +564,7 @@ You may not use reversed or [::-1] to help you with this.
 You may get a string containing special characters (for example, !, @, or #).
 
 
-**설명:**     
+**설명:** [ ]          
 ① `reverse()`함수를 만들어 보자. 이 함수는 입력한 문자열을 반대로 출력해주는 함수이다. 예를 들면 `reverse("abcd")`를 입력하면 "dcba"를 반환해 준다.    
 물론, 앞에서 배운 `[::-1]`, `reversed()`을 사용해도 되지만, 여기서는 직접 함수를 만들어 본다. 특수 문자도 포함된다.  
 {: .notice--info}
@@ -578,7 +578,7 @@ You may get a string containing special characters (for example, !, @, or #).
 Consider how you would loop through text starting from the last character through the first character.
 
 
-**설명:**     
+**설명:** [ ]          
 입력받은 문자열의 마지막 부터 추출하여 리스트에 저장한다. 
 {: .notice--info}
 
@@ -604,7 +604,7 @@ print reverse("Hello World")
 
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력한 문자열의 길이 -1 만큰 반복한다. 그리고 마지막 문자 index 값으로 읽어서 `word`에 저장한다. 
 {: .notice--info}
 
@@ -628,7 +628,7 @@ Nice work. Next up: vowels!
 
 
 
-**설명:**     
+**설명:** [ ]          
 모음을 찾아서 조작하는 방법을 연습해 보자. 
 {: .notice--info}
 
@@ -644,7 +644,7 @@ Nice work. Next up: vowels!
 For example: anti_vowel("Hey You!") should return "Hy Y!". Don't count Y as a vowel. Make sure to remove lowercase and uppercase vowels. 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `anti_vowel(text)`을 만들어라. 이 함수는 모음을 찾아서 없앤 문자열을 반환한다. 예를 들면 `anti_vowel("Hey You!")`를 호출하면, "Hy Y!"를 반환한다. 단, 대문자 "Y"를 없애지 말라. 그 외 대/소문자 모음 모두를 삭제하라.  
 {: .notice--info}
 
@@ -657,7 +657,7 @@ For example: anti_vowel("Hey You!") should return "Hy Y!". Don't count Y as a vo
 To check to see if **`c`** is a vowel, you can do: c in "aeiouAEIOU".
 
 
-**설명:**     
+**설명:** [ ]          
 모음 모둠인 "aeiouAEIOU"에 해당 문자가 속하는지를 점검한다. 
 {: .notice--info}
 
@@ -680,7 +680,7 @@ def anti_vowel(text):
 print anti_vowel("hello book")
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력한 문자열을 한 글자씩 추출하여 "ieaouIEAOU"에 속하는지를 점검하여, 속하지 않으면 문자열을 저장하여 반환한다. 
 {: .notice--info}
 
@@ -710,7 +710,7 @@ For example: the word "Helix" would score 15 points due to the sum of the letter
 
 
 
-**설명:**     
+**설명:** [ ]          
 Scrabble 게임은 각 알파벳에 다른 점수를 매겨서, 각 단어의 알파벳 점수를 합한 값을 가지는 게임이다. 우리는 기존에 배운 딕셔너리 변수에 각 알파벳의 점수를 할당하여 각 단어별 점수를 매긴다. 예를 들면, "Helix"는 각 알파벳 점수는 H:4, e:1, l:1, i:1, x:8이다 이들 점수의 합은 15점이다. Scrabble 게임을 통하여 딕셔너리 활용법을 배워보자. 
 {: .notice--info}
 
@@ -729,7 +729,7 @@ Scrabble 게임은 각 알파벳에 다른 점수를 매겨서, 각 단어의 �
 * Assume that you're only given non-empty strings.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `scrabble_score(word)`를 만들고, 이 함수는 입력한 `word`의 점수를 반환한다.     
 • 입력 단어는 공백이나, 구두점이 없어야 한다.     
 • 점수 배열에 대해서는 걱정하지 마라.      
@@ -750,7 +750,7 @@ Remember you can use a string's .lower() method to make your string lower case!
 
 
 
-**설명:**     
+**설명:** [ ]          
 입력된 워드의 알파벳을 순차적으로 `score` 딕셔너리에 있는 각 알파벳 점수를 참조하여 더한다.    
 모든 입력된 문자는 `.lower()`를 사용하여 소문자로 일원화 하여 `score`딕셔너리에서 찾는다. 
 {: .notice--info}
@@ -791,7 +791,7 @@ print scrabble_score("pizza")
 # print scrabble_score("pizza")
 ```
 
-**설명:**    
+**설명:** [ ]         
 입력 문자열 `word.lower()`로 소문자로 일원화한다.    
 전체값을 저장할 변수 `total`을 초기화 한다.    
 변수 `word`의 글자를 하나씩 뽑아낸다.    
@@ -822,7 +822,7 @@ You're doing great with these string function challenges. Last one!
 
 
 
-**설명:**     
+**설명:** [ ]          
 문자열 조작 기능을 하나더 연습해 봅시다. 
 {: .notice--info}
 
@@ -846,7 +846,7 @@ should return:
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `censor(text, word)`를 만들어라. 이 함수는 입력받은 `text`중 `word`글자 부분만 `*`로 변경하는 함수이다.     
 • 대문자는 사용하지 않는다
 • `*`로 대체할때, `word` 수 만큼만 `*`로 대체해야 한다. 
@@ -873,7 +873,7 @@ After splitting the string with string.split(), you can loop through the indices
 
 
 
-**설명:**     
+**설명:** [ ]          
 `string.split()`와 `" ".join(list)`를 활용 할수 있다.    
 `"*" * 4 -> "****"`이 만들어 진다.    
 입력된 문자열의 분리하여, 반복하며 돌면서 해당 문자가 대치할 문자와 같은지를 비교하여 찾아 낸다.     
@@ -922,7 +922,7 @@ print censor("this hack is wack hack", "hack")
 # print censor2("this hack is wack hack", "hack")
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력 받은 문장을 잘라서 리스트 `words`에 넣는다.    
 결과물을 저장할 변수 `result`를 초기화한다.    
 `*`로 변경할 `word` 갯수를 계산하여 변수 `star`에 저장한다. 
@@ -951,7 +951,7 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트를 arguments로 가지는 함수들에 대해서 연습해 보자. 
 {: .notice--info}
 
@@ -975,7 +975,7 @@ For example: count([1, 2, 1, 1], 1) should return 3 (because 1 appears 3 times i
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `count(sequence, item)`을 만들어라.
 예를 들면 `count([1,2,1,1], 1)`을 호출하면 3이 반환된다. 이유는 1이 리스트에 3개가 들어 있기 때문이다.    
 • python 자체 내장 함수에서 리스트의 특정 항목의 갯수를 찾아주는 기능이 있지만, 연습을 위해서 우리는 직접 만들어 보자    
@@ -993,7 +993,7 @@ For example: count([1, 2, 1, 1], 1) should return 3 (because 1 appears 3 times i
 You can set a **`sum`** variable inside count. You can then iterate over sequence and increment **`sum`** every time you find an element in the sequence that matches item.
 
 
-**설명:**     
+**설명:** [ ]          
 변수 `sum`을 만들어, 찾고자 하는 숫자와 같은 것이 있으면 `sum`을 1씩 증가시킨다. 
 {: .notice--info}
 
@@ -1015,7 +1015,7 @@ def count(sequence, item):
 print count([1, 2, 1, 1], 1)
 ```
 
-**설명:**     
+**설명:** [ ]          
 리스트 [1,2,1,1]을 입력받고, 이중 1이 몇개 있는가를 찾는 프로그램이다.    
 `sequence=[1,2,1,1]`에서 `i`가 하나씩 추출하여, `if i==item`비교하여 일치하면, 변수 `count`를 1씩 증가시킨다. for 문이 끝나고 최종 `count`값을 return(반환)한다.
 {: .notice--info}
@@ -1040,7 +1040,7 @@ Awesome! Now let's practice filtering a list.
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트의 필터링을 연습해 보자. 
 {: .notice--info}
 
@@ -1058,7 +1058,7 @@ Awesome! Now let's practice filtering a list.
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `purify(list)`를 만들어라. 이 함수는 리스트의 값중 홀수를 삭제하고 해당 리스트를 return(반환) 하는 함수이다.     
 • 입력받은 리스트를 바로 수정하지 말고, 새로운 리스트를 만들어 결과값을 저장하라.  
 {: .notice--info}
@@ -1072,7 +1072,7 @@ Awesome! Now let's practice filtering a list.
 Your code should share something in common with the **`is_even`** function you defined earlier.
 
 
-**설명:**     
+**설명:** [ ]          
 앞에서 연습한 함수 `is_even()`의 기능을 활용하여 홀수인지 짝수인지를 판단하라.     
 `if i % 2 == 0` 이면 짝수이다. 
 {: .notice--info}
@@ -1095,7 +1095,7 @@ def purify(lst):
 print purify([1, 2, 3, 4])
 ```
 
-**설명:**     
+**설명:** [ ]          
 리스트 `lst`를 입력받고, 새로운 빈 리스트 `res`를 초기화 하자.     
 `lst`의 값을 추출하여 `ele` 변수에 저장하고, 이 `ele`변수가 짝수인지를 (`ele % 2==0`)를 검사하여 짝수이면 리스트 `res=[]`에 추가한다. for 반복문이 끝나면 그 결과값을 return(반환)한다.
 {: .notice--info}
@@ -1120,7 +1120,7 @@ Great! Now let's try a little multiplication.
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트의 내용을 곱해 보자.  
 {: .notice--info}
 
@@ -1138,7 +1138,7 @@ Your function should return an integer.
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `product(lst)`를 만들어 보자. 이 함수는 정수를 입력값으로 가지면 리스트의 모든 값을 곱한 결과를 return(반환)한다. 예를 들면 `product([4,5,5])`를 호출하면, return(반환)값은 100 이다.    
 • 리스트가 비어 있을 경우는 없다.    
 • return(반환)값은 정수이다.
@@ -1159,7 +1159,7 @@ Be careful **not to start your total at 0**, as this would make the overall resu
 
 
 
-**설명:**     
+**설명:** [ ]          
 입력받은 리스트의 값을 하나씩 추출하여 `*=` 기능을 사용하여라.    
 전체 값을 담는 변수 `total`의 초기값은 0으로 해선 안된다. 이유는 곱셈에서 0은 어떤 값을 곱해도 0이다. `total` 초기값은 1로 초기화하라.  
 {: .notice--info}
@@ -1178,7 +1178,7 @@ def product(list):
 print product([4, 5, 5])
 ```
 
-**설명:**     
+**설명:** [ ]          
 입력받은 리스트 `list`의 항목 값을 하나씩 추출하여 변수 `total`값에 곱한다. 최종적으로 `total`값을 return(반환)한다. 
 {: .notice--info}
 
@@ -1201,7 +1201,7 @@ Awesome! Now for something a bit trickier.
 
 
 
-**설명:**     
+**설명:** [ ]          
 지금 부터 약간 더 복잡하게 조작하여 중복 된것을 제거하는 연습을 해보자. 
 {: .notice--info}
 
@@ -1222,7 +1222,7 @@ For example: remove_duplicates([1, 1, 2, 2]) should return [1, 2].
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `remove_duplicates(lst)`는 리스트 안에 중복되는 것이 있으면 삭제하는 리스트르 만들어 준다.  예를 들면 `remove_duplicates([1,1,2,2])`호출하면, `[1,2]`를 return(반환)한다.    
 • 모두 다 지우는 것이 아니라, 1개만 존재하는것은 놔 둔다.    
 • return(반환)값의 순서는 중요치 않다. (ex. [1,2,3] : ok, [3,2,1] : ok)   
@@ -1242,7 +1242,7 @@ Also, note that destructively modifying a list while you are looping through it 
 
 
 
-**설명:**     
+**설명:** [ ]          
 가장 쉬운 방법은 함수안에 새로운 리스트를 하나 만들고, 입력 받은 리스트를 반복하여 돌면서 해당 항목값을 추출하여 새로운 리스트에 추가한다. 이때, 추가할때, 새로운 리스트에 내가 추가할려는 항목이 있는지를 점검하여 없으면 추가하고, 있으면 다음 단계로 넘어간다.     
 그리고, 
 {: .notice--info}
@@ -1275,7 +1275,7 @@ def remove_duplicates(inputlist):
 print remove_duplicates([1, 1, 2, 2])
 ```
 
-**설명:**     
+**설명:** [ ]          
 • 입력값 리스트 `inputlist`가  비어 있으면 빈 리스트 `[]`를 return(반환)한다.    
 • `sorted(inputlist)` : 입력값 리스트 `inputlist`를 정렬한다.   
 • 정렬된 `inputlist[0]` 즉 첫번째 값을 `outputlist`에 추가한다.     
@@ -1318,7 +1318,7 @@ sorted([5, 2, 3, 1, 4])
 
 
 
-**설명:**     
+**설명:** [ ]          
 리스트의 중앙에 위치한 값을 찾는 함수를 만드는 연습을 해보자.    
 • 리스트 `[7, 12, 3, 1, 6]`입력되면, 먼저 정렬하여 `[1,3,6,7,12]`를 만든다. 그리고 리스트의 중앙에 위치한 6을 return(반환)한다.    
 • 리스트 `[7, 3, 1, 4]` 짝수개가 입력되면, 정렬후 `[1,3,4,7]` 중앙값 3과 4의 평균값이 3.5가 return(반환)된다.   
@@ -1339,7 +1339,7 @@ If the list contains an **even number** of elements, your function should **retu
  
 
 
-**설명:**     
+**설명:** [ ]          
 ① 함수 `median(lst)`만드시오. 이 함수는 입력된 리스트의 중간 항목을 return(반환) 합니다.    
 • 입력되는 리스트의 크기는 다를수 있으며, 리스트에 들어있는 값들은 정렬되어 있지 않습니다.     
 • 짝수개의 리스트가 입력되면 중간 항목 2개의 평균값을 return(반환) 합니다.
@@ -1362,7 +1362,7 @@ Last but not least, **note that (2 + 3) / 2 is not the same as (2 + 3) / 2.0!** 
 
 
 
-**설명:**     
+**설명:** [ ]          
 짝수개의 리스트가 들어오면 중간값을 찾는 방법은 다음과 같다.    
 • 입력된 리스트의 길이를 구한다. 만약 `[0,1,2,3,4,5]`가 입력되면 길이는 6 이다. 이를 반으로 나누면 중간 값은 3이다. 리스트의 index 값이 3인 자리의 값은 `3`이다. 우리가 필요한 값은 index 2와 3이므로, 3에서 1을 뺀 index값을 선택하면 된다.     
 • 두개의 값을 나누어 중간값을 계산할때, `(2+3)/2`과 `(2+3)/2.0`의 결과 값은 다르다. 앞의 경우는 2가 반환되고, 후자는 2.5가 반환다. 이 함수에서는 후자 `(2+3)/2.0`을 이용해야 한다.
@@ -1393,7 +1393,7 @@ print median([2, 4, 5, 9])
 
 ```
 
-**설명:**     
+**설명:** [ ]          
 • 입력된 리스트를 정렬한다. `sorted_list = sorted(lst)`    
 • if 절의 block 내용은 홀수 개가 입력 되었을때 동작한다.     
 •`len(sorted_list) %2 != 0` : 리스트 `%` 연산자로 계산해서 0이 아니면 홀수개이다    

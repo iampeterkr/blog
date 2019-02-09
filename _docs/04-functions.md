@@ -500,7 +500,7 @@ def deserves_another(n):
 
 **결과** 
 ``` 
-• skip
+#skip
 ```
 
 <br>
@@ -631,7 +631,7 @@ def by_three(number):
 
 **결과** 
 ``` 
-• skip
+#skip
 ```
 
 <br>
@@ -885,7 +885,7 @@ from math import sqrt
 
 **결과** 
 ``` 
-• skip
+#skip
 ```
 
 <br>
@@ -965,7 +965,7 @@ from math import *
 
 **결과** 
 ``` 
-• skip
+#skip
 ```
 
 <br>
@@ -1559,7 +1559,7 @@ def shut_down(s):
 
 **결과** 
 ``` 
-skip
+#skip
 ```
 
 <br>
@@ -1738,7 +1738,7 @@ def distance_from_zero(num):
 
 **결과** 
 ``` 
-• skip
+#skip
 ```
 
 

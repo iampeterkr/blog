@@ -35,7 +35,7 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 
 
 
-**설명:**     
+**설명:** [ ]          
 while 문은 if 문과 비슷하다.  while안의 조건절이 True 이면, 실행 되는 구조이다.    
 if문과 다른점은 조건절 안 값이 True 이면, 계속 실행된다는 것이다. if문은 조건절, 예를 들어 3번 실행하라고 조건을 주면 3번 실행하고 완료되지만, while문은 조건문 안의 값이 Ture(예를 들면, 0 < 5 )가 되면 무한대로 실행한다. 
 {: .notice--info}
@@ -52,7 +52,7 @@ if문과 다른점은 조건절 안 값이 True 이면, 계속 실행된다는 �
 Be careful not to alter or remove the count += 1 statement. If your program has no way to increase count, your loop could go on forever and become an infinite loop which could crash your computer/browser!    
 
 
-**설명:**     
+**설명:** [ ]          
 ① 반복문을 9(포함)까지 세는 프로그램으로 바꾸어라. (현재는 4까지 셈)   
 변수 `count` 가 증가하지 않으면, 무한대로 반복되는 프로그램이 될 수 있다. 이럴 경우 컴퓨터에 문제가 발생할 수 있으니 주의하자.  
 {: .notice--info}
@@ -66,7 +66,7 @@ Be careful not to alter or remove the count += 1 statement. If your program has 
 To make sure your loop counts up to 9, your condition should be count < 10 (or count <= 9).
 
 
-**설명:**    
+**설명:** [ ]         
 9까지만 실행되는 조건문을 만들어라. ( `count < 10 or count <= 9` )  
 
 {: .notice--info}
@@ -89,7 +89,7 @@ while count < 10:
   count += 1
 ```
 
-**설명:**     
+**설명:** [ ]          
 if 문은 1번 출력할 것이다. 그리고 while 문은 `count`가 9일때 까지 9번 출력될 것이다.  
 {: .notice--info}
 
@@ -134,7 +134,7 @@ The **condition** is the expression that decides whether the loop is going to co
 
 
 
-**설명:**     
+**설명:** [ ]          
 조건절(loop_condition)은 반복(loop)을 계속 실행할지 그만 둘지를 결정하는 표현이다. 다음 5단계로 진행된다.     
 ① 조건절의 변수값을 True 로 설정한다.       
 ② 조건절의 상태가 True 이면, 반복문 안으로 들어간다.    
@@ -153,7 +153,7 @@ The **condition** is the expression that decides whether the loop is going to co
 **①** See how the loop checks its condition, and when it stops executing? When you think you've got the hang of it, click Run to continue.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 실행이 멈췄을때, 반복문의 상태를 어떻게 확인 하는지 살펴보라. 예상한대로 실행되는지 Run을 실행해 보자. 
 {: .notice--info}
 
@@ -167,7 +167,7 @@ See how the source works.
 
 
 
-**설명:**     
+**설명:** [ ]          
 소스가 어떻게 동작하는지를 확인 하세요. 
 {: .notice--info}
 
@@ -186,7 +186,7 @@ while loop_condition:
   loop_condition = False
 ```
 
-**설명:**     
+**설명:** [ ]          
 변수 `loop_condition`을 True로 설정한다. 이후, while 문에 진입하고, `print "I am a loop"`를 출력하고, 변수 `loop_condition`을 False로 변경한다. 그리고 다시 while의 조건절 `loop_condition`이 True인지를 확인하고, 맞으면 while 의 블럭문이 실행되고, 아니면 while 문을 빠져나간다.  
 {: .notice--info}
 
@@ -209,7 +209,7 @@ Inside a while loop, you can do anything you could do elsewhere, including arith
 
 
 
-**설명:**    
+**설명:** [ ]         
 while 조건문 에서는 사칙 연산을 비롯하여 다른 곳에서 사용했던 어떤 것이든 들어갈수 있다.  
 {: .notice--info}
 
@@ -228,7 +228,7 @@ while 조건문 에서는 사칙 연산을 비롯하여 다른 곳에서 사용�
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① while 문을 사용하여 1부터 10까지의 값의 제곱근 값을 출력 되도록 하라.    
 • while문의 조건을 넣는 공간에 1부터 10까지 돌도록 채우라.       
 • while문 내부 실행 블럭에서는 `num ** 2`값을 출력 하여라.       
@@ -244,7 +244,7 @@ while 조건문 에서는 사칙 연산을 비롯하여 다른 곳에서 사용�
 Your condition will have to be num <= 10 (or num < 11) so that the loop will always print until num is 11.
 
 
-**설명:**     
+**설명:** [ ]          
 조건절 `num <= 10` or `num < 11` 로 10 이하 인지를 확인한다. 
 {: .notice--info}
 
@@ -265,7 +265,7 @@ while (num <= 10):  # Fill in the condition
   	num += 1
 ```
 
-**설명:**     
+**설명:** [ ]          
 • `num <= 10` 은 변수 `num`이 10이하 일때까지 실행하겠다는 의미이다.     
 • while 실행 블럭 안에 `num ** 2`는 제곱근을 구하는 방법이다.     
 • 마지막으로 `num +=1`은 변수 `num`을 증가시켜, while문 조건이 맞으면 while을 빠져 나가도록 한다.
@@ -300,7 +300,7 @@ A common application of a while loop is to check user input to see if it is vali
 
 
 
-**설명:**    
+**설명:** [ ]         
 주로 while 조건문은, 사용자가 입력한 값이 유효한지를 체크 하는 기능을 한다. 예를 들면, 당신은 사용자가 `y` or `n`를 입력하길 기대하는데, 사용자가 `7`을 입력하면, 당신은 다시 입력하는 단계로 되돌아 갈 것이다. 
 {: .notice--info}
 
@@ -314,7 +314,7 @@ A common application of a while loop is to check user input to see if it is vali
 **①** Fill in the loop condition so the user will be prompted for a choice over and over while choice does not equal 'y' and choice does not equal 'n'.
 
 
-**설명:**     
+**설명:** [ ]          
 ① rompt에서 입력값이 y 또느 n 만 입력되도록 하는 조건문을 되도록 조건절을 채워라. 만약 y, n 이외의 값이 입력되면 다시 입력하도록 반복되어야 한다.      
 {: .notice--info}
 
@@ -327,7 +327,7 @@ A common application of a while loop is to check user input to see if it is vali
 Remember, use the != operator to test if two things are different, such as choice != "y", and the and operator to check more than one thing, such as A and B.
 
 
-**설명:**    
+**설명:** [ ]         
 `!=`를 사용하여 두 값 이외에는 True 가 되지 않도록 해야 한다. `!="y"`는 비교값이 "y"가 같지 않는지를 비교하는 것이다. `and` 연산자는 앞에서 배운 바와 같이 `A and B`는 A, B 모두 True 이어야 한다.    
 {: .notice--info}
 
@@ -345,7 +345,7 @@ while choice != 'y' and choice != 'n':  # Fill in the condition (before the colo
   choice = raw_input("Sorry, I didn't catch that. Enter again: ")
 ```
 
-**설명:**     
+**설명:** [ ]          
 `choice != 'y' and choice !='n'`는 `choice`값이 'y`도 아니고, 'n'도 아닌경우다.
 {: .notice--info}
 
@@ -382,7 +382,7 @@ while count > 0:
 
 
 
-**설명:**     
+**설명:** [ ]          
 무한 loop는 프로그램을 빠져나가지 않고 계속 반복되는 것이다. 이렇게 되는데는 여러가지 이유가 있다.    
 ① 조건문 이 무조건 참일때 (`while 1 !=2 `)    
 ② 프로그램 로직상 false가 발생할수 없는 경우 
@@ -398,7 +398,7 @@ while count > 0:
 **①** The loop in the editor has **two problems**: it's missing a colon (a syntax error) and count is never incremented (logical error). The latter will result in an infinite loop, so be sure to **fix** both before running!
 
 
-**설명:**     
+**설명:** [ ]          
 ① 반복문이 2개의 문제가 있다. 하나는 문법적으로 `:`이 빠져 있고, 하나는 로직적으로 무한 반복이 되는 것이다. 프로그램을 실행하기 전에 고쳐라.  
 {: .notice--info}
 
@@ -411,7 +411,7 @@ while count > 0:
 Since count is never incremented (count += 1), count is always 0, and since zero is less than ten, 0 will be printed over and over again forever.
 
 
-**설명:**     
+**설명:** [ ]          
 변수 count가 증가하지 않으면 count 값은 0 이기에 항상 10보다 작게 되며, 이는 조건문이 True가 된다. 
 {: .notice--info}
 
@@ -431,7 +431,7 @@ while count < 10: # Add a colon
   count += 1
 ```
 
-**설명:**     
+**설명:** [ ]          
 변수 `count`가 0부터 시작되어 10보다 작을 때 까지 변수 `count`값을 출력되는 프로그램 이다. 변수 `count`값을 증가시켜줘서, 10번을 출력하고 프로그램을 빠져나온다. 
 {: .notice--info}
 
@@ -472,7 +472,7 @@ The difference here is that this loop is guaranteed to run at least once.
 
 
 
-**설명:**     
+**설명:** [ ]          
 `break`문을 만나면 현재 loop를 빠져나간다.    
 • while문의 조건절을 항상 True 인 경우에만 진행 되도록 지정한다. Ture가 아닐때 그 loop를 빠져나간다.    
 
@@ -490,7 +490,7 @@ The difference here is that this loop is guaranteed to run at least once.
 **①** See what the break does? Feel free to mess around with it (but make sure you don't cause an infinite loop)! Click Run when you're ready to continue.
 
 
-**설명:**     
+**설명:** [ ]          
 ① `break` 가 무슨일을 하는지 살펴보라. 가볍게 살펴보고, 실행 시켜 보아라.   
 {: .notice--info}
 
@@ -503,7 +503,7 @@ The difference here is that this loop is guaranteed to run at least once.
 skip
 
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -525,7 +525,7 @@ while True:
 
 ```
 
-**설명:**     
+**설명:** [ ]          
 변수 `count`가 10이 되면 강제로 break 문이 발동되어 loop를 빠져 나간다. 
 {: .notice--info}
 
@@ -562,7 +562,7 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 
 
 
-**설명:**     
+**설명:** [ ]          
 `while/else`는 python에 사용되는 독특한 구조이다.    
 `if/else` 의 `else`와 비슷하지만, `if/else`는 `if`문이 실행되면 `else`문이 실행되지 않지만, `while/else`는 `while`문이 flase 되어 빠져 나오면 반드시 `else`문이 동작된다.  실습을 통해서 알아보자. 
 {: .notice--info}
@@ -577,7 +577,7 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 **①** Click Run to see while/else in action!
 
 
-**설명:**     
+**설명:** [ ]          
 ① 실행해서, 소스가 어떻게 동작되는지를 확인해 보자.  
 {: .notice--info}
 
@@ -590,7 +590,7 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 skip
 
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -619,7 +619,7 @@ else:
   print "You win!"
 ```
 
-**설명:**     
+**설명:** [ ]          
 while문은 변수 `count`가 3보다 작을때까지 내부 블럭이 동작한다. 더불어 내부 블럭에는 변수 `num`이 5가 될때까지 실행된다.     
 while문을 빠져나오면, `else`문의 `print "You win!"`이 출력된다. 
 {: .notice--info}
@@ -668,7 +668,7 @@ Remember, **`raw_input`** turns user input into a **string**, so we use **`int()
 
 
 
-**설명:**     
+**설명:** [ ]          
 `while/else`문이 어떻게 사용되는지는 살펴 보자.     
 참고로, `raw_input()`내재 함수는 return 값이 문자열(string)이다. 즉, 입력을 숫자로 입력해도 내부적으로는 문자열로 취급된다. 그러므로 `int(raw_input("Your guess: "))`로 숫자로 바꿔 줘야 한다. 
 {: .notice--info}
@@ -693,7 +693,7 @@ Remember, **`raw_input`** turns user input into a **string**, so we use **`int()
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 변수 `guesses_left`가 0 보다 클 동안 사용자가 계속 질문하는 while 문을 만든다.    
 • 상단 처럼 질문하는 문을 만들자.    
 • 만약, 질문한 값이 맞으면 "You win!" 이라고 출력하고, break문으로 빠져나오자.     
@@ -712,7 +712,7 @@ This game will have a very similar structure to the example, but instead of losi
 The if should check if guess == random_number. If it does, then it's the winning guess!
 
 
-**설명:**     
+**설명:** [ ]          
 앞의 예제와 비슷하지만, break 문이 걸리는게 이겼을때 이다.     
 `if guess == random_number`인 경우가 승리하는 조건이다. 
 random값은 while 문 시작 하기전에 산출된다.  
@@ -745,7 +745,7 @@ else:
 
 ```
 
-**설명:**     
+**설명:** [ ]          
 미리 `random_number`값을 가진다.    
 변수 `guess_left`가 0보다 클동안 while문이 진행된다.     
 prompt 에서 `"Your guess: "`로 임의의 숫자를 입력 받는다. 입력받은 값은 변수 `guess`에 저장된다.      
@@ -784,7 +784,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 
 
-**설명:**     
+**설명:** [ ]          
 앞에서 배운 for 문은 또다른 반복문이다. 즉, while문을 대체할 수 있다. edit 창에 있는 소스는  0부터 9까지 반복적으로 돌면서 산출하는 소스이다.  
 {: .notice--info}
 
@@ -798,7 +798,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 **①** Make the loop print the numbers from 0 to 19 instead of 0 to 9.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 0부터 19까지 숫자를 출력하는 반복문으로 변경하라. (기존 0부터 9까지 산출하는 소스를 이용) 
 {: .notice--info}
 
@@ -811,7 +811,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 Make sure to change the number inside of **`range`**.
 
 
-**설명:**     
+**설명:** [ ]          
 `rang()` 함수를 사용하자. 
 {: .notice--info}
 
@@ -831,7 +831,7 @@ for i in range(20):
   
 ```
 
-**설명:**     
+**설명:** [ ]          
 `range(20)` 함수는 20 미만의 숫자를 0부터 20개 출력하는 것이다. 
 {: .notice--info}
 
@@ -875,7 +875,7 @@ This kind of loop is useful when you want to do something a **certain number of 
 
 
 
-**설명:**     
+**설명:** [ ]          
 for문은 내가 몇번 loop를 둘려야 하는지를 정확히 알때 사용한다. 예를 들면,
 {: .notice--info}
 
@@ -897,7 +897,7 @@ for문은 내가 몇번 loop를 둘려야 하는지를 정확히 알때 사용�
 Make sure to answer the prompts in the terminal when testing your code!
 
 
-**설명:**     
+**설명:** [ ]          
 ① for문을 사용하여 취미를 3번 묻는 것을 만들어라.     
 • 변수 `hobby`에 prompt에서 입력 받은 값을 저장하라.      
 • 입력 받은 `hobby`를 리스트 `hobbies`리스트에 추가하라.    
@@ -913,7 +913,7 @@ Make sure to answer the prompts in the terminal when testing your code!
 Your for loop should use range(3). You should use the **`raw_input()`** function to get info from the user and **`hobbies.append(hobby)`** to add the **`hobby`** to the list.
 
 
-**설명:**     
+**설명:** [ ]          
 • `raw_input()`함수를 사용하라.     
 • 리스트에 추가하는것은 `hobbies.append(hobby)`이다.
 {: .notice--info}
@@ -937,7 +937,7 @@ for num in range(3):
 print hobbies
 ```
 
-**설명:**     
+**설명:** [ ]          
 `for num in range(3):`로 3번 입력 받는다.     
 입력받은 값은 리스트 hobbies에 추가한다.    
 for 문을 빠져나오면, 리스트 hobbies를 출력한다. 
@@ -968,7 +968,7 @@ The example in the editor is almost plain English: "for each character c in thin
 
 
 
-**설명:**     
+**설명:** [ ]          
 loop 반복을 통하여 문자열을 문자 단위로 나눌수 있다.     
 edit 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소스이다. 
 {: .notice--info}
@@ -983,7 +983,7 @@ edit 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소�
 **①** Add a second for loop so that each character in **`word`** is printed one at a time.
 
 
-**설명:**     
+**설명:** [ ]          
 ① for 문을 추가하여, 변수 `word`에 담겨 있는 "eggs"를 하나씩 출력 되게 하여라.  
 {: .notice--info}
 
@@ -996,7 +996,7 @@ edit 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소�
 Use the example on lines 3 - 4 as a model.
 
 
-**설명:**     
+**설명:** [ ]          
 3,4라인에 있는 for문을 참조하라. 
 {: .notice--info}
 
@@ -1020,7 +1020,7 @@ for character in word:
   print character
 ```
 
-**설명:**     
+**설명:** [ ]          
 변수 `word`에 있는 문자열 "eggs!"를 알파벳 하나씩 읽어서 출력한다. 
 {: .notice--info}
 
@@ -1063,7 +1063,7 @@ The `,` character after our print statement means that our next print statement 
 
 
 
-**설명:**     
+**설명:** [ ]          
 for 문은 문자열 조작을 하기에 편리하다.    
 예제에서 "Marble"가 M a r b l e 로 출력된다.    
 여기에서 `print char ,` `,`는 문자열이 새로운 줄에서 출력되는 것이 아니라, 같은 라인에서 출력되는 것이다. 
@@ -1084,7 +1084,7 @@ for 문은 문자열 조작을 하기에 편리하다.
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 문자열에서 "A"를 걸러내는 것을 해 보자.    
 • 변수 `phrase`에 들어있는 문자열을 이용한다.    
 • 문자 중 "A" or "a"는 해당 문자를 "X"로 출력되게끔 바꿔라. `,`를 사용하여 한줄에 출력되게 하라.        
@@ -1107,7 +1107,7 @@ if c == "A" or c == "a":
 ```
 
 
-**설명:**     
+**설명:** [ ]          
 for 문을 돌면서 문자를 추출하고, 해당 문자가 "A" or "a"이면 "X"를 출력한다. 
 {: .notice--info}
 
@@ -1132,7 +1132,7 @@ for char in phrase:
 print
 ```
 
-**설명:** 
+**설명:** [ ]      
 {: .notice--info}
 
 
@@ -1159,7 +1159,7 @@ On each iteration, the variable **`num`** will be the next value in the list. So
 
 
 
-**설명:**    
+**설명:** [ ]         
 리스트를 사용할때 for 문이 많이 유용하다.     
 for 문으로 리스트 `numbers`의 값들을 하나식 꺼집어 낼 수 있다. 변수 `num`에는 그 꺼집어낸 값들이 하나씩 들어 있다. 
 {: .notice--info}
@@ -1176,7 +1176,7 @@ for 문으로 리스트 `numbers`의 값들을 하나식 꺼집어 낼 수 있�
 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 두번째 for 문을 통하여, `numbers`의 값들을 꺼내어 그 값의 제곱근을 구하여 출력하라.  
 {: .notice--info}
 
@@ -1189,7 +1189,7 @@ for 문으로 리스트 `numbers`의 값들을 하나식 꺼집어 낼 수 있�
 Use the **`**`** operator for exponentiation. The rest of the loop should be very similar to the first one.
 
 
-**설명:**     
+**설명:** [ ]          
 `**`를 사용하여 제곱근을 구하라. for문 사용법은 첫번째 for문과 비슷하다. 
 {: .notice--info}
 
@@ -1209,7 +1209,7 @@ for num in numbers:
   print num ** 2
 ```
 
-**설명:**     
+**설명:** [ ]          
 변수 `numbers`에 있는 값을 변수`num`에 넣고, `num`을 제곱근을 구하여 출력한다. 
 {: .notice--info}
 
@@ -1255,7 +1255,7 @@ for key in d:
 
 
 
-**설명:**     
+**설명:** [ ]          
 딕셔너리의 경우 반복문을 어떻게 사용하는지를 알아보자. 먼저 간단하게 이야기하면, key 로 값을 얻어 낼수 있다.  
 ① 먼저, key와 value로 구성된 딕셔너리를 만든다.      
 ② 딕셔너리의 key를 반복적으로 꺼낸다.    
@@ -1273,7 +1273,7 @@ x{: .notice--info}
 **①** On line 5, print the **key**, followed by a space, followed by the value associated with that key.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 5라인에서, key를 출력하고, 공백을 하나 뛰고 key의 value를 출력하시오.  
 {: .notice--info}
 
@@ -1292,7 +1292,7 @@ print greeting, name
 # prints "Hello World"
 ```
 
-**설명:**     
+**설명:** [ ]          
 `,`를 사용하면, 같은 줄에 출력 할 수 있다.
 {: .notice--info}
 
@@ -1312,7 +1312,7 @@ for key in d:
   print key, d[key]
 ```
 
-**설명:**     
+**설명:** [ ]          
 `key`는 'a'이고, 그 값은 `d[key]`로 나타 낼수 있다.  
 {: .notice--info}
 
@@ -1341,7 +1341,7 @@ A weakness of using this for-each style of iteration is that **you don't know th
 
 
 
-**설명:**    
+**설명:** [ ]         
 for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값의 인덱스는 알려주지 않는다. 다만 그 값만 뽑아 내 준다. 이러한 약점은 `enumerate`내재 함수를 사용하면 해당 값의 인덱스 값을 알수 있다. 
 {: .notice--info}
 
@@ -1355,7 +1355,7 @@ for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값�
 **①** We don't want the user to see things listed from index 0, since this looks unnatural. Instead, the items should appear to start at index 1. Modify the print statement to reflect this behavior. See the Hint for help. 
 
 
-**설명:**     
+**설명:** [ ]          
 ① 리스트의 index를 출력하면 0부터 출력된다. 그런데, 우리는 흔히 4가지중 하나를 고를때 리스트 번호를 1번 부터 번호를 매기는게 더 자연스럽다. 비록 index값이 0부터 출력되지만, print 할때는 1부터 하는것 처럼 보이게 하라.  
 {: .notice--info}
 
@@ -1368,7 +1368,7 @@ for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값�
 Instead of just printing index, print index + 1!
 
 
-**설명:**     
+**설명:** [ ]          
 출력할때, index 값에 +1을 하여라. 
 {: .notice--info}
 
@@ -1387,7 +1387,7 @@ for index, item in enumerate(choices):
   print index + 1, item
 ```
 
-**설명:**     
+**설명:** [ ]          
 index 값에 +1을 하여 1 부터 보이게 한다. 
 {: .notice--info}
 
@@ -1419,7 +1419,7 @@ It's also common to need to iterate over **two lists at once**. This is where th
 
 
 
-**설명:**     
+**설명:** [ ]          
 한번에 두개의 리스트를 반복적으로 사용해야 할 경우에, 우리는 `zip` 내장 함수를 이용할수 있다.     
 `zip`은 2개의 리스트를 쌍으로 만들어주고, 잛은 리스트의 기준에 맞춰진다. 
 {: .notice--info}
@@ -1434,7 +1434,7 @@ It's also common to need to iterate over **two lists at once**. This is where th
 **①** Compare each pair of elements and print the larger of the two.
 
 
-**설명:**     
+**설명:** [ ]          
 ① 각 원소들의 쌍을 비교하고, 두개중 더 큰것을 출력하라.  
 {: .notice--info}
 
@@ -1449,7 +1449,7 @@ It's also common to need to iterate over **two lists at once**. This is where th
 You have two options: Use an **`if/else`** statement to compare the two and print whichever is larger. Alternatively, you can use the **`max`** function that you learned in unit 4.
 
 
-**설명:**     
+**설명:** [ ]          
 list_a를 변수 a로 받고, list_b를 변수 b로 값을 받는다. 그리고 각각의 변수를 `if/else`를 사용하여 어느것이 더 큰지를 비교한다. (또는 내장함수 `max()`를 활용해도 된다.)
 {: .notice--info}
 
@@ -1469,7 +1469,7 @@ for a, b in zip(list_a, list_b):
     print max(a, b)
 ```
 
-**설명:**     
+**설명:** [ ]          
 각각의 리스트를 변수 a, b로 받아서, `max(a,b)`를 비교하여 큰값을 출력한다.
 {: .notice--info}
 
@@ -1498,7 +1498,7 @@ In this case, the **`else`** statement is executed after the **`for`**, but only
 
 
 
-**설명:**     
+**설명:** [ ]          
 `for` 반복절은 `else`를 가질수 있다. `for`문이 다 실행되고, 빠져나오면 마지막으로 `else`문이 실행된다. 단, `for`문에서 `break`가 발생되면, `else`문은 실행되지 않는다. 
 {: .notice--info}
 
@@ -1512,7 +1512,7 @@ In this case, the **`else`** statement is executed after the **`for`**, but only
 **①** Click Run to see how for and else work together.
 
 
-**설명:**     
+**설명:** [ ]          
 ① `Run`을 실행시켜, 소스가 어떻게 동작되는지 확인한다. 
 {: .notice--info}
 
@@ -1525,7 +1525,7 @@ In this case, the **`else`** statement is executed after the **`for`**, but only
 skip
 
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -1549,7 +1549,7 @@ else:
   print 'A fine selection of fruits!'
 ```
 
-**설명:**     
+**설명:** [ ]          
 `for`문을 돌면서, 리스트 `fruits`의 값이 "tomato" 이면 "A tomato is not a fruit!"가 출력되고 `break`가 실행된다. 이 경우는 `else`가 실행되지 않는다. 만약에 `for`문에서 `break`가 안걸리고 정상적으로 다 돌게 되면, `else`가 마지막에 실행된다.
 {: .notice--info}
 
@@ -1590,7 +1590,7 @@ As mentioned, the **`else`** block won't run in this case, since break executes 
 
 
 
-**설명:**     
+**설명:** [ ]          
 `break`문이 실행되면(즉, 'tomato'가 있으면), `for/else`의 `else`는 실행되지 않는다. 
 {: .notice--info}
 
@@ -1604,7 +1604,7 @@ As mentioned, the **`else`** block won't run in this case, since break executes 
 **①** Modify the code in the editor such that the **`for`** loop's **`else`** statement is executed.
 
 
-**설명:**     
+**설명:** [ ]          
 ① `for`문의 `else`구문이 동작되도록 소스를 수정하라.  
 {: .notice--info}
 
@@ -1617,7 +1617,7 @@ As mentioned, the **`else`** block won't run in this case, since break executes 
 You can change the contents of fruits or the contents of the for statement such that the loop doesn't break on "tomato".
 
 
-**설명:**     
+**설명:** [ ]          
 리스트 `fruits`의 내용이 'tomato'가 없게 하거나, `if`문에서 'tomato'가 일치 하지 않게 만들어, `break`문이 작동하지 않게 하면, `else`문이 실행된다.
 {: .notice--info}
 
@@ -1640,7 +1640,7 @@ else:
   print 'A fine selection of fruits!'
 ```
 
-**설명:**     
+**설명:** [ ]          
 이 경우엔, `break`문을 삭제 했다. `for`문이 실행되고, `else`문도 실행 된다.
 {: .notice--info}
 
@@ -1672,7 +1672,7 @@ To wrap up this lesson, let's create our own **`for/else`** statement from scrat
 
 
 
-**설명:**     
+**설명:** [ ]          
 지금까지 배운것을 종합하여, `for/else`문을 활용하여 자신만의 소스를 만들어 보자. 
 {: .notice--info}
 
@@ -1686,7 +1686,7 @@ To wrap up this lesson, let's create our own **`for/else`** statement from scrat
 **①** Build your **`for/else`** statement in the editor. Execution of the **`else`** branch is optional, but your code should print a string of your choice to the editor regardless.
 
 
-**설명:**     
+**설명:** [ ]          
 ①  `for/else`문을 사용하여 프로그램을 짜 보자. `else`문이 실행되고 안되고는 자유다. 하지만, 당신이 원하는대로 출력이 되어야 한다.  
 {: .notice--info}
 
@@ -1699,7 +1699,7 @@ To wrap up this lesson, let's create our own **`for/else`** statement from scrat
 skip
 
 
-**설명:**     
+**설명:** [ ]          
 skip
 {: .notice--info}
 
@@ -1719,7 +1719,7 @@ else:
     print "ok"
 ```
 
-**설명:**     
+**설명:** [ ]          
 리스트 `test`에 3개의 값을 넣고, `for/else`문을 돌린다. 변수 `x`에 리스트이 값을 하나씩 추출하여, 출력하고, `for` 문이 다 돌고 나면, 마지막에 `else`문이 실행된다.
 {: .notice--info}
 

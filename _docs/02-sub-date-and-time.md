@@ -56,10 +56,10 @@ Here we'll use `datetime` to print the date and time in a nice format.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-**Skip**
+* skip
 
 
-**설명:** [ Hint ] 
+**설명:** [ Hint ]     
 • skip
 {: .notice--info}
 
@@ -76,11 +76,13 @@ from datetime import datetime
 
 **설명:** [ Solution ]    
 • 클래스 datetim 으로 부터 datetime을 import 한다.
-{: .notice--info}
+{: .notice--info}    
 
 
-**결과**
-• skip
+**결과**  
+```
+#skip
+```
 <br>
 <br>    
 <br>    
