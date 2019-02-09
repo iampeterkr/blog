@@ -1071,7 +1071,10 @@ Now that you understand what functions are and how to `import` modules, let's lo
 You already know about some of the **built-in functions** we've used with strings, such as `.upper()`, `.lower()`, `str()`, and `len()`. These are great for doing work with strings, but what about something a little more analytic?
 
 
-**설명:** `built-in function`에 대하여 알아보자. 모듈을 선언하지 않고서도 우리가 자유롭게 사용하는 함수가 있었다. `.upper()`, `.lower()`등이 대표적인 `built-in function` 이다. 
+**설명:**     
+• Python 내장함수(built-in function) 에 대하여 알아보자.    
+• 내장함수는 import 을 선언하지 않고도 자유롭게 사용할수 있게 해준다.    
+• 대표적인 내장 함수는 이다. (i.g. .upper() , .lower() )
 {: .notice--info}
 
 
@@ -1081,10 +1084,11 @@ You already know about some of the **built-in functions** we've used with string
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** What do you think the code in the editor will do? Click `Run` when you think you have an idea.
+* What do you think the code in the editor will do? Click `Run` when you think you have an idea.
 
 
-**설명:** ① `Run`을 실행 시켰을때, 어떻게 동작되는지를 설명해 보라. 
+**설명:**    
+• Run 을 실행 후, 어떻게 동작 되는지를 설명해 보라. 
 {: .notice--info}
 
 
@@ -1094,9 +1098,10 @@ You already know about some of the **built-in functions** we've used with string
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-No answer !!
+skip
 
-**설명:** `No answer !!`
+**설명:**     
+skip
 {: .notice--info}
 
 <br>
@@ -1124,7 +1129,10 @@ smallest_number(-10, -5, 5, 10)
 distance_from_zero(-10)
 ```
 
-**설명:** 최대값, 최소값, 절대값 이 반환된다. 
+**설명:**     
+• 함수 biggest_number()는 입력된 argument 최대값을 반환한다.     
+• 함수 smallest_number()는 입력된 argument 최소값을 반환한다.    
+• 함수 distance_from_zero()는 입력된 argument 절대값을 반환한다.
 {: .notice--info}
 
 
@@ -1144,13 +1152,18 @@ distance_from_zero(-10)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 13. max()
+### 13. max()    
+
 The `max()` function takes any number of arguments and returns the largest one. ("Largest" can have odd definitions here, so it's best to use `max()` on **integers** and **floats**, where the results are straightforward, and not on other objects, like **strings**.)
 
 For example, max(1,2,3) will return 3 (the largest number in the set of arguments).
 
 
-**설명:** `max()`함수는 arguments중 가장 큰 값을 반환한다. 여기서는 integer와 floats만 있다는 전제하에서 가장 큰 수를 반환한다. (만약 string이 있다면 문자열의 값을 계산해서 문자열이 더 큰 수일도 있다. 하지만 여기서는 숫자만 이라는 전제하에 이야기 한다. ) 
+**설명:**     
+• Python 내장 함수 max() 는 arguments 중 가장 큰 값을 반환한다.    
+• 단, arguments 값이 integer와 floats 만 있다는 조건이다.
+• 만약 arguments 값이 문자열이면, 문자열 값을 계산해서 더 큰 값을 반환한다.    
+• 이 장에서는 숫자만 입력 된다는 조건에서 이야기 한다.
 {: .notice--info}
 
 
@@ -1160,10 +1173,11 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Try out the `max()` function on line `3` of the editor. You can provide any number of **integer** or **float** arguments to `max()`.
+* Try out the `max()` function on line `3` of the editor. You can provide any number of **integer** or **float** arguments to `max()`.
 
 
-**설명:** ① 숫자만 있다는 전제하에서 가장 큰수를 말한다.  
+**설명:**     
+• 숫자만 입력된다는 조건에서 가장 큰수를 반환한다.  
 {: .notice--info}
 
 
@@ -1173,9 +1187,10 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-No answer !!
+skip
 
-**설명:** `No answer !!`
+**설명:**    
+• skip
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1189,7 +1204,8 @@ maximum = max(4, 8, 15)
 print maximum
 ```
 
-**설명:** argument `4`, `8`, `15`중 가장 큰 값을 반환한다. 
+**설명:**     
+• Arguments 4, 8, 15 중 가장 큰 값을 반환한다. 
 {: .notice--info}
 
 
@@ -1206,7 +1222,8 @@ print maximum
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 14. min()
+### 14. min()    
+
 `min()` then returns the smallest of a given series of arguments.
 
 
