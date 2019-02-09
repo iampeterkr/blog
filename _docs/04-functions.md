@@ -896,7 +896,8 @@ skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 10. Universal Imports
+### 10. Universal Imports    
+
 Great! We've found a way to handpick the variables and functions we want from modules.
 
 What if we still want all of the variables and functions in a module but don't want to have to constantly type math.?
@@ -907,7 +908,11 @@ Universal import can handle this for you. The syntax for this is:
 from module import *
 ```
 
-**설명:** 우리는 `from`을 사용하여 원하는 모듈을 콕 찝어서 사용할 수 있다. 그런데, 만일 우리가 원하는 함수가 여러개일때는 해당 함수만 콕 찍을개 아니라, 두루두루 쓸수 있게 선언할수 있다. 그리고 `math.`도 필요 없다. `*` 를 활용하여  `from module import *` 라고 선언해 주면 된다. 
+**설명:**     
+• 우리는 from 명령어를 사용하여 원하는 모듈을 콕 찝어서 사용할 수 있다.    
+• 반대로, 여러 함수를 다양하게 사용할 수 있도록 선언도 할 수 있다.    
+• math. 의 ( . ) 도 필요 없고, 다양하게 사용하려면 다음 예와 같이 하면 된다.    
+• ( * ) 를 활용하여 from module import * 라고 선언하면 된다. 
 {: .notice--info}
 
 
@@ -917,10 +922,12 @@ from module import *
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Use the power of `from module import *` to import everything from the math module on line 3 of the editor.
+* Use the power of `from module import *` to import everything from the math module on line 3 of the editor.
 
 
-**설명:** ① `from module import *`의 강력한 기능을 사용하여, 3라인에 `math`모듈을 사용할수 있는 `import`를 선언해라.
+**설명:**      
+• from module import * 를 사용하여라.    
+• 라인 3 에 모듈 math 를 사용할 수 있게 import 를 선언해라.
 {: .notice--info}
 
 
@@ -933,7 +940,8 @@ from module import *
 ```python
 Just like this: from math import *
 ```
-**설명:** `from math import *`
+**설명:**     
+• from math import *  를 사용하라.
 {: .notice--info}
 
 <br>
@@ -949,14 +957,15 @@ Just like this: from math import *
 from math import *
 ```
 
-**설명:** `math` 모듈의 모든 함수/변수 기능을 사용하겠다고 선언한다. 
+**설명:**     
+• math 모듈의 모든 함수/변수 기능을 사용하겠다고 선언한다. 
 {: .notice--info}
 
 
 
 **결과** 
 ``` 
-#No answer !!
+skip
 ```
 
 <br>
@@ -967,7 +976,8 @@ from math import *
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 11. Here Be Dragons
+### 11. Here Be Dragons    
+
 Universal imports may look great on the surface, **but they're not a good idea for one very important reason** : they fill your program with a ton of variable and function names without the safety of those names still being associated with the module(s) they came from.
 
 If you have a function of your very own named `sqrt` and you `import math`, your function is safe: there is your sqrt and there is `math.sqrt`. If you do `from math import *`, however, you have a problem: namely, two different functions with the exact same name.
@@ -978,8 +988,17 @@ For these reasons, it's best to stick with either import module and type module.
 
 
 
-**설명:** `*`를 사용하여 해당 모듈의 모든것을 가져오면 참으로 편리해 보인다. 그런데, `*`는 묻지 않고 해당 모듈에 대한 모든것을 가져온다. 그런데, 내가 만든 모듈이 Python 내부에서 제공하는 모듈과 이름이 같으면 어떻게 될까? Python은 혼돈이 올것이다. 예를 들어 지금 실행되는 `sqrt()`함수가 내가 작성한 함수인지, 아니면 `math`모듈에서 제공하는 `sqrt()`인지를 알수가 없다. 그렇기에 향후, 우리는 
-좀더 정확하게 표현해야 한다. 내가 만든 함수는 `me.sqrt()`로 표현하고, `math`가 제공하는 함수는 `math.sqrt()`로 표현하는것이 프로그램 오류를 줄일수 있는 방법이다. 
+**설명:**    
+• ( * )를 사용하여 해당 모듈의 모든것을 가져오기에 정말 편리해 보인다.    
+• 그러나 단점도 있다. ( * ) 를 사용하면, 해당 모듈에 대한 모든것을 가져온다.    
+• 만약, 내가 만든 모듈이 Python 내부에서 제공하는 모듈과 이름이 같으면 어떻게 될까?     
+• Python은 혼돈이 올것이다.     
+• 지금 실행되는 함수 sqrt() 가 내가 작성한 함수인지 ?  
+• 아니면 모듈 math 에서 제공하는 함수 sqrt() 인지를 알수가 없다.     
+• 이러한 이유로, 우리는 좀더 정확하게 표현해야 한다.    
+• 내가 만든 함수는 me.sqrt() 로 표현한다.    
+• Python 모듈 math 가 제공하는 함수는 math.sqrt() 로 표현한다.    
+• 이렇게 하는것이 프로그램 오류를 줄일 수 있는 방법이다. 
 {: .notice--info}
 
 
@@ -989,11 +1008,13 @@ For these reasons, it's best to stick with either import module and type module.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** The code in the editor will show you everything available in the **math** module.
+* The code in the editor will show you everything available in the **math** module.
 
-Click `Run` to check it out (you'll see `sqrt`, along with some other useful things like `pi`, `factorial`, and `trigonometric` functions.
+* Click `Run` to check it out (you'll see `sqrt`, along with some other useful things like `pi`, `factorial`, and `trigonometric` functions.
 
-**설명:** ① editor에 있는 소스를 실행시켜보자. `math` 모듈에는 어떤 함수들이 포함되어 있는지 확인해 보자. 
+**설명:**    
+• Editor 창에 있는 소스를 실행 시켜보자.    
+• Python 모듈 math 에는 어떤 함수들이 포함되어 있는지 확인해 보자. 
 {: .notice--info}
 
 
@@ -1003,9 +1024,10 @@ Click `Run` to check it out (you'll see `sqrt`, along with some other useful thi
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-No answer
+skip
 
-**설명:** `No answer`
+**설명:**     
+skip
 {: .notice--info}
 
 <br>
@@ -1021,7 +1043,9 @@ everything = dir(math) # Sets everything to a list of things from math
 print everything # Prints 'em all!
 ```
 
-**설명:** `math` 모듈에 속해 있는 모든 함수들을 보여준다. `dir`명령어를 사용하면 볼수 있다. 
+**설명:**     
+• Python 모듈 math 에 속해 있는 모든 함수들을 보여준다.    
+• 함수 dir(math) 를 사용하면 볼 수 있다. 
 {: .notice--info}
 
 
@@ -1040,7 +1064,7 @@ print everything # Prints 'em all!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 
-### 12. On Beyond Strings
+### 12. On Beyond Strings     
 
 Now that you understand what functions are and how to `import` modules, let's look at some of the functions that are **built** in to Python (no modules required!).
 
