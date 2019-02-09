@@ -31,7 +31,7 @@ A function is a reusable section of code written to perform a specific task in a
 You might have considered the situation where you would like to reuse a piece of code, just with a few different values. Instead of rewriting the whole code, it's much cleaner to define a *function*, which can then be used repeatedly.
 
 
-**설명:**     
+**설명:** [ Learn ]    
 • 가끔식, 자주 사용되는 기능을 반복적으로 사용할 필요성이 있다.    
 • 코딩을 할때마다, 반복적으로 만들것이 아니라, 해당 기능을 함수로 만들어 놓고 재 사용하자.   
 • 코딩중 해당 기능이 필요 할때마다 불러서 사용하는 것이 현명하다.
@@ -53,7 +53,7 @@ You might have considered the situation where you would like to reuse a piece of
 
 
 
-**설명:**     
+**설명:** [ Instruction ]     
 • editor 창에 구현되어 있는 tax 함수와, tip 함수를 해석해 보자.    
 • 참고로, tax 함수는 세금을 계산해 주고, tip 함수는 팁을 계산해주는 함수이다.    
 • 각 함수가 어떻게 작동 되는지를 이해해 보자.    
@@ -69,7 +69,7 @@ You might have considered the situation where you would like to reuse a piece of
 
 * Remember how we used `%s` to print strings? We can use `%f` to print floats! (That is, numbers with decimals in them.)
 
-**설명:**    
+**설명:** [ Hint ]    
 • %s 는 문자열을 출력할때, %f 는 실수를 출력할때 사용한다. 
 {: .notice--info}
 
@@ -98,7 +98,7 @@ meal_with_tax = tax(meal_cost)
 meal_with_tip = tip(meal_with_tax)
 ```
 
-**설명:**     
+**설명:** [ Solution ]     
 • 변수 meal_cost 에 100 을 대입한다.    
 • tax 함수에 변수 meal_cost 를 대입하여 호출한다.    
 • 변수 meal_with_tex 에 tax 함수 호출한 결과값을 저장한다.    
@@ -131,7 +131,7 @@ Functions are defined with three components:
 def hello_world(): # There are no parameters
 ```
 
-**설명:**     
+**설명:** [ Learn ]     
 • 함수를 사용하기 위해선 다음 3가지 구성이 필요하다.     
 • 첫째, 사용할 함수 이름을 선언한다. 함수를 선언할때는 인자가 없다.   
 {: .notice--info}
@@ -143,7 +143,7 @@ def hello_world(): # There are no parameters
 """Prints 'Hello World!' to the console."""
 ```
 
-**설명:**     
+**설명:** [ Learn ]     
 • 둘째, 함수가 하는 기능을 문자열 주석( """ """ ) 처리한다.    
 {: .notice--info}
 
@@ -162,7 +162,7 @@ def hello_world():
 ```
 
 
-**설명:**     
+**설명:** [ Learn ]     
 • 셋째, 함수가 처리할 기능을 구현한다.     
 • 함수 'def hello_world()' 는 인자가 없으며, "Hello world"를 출력한다.
 {: .notice--info}
@@ -177,7 +177,7 @@ def hello_world():
 * Go ahead and create a function, spam, that prints the string "Eggs!" to the console. Don't forget to include a comment of your own choosing (enclose it in triple quotes!).
 
 
-**설명:**     
+**설명:** [ Instruction ]     
 • 함수 spam 을 만들어라.    
 • 함수 spam 은  "Eggs!" 를 출력하는 역할을 한다.    
 • 함수 spam 이 무슨 기능을 하는지 주석( """ """ ) 을 단다. 
@@ -192,7 +192,7 @@ def hello_world():
 * If you're stuck, look closely at the example function syntax in the instructional text. Remember: whitespace counts in Python!
 
 
-**설명:**     
+**설명:** [ Hint ]     
 • 앞장의 함수를 구성하는 3단계를 다시 학습해보자.     
 • 함수를 선언할때, 함수 끝에 ( : ) 를 주의 하자. 
 {: .notice--info}
@@ -218,7 +218,7 @@ spam()
 
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 함수 spam(): 을 선언한다.    
 • 함수 spam 내부에 어떤 기능을 처리 하는지를 문자열 주석 처리한다.    
 • 함수 spam 기능, 즉 "Eggs!" 를 출력하는 기능을 구현한다. 
@@ -243,7 +243,7 @@ Eggs!
 After defining a function, it must be *called* to be implemented. In the previous exercise, **spam()** in the last line told the program to look for the function called **spam** and execute the code inside it.
 
  
-**설명:**    
+**설명:** [ Learn ]   
 • 함수를 사용하기 위해선, 먼저 함수 선언을 해야 한다.    
 • 함수 선언이 되어 있으면, 해당 함수를 호출 한다.    
 • 함수는 호출을 받으면, 해당 함수가 실행하고, 그 실행 결과값을 처음 호출한 곳으로 반환한다.
@@ -260,7 +260,7 @@ After defining a function, it must be *called* to be implemented. In the previou
 * Call it on the number `10` (by putting 10 between the parentheses of `square()`) on line 10!
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 함수 squar() 를 호출하라.     
 • 호출할때, 인자 값으로 10 을 준다.(e.g. square(10) )
 {: .notice--info}
@@ -276,7 +276,7 @@ After defining a function, it must be *called* to be implemented. In the previou
 * You can do the same here with `square()`, only you'll need to put `10` in between the parentheses so square knows what number to... well, square.  
 
 
-**설명:**     
+**설명:** [ Hint ]    
 • 앞에서 배운 함수 spam() 은 인자 값이 없이 함수를 호출 하였다.    
 • 이 장에서는 인자값을 괄호 사이에 주어 함수를 호출하는것을 배워본다. 
 {: .notice--info}
@@ -301,7 +301,7 @@ def square(n):
 square(10)
 ```
 
-**설명:**    
+**설명:** [ Solution ]   
 • 함수 square(n) 를 정의한다.     
 • 함수 square(n) 는 parameter 값으로 n 을 입력 받는다. 
 • 함수 square(n) 는 입력 받은 값 n 을 제곱근한다.    
@@ -348,7 +348,7 @@ When defining a function, placeholder variables are called parameters.
 When using, or calling, a function, inputs into the function are called arguments.
 
 
-**설명:**    
+**설명:** [ Learn ]   
 • 함수 square(n) 에서 n 은 parameter 라고 부른다.    
 • 함수 square(10) 호출 할때, 값 10 을 arugument 라고 부른다. 
 {: .notice--info}
@@ -366,7 +366,7 @@ When using, or calling, a function, inputs into the function are called argument
 
 * Replace the `___s` with the **parameters** base and exponent and then call the `power` function with a base of `37` and an exponent of `4`.
 
-**설명:**    
+**설명:** [ Instruction ]   
 • 함수 power 가 어떻게 동작되는지를 먼저 확인하라.        
 • 함수 power 는 2개의 parameter 를 가진다. power(base, exponent)    
 • e.g. 37^4 = 1874161, base:37, exponent:4 , power(37,4) = 1874161
@@ -383,7 +383,7 @@ When using, or calling, a function, inputs into the function are called argument
 * Your parameters and arguments need to be separated by a comma, like this: (base, exponent).
 
 
-**설명:**     
+**설명:** [ Hint ]    
 • base:37, exponent:4 , power(base, exponent) 구조이다. 
 {: .notice--info}
 
@@ -402,7 +402,7 @@ def power(base, exponent):  # Add your parameters here!
 power(37, 4)  # Add your arguments here!
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 함수 power(37,4) 에 2개의 arguments로 37, 4를 입력하여 호출한다.    
 • 함수 power(base, exponent) 에 정의된 parameter 에 값이 전달된다.    
 • Parameter, base=37, exponent=4 에 값이 전달된다.     
@@ -437,7 +437,7 @@ def fun_two(m):
 ```
 
 
-**설명:**    
+**설명:** [ Learn ]   
 • 함수는 단순히 계산하고, 출력하는것 외에, 함수가 함수를 호출 할 수 있다.
 {: .notice--info}
 
@@ -453,7 +453,7 @@ def fun_two(m):
 * Change the body of `deserves_another` so that it always adds `2` to the output of `one_good_turn`.
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • Editor 창에 함수 2개가 있다. 함수 one_good_turn(), deserves_another().    
 • 함수 one_good_turn(n) 은 parameter 1개 n 을 받는다.    
 • 함수 one_good_turn(n) 은 n 값에 + 1 결과를 반환한다.    
@@ -472,7 +472,7 @@ def fun_two(m):
 
 * The n in the body of deserves_another should be replaced by a call to the function `one_good_turn(n)`.
 
-**설명:**    
+**설명:** [ Hint ]   
 • 함수 deserves_another(n) 의 return 문 변수 n 자리에 함수 one_good_turn(n)를 넣어라.
 {: .notice--info}
 
@@ -491,7 +491,7 @@ def deserves_another(n):
   return one_good_turn(n) + 2
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 함수 deserves_another(n) 의 return 문에서,함수 one_good_turn(n)을 호출한다.    
 • 함수 one_good_turn(n) 결과값에 + 2를 한 결과값을 반환한다.
 {: .notice--info}
@@ -529,7 +529,7 @@ The example above is just there to help you remember how functions are structure
 
 Don't forget the **colon** at the end of your function definition!
 
-**설명:**     
+**설명:** [ Learn ]    
 • 함수를 어떻게 호출하고 처리 되는지 다시한번 상기하자.     
 • 함수 뒤에 ( : ) 을 생략하지 않도록 주의하자. 
 {: .notice--info}
@@ -544,7 +544,7 @@ Don't forget the **colon** at the end of your function definition!
 * First, def a function called `cube` that takes an **argument** called `number`.     
 * Don't forget the parentheses and the **colon**!
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 함수 cube() 를 만들어라.    
 • 함수 cube(number) 는 parameter 로 number 를 가진다.    
 • 함수 cube(number): 끝에 ( : ) 를 생략하지 않도록 주의하라.
@@ -552,7 +552,7 @@ Don't forget the **colon** at the end of your function definition!
 
 * Make that function return the `cube` of that `number` (i.e. that number multiplied by itself and multiplied by itself once again).
 
-**설명:**     
+**설명:** [ Instruction ]     
 • 함수 cube(number) 를 만들어라.    
 • 함수 cube(number) 는 number 의 argument 값을 다음과 같이 계산한다.    
 • 받은 number 의 값을 두번 곱한 결과값(number * number * number)을 반환한다.   
@@ -561,14 +561,14 @@ Don't forget the **colon** at the end of your function definition!
 
 * Define a second function called `by_three` that takes an argument called `number`.
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 함수 by_three(number) 를 만들어라.   
 • 함수 by_three(number) 는 parameter로 number 를 가진다.  
 {: .notice--info}
 
 * if that `number` is divisible by `3`, `by_three` should call `cube(number)` and return its result. Otherwise, `by_three` should return **False**.
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 함수 by_three(number) 는 다음과 같이 동작한다.    
 • 3 으로 나누어 떨어지면 함수 cube(number) 를 호출한다. 그리고 그 결과값을 출력한다.    
 • 3 으로 나누어 떨어지지 않으면, False를 반환한다. 
@@ -576,7 +576,7 @@ Don't forget the **colon** at the end of your function definition!
 
 * Don't forget that `if` and `else` statements need a `:` at the end of that line!
 
-**설명:**     
+**설명:** [ Instruction ]    
 • if 문과 else 문의 끝에는 꼭 ( : ) 가 존재한다.
 {: .notice--info}
 
@@ -597,7 +597,7 @@ else:
 
 * Both branches of the `if/else` statement in `by_three` need to have return statements in them (that's three returns total, two for `by_three` and one for `cube`).
 
-**설명:**     
+**설명:** [ Hint ]    
 • 연사자 ( % ) 를 사용하여 함수의 기능을 처리하라.    
 • if, else 문의 끝에는 항상 ( : ) 가 있어야 한다.
 {: .notice--info}
@@ -620,7 +620,7 @@ def by_three(number):
     return False
 ```
 
-**설명:**    
+**설명:** [ Solution ]   
 • 함수 by_three(number) 는 다음과 같이 처리하는 기능이 있다.    
 • if 문에서는 number 에 전달된 값이 3 으로 나누어 떨어지면, 함수 cube()를 호출한다.    
 • 그리고, 그 결과 값을 반환한다.    
@@ -648,7 +648,7 @@ Remember `import` this from the first exercise in this course? That was an examp
 
 
 
-**설명:**     
+**설명:** [ Learn ]    
 • 이 장에서는 import 모듈을 배운다.    
 • 모듈 import 는 미리 만들어진 변수, 함수들을 묶어둔 것이다.    
 • 명령어 import 는 이것들을 호출하여 사용하는 것이다. 
@@ -671,7 +671,7 @@ print sqrt(25)
 * Instead, it throws an error.
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • Python에서는 미리 만들어 놓은 함수들을 묶어서 정의해 둔 것이 있다.     
 • 그 중 예를 하나 들면, 함수 sqrt()  이다.     
 • e.g. sqrt(5) argument 값 5 의 루트 값을 구하는 함수이다.    
@@ -690,7 +690,7 @@ print sqrt(25)
 
 * skip 
 
-**설명:**    
+**설명:** [ Hint ]   
 skip 
 {: .notice--info}
 
@@ -707,7 +707,7 @@ skip
 print sqrt(25)
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • sqrt(25)의 결과 값을 출력하면 Error 가 발생한다. 
 {: .notice--info}
 
@@ -735,7 +735,7 @@ Did you see that? Python said: **NameError: name 'sqrt' is not defined**. Python
 There is a Python module named math that includes a number of useful variables and functions, and `sqrt()` is one of those functions. In order to access math, all you need is the import keyword. When you simply import a module this way, it's called a generic `import`.
 
 
-**설명:**     
+**설명:** [ Learn ]    
 • "NameError: name 'sqrt' is not defined" 는 해당 함수를 사용했지만, 그 함수를 찾지 못했을 경우 나타내는 Error 메시지 이다.     
 • Python 은 각종 수학 관련 함수들을 모아놓은 모듈들의 묶음이 있다.    
 • 이 모듈에는 sqrt() 함수도 속해 있다.    
@@ -758,7 +758,7 @@ There is a Python module named math that includes a number of useful variables a
   * Then hit `Run` to see what Python now knows.
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 아래와 같이 2가지 작업을 실행하라.    
 • 첫번째, 2번 라인에 import math 를 선언한다.    
 • sqrt() 함수를 사용하기 위해선 import 한 math.sqrt() 라고 사용해야 한다.    
@@ -774,7 +774,7 @@ There is a Python module named math that includes a number of useful variables a
 
 * Make sure you  `import math` (no colons or anything like that), and make sure you ask Python to print `math.sqrt(25)`.
 
-**설명:**    
+**설명:** [ Hint ]   
 • import math 를 선언하여 math 모듈을 불러온다.    
 • math.sqrt(25) 를 사용한다. 
 {: .notice--info}
@@ -793,7 +793,7 @@ print math.sqrt(25)
 
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 수학 관련 내장된 함수를 사용하기 위해선, import math 를 선언한다.    
 • 사용 방법은 예제와 같다.(e.g. math.sqrt(25) )
 {: .notice--info}
@@ -830,7 +830,7 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 
 
 
-**설명:**    
+**설명:** [ Learn ]   
 • sqrt()를 사용하기 위해선, import math 를 선언해 주고,  math.sqrt()를 사용했다.    
 • math.sqrt() 를 사용할 수도 있지만, 다른 방법도 있다.    
 • import 선언시 좀더 구체적으로 math 모듈에 대하여 자세히 선언해 주면 된다.    
@@ -848,7 +848,7 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 * Let's import only the `sqrt` function from `math` this time. (You don't need the `()` after `sqrt` in the `from math import sqrt` bit.)
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • from math import sqrt 에서 함수 sqrt 뒤에 '()'를 안붙여 줘도 된다.     
 • 함수 sqrt 를 선언해 보자. 
 {: .notice--info}
@@ -862,7 +862,7 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 
 * Remember: from module import function! (Don't include the parentheses here—just the function name, e.g. sqrt.)
 
-**설명:**     
+**설명:** [ Hint ]    
 • from moudle import sqrt 로 선언한다.
 {: .notice--info}
 
@@ -877,7 +877,7 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 from math import sqrt
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 모듈 math 에서 함수 sqrt 를 사용 하겠다는 것을 명확하게 선언해 준다. 
 {: .notice--info}
 
@@ -908,7 +908,7 @@ Universal import can handle this for you. The syntax for this is:
 from module import *
 ```
 
-**설명:**     
+**설명:** [ Learnn ]    
 • 우리는 from 명령어를 사용하여 원하는 모듈을 콕 찝어서 사용할 수 있다.    
 • 반대로, 여러 함수를 다양하게 사용할 수 있도록 선언도 할 수 있다.    
 • math. 의 ( . ) 도 필요 없고, 다양하게 사용하려면 다음 예와 같이 하면 된다.    
@@ -925,7 +925,7 @@ from module import *
 * Use the power of `from module import *` to import everything from the math module on line 3 of the editor.
 
 
-**설명:**      
+**설명:** [ Instruction ]     
 • from module import * 를 사용하여라.    
 • 라인 3 에 모듈 math 를 사용할 수 있게 import 를 선언해라.
 {: .notice--info}
@@ -940,7 +940,7 @@ from module import *
 ```python
 Just like this: from math import *
 ```
-**설명:**     
+**설명:** [ Hint ]    
 • from math import *  를 사용하라.
 {: .notice--info}
 
@@ -957,7 +957,7 @@ Just like this: from math import *
 from math import *
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • math 모듈의 모든 함수/변수 기능을 사용하겠다고 선언한다. 
 {: .notice--info}
 
@@ -988,7 +988,7 @@ For these reasons, it's best to stick with either import module and type module.
 
 
 
-**설명:**    
+**설명:** [ Learn ]    
 • ( * )를 사용하여 해당 모듈의 모든것을 가져오기에 정말 편리해 보인다.    
 • 그러나 단점도 있다. ( * ) 를 사용하면, 해당 모듈에 대한 모든것을 가져온다.    
 • 만약, 내가 만든 모듈이 Python 내부에서 제공하는 모듈과 이름이 같으면 어떻게 될까?     
@@ -1012,7 +1012,7 @@ For these reasons, it's best to stick with either import module and type module.
 
 * Click `Run` to check it out (you'll see `sqrt`, along with some other useful things like `pi`, `factorial`, and `trigonometric` functions.
 
-**설명:**    
+**설명:** [ Instruction ]   
 • Editor 창에 있는 소스를 실행 시켜보자.    
 • Python 모듈 math 에는 어떤 함수들이 포함되어 있는지 확인해 보자. 
 {: .notice--info}
@@ -1026,7 +1026,7 @@ For these reasons, it's best to stick with either import module and type module.
 
 skip
 
-**설명:**     
+**설명:** [ Hint ]    
 skip
 {: .notice--info}
 
@@ -1043,7 +1043,7 @@ everything = dir(math) # Sets everything to a list of things from math
 print everything # Prints 'em all!
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • Python 모듈 math 에 속해 있는 모든 함수들을 보여준다.    
 • 함수 dir(math) 를 사용하면 볼 수 있다. 
 {: .notice--info}
@@ -1071,7 +1071,7 @@ Now that you understand what functions are and how to `import` modules, let's lo
 You already know about some of the **built-in functions** we've used with strings, such as `.upper()`, `.lower()`, `str()`, and `len()`. These are great for doing work with strings, but what about something a little more analytic?
 
 
-**설명:**     
+**설명:** [ Learn ]    
 • Python 내장함수(built-in function) 에 대하여 알아보자.    
 • 내장함수는 import 을 선언하지 않고도 자유롭게 사용할수 있게 해준다.    
 • 대표적인 내장 함수는 이다. (i.g. .upper() , .lower() )
@@ -1087,7 +1087,7 @@ You already know about some of the **built-in functions** we've used with string
 * What do you think the code in the editor will do? Click `Run` when you think you have an idea.
 
 
-**설명:**    
+**설명:** [ Instruction ]   
 • Run 을 실행 후, 어떻게 동작 되는지를 설명해 보라. 
 {: .notice--info}
 
@@ -1100,7 +1100,7 @@ You already know about some of the **built-in functions** we've used with string
 
 skip
 
-**설명:**     
+**설명:** [ Hint ]    
 skip
 {: .notice--info}
 
@@ -1129,7 +1129,7 @@ smallest_number(-10, -5, 5, 10)
 distance_from_zero(-10)
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 함수 biggest_number()는 입력된 argument 최대값을 반환한다.     
 • 함수 smallest_number()는 입력된 argument 최소값을 반환한다.    
 • 함수 distance_from_zero()는 입력된 argument 절대값을 반환한다.
@@ -1159,7 +1159,7 @@ The `max()` function takes any number of arguments and returns the largest one. 
 For example, max(1,2,3) will return 3 (the largest number in the set of arguments).
 
 
-**설명:**     
+**설명:** [ Learn ]    
 • Python 내장 함수 max() 는 arguments 중 가장 큰 값을 반환한다.    
 • 단, arguments 값이 integer와 floats 만 있다는 조건이다.
 • 만약 arguments 값이 문자열이면, 문자열 값을 계산해서 더 큰 값을 반환한다.    
@@ -1176,7 +1176,7 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 * Try out the `max()` function on line `3` of the editor. You can provide any number of **integer** or **float** arguments to `max()`.
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • Editor 창의 라인 3 에서 함수 max()를 사용하라.    
 • 숫자만 입력된다는 조건에서 가장 큰수를 반환한다.  
 {: .notice--info}
@@ -1190,7 +1190,7 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 
 skip
 
-**설명:**    
+**설명:** [ Hint ]    
 • skip
 {: .notice--info}
 
@@ -1205,7 +1205,7 @@ maximum = max(4, 8, 15)
 print maximum
 ```
 
-**설명:**     
+**설명:** [ Solution]    
 • Arguments 4, 8, 15 중 가장 큰 값을 반환한다. 
 {: .notice--info}
 
@@ -1229,7 +1229,7 @@ print maximum
 
 
 
-**설명:**     
+**설명:** [ Learn ]     
 • Python 내장 함수 min() 는 arguments 중 가장 작은 값을 반환한다.    
 • 단, arguments 값이 integer와 floats 만 있다는 조건이다.
 • 만약 arguments 값이 문자열이면, 문자열 값을 계산해서 더 작은 값을 반환한다.    
@@ -1246,7 +1246,7 @@ print maximum
 * Go ahead and set minimum equal to the `min()` of any set of integers or floats you'd like.
 
 
-**설명:**    
+**설명:** [ Instruction ]   
 • 함수 min()를 사용하여라.    
 • Arguments 로 어떤값을 넣어도 가장 작은 값을 반환한다.    
 • 단, arguments는 숫자만 입력한다.
@@ -1261,7 +1261,7 @@ print maximum
 
 skip
 
-**설명:**    
+**설명:** [ Hint ]   
 • skip
 {: .notice--info}
 
@@ -1281,7 +1281,7 @@ minimum = min(4, 8, 15)
 print minimum
 ```
 
-**설명:**    
+**설명:** [ Solution ]   
 • 함수 min()를 사용하여, 입력값 4, 8, 15 중 가장 작은 값을 반환한다.
 {: .notice--info}
 
@@ -1306,7 +1306,7 @@ print minimum
 The `abs()` function returns the absolute value of the number it takes as an argument—that is, that **number's distance from 0** on an imagined number line. For instance, 3 and -3 both have the same absolute value: 3. The `abs()` function **always returns a positive value**, and unlike `max()` and `min()`, it only takes a **single number**.
 
 
-**설명:**    
+**설명:** [ Learn ]   
 • 함수 abs() 는 절대값을 구하는 함수이다.    
 • 절대값이란? 입력값이 0 에서 얼마나 떨어져 있는지를 구하는 것이다.    
 • -3 과 3 은 절대값이 같다. 같은 값이 반환된다.     
@@ -1323,7 +1323,7 @@ The `abs()` function returns the absolute value of the number it takes as an arg
 * Set absolute equal to the absolute value of -42 on line 1.
 
 
-**설명:**    
+**설명:** [ Instruction ]   
 • Argument 값으로 -42 를 입력하고, -42 의 절대값을 구하라. 
 {: .notice--info}
 
@@ -1353,7 +1353,7 @@ absolute = abs(-42)
 print absolute
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • abs(-42) 는 절대값 42 를 반환한다.
 {: .notice--info}
 
@@ -1390,7 +1390,7 @@ Python will output:
 
 
 
-**설명:**    
+**설명:** [ Learn ]   
 • 함수 type() 는 arguments의 값의 type 이 무엇인지 반환해 준다.    
 • type(42) 를 호출하면, arguments 42 가 integer type 임을 알려준다. 
 {: .notice--info}
@@ -1406,7 +1406,7 @@ Python will output:
 * You can pick any values on which to call `type()`, so long as they produce one of each.
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 함수 type() 를 사용하여라.     
 • 입력된 argumetns 값이 interger, float, string type 이 출력 되도록 하라.
 {: .notice--info}
@@ -1420,7 +1420,7 @@ Python will output:
 
 * Here's a freebie if you're a bit stuck: print type('I have to push the pram a lot') will cover your str string requirement.    
 
-**설명:**     
+**설명:** [ Hint ]    
 • type('i am a boy') 은 argument 'i am a boy' 의 값이 string 임을 알려준다.    
 • 이것을 출력하면, "<type 'str'>" 라고 출력된다.
 {: .notice--info}
@@ -1441,7 +1441,7 @@ print type(3.14)
 print type('hello')
 ```
 
-**설명:**    
+**설명:** [ Solution ]   
 • 함수 type() 은 argument의 값이 어떤 type 인지를 알려준다.    
 • type(108) 은 argument 가 integer 이므로 "<type 'int'>"를 출력한다.    
 • type(3.14) 은 argument 가 float 이므로 "<type 'float'>"를 출력한다.    
@@ -1483,7 +1483,7 @@ else:
 Again, the example code above is just there for your reference!
 
 
-**설명:**     
+**설명:** [ Learn ]    
 • 위 함수를 설명해 보자.    
 • 함수 speak()는 arguments 의 값을 반환한다.    
 • 조건문 if/elif/else의 조건절에 따라 함수 speak()가 호출된다.
@@ -1506,7 +1506,7 @@ Again, the example code above is just there for your reference!
 
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 함수 shut_down(s) 을 정의한다. arguments로 s 를 가진다.    
 • 함수 뒤에는 ( : ) 가 있어야 하는것을 잊지 말자.    
 • 함수 shut_down() 는 argument가 "yes"가 입력시, "Shuttingdown"을 출력한다.    
@@ -1526,7 +1526,7 @@ Again, the example code above is just there for your reference!
 
 * Also, ensure your function returns the above values rather than printing them.
 
-**설명:**     
+**설명:** [ Hint ]    
 • return 문을 실행하기 전에 먼저 출력( print ) 해 보아라.    
 • 그렇게 하면, 입력된 값이 무엇인지를 정확히 알 수 있다.
 {: .notice--info}
@@ -1548,7 +1548,7 @@ def shut_down(s):
     return "Sorry"
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 함수 shut_down(s) 는 arguments 값 s 를 가진다.   
 • 입력값 s 가 "yes" 이면, 문자열 "Shutting down"    를 반환한다.    
 • 입력값 s 가 "no"  이면, 문자열 "Shutting aborted" 를 반환한다.    
@@ -1575,7 +1575,7 @@ skip
 Good work! Now let's see what you remember about importing modules (and, specifically, what's available in the `math` module).
 
 
-**설명:**     
+**설명:** [ Learn ]    
 • 이 장에서는 import 모듈에 대하여 배워보자. 
 {: .notice--info}
 
@@ -1590,7 +1590,7 @@ Good work! Now let's see what you remember about importing modules (and, specifi
 * Call its `sqrt` function on the number `13689` and `print` that value to the console.
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 모듈 math 를 import 선언하여라.    
 • 함수 sqrt() 를 사용하여라.    
 • Arguments 값을 13689 를 입력하여라.     
@@ -1612,7 +1612,7 @@ from math import sqrt
 
 * You can figure out the rest. We believe in you!
 
-**설명:**     
+**설명:** [ Hint ]    
 • 함수 sqrt() 를 사용하는 방법은 3가지 이다.    
 • 첫째, 직접 함수 sqrt()를 만든다.   
 • 둘째, 모듈 math 를 import 한다.    
@@ -1632,7 +1632,7 @@ import math
 print math.sqrt(13689)
 ```
 
-**설명:** 
+**설명:** [ Solution ]
 {: .notice--info}
 
 
@@ -1664,7 +1664,7 @@ abs(2) # 2
 abs(-2) # 2
 ```
 
-**설명:**     
+**설명:** [ Learn ]    
 • 내장함수(built-in function) 을 복습해 본다.   
 • 함수 is_numeric(num) 은 arguments 값 num 을 받는다.    
 • 함수 type(num)을 사용하여, 입력값 num 의 type 값을 반환한다.    
@@ -1686,7 +1686,7 @@ abs(-2) # 2
 
 
 
-**설명:**     
+**설명:** [ Instruction ]    
 • 함수 distance_from_zero() 를 만들어라.    
 • Arguments 명은 자신이 좋아하는 이름으로 짓는다.    
 • Arguments 의 type 이 int or float 이면, 입력된 값의 절대값을 출력한다.    
@@ -1709,7 +1709,7 @@ if type(thing) == int or type(thing) == float:
 
 * Make sure your capitalization and punctuation are exactly as shown!
 
-**설명:**     
+**설명:** [ Hint ]    
 • Arguments 의 type을 알려주는 함수 type() 를 사용하여라.    
 • 함수 type() 를 사용하여 입력갑이 int or floast 인지를 알수 있다. 
 {: .notice--info}
@@ -1729,7 +1729,7 @@ def distance_from_zero(num):
     return "Nope"
 ```
 
-**설명:**     
+**설명:** [ Solution ]    
 • 함수 distance_from_zero(num) 은 arguments 값 num 을 가진다.    
 • 입력값 num 의 type 이 int 이거나 float 이면 절대값 abs(num)을 반환한다.    
 • 그 외에는 문자열 "Nope"가 반환된다.
