@@ -17,7 +17,7 @@ Hard day at work? Rough day at school? Take a load off with a programming vacati
 
 
 **설명:** [ 학습방향 ]     
-함수에 대해서 좀 더 연습해 보자.
+이 장에서는 여행을 주제로, 관련 함수를 만들어 보면서, 함수에 대하여 친숙해 지자.
 {: .notice--info}     
      
 
@@ -47,6 +47,7 @@ In the example above:
 
 
 **설명:** [ Learn ]    
+• Ch1. Before We Begin 는 내장함수(built-in) max()에 대해 배운다.    
 • 함수 bigger()  는 arguments 값으로 first 와 second 를 가진다.    
 • 그리고 built-in 함수인 max() 사용하여 first 와 second  두 값을 비교한다.    
 • 함수 max() 는 두 값을 비교하여 큰 값을 출력한다.    
@@ -132,6 +133,7 @@ Let's use functions to calculate your trip's costs.
 
 
 **설명:** [ Learn ]    
+• Ch2. Planning Your Trip 에서는 함수 wages() 를 만들어 보자.    
 • 여행중 예상되는 비용을 계산해주는 프로그램을 짠다고 가정해 보자.     
 • 여행 비용을 계산해주는 함수 wages() 를 위와 같이 만들수 있다.    
 {: .notice--info}
@@ -200,7 +202,7 @@ def hotel_cost(nights):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font>    
 
-### 3.  Getting There    
+### 3. Getting There    
 
 You're going to need to take a plane ride to get to your location.
 
@@ -220,6 +222,7 @@ def fruit_color(fruit):
 
 
 **설명:** [ Learn ]    
+• Ch3. Getting There 에서는 함수내에 if/elif/else 조건절을 만들어 보자.    
 • 함수 fruit_color(fruit) 는 문자열 타입의 arguments 값인 fruit 를 입력받는다.    
 • 입력받은 fruit 와 일치하는 문자열을 찾아서, 색깔 문자열을 반환한다.
 {: .notice--info}
@@ -319,17 +322,22 @@ def finish_game(score):
 
 In the above example, we first give the player 10 tickets for every point that the player scored. Then, we check the value of score multiple times.
 
-① First, we check if score is **greater than** or **equal** to `10`. If it is, we give the player `50` **bonus** tickets.    
+* ① First, we check if score is **greater than** or **equal** to `10`. If it is, we give the player `50` **bonus** tickets.    
 
-② If score is just **greater than** or **equal** to `7`, we give the player `20` **bonus** tickets.    
+* ② If score is just **greater than** or **equal** to `7`, we give the player `20` **bonus** tickets.    
 
-③ At the end, we return the total number of tickets earned by the player.
+* ③ At the end, we return the total number of tickets earned by the player.    
+
 Remember that an `elif` statement is only checked if all preceding `if/elif` statements fail.
 
 
-**설명:** [ Learn ]      ① 입력된 `bonus` 점수가  `10` 이상이면 보너스로 티켓을 50장 더주고, 
-② 점수가 `7`이상이면, 보너스로 티켓을 20장 더주는 역할을 하는 함수이다.  
-③ 최종적으로 전체 티켓 수를 반환한다. `elif`문은 `if`문이 실패하면 다음을 점검한다.   
+**설명:** [ Learn ]    
+• Ch4. Transportation 에서는 또 다른 함수 finish_game() 를 만들어 보자.     
+• 상기 함수는 점수 당 티켓 10장을 주는 함수이다.    
+• ① 입력된 source 점수가  10 이상 이면 보너스로 티켓을 50장 더 지급한다.    
+• ② 입력된 source 점수가   7 이상 & 10 미만이면, 보너스로 티켓을 20장 더 지급한다.    
+• ③ 최종적으로 전체 티켓 수를 반환한다.     
+• elif 문은 if 문이 실패하면 다음을 확인 한다.   
 {: .notice--info}
 
 
@@ -339,24 +347,30 @@ Remember that an `elif` statement is only checked if all preceding `if/elif` sta
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Below your existing code, define a function called `rental_car_cost` with an argument called `days`.
+* Below your existing code, define a function called `rental_car_cost` with an argument called `days`.
 
-Calculate the cost of **renting** the car:
+* Calculate the cost of **renting** the car:
 
-* Every day you rent the car costs `$40`.
-* if you rent the car for `7` or **more days**, you get `$50` **off** your total.
-* *Alternatively* (elif), if you rent the car for `3` or **more days**, you get `$20` **off** your total.
+* Every day you rent the car costs `$40`.    
+
+* if you rent the car for `7` or **more days**, you get `$50` **off** your total.    
+
+* *Alternatively* (elif), if you rent the car for `3` or **more days**, you get `$20` **off** your total.    
+
 * You **cannot** get **both** of the above **discounts**.
-Return that cost.
+Return that cost.    
 
-Just like in the example above, this check becomes simpler `if` you make the **7-day** check an if statement and the **3-day** check an `elif` statement.
+* Just like in the example above, this check becomes simpler `if` you make the **7-day** check an if statement and the **3-day** check an `elif` statement.
 
 
-**설명:** [ ]      ① 함수 `rental_car_cost(days)`를 만들어라. 
-* 1일 렌트비용은 `$140`이다. 
-* 7일 이상 렌트시 총 비용에서 `$50`를 할인해 주고,
-* 3일 이상 렌트시 총 비용에서 `$20`를 할인해 준다. 
-* 2가지 모두 혜택을 받을수는 없고, 프로그램 구현시, `$50`는 `if`문을 사용하고, `30`은 `elif`문을 사용하여 구현하라. 
+**설명:** [ Instruction ]    
+• 함수 rental_car_cost(days) 를 만들어라. 이 함수는 차 렌트 비용을 계산해준다.   
+• 1일 렌트 비용은 $40 이다. 
+• 7일 이상 렌트시 총 비용에서 $50 를 할인해 준다.    
+• 3일 이상 7일 미만 렌트시 총 비용에서 $20 를 할인해 준다.    
+• 2 가지 혜택중 하나만 선택할 수 있다.     
+• 프로그램 구현시, $50 할인은 if 문을 사용하라.    
+• $ 30 할인은 elif 문을 사용하여 구현하라.
 {: .notice--info}
 
 
@@ -364,9 +378,12 @@ Just like in the example above, this check becomes simpler `if` you make the **7
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)Remember to use an `elif` so you don't subtract both of the discounts! (You'll want to do your check for >= 7 days first.)    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* Remember to use an `elif` so you don't subtract both of the discounts! (You'll want to do your check for >= 7 days first.)    
 
-**설명:** [ ]      `7`일 이상을 먼저 `if`문에 넣어야 한다.  `if`문에 `3`일을 먼저 check하면 어떤일이 벌얼질지 생각해 보자. 
+**설명:** [ Hint ]    
+• 7 일 이상을 먼저  if 문에 넣어야 한다.      
+• if 문에  3 일 이상을 먼저 비교하면 어떤 문제점이 있는지도 생각해 보자. 
 {: .notice--info}
 
 <br>
@@ -399,7 +416,12 @@ def rental_car_cost(days):
   return cost
 ```
 
-**설명:** [ ]      만약 `>=3`을 먼저 저검하면, `elif`에서 `=>7`도 점검되어 이중 할인이 일어나게 된다. 그 부분을 조심하자.  
+**설명:** [ Solution ]     
+• 만약 'if cost >=3' 을 먼저 비교문을 만들게 되면,     
+• cost 가 8 이 들어온다고 가정하면,     
+• `if cost >=3' 도 만족하고, 'elif cost >=7' 도 만족하게 된다.    
+• 이렇게 되면 2번 할인이 일어 나기에 조심해야 한다.
+• 그렇기에, 'if cost >=7' 을 먼저 비교하고, 'elif cost >=3'을 비교한다.
 {: .notice--info}
 
 
@@ -416,7 +438,8 @@ def rental_car_cost(days):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
-### 5. Pull it Together
+### 5. Pull it Together    
+
 Great! Now that you've got your **3 main costs** figured out, let's put them together in order to find the **total cost** of **your trip**.
 
 ```python
@@ -434,7 +457,11 @@ We define two simple functions, `double(n)` and `triple(p)` that return 2 times 
 
 We define a third function, `add(a, b)` that returns the sum of the previous two functions when called with `a` and `b`, respectively. Notice that even though the names of the parameters for `add(a, b)` are different than the names of the parameters for `double(n)` and `triple(p)` we can still pass them into those functions as arguments
 
-**설명:** [ ]      arguments 를 1개도 받을수 있고, 2개도 받을수 있다. 함수에서 또 함수를 호출 할수 있다. 
+**설명:** [ Learn ]    
+• Ch5. Pull it Together 에서는 함수에서 함수를 호출하는것을 배워보자.
+• 함수는 arguments 를 1개 이상을 받을 수 있다.    
+• 함수는 반환(return) 할때, 변수를 계산할 수 있다.    
+• 함수는 반환(return) 할때, 함수를 호출할 수 있다. 
 {: .notice--info}
 
 
@@ -444,12 +471,19 @@ We define a third function, `add(a, b)` that returns the sum of the previous two
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Below your existing code, define a function called `trip_cost` that takes **two parameters**, `city` and `days` and **returns** the sum of calling the `rental_car_cost(days)`, `hotel_cost(days - 1)`, and `plane_ride_cost(city)` functions.
+* Below your existing code, define a function called `trip_cost` that takes **two parameters**, `city` and `days` and **returns** the sum of calling the `rental_car_cost(days)`, `hotel_cost(days - 1)`, and `plane_ride_cost(city)` functions.
 
 **Notice** that we changed the argument of `hotel_costs()` from nights to **days - 1**. Since we want trip-cost to only depend on two parameters, we have to convert the variable nights into days. If you are going to be staying somewhere, the number of nights you stay there is one less than the number of days you were there (imagine a weekend trip to visit family, you leave Saturday and return Sunday, so you visit for two days, but only stay for one night).
 
 
-**설명:** [ ]      ① 함수 `trip_cost()`를 정의하여라. ② 이 함수는 `city`, `day` 입력값을 가지며 ③ `retal_car_cost(days)`, `hotel_cost(days - 1)`를 호출하여 계산된 총합을 반환한다. ④ `hotel_cost(days - 1)`함수에서 1박을 제외하는것을 유의하라. 
+**설명:** [ Instruction ]    
+• 함수 trip_cost() 를 정의하여라.     
+• 함수 trip_cost(city, day) 는 2개의 parameters 를 가진다.    
+• 함수 trip_cost(city, day) 는 함수 ① retal_car_cost(days) 를 호출한다.    
+• 함수 trip_cost(city, day) 는 함수 ② hotel_cost(days - 1) 를 호출한다.    
+• 함수 trip_cost(city, day) 는 함수 ③ plane_ride_cost(city)를 호출한다.    
+• 함수 trip_cost(city, day) 는 함수 ①,②,③ 의 합을 반환(return) 한다.    
+• 단, 함수 ② hotel_cost(days - 1) 의 기능인 1박을 제외하는것을 유의하라.
 {: .notice--info}
 
 
@@ -458,12 +492,11 @@ We define a third function, `add(a, b)` that returns the sum of the previous two
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-`hotel_cost(days - 1)`을 주의하라. 
-return 에서 바로 함수를 호출하여 `+` 를 사용하여 계산하라.
+* skip
 
 
-
-**설명:** [ ]      호텔 비용을 계산할때는 1박을 제외해야 한다. return 에서 `+`를 사용하여 바로 계산하라. 
+**설명:** [ Hint ]    
+• skip
 {: .notice--info}
 
 <br>
@@ -499,7 +532,9 @@ def trip_cost(city, days):
   return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city)
 ```
 
-**설명:** [ ]      return 문에서 바로 함수를 호출하여 사용한후, 바로 반환한다.
+**설명:** [ Solution ]    
+• 함수 trip_cost(city, days) 는 return 문에서 바로 함수 를 호출한다.    
+• 호출한 함수의 결과를 합하여 반환한다.
 {: .notice--info}
 
 
@@ -520,7 +555,10 @@ def trip_cost(city, days):
 You can't expect to only spend money on the plane ride, hotel, and rental car when going on a vacation. There also needs to be room for additional costs like fancy food or souvenirs.
 
 
-**설명:** [ ]      추가적인 음식값이나, 기년품값을 추가가 필요 할수도 있다. 프로그램을 더 추가해 보자.
+**설명:** [ Learn ]   
+• Ch6. Hey, You Never Know! 에서는 기존 함수에 parameter를 추가해보자.    
+• 프로그램을 더 추가해 보자.    
+• 음식값, 기년품 값등 추가로 사용한 비용을 계산해 주는 기능도 추가해 볼수 있다.    
 {: .notice--info}
 
 
@@ -530,12 +568,14 @@ You can't expect to only spend money on the plane ride, hotel, and rental car wh
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** **Modify** your `trip_cost` function definition. **Add** a third argument, `spending_money`.
+* Modify your `trip_cost` function definition. **Add** a third argument, `spending_money`.
 
-**Modify** what the `trip_cost` function does. Add the variable `spending_money` to the sum that it returns.
+* Modify what the `trip_cost` function does. Add the variable `spending_money` to the sum that it returns.
 
 
-**설명:** [ ]      ① 함수 `trip_cost()`에 3번째 입력값 `spending_money`를 추가하라. ② 함수 내부 기능에 `spending_money`의 값을 전체 값에 추가하라. 
+**설명:** [ Instruction ]    
+• 함수 trip_cost() 에 3번째 parameter 변수 spending_money 를 추가하라.    
+• 함수 trip_cost() 에 spending_money 의 값을 전체 값에 추가하라. 
 {: .notice--info}
 
 
@@ -544,10 +584,11 @@ You can't expect to only spend money on the plane ride, hotel, and rental car wh
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Add to return variables `spending_money`. 
+* Add to return variables `spending_money`. 
 
 
-**설명:** [ ]      return 문에 `spending_money`를 추가하라.  
+**설명:** [ Hint ]    
+• return 문에서 합을 구할때, spending_money 를 추가하라.  
 {: .notice--info}
 
 <br>
@@ -583,7 +624,10 @@ def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
 ```
 
-**설명:** [ ]      return 문에 `spending_money`를 추가한다. 
+**설명:** [ Solution ]    
+• 기존 함수 trip_cost() 에 parameter 변수 spending_money를 추가하였다.    
+• (i.g. def trip_cost(city, days, spending_money) )    
+• 함수 trip_cost() 의 반환(return)문에 변수 spending_money 값을 추가하였다.
 {: .notice--info}
 
 
@@ -600,13 +644,18 @@ def trip_cost(city, days, spending_money):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
-### 7. Plan Your Trip!
+
+### 7. Plan Your Trip!    
+
 Nice work! Now that you have it all together, let's take a trip.
 
 What if we went to Los Angeles for 5 days and brought an extra 600 dollars of spending money?
 
 
-**설명:** [ ]      로스엔젤레스 에서 5일 머무르고, 600달러를 사용하면 어떨까?
+**설명:** [ Learn ]    
+• Ch7. Plan Your Trip! 에서는 지금껏 만든 함수를 trip_cost() 호출후 출력해보자.    
+• 함수를 호출할때, arguments는 다음 내용을 생각해 보자.     
+• 로스엔젤레스 에서 5일 머무르고, 추가 비용으로 600 달러를 사용하면 여행비용은 얼마일까?
 {: .notice--info}
 
 
@@ -616,12 +665,18 @@ What if we went to Los Angeles for 5 days and brought an extra 600 dollars of sp
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** After your previous code, **print out** the `trip_cost`( to "Los Angeles" for 5 days with an extra 600 dollars of spending money.
+* After your previous code, **print out** the `trip_cost`( to "Los Angeles" for 5 days with an extra 600 dollars of spending money.
 
-Don't forget the closing ) after passing in the 3 previous values!
+* Don't forget the closing ) after passing in the 3 previous values!
 
 
-**설명:** [ ]      ① 함수 `trip_cost()`를 호출할때, 입력값으로 도시 입력값에 "Los Angeles"를 입력하고 여행일자는 5일, 총 사용비용은 600 달러가 출력되게 하자. 
+**설명:** [ Instruction ]   
+• 함수 trip_cost() 를 호출하라.    
+• 입력시, arguments 값은 다음과 같다.    
+• city : "Los Angeles"    
+• days : 5 일
+• spending_money : $ 600
+• 함수 trip_cost()에 위 값을 입력하여 호출하라. 
 {: .notice--info}
 
 
@@ -629,14 +684,22 @@ Don't forget the closing ) after passing in the 3 previous values!
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)You'll want to `print` the result of calling `trip_cost` with the above values as arguments!
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* You'll want to `print` the result of calling `trip_cost` with the above values as arguments!
 
-Your final call should look something like:
+* Your final call should look something like:    
+
 ```python
 print trip_cost("SOME CITY", NUM_DAYS, SPENDING_MONEY)
-```
-where **SOME CITY** is one of the four cities, **NUM_DAYS** is the number of days and **SPENDING_MONEY** is the amount of spending money.    
-**설명:** [ ]      `trip_cost(city, days, spending_money)`라고 함수를 정의해 놓았다. 각 입력값에 직접 값을 넣어서 호출한다.   
+```    
+
+* where **SOME CITY** is one of the four cities, **NUM_DAYS** is the number of days and **SPENDING_MONEY** is the amount of spending money.    
+
+**설명:** [ Hint ]    
+• 함수 trip_cost(city, days, spending_money) 와 같이 입력값을 가진다.     
+• 함수 arguments 값에 직접 값을 넣어서 함수를 호출하라.
+• 함수를 호출하고, 그 결과값을 보기 위해선, print 문을 사용해야 한다. 
+• i.g. print trip_cost("LA", 7, 1000) 
 {: .notice--info}
 
 <br>
@@ -674,7 +737,9 @@ def trip_cost(city, days, spending_money):
 print trip_cost("Los Angeles", 5, 600)
 ```
 
-**설명:** [ ]      정의된 함수를 호출하여 그 결과값이 반환되어 출력된다. 
+**설명:** [ Solution ]    
+• 함수 trip_cost()를 arguments 값 "Lost Angelse", 5, 600 을 직접 입력하였다.    
+• print 문을 사용하여 함수 trip_cost()의 결과값을 출력하였다.
 {: .notice--info}
 
 
