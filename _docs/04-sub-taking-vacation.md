@@ -17,7 +17,7 @@ Hard day at work? Rough day at school? Take a load off with a programming vacati
 
 
 **설명:** [ 학습방향 ]     
-이 장에서는 여행을 주제로, 관련 함수를 만들어 보면서, 함수에 대하여 친숙해 지자.
+이 장에서는 여행의 경비를 계산해주는 관련 함수를 만들어 보면서, 여러 함수를 만드는 연습을 통하여 함수에 대한 개념과 사용법에 대하여 익숙해지자.
 {: .notice--info}     
      
 
