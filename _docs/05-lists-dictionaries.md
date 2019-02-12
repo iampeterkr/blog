@@ -986,26 +986,33 @@ print square_list
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
+<font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
+
 ### 10. This Next Part is Key    
 
 A **dictionary** is similar to a **list**, but you access values by looking up a **key** instead of an **index**. A key can be **any string or number**. Dictionaries are **enclosed** in curly braces, like so:
+
 ```python
 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
 ```
+
 This is a dictionary called `d` with **three key-value pairs**. The key 'key1' points to the value 1, 'key2' to 2, and so on.
 
 Dictionaries are great for things like phone books (pairing a name with a phone number), login pages (pairing an e-mail address with a username), and more!
 
  
 
-
-
-**설명:** [ ]          
-딕셔너리에 대하여 알아보자.    
-딕셔너리는 리스트와 비슷하다.  리스트는 눈에 보이지 않는 인덱스를 가지고 해당 항목(값)을 나타내지만, 딕셔너리는 **key**를 이용하여 해당 항목(값)을 나타낸다.     
-예와같이 `d = {'key1' : 1, 'key2' : 2, 'key3' : 3}` `key:값`의 형태로 표현되며, `key1`을 키(key)라 부르면 이와 매칭되는 `1`을 값(value)이라 부른다.    
-딕셔너리 특징은 key 값은 문자열, 숫자 모두 가능한다. 꼭 key/value 한쌍이어야 한다. 그리고 key는 중복 된 이름을 가질수 없다.       
+**설명:** [ Learn ]      
+• Ch10. This Next Part is Key 에서는 딕셔너리에 대하여 배워보자.    
+• 딕셔너리는 리스트와 비슷하다.     
+• 리스트는 눈에 보이지 않는 인덱스를 가지고 해당 항목(값)을 나타낸다.    
+• 딕셔너리는 'key' 를 이용하여 해당 항목(값)을 나타낸다.     
+• i.g. 딕셔너리 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}     
+• 딕셔너리 항목(값)은 ( key : value ) 으로 이루어 진다.    
+• 'key1' 을 키(key)라고 부르면 이와 매칭되는 값 1 을 값(value)이라 부른다.    
+• key 는 문자열, 숫자 모두 사용 가능하다.    
+• key 와 value 는 한 쌍이다.    
+• key 는 중복된 이름을 가질수 없다.       
 {: .notice--info}
 
 
@@ -1015,18 +1022,21 @@ Dictionaries are great for things like phone books (pairing a name with a phone 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Print the values stored under the `'Sloth'` and `'Burmese Python'` keys. Accessing dictionary values by key is just like accessing list values by index:
+* Print the values stored under the `'Sloth'` and `'Burmese Python'` keys. Accessing dictionary values by key is just like accessing list values by index:    
+
 ```python
 residents['Puffin']# Gets the value 104
 ```
-Check the Hint if you need help!
+
+* Check the Hint if you need help!
 
 
 
 
-**설명:** [ ]          
-**①** 딕셔너리 `residents`에서 key 값이 `Sloth`, `Burmese Python`인 것의 값(value)를 출력하라.    
-참고로, 리스트는 `[]`에 index값을 지정하여 해당 값을 찾는다. 하지만, 딕셔너리는 `[]`에 key 값을 지정하여 해당 값을 찾는다.   
+**설명:** [ Instruction ]          
+• 딕셔너리 residents 에서 key 값이 'Sloth', 'Burmese Python'인 것의 값(value)를 출력하라.   
+• 참고로, 리스트는 index 값을 지정하여 해당 값을 찾는다.     
+• 하지만, 딕셔너리는 key 값을 지정하여 해당 값을 찾는다.   
 {: .notice--info}
 
 
@@ -1034,12 +1044,16 @@ Check the Hint if you need help!
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)As an example, code has been provided that prints the value stored under the 'Puffin' key. The code on line 4 It will print 104 (do you see why?). Your code should be very similar, but should target the other two keys ('Sloth' and 'Burmese Python').    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* As an example, code has been provided that prints the value stored under the 'Puffin' key.     
+* The code on line 4 It will print 104 (do you see why?).     
+* Your code should be very similar, but should target the other two keys ('Sloth' and 'Burmese Python').    
 
 
 
-**설명:** [ ]         
-`print residents['Puffin'] `를 참고하라. 
+**설명:** [ Hint ]         
+• 딕셔너리 residents 의 key 'Puffin'을 지정하면 해당 key의 value 값 104가 반환된다.    
+• i.g. print residents['Puffin'] # 104
 {: .notice--info}
 
 <br>
@@ -1060,8 +1074,8 @@ print residents['Sloth']
 print residents['Burmese Python']
 ```
 
-**설명:** [ ]         
-`residents['Sloth']`와 같이 `[]`에 Key 값을 주면 해당 key와 매치되는 항목(값) `105`를 반환한다. 
+**설명:** [ Solution ]         
+• residents['Sloth'] 와 같이 ( [] ) 에 Key 값을 주면 해당 key와 매치되는 value(값) 105 를 반환한다. 
 {: .notice--info}
 
 
@@ -1079,13 +1093,16 @@ print residents['Burmese Python']
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
+<font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
+
 ### 11. New Entries    
 
 Like Lists, Dictionaries are **mutable**. This means they can be changed after they are created. One advantage of this is that we can add new **key/value** pairs to the dictionary after it is created like so:
+
 ```python
 dict_name[new_key] = new_value
-```
+```    
+
 An empty pair of curly braces `{}` is an **empty dictionary**, just like an empty pair of `[]` is an **empty list**.
 
 The length `len()` of a dictionary is the number of key-value pairs it has. Each pair counts only once, even if the value is a list. (That's right: you can put lists inside dictionaries!)
@@ -1094,10 +1111,18 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 
 
 
-**설명:** [ ]          
-딕셔너리도 리스트와 마찬가지로 변형이 가능하다. 여기서 변형은 추가/삭제 이다. 추가 하기 위해선 `dict_name[new_key]=new_value`와 같이 쌍으로 해야 한다.    
-딕셔너리 초기화는 `{}`로 할수 있다. `[]`는 리스트 초기화 이니, 혼돈하지 말자.    
-`len()` 함수를 사용하면 해당 딕셔너리이 쌍의 갯수가 몇개인지 알수 있다. key/value는 1:1 매칭이다. value 의 값은 리스트 형이기에, key1:[list1, list2] 와 같이 사용할수도 있다. 
+**설명:** [ Learn ]          
+• Ch11. New Entries 에서는 딕셔너리의 다양한 기능을 배워보자.    
+• 딕셔너리도 리스트와 마찬가지로 변형이 가능하다.    
+• 여기서 변형은 추가/삭제 이다.     
+• 추가/삭제는 'key/value' 쌍으로 추가/삭제 해야 한다.     
+• i.g. 'dict_name[new_key]=new_value'     
+• 딕셔너리 초기화는 ( {} ) 를 사용한다.    
+• i.g. 'dict_name = {}'
+• 리스트 초기화와 구별하자. ( i.g. 'list_name = []')     
+• 함수 len() 를 사용하여, 딕셔너리의 쌍의 갯수가 몇개인지 알 수 있다.    
+• key/value 는 1:1 매칭이다.     
+• value 의 값은 리스트 형(type)이기에, key1:[list1, list2] 와 같이 사용할 수 있다. 
 {: .notice--info}
 
 
@@ -1107,14 +1132,15 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Add at least three more **key-value** pairs to the `menu` variable, with the dish name (as a "string") for the key and the price (a float or integer) as the value. Here's an example:
+* Add at least three more **key-value** pairs to the `menu` variable, with the dish name (as a "string") for the key and the price (a float or integer) as the value. Here's an example:    
+
 ```python
 menu['Spam'] = 2.50
 ```
 
-**설명:** [ ]          
-**①** 딕셔너리 `menu`에 3개 이상의 `key/value`를 추가하라.     
-kye값은 음식명으로 하고, value 값은 가격으로 하라.  
+**설명:** [ Instruction ]          
+• 딕셔너리 menu 에 3개 이상의 key/value 를 추가하라.     
+• kye 값은 음식명으로 하고, value 값은 가격으로 하라.  
 {: .notice--info}
 
 
@@ -1123,11 +1149,14 @@ kye값은 음식명으로 하고, value 값은 가격으로 하라.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You will need to add at **least three key-value** pairs. One has already been added on line 2. Your code will follow the same format, but should create and assign different keys!
+• You will need to add at **least three key-value** pairs. One has already been added on line 2.     
+• Your code will follow the same format, but should create and assign different keys!
 
 
-**설명:** [ ]         
-3개의 key/value가 필요하다. 이미 1개는 있으니, 2,3번 key/vaue를 만들면 된다. key는 중복이 안된다. 
+**설명:** [ Hint ]         
+• 3개의 key/value가 필요하다.    
+• 이미 1개는 있으니, 2번째, 3번째 key/vaue를 만들면 된다.     
+• key는 중복이 안된다. 
 {: .notice--info}
 
 <br>
@@ -1151,8 +1180,10 @@ print "There are " + str(len(menu)) + " items on the menu."
 print menu
 ```
 
-**설명:** [ ]          
-딕셔너리 `menu`에 key `Hamburger, Pizza Slice, Salad` 에 각각  value `8.50, 3.50, 10.00`을 매칭 시켜 저장한다.   
+**설명:** [ Solution ]          
+• 딕셔너리 menu 에 key 값 'Hamburger' 에 value(값) 8.50 을 매칭시켜 저장한다.    
+• 딕셔너리 menu 에 key 값 'Pizza Slice' 에 value(값) 3.50 을 매칭시켜 저장한다.    
+• 딕셔너리 menu 에 key 값 'Salad' 에 value(값) 10.00 을 매칭시켜 저장한다.    
 {: .notice--info}
 
 
@@ -1170,27 +1201,33 @@ There are 4 items on the menu.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
+<font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
 ### 12. Changing Your Mind    
 
-Because dictionaries are mutable, they can be changed in many ways. Items can be removed from a dictionary with the `del` command:
+Because dictionaries are mutable, they can be changed in many ways. Items can be removed from a dictionary with the `del` command:    
+
 ```python
 del dict_name[key_name]
-```
+```    
+
 will **remove** the key key_name and its associated value from the dictionary.
 
-A new value can be associated with a key by assigning a value to the key, like so:
+A new value can be associated with a key by assigning a value to the key, like so:    
+
 ```python
 dict_name[key] = new_value
 ```
 
 
 
-**설명:** [ ]          
-딕셔너리 삭제는 `del` 명령어로 삭제할 수 있다.    
-`del dict_namep[key_name]`같이 key값을 가지고 해당 key에 매칭되는 value를 딕셔너리에서 삭제할 수 있다.    
-딕셔너리에 추가는 앞에서 배운바와 같이 `dict_name[key]=new_value`로 추가할수 있다.    
-단, key는 중복 할 수 없다. 
+**설명:** [ Learn ]     
+• Ch12. Changing Your Mind 에서는 딕셔너리 삭제(del)에 대하여 배워보자.    
+• 딕셔너리 삭제는 명령어 del 을 사용하여 삭제할 수 있다.    
+• i.g. del dict_name[key_name]     
+• 딕셔너리 dict_name 에 key_name 과 매칭되는 value(값)를 삭제할 수 있다.   
+• 삭제는 key/value 쌍이 삭제된다.    
+• 참고로, dict_name[key]=new_value 로 추가할 수 있다.    
+• 단, key는 중복 할 수 없다. 
 {: .notice--info}
 
 
@@ -1200,14 +1237,15 @@ dict_name[key] = new_value
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Delete the **'Sloth'** and **'Bengal Tiger'** items from `zoo_animals` using `del`.
+* Delete the **'Sloth'** and **'Bengal Tiger'** items from `zoo_animals` using `del`.
 
-**②** Set the value associated with **'Rockhopper Penguin'** to anything other than **'Arctic Exhibit'**.
+* Set the value associated with **'Rockhopper Penguin'** to anything other than **'Arctic Exhibit'**.
 
 
-**설명:** [ ]          
-**①** `del` 명령을 사용하여 딕셔너리의 key값이 `Sloth`, `Bengal Tiger`인 항목들을 삭제하시오.     
-**②** 딕셔너리에서 key 값이 `Rockhopper Penguin`인 value `Arctic Exhibit`를 다른 값으로 바꾸시오. 
+**설명:** [ Instruction ]          
+• 딕셔너리의 key 값이 'Sloth', 'Bengal Tiger'인 항목(값)을 삭제하라.    
+• 삭제는 명령어 del 을 사용하라.    
+• 딕셔너리의 key 값 'Rockhopper Penguin' 의 value 인 'Arctic Exhibit'을 'Plains Exhibit' 으로 빠꾸어라.
 {: .notice--info}
 
 
@@ -1216,11 +1254,11 @@ dict_name[key] = new_value
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Check out the examples in the instructions if you need help!
+* Check out the examples in the instructions if you need help!
 
 
-**설명:** [ ]          
-주석을 잘 읽어보면 도움이 된다. 
+**설명:** [ Hint ]          
+• 주석을 잘 읽어보면 도움이 된다. 
 {: .notice--info}
 
 <br>
@@ -1250,9 +1288,11 @@ zoo_animals['Rockhopper Penguin'] = 'Plains Exhibit'
 print zoo_animals
 ```
 
-**설명:** [ ]          
-`del`명령을 사용하여 key값인 `Sloth`, `Bengal Tiger`를 삭제하고, key값이 `Rockhopper Penguin`인 value 값을  `zoo_animals['Rockhopper Penguin']= 'Plains Exhibit'` 와 같이 변경한다. 
-
+**설명:** [ Solution ]          
+• 명령어 del 을 사용하여 딕셔너리 zoo_animals 의 key값 'Sloth' 를 삭제한다.    
+• 명령어 del 을 사용하여 딕셔너리 zoo_animals 의 key값 'Bengal Tiger' 를 삭제한다.    
+• 딕셔너리 zoo_animals 의 key값 'Rockhopper Penguin' 의 value(값)는 원래 'Arctic Exhibit' 이었다.     
+• key값 'Rockhopper Penguin' 의 value(값) 을 'Plains Exhibit'로 변경했다.
 {: .notice--info}
 
 
@@ -1277,22 +1317,26 @@ Sometimes you need to remove something from a list.
 beatles = ["john","paul","george","ringo","stuart"]
 beatles.remove("stuart")
 print beatles
-```
-This code will print:
+```    
+This code will print:    
 ```
  ["john","paul","george","ringo"]
-``` 
-**①** We create a list called `beatles` with 5 strings.
-**②** Then, we remove the first item from beatles that matches the string "stuart". Note that .remove(item) does not return anything.
-**③** Finally, we print out that list just to see that "stuart" was actually removed.
+```    
+
+* We create a list called `beatles` with 5 strings.
+* Then, we remove the first item from beatles that matches the string "stuart". Note that `.remove(item)` does not return anything.
+* Finally, we print out that list just to see that "stuart" was actually removed.
 
 
 
 
-**설명:** [ ]          
-딕셔너리에서 삭제가 가능하듯이, 리스트에서도 항목(값) 삭제가 가능하다.    
-코드에서 보듯이 리스트 `beatles`에 5개의 항목이 있다. 이중 `stuart`를 내장함수 `.remove`를 이용하여 삭제하면, 리스트 `beatles`에는 4개의 항목(값)이 남아 있다.     
-리스트의 값을 삭제할때 해당 값을 딕셔너리 처럼 지정하여 삭제할 수 있다. 
+**설명:** [ Learn ]          
+• Ch13. Remove a Few Things 에서는 리스트의 삭제에 대해서 배워보자.    
+• 리스트에서도 항목(값) 삭제가 가능하다.    
+• 리스트 beatles 에 5개의 항목이 있다.     
+• 메서드 '.remove' 를 사용하여 항목 'stuart'를 삭제한다.     
+• 리스트 beatles 에는 4개의 항목이 남아 있다.     
+• 리스트도 딕셔너리처럼 해당 값을 지정하여 직접 삭제할 수 있다.
 {: .notice--info}
 
 
@@ -1302,11 +1346,11 @@ This code will print:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Remove `'dagger'` from the list of items stored in the `backpack` variable.
+* Remove `'dagger'` from the list of items stored in the `backpack` variable.
 
 
-**설명:** [ ]          
-**①** 리스트 `backpack`의 저장된 값중 하나인 `dagger`를 삭제하라.  
+**설명:** [ Instruction ]          
+• 리스트 backpack 의 항목 'dagger' 를 삭제하라.  
 {: .notice--info}
 
 
@@ -1315,12 +1359,14 @@ This code will print:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Check out the examples in the instructions to review how to remove items from a list!
+* Check out the examples in the instructions to review how to remove items from a list!
 
 
-**설명:** [ ]          
-상단의 리스트를 삭제하는 법을 다시한번 읽어 보고 참조하자. `.remove[]`가 아니라. `.remove()`임을 주의하자. 
+**설명:** [ Hint ]          
+• 상단의 리스트를 삭제하는 법을 다시한번 읽어 보고 참조하자.    
+• 주의) '.remove[]' 가 아니다.  '.remove()' 를 사용하자.
 {: .notice--info}
+
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
@@ -1330,7 +1376,10 @@ backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
 backpack.remove('dagger')
 ```
 
-**설명:** [ ]      
+**설명:** [ Solution ]      
+• 리스트의 항목중 하나인 'dagger' 를 삭제한다.    
+• 메서드 '.remove()' 를 사용하여, 'dagger'를 직접 지정하여 삭제한다.   
+• backpack.remove('dagger') 
 {: .notice--info}
 
 
@@ -1348,7 +1397,8 @@ backpack.remove('dagger')
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
 ### 14. It's Dangerous to Go Alone! Take This    
 
-Let's go over a few last notes about dictionaries
+Let's go over a few last notes about dictionaries    
+
 ```python
 my_dict = {
   "fish": ["c", "a", "r", "p"],
@@ -1356,18 +1406,24 @@ my_dict = {
   "luck": "good"
 }
 print my_dict["fish"][0]
-```
-**①** In the example above, we created a dictionary that holds many types of values.
-**②** The key **"fish"** has a list, the key **"cash"** has an int, and the key **"luck"** has a string.
-**③** Finally, we print the letter `"c"`. When we access a value in the dictionary like `my_dict["fish"]`, we have direct access to that value (which happens to be a list). We can access the item at index `0` in the list stored by the key `"fish"`.
+```    
+
+* In the example above, we created a dictionary that holds many types of values.    
+
+* The key **"fish"** has a list, the key **"cash"** has an int, and the key **"luck"** has a string.    
+
+* Finally, we print the letter `"c"`. When we access a value in the dictionary like `my_dict["fish"]`, we have direct access to that value (which happens to be a list). We can access the item at index `0` in the list stored by the key `"fish"`.
 
 
 
 
-**설명:** [ ]          
-**①** 지끔 것 배운 딕셔너리에 대하여 전체적으로 정리해 보자.     
-**②** key가 `fish`는 value를 리스트로 가지낟. key가 `cash`는 value로 숫자를 가지고, key가 `luck`인것은 문자열을 value로 가진다.        
-**③** 마지막으로, 문자 `c`를 출력하기 위해선, 해당 딕셔너리의 key가 `fish`이고, 리스트 인덱스 값이 `[0]`인 것을 출력 한다.    
+**설명:** [ Learn ]       
+• Ch14. It's Dangerous to Go Alone! Take This 에서는 딕셔너리 복습을 해보자.    
+• 딕셔너리에 대하여 전체적으로 정리해 보자.     
+• key 'fish' 는 value 를 리스트로 가진다.    
+• key 'cash' 는 value 로 숫자를 가진다.    
+• key 'luck' 는 value 로 문자열을 가진다.        
+• 문자 `c`를 출력하기 위해선, key 가 'fish'이면서, value(값)인 리스트 인덱스 값이 0 인 것을 출력한다. 
 {: .notice--info}
 
 
@@ -1377,27 +1433,27 @@ print my_dict["fish"][0]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** **Add** a **key** to `inventory` called `'pocket'`
+* **Add** a **key** to `inventory` called `'pocket'`
 
-**②** Set the value of `'pocket'` to be a list consisting of the strings `'seashell', 'strange berry', and 'lint'`
+* Set the value of `'pocket'` to be a list consisting of the strings `'seashell', 'strange berry', and 'lint'`
 
-**③** `.sort()` the items in the list stored under the `'backpack'` key
+* `.sort()` the items in the list stored under the `'backpack'` key
 
-**④** Then `.remove('dagger')` from the list of items stored under the `'backpack'` key
+* Then `.remove('dagger')` from the list of items stored under the `'backpack'` key
 
-**⑤** Add `50` to the number stored under the `'gold'` key
-
-
+* Add `50` to the number stored under the `'gold'` key
 
 
-**설명:** [ ]          
-**①** 딕셔너리에 `inventory`에 key `pocket`를 추가하라.      
-**②** key `pocket` value에는 리스트 `seashell, strange berry, lint`를 가진다.       
-**③** key `backpack`의 value를 `.sort()`하여 정렬하고,         
-**④** `.remove('dagger')`를 활용하여 key `backpack` key의 값이 리스트 중에서 `dagger`를 삭제하라.             
-**⑤** key `gold`에 value 값에 `50` 을 더하여라.    
-**⑥** 마지막에 출력하여라.             
 
+
+**설명:** [ Instruction ]          
+• 딕셔너리에 inventory 에 key 'pocket'를 추가하라.      
+• key 'pocket' 의 value 에는 리스트 ['seashell', 'strange berry', 'lint']를 저장하라.    
+• key 'backpack' 의 value 를 '.sort()' 를 사용하여 정렬하라.    
+• key 'backpack' 의 value 값인 리스트 중에서 'dagger'를 삭제하라.    
+• 메소드 '.remove('dagger')'를 사용하여 삭제하라.    
+• key 'gold' 에 value 값 500에 50 을 더하라.    
+• 마지막에 출력하여라.
 {: .notice--info}
 
 
@@ -1406,20 +1462,23 @@ print my_dict["fish"][0]
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can use methods with a list stored in a dictionary as follows:
+* You can use methods with a list stored in a dictionary as follows:    
+
 ```python
 dict_name['list_key'].method()
-```
-For example, since 'backpack' is a key in our dictionary inventory you can delete 'dagger' from the corresponding list like this:
+```    
+
+* For example, since 'backpack' is a key in our dictionary inventory you can delete 'dagger' from the corresponding list like this:    
+
 ```python
 inventory['backpack'].remove('dagger')
 ```
 
 
-**설명:** [ ]     
-딕셔너리의 value 리스트의 값을 삭제하는 방법은 `inventory['backpack'].remove('dagger')`를 활용하라.     
-주의, add `50`은 해당 값에다 더하는 것이다.(항목을 리스트로 만드는것이 아니다.) 
-
+**설명:** [ Hint ]     
+• 딕셔너리의 value가 리스트인 것의 값을 삭제하는 방법은 다음과 같다.    
+• i.g. inventory['backpack'].remove('dagger')      
+• 주의, add 50 은 기존 값에다 추가로 더하는 것이다.(항목을 리스트로 만드는것이 아니다.) 
 {: .notice--info}
 
 
@@ -1452,11 +1511,15 @@ inventory['gold'] = inventory['gold'] + 50
 print (inventory)
 ```
 
-**설명:** [ ]          
-리스트는 `[]inventory['pocket'] = ['seashell', 'strange berry', 'lint']`를 활용하여, value를 입력한다.    
-정렬은 `inventory['backpack'].sort()`를 활용하여 정렬한다.    
-삭제는 `inventory['backpack'].remove('dagger')` 해당 key의 value항목을 지정하여 삭제한다.    
-추가는 `inventory['gold'] = inventory['gold'] + 50` 는 해당 key의 value 에 `+`를 활용하여 기존 500+50을 하는 것이다. 
+**설명:** [ Solution ]    
+• 리스트 inventory['pocket'] 의 value 로 리스트 ['seashell', 'strange berry', 'lint'] 를 대입하였다.    
+• 리스트 inventory['backpack'] 의 value 인 리스트를 정렬하였다.    
+• 정렬은 메소드 .sort() 를 사용하였다. (i.g. inventory['backpack'].sort() )    
+• 삭제는 inventory['backpack'] 의 value 인 리스트 'dagger'를 지정해서 삭제했다.   
+• i.g. inventory['backpack'].remove('dagger')    
+• 추가는 리스트의 key 값을 지정하여 value 를 변경할 수 있다.    
+• i.g. inventory['gold'] = inventory['gold'] + 50     
+• key 'gold' 의 원래 value 값 500 에 추가로 50을 추가한다. 
 {: .notice--info}
 
 
