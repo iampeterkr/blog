@@ -465,14 +465,15 @@ def fizz_count(x):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 5. String Looping    
+### 5. String Looping      
 
 As we've mentioned, strings are like lists with characters as elements. You can loop through strings the same way you loop through lists! While we won't ask you to do that in this section, we've put an example in the editor of how looping through a string might work.
 
 
 
-**설명:** [ ]         
-문자열도 문자들의 리스트 이다. 그렇기에 for 문을 통하여 문자 하나씩 추출 할수 있다. 
+**설명:** [ Learn ]        
+• 5. String Looping 에서는 문자열을 관리하는 법을 배워보자.    
+• 문자열은 문자들의 리스트 이다. 그렇기에 for 문을 통하여 문자 하나씩 추출 할수 있다. 
 {: .notice--info}
 
 
@@ -482,10 +483,11 @@ As we've mentioned, strings are like lists with characters as elements. You can 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Run the code to see string iteration in action!
+* Run the code to see string iteration in action!
 
 
-**설명:** [ ]      ① 문자열을 반복적으로 출력 하는 것으로 실행해 보자. 
+**설명:** [ Instruction ]    
+• 문자열을 반복적으로 문자 하나씩 출력하는 프로그램을 실행하라. 
 {: .notice--info}
 
 
@@ -497,8 +499,8 @@ As we've mentioned, strings are like lists with characters as elements. You can 
 * skip
 
 
-**설명:** [ ]          
-• skip
+**설명:** [ Hint ]          
+• 소스를 읽어보고, Run을 실행하여라. 
 {: .notice--info}
 
 <br>
@@ -524,8 +526,9 @@ for letter in word:
     print letter
 ```
 
-**설명:** [ ]         
-첫번째 for 문은 문자열을 문자를 하나씩 출력하는 것이다. 두번째 for문은 문자열이 "i"인것만 출력하는 것이다. 
+**설명:** [ Solution ]     
+• 첫번째 for 문은 문자열 "Codecademy" 의 문자를 하나씩 출력하는 것이다.    
+• 두번째 for 문은 문자열 "Programming is fun" 의 문자중 문자 "i" 만 출력한다.
 {: .notice--info}
 
 
@@ -559,22 +562,23 @@ i
 
 Okay—on to the core of our project.
 
-Congratulations! You are now the proud owner of your very own Codecademy brand supermarket.
+Congratulations! You are now the proud owner of your very own Codecademy brand supermarket.    
+
 ```python
 animal_counts = {
   "ant": 3,
   "bear": 6,
   "crow": 2
 }
-```
+```    
+
 In the example above, we create a **new dictionary** called `animal_counts` with three entries. One of the entries has the key "ant" and the value 3.
 
 
-
-
-
-**설명:** [ ]         
-딕셔너리 `animal_counts`는 3개의 값을 가진다. 그중 key `ant`는 value `3`을 가진다. 
+**설명:** [ Learn ]    
+• Ch6. Your Own Store! 에서는 딕셔너리 활용을 연습한다.    
+• 딕셔너리 animal_counts 는 3개의 key/value 쌍을 가지고 있다.     
+• "ant":3, "bear":6, "crow":2 
 {: .notice--info}
 
 
@@ -584,22 +588,23 @@ In the example above, we create a **new dictionary** called `animal_counts` with
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a new dictionary called `prices` using {} format like the example above.
+* Create a new dictionary called `prices` using {} format like the example above.
 
-Put these values in your prices dictionary, in between the {}:
+Put these values in your prices dictionary, in between the {}:    
+
 ```python
 "banana": 4,
 "apple": 2,
 "orange": 1.5,
 "pear": 3
-```
-Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from the last course.)
+```    
+
+Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from the last course.)    
 
 
-
-
-**설명:** [ ]          
-**①** 딕셔너리 `prices`를 `{}`를 사용하여 만들어라. `{}`에는 아래 값들을 넣어라. 
+**설명:** [ Instruction ]     
+• 딕셔너리 prices 를 {} 를 사용하여 만들어라.     
+• 딕셔너리 prices = { } 에 key/value 값들을 넣어라.
 {: .notice--info}
 
 
@@ -608,10 +613,10 @@ Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-dictionary uses as `dic = { "aa":4, "bb":5 }`
+* dictionary uses as `dic = { "aa":4, "bb":5 }`
 
-**설명:** [ ]          
-딕셔너리는 `dic = {"aa":4, "bb":5}`로 사용한다. 
+**설명:** [ Hint ]          
+• 딕셔너리는 ( dic = {"aa":4, "bb":5} ) 와 같이 사용한다. 
 {: .notice--info}
 
 <br>
@@ -625,8 +630,9 @@ dictionary uses as `dic = { "aa":4, "bb":5 }`
 prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
 ```
 
-**설명:** [ ]          
-딕셔너리 `prices`는 4개의 값을 가진다. 
+**설명:** [ Solution ]          
+• 딕셔너리 prices 는 4개의 key/value 를 가진다.     
+• "banana":4, "apple":2, "orange":1.5, "pear":3
 {: .notice--info}
 
 
@@ -643,14 +649,15 @@ prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 7. Investing in Stock   
+### 7. Investing in Stock      
 
 Good work! As a store manager, you’re also in charge of keeping track of your stock/inventory.
 
 
 
-**설명:** [ ]          
-딕셔너리를 이용하여 재고를 정리하는 프로그램을 작성해 볼것이다. 
+**설명:** [ Learn ]          
+• Ch7. Investing in Stock 에서는 딕셔너리 변경하는 법을 배워보자.    
+• 딕셔너리를 이용하여 재고(stock/inventory)를 정리하는 프로그램을 연습해 보자.
 {: .notice--info}
 
 
@@ -660,7 +667,7 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a stock dictionary with the values below.
+* Create a `stock` dictionary with the values below.
 
 ```python
 "banana": 6,
@@ -669,8 +676,9 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 "pear": 15
 ```
 
-**설명:** [ ]          
-① 딕셔너리 `stock` 을 다음 내용을 포함해서 재고 `stock` 딕서너리를 만들어라.  
+**설명:** [ Instruction ]          
+• 딕셔너리 stock 을 만들어라.     
+• 딕셔너리 stock 의 항목값은 아래 내용을 넣어라. 
 {: .notice--info}
 
 
@@ -679,11 +687,12 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember to use curly braces to make a dictionary. Don't forget to separate each key/value pair with a comma!
+* Remember to use curly braces to make a dictionary. Don't forget to separate each key/value pair with a comma!
 
 
-**설명:** [ ]          
-딕셔너리를 만들때 `{}`와, 각 key/value 사이에 `,`로 구분하는것을 잊지 말자. 
+**설명:** [ Hint ]          
+• 딕셔너리를 만들때 ( {} ) 와, key/value 사이에 ( , ) 로 구분 하는것을 잊지말자.    
+• i.g. ddd = { "apple" : 1, "banana" : 2}
 {: .notice--info}
 
 <br>
@@ -699,8 +708,8 @@ prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
 stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
 ```
 
-**설명:** [ ]          
-재고 정보를 가지고 있는 `stock` 딕셔너리를 만들어 본 것이다. 
+**설명:** [ Solution ]          
+• 재고 정보를 가지고 있는 딕셔너리 prices, stock 을 정의하였다.
 {: .notice--info}
 
 
@@ -719,22 +728,27 @@ stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
 ### 8. Keeping Track of the Produce    
 
-Now that you have all of your product info, you should print out all of your inventory information.
+Now that you have all of your product info, you should print out all of your inventory information.    
+
 ```python
 once  = {'a': 1, 'b': 2}
 twice = {'a': 2, 'b': 4}
 for key in once:
   print "Once: %s" % once[key]
   print "Twice: %s" % twice[key]
-```  
+```   
+
 In the above example, we create two dictionaries, once and twice, that have the same keys.
 Because we know that they have the same keys, we can loop through one dictionary and print values from both once and twice.
 
 
 
 
-**설명:** [ ]          
-2개의 딕셔너리를 사용하는 key 이름이 동일 하여도, 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.  
+**설명:** [ Learn ]     
+• Ch8. Keeping Track of the Produce 에서는 딕셔너리의 key/value를 추출해보자.    
+• Key 이름은 딕셔너리 별로 관리된다.    
+• 2개의 딕셔너리에서 key 이름이 같아도, 딕셔너리 이름이 다르면 다른 key 로 인식한다.    
+• i.g. 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.  
 {: .notice--info}
 
 
@@ -744,31 +758,35 @@ Because we know that they have the same keys, we can loop through one dictionary
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Loop through each key in prices.
+* Loop through each key in prices.
 
-Like the example above, for each key, print out the key along with its price and stock information.
+* Like the example above, for each key, print out the key along with its price and stock information.
 
-Print the answer in EXACTLY the following format:
+* Print the answer in EXACTLY the following format:    
+
 ```
 apple
 price: 2
 stock: 0
-```
-Like the example above, because you know that the prices and stock dictionary have the same keys, you can access the stock dictionary while you are looping through prices.
+```    
 
-When you're printing, you can use the syntax from the example above.
+* Like the example above, because you know that the prices and stock dictionary have the same keys, you can access the stock dictionary while you are looping through prices.
+
+* When you're printing, you can use the syntax from the example above.
 
 
 
 
-**설명:** [ ]          
-① 다음 포맷으로 출력 되도록 하라. 
+**설명:** [ Instruction ]          
+• 다음과 같이 출력 되도록 코드를 수정하라.     
+
 ```
 apple
-price:2 
+price: 2 
 stock: 0
-```
-② 위와 같이 출력할려면, 우선 딕셔너리 `price`, `stock`의 key 값이 동일해야 한다.     
+```    
+
+• 참고, 위와같이 출력할려면, 딕셔너리 price, stock의 각 key 값이 apple 이어야 한다.
 {: .notice--info}
 
 
@@ -777,11 +795,11 @@ stock: 0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Reference above example !!
+* Reference above example !!
 
 
 **설명:** [ ]          
-상단의 Learn 예제를 참조하라. 
+• 상단의 Learn 예제를 참조하라. 
 {: .notice--info}
 
 <br>
@@ -802,8 +820,12 @@ for food in prices:
   print "stock: %s" % stock[food]
 ```
 
-**설명:** [ ]          
-`prices`에서 key를 기준으로 추출하고, for 문을 돌면서 `prices`, `stock`에서 해당 key에 매칭되는 values 값을 출력한다.  
+**설명:** [ Solution ]    
+• 딕셔너리 prices 의 key를 기준으로 잡는다.    
+• for 문을 돌면서 prices 의 key 값을 추출한다.    
+• 딕셔너리 prices 의 key 값을 출력한다.    
+• 딕셔너리 prices 의 key의 value 을 출력한다.("print price: %s prices[food]")    
+• 딕셔너리 stock 의 key 의 value 을 출력한다.("print stock: %s stock[food]")
 {: .notice--info}
 
 
@@ -837,8 +859,9 @@ For paperwork and accounting purposes, let's record the total value of your inve
 
 
 
-**설명:** [ ]          
-이번 장에서는 모든 물품의 제고와 가격을 정리해 보는 일을 하자.  
+**설명:** [ Learn ]          
+• Ch9. Something of Value 에서는 서로 다른 딕셔너리의 항목값을 계산하는것을 배워보자.    
+• 이 장에서는 모든 물품의 제고와 가격을 정리하는 프로그램을 이해한다.  
 {: .notice--info}
 
 
@@ -848,21 +871,21 @@ For paperwork and accounting purposes, let's record the total value of your inve
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Let's determine how much money you would make if you sold all of your food.
+* Let's determine how much money you would make if you sold all of your food.
 
-• Create a variable called `total` and set it to zero.
-• Loop through the `prices` dictionary.
-• For each key in `prices`, **multiply** the number in prices by the number in stock. Print that value into the console and then **add** it to `total`.
-• Finally, outside your loop, **print** `total`.
+  * Create a variable called `total` and set it to zero.
+  * Loop through the `prices` dictionary.
+  * For each key in `prices`, **multiply** the number in prices by the number in stock. Print that value into the console and then **add** it to `total`.
+  * Finally, outside your loop, **print** `total`.
 
 
 
-**설명:** [ ]          
-**①** 가지고 있는 모든 물건을 팔았을 경우 전체 금액이 얼마인지를 계산해 보자.    
-• 변수 `total`을 만들고, 0으로 초기화 한다.    
-• 딕셔너리 `prices`를 for 문으로 돌리는 문을 만들자.    
-• `prices`와 `stock`의 각 key 별 값을 곱하여 항목별 전체 금액을 계산한다. 
-• for 문을 빠져나와 최종 `total`값을 출력한다.   
+**설명:** [ Instruction ]          
+• 가지고 있는 모든 물건을 판매했을 경우 전체 금액이 얼마인지를 계산해 보자.    
+• 변수 total 을 만들고, 0 으로 초기화 한다.    
+• 딕셔너리 prices 를 for 문으로 순환하며 계산한다.       
+• prices 와 stock 의 각 key 별 value 를 곱하여 항목별 전체 금액을 계산한다. 
+• for 문이 끝나면 최종 total 값을 출력한다.   
 {: .notice--info}
 
 
@@ -871,14 +894,15 @@ For paperwork and accounting purposes, let's record the total value of your inve
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The value of any given product is its number of items in stock multiplied by its price. For instance, the total cost for bananas would be 24 (a price of 4 multiplied by 6 bananas in stock).
+* The value of any given product is its number of items in stock multiplied by its price. For instance, the total cost for bananas would be 24 (a price of 4 multiplied by 6 bananas in stock).
 
-You should print the number all by itself—no need for any additional text!
+* You should print the number all by itself—no need for any additional text!
 
 
 
-**설명:** [ ]          
-각 항목별 제고 갯수와 가격을 곱한 금액을 `total`변수에 추가로 더한다. 예를 들면, 바나나의 전체 가격은 개별 가격 4 x 제고 6 = 24 이다.  
+**설명:** [ Hint ]          
+• 변수 total 에 각 항목별 재고 갯수와 가격을 곱한 금액을 추가로 더한다.    
+• i.g. 바나나의 전체 가격은 (개별 가격 : 4) x (제고 : 6) = 24 이다.  
 {: .notice--info}
 
 <br>
@@ -900,11 +924,13 @@ for food in prices:
 print total
 ```
 
-**설명:** [ ]          
-• 변수 `total`을 초기화 한다.     
-• 딕셔너리 `prices`를 for 문으로 돌면서 `prices`와 `stock`의 값을 추출하여 곱하여 항목별 전체 가격을 구한다. 제품별 전체 가격을 출력한다.      
-• `total`변수에 `prices`와 `stock`의 곱으로 구한 값을 더한다. 
-• 최종 전체 제품의 가격을 더한 `total`을 출력한다. 
+**설명:** [ Solution ]          
+• 변수 total 을 초기화 한다.     
+• 딕셔너리 prices 를 for 문으로 순환하면서 prices 와 stock 의 value를 추출한다.    
+• 추출한 값을 변수 food 에 저장한다.    
+• 딕셔너리 prices[food] 값과 stock[food] 값을 곱하여 출력한다.(제품별 전체 값)    
+• 변수 total 에 먼저 출력한 제품별 전체값을 계산하여 더한다.    
+• for 문이 완료되면, 전체 제품의 가격을 더한 변수 total 을 출력한다. 
 {: .notice--info}
 
 
@@ -916,7 +942,6 @@ print total
 24
 0
 117.0
-
 ```
 
 <br>
@@ -935,8 +960,10 @@ In order for customers to order online, we are going to have to make a consumer 
 
 
 
-**설명:** [ ]          
-판매자의 입장이 아닌 구매자의 입장으로 만들어 볼 예정이다. 차례로 진행할 예정이니, 걱정하지 마라. 천천히 따라하면 된다.  
+**설명:** [ Learn ]          
+• Ch10. Shopping at the Market 에서는 리스트 활용을 배워보자.    
+• 구매자의 사용 프로그램을 만들어 보면서, 리스트의 활용법을 숙지하자.    
+• 차근차근히 진행할 예정이니, 걱정하지 마라. 천천히 따라하면 된다.  
 {: .notice--info}
 
 
@@ -946,11 +973,12 @@ In order for customers to order online, we are going to have to make a consumer 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** First, make a list called `groceries` with the values "banana","orange", and "apple".
+* First, make a list called `groceries` with the values "banana","orange", and "apple".    
 
 
-**설명:** [ ]          
-**①** 리스트 `groceries`를 만들어라. 그리고 그안에 "banana", "orange", apple"항목을 넣어라.  
+**설명:** [ Instruction ]     
+• 리스트 groceries 를 만들어라.    
+• groceries 는 다음 값( "banana", "orange", apple" )을 가진다.
 {: .notice--info}
 
 
@@ -959,11 +987,11 @@ In order for customers to order online, we are going to have to make a consumer 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember to use square brackets for a list: `[]`.
+* Remember to use square brackets for a list: `[]`.
 
 
-**설명:** [ ]          
-리스트 임을 잊지 말자. `[]` 
+**설명:** [ Hint ]          
+• 이 장은 리스트를 연습한다. 리스트 표현은 ( '[]' ) 을 사용한다. 
 {: .notice--info}
 
 <br>
@@ -977,8 +1005,8 @@ Remember to use square brackets for a list: `[]`.
 groceries = ["banana", "orange", "apple"]
 ```
 
-**설명:** [ ]          
-리스트(`[]`)를 만들어서, 항목을 넣는다. 
+**설명:** [ Solution ]          
+• 리스트 groceries 를 만들어서, 항목("banana", "orange", "apple")을 대입한다. 
 {: .notice--info}
 
 
@@ -997,7 +1025,8 @@ groceries = ["banana", "orange", "apple"]
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
 ### 11. Making a Purchase    
 
-Good! Now you're going to need to know **how much** you’re **paying** for all of the items on your grocery list.
+Good! Now you're going to need to know **how much** you’re **paying** for all of the items on your grocery list.    
+
 ```python
 def sum(numbers):
   total = 0
@@ -1007,7 +1036,8 @@ def sum(numbers):
 
 n = [1, 2, 5, 10, 13]
 print sum(n)
-```
+```    
+
 In the above example, we first define a function called `sum` with a parameter `numbers`.
 We initialize the variable `total` which we will use as our running `sum`.
 For each `number` in the list, we add that `number` to the running sum `total`.
@@ -1017,9 +1047,12 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 
 
 
-**설명:** [ ]          
-• 함수 `sum()`은 리스트를 입력받아, 리스트의 각 값을 더하여 최종 반환한다.
-• 맨 하단 `print sum(n)`은 리스트 `n=[1,2,5,10,13]`을 입력하여, 리스트의 전체 합을 출력한다.  
+**설명:** [ Learn ]     
+• Ch11. Making a Purchase  에서는 함수에서 리스트의 활용법을 배워보자.    
+• 함수 sum(numbers) 은 리스트 numbers를 입력받는다.     
+• 함수 sum(numbers) 은 리스트의 각 값을 더하여 최종 반환한다.    
+• 함수 sum(n) 은 리스트 'n=[1,2,5,10,13]'을 arguments로 입력하여 호출한다.    
+• 함수 sum(n) 의 결과값 을 출력한다.
 {: .notice--info}
 
 
@@ -1029,25 +1062,27 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function `compute_bill` that takes one argument food as input.
+* Define a function `compute_bill` that takes one argument `food` as input.
 
-• In the function, create a variable total with an initial value of zero.
+* In the function, create a variable `total` with an initial value of zero.
 
-• For each item in the food list, add the price of that item to total.
+* For each item in the `food` list, add the price of that item to `total`.
 
-• Finally, return the total.
+* Finally, return the `total`.
 
-Ignore whether or not the item you're billing for is in stock.Note that your function should work for any food list.
-
-
+* Ignore whether or not the item you're billing for is in stock. Note that your function should work for any `food` list.
 
 
-**설명:** [ ]          
-**①** 함수 `compute_bill()`을 정의하여라. 이 함수는 argument 로 `food`를 입력 받는다.    
-• 함수 기능으로는, 변수 `total`을 만들고 0으로 초기화 하라.     
-• 입력받은 `food`리스트의 값을 하나씩 뽑아내어, `total`변수에 그 가격을 저장하라.    
-• 최종 `total`값을 반환하라.     
-청구 대상 품목의 재고가 있는지 여부를 신경쓰지 마라. (즉, 리스트에 있는것은 재고 목록에 있다는 전제하에 작성하라.)
+
+
+**설명:** [ Instruction ]    
+• 함수 compute_bill(food) 을 작성하여라.    
+• 이 함수는 argument 로 food 를 입력 받는다.    
+• 다음과 같이 구현하라.    
+• 변수 total 을 만들고 0 으로 초기화 하라.     
+• 입력 받은 리스트 food 의 항목을 하나씩 추출하여 변수 total 에 저장하라.    
+• 최종 변수 total 값을 반환(return)하라.     
+• 청구 대상 품목의 재고가 있는지 여부를 신경쓰지 마라. (즉, 리스트에 있는것은 재고 목록에 있다는 전제하에 작성하라.)
 {: .notice--info}
 
 
@@ -1056,11 +1091,11 @@ Ignore whether or not the item you're billing for is in stock.Note that your fun
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Only add the prices of the items !!
+* Only add the prices of the items !!
 
 
-**설명:** [ ]          
-항목별 가격만 더하는 것이다. 
+**설명:** [ Hint ]          
+• 리스트의 항목별 가격만 더하는 것이다. 
 {: .notice--info}
 
 <br>
@@ -1096,8 +1131,12 @@ def compute_bill(food):
 
 ```
 
-**설명:** [ ]          
-함수 `compute_bill()`를 작성한다. 이 함수는 입력 받은 리스트의 해당 항목의 가격을 구하여, 전체 리스트의 가격을 합한후, 반환하는 함수이다.
+**설명:** [ Solution ]     
+• 함수 compute_bill(food) 를 작성하였다.    
+• 이 함수는 입력 받은 리스트 food의 해당 항목의 가격을 찾는다.(i.g. "banana")   
+• for 문에서, food에서 찾은 "banana"의 가격을 리스트 prices 에서 찾는다.    
+• 전체 값을 저장하는 변수 total 에 "banana"의 가격을 더하여 저장한다.    
+• 최종 total 값을 반환(return) 한다. 
 {: .notice--info}
 
 
@@ -1122,8 +1161,11 @@ Ultimately, if an item isn't in stock, then it shouldn't be included in the tota
 
 
 
-**설명:** [ ]         
-`compute_bill()`함수를 통하여 쇼핑을 할 수 있다. 다만, 재고가 없는것은 상품은 구매 할수 없으므로 가격을 계산하면 안된다. 이 요건을 연습해 볼 것이다.   
+**설명:** [ Learn ]    
+• Ch12. Stocking Out 에서는 딕셔너리의 value를 조작하는 법을 배워보자.     
+• 함수 compute_bill() 함수를 통하여 쇼핑하는 프로그램을 만들었다.    
+• 이 장에서는 재고가 없는 상품은 구매 할 수 없는 기능을 추가하자.    
+• 재고가 없는 상품은 가격을 계산하면 안된다.
 {: .notice--info}
 
 
@@ -1133,16 +1175,18 @@ Ultimately, if an item isn't in stock, then it shouldn't be included in the tota
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Make the following changes to your `compute_bill` function:
+* Make the following changes to your `compute_bill` function:
 
-While you loop through each item of food, **only add the price** of the item to total if the item's **stock count** is greater than zero.
+* While you loop through each item of food, **only add the price** of the item to total if the item's **stock count** is greater than zero.
 
-if the item is in stock and after you add the price to the total, subtract one from the item's stock count.
+* if the item is in stock and after you add the price to the total, subtract one from the item's stock count.
 
 
-**설명:** [ ]          
-**①** 함수 `compute_bill()`을 계산할때, `stock` 항목에 재고 가 있는것만 계산해야 한다. (즉, stock에 재고가 0인것은 계산하면 안된다.) 
-**②** 만약, 상품이 재고가 있으면, 그 가격을 전체 `total`에 추가하고, 해당 제품의 숫자를 1개 감소시켜야 한다.   
+**설명:** [ Instruction ]          
+• 함수 compute_bill() 을 계산할때, 딕셔너리 stock 항목 중 재고가 있는 것만 계산한다.    
+• 딕셔너리 stock 에 재고가 0 인것은 계산하면 안된다.    
+• 만약, 상품이 재고가 있으면, 그 가격을 전체 total 에 추가한다.    
+• 그리고, 해당 제품의 숫자를 1개 감소 시켜야 한다.   
 {: .notice--info}
 
 
@@ -1151,11 +1195,12 @@ if the item is in stock and after you add the price to the total, subtract one f
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-If you're buying a banana, check if it's in stock (larger than zero). If it's in stock, add the cost of a banana to your bill. Finally, decrement the stock of bananas by one!
+* If you're buying a banana, check if it's in stock (larger than zero). If it's in stock, add the cost of a banana to your bill. Finally, decrement the stock of bananas by one!
 
 
-**설명:** [ ]         
-"banana"의 경우는 재고가 있으므로, 가격을 구할수 있다. 그러나, "apple"의 경우 재고가 없기에 함수에서 재고 유무를 점검해야 한다. 
+**설명:** [ Hint ]         
+• "banana" 는 재고가 존재하므로, 가격을 구할수 있다.    
+• "apple" 은 재고가 0 이므로 함수에서 재고 유무를 점검해야 한다. 
 {: .notice--info}
 
 <br>
@@ -1192,8 +1237,10 @@ def compute_bill(food):
   return total
 ```
 
-**설명:** [ ]          
-`stock[item] > 0`인 것들만 계산한다. 그리고 해당 `stock[item]`의 갯수를 하나 줄여준다. 
+**설명:** [ Solution ]          
+• 함수 compute_bill(food)에서는 딕셔너리 stock[item] > 0 인 것들만 계산한다.    
+• 딕셔너리 stock[item] 이 0 보다 크면, 그 가격을 변수 total 에 추가한다.    
+• 그리고 stock[item] 의 갯수를 하나 줄여준다. 
 {: .notice--info}
 
 
@@ -1223,12 +1270,11 @@ Thanks for shopping at the Codecademy supermarket!
 
 
 
-**설명:** [ ]          
-종합적으로 정리하면 다음과 같다.
-• 리스트와 딕셔너리를 for문으로 활요하는 법을 배웠다.     
-• 함수에서 리스트, 딕셕너리, for문을 활용하는 법을 배웠다.
+**설명:** [ Learn ]     
+• Ch13. Let's Check Out! 에서는 지금껏 작성한 소스를 정리해 보자.    
+• 리스트와 딕셔너리를 for문으로 사용하는 법을 배웠다.     
+• 함수에서 리스트, 딕셕너리, for 문을 활용하는 법을 배웠다.
 • 딕셔너리의 값을 추가, 삭제 하는 법을 배웠다. 
-지금가지 수고하셨습니다. 
 {: .notice--info}
 
 
@@ -1238,11 +1284,11 @@ Thanks for shopping at the Codecademy supermarket!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Print your result and click Run to finish this course.
+* Print your result and click Run to finish this course.
 
 
-**설명:** [ ]      
-**①** Print your result and click Run to finish this course. 
+**설명:** [ Instruction ]      
+• 지금까지 작성한 소스를 실행시켜 보아라.
 {: .notice--info}
 
 
@@ -1254,7 +1300,7 @@ Thanks for shopping at the Codecademy supermarket!
 * skip
 
 
-**설명:** [ ]      
+**설명:** [ Hint ]      
 • skip
 {: .notice--info}
 
@@ -1290,9 +1336,12 @@ def compute_bill(food):
 print (compute_bill(shopping_list))
 ```
 
-**설명:** [ ]          
-최종으로 함수  `compute_bill(shopping_list)`을 호출하여 출력해 보자. 
-
+**설명:** [ Solution ]     
+• 함수 compute_bill(shopping_list) 을 호출하여 출력한다.     
+• 함수는 재고 항목 딕셔너리 food의 항목을 하나씩 읽어서 재고가 있는지 확인한다.    
+• 재고가 있으면 (item > 0) 해당 물품의 가격을 딕셔너리 prices에서 찾는다.    
+• 변수 total 에 item의 가격을 추가한다.    
+• 물품의 전체 가격이 저장된 변수 total 을 반환(return)한다.
 {: .notice--info}
 
 
