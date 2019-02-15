@@ -3,7 +3,7 @@
 title: "A Day at the Supermarket"
 permalink: /day-supermarket/
 excerpt: "We learn about list, dictionary Syntax."
-last_modified_at: 2018-12-28T09:00:00-04:00
+last_modified_at: 2019-02-13T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -25,17 +25,20 @@ Let's manage our own supermarket and buy some goods along the way!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 1. BeFOR We Begin
+### 1. BeFOR We Begin    
 
 Before we begin our exercise, we should go over the Python **for** loop one more time. For now, we are only going to go over the **for** loop in terms of how it relates to **lists** and **dictionaries**. We'll explain more cool for loop uses in later courses.
 
-**for** loops allow us to **iterate** through all of the elements in a list from the left-most (or zeroth element) to the right-most element. A sample loop would be structured as follows:
+**for** loops allow us to **iterate** through all of the elements in a list from the left-most (or zeroth element) to the right-most element. A sample loop would be structured as follows:    
+
 ```python
 a = ["List", "of", "some", "sort"]
 for x in a: 
   # Do something for every x
-```  
+```     
+
 This loop will run all of the code in the indented block under the `for x in a:` statement. The item in the **list** that is currently being evaluated will be `x`. So running the following:
+
 ```python
 for item in [1, 3, 21]: 
   print item
@@ -46,9 +49,11 @@ would print **1**, then **3**, and then **21**. The variable between for and in 
 
 
 
-**설명:** [ ]          
-`for x in a:`는 리스트 a에 있는 값들을 하나씩 뽑아서 변수 x에 넣어준다.   
-일번적으로 변수 x와 같이 문자 또는 단어로 사용하는데, Python에서 예약된 단어는 사용하지 못한다. (ex. print) 
+**설명:** [ Learn ]    
+• Ch1. BeFOR We Begin 에서는 for문에서 리스트를 활용하는 연습을 한다.    
+• 'for x in a:'는 리스트 a에 있는 값들을 하나씩 추출하여 변수 x 에 넣어준다.   
+• 변수 x 와 같이 변수로 정의할 문자는 Python 예약어를 변수로 사용하면 안된다.    
+• i.g. for print in list: ( X ) , 예약어 print 를 변수로 사용하면 안된다. 
 {: .notice--info}
 
 
@@ -58,11 +63,11 @@ would print **1**, then **3**, and then **21**. The variable between for and in 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Use a for loop to print out all of the elements in the list names.
+* Use a for loop to print out all of the elements in the list names.
 
 
-**설명:** [ ]         
-**①** for 문을 사용하여, 리스트의 내용들을 출력하라.  
+**설명:** [ Instruction ]         
+• for 문을 사용하여, 리스트의 내용들을 하나씩 출력하라.  
 {: .notice--info}
 
 
@@ -71,11 +76,11 @@ would print **1**, then **3**, and then **21**. The variable between for and in 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Look at the sample code in the instructions if you need help!
+* Look at the sample code in the instructions if you need help!
 
 
-**설명:** [ ]         
-상단의 Learn 에서 설명한 소스 코드를 참조하시오. 
+**설명:** [ Hint ]         
+• 상단의 Learn 에서 설명한 소스 코드를 참조하시오. 
 {: .notice--info}
 
 <br>
@@ -92,8 +97,9 @@ for name in names:
   print name
 ```
 
-**설명:** [ ]         
-리스트 `names` 에 있는 항목(값)을 하나씩 추출해서 변수 `name`에 하나씩 넣어 준다. 
+**설명:** [ Solution ]         
+• 리스트 names 에 있는 항목(값)을 하나씩 추출해서 변수 name 에 하나씩 넣어 준다.     
+• 변수 name 을 출력한다.
 {: .notice--info}
 
 
@@ -116,6 +122,7 @@ Columbus
 ### 2. This is KEY!    
 
 You can also use a **for** loop on a **dictionary** to loop through its **keys** with the following:
+
 ```python
 # A simple dictionary
 d = {"foo" : "bar"}
@@ -123,14 +130,19 @@ d = {"foo" : "bar"}
 for key in d: 
   print d[key]  # prints "bar"
 ```  
+
 Note that dictionaries are **unordered**, meaning that any time you loop through a dictionary, you will go through every key, but you are **not guaranteed** to get them in any particular **order**.
 
 
 
 
 
-**설명:** [ ]          
-for 문으로 딕셔너리의 항목(값)을 뽑아 낼수 있다. 주의 할 점은, 딕셔너리는 순서가 없습니다. 즉, 딕셔너리를 반복 하여 추출할 때마다 모든 키를 거치지 만 특정 순서로 키를 가져올 수는 없습니다.
+**설명:** [ Learn ]     
+• Ch2. This is KEY! 에서는 for문에서 딕셔너리를 활용하는 방법을 연습해 보자.    
+• for 문으로 딕셔너리의 항목(값)을 뽑아 낼수 있다.     
+• 주의할 점은, 딕셔너리는 순서가 없습니다.     
+• 즉, 딕셔너리를 반복 하여 추출할 때마다 모든 키를 추출한다.    
+• 다만 특정 순서로 키를 가져올 수는 없다.
 {: .notice--info}
 
 <br>
@@ -139,10 +151,11 @@ for 문으로 딕셔너리의 항목(값)을 뽑아 낼수 있다. 주의 할 �
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Use a for loop to go through the `webster` dictionary and print out all of the definitions.
+* Use a for loop to go through the `webster` dictionary and print out all of the definitions.
 
 
-**설명:** [ ]      ① 딕셔너리 `webster`에서 for 문을 사용하여, value 값들을 출력하라. 
+**설명:** [ Instruction ]     
+• 딕셔너리 webster 에서 for 문을 사용하여 딕셔너리 항목(값)을 출력하라. 
 {: .notice--info}
 
 
@@ -151,13 +164,17 @@ for 문으로 딕셔너리의 항목(값)을 뽑아 낼수 있다. 주의 할 �
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The definitions are the values associated with each key. print webster["Aardvark"] will give you an output of "A star of a popular children's cartoon show."
+* The definitions are the values associated with each key.    
+* print webster["Aardvark"] will give you an output of "A star of a popular children's cartoon show."
 
-Since you can loop through every key, you should be able to get every value
+* Since you can loop through every key, you should be able to get every value
 
 
-**설명:** [ ]         
-딕셔너리의 key 값과 매치된 value 값을 가져 올수 있다. 상단의 Learn에서 배운 예제를 참조하세요.  
+**설명:** [ Hint ]     
+• 딕셔너리는 key 값과 매치되는 value 가 있다.    
+• 딕셔너리 webster는 key 값을 지정하여 해당 value 를 가져올 수 있다.    
+• i.g. print webster["Aardvark"]    
+• 모든 key 값을 for 문을 반복하면서 key 에 해당하는 value 값을 가져올 수 있다.
 {: .notice--info}
 
 <br>
@@ -180,8 +197,9 @@ for word in webster:
   print webster[word]
 ```
 
-**설명:** [ ]          
-변수 `word`에 리스트 `webster`의 key 값이 저장된다. 해당 key의 value값을 출력하기 위해서는 리스트 `webster[word]`로 출력할수 있다. 
+**설명:** [ Solution ]          
+• 변수 word 에 리스트 webster 의 key 값이 저장된다.    
+• 해당 key의 value 를 출력하기 위해서는 리스트 webster[word] 로 출력할 수 있다. 
 {: .notice--info}
 
 
@@ -200,21 +218,24 @@ The sound a goat makes.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 3. Control Flow and Looping
+### 3. Control Flow and Looping    
 
 The blocks of code in a **for** loop can be as big or as small as they need to be.
 
-While looping, you may want to perform different actions depending on the particular item in the list.
+While looping, you may want to perform different actions depending on the particular item in the list.    
+
 ```python
 numbers = [1, 3, 4, 7]
 for number in numbers: 
   if number > 6:
     print number
 print "We printed 7."
-```
+```   
+
 In the above example, we create a list with 4 numbers in it.
 Then we loop through the numbers list and store each item in the list in the variable number.
-On each loop, if number is greater than 6, we print it out. So, we print 7.
+On each loop, if number is greater than 6, we print it out.     
+So, we print 7.
 Finally, we print out a sentence.
 Make sure to keep track of your indentation or you may get confused!
 
@@ -222,8 +243,11 @@ Make sure to keep track of your indentation or you may get confused!
 
 
 
-**설명:** [ ]          
-for 문의 코드블럭 영역에는 크다/작다 와 같은 필요한 부분을 작성할수 있다. 위 예제에서 for문으로 리스트의 항목(값)을 뽑아내고는 for문 영역 안에서 if문으로 6보다 큰 경우만 출력하도록 한다.  
+**설명:** [ Learn ]     
+• Ch3. Control Flow and Looping 에서는 for 문 안에서 비교문 if 문을 사용하는 것을 배워보자.    
+• for 문의 코드블럭 영역에는 크다/작다 와 같은 비교문 if 문을 작성할 수 있다.    
+• 위 예제에서 for 문으로 리스트의 항목(값)을 추출 한다.    
+• 그리고 for 문 영역 안에서 if 문으로 6보다 큰 경우만 출력하도록 한다.
 {: .notice--info}
 
 
@@ -233,13 +257,14 @@ for 문의 코드블럭 영역에는 크다/작다 와 같은 필요한 부분�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Like step 2 above, loop through each item in the list called `a`.
+* Like step 2 above, loop through each item in the list called `a`.
 
-Like step 3 above, if the number is **even**, print it out. You can test if the `item % 2 == 0` to help you out.
+* Like step 3 above, if the `number` is **even**, print it out. You can test if the `item % 2 == 0` to help you out.
 
 
-**설명:** [ ]          
-① 짝수만 출력되게 하는 프로그램이다. `item % 2 ==0`을 사용한다.  
+**설명:** [ Instruction ]          
+• 리스트 a 에서 항목을 호출하여 변수 number 에 저장한다.     
+• 변수 number 의 항목값이 이 짝수(item % 2 == 0)만 출력 되게한다.
 {: .notice--info}
 
 
@@ -248,15 +273,17 @@ Like step 3 above, if the number is **even**, print it out. You can test if the 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-A number is even if it's evenly divisible by 2. You can determine divisibility with the modulus operator: %.
-
-For example, to check if the value inside of the variable item is divisible by 10, you can do item % 10 == 0. This will evaluate to True if the number in item is evenly divisible by 10 (yielding a remainder of zero).
-
-
+* A `number` is even if it's evenly divisible by 2.     
+* You can determine divisibility with the modulus operator: %.
+* For example, to check if the value inside of the variable item is divisible by 10, you can do `item % 10 == 0`. This will evaluate to True if the `number` in item is evenly divisible by 10 (yielding a remainder of zero).
 
 
-**설명:** [ ]          
-모듈 연사자 `%`를 이용하여 구현한다. 모듈 연산자를 활용한 예를 들면 `item % 10 ==0` 즉, 10으로 나눠서 0이 되는 것 이라는 의미이다. 
+
+
+**설명:** [ Hint ]          
+• 변수 number 가 2로 나누어 지면 짝수이다.    
+• 연산자 % 를 이용하여 나누어 지는것을 확인할 수 있다.    
+• i.g. ( item % 10 ==0 )은 10 으로 나눠서 나머지가 0 이 되는것 이라는 의미이다. 
 {: .notice--info}
 
 <br>
@@ -275,8 +302,11 @@ for number in a:
 
 ```
 
-**설명:** [ ]          
-리스트 `a`의 값을 하나씩 추출하여, 변수 `number`에 저장된다. 변수 `number`가 짝수이면, 출력된다. 
+**설명:** [ Solution ]          
+• 리스트 a 의 값 중 짝수( number % 2 )인 경우만 출력한다.    
+• for 문으로 리스트 a 의 값을 변수 number에 저장한다.    
+• 변수 number를 2로 나누어 나머지가 0 이면 짝수이므로 출력한다.    
+• 짝수가 아니면 다시 for 문에서 리스트의 다음 값을 number 저장후, 반복한다.
 {: .notice--info}
 
 
@@ -299,9 +329,10 @@ for number in a:
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">A DAY AT THE SUPERMARKET</font> 
-### 4. Lists + Functions
+### 4. Lists + Functions    
 
-Functions can also take lists as inputs and perform various operations on those lists.
+Functions can also take lists as inputs and perform various operations on those lists.    
+
 ```python
 def count_small(numbers):
   total = 0
@@ -313,20 +344,32 @@ def count_small(numbers):
 lotto = [4, 8, 15, 16, 23, 42]
 small = count_small(lotto)
 print small
-```
-* In the above example, we define a function count_small that has one parameter, numbers.
-* We initialize a variable total that we can use in the for loop.
-* For each item n in numbers, if n is less than 10, we increment total.
-* After the for loop, we return total.
-* After the function definition, we create an array of numbers called lotto.
-* We call the count_small function, pass in lotto, and store the returned result in small.
+```    
+
+* In the above example, we define a function `count_small` that has one parameter, numbers.
+* We initialize a variable `total` that we can use in the for loop.
+* For each item n in `numbers`, if n is less than 10, we increment `total`.
+* After the for loop, we return `total`.
+* After the function definition, we create an array of numbers called `lotto`.
+* We call the `count_small` function, pass in `lotto`, and store the returned result in `small`.
 * Finally, we print out the returned result, which is 2 since only 4 and 8 are less than 10.
 
 
 
 
-**설명:** [ ]          
-함수도 리스트를 입력값으로 사용할 수 있다. 리스트 `lotto`에서 10보다 작은값의 갯수를 반환한다.  
+**설명:** [ Learn ]    
+• Ch4. Lists + Functions 에서는 리스트를 함수를 호출하여 처리하는것을 배워보자.    
+• 함수도 리스트를 입력 값으로 사용할 수 있다.    
+• 리스트 lotto 항목 중에서 10보다 작은값의 갯수를 반환한다.    
+• 소스는 다음과 같이 동작한다.     
+• 함수 count_samll(numbers)을 정의한다. parameter로 numbers를 가진다.    
+• 10 보다 작은 값을 저장하고 반환할 변수 total 을 선언호 초기화 한다.    
+• parameter 리스트 numbers 의 항목값 n 이 10보다 작은지 비교한다.    
+• 변수 n 값이 10보다 작으면 변수 total 에 저장한다.    
+• for 문이 종료되면 결과값 total 을 반환한다.
+• 리스트 lotto 의 값을 함수 count_samll(lotto)를 호출한다.    
+• 함수 count_small(lotto)의 결과값을 변수 small 에 저장한다.    
+• 변수 small 을 출력한다.
 {: .notice--info}
 
 
@@ -336,24 +379,27 @@ print small
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write a function that counts how many times the string "fizz" appears in a list.
+* Write a function that counts how many times the string "fizz" appears in a list.    
+* Write a function called `fizz_count` that takes a list `x` as input.    
+* Create a variable `count` to hold the ongoing count. Initialize it to zero.    
 
-* Write a function called `fizz_count` that takes a list `x` as input.
-* Create a variable `count` to hold the ongoing count. Initialize it to zero.
-* for each item in x:, if that item is equal to the string "fizz" then **increment** the count variable.
+* for each `item in x`:, if that item is equal to the string "fizz" then **increment** the count variable.    
+
 * After the loop, please return the count variable.
-For example, fizz_count(["fizz","cat","fizz"]) should return 2.
+
+* For example, fizz_count(["fizz","cat","fizz"]) should return 2.
 
 
 
 
-**설명:** [ ]          
-① 리스트의 값중 "fizz"의 갯수를 알려주는 함수를 만드시오 .  
-• 함수명은 `fizz_count`이다. 파라미터는 `x`값을 가진다.    
-• 변수 `count`를 초기화 하고, 이 변수는 fizz의 갯수를 세는 변수이다.    
-• for 문을 사용하여, 입력받은 리스트의 값을 추출하여, if문으로 "fizz"인지를 비교한다.    
-• "fixx"이면, 변수 `count`를 중가한다. 
-• 최종 증가한 변수 `count`를 return 한다. 
+**설명:** [ Instruction ]     
+• 리스트의 값 중 문자열 "fizz" 의 갯수를 알려주는 함수를 만들어라.    
+• 함수명은 fizz_count(x) 이다. parameter 는 x 값을 가진다.    
+• 변수 count 를 초기화 하고, 이 변수는 fizz의 갯수를 세어 저장하는 변수이다.    
+• for 문을 사용하여, 입력받은 리스트 x 의 값을 추출하여, 변수 item 에 저장한다.    
+• if 문으로 변수 item 이 문자열 "fizz" 인지를 비교한다.    
+• 만일, "fixx"이면, 변수 count 를 1 증가시킨다.     
+• for 문이 종료되고, 최종 증가된 변수 count 를 반환(return) 한다.   
 {: .notice--info}
 
 
@@ -362,16 +408,20 @@ For example, fizz_count(["fizz","cat","fizz"]) should return 2.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-We need to count how many times "fizz" appears in our list. To do this, make a counter variable (for example, count) in your function. The counter variable could initially be set to zero. After that, you can loop through the list that you take as input and increase count by one every time an item in the list is equal to the string "fizz".
+* We need to count how many times "fizz" appears in our list.     
+* To do this, make a counter variable (for example, count) in your function.     
+* The counter variable could initially be set to zero. After that, you can loop through the list that you take as input and increase count by one every time an item in the list is equal to the string "fizz".    
+* At the end, don't forget to return the number of "fizz"s!
 
-At the end, don't forget to return the number of "fizz"s!
 
 
 
-
-**설명:** [ ]          
-"fizz"가 입력된 리스트에 몇 번 나왔는지 계산하는 것이다. 함수에서 카운터 변수 (예 : count)를 만들고, 카운터 변수는 초기에 0으로 설정해야 한다. if 문을 사용하여 문자열 "fizz"와 같을 입력값이 있으면 개수를 하나씩 늘린다. 
-마지막으로, "fizz"의 수를 반환하는 것을 잊지 말자. 
+**설명:** [ Hint ]          
+• 리스트에 문자열 "fizz" 가 몇 개 있는지 계산한다.    
+• 함수에서 카운터 변수 (예 : count)를 만든다.    
+• 카운터 변수는 초기에 0으로 설정해야 한다.     
+• if 문을 사용하여 문자열 "fizz"와 같은 입력값이 있으면 개수를 하나씩 늘린다.    
+• 마지막으로, "fizz"의 수를 반환하는 것을 잊지 말자. 
 {: .notice--info}
 
 <br>
@@ -391,8 +441,14 @@ def fizz_count(x):
   return count
 ```
 
-**설명:** [ ]          
-리스트 `x`의 값에 "fizz"의 갯수를 세어주는 함수이다. 
+**설명:** [ Solution ]          
+• 리스트 x 의 값에 "fizz"의 갯수를 세어주는 fizz_count(x) 함수이다.   
+• 함수 fizz_count(x)는 다음과 같이 작동한다.    
+• 변수 count 를 초기화 한다. 이 변수는 "fizz"의 갯수를 저장한다.    
+• 리스트 x 에서 항목을 하나씩 추출하여, 변수 item 에 저장한다.    
+• 변수 item 이 문자열 "fizz"와 같으면, 변수 count 값을 1 증가 시킨다.    
+• 리스트 x 의 모든 값을 추출하여 비교할때까지 반복한다.    
+• 최종 결과값 변수 count 를 반환(return) 한다. 
 {: .notice--info}
 
 
