@@ -1273,7 +1273,7 @@ Thanks for shopping at the Codecademy supermarket!
 **설명:** [ Learn ]     
 • Ch13. Let's Check Out! 에서는 지금껏 작성한 소스를 정리해 보자.    
 • 리스트와 딕셔너리를 for문으로 사용하는 법을 배웠다.     
-• 함수에서 리스트, 딕셕너리, for 문을 활용하는 법을 배웠다.
+• 함수에서 리스트, 딕셕너리, for 문을 활용하는 법을 배웠다.    
 • 딕셔너리의 값을 추가, 삭제 하는 법을 배웠다. 
 {: .notice--info}
 
