@@ -5,14 +5,12 @@ title: "About"
 author_profile: true
 ---
 
-자전거 타는것을 좋아하고,     
-겨울내내 스키를 타고 싶어 직업을 바꿔 볼까도 생각했다.    
-자본시장관련 금융 인터페이스 아키텍트로 활동하고 있다.    
+I like to ride cycle and ski, one time,  I used to think about changing my jobs to spend at ski resorts during the winter season.
+I am working for capital markets, CCP (Central Couty Party), as an Architecture of Interface. 
 
-누구나 쉽게 Python을 배울 방법이 없을까 고민하다,    
-좋은 사이트를 알게 되었다.   
-결국 이를 공부하는데 도움이 될만한 가이드 사이트를 만들게 되었다.    
-도움이 되었으면 좋겠다.
+I have considered how to learn python easily anybody and found a good site. 
+finally, I have made a guide site for codecademy's python language.
+I hope to help everybody.
 
 
 {% include group-by-array collection=site.posts field="categories" %}
