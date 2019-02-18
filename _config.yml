@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author: 
   name             : "Wonyoung Lee"
-  avatar           : "/assets/images/bio-photo3.jpg"
+  avatar           : "/assets/images/bio-photo-ride.jpg"
   bio              : "I am a programmer, skier, road cyclist, and amazing person."
   location         : "Korea"
   email            : "i.am.peter.kr@gmail.com"
@@ -111,7 +111,7 @@ author:
       url: mailto:i.am.peter.kr@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://codecademy.or.kr"
+      url: "http://codecademy.or.kr"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
