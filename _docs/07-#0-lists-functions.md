@@ -3,7 +3,7 @@
 title: "Lists and Functions"
 permalink: /lists-functions/
 excerpt: "We learn about lists and functions."
-last_modified_at: 2019-01-02T09:00:00-04:00
+last_modified_at: 2019-02-18T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -17,7 +17,7 @@ LESSON
 Now that you've learned about lists, let's turbo-charge them with functions.    
 
 **설명:** [ 학습방향 ]     
-지금까지 리스트에 관한 것들을 배웠고, 함수를 배워 봄으로써, 더 강화해 나가자.
+지금까지 리스트에 관한 것들을 배웠고, 지금부터 리스트와 함수를 강화해 보자.
 {: .notice--info}     
      
 
@@ -33,8 +33,9 @@ This exercise goes over just pulling information from a list, which we've covere
 
 
 
-**설명:** [ ]         
-리스트의 항목값을 접근하는 방법을 배운다. 이미 우리는 앞장에서 이와 관련하여 해보았다. 
+**설명:** [ Learn ]        
+• Ch1. List accessing 에서는 리스트 항목에 접근하는 방법을 배운다.    
+• 우리는 앞장에서 이미 이와 관련하여 해보았다. 
 {: .notice--info}
 
 
@@ -44,10 +45,11 @@ This exercise goes over just pulling information from a list, which we've covere
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Please add the code to print out the second element in the list.
+* Please add the code to print out the second element in the list.
 
 
-**설명:** [ ]      ① 리스트 `n`의 두번째 항목을 출력하라. 
+**설명:** [ Instruction ]    
+• 리스트 n 의 두번째 항목을 출력하라
 {: .notice--info}
 
 
@@ -56,15 +58,18 @@ This exercise goes over just pulling information from a list, which we've covere
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember that elements in a list start from index 0 and they are accessed in the form
+* Remember that elements in a list start from index 0 and they are accessed in the form    
+
 ```python
 x[n]
-```
-where `x` is the name of the list and n is the index in that list that you're trying to access.
+```    
+
+* where `x` is the name of the list and n is the index in that list that you're trying to access.
 
 
-**설명:** [ ]          
-리스트의 인덱스는 0 부터 시작한다. 만약 첫번째 자리의 값을 접근할려면 `n[0]`으로 해야 한다.
+**설명:** [ Hint ]    
+• 리스트의 인덱스는 0 부터 시작한다.    
+• 첫번째 항목값에 접근 할려면 n[0] 으로 접근한다.
 {: .notice--info}
 
 <br>
@@ -81,8 +86,9 @@ n = [1, 3, 5]
 print n[1]
 ```
 
-**설명:** [ ]          
-리스트 n 의 `3`을 접근할려면, `n[1]`로 해야 한다. 
+**설명:** [ Solution ]          
+• 리스트 n 의 항목값 3 에 접근할려면, n[1]로 접근해야 한다.     
+• 접근한 후 n[1]의 항목값 3을 출력한다.
 {: .notice--info}
 
 
@@ -98,14 +104,15 @@ print n[1]
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
-### 2. List element modification   
+### 2. List element modification     
 
 You've already learned how to modify elements of a **list** in a previous section. This exercise is just a recap of that! 
 
 
 
-**설명:** [ ]          
-앞장에서 배운 리스트를 다시한번 연습해 보자. 
+**설명:** [ Learn ]          
+• Ch2. List element modification 에서는 리스트의 항목값을 변경하는것을 연습한다.    
+• 앞장 리스트에서 배웠지만 다시 한번 연습해 보자.
 {: .notice--info}
 
 
@@ -115,16 +122,16 @@ You've already learned how to modify elements of a **list** in a previous sectio
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** On line 3, multiply the second element of the `n` list by `5`
+* On line 3, multiply the second element of the `n` list by `5`
 
 **Overwrite** the second element with that result.
 
-Make sure to print the list when you are done!
+* Make sure to print the list when you are done!
 
 
-**설명:** [ ]          
-① 3 라인에서, 두번째 항목의 `3`값에 `x 5`한 값으로 변경하시오. 작업이 완료되면 출력하시오. 
-
+**설명:** [ Instruction ]          
+• 3 라인에서, 두번째 항목값 3 에 5배를 곱한 값(e.g. 3 x 5 )으로 변경하라.    
+• 변경 작업이 완료되면 해당 항목을 출력하라.
 {: .notice--info}
 
 
@@ -133,15 +140,19 @@ Make sure to print the list when you are done!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-An item in a list in Python can be set to a value using the form
+* An item in a list in Python can be set to a value using the form
+
 ```python
 x[n] = v
-```
-where x is the name of the list, n is the index in the array and v is the value you want to set.
+```    
+
+* where `x` is the name of the list, `n` is the index in the array and `v` is the value you want to set.
 
 
-**설명:** [ ]         
-리스트의 특정 항목을 변경하기 위해서는 `x[n]=v`와 같이 `n:index`, `v=값`이다.  
+**설명:** [ Learn ]     
+• 리스트의 특정 자리 항목을 변경하기 위해서는 다음과 같이 변경한다.    
+• i.g. x[n]=v     
+• x : 리스트,   n : index,   v : 값 
 {: .notice--info}
 
 <br>
@@ -158,8 +169,10 @@ n[1] = n[1] * 5
 print n
 ```
 
-**설명:** [ ]          
-인덱스 1번(두번째값) 자리에, `n[1]`값에다 x 5 한 값을 저장한다. 
+**설명:** [ Solution ]          
+• 인덱스 1번(두번째값) 자리 n[1] 에 값 5를 곱한다. (i.g. n[1] * 5)    
+• 리스트 n 을 출력한다.    
+• 곱하기 5를 항 2번째 항목(n[1])만 변경된다.
 {: .notice--info}
 
 
@@ -181,8 +194,9 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 
 
 
-**설명:** [ ]          
-리스트에  `.append()`를 이용하면, 제일 마지막에 값을 추가할 수 있다. 
+**설명:** [ Learn ]          
+• Ch3. Appending to a list 에서는 메서드 '.append()'를 사용하는 법을 배운다.    
+• 리스트에  '.append()' 를 이용하면, 리스트 제일 마지막에 값을 추가할 수 있다.
 {: .notice--info}
 
 
@@ -192,11 +206,11 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Append the number 4 to the end of the list n.
+* Append the number 4 to the end of the list `n`.
 
 
-**설명:** [ ]          
-① 리스트 `n[]`에 정수 4를 추가하라.  
+**설명:** [ Instruction ]          
+• 리스트 n[] 마지막 자리에 정수 4를 추가하라.  
 {: .notice--info}
 
 
@@ -205,15 +219,16 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The function to append to the end of a list is
+* The function to append to the end of a list is    
+
 ```python
 x.append(item)
-```
-where `x` is the name of the list and item is the object you want to append.
+```    
+* where `x` is the name of the list and item is the object you want to append.
 
 
-**설명:** [ ]          
-리스트 `x` 에 `.append(item)`을 활용하라.  
+**설명:** [ Hint ]          
+• 리스트 x 에 '.append(item)' 를 활용한다.
 {: .notice--info}
 
 <br>
@@ -230,8 +245,8 @@ n.append(4)
 print n
 ```
 
-**설명:** [ ]          
-`n.append(4)`는 리스트의 맨 끝에 추가된다. 
+**설명:** [ Solution ]          
+• i.g. 'n.append(4)' 는 리스트의 맨 끝에 값 4를 추가한다.
 {: .notice--info}
 
 
@@ -260,31 +275,36 @@ n.pop(1)
 # Returns 3 (the item at index 1)
 print n
 # prints [1, 5]
-```
-`n.remove(item)` will remove the actual item if it finds it:
+```    
+
+`n.remove(item)` will remove the actual item if it finds it:    
+
 ```python
 n.remove(1)
 # Removes 1 from the list,
 # NOT the item at index 1
 print n
 # prints [3, 5]
-```
-`del(n[1])` is like `.pop` in that it will remove the item at the given index, **but it won't return it**:
+```    
+
+`del(n[1])` is like `.pop` in that it will remove the item at the given index, **but it won't return it**:    
+
 ```python
 del(n[1])
 # Doesn't return anything
 print n
 # prints [1, 5]
-```
+```    
 
 
-
-
-**설명:** [ ]          
-리스트의 항목값을 삭제 하는 것을 다시 연습해보자.    
-`n.pop(index)` index 값에 해당하는 항목이 삭제 된다. 
-`n.remove(1)`  값 1을 찾아서 그 값이 삭제 된다. 
-`del(n[`])` index 값에 대항하는 항목이 삭제 된다. (단, 결과값이 return 안된다. ex. print del(n[0]) 사용할 수 없다.)
+**설명:** [ Learn ]          
+• Ch4. Removing elements from lists 에서는 리스트의 항목값 삭제를 학습한다.    
+• 리스트의 항목값을 삭제 하는 것을 다시 연습한다.     
+• n.pop(index), index 값에 위치하는 항목이 삭제 된다.    
+• n.remove(1),  index 값 1 위치에 해당하는 값을 찾아서 그 값이 삭제 된다.     
+• del(n[1]) index 값 1 위치에 해당하는 값이 삭제 된다.     
+• 주의, del(n[1])은 결과값이 return 안된다.     
+• i.g. print del(n[0]) 사용불가.
 {: .notice--info}
 
 
@@ -294,11 +314,11 @@ print n
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Remove the first item from the list n using either `.pop()`, `.remove()`, or `del`.
+* Remove the first item from the list n using either `.pop()`, `.remove()`, or `del`.
 
 
-**설명:** [ ]          
-① 리스트 `n`를 `.pop()`, `.remove()`, `del`중 하나를 사용하여 첫번째 값을 지워라.  
+**설명:** [ Instruction ]          
+• 리스트 n 를 '.pop()', '.remove()', 'del() 중 하나를 사용하여 첫번째 값을 지워라.
 {: .notice--info}
 
 
@@ -307,16 +327,19 @@ print n
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-One way of doing this would be
+* One way of doing this would be    
+
 ```python
 n.pop(0)
-```
-where x is the list and index is the item you want to pop off the list. If no index is given, it removes the last item from the list.
+```     
+
+* where `x` is the list and index is the item you want to pop off the list. If no index is given, it removes the last item from the list.
 
 
 
-**설명:** [ ]          
-`n.pop(0)`은 첫번째 인덱스를 지우는 것이다. 만약, 인덱스 값을 주지 않으면 마지막 인덱스를 지운다. 
+**설명:** [ Hint ]    
+• n.pop(0) 은 index 0 위치의 값을 지운다.    
+• 만약, index 값을 주지 않으면 마지막 인덱스를 지운다.( i.g. n.pop() )
 {: .notice--info}
 
 <br>
@@ -333,8 +356,9 @@ n.pop(0)
 print n
 ```
 
-**설명:** [ ]          
-`n.pop(0)`을 사용하여 첫번째 값을 지웠다. 
+**설명:** [ Solution ]          
+• 메서드 n.pop(0) 을 사용하여 첫번째 index 0 값을 지웠다.     
+• 리스트 n 을 출력한다. 
 {: .notice--info}
 
 
@@ -357,8 +381,9 @@ In this exercise, you will just be making a minor change to a function to change
 
 
 
-**설명:** [ ]          
-함수를 설명하기 위해서 함수를 약간 변형해 볼것이다. 
+**설명:** [ Learn ]          
+• Ch5. Changing the functionality of a function 에서는 함수를 강화한다.    
+• 함수를 조금 변경해 봄으로써, 함수 연습을 한다.
 {: .notice--info}
 
 
@@ -368,11 +393,12 @@ In this exercise, you will just be making a minor change to a function to change
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Change the function so the given argument is multiplied by 3 and returned.
+* Change the function so the given argument is multiplied by 3 and returned.
 
 
-**설명:** [ ]          
-① 주어진 함수를 입력값에 `x 3`한후 그 결과값을 반환하는 하는 기능을 하는 함수로 변경하라. 
+**설명:** [ Instruction ]          
+• Editor 창에 작성되어 있는 함수를 변경하라.    
+• 이 함수는 입력값에 값 3을 곱한 결과값을 반환한다. 
 {: .notice--info}
 
 
@@ -381,11 +407,11 @@ In this exercise, you will just be making a minor change to a function to change
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You'll want to change the `+` to a `*`.
+* You'll want to change the `+` to a `*`.
 
 
-**설명:** [ ]          
-`+` 를 `*`로 변경하라. 
+**설명:** [ Hint ]          
+• 연사자 ( + ) 를 ( * ) 로 변경하라. 
 {: .notice--info}
 
 <br>
@@ -404,8 +430,9 @@ def my_function(x):
 print my_function(number)
 ```
 
-**설명:** [ ]          
-입력값 `x`를 x 3하여 반환한다. 
+**설명:** [ Solution ]          
+• 함수 my_function(x)은 입력값 x 를 값 3을 곱한 결과를 반환한다.     
+• 함수 my_function(number)를 호출하여 출력한다.
 {: .notice--info}
 
 
@@ -428,7 +455,8 @@ This exercise will recap how to use **more than one argument** in a function.
 
 
 
-**설명:** [ ]      입력 argument가 1개 이상 일때를 연습해 보자. 
+**설명:** [ Learn ]     
+• Ch6. More than one argument 에서는 1개 이상의 arguments를 연습한다.    
 {: .notice--info}
 
 
@@ -438,11 +466,12 @@ This exercise will recap how to use **more than one argument** in a function.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function called `add_function` that has `2` parameters `x` and `y` and adds them together.
+* Define a function called `add_function` that has `2` parameters `x` and `y` and adds them together.
 
 
-**설명:** [ ]          
-① 함수 `add_function`은 `x`, `y` 2개의 parameters를 가지는 함수를 정의하라.  
+**설명:** [ Instruction ]          
+• 함수 add_function(x, y)를 정의하라.    
+• 함수 add_function()은 parameter로 x 와 y 를 가진다.  
 {: .notice--info}
 
 
@@ -451,7 +480,8 @@ This exercise will recap how to use **more than one argument** in a function.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-A function is defined as follows:
+* A function is defined as follows:    
+
 ```python
 def my_function(argument1, argument2, etc.):
   # Function body goes here
@@ -459,8 +489,9 @@ def my_function(argument1, argument2, etc.):
 ```
 
 
-**설명:** [ ]          
-함수의 parameters 갯수는 다음과 같이 `def my_function(argument1, argument2, etc.):` 정의한다. 
+**설명:** [ Hint ]          
+• 함수는 다음과 같이 정의한다.    
+• def my_function(argument1, argument2, etc.):
 {: .notice--info}
 
 <br>
@@ -480,8 +511,10 @@ def add_function(x, y):
 print add_function(m, n)
 ```
 
-**설명:** [ ]          
-`x`, `y` parameter로 입력 받은 값 m=5, n=13을 더하는 함수이다. 
+**설명:** [ Solution ]     
+• 함수 add_function(x, y)는 입력값 x 와 y 의 합을 반환(return)한다.    
+• 함수 add_function(m, n)을 입력한후, 반환값을 출력한다.    
+• 입력값 m = 5 , n = 13 이다.
 {: .notice--info}
 
 
@@ -504,8 +537,8 @@ This is a basic recap on using strings in functions.
 
 
 
-**설명:** [ ]        
-함수에서 문자열을 사용하는 방법을 연습해 보자.  
+**설명:** [ Learn ]    
+• Ch7. Strings in functions 에서는 함수에서 문자열 사용법을 연습한다.
 {: .notice--info}
 
 
@@ -515,11 +548,14 @@ This is a basic recap on using strings in functions.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write a function called `string_function` that takes in a string argument `(s)` and then returns that argument **concatenated** with the word `'world'`. Don't add a space before world!
+* Write a function called `string_function` that takes in a string argument `(s)` and then returns that argument **concatenated** with the word `'world'`. Don't add a space before world!
 
 
-**설명:** [ ]          
-① 함수 `string_function`은 스트링 parameter `s`를 입력받아, 입력받은 문자열에 `world` 문자열을 덧붙이는 기능을 하는 함수이다. ("world" 앞에 스페이스는 없다. ) 
+**설명:** [ Instruction ]          
+• 함수 string_function(s)를 작성하라.    
+• 이 함수는 스트링 parameter s 를 가진다.    
+• 입력받은 문자열 변수 s 에 문자열 "world" 를 덧붙이고 그 결괄를 반환한다.    
+• 문자열 "world" 앞에 스페이스는 없다.
 {: .notice--info}
 
 
@@ -528,14 +564,15 @@ This is a basic recap on using strings in functions.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-String concatenation utilizes the `+` symbol:
+* String concatenation utilizes the `+` symbol:    
+
 ```python
 print "Hello" + "world"
 # outputs "Helloworld"
 ```
 
-**설명:** [ ]          
-`+` 연산자를 사용하여 문자를 이어 붙여라. 
+**설명:** [ Hint ]          
+• 연산자 ( + ) 를 사용하여 문자를 이어 붙인다. 
 {: .notice--info}
 
 <br>
@@ -554,8 +591,12 @@ def string_function(s):
 print string_function(n)
 ```
 
-**설명:** [ ]          
-입력받은 `s = "Hello"` 에다가 "world"를 붙인다. 
+**설명:** [ Solution ]          
+• 변수 n = "Hello" 를 대입한다.    
+• 함수 string_function(n) 을 호출한다.    
+• 함수 string_function(s) 은 다음과 같이 동작한다.    
+• 입력받은 변수 s 에 문자열 "world"를 붙인다.    
+• 그 결과( "Helloworld")를 반환한다.
 {: .notice--info}
 
 

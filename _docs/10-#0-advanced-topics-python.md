@@ -2,7 +2,7 @@
 # layout : rchive
 title: "Advanced Topics in Python"
 permalink: /advanced-topics-python/
-excerpt: "We learn about String, Console, and Output Syntax."
+excerpt: "We learn about Data structure, list comprehension, slicing, lambda Syntax."
 last_modified_at: 2019-01-18T09:00:00-04:00
 redirect_from:
   - /theme-setup/
