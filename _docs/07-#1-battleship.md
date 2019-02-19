@@ -3,7 +3,7 @@
 title: "Battleship!"
 permalink: /battleship/
 excerpt: "Let's practice what we have learned so far."
-last_modified_at: 2019-01-03T09:00:00-04:00
+last_modified_at: 2019-02-19T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -38,8 +38,10 @@ To build this game we will use our knowledge of lists, conditionals and function
 
 
 
-**설명:** [ ]          
-지금가지 배운것을 활용하여 1인용 게임 'Battleship1'을 만들 것이다.  이 게임은 10번의 질문을 통하여 5x5 좌표 위에 숨어 있는 배의 위치를 찾아서 침돌 시키는 것이다. 이 게임은 우리가 이미 배운 리스트와 함수를 사용하여 개발 하것이다. 
+**설명:** [ Learn ]          
+• 지금까지 배운것을 활용하여 1인용 게임 'Battleship1'을 만든다.    
+• 이 게임은 10 번의 질문을 통하여 5 x 5 좌표 위에 숨어 있는 배의 위치를 찾는다.    
+• 이 게임은 우리가 이미 배운 리스트와 함수를 활용하여 개발한다.
 {: .notice--info}
 
 
@@ -49,11 +51,11 @@ To build this game we will use our knowledge of lists, conditionals and function
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Click Next to get started with Battleship!
+* Click Next to get started with Battleship!
 
 
-**설명:** [ ]          
-① Run을 실행하고 Next를 눌러 시작하자.  
+**설명:** [ Learn ]          
+• Run을 실행하고 Next를 눌러 시작한다. 
 {: .notice--info}
 
 
@@ -65,7 +67,7 @@ To build this game we will use our knowledge of lists, conditionals and function
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -80,7 +82,7 @@ To build this game we will use our knowledge of lists, conditionals and function
 skip
 ```
 
-**설명:** [ ]          
+**설명:** [ Solution ]          
 • skip
 {: .notice--info}
 
@@ -103,8 +105,8 @@ The first thing we need to do is to set up the game board.
 
 
 
-**설명:** [ ]          
-우리가 첫번째로 해야 할일은 게임 판을 만드는 것이다. 
+**설명:** [ Learn ]          
+• 첫번째 미션은 게임 판을 만든다.
 {: .notice--info}
 
 
@@ -114,11 +116,11 @@ The first thing we need to do is to set up the game board.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a variable **`board`** and set it equal to an empty list.
+* Create a variable **`board`** and set it equal to an empty list.
 
 
-**설명:** [ ]          
-①  리스트 **`board`**를 만들고, 빈 리스트로 초기화 해라. 
+**설명:** [ Instruction ]          
+• 리스트 board 를 만들고, 빈 리스트로 초기화 하라. 
 {: .notice--info}
 
 
@@ -132,8 +134,8 @@ lst=[]
 ```
 
 
-**설명:** [ ]          
-`lst=[]`은 변수 lst를 리스트로 초기화 하는 것이다. 
+**설명:** [ Hint ]          
+• 리스트 변수 lst=[] 은 변수 lst 를 리스트로 초기화 하는 것이다. 
 {: .notice--info}
 
 <br>
@@ -147,8 +149,8 @@ lst=[]
 board = []
 ```
 
-**설명:** [ ]          
-변수 **`board = []`**를 빈 리스트로 초기화 하였다. 
+**설명:** [ Solution ]          
+• 변수 board = [] 를 빈 리스트로 초기화 하였다. 
 {: .notice--info}
 
 
@@ -166,11 +168,11 @@ board = []
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 3. Make a List    
 
-Good! Now we'll use a built-in Python function to generate our board, which we'll make into a **5 x 5** grid of **all "O"s, for "ocean."**
+Good! Now we'll use a built-in Python function to generate our board, which we'll make into a **5 x 5** grid of **all "O"s, for "ocean."**    
 ```python
 print ["O"] * 5
-```
-will print out **['O', 'O', 'O', 'O', 'O']**, which is the basis for a row of our board.
+```    
+will print out **['O', 'O', 'O', 'O', 'O']**, which is the basis for a row of our board.    
 
 We'll do this five times to make five rows. (Since we have to do this five times, it sounds like a loop might be in order.)
 
@@ -178,8 +180,11 @@ We'll do this five times to make five rows. (Since we have to do this five times
 
 
 
-**설명:** [ ]          
-바다에 "o"으로 채워진 5x5 판이 있다.  출력 해보면, 가로가 ["o", "o", "o", "o", "o"]인 판인 것이다. 우리는 이런 모양의 세로로 5개가 있는것을 만들 것이다. 
+**설명:** [ Learn ]          
+• 3. Make a List 에서는 리스트로 5 x 5 게임판을 만든다.     
+• 바다에 "o"으로 채워진 5 x 5 판이 있다.    
+• 이 판을 출력 해보면, 가로가 ["o", "o", "o", "o", "o"]인 판인 것이다.     
+• 우리는 이런 모양의 세로로 5개가 있는 리스트를 만들 것이다. 
 {: .notice--info}
 
 
@@ -189,20 +194,18 @@ We'll do this five times to make five rows. (Since we have to do this five times
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a 5 x 5 grid initialized to all **'O's** and store it in board.
-
-* Use **`range()`** to **loop 5 times**.
-* Inside the loop, **`.append()`** a list **containing 5 "O"s** to board, just like in the example above.
-* Note that these are capital letter **"O"** and **not zeros**.
-
+* Create a 5 x 5 grid initialized to all **'O's** and store it in board.     
+* Use **`range()`** to **loop 5 times**.     
+* Inside the loop, **`.append()`** a list **containing 5 "O"s** to board, just like in the example above.     
+* Note that these are capital letter **"O"** and **not zeros**.    
 
 
 
-**설명:** [ ]          
-① 5 x 5 판에 "O"로 채워진 변수 리스트 **`board`**를 만들어라.     
-
-• **`range()`** 활용하여 5번 loop 반복해라.     
-•  loop 안에서는 **`.append()`**를 이용하여 리스트 변수 **`board`**에 ["O","O","O","O","O"]가 5개가 있는 싱글 리스트를 만들어라. 
+**설명:** [ Instruction ]          
+• 리스트 board 를 만들어라.(board는 5 x 5 로 된 판이며, 값 "O" 으로 채워져 있다.)    
+• 함수 range() 활용하여 5번 loop 반복하라.    
+• loop 안에서는 메서드 '.append()'를 이용하여 리스트 board를 작성하라.    
+• 리스트 board 에는 ["O","O","O","O","O"] 가 5개가 있는 싱글 리스트를 만들어라.     
 • 주의 할것은 "O"는 숫자가 아닌 영문 대문자 "O" 이다.   
 {: .notice--info}
 
@@ -212,7 +215,7 @@ We'll do this five times to make five rows. (Since we have to do this five times
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-What if you use a for loop that does the appending in the **`range (0,5)`**?
+* What if you use a for loop that does the appending in the **`range (0,5)`**?
 
 ```python
 [
@@ -222,12 +225,10 @@ What if you use a for loop that does the appending in the **`range (0,5)`**?
   ['O','O','O','O','O'],
   ['O','O','O','O','O']
 ]
-```
+```    
 
-
-
-**설명:** [ ]          
-**`range(0,5)`**와 for 문을 활용하여 위 모양과 같은 리스트를 만들어라. 
+**설명:** [ Hint ]          
+• for 문과 함수 range(0,5) 를 활용하여 위 모양과 같은 리스트를 만들어라. 
 {: .notice--info}
 
 <br>
@@ -246,15 +247,18 @@ for i in range(5):
 #print board
 ```
 
-**설명:** [ ]          
-**`['O'] * 5`**는 ['O','O','O','O','O']를 만드는 방법이다. 이를 for문으로 5번 loop를 돌려서 
-`[
-  ['O','O','O','O','O'],
-  ['O','O','O','O','O'],
-  ['O','O','O','O','O'],
-  ['O','O','O','O','O'],
-  ['O','O','O','O','O']
-]`를 만든다. 
+**설명:** [ Solution ]          
+• 함수 range(5) 를 발생 시킨다.    
+• for 문에서 ['O']를 5번 곱하면, 싱글 리스트 ['O','O','O','O','O'] 이 만들어진다.   
+• (i.g. ['O'] * 5 -> ['O','O','O','O','O'] )    
+• 위와 같은 작업을 5번( i.g. range(5) ) 반복하여 아래와 같이 만든다.     
+• [
+    ['O','O','O','O','O'],
+    ['O','O','O','O','O'],
+    ['O','O','O','O','O'],
+    ['O','O','O','O','O'],
+    ['O','O','O','O','O']
+  ] 
 {: .notice--info}
 
 
@@ -283,8 +287,9 @@ The easiest way to print the board would be to have Python display it for us usi
 
 
 
-**설명:** [ ]          
-print문을 통하여 **`board`** 리스트의 상태가 어떤지를 알 수 있다. 
+**설명:** [ Learn ]          
+• Ch4. Check it Twice 에서는 print 문을 통하여 기본적인 debug 하는 법을 연습한다.    
+• print 문을 통하여 리스트 board 의 상태를 확인할 수 있다. 
 {: .notice--info}
 
 
@@ -294,11 +299,11 @@ print문을 통하여 **`board`** 리스트의 상태가 어떤지를 알 수 �
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Use the print command to display the contents of the **`board`** list.
+* Use the print command to display the contents of the **`board`** list.
 
 
-**설명:** [ ]          
-① 리스트 **`board`**의 상태를 출력해 보자.   
+**설명:** [ Instruction ]          
+• print ansdmf 사용하여, 리스트 board 의 상태를 출력하라.   
 {: .notice--info}
 
 
@@ -307,13 +312,14 @@ print문을 통하여 **`board`** 리스트의 상태가 어떤지를 알 수 �
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The syntax for printing a list is 
+* The syntax for printing a list is     
+
 ```python
 print list_name.
 ```
 
-**설명:** [ ]          
-리스를 출력하는 방법이다. 
+**설명:** [ Hint ]          
+• print 문을 사용하여 리스트 list_name 의 내용을 출력한다.
 {: .notice--info}
 
 <br>
@@ -332,8 +338,11 @@ for i in range(5):
 print board
 ```
 
-**설명:** [ ]          
-실행시켜 리스트 **`board`**가 어떤 상태인지를 확인한다. 
+**설명:** [ Solution ]          
+• 빈 리스트 board 를 초기화 한다.    
+• 함수 range(5) 를 활용하여 아래 작업을 5번 반복한다.    
+• 메서드 '.append(['O'] * 5) 를 리스트 board 에 추가한다. 
+• print 문을 활용하여 리스트 board 가 어떤 상태인지 확인한다. 
 {: .notice--info}
 
 
@@ -358,8 +367,12 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 
 
-**설명:** [ ]          
-리스트의 내용을 볼수 있지만, 더 편하게 볼수 있도록 고쳐 보자. 한줄에 좌~악 하고 나오는게 아니라, 5 X 5 모양으로 한줄씩 총 5줄이 보이는 형태로 고쳐 보다. 
+**설명:** [ Learn ]          
+• Ch5. Custom Print 에서는 print 문을 응용하는 연습을 한다.    
+• print 문으로 리스트의 내용을 볼 수 있다.     
+• 하지만, 더 편하게 볼수 있도록 고쳐 보자.    
+• 한줄에 좌~악 하고 출력되니, board 판 같지가 않다.    
+• 리스트가 5 X 5 모양으로 한줄씩 총 5줄이 보이는 형태로 수정하자. 
 {: .notice--info}
 
 
@@ -369,7 +382,7 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** First, delete your existing **`print`** statement.
+* First, delete your existing **`print`** statement.
 
 * Then, define a function named **`print_board`** with a single argument, **`board_in`**.
 
@@ -379,11 +392,14 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 
 
-**설명:** [ ]          
-① 먼저, print 문을 삭제 하라.    
-* 6라인에서 함수 **`print_board(board_in)`** 작성하여라.  
-* 내부 기능으로, for 루프를 돌면선, 입력받은  **`board`** 의 값들을 `row`로 끄집어내라. 그리고 `row`를 출력하라.    
-* 함수**`print_board(board)`**를 호출하여 잘 돌아 가는 확인하라. 
+**설명:** [ Instruction ]          
+• 먼저, print 문을 삭제 하라.    
+• 라인 6 에서 함수 print_board(board_in): 를 정의후 작성하라.    
+• 함수 print_board(board_in): 은 다음과 같이 동작한다.    
+• for 루프를 반복한다.    
+• for 문에서 리스트 board 값을 추출하여 변수 row 에 저장한다.    
+• 변수 row 를 출력한다.    
+• 함수 print_board(board) 를 호출하여 정상적으로 동작하는지 확인하라.
 {: .notice--info}
 
 
@@ -391,13 +407,16 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember that the syntax to declare a function is **`def fun_name(parameters):`**. The syntax for iterating through a list is **`for x in list_name:`**
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)        
+* Remember that the syntax to declare a function is **`def fun_name(parameters):`**. The syntax for iterating through a list is **`for x in list_name:`**
 
 
-**설명:** [ ]         
-함수는 `def fun_name(parameters):`로 사용해야 하면, for문은 `for x in list_name:`으로 사용해야 한다. 
-for 문 다음에 def 문을 정의해라. 
+**설명:** [ Hint ]         
+• 함수는 다음 예제처럼 정의하여 사용한다.    
+• i.g. 'def fun_name(parameters):'    
+• for문은 다음 예제처럼 사용한다.    
+• i.g. 'for x in list_name:'     
+• 함수를 for 문 다음에 정의하라.
 {: .notice--info}
 
 <br>
@@ -420,10 +439,14 @@ def print_board(board_in):
 print_board(board)
 ```
 
-**설명:** [ ]          
-**`board`**에 `['O','O','O','O','O']`를 저장하고,    
-**`print_board`** 함수를 만든다.     
-**`print_board(board)`**를 호출한다.  
+**설명:** [ Solution ]          
+• 빈 리스트 board 를 만든다.    
+• 빈 리스트 board 에 ['O'] * 5 를 추가한다.    
+• 함수 print_board(board_in): 을 정의한다.    
+• 함수 print_board(board_in)은 다음과 같이 동작한다.    
+• for 문에서 리스트 board 의 값을 추출하여, 변수 row 에 저장한다.    
+• 변수 row 를 출력한다.(for 문의 board 항목 만큼)    
+• 함수 print_board(board) 를 호출한다.
 {: .notice--info}
 
 
@@ -446,23 +469,34 @@ print_board(board)
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 6.Printing Pretty    
 
-We're getting pretty close to a playable board, but wouldn't it be nice to get rid of those quote marks and commas? We're storing our data as a list, but the player doesn't need to know that!
+We're getting pretty close to a playable board, but wouldn't it be nice to get rid of those quote marks and commas? We're storing our data as a list, but the player doesn't need to know that!    
+
 ```python
 letters = ['a', 'b', 'c', 'd']
 print " ".join(letters)
 print "---".join(letters)
-```
-1. In the example above, we create a list called **`letters`**.
-2. Then, we print **a b c d**. The **`.join`** method uses the string to combine the items in the list.
-3. Finally, we print **a---b---c---d**. We are calling the **`.join`** function on the **"---"** string.
+```    
+
+1. In the example above, we create a list called **`letters`**.     
+2. Then, we print **a b c d**. The **`.join`** method uses the string to combine the items in the list.    
+3. Finally, we print **a---b---c---d**. We are calling the **`.join`** function on the **"---"** string.    
+
 We want to turn each row into **"O O O O O"**. 
 
 
 
-**설명:** [ ]          
-board를 좀더 다듬어 보자.    
-`letters = ['a', 'b', 'c', 'd']`를 `" ".join(letters)`를 실행하면, `a b c d`로 출력된다. 여기에도 `"---".join(letters)`를 하면 `a---b---c`로 처리된다.    
-우리는 `.join`기능을 사용하여 우리 board `'O','O','O','O','O'`를 `O O O O O`형태로 만들어 보자.   
+**설명:** [ Learn ]    
+• Ch6.Printing Pretty 에서는 메서드 '.join()' 를 사용법을 학습한다.    
+• 리스트 board 를 다듬어 보자.    
+• 리스트 letters = ['a', 'b', 'c', 'd'] 를 다음과 같이 실행하면,    
+• i.g. " ".join(letters)     
+• 리스트 letters 는 다음과 같이 바뀐다.    
+• i.g. "a b c d"      
+• 다른 예로, "---".join(letters) 를 실행하면,    
+• 리스트 letters 는 다음과 같이 바뀐다.    
+• i.g. "a---b---c"    
+• 마지막으로, 메서드 '.join()' 기능을 사용하여 다음과 같이 바뀌도록 한다.    
+• 리스트 board =[ 'O','O','O','O','O' ] -> [ O O O O O ]
 {: .notice--info}
 
 
@@ -472,11 +506,14 @@ board를 좀더 다듬어 보자.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Inside your function, inside your **for loop**, use **" "** as the separator to **`.join`** the elements of each row.
+* Inside your function, inside your **for loop**, use **" "** as the separator to **`.join`** the elements of each row.
 
 
-**설명:** [ ]          
-① 함수 `print board()`의 for 문 안에서 `.join`을 사용하여 `row` 리스트를 문자간의 구분자를 " "로 바꾸어라. 즉, `[ O O O O O ]`모양이 되게끔 만들어라.  
+**설명:** [ Instruction ]          
+• 함수 print board() 를 다음과 같이 동작되도록 작성하라.    
+• for 문 안에서 메서드 '.join()'을 사용하여라.    
+• 리스트 row 항목값 의 구분자를 'O', 를 'O' 모양이 되게 만들어라.    
+• i.g. 'O','O','O','O','O' ->  O O O O O 
 {: .notice--info}
 
 
@@ -485,13 +522,15 @@ board를 좀더 다듬어 보자.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Your function should contain a **for loop** that iterates over **each row** in the board. For each row, it should
+* Your function should contain a **for loop** that iterates over **each row** in the board. For each row, it should    
+
 ```python
 print " ".join(row)
 ```
 
-**설명:** [ ]          
-함수 `print board`의 for 문을 돌면서 보더 속의 `row`를 `" ".join(row)`를 사용하여라.  
+**설명:** [ Hint ]          
+• for 문에서 리스트 board 의 추출값을 변수 row 에 저장한다.    
+• 이때, 변수 row 를 출력할때, " ".join(row) 를 사용하라. 
 {: .notice--info}
 
 <br>
@@ -514,8 +553,8 @@ def print_board(board_in):
 print_board(board)
 ```
 
-**설명:** [ ]          
-`print row`를 `print " ".join(row)`로 변경한다. 
+**설명:** [ Solution ]          
+• 소스코드 print row 를 print " ".join(row) 로 변경했다.
 {: .notice--info}
 
 
@@ -541,12 +580,14 @@ O O O O O
 
 Excellent! Now, let's hide our battleship in a random location on the board.
 
-Since we have a 2-dimensional list, we'll use two variables to store the ship's location, **`ship_row`** and **`ship_col`**.
+Since we have a 2-dimensional list, we'll use two variables to store the ship's location, **`ship_row`** and **`ship_col`**.    
+
 ```python
 from random import randint
 coin = randint(0, 1)
 dice = randint(1, 6)
-```
+```    
+
 1. In the above example, we first import the **`randint(low, high)`** function **from the random module**.
 
 2. Then, we **generate** either **zero or one** and store it in coin.
@@ -557,11 +598,12 @@ Let's generate a **`random_row`** and **`random_col`** from **zero to four**!
 
 
 
-**설명:** [ ]          
-① 내재 함수 `randint(low, high)`는 `low`와 `high`사이의 값을 random으로 출력해준다.    
-② `randint(0,1)`은 0과 1사이의 값을 random으로 출력 해준다.     
-③ 마지막으로, `randint(1, 6)`은 1에서 6사이의 값을 random으로 출력 해준다.     
-변수 `random_row`와 `random_col`에 0부터 4까지의 값을 넣어 보도록 하자.      
+**설명:** [ Learn ]          
+• Ch7. Hide... 에서는 함수 randinit()를 연습한다.     
+• 함수 randint(low, high) 는 low 와 high 사이의 값을 random으로 출력한다.    
+• i.g. randint(0, 1) :  0과 1사이의 값을 random으로 출력한다.     
+• i.g. randint(1, 6) :  1에서 6사이의 값을 random으로 출력 해준다.     
+• 함수 random_row() 와 random_col()에 0부터 4까지의 값이 random으로 출력되게 한다.
 {: .notice--info}
 
 
@@ -571,17 +613,20 @@ Let's generate a **`random_row`** and **`random_col`** from **zero to four**!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define two new functions, **`random_row`** and **`random_col`**, that each take **`board_in`** as input.
+* Define two new functions, **`random_row`** and **`random_col`**, that each take **`board_in`** as input.
 
-These functions should return a **random row index** and a **random column index** from your board, respectively. Use **`randint(0, len(board_in) - 1)`**.
+* These functions should return a **random row index** and a **random column index** from your board, respectively. Use **`randint(0, len(board_in) - 1)`**.
 
-Call each function on board.
-
-
+* Call each function on board.
 
 
-**설명:** [ ]          
-① 함수 `random_row`와 `random_col`을 정의하고, 각 함수는 입력 값으로 `board_in`을 가진다. 각 함수는 보드의 random row index와 random colum index를 가진다. `randint(0, len(board_in) -1)`을 활용하라. 
+
+
+**설명:** [ Instruction ]          
+• 함수 random_row() 와 random_col() 을 정의하라.    
+• 각 함수는 parameters 변수로 board_in 을 가진다.    
+• 각 함수는 보드판 위의 가로/세로 index 값을 random으로 가진다.     
+• 함수 randint(0, len(board_in) -1)을 활용하라. 
 {: .notice--info}
 
 
@@ -590,11 +635,13 @@ Call each function on board.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-While we could just call **`randint(0, 4)`**, we use **`len(board) - 1`** in case we want to change the board size later.
+* While we could just call **`randint(0, 4)`**, we use **`len(board) - 1`** in case we want to change the board size later.
 
 
-**설명:** [ ]          
-`randint(0,4)`이라고 직접 값을 넣어 호출 할수 있지만, 향후 board 사이즈가 변할때를 대비하여 입력 값을  `len(board) -1`로 사용하면 미리 대비할 수 있다. 
+**설명:** [ Hint ]          
+• 손쉽게 함수 randint(0,4) 로 직접 값을 호출할 수 있다.    
+• 하지만, 향후 board 사이즈가 커질때를 대비하여 확장성 있게 만든다.    
+• 함수 randint(0, len(board)-1)의 입력값을 ( len(board) - 1 )로 정의한다.
 {: .notice--info}
 
 <br>
@@ -629,10 +676,18 @@ random_col(board)
 
 ```
 
-**설명:** [ ]          
-`random_row(board)`함수는 board의 값은 ['O', 'O', 'O', 'O', 'O'] 항목이 5개 들어 있는 리스트가 넘어온다. 이 리스트의 길이는 5이다.     
-`randint(0, len(5) -1)`과 같기에, `randint(0, 4)`를 호출 하는것과 같다. 즉, 0부터 4사이의 숫자가 random하게 출력되는 것이다. 
-`random_col(board)`도 동일하다.  
+**설명:** [ Solution ]          
+• 함수 random_row(board):를 정의한다.    
+• 함수 random_rwo(board)는 다음과 같이 동작한다.    
+• 함수 randint(0, len(board)-1) 을 호출하여, 가로 index 값을 random하게 산출한다.    
+• 함수 random_col(board):를 정의한다.    
+• 함수 random_col(board)는 다음과 같이 동작한다.    
+• 함수 randint(0, len(board)-1) 을 호출하여, 세로 index 값을 random하게 산출한다.     
+• 리스트 board 의 값은 'O', 'O', 'O', 'O', 'O' 항목이 5개 들어있다.    
+• 이 리스트의 길이는 5이다.     
+• 함수 randint(0, len(5) -1)는 randint(0, 4) 를 호출 하는것과 같다.    
+• randint(0, 4) :  0부터 4사이의 숫자가 random 하게 출력된다.    
+• 함수 random_row(board), random_col(board)를 호출한다.
 {: .notice--info}
 
 
@@ -651,21 +706,28 @@ random_col(board)
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 8. ...and Seek!    
 
-Good job! For now, let's store coordinates for the ship in the variables **`ship_row`** and **`ship_col`**. Now you have a hidden battleship in your ocean! Let's write the code to allow the player to guess where it is.
+Good job! For now, let's store coordinates for the ship in the variables **`ship_row`** and **`ship_col`**. Now you have a hidden battleship in your ocean! Let's write the code to allow the player to guess where it is.    
+
 ```python
 number = raw_input("Enter a number: ")
 if int(number) == 0:
   print "You entered 0"
-```  
+```   
+
 **`raw_input`** asks the user for input and returns it as a string. But we're going to want to use integers for our guesses! To do this, we'll wrap the **`raw_inputs`** with **`int()`** to convert the string to an integer.
 
 
 
 
 
-**설명:** [ ]          
-변수 `ship_row`와 `ship_col`에 배에 대한 정보를 저장해 보자. 그리고 board를 오션 이라고 가정하고 당신의 배가 오션(board)에 숨겨보자.      
-`raw_input` 함수는 문자를 입력 받을 수 있는 함수이다. 그런데, 우리는 입력값을 숫자로 인식해야 하기에 입력은 문자열로 입력 받지만, `int(number)`를 활용하여 숫자로 바꾸어 숫자값이 0인지를 확인한다.  
+**설명:** [ Learn ]          
+• Ch8. ...and Seek! 에서는 함수 int()를 연습한다.    
+• 변수 ship_row 와 ship_col 에 배에 대한 위치 정보(가로/세로)를 저장해 보자.    
+• 리스트 board 를 바다라고 가정하자.     
+• 당신의 배가 바다(board) 어딘가에 있다고 생각하자.    
+• 함수 raw_input() 은 prompt 에서 문자를 입력 받을수 있는 함수이다.    
+• 입력 받은 문자 값을 숫자로 바꿔야 한다. 이유는 board의 좌표 index 값은 숫자이다.    
+• 함수 int(number) 활용하여 문자열 number 를 숫자로 바꾼다. 
 {: .notice--info}
 
 
@@ -675,11 +737,11 @@ if int(number) == 0:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a new variable called **`guess_row`** and set it to **`int(raw_input("Guess Row: "))`**.
+* Create a new variable called **`guess_row`** and set it to **`int(raw_input("Guess Row: "))`**.
 
-Create a new variable called **`guess_col`** and set it to **`int(raw_input("Guess Col: "))`**.
+* Create a new variable called **`guess_col`** and set it to **`int(raw_input("Guess Col: "))`**.
 
-Click **`Run`** and then answer the prompts by typing in a number and pressing Enter (or Return on some computers).
+* Click **`Run`** and then answer the prompts by typing in a number and pressing Enter (or Return on some computers).
 
 
 

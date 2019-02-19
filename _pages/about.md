@@ -12,6 +12,8 @@ I have considered how to learn python easily anyone and figured out good site. f
 I hope to help everybody.
 
 
+**From *Wonyoung***
+
 {% include group-by-array collection=site.posts field="categories" %}
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
