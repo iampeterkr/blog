@@ -746,10 +746,12 @@ if int(number) == 0:
 
 
 
-**설명:** [ ]          
-① 변수 `guess_row`에 `int(raw_input("Guess Row: "))`을 대입하자. 예, `guess_row=int(raw_input("Guess Row: "))`     
-변수 `guess_col`에 `int(raw_input("Guess Col: "))`을 대입하자. 예, `guess_col=int(raw_input("Guess Col: "))`    
-`Run` 버튼을 눌러 실행해서 prompt 에 해당 값을 입력해 보자. 
+**설명:** [ Instruction ]          
+• 변수 guess_row 에 int(raw_input("Guess Row: ")) 을 대입하라.    
+• i.g. guess_row=int(raw_input("Guess Row: "))     
+• 변수 guess_col 에 int(raw_input("Guess Col: ")) 을 대입하라.    
+• i.g. guess_col=int(raw_input("Guess Col: "))    
+• Run  버튼을 눌러 실행후, prompt 에서 값을 입력하라.
 {: .notice--info}
 
 
@@ -758,13 +760,14 @@ if int(number) == 0:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The syntax for the input command with changing it to int is
+* The syntax for the input command with changing it to int is    
+
 ```python
 var = int(raw_input("Prompt text"))
 ```
 
-**설명:** [ ]          
-`var = int(raw_input("Prompt text))`를 참조하자. 
+**설명:** [ Hint ]          
+• 참조 : var = int(raw_input("Prompt text)) 
 {: .notice--info}
 
 <br>
@@ -800,9 +803,13 @@ guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
 ```
 
-**설명:** [ ]          
-`guess_row = int(raw_input("Guess Row: "))`는 prompt에 "Guess Row: "에 문자열을 입력 받아 변수 `guess_row`에 저장하는 것이다.    
-`guess_col = int(raw_input("Guess Col: "))`는 prompt에 "Guess Col: "에 문자열을 입력 받아 변수 `guess_col`에 저장하는 것이다. 
+**설명:** [ Solution ]          
+• 소스 : guess_row = int(raw_input("Guess Row: ")) 는 다음과 같이 동작한다.    
+• i.g. "Guess Row: " 가 출력되어 문자열 입력받을 준비를 하고 있다.    
+• i.g. 문자열을 입력하고 Enter를 치면, 그 문자열 값이 변수 guess_row 에 저장된다.    
+• 소스 : guess_col = int(raw_input("Guess Col: ")) 는 다음과 같이 동작한다.    
+• i.g. "Guess Col: " 가 출력되어 문자열 입력받을 준비를 하고 있다.    
+• i.g. 문자열을 입력하고 Enter를 치면, 그 문자열 값이 변수 guess_col 에 저장된다.
 {: .notice--info}
 
 
@@ -830,8 +837,12 @@ Of course, we'll remove this output when we're finished debugging since if we le
 
 
 
-**설명:** [ ]          
-battleship을 오션(board)에 특정 좌표에 숨겨 놓고, 질문으로 그 배가 어디 있는지 찾아내는 game이다. 프로그램 debugging을 위하여 좌표를 우리는 출력하여 배위 위치를 확인해 보자. 물론 나중에는 배의 위치를 출력하는 부분을 삭제할 것이다. 
+**설명:** [ Learn ]          
+• Ch9. It's Not Cheating—It's Debugging! 에서는 기본적 디버깅을 연습한다.    
+• battleship 게임은 오션(board)의 특정 좌표에 배를 숨겨 놓는다.    
+• 이후, 질문으로 그 배가 어디 있는지 맞추는 game이다.    
+• 프로그램 debugging을 위하여 배의 좌표를 print 로 출력하여 배의 위치를 확인한다.    
+• 나중에, 배의 위치를 출력하는 부분을 삭제할 것이다. 
 {: .notice--info}
 
 
@@ -841,15 +852,16 @@ battleship을 오션(board)에 특정 좌표에 숨겨 놓고, 질문으로 그 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Before the lines prompting the user for input:
+* Before the lines prompting the user for input:
 
 * Print the value of ship_row.
 
 * Print the value of ship_col.
 
 
-**설명:** [ ]          
-① 변수 `ship_row`, `ship_col` 값을 산출하고, prompt 실해되기 전에 변수 `ship_row`, `ship_col`을 출력하여라.   
+**설명:** [ Instruction ]          
+• 배의 위치를 맞추기 위한 입력값을 받기 전에, 배의 위치를 먼저 출력하라.    
+• 배의 위치는 변수 ship_row , ship_col 에 저장되어 있다.   
 {: .notice--info}
 
 
@@ -864,8 +876,9 @@ ship_row = random_row(board)
 print (ship_row)
 ```
 
-**설명:** [ ]          
-배의 위치 row 좌료르 구하고, 그 변수 `ship_row`를 출력하라. 
+**설명:** [ Hint ]          
+• 배의 위치 row 좌표를 random 하게 구하여 저장한다.    
+• 변수 ship_row 를 출력한다. 
 {: .notice--info}
 
 <br>
@@ -903,8 +916,10 @@ guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
 ```
 
-**설명:** [ ]          
-배의 좌표를 알수 있는 변수 `ship_row`, `ship_col`을 출력하여 배위 위치가 어디 있는지 확인한다. 
+**설명:** [ Solution ]          
+• Prompt 에서 입력값을 받기 전에    
+• 임의로 저장되어 있는 배의 좌표 변수 값을 출력한다.    
+• 배의 좌표는 변수 ship_row , ship_col 에 저장되어 있다. 
 {: .notice--info}
 
 
@@ -928,18 +943,25 @@ Guess Col: 2
 
 Okay—now for the fun! We have the actual location of the ship and the player's guess so we can check to see if the player guessed right.
 
-For a guess to be right, **`guess_col`** should be equal to **`ship_col`** and **`guess_row`** should be equal to **`ship_row`**.
+For a guess to be right, **`guess_col`** should be equal to **`ship_col`** and **`guess_row`** should be equal to **`ship_row`**.    
 
+```python
 if guess_col == 0 and guess_row == 0:
   print "Top-left corner."
+```   
+
 The example above is just a reminder about if statements.
 
 
 
 
 
-**설명:** [ ]         
-배의 위치가 random으로 만들어지고, 참여자가 위치를 맞추면 게임이 끝나는 것이다. 이것을 프로그램으로 풀이하면 `guess_col`이 `ship_col`과 값이 같고, `guess_row`가 `ship_row`와 값이 같으면, 참여자가 승리하는 것이다. if 절을 사용하여 비교하는 부분을 공부해 보자. 
+**설명:** [ Learn ]         
+• Ch10. You win! 에서는 if 절을 사용하는 법을 연습한다.      
+• 배의 위치가 random으로 만들어지고, 참여자가 위치를 맞추면 게임이 끝나는 것이다.    
+• 참여자가 승리하는 조건은 다음과 같다.    
+• i.g. if guess_col == ship_col and guess_row == ship_row    
+• if 절을 사용하여 비교하는 부분을 공부해 보자. 
 {: .notice--info}
 
 
@@ -949,19 +971,21 @@ The example above is just a reminder about if statements.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** On line 29, add an if to check if guess_row equals ship_row and guess_col equals ship_col.
+* On line 29, add an if to check if `guess_row` equals `ship_row` and `guess_col` equals `ship_col`.
 
-If that is the case, please print out "Congratulations! You sank my battleship!"
+* If that is the case, please print out "Congratulations! You sank my battleship!"
 
-When you run this code, be sure to enter integer guesses in the panel where it asks for "Guess Row" and then "Guess Col".
-
-
+* When you run this code, be sure to enter integer guesses in the panel where it asks for "Guess Row" and then "Guess Col".
 
 
-**설명:** [ ]          
-① 29 라인에서, if문을 추가하여 `guess_row`와 `ship_row`같은지와 `guess_col`와 `ship_col`가 같은지를 추가한다.    
-만약에 같으면 "Congratulations! You sank my battleship!" 을 출력한다.    
-이 프로그램 실행하면, "Guess Row"와 "Guess Col"을 묻는다. 예상되는 위치의 row, col 숫자 값을 넣는 소스이다. 
+
+
+**설명:** [ Instruction ]          
+• Editor 창의 29 라인에서, if 문을 추가한다.    
+• if 문은 (guess_row == ship_row) and (guess_col == ship_col) 비교한다.    
+• if 조건문을 만족하면, "Congratulations! You sank my battleship!" 을 출력한다.     
+• 이 프로그램 실행하면, prompt 에 "Guess Row"와 "Guess Col"을 묻는다.    
+• 예상 되는 배의 위치의 row, col 숫자 값을 입력하라.
 {: .notice--info}
 
 
@@ -975,8 +999,8 @@ if g_col == s_col and g_row == s_row:
   print "Your right."
 ```
 
-**설명:** [ ]          
-if 문을 사용하는 법을 잘 활용 하자. 
+**설명:** [ Hint ]          
+• if 문을 사용하여 입력값과 배의 좌표 값을 비교한다.
 {: .notice--info}
 
 <br>
@@ -1020,8 +1044,11 @@ if guess_row == ship_row and guess_col == ship_col:
 
 ```
 
-**설명:** [ ]         
-if 문을 사용하여 배의 좌표와, 플레이어가 예상하여 입력한 값이 일치하면 게임을 승리하는 것이다. 배의 좌표를 먼저 알면 안되기에, `ship_row`, `ship_col`는 입력하고 출력하게끔 위치를 바꿨다.   
+**설명:** [ Solution ]         
+• if 문을 사용하여 배의 좌표와, 플레이어가 예상하여 입력한 값이 일치하는지 비교한다.    
+• 일치하면 플레이어가 게임을 승리하는 것이다.    
+• 플레이어가 배의 좌표를 먼저 알면 안되기에,     
+• 변수 ship_row, ship_col는 입력이 끝나고, 마지막에 출력하게 위치를 바꿨다.
 {: .notice--info}
 
 
@@ -1068,8 +1095,10 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 
 
 
-**설명:** [ ]          
-항상, 한번에 맞출수는 없기에, 못 맞추었을 경우도 생각해야 한다. `print board[2][3]`은 좌표가 3번째, 4번째를 가리키는 것이다. 
+**설명:** [ Learn ]          
+• Ch11. Danger, Will Robinson!! 에서는 else 문을 연습한다.   
+• 항상, 한번에 맞출수는 없기에, 못 맞추었을 경우도 생각해야 한다.    
+• 'print board[2][3]' 은 좌표가 3번째, 4번째를 위치를 가리킨다.
 {: .notice--info}
 
 
@@ -1079,19 +1108,24 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** **Add** an else under the if we wrote in the previous step.
+* Add an else under the if we wrote in the previous step.
 
-Print out "You missed my battleship!"
+* Print out "You missed my battleship!"
 
-**Set** the list element at guess_row, guess_col to **"X"**.
+* Set the list element at guess_row, guess_col to **"X"**.
 
-As the last line in your **else** statement, **call print_board(board)** again so you can see the **"X"**. Make sure to enter a col and row that is on the board!
+* As the last line in your **else** statement, **call print_board(board)** again so you can see the **"X"**.     
+* Make sure to enter a col and row that is on the board!
 
 
 
 
-**설명:** [ ]          
-① if 문 밑의 else문에  "You missed my battleship!" 을 작성하라. 그리고 보드 리스트의  guess_row, guess_col 좌표에 문자 "X"를 저장하라. 그리고 else 문에 `print_board(board)`를 한번더 호출 하라. 
+**설명:** [ Instruction ]          
+• if 문 밑의 else 문에  "You missed my battleship!" 을 작성하라.    
+• 리스트 board 의 guess_row, guess_col 좌표에 해당하는 곳에 문자 "X" 를 저장하라.     
+• i.g. board[1][2] = "X"    
+• print_board(board) 를 다시 호출하라.    
+• 해당 좌표에 "O" 대신에 "X"가 저장되어 있다.
 {: .notice--info}
 
 
@@ -1100,11 +1134,14 @@ As the last line in your **else** statement, **call print_board(board)** again s
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-To specify a single element in a 2-dimensional list, you need to give two indices. The syntax is: list_name[i][j], where i is an index in the outer list and j is an index in the inner list.
+* To specify a single element in a 2-dimensional list, you need to give two indices. The syntax is: list_name[i][j], where i is an index in the outer list and j is an index in the inner list.
 
 
-**설명:** [ ]          
-2차원 리스트를 만들어서 사용하라. 2차원 리스트는 `list_name[i][j]`로 만들고, i는 바깥 인덱스, j는 내부 인덱스를 이야기 한다. ( ex. [ [1,2], [3,4], [5,6] ]는 i = 2, j=1 )
+**설명:** [ Hint ]          
+• 2차원 리스트를 만들어서 사용하라.     
+• 2차원 리스트는 list_name[i][j] 로 만든다.    
+• i 는 바깥 index, j는 내부 index 가리킨다.    
+• i.g.  list_name = [ [1,2], [3,4], [5,6] ] => list_name[1,1] = 4 
 {: .notice--info}
 
 <br>
@@ -1151,9 +1188,11 @@ else:
 
 ```
 
-**설명:** [ ]          
-못 맞췄을 경우를 대비하여, else 문을 작성한다.    
-못 맞춘 좌표를 `board[guess_row][guess_col]="X"`표시해 놓고, 전체 board를 한번 보여준다. 이는 이미 틀린 좌표는 더 이상 입력 하지 않도록 유도 하기 위해서이다. 
+**설명:** [ Solution ]          
+• 플레이어가 배의 위치를 못 맞췄을 경우를 대비하여, else 문을 작성한다.    
+• else 문에서는 못 맞춘 좌표 board[guess_row][guess_col]="X" 표시한다.    
+• 전체 board를 한번 보여준다.     
+• "X"를 넣는 이유는, 이미 틀린 좌표는 더 이상 입력 하지 않도록 유도 하기 위해서이다. 
 {: .notice--info}
 
 
@@ -1190,7 +1229,8 @@ Great job! Now we can handle both correct and incorrect guesses from the user. B
 
 1. They can enter a guess that's off the board.
 2. They can guess a spot they’ve already guessed.
-3. They can just miss the ship.
+3. They can just miss the ship.    
+
 We'll add these tests inside our else condition. Let's build the first case now!
 
 ```python
@@ -1203,12 +1243,15 @@ The example above checks if either x or y are outside those ranges. The `\` char
 
 
 
-**설명:** [ ]          
-좀더 치밀한게 프로그램을 다듬어 보자. 프로그램에서 실수할 요소가 다음과 같이 있다.     
-① board 보다 더 큰 값을 입력 할 경우    
-② 이미 추측한 값을 입력할 경우     
-③ 배의 틀린 위치 값을 예측한 경우     
-상단의 소스는 입력값 `x`의 범위를 주어, 이 값을 벗어 나면 알려주는 예제 소스이다. 문자 `\`는 소스가 다음 라인에 있지만, 이전과 계속 이어진다는 것을 얼려주는 표시이다.  
+**설명:** [ Learn ]          
+• Ch12. Bad Aim  에서는 if/else의 예외처리를 강화하는 법을 연습한다.    
+• 좀더 치밀한게 프로그램을 다듬어 보자.     
+• 프로그램에서 실수할 요소가 다음과 같이 있다.     
+• ① board 보다 더 큰 값을 입력 할 경우     
+• ② 이미 추측한 값을 입력할 경우     
+• ③ 배의 틀린 위치 값을 예측한 경우     
+• 상단의 소스는 입력값 변수 x 가 8보다 크면, 입력 범위를 알려주는 소스이다.    
+• 문자 ( '\' ) 는 소스가 다음 라인에 있지만, 이전과 계속 이어진다는 것을 얼려주는 표시이다.
 {: .notice--info}
 
 
@@ -1218,21 +1261,24 @@ The example above checks if either x or y are outside those ranges. The `\` char
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Add a new if statement that is **nested under the else**.
+* Add a new if statement that is **nested under the else**.
 
-Like the example above, it should check if **`guess_row`** is **not in range(5)** or **`guess_col`** is **not in range(5)**.
+* Like the example above, it should check if **`guess_row`** is **not in range(5)** or **`guess_col`** is **not in range(5)**.
 
-If that is the case, print out "Oops, that's not even in the ocean."
+* If that is the case, print out "Oops, that's not even in the ocean."    
+* After your new if statement, add an else that contains your existing handler for an incorrect guess.     
+* Don't forget to **indent the code**!
 
-After your new if statement, add an else that contains your existing handler for an incorrect guess. Don't forget to **indent the code**!
 
-
-**설명:** [ ]          
-① 추가 if 문을 기존의 else 문 안에 추가하라. 
-추가 if 문은 변수 `guess_row`와 `guess_col`의 범위가 5를 넘지 않도록 `range(5)`를 사용하라.    
-만약 범위가 넘으면 "Oops, that's not even in the ocean." 을 출력하라.    
-그리고 기존의 else 문을 추가 if 문과 연결되는 else 문으로 사용하라. 
-추가 if문은 else 안에 구현하기에 들여 쓰기를 조심해라.   
+**설명:** [ Instruction ]          
+• else 문의 내부에 추가로 if 문을 넣는다.    
+• 추가한 if 문은 다음과 같은 기능을 한다.    
+• 변수 guess_row 와 guess_col 의 범위가 5를 넘지 않도록 한다.    
+• 함수 range(5) 를 사용하라.    
+• 만약 입력값이 범위 5를 넘으면 다음 메시지를 출력한다.    
+• 메시지 : "Oops, that's not even in the ocean."    
+• 추가 if 문과 쌍이 되는 추가 else 문을 추가하라.    
+• 추가 if 문과, 추가 else 문은 들여 쓰기를 조심하라. 
 {: .notice--info}
 
 
@@ -1241,16 +1287,18 @@ After your new if statement, add an else that contains your existing handler for
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The valid values for guess_row are 0 to rows - 1 and the valid values for guess_col are 0 to cols - 1. You will need to build up a complex Boolean expression of the form:
+* The valid values for guess_row are 0 to rows - 1 and the valid values for guess_col are 0 to cols - 1. You will need to build up a complex Boolean expression of the form:    
+
 ```python
 if guess_row not in range(your_desired_range) or guess_col not in range(your_desired_range):
   # do something
 ```
 
 
-**설명:** [ ]          
-값을 인식할때, 변수 `guess_row`, `guess_col`에 들어 있는 값은 0부터 `rows -1`,`cols -1`이다.      
-if 문에서 range가 포함되고 안되고는 `not in` 표현한다. 
+**설명:** [ Hint ]          
+• 변수 guess_row , guess_col 의 값은 0부터 rows -1 , cols -1 이다.      
+• i.g. rows : 5 -> 0, 1, 2, 3, 4    
+• if 문에서 범위에 포함되고 안되고는 'not in'을 사용한다.
 {: .notice--info}
 
 <br>
@@ -1301,9 +1349,14 @@ else:
 
 ```
 
-**설명:** [ ]          
-맞추지 못한 경우의 동작을 else문에서 표현한다.    
-먼저, if을 추가하여, 가로, 세로 입력한 값이 5개 범위 내인지를 점검합니다. 만약 벗어 났으면 Print로 알려 줍니다. 그리고 범위안에 있으면 찾지 못했다고 알려주고, 그 위치에 "X"를 표시합니다. 그리고 최종 좌표를 보여줍니다. 
+**설명:** [ Solution ]          
+• else 문에서는 추가 if/else 문을 표현한다.    
+• 추가 if 문을 사용하여, 가로, 세로 입력한 값이 5개 범위 내인지를 점검한다.    
+• 5개의 범위를 벗어 났으면 Print 문으로 알려준다.    
+• 5개 범위 안에는 있지만, 배의 위치를 맞추지 못했으면, 다음 2가지 동작을 한다.    
+• 첫번째, "You missed my battleship!" 출력한다.    
+• 두번째, 플레이어가 입력한 좌표에 문자열 값 "X" 를 대입한다.     
+• 프로그램의 말미에는 현재 board 의 최종 좌표를 보여준다.
 {: .notice--info}
 
 
