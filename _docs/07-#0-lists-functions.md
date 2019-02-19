@@ -619,8 +619,9 @@ You pass a list to a function the same way you pass any other argument to a func
 
 
 
-**설명:** [ ]         
-함수에 리스트를 전달하는 연습을 해보자. 함수에 여러개의 인수를 전달할 수 있듯이, 함수에 리스트도 전달 할수 있다.
+**설명:** [ Learn ]         
+• Ch8. Passing a list to a function 에서는 함수에 리스트를 전달하는것을 연습한다.   
+• 함수에 여러개의 인수를 전달할 수 있듯이, 함수에 리스트도 전달 할수 있다.
 {: .notice--info}
 
 
@@ -630,11 +631,13 @@ You pass a list to a function the same way you pass any other argument to a func
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Click Run to see that using a list as an argument in a function is essentially the same as using just a number or string!
+* Click Run to see that using a list as an argument in a function is essentially the same as using just a number or string!
 
 
-**설명:** [ ]          
-① Run을 클릭하여 소스를 실행시켜 보자. 함수에 리스르를 넘겼더니, 다시 리스트를 반환하는 것이다.  
+**설명:** [ Instruction ]    
+• Run을 클릭하여 소스를 실행시켜 보자.    
+• 함수의 arguments로 리스트를 사용하여 호출한다.    
+• 리스트에는 숫자와 문자열을 사용한다.
 {: .notice--info}
 
 
@@ -646,7 +649,7 @@ You pass a list to a function the same way you pass any other argument to a func
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -665,8 +668,10 @@ n = [3, 5, 7]
 print list_function(n)
 ```
 
-**설명:** [ ]          
-함수 `list_function(n)`에 리스트 `n`을 넣어서 호출 하였더니, 해당 함수가 입력받은 `x`를 그대로 반환했다. 리스트를 입력하고, 리스트를 반환하는 소스이다.  
+**설명:** [ Solution ]          
+• 함수 list_function(n) 을 호출하였다.    
+• 함수의 입력값 리스트 n 은 숫자 3, 5, 7 을 가지고 있다.    
+• 함수 list_function(x): 는 입락 받은 리스트를 그대로 반환(return) 한다.
 {: .notice--info}
 
 
@@ -685,14 +690,16 @@ print list_function(n)
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
 ### 9. Using an element from a list in a function    
 
-Passing a list to a function will store it in the argument (just like with a string or a number!)
+Passing a list to a function will store it in the argument (just like with a string or a number!)    
+
 ```python
 def first_item(items):
   print items[0]
 
 numbers = [2, 7, 9]
 first_item(numbers)
-```
+```    
+
 In the example above, we define a function called `first_item`. It has **one argument** called `items`.
 Inside the function, we print out the item stored at **index zero of items.**
 After the function, we create a new list called `numbers`.
@@ -701,9 +708,13 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 
 
 
-**설명:** [ ]          
-함수 `first_item(numbers)`를 호출하면, 리스트 `numbers =[2,7,9]`가 넘겨지고,
-이미 정의되어진 함수 `first_item()`는 인자 `numbers`에 `[2, 7, 9]`가 들어가 있다. 리스트 `items[0]` 첫번째 인자 값은 `2`가 출력된다. 
+**설명:** [ Learn ]          
+• Ch9. Using an element from a list in a function 에서는 함수에 입력된 값을 관리하는 법을 배운다.    
+• 함수 first_item(numbers)를 호출한다.    
+• 입력값 리스트 numbers = [2, 7, 9] 가 입력된다.    
+• 정의된 함수 first_item(numbers): 는, parameter로 numbers 를 가진다.    
+• numbers 에는 [2, 7, 9] 가 입력된다.    
+• 함수 기능에서, 리스트 items[0] 첫번째 index 값은 2 가 출력된다.
 {: .notice--info}
 
 
@@ -713,11 +724,12 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Change line 2 so that `list_function` returns only the item stored in index **one of x**, rather than the entire x list.
+* Change line 2 so that `list_function` returns only the item stored in index **one of x**, rather than the entire x list.
 
 
-**설명:** [ ]          
-① 함수 `list_function(x)`의 기능을 다음과 같이 변경 하라. 입력 받은 `x`의 1번 index의 값을 출력하는 기능으로 바꿔라.   
+**설명:** [ Instruction ]          
+• 함수 list_function(x) 의 기능을 다음과 같이 변경하라.    
+• 입력 받은 x 의 1번 index 값을 출력하는 기능으로 바꿔라.   
 {: .notice--info}
 
 
@@ -729,7 +741,7 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -749,8 +761,11 @@ print list_function(n)
 
 ```
 
-**설명:** [ ]          
-입력값 `n=[3,5,7]`중 1번 index 값만 출력하는 (ex. `x[1]`) 함수이다. 
+**설명:** [ Solution ]          
+• 함수 list_function(n) 을 호출한다.    
+• 입력값 리스트 n = [3,5,7] 이 입력된다.    
+• 함수 list_function(x):는 입력된 리스트 x 의 1번 index 를 반환한다.    
+• 함수 list_function(n)의 결과값이 출력된다.(i.g. print list_function(n))
 {: .notice--info}
 
 
@@ -778,7 +793,8 @@ def double_first(n):
 numbers = [1, 2, 3, 4]
 double_first(numbers)
 print numbers
-```
+```    
+
 We create a list called `numbers`.
 We use the `double_first` function to modify that list.
 Finally, we print out [2, 2, 3, 4]
@@ -786,8 +802,8 @@ When we pass a list to a function and modify that list, like in the double_first
 
 
 
-**설명:** [ ]          
-함수를 이용하여 리스트의 특정 값을 변경 할수 있다. 
+**설명:** [ Learn ]          
+• 10. Modifying an element of a list in a function 에서는 함수를 이용하여 리스트의 특정 값을 변경하는것을 배운다.
 {: .notice--info}
 
 
@@ -797,18 +813,18 @@ When we pass a list to a function and modify that list, like in the double_first
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Change list_function to:
+* Change list_function to:
 
-* Add 3 to the item at index 1 of the list.
-* Store the result back into index 1.
-* Return the list.
+  * Add 3 to the item at index 1 of the list.
+  * Store the result back into index 1.
+  * Return the list.
 
 
-**설명:** [ ]          
-① 함수 `list_function`을 수정하라.    
-  • 입력 받은 리스트 x의 index 1번 값에 3을 더하라.
-  • 그 결과 값을 리스트 x의 index 1번 값에 저장하라.     
-  • 리스트 x를 반환하라.    
+**설명:** [ Instruction ]          
+• 함수 list_function 을 수정하라.    
+• 입력 받은 리스트 x 의 index 1번 값에 3을 더하라.    
+• 그 결과 값을 리스트 x 의 index 1번 값에 저장하라.     
+• 리스트 x 를 반환하라.
 {: .notice--info}
 
 
@@ -817,14 +833,14 @@ When we pass a list to a function and modify that list, like in the double_first
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+* Add 3 to x[1]'s value and store result    
 
-Add 3 to x[1]'s value and store result
 ```python
 x[1] = x[1] + 3
 ```
 
-**설명:** [ ]          
-결과값(x[1] + 3)을 x[1]에 저장하라. 
+**설명:** [ Hint ]          
+• 결과값 ( x[1] + 3 )을 x[1] 에 저장한다. 
 {: .notice--info}
 
 <br>
@@ -843,8 +859,14 @@ n = [3, 5, 7]
 print list_function(n)
 ```
 
-**설명:** [ ]          
-입력받은 리스트 `x`의 1번 index에 `3`을 더하고, 그 결과 값을 다시 `x[1]`에 저장한후 반환한다.
+**설명:** [ Solution ]          
+• 함수 list_funciton(n) 을 호출한다.    
+• 입력값 리스트 n 은 [3, 5, 7]이 입력된다.    
+• 함수 list_function(x):는 다음과 같이 동작한다.    
+• 입력받은 리스트 x 의 1번 index 에 값 3 을 더한다.    
+• 그리고, 그 결과값을 x[1] 에 다시 저정한다.        
+• 리스트 x 를 반환(return)한다.     
+• 함수 list_function(n)의 결과값을 출력한다.(i.g. print list_function(n) )
 {: .notice--info}
 
 
