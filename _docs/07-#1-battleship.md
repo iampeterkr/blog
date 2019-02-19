@@ -1652,20 +1652,20 @@ else:
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 15. Play It, Sam    
 
-You can successfully make one guess in Battleship! But we’d like our game to allow the player to make up to **4 guesses** before they lose.
+You can successfully make one guess in Battleship! But we’d like our game to allow the player to make up to **4 guesses** before they lose.    
 ```python
 for turn in range(4):
   # Make a guess
   # Test that guess
-```  
+```     
 We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 
 
 
 
-**설명:** [ ]          
-4번까지 반복하여 도전할 수 있는 소스를 만들어 보자. 
+**설명:** [ Learn ]          
+• Ch15. Play It, Sam 에서는 입력을 4번까지만 허용하는 기능을 추가한다. 
 {: .notice--info}
 
 
@@ -1675,15 +1675,18 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Add a for loop that **repeats the guessing** and checking part of your game for **4** turns, like the example above.
+* Add a for loop that **repeats the guessing** and checking part of your game for **4** turns, like the example above.
 
-At the beginning of each iteration, **`print "Turn"`**, **`turn + 1`** to let the player know what turn they are on.
+* At the beginning of each iteration, **`print "Turn"`**, **`turn + 1`** to let the player know what turn they are on.
 
-Indent everything that should be repeated.
+* Indent everything that should be repeated.
 
 
-**설명:** [ ]          
-① 4번까지 질문 할 수 있는 반복문을 추가하라. 반복문의 끝에는 몇번 시도했는지를 표시해 주는 출력문  `print ( "Turn :", turn+1)`을 추가 하여 알려준다. 반복되는 for 문 안쪽에 들여쓰여진 모든 소스는 반복된다.      
+**설명:** [ Instruction ]          
+• 질문 기회를 4번까지 가능한 for 문을 추가하라.    
+• for 문의 끝에는 몇 번 시도 했는지를 표시해 주는 print 문을 만들어라.    
+• i.g. print ( "Turn :", turn+1) 
+• for 문 안쪽에 들여 쓰여진 모든 소스는 반복된다.
 {: .notice--info}
 
 
@@ -1693,11 +1696,11 @@ Indent everything that should be repeated.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Don't forget to **indent the code**!
+* Don't forget to **indent the code**!
 
 
-**설명:** [ ]          
-for 문안 모두 반복되어야 할 소스를 들여쓰기를 해야 한다. 
+**설명:** [ Hint ]          
+• for 문 의 블럭안 내용은 모두 반복된다. 
 {: .notice--info}
 
 <br>
@@ -1753,9 +1756,10 @@ for turn in range(4):
     print_board(board)
 ```
 
-**설명:** [ ]          
-`for turn in range(4):`는 4번 반복 한다.  
-for 문 안에 들여 쓰진 모든 소스들이 4번 반복된다. 
+**설명:** [ Solutin ]      
+• for 문에서 4번 반복하는것은 다음과 같이 작성한다.    
+• i.g. for turn in range(4):    
+• for 문으로 둘러 쌓여진(들여 쓰진) 소스는 4번 반복된다.
 {: .notice--info}
 
 
@@ -1827,10 +1831,13 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 
 
 
-**설명:** [ ]         
-플레이어가 추측을 못하여 게임이 끝나면, 게임은 그냥 끝나는 겁니다. 게임이 끝났으면 끝났다고 알려주면 좋을 것이다.         
-소스의 어느 위치에 이 기능을 넣어야 할지를 잘 생각해야 한다.    
-우리는 3번의 기회가 끝나고 틀렸으면 그 위치에 메시지를 넣어 주기를 원한다. 어디가 좋을지 생각해 보자.  
+**설명:** [ Learn ]         
+• Ch16. Game Over 에서는 if 문을 사용하여 게임을 종료하는 법을 연습한다.    
+• 플레이어가 4번 만에 배의 위치를 맞추지 못하면 게임은 끝난다.    
+• 게임이 끝났으면 끝났다고 알려주면 좋을 것이다.         
+• 소스의 어느 위치에 이 기능을 넣어야 할지를 고민하라.     
+• 3 번의 기회가 주어지고, 그 안에 맞주지 못하면, 끝났다고 알려주기를 원한다.    
+• 어느 위치가 좋을지 고민하라.
 {: .notice--info}
 
 
@@ -1840,7 +1847,7 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Add an if statement that checks to see if the user is out of guesses.
+* Add an if statement that checks to see if the user is out of guesses.
 
 * Put it under the else that accounts for misses.
 * Put it after the if/elif/else statements that check for the reason the player missed. We want "Game Over" to print regardless of the reason.
@@ -1849,11 +1856,12 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 
 
 
-**설명:** [ ]          
-① if 문을 추측이 끝나는 위치에 넣어 주자.     
-•  else 문 밑에 실패 했을때 위치에 넣어 주자. 
-•  플레이어가 못 맞췄을 경우의 if/elif/else 밖에 새로 넣어주자. 
-•  변수 `turn`이 3이면 "Game Over"를 출력하자.   
+**설명:** [ Instruction ]          
+• 3번을 틀리면 게임을 끝나는 부분을 어디에 넣을지 생각하라.    
+• 첫째, 3번 틀렸는지를 비교하는 if/elif/else 문 밑에 추가하라.    
+• 둘째, 실패 했을때 실행되는 else 문 안에 위치한다.    
+• 셋째, 플레이어가 못 맞췄는 else 문 안에 위치한다.   
+• 마지막으로, 변수 turn == 3 이면, "Game Over"를 출력한다. 
 {: .notice--info}
 
 
@@ -1862,13 +1870,14 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Your new if should go under the else that handles all of the incorrect guesses, but outside of any of the nested conditions. This is because it doesn't matter why the guess is wrong; after 4 wrong guesses, the game is over.
+* Your new if should go under the else that handles all of the incorrect guesses, but outside of any of the nested conditions. This is because it doesn't matter why the guess is wrong; after 4 wrong guesses, the game is over.
 
 
 
 
-**설명:** [ ]          
-새로운 if는 3번 틀렸을는지를 점검하는데 사용하라. 기존 틀렷는지를 점검하는 if/elif/else에는 속하지 않는다.   
+**설명:** [ Hint ]          
+• 새로 추가되는 if 문은 3번 틀렸는지를 점검한다.     
+• 기존 if/elif/else 에는 속하지 않는다.
 {: .notice--info}
 
 <br>
@@ -1926,8 +1935,9 @@ for turn in range(4):
     print_board(board)
 ```
 
-**설명:** [ ]          
-`if (turn == 3):`는 입력값 check 인 if/elif/else 문 안에 넣지 않고 마지막 바깥에 넣어 둔다. 
+**설명:** [ Solution ]          
+• 추가 'if (turn == 3):' 는 따로 위치한다.    
+• 기존 입력값과 좌표를 비교하는 if/elif/else 문과 연계하지 않았다.
 {: .notice--info}
 
 
@@ -2012,8 +2022,11 @@ Turn 2
 Guess Row: 
 ```
 
-**설명:** [ ]          
-4번의 기회를 다 사용 하기 전에 플레이어가 이기면 멈춰야 한다. 그런데, 위 내용을 보면,  이겼는데도, 질문을 한다면 그 프로그램은 잘못 된 것이다. break문을 사용하여 loop를 빠져나가 보자. 
+**설명:** [ Learn ]          
+• Ch17. A Real Win 에서는 break 문을 연습한다.    
+• 4번의 기회를 다 사용 하기 전에 플레이어가 이기면 멈춰야 한다.    
+• 배의 좌표를 맞추어 이겼는데도, 계속 질문을 한다면 그 프로그램은 잘못 된 것이다.    
+• 반복문을 강제로 빠져나가는 break 문을 사용한다.
 {: .notice--info}
 
 <br>
@@ -2022,11 +2035,11 @@ Guess Row:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Add a **break** under the win condition to end the loop after a win.
+* Add a **break** under the win condition to end the loop after a win.
 
 
-**설명:** [ ]          
-① 승리한 영역에서 `break`를 걸어서 loop를 빠져나가 보자.  
+**설명:** [ Instruction ]          
+• 배의 위치를 맞추는 블럭에서 break 문을 발생시켜서, loop를 빠져 나가라.
 {: .notice--info}
 
 
@@ -2035,11 +2048,11 @@ Guess Row:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Your break should go inside your outer if statement, right after your "Congratulations!" message.
+* Your break should go inside your outer if statement, right after your "Congratulations!" message.
 
 
-**설명:** [ ]         
-승리한 위치는 "Congratulations!!" 메시지 출력 되는 다음 라인이다. 
+**설명:** [ Hint ]         
+• 작성 위치는 "Congratulations!!" 메시지 출력되는 다음 라인이다. 
 {: .notice--info}
 
 <br>
@@ -2098,8 +2111,8 @@ for turn in range(4):
     print_board(board)
 ```
 
-**설명:** [ ]          
-break 문을 만나면 loop를 빠져나간다.  
+**설명:** [ Solution ]          
+• 컴파일러는 break 문을 만나면 for 문을 강제로 빠져나간다.  
 {: .notice--info}
 
 
@@ -2135,8 +2148,10 @@ You may want to take some time to clean up and document your code as well.
 
 
 
-**설명:** [ ]          
-프로그램은 모두 완성되었다. Debugging을 위한 배의 위치를 알려주는 print문 마지막에 삭제해야 한다.  
+**설명:** [ Learn ]          
+• Ch18. To Your Battle Stations! 에서는 디버깅을 해제 하는법을 연습한다.     
+• 프로그램은 모두 완성되었다.    
+• Debugging 을 위해서 배의 위치를 알려주는 print 문은 이제 삭제해야 한다.
 {: .notice--info}
 
 
@@ -2146,11 +2161,12 @@ You may want to take some time to clean up and document your code as well.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** When you are done playing Battleship! and are ready to move on, click Run.
+* When you are done playing Battleship! and are ready to move on, click Run.
 
 
-**설명:** [ ]          
-① Debugging을 위하여 배의 위치를 알려주는 정보를 삭제 해 보자. 그리고 실행해 보자.  
+**설명:** [ Instruction ]          
+• Debugging을 위하여 배의 위치를 알려주는 정보를 삭제하라.    
+• 프로그램을 실행하라.
 {: .notice--info}
 
 
@@ -2159,11 +2175,11 @@ You may want to take some time to clean up and document your code as well.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-whether remove or comment
+* whether remove or comment
 
 
-**설명:** [ ]         
-삭제하거나, comment 처리 할수 있다.  
+**설명:** [ Hint ]         
+• Debugging 부분을 삭제하거나, comment 처리한다.
 {: .notice--info}
 
 <br>
@@ -2222,8 +2238,8 @@ for turn in range(4):
     print_board(board)
 ```
 
-**설명:** [ ]          
-이 소스에서는 배의 위치를 알려주는 소스를 삭제 하지 않고 comment 처리를 하였다. 
+**설명:** [ Solution ]          
+• 이 소스에서는 배의 위치를 알려주는 소스를 삭제 하지 않고 comment 처리를 하였다. 
 {: .notice--info}
 
 
@@ -2298,8 +2314,9 @@ Some of these options will be easier after we cover loops in the next lesson. Th
 
 
 
-**설명:** [ ]          
-배틀쉽 게임을 더 확장할수 있다.     
+**설명:** [ Learn ]    
+• Ch19. Extra Credit 에서는 프로그램을 확장하는 법을 연습한다.    
+• 배틀쉽 게임을 더 확장할수 있다.     
 ① 배틀쉽을 여러대를 보드에 넣어서 찾을 수 있다.    
 ② 배틀쉽 board 사이즈를 더 크게 확장 할 수 있다.    
 ③ 플레이어가 1인용이 아니라, 여러명이 할수 있게 만들 수 있다.    
