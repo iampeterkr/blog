@@ -1405,19 +1405,22 @@ O O O O O
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 13. Not Again!  
 
-Great! Now let's handle the second type of incorrect guess: the player guesses a location that was already guessed. How will we know that a location was previously guessed?
+Great! Now let's handle the second type of incorrect guess: the player guesses a location that was already guessed. How will we know that a location was previously guessed?    
+
 ```python
 print board[guess_row][guess_col]
-```
+```    
+
 The example above will print an 'X' if already guessed or an 'O' otherwise.
 
 
 
 
 
-**설명:** [ ]          
-이미 추측하여 입력값 좌표를 다시 입력시 어떻게 이미 입력한 값인지를 알 수 있을까?    
-`print board[guess_row][guess_col]`는 반환 값이 "X" 이거나 "O" 일 것이다.
+**설명:** [ Learn ]          
+• Ch13. Not Again! 에서는 elif 를 연습한다.     
+• 이미 틀렸던, 좌표를 다시 입력하면, 이미 입력했다는것을 어떻게 알 수 있을까?    
+• print board[guess_row][guess_col] 의 반환값은 문자열 "X" 이거나 "O" 이다.
 {: .notice--info}
 
 
@@ -1427,14 +1430,17 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Add an elif to see if the guessed location already has an 'X' in it.
+* Add an elif to see if the guessed location already has an 'X' in it.
 
 * If it has, print "You guessed that one already."
 
 
-**설명:** [ ]          
-① 기존에 추가한 if 문 밑에 elif 문을 추가하라. elif 문 내용은 다음과 같다.    
-• 만약 입력 받은 위치가 이전에 입력 받은 좌표 즉, 해당 위치 값이 "X" 이면 "You guessed that one alrady."라는 메시지를 출력하여라.  
+**설명:** [ Instruction ]          
+• 추가 if 문 밑에 elif 문을 추가하라.    
+• elif 문의 기능은 다음과 같이 동작한다.    
+• 입력받은 좌표가 기존에 입력했던 좌표 "X" 인지를 비교하라.    
+• 좌표에 "X" 가 있으면 다음 메시지를 출력하라.    
+• 메시지 : "You guessed that one alrady."
 {: .notice--info}
 
 
@@ -1443,11 +1449,12 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember to use two equal signs (**`==`**) when you're checking for equality.
+* Remember to use two equal signs (**`==`**) when you're checking for equality.
 
 
-**설명:** [ ]          
-`==` 는 비교할때 양쪽의 값이 같다는 뜻이다. if 문에서 `==`을 활용하라. 
+**설명:** [ Hint ]          
+• 연사자 ( == ) 는 비교 할때 양쪽의 값이 같다는 뜻이다.    
+• if 문에서 연산자 ( == ) 을 활용한다. 
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1496,8 +1503,9 @@ else:
 
 ```
 
-**설명:** [ ]          
-리스트 `board[guess_row][guess_col] == 'X'`인지를 확인해서 이미 입력 된 값인지를 점검한다. 
+**설명:** [ Solution ]          
+• elif 문에서 리스트 board[guess_row][guess_col] == "X" 인지 확인한다.    
+• 이미 "X" 값이 존재하면 "You guessed that one already."를 출력한다.
 {: .notice--info}
 
 
@@ -1538,8 +1546,9 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 
 
 
-**설명:** [ ]         
-여러번 실행해 보고, 입력하여, 문법적으로, 내용적으로 이상이 없는지 확인해 보자. 
+**설명:** [ Learn ]         
+• Ch14. Test Run 에서는 프로그램을 UAT(단위 테스트)를 연습한다.    
+• 여러번 실행해 보고, 입력하여, 문법적으로, 내용적으로 이상이 없는지 확인한다.
 {: .notice--info}
 
 
@@ -1549,11 +1558,13 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Thoroughly test your game. Make sure you try a variety of different guesses and look for any errors in the syntax or logic of your program.
+* Thoroughly test your game.    
+* Make sure you try a variety of different guesses and look for any errors in the syntax or logic of your program.
 
 
-**설명:** [ ]          
-① 여러번 실행해서 문법적이나, 로직상 문제가 없는지 확인해 보자. 소스가 어떻게 동작되는지를 확인해 보는것도 좋다.  
+**설명:** [ Instruction ]          
+• 여러번 실행해서 문법적이나, 로직상 문제가 없는지 확인한다.     
+• 소스가 어떻게 동작 되는지를 확인한다. 
 {: .notice--info}
 
 
@@ -1565,7 +1576,7 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -1620,7 +1631,7 @@ else:
 
 ```
 
-**설명:** [ ]          
+**설명:** [ Solution ]          
 • skip 
 {: .notice--info}
 
