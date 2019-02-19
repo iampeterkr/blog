@@ -5,11 +5,14 @@ title: "About"
 author_profile: true
 ---
 
-I like to ride cycle and ski, one time,  I used to think about changing my jobs to spend at ski resorts during the winter season.
-I am working for capital markets, CCP (Central Couty Party), as an Architect of Interface. 
+I like to ride road cycle and ski.   
+One time, I used to consider changing my jobs, in order to go skiing at the ski resorts during winter seasons.
+I am working for capital markets, CCP (Central Couty Party), as an Architect of Interface.     
 
-I have considered how to learn python easily anyone and figured out good site. finally, I have made a guide site for codecademy's python language course.
+
+I have considered how to learn python easily anyone and figured out a good site finally. so, make a guide site, "The python grammar guide course of Codecademy", for the beginner programmer and lecture the python grammar Using "Codecademy" sometimes.    
 I hope to help everybody.
+
 
 
 **From *Wonyoung***

@@ -2321,6 +2321,6 @@ Some of these options will be easier after we cover loops in the next lesson. Th
 ② 배틀쉽 board 사이즈를 더 크게 확장 할 수 있다.    
 ③ 플레이어가 1인용이 아니라, 여러명이 할수 있게 만들 수 있다.    
 ④ 게임의 특징을 rematch 기능을 넣어 보다 다채롭게 만들수 있다.    
-한번 도전해 봐라. 당신은 이제 전문 게임 프로그래머가 되었다.    
+• 한번 도전해 봐라. 당신은 이제 전문 게임 프로그래머가 되었다.    
 {: .notice--info}
 
