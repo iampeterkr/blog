@@ -506,12 +506,13 @@ The difference here is that this loop is guaranteed to run at least once.
 
 
 
-**설명:** [ ]          
-`break`문을 만나면 현재 loop를 빠져나간다.    
-• while문의 조건절을 항상 True 인 경우에만 진행 되도록 지정한다. Ture가 아닐때 그 loop를 빠져나간다.    
-
-• while문의 내부 블럭에서 if문을 사용해서 멈춰도 된다. if 문에 조건을 걸어서 해당 조건이 되면 break 사용하여 해당 loop를 빠져나간다.     
-이런 경우, 무조건 while 내부 내용이 1번은 실행된다. 
+**설명:** [ Learn ]          
+• Ch6. Break 에서는 break 문을 학습한다.    
+• 반복문에서는 break 문을 만나면 현재 loop 를 빠져나간다.    
+• while 문은 조건문에서 항상 True 인지를 확인한다. True가 아니면 loop를 빠져나간다.    
+• while 문 내부블럭에서 if 문을 사용해서 빠져나가도 된다.    
+• if 문에 조건을 걸어서 해당 조건이 되면 break 사용하여 해당 loop를 빠져나간다.     
+• while 문과 if 문의 break 차이점은, while 문은 내부블럭이 1번은 실행된다. 
 {: .notice--info}
 
 
@@ -521,11 +522,12 @@ The difference here is that this loop is guaranteed to run at least once.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** See what the break does? Feel free to mess around with it (but make sure you don't cause an infinite loop)! Click Run when you're ready to continue.
+* See what the break does? Feel free to mess around with it (but make sure you don't cause an infinite loop)! Click Run when you're ready to continue.
 
 
-**설명:** [ ]          
-① `break` 가 무슨일을 하는지 살펴보라. 가볍게 살펴보고, 실행 시켜 보아라.   
+**설명:** [ Instruction ]          
+• break 문이 무슨일을 하는지 살펴보라.    
+• 가볍게 살펴보고, 실행 시켜라.   
 {: .notice--info}
 
 
@@ -537,7 +539,7 @@ The difference here is that this loop is guaranteed to run at least once.
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -559,8 +561,12 @@ while True:
 
 ```
 
-**설명:** [ ]          
-변수 `count`가 10이 되면 강제로 break 문이 발동되어 loop를 빠져 나간다. 
+**설명:** [ Solution ]          
+• While 문의 조건문이 항상 True 이다.    
+• 변수 count 를 출력한다.    
+• 변수 count 를 값 1을 증가한다.    
+• 변수 count 가 10보다 같거나 크면 break 문이 동작된다. while 문을 빠져나간다.    
+• 변수 count 가 10보다 작으면 while 문이 다시 반복 실행된다.
 {: .notice--info}
 
 
@@ -596,9 +602,13 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 
 
 
-**설명:** [ ]          
-`while/else`는 python에 사용되는 독특한 구조이다.    
-`if/else` 의 `else`와 비슷하지만, `if/else`는 `if`문이 실행되면 `else`문이 실행되지 않지만, `while/else`는 `while`문이 flase 되어 빠져 나오면 반드시 `else`문이 동작된다.  실습을 통해서 알아보자. 
+**설명:** [ Learn ]          
+• Ch7. While / else 에서는 while/else 문을 학습한다.   
+• while/else 문은 python에 사용되는 독특한 구조이다.    
+• if/else 의 else 와 비슷하다.    
+• 차이는, if/else 는 if 문이 실행되면 else 문은 실행되지 않는다.    
+• while/else 는  while 문이 flase 되어 빠져 나오면 반드시 else 문이 동작된다.    
+• 실습을 통해서 이해하자. 
 {: .notice--info}
 
 
@@ -608,11 +618,11 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Click Run to see while/else in action!
+* Click Run to see while/else in action!
 
 
-**설명:** [ ]          
-① 실행해서, 소스가 어떻게 동작되는지를 확인해 보자.  
+**설명:** [ Instruction ]          
+• Run 실행후, 소스가 어떻게 동작되는지를 확인하라.
 {: .notice--info}
 
 
@@ -624,7 +634,7 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -653,9 +663,10 @@ else:
   print "You win!"
 ```
 
-**설명:** [ ]          
-while문은 변수 `count`가 3보다 작을때까지 내부 블럭이 동작한다. 더불어 내부 블럭에는 변수 `num`이 5가 될때까지 실행된다.     
-while문을 빠져나오면, `else`문의 `print "You win!"`이 출력된다. 
+**설명:** [ Solution ]          
+• while 문은 변수 count 가 3 보다 작을 때까지 내부블럭이 실행된다.    
+• 변수 count 가 3보다 크면 while 문을 빠져나온다. 그리고 else 문이 실행된다.    
+• else 문의 "You win!" 이 출력된다.
 {: .notice--info}
 
 
@@ -679,7 +690,7 @@ You win!
 <font size="3"  face="돋움">LOOPS</font> 
 ### 8. Your own while / else    
 
-Now you should be able to make a game similar to the one in the last exercise. The code from the last exercise is below:
+Now you should be able to make a game similar to the one in the last exercise. The code from the last exercise is below:    
 ```python
 count = 0
 while count < 3:
@@ -691,20 +702,23 @@ while count < 3:
   count += 1
 else:
   print "You win!"
-```
-In this exercise, allow the user to guess what the number is 3 times.
+```    
+In this exercise, allow the user to guess what the number is 3 times.    
 ```python
 guess = int(raw_input("Your guess: "))
-```
-Remember, **`raw_input`** turns user input into a **string**, so we use **`int()`** to make it a number again.
+```    
+Remember, **`raw_input`** turns user input into a **string**, so we use **`int()`** to make it a number again.    
 
 
 
 
 
-**설명:** [ ]          
-`while/else`문이 어떻게 사용되는지는 살펴 보자.     
-참고로, `raw_input()`내재 함수는 return 값이 문자열(string)이다. 즉, 입력을 숫자로 입력해도 내부적으로는 문자열로 취급된다. 그러므로 `int(raw_input("Your guess: "))`로 숫자로 바꿔 줘야 한다. 
+**설명:** [ Learn ]          
+• Ch8. Your own while / else 에서는 while/else 의 사용법을 학습한다.    
+• while/else 문이 어떤 경우에 사용 되는지는 살펴보자.     
+• 참고로, 함수 raw_input() 는 return 값이 문자열(string)이다.    
+• 즉, 입력을 숫자로 입력해도 내부적으로는 문자열로 취급된다.    
+• 함수 int() 를 사용하여, int(raw_input("Your guess: ")) 숫자로 바꿔줘야 한다.
 {: .notice--info}
 
 
@@ -714,25 +728,21 @@ Remember, **`raw_input`** turns user input into a **string**, so we use **`int()
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Use a while loop to let the user keep guessing so long as guesses_left is greater than zero.
-
-* Ask the user for their guess, just like the second example above.
-
-* If they guess correctly, print "You win!" and break.
-
-* Decrement guesses_left by one.
-
-* Use an else: case after your while loop to print "You lose.".
+* Use a while loop to let the user keep guessing so long as guesses_left is greater than zero.    
+* Ask the user for their guess, just like the second example above.    
+* If they guess correctly, print "You win!" and break.    
+* Decrement guesses_left by one.    
+* Use an else: case after your while loop to print "You lose.".    
 
 
 
-
-**설명:** [ ]          
-① 변수 `guesses_left`가 0 보다 클 동안 사용자가 계속 질문하는 while 문을 만든다.    
-• 상단 처럼 질문하는 문을 만들자.    
-• 만약, 질문한 값이 맞으면 "You win!" 이라고 출력하고, break문으로 빠져나오자.     
-• 변수 `guess_left`를 1씩 줄여 나가자 `guess_left -=1`    
-• `else`문을 사용하여 while 문을 빠져나오면 "You lose."라고 출력하자.    
+**설명:** [ Instruction ]          
+• 사용자가 계속 질문하는 while 문을 만들어라.    
+• 조건문은 변수 guesses_left > 0 큰 경우다.
+• Learn 에서 설명한 질문하는 문을 만들어라.        
+• 질문한 값이 맞으면 "You win!" 이라고 출력하고, break 문으로 빠져나온다.        
+• 변수 guess_left 를 값 1 씩 줄여 나간다. (i.g. guess_left -=1 )    
+• else 문을 사용하여 while 문을 빠져나오면 "You lose." 라고 출력한다.    
 {: .notice--info}
 
 
@@ -741,16 +751,17 @@ Remember, **`raw_input`** turns user input into a **string**, so we use **`int()
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-This game will have a very similar structure to the example, but instead of losing right before the break, the user should win.
+* This game will have a very similar structure to the example, but instead of losing right before the break, the user should win.
 
-The if should check if guess == random_number. If it does, then it's the winning guess!
+* The if should check if guess == random_number. If it does, then it's the winning guess!
 
 
-**설명:** [ ]          
-앞의 예제와 비슷하지만, break 문이 걸리는게 이겼을때 이다.     
-`if guess == random_number`인 경우가 승리하는 조건이다. 
-random값은 while 문 시작 하기전에 산출된다.  
-break문이 실행되어 while문을 빠져나갈때, else문은 실행되지 않는다. 
+**설명:** [ Hint ]          
+• 앞의 예제와 비슷하지만, break 문이 걸리는게 승리 했을때 이다.    
+• 승리의 조건은 다음과 같다.    
+• i.g. if guess == random_number    
+• Random 값은 while 문 시작 하기전에 산출된다.     
+• break 문이 실행되어 while 문을 빠져나갈때, else 문은 실행되지 않는다. 
 {: .notice--info}
 
 <br>
@@ -779,12 +790,19 @@ else:
 
 ```
 
-**설명:** [ ]          
-미리 `random_number`값을 가진다.    
-변수 `guess_left`가 0보다 클동안 while문이 진행된다.     
-prompt 에서 `"Your guess: "`로 임의의 숫자를 입력 받는다. 입력받은 값은 변수 `guess`에 저장된다.      
-`guess`값이 미리 산출한 `random_number`과 같으면 "You win!"을 출력한다.그리고 break 문이 작동되어 loop를 빠져나온다. 그렇지 않으면 변수 `guess_left`를 -1 하도 다시 loop를 돈다.     
-`guesses_left` 값이 0이 되면 while문을 빠져나오고, `else`문이 실행되어 `print "You lose"`가 동작된다.  
+**설명:** [ Solution ]          
+• 미리 random_number 값을 생성한다.     
+• while 문이 True (변수 guess_left > 0) 인경우 진행된다.     
+• Prompt 창에서  "Your guess: " 로 임의의 숫자를 입력 받는다.    
+• 입력받은 값은 변수 guess 에 저장된다.      
+• 변수 guess 값이 미리 산출한 변수 random_number 과 같은지 비교한다.    
+• 같으면, "You win!" 을 출력한다. 그리고 break 문이 작동되어 loop를 빠져나온다.    
+• 틀리면 변수 guess_left 에 1 을 차감한다. 다시 while 문을 돈다.    
+• 변수 guesses_left 의 값이 0 이 되면    
+• while 문의 조건문은 False 가 된다. 그리고 while 문을 빠져나온다.    
+• 이때, else 문이 실행되고, print "You lose"` 가 출력된다.    
+• 강제로 break 문이 실행되어 while 문을 빠져나오면 else 문이 실행 안된다.    
+• while 문의 조건문이 True 에서 False 로 변경되어 while 문을 빠져나오면 else 문이 실행된다.
 {: .notice--info}
 
 
@@ -818,8 +836,9 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 
 
-**설명:** [ ]          
-앞에서 배운 for 문은 또다른 반복문이다. 즉, while문을 대체할 수 있다. edit 창에 있는 소스는  0부터 9까지 반복적으로 돌면서 산출하는 소스이다.  
+**설명:** [ Learn ]          
+• Ch9. For your health 에서는 for 문을 학습한다.    
+• Edit 창에 있는 소스는, 0 부터 9 까지 산출하여 반복적으로 돌면서 산출하는 소스이다.  
 {: .notice--info}
 
 
@@ -829,11 +848,12 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Make the loop print the numbers from 0 to 19 instead of 0 to 9.
+* Make the loop print the numbers from 0 to 19 instead of 0 to 9.
 
 
-**설명:** [ ]          
-① 0부터 19까지 숫자를 출력하는 반복문으로 변경하라. (기존 0부터 9까지 산출하는 소스를 이용) 
+**설명:** [ Instruction ]          
+• 0 부터 19 까지 숫자를 출력하는 반복문으로 변경하라.    
+• ( 기존 0부터 9까지 산출하는 소스를 변경한다. ) 
 {: .notice--info}
 
 
@@ -842,11 +862,11 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Make sure to change the number inside of **`range`**.
+• Make sure to change the number inside of **`range`**.
 
 
-**설명:** [ ]          
-`rang()` 함수를 사용하자. 
+**설명:** [ Hint ]          
+• 함수 rang() 를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -865,8 +885,8 @@ for i in range(20):
   
 ```
 
-**설명:** [ ]          
-`range(20)` 함수는 20 미만의 숫자를 0부터 20개 출력하는 것이다. 
+**설명:** [ Solution ]          
+• 함수 range(20) 는 20 미만의 숫자를 0부터 20개 산출한다.
 {: .notice--info}
 
 
@@ -909,8 +929,9 @@ This kind of loop is useful when you want to do something a **certain number of 
 
 
 
-**설명:** [ ]          
-for문은 내가 몇번 loop를 둘려야 하는지를 정확히 알때 사용한다. 예를 들면,
+**설명:** [ Learn ]          
+• for 문은 내가 몇번 loop를 둘려야 하는지를 정확히 알때 사용한다.     
+• 예를 들면, 리스트의 끝에 항목값을 추가할때 사용한다.
 {: .notice--info}
 
 
@@ -920,22 +941,23 @@ for문은 내가 몇번 loop를 둘려야 하는지를 정확히 알때 사용�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a **`for`** loop that prompts the user for a **hobby 3 times**.
+* Create a **`for`** loop that prompts the user for a **hobby 3 times**.    
+* Save the result of each prompt in a **`hobby`** variable    
 
-* Save the result of each prompt in a **`hobby`** variable
+* append each one to `hobbies[]`.    
 
-* append each one to `hobbies[]`.
+* print hobbies after your for loop    
 
-* print hobbies after your for loop
-
-Make sure to answer the prompts in the terminal when testing your code!
+* Make sure to answer the prompts in the terminal when testing your code!    
 
 
-**설명:** [ ]          
-① for문을 사용하여 취미를 3번 묻는 것을 만들어라.     
-• 변수 `hobby`에 prompt에서 입력 받은 값을 저장하라.      
-• 입력 받은 `hobby`를 리스트 `hobbies`리스트에 추가하라.    
-• for 문을 빠져나오고 `hobbies`리스트 값을 출력하라. 
+
+**설명:** [ Instruction ]          
+• for 문을 사용하여 취미를 3번 묻는 프로그램을 작성하라.    
+• 변수 hobby 에 prompt 에서 입력받은 값을 저장하라.      
+• 변수 hobby 의 값을 리스트 hobbies 에 추가하라.    
+• for 문을 빠져나온다.    
+• 리스트 hobbies 값을 출력하라. 
 {: .notice--info}
 
 
@@ -944,12 +966,13 @@ Make sure to answer the prompts in the terminal when testing your code!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Your for loop should use range(3). You should use the **`raw_input()`** function to get info from the user and **`hobbies.append(hobby)`** to add the **`hobby`** to the list.
+* Your for loop should use range(3). You should use the **`raw_input()`** function to get info from the user and **`hobbies.append(hobby)`** to add the **`hobby`** to the list.
 
 
-**설명:** [ ]          
-• `raw_input()`함수를 사용하라.     
-• 리스트에 추가하는것은 `hobbies.append(hobby)`이다.
+**설명:** [ Hint ]          
+• 함수 raw_input() 를 사용하라.     
+• 리스트에 추가하는 방법은 다음과 같다.    
+• i.g. hobbies.append(hobby)
 {: .notice--info}
 
 <br>
@@ -971,10 +994,12 @@ for num in range(3):
 print hobbies
 ```
 
-**설명:** [ ]          
-`for num in range(3):`로 3번 입력 받는다.     
-입력받은 값은 리스트 hobbies에 추가한다.    
-for 문을 빠져나오면, 리스트 hobbies를 출력한다. 
+**설명:** [ Solution ]          
+• for 문에서 3번이 돌도록 산출된다.(i.g. range(3))    
+• 함수 raw_input()으로 입력값을 받아서, 변수 hobby 에 저장한다.    
+• 리스트 hobbies에 변수 hobby 의 값을 추가한다.    
+• 3번 입력이 끝나고, for 문을 빠져나온다.    
+• 리스트 hobbies 를 출력한다. 
 {: .notice--info}
 
 
@@ -1002,9 +1027,10 @@ The example in the editor is almost plain English: "for each character c in thin
 
 
 
-**설명:** [ ]          
-loop 반복을 통하여 문자열을 문자 단위로 나눌수 있다.     
-edit 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소스이다. 
+**설명:** [ Learn ]          
+• Ch11. For your strings 에서는 반복문으로 문자열을 관리하는 방법을 학습한다.    
+• loop 반복을 통하여 문자열을 문자 단위로 나눌수 있다.     
+• Editor 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소스이다. 
 {: .notice--info}
 
 
@@ -1014,11 +1040,11 @@ edit 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Add a second for loop so that each character in **`word`** is printed one at a time.
+* Add a second for loop so that each character in **`word`** is printed one at a time.
 
 
-**설명:** [ ]          
-① for 문을 추가하여, 변수 `word`에 담겨 있는 "eggs"를 하나씩 출력 되게 하여라.  
+**설명:** [ Instruction ]          
+• for 문을 추가하여, 변수 word 에 담겨 있는 문자열 "eggs"를 문자 하나씩 출력하라.
 {: .notice--info}
 
 
@@ -1027,11 +1053,11 @@ edit 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소�
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Use the example on lines 3 - 4 as a model.
+* Use the example on lines 3 - 4 as a model.
 
 
-**설명:** [ ]          
-3,4라인에 있는 for문을 참조하라. 
+**설명:** [ Hint ]          
+• 3, 4라인에 있는 for문을 참조하라. 
 {: .notice--info}
 
 <br>
@@ -1054,8 +1080,9 @@ for character in word:
   print character
 ```
 
-**설명:** [ ]          
-변수 `word`에 있는 문자열 "eggs!"를 알파벳 하나씩 읽어서 출력한다. 
+**설명:** [ Solution ]          
+• 변수 word 에 있는 문자열 "eggs!" 를 알파벳 하나씩 읽어서 출력한다.     
+• 문자열도 문자별 index를 가지고 있다. 
 {: .notice--info}
 
 
@@ -1083,24 +1110,24 @@ s
 <font size="3"  face="돋움">LOOPS</font> 
 ### 12. For your A    
 
-String manipulation is useful in for loops if you want to modify some content in a string.
+String manipulation is useful in for loops if you want to modify some content in a string.    
 ```python
 word = "Marble"
 for char in word:
   print char,
-```  
-The example above iterates through each character in word and, in the end, prints out M a r b l e.
+```      
+The example above iterates through each character in word and, in the end, prints out M a r b l e.    
 
-The `,` character after our print statement means that our next print statement **keeps** printing on **the same line**.
-
-
+The `,` character after our print statement means that our next print statement **keeps** printing on **the same line**.    
 
 
 
-**설명:** [ ]          
-for 문은 문자열 조작을 하기에 편리하다.    
-예제에서 "Marble"가 M a r b l e 로 출력된다.    
-여기에서 `print char ,` `,`는 문자열이 새로운 줄에서 출력되는 것이 아니라, 같은 라인에서 출력되는 것이다. 
+**설명:** [ Learn ]          
+• Ch12. For your A 에서는 문자열의 문자를 비교하는 방법을 학습한다.    
+• for 문은 문자열 조작을 하기에 편리하다.    
+• 예제에서 "Marble"가 M a r b l e 로 출력된다.    
+• 문자열이 새로운 줄에서 출력되는 것이 아니라, 같은 라인에서 출력되게는 다음과 같이 한다.    
+• i.g. 'print char , '  --> ( , ) comma 를 해준다.  
 {: .notice--info}
 
 
@@ -1110,7 +1137,7 @@ for 문은 문자열 조작을 하기에 편리하다.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Let's filter out the letter "A" from our string.
+* Let's filter out the letter "A" from our string.
 
 * Do the following for each character in the **`phrase`**.
 * If char is an "A" or char is an "a", print "X", instead of char. Make sure to include the trailing comma.
@@ -1118,11 +1145,12 @@ for 문은 문자열 조작을 하기에 편리하다.
 
 
 
-**설명:** [ ]          
-① 문자열에서 "A"를 걸러내는 것을 해 보자.    
-• 변수 `phrase`에 들어있는 문자열을 이용한다.    
-• 문자 중 "A" or "a"는 해당 문자를 "X"로 출력되게끔 바꿔라. `,`를 사용하여 한줄에 출력되게 하라.        
-• 그외는 `,`를 사용하여, 문자열을 출력하라. 
+**설명:** [ Hint ]          
+• 문자열 중 "A" 를 걸러내자.         
+• 변수 phrase 에 들어있는 문자열을 이용한다.    
+• 문자열 중 "A" or "a"는 해당 문자를 "X"로 출력되도로고 수정한다.    
+• ( , ) 를 사용하여 한 줄에 출력하라.        
+• 그 외 문자는 는 ( , ) 를 사용하여, 문자열 그대로 출력하라. 
 {: .notice--info}
 
 
@@ -1131,9 +1159,9 @@ for 문은 문자열 조작을 하기에 편리하다.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can use the same for syntax, for c in s, as before. Use an if to compare c to 'a' and 'A'. Print an 'X' in that case, and use an else to print the character otherwise.
+* You can use the same for syntax, for c in s, as before. Use an if to compare c to 'a' and 'A'. Print an 'X' in that case, and use an else to print the character otherwise.
 
-Include a comma after the character to be printed in order to ensure it's not printed on its own line, like so:
+* Include a comma after the character to be printed in order to ensure it's not printed on its own line, like so:
 
 ```python
 if c == "A" or c == "a":
@@ -1141,8 +1169,9 @@ if c == "A" or c == "a":
 ```
 
 
-**설명:** [ ]          
-for 문을 돌면서 문자를 추출하고, 해당 문자가 "A" or "a"이면 "X"를 출력한다. 
+**설명:** [ Hint ]          
+• for 문을 돌면서 문자를 하나씩 추출한다.   
+• 해당 문자가 "A" or "a"이면 문자열 "X" 를 출력한다. 
 {: .notice--info}
 
 <br>
@@ -1166,7 +1195,12 @@ for char in phrase:
 print
 ```
 
-**설명:** [ ]      
+**설명:** [ Solution ]      
+• 변수 phrase 에 문자열 "A bird in the hand..." 가 저장되어 있다.    
+• for 문으로 변수 phrase 의 문자를 하나씩 추출하여 변수 char 에 저장한다.    
+• 변수 char 에 "A" or "a" 가 들어 있으면 문자 "X"를 출력한다.    
+• 그렇지 않으면 변수 char 를 출력한다.    
+• 출력할때, ( , )를 사용하여 한줄에 출력된다. 
 {: .notice--info}
 
 
