@@ -16,7 +16,8 @@ This lesson will introduce you to Python, a general-purpose, object-oriented int
 
 
 **설명:** [ 학습방향 ]     
-이 장에서는 수많은 독립형 프로젝트와 스크립트 응용 프로그램에 사용할 수 있는 객체지향 프로그램 언어인 Python 을 소개합니다.
+이 장에서는 객체 지향 프로그램 언어인 Python을 소개합니다.     
+Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램에 사용할 수 있습니다.
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">
@@ -292,10 +293,12 @@ Another issue you might run into is attempting to create a string without quotes
 
 
 **설명:** [ Learn ]     
-• 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 EOL Error를 발생시킨다.    
+• 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 EOL Error를 발생시킨다.   
+• i.g. SyntaxError: EOL while scanning string literal     
+• EOL Error는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.     
 • 시작이 (') 이면 끝도 (')이어야 하면, 시작이 (")이면, 끝도 (") 이어야 한다.     
-• 문자열을 만들때, 양 끝을 쿼트(quotest)가 없으면 Python은 해당 문자열을 print 와 같은 명령문 으로 인식한다.     
-• 이런 경우 해당 문자열이 명령어 리스트에 없으면 NameError 를 발생시킨다.  
+• 문자열을 만들때, 양 끝을 쿼트(quotest)가 없으면 Python은 해당 문자열을 print 와 같은 명령문 으로 인식한다.(or 변수로 인식한다.)     
+• 이런 경우 해당 문자열이 명령어 리스트(or 변수 리스트)에 없으면 NameError 를 발생시킨다.
 {: .notice--info}
 
 
