@@ -47,7 +47,7 @@ In the example above:
 
 
 **설명:** [ Learn ]    
-• Ch1. Before We Begin 는 내장함수(built-in) max()에 대해 배운다.    
+• Ch1. Before We Begin 는 내장함수(built-in) max()에 대해 학습한다.    
 • 함수 bigger()  는 arguments 값으로 first 와 second 를 가진다.    
 • 그리고 built-in 함수인 max() 사용하여 first 와 second  두 값을 비교한다.    
 • 함수 max() 는 두 값을 비교하여 큰 값을 출력한다.    

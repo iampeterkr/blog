@@ -649,7 +649,7 @@ Remember `import` this from the first exercise in this course? That was an examp
 
 
 **설명:** [ Learn ]    
-• 이 장에서는 import 모듈을 배운다.    
+• 이 장에서는 import 모듈을 학습한다.    
 • 모듈 import 는 미리 만들어진 변수, 함수들을 묶어둔 것이다.    
 • 명령어 import 는 이것들을 호출하여 사용하는 것이다. 
 {: .notice--info}

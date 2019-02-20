@@ -16,7 +16,7 @@ LESSON
 In this lesson, we'll cover some of the more complex aspects of Python, including iterating over data structures, list comprehensions, list slicing, and lambda expressions.      
 
 **설명:** [ 학습방향 ]     
-이 장에서는 Python 을 활용한 다양한 자료구조를 학습한다. 딕셔너리, 리스트 등을 합칙, 분리하고, lambda 표현등을 연습한다. 
+이 장에서는 Python 을 활용한 다양한 자료구조를 학습한다. 딕셔너리, 리스트 등을 합칙, 분리하고, lambda 표현등을 학습한다. 
 {: .notice--info}  
     
 <hr style="border: solid 1px #dddddd ;">    

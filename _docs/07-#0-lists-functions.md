@@ -34,7 +34,7 @@ This exercise goes over just pulling information from a list, which we've covere
 
 
 **설명:** [ Learn ]        
-• Ch1. List accessing 에서는 리스트 항목에 접근하는 방법을 배운다.    
+• Ch1. List accessing 에서는 리스트 항목에 접근하는 방법을 학습한다.    
 • 우리는 앞장에서 이미 이와 관련하여 해보았다. 
 {: .notice--info}
 
@@ -111,7 +111,7 @@ You've already learned how to modify elements of a **list** in a previous sectio
 
 
 **설명:** [ Learn ]          
-• Ch2. List element modification 에서는 리스트의 항목값을 변경하는것을 연습한다.    
+• Ch2. List element modification 에서는 리스트의 항목값을 변경하는것을 학습한다.    
 • 앞장 리스트에서 배웠지만 다시 한번 연습해 보자.
 {: .notice--info}
 
@@ -195,7 +195,7 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 
 
 **설명:** [ Learn ]          
-• Ch3. Appending to a list 에서는 메서드 '.append()'를 사용하는 법을 배운다.    
+• Ch3. Appending to a list 에서는 메서드 '.append()'를 사용하는 법을 학습한다.    
 • 리스트에  '.append()' 를 이용하면, 리스트 제일 마지막에 값을 추가할 수 있다.
 {: .notice--info}
 
@@ -299,7 +299,7 @@ print n
 
 **설명:** [ Learn ]          
 • Ch4. Removing elements from lists 에서는 리스트의 항목값 삭제를 학습한다.    
-• 리스트의 항목값을 삭제 하는 것을 다시 연습한다.     
+• 리스트의 항목값을 삭제 하는 것을 다시 학습한다.     
 • n.pop(index), index 값에 위치하는 항목이 삭제 된다.    
 • n.remove(1),  index 값 1 위치에 해당하는 값을 찾아서 그 값이 삭제 된다.     
 • del(n[1]) index 값 1 위치에 해당하는 값이 삭제 된다.     
@@ -456,7 +456,7 @@ This exercise will recap how to use **more than one argument** in a function.
 
 
 **설명:** [ Learn ]     
-• Ch6. More than one argument 에서는 1개 이상의 arguments를 연습한다.    
+• Ch6. More than one argument 에서는 1개 이상의 arguments를 학습한다.    
 {: .notice--info}
 
 
@@ -538,7 +538,7 @@ This is a basic recap on using strings in functions.
 
 
 **설명:** [ Learn ]    
-• Ch7. Strings in functions 에서는 함수에서 문자열 사용법을 연습한다.
+• Ch7. Strings in functions 에서는 함수에서 문자열 사용법을 학습한다.
 {: .notice--info}
 
 
@@ -620,7 +620,7 @@ You pass a list to a function the same way you pass any other argument to a func
 
 
 **설명:** [ Learn ]         
-• Ch8. Passing a list to a function 에서는 함수에 리스트를 전달하는것을 연습한다.   
+• Ch8. Passing a list to a function 에서는 함수에 리스트를 전달하는것을 학습한다.   
 • 함수에 여러개의 인수를 전달할 수 있듯이, 함수에 리스트도 전달 할수 있다.
 {: .notice--info}
 
@@ -709,7 +709,7 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 
 
 **설명:** [ Learn ]          
-• Ch9. Using an element from a list in a function 에서는 함수에 입력된 값을 관리하는 법을 배운다.    
+• Ch9. Using an element from a list in a function 에서는 함수에 입력된 값을 관리하는 법을 학습한다.    
 • 함수 first_item(numbers)를 호출한다.    
 • 입력값 리스트 numbers = [2, 7, 9] 가 입력된다.    
 • 정의된 함수 first_item(numbers): 는, parameter로 numbers 를 가진다.    
@@ -803,7 +803,7 @@ When we pass a list to a function and modify that list, like in the double_first
 
 
 **설명:** [ Learn ]          
-• 10. Modifying an element of a list in a function 에서는 함수를 이용하여 리스트의 특정 값을 변경하는것을 배운다.
+• 10. Modifying an element of a list in a function 에서는 함수를 이용하여 리스트의 특정 값을 변경하는것을 학습한다.
 {: .notice--info}
 
 
@@ -899,7 +899,7 @@ The example above is just a reminder of how to append items to a list.
  
 
 **설명:** [ Learn ]    
-• 11. List manipulation in functions 에서는 함수를 통하여 리스트를 추가, 삭제를 연습한다.
+• 11. List manipulation in functions 에서는 함수를 통하여 리스트를 추가, 삭제를 학습한다.
 {: .notice--info}
 
 
@@ -987,7 +987,7 @@ Don't worry about the range function quite yet—we'll explain it later in this 
 
 
 **설명:** [ Learn ]          
-• Ch12. Printing out a list item by item in a function 에서는 함수안에서 for 문을 사용하여 입력받은 리스트의 항목값들을 활용하는 방법을 연습한다.
+• Ch12. Printing out a list item by item in a function 에서는 함수안에서 for 문을 사용하여 입력받은 리스트의 항목값들을 활용하는 방법을 학습한다.
 {: .notice--info}
 
 
@@ -1076,7 +1076,7 @@ This exercise shows how to **modify each element in a list**. It is useful to do
 
 
 **설명:** [ Learn ]    
-• Ch13. Modifying each element in a list in a function 에서는 리스트의 항목값을 수정하는 것은 연습한다.     
+• Ch13. Modifying each element in a list in a function 에서는 리스트의 항목값을 수정하는 것은 학습한다.     
 • 함수 len(n) 를 이용하여 어떤 리스트의 길이도 쉽게 알 수 있다.
 {: .notice--info}
 
@@ -1181,7 +1181,7 @@ In all cases, the **`range()`** function **returns a list** of numbers from **st
 
 
 **설명:** [ Learn ]          
-• Ch14. Passing a range into a function 에서는 함수 range() 사용법을 연습한다.    
+• Ch14. Passing a range into a function 에서는 함수 range() 사용법을 학습한다.    
 • 함수 range() 는 1 ~ 3 개의 arguments를 가진다.     
 • ---------------------     
 • Arguments (1)    
@@ -1292,11 +1292,11 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 
 
 **설명:** [ Learn ]          
-• Ch15. Iterating over a list in a function 에서는 리스트 자동생성법을 연습한다.     
+• Ch15. Iterating over a list in a function 에서는 리스트 자동생성법을 학습한다.     
 • 리스트를 자동으로 생성해주는 방법에는 2가지가 있다.    
 • 1st Method : for 문을 활용. (리스트 생성: O,  변경: X)   
 • 2nd Method : indexes 활용. (리스트 생성: O,  변경: O)
-• 본인이 편한것을 선택하여 연습한다.
+• 본인이 편한것을 선택하여 학습한다.
 {: .notice--info}
 
 
@@ -1405,7 +1405,7 @@ The example above is just a reminder of the two methods for iterating over a lis
 
 
 **설명:** [ Learn ]          
-• Ch16. Using strings in lists in functions 에서는 리스트 항목값이 문자열인 리스트를 조작하는 방법을 연습한다.    
+• Ch16. Using strings in lists in functions 에서는 리스트 항목값이 문자열인 리스트를 조작하는 방법을 학습한다.    
 • 문자열 리스트를 조작하는 방법은 2가지가 있다.    
 • Method 01 : 입력된 리스트의 항목값을 직접 출력(i.g. for item in list: )     
 • Method 02 : 입력된 리스트의 항목값의 index를 이용하여 출력( list[i] )
@@ -1520,7 +1520,7 @@ The example above is just a reminder of how to concatenate two lists.
 
 
 **설명:** [ Learn ]          
-• Ch17. Using two lists as two arguments in a function 에서는 2개의 리스트를 사용하는 방법을 배운다. 2개의 리스트를 합치는 방법은 이미 앞에서 배웠다.
+• Ch17. Using two lists as two arguments in a function 에서는 2개의 리스트를 사용하는 방법을 학습한다. 2개의 리스트를 합치는 방법은 이미 앞에서 배웠다.
 {: .notice--info}
 
 
@@ -1627,7 +1627,7 @@ We end up printing out:
 
 
 **설명:** [ Learn ]         
-• Ch18. Using a list of lists in a function 에서는 리스트 안에 리스트가 있는것을 연습한다.    
+• Ch18. Using a list of lists in a function 에서는 리스트 안에 리스트가 있는것을 학습한다.    
 • 하나의 리스트 안에 또다시 2개의 리스트가 항목 값으로 들어가 있다.    
 • 이런 모양의 리스트를 추출하는 함수를 만든다.    
 • for 문 2 개를 활용한다.

@@ -18,7 +18,7 @@ Loops allow you to quickly iterate over information in Python. In this lesson, w
 
 **설명:** [ 학습방향 ]     
 이 장에서는 while 문과, for문을 학습한다.     
-반복문 while을 활용하여 데이타를 신속하게 처리하는 방법을 연습한다.
+반복문 while을 활용하여 데이타를 신속하게 처리하는 방법을 학습한다.
 {: .notice--info}     
      
 
@@ -314,8 +314,12 @@ A common application of a while loop is to check user input to see if it is vali
 
 
 
-**설명:** [ ]         
-주로 while 조건문은, 사용자가 입력한 값이 유효한지를 체크 하는 기능을 한다. 예를 들면, 당신은 사용자가 `y` or `n`를 입력하길 기대하는데, 사용자가 `7`을 입력하면, 당신은 다시 입력하는 단계로 되돌아 갈 것이다. 
+**설명:** [ Learn ]         
+• Ch4. Simple errors 에서는 연산자 같다( == ), 틀리다( != ) 를 학습한다.    
+• 주로 while 조건문에서 사용한다.   
+• 사용자가 입력한 값이 유효 한지를 체크하는 기능이다.    
+• 예를들면, 당신은 사용자가 'y' or 'n' 을 입력하길 기대하고 있다.    
+• 그런데, 사용자가 '7' 을 입력하면, 당신은 다시 입력하는 단계로 되돌아 갈 것이다. 
 {: .notice--info}
 
 
@@ -325,11 +329,13 @@ A common application of a while loop is to check user input to see if it is vali
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Fill in the loop condition so the user will be prompted for a choice over and over while choice does not equal 'y' and choice does not equal 'n'.
+* Fill in the loop condition so the user will be prompted for a choice over and over while choice does not equal 'y' and choice does not equal 'n'.
 
 
-**설명:** [ ]          
-① rompt에서 입력값이 y 또느 n 만 입력되도록 하는 조건문을 되도록 조건절을 채워라. 만약 y, n 이외의 값이 입력되면 다시 입력하도록 반복되어야 한다.      
+**설명:** [ Instruction ]          
+• Prompt 창에서 입력값이 'y' 또는 'n' 만 입력 되도록 하라.    
+• while 조건문에서 통제 하도록 하라.    
+• 만약 'y' or 'n' 이외의 값이 입력되면 다시 입력하도록 반복하라.
 {: .notice--info}
 
 
@@ -338,11 +344,14 @@ A common application of a while loop is to check user input to see if it is vali
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, use the != operator to test if two things are different, such as choice != "y", and the and operator to check more than one thing, such as A and B.
+* Remember, use the != operator to test if two things are different, such as choice != "y", and the and operator to check more than one thing, such as A and B.
 
 
-**설명:** [ ]         
-`!=`를 사용하여 두 값 이외에는 True 가 되지 않도록 해야 한다. `!="y"`는 비교값이 "y"가 같지 않는지를 비교하는 것이다. `and` 연산자는 앞에서 배운 바와 같이 `A and B`는 A, B 모두 True 이어야 한다.    
+**설명:** [ Hint ]         
+• 조건문에 연산자 ( != ) 를 사용한다.   
+• 'y' or 'n' 이외에는 True 가 되지 않도록 한다.    
+• 입력받은 비교 변수가 "y" 와 가 같지 않는지를 비교하는 것은 (i.g. !="y" ) 이다.    
+• 연산자 ( and ) 는 A, B 모두 True 이어야 한다.(i.g. A and B )    
 {: .notice--info}
 
 <br>
@@ -359,8 +368,11 @@ while choice != 'y' and choice != 'n':  # Fill in the condition (before the colo
   choice = raw_input("Sorry, I didn't catch that. Enter again: ")
 ```
 
-**설명:** [ ]          
-`choice != 'y' and choice !='n'`는 `choice`값이 'y`도 아니고, 'n'도 아닌경우다.
+**설명:** [ Solution ]          
+• 변수 choice 에 입력값을 받아 저장한다.    
+• while 문에서 변수 choice 가 'y' 도 아니고, 'n'도 아니다 를 비교한다.    
+• 조건문이 True 이면, 다시 입력문을 받는다.    
+• 조건문이 False 이면, while 문을 실행하지 않고 빠져나간다.
 {: .notice--info}
 
 
@@ -387,7 +399,7 @@ An **infinite loop** is a loop that **never exits**. This can happen for a few r
 
 2. The logic of the loop prevents the loop condition from becoming false.
 
-Example:
+Example:    
 ```python
 count = 10
 while count > 0:
@@ -396,10 +408,12 @@ while count > 0:
 
 
 
-**설명:** [ ]          
-무한 loop는 프로그램을 빠져나가지 않고 계속 반복되는 것이다. 이렇게 되는데는 여러가지 이유가 있다.    
-① 조건문 이 무조건 참일때 (`while 1 !=2 `)    
-② 프로그램 로직상 false가 발생할수 없는 경우 
+**설명:** [ Learn ]          
+• Ch5. Infinite loops 에서는 무한반복(loop)을 방지하는 방법을 학습한다.    
+• 무한 loop 는 프로그램을 빠져 나가지 않고 계속 반복되는 것이다.    
+• 문한 loop 가 발생되는데는 다음과 같이 여러가지 이유가 있다.    
+• ① 조건문 결과가 무조건 True 일때 ( while 1 !=2 )    
+• ② 프로그램 로직상 false 가 발생할수 없는 경우 
 {: .notice--info}
 
 
@@ -409,11 +423,14 @@ while count > 0:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** The loop in the editor has **two problems**: it's missing a colon (a syntax error) and count is never incremented (logical error). The latter will result in an infinite loop, so be sure to **fix** both before running!
+* The loop in the editor has **two problems**: it's missing a colon (a syntax error) and count is never incremented (logical error). The latter will result in an infinite loop, so be sure to **fix** both before running!
 
 
-**설명:** [ ]          
-① 반복문이 2개의 문제가 있다. 하나는 문법적으로 `:`이 빠져 있고, 하나는 로직적으로 무한 반복이 되는 것이다. 프로그램을 실행하기 전에 고쳐라.  
+**설명:** [ Instruction ]          
+• while 반복문에 2개의 문제가 있다.    
+• 첫째는 문법적으로 ( : ) 이 빠져 있다.    
+• 둘째는 로직적으로 무한 반복이 되는 것이다.    
+• 프로그램을 실행하기 전에 수정하라.  
 {: .notice--info}
 
 
@@ -422,11 +439,12 @@ while count > 0:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Since count is never incremented (count += 1), count is always 0, and since zero is less than ten, 0 will be printed over and over again forever.
+* Since count is never incremented (count += 1), count is always 0, and since zero is less than ten, 0 will be printed over and over again forever.
 
 
-**설명:** [ ]          
-변수 count가 증가하지 않으면 count 값은 0 이기에 항상 10보다 작게 되며, 이는 조건문이 True가 된다. 
+**설명:** [ Hint ]          
+• 변수 count 가 증가하지 않으면 count 값은 항상 0 이다.   
+• while 조건문이 항상 10보다 작게 되며, 이경우, 조건문이 무조건 True가 된다. 
 {: .notice--info}
 
 <br>
@@ -445,8 +463,10 @@ while count < 10: # Add a colon
   count += 1
 ```
 
-**설명:** [ ]          
-변수 `count`가 0부터 시작되어 10보다 작을 때 까지 변수 `count`값을 출력되는 프로그램 이다. 변수 `count`값을 증가시켜줘서, 10번을 출력하고 프로그램을 빠져나온다. 
+**설명:** [ Solution ]          
+• 변수 count 가 0 부터 10 보다 작을때까지 변수 count를 출력하는 프로그램이다.    
+• 변수 count 에 값 1을 증가시켜준다.   
+• 변수 count 가 10 이 되면 while 조건문을 빠져나간다.
 {: .notice--info}
 
 

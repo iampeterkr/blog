@@ -792,7 +792,7 @@ Then in `list_name` designates `list_name` as the list the loop will work on. Th
 
 
 **설명:** [ Learn ]    
-• Ch8. For One and All 에서는 리스트의 값들을 추출하는것을 배운다.    
+• Ch8. For One and All 에서는 리스트의 값들을 추출하는것을 학습한다.    
 • 리스트의 항목(값)들을 모두 뽑아 내려면 해당 index 값을 지정해 주면 된다.    
 • for loop 문을 사용하여 리스트의 항목을 추출할 수 있다.    
 • i.g. for variable in list_name:      
@@ -897,7 +897,7 @@ for animal in animals:
 
 
 **설명:** [ Learn ]         
-• Ch9. More with 'for'  에서는 다양한 종류의 for 문을 연습한다.    
+• Ch9. More with 'for'  에서는 다양한 종류의 for 문을 학습한다.    
 • 리스트 animals 에는 3개의 문자열이 알파벳 순서와 상관없이 뒤죽박죽 들어 있다.    
 • 메서드 .sort() 를 사용하여, 리스트 animals 를 알파벳 오름차순으로 정렬한다.    
 • 이후, 정렬된 리스트 animals 를 출력 한다.    

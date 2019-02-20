@@ -576,7 +576,7 @@ In the example above, we create a **new dictionary** called `animal_counts` with
 
 
 **설명:** [ Learn ]    
-• Ch6. Your Own Store! 에서는 딕셔너리 활용을 연습한다.    
+• Ch6. Your Own Store! 에서는 딕셔너리 활용을 학습한다.    
 • 딕셔너리 animal_counts 는 3개의 key/value 쌍을 가지고 있다.     
 • "ant":3, "bear":6, "crow":2 
 {: .notice--info}
@@ -991,7 +991,7 @@ In order for customers to order online, we are going to have to make a consumer 
 
 
 **설명:** [ Hint ]          
-• 이 장은 리스트를 연습한다. 리스트 표현은 ( '[]' ) 을 사용한다. 
+• 이 장은 리스트를 학습한다. 리스트 표현은 ( '[]' ) 을 사용한다. 
 {: .notice--info}
 
 <br>

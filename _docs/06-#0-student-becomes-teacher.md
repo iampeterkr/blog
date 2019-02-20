@@ -47,7 +47,7 @@ The example above is just to remind you how to create a dictionary and then to a
 
 **설명:** [ Learn ]      
 • Ch13. Let's Check Out! 에서는 딕셔너리 개념을 정리해 보자.    
-• 이 장은 딕셔너리 생성하고, ky/value를 읽고, 삭제하고, 변경하는것을 연습한다.
+• 이 장은 딕셔너리 생성하고, ky/value를 읽고, 삭제하고, 변경하는것을 학습한다.
 {: .notice--info}
 
 
@@ -345,7 +345,7 @@ The example above is just to remind you how to create a dictionary and then to a
 
 
 **설명:** [ Learn ]     
-• Ch4. For the Record 에서는 딕셔너리의 특정 key/value 값에 접근하는지 연습한다.
+• Ch4. For the Record 에서는 딕셔너리의 특정 key/value 값에 접근하는지 학습한다.
 {: .notice--info}
 
 
@@ -475,7 +475,7 @@ To divide two **integers** and end up with a **float**, you must first use `floa
 
 
 **설명:** [ Learn ]          
-• Ch5. It's Okay to be Average 에서는 float, integer 계산법을 연습한다.    
+• Ch5. It's Okay to be Average 에서는 float, integer 계산법을 학습한다.    
 • python에서 정수를 정수로 나누면 정수가 반환된다.
 • 실수를 정수로 나누면 실수가 반환된다.
 • 실수를 실수로 나누면 실수가 반환된다.

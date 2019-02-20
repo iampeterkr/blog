@@ -288,7 +288,7 @@ The easiest way to print the board would be to have Python display it for us usi
 
 
 **설명:** [ Learn ]          
-• Ch4. Check it Twice 에서는 print 문을 통하여 기본적인 debug 하는 법을 연습한다.    
+• Ch4. Check it Twice 에서는 print 문을 통하여 기본적인 debug 하는 법을 학습한다.    
 • print 문을 통하여 리스트 board 의 상태를 확인할 수 있다. 
 {: .notice--info}
 
@@ -599,7 +599,7 @@ Let's generate a **`random_row`** and **`random_col`** from **zero to four**!
 
 
 **설명:** [ Learn ]          
-• Ch7. Hide... 에서는 함수 randinit()를 연습한다.     
+• Ch7. Hide... 에서는 함수 randinit()를 학습한다.     
 • 함수 randint(low, high) 는 low 와 high 사이의 값을 random으로 출력한다.    
 • i.g. randint(0, 1) :  0과 1사이의 값을 random으로 출력한다.     
 • i.g. randint(1, 6) :  1에서 6사이의 값을 random으로 출력 해준다.     
@@ -721,7 +721,7 @@ if int(number) == 0:
 
 
 **설명:** [ Learn ]          
-• Ch8. ...and Seek! 에서는 함수 int()를 연습한다.    
+• Ch8. ...and Seek! 에서는 함수 int()를 학습한다.    
 • 변수 ship_row 와 ship_col 에 배에 대한 위치 정보(가로/세로)를 저장해 보자.    
 • 리스트 board 를 바다라고 가정하자.     
 • 당신의 배가 바다(board) 어딘가에 있다고 생각하자.    
@@ -838,7 +838,7 @@ Of course, we'll remove this output when we're finished debugging since if we le
 
 
 **설명:** [ Learn ]          
-• Ch9. It's Not Cheating—It's Debugging! 에서는 기본적 디버깅을 연습한다.    
+• Ch9. It's Not Cheating—It's Debugging! 에서는 기본적 디버깅을 학습한다.    
 • battleship 게임은 오션(board)의 특정 좌표에 배를 숨겨 놓는다.    
 • 이후, 질문으로 그 배가 어디 있는지 맞추는 game이다.    
 • 프로그램 debugging을 위하여 배의 좌표를 print 로 출력하여 배의 위치를 확인한다.    
@@ -957,7 +957,7 @@ The example above is just a reminder about if statements.
 
 
 **설명:** [ Learn ]         
-• Ch10. You win! 에서는 if 절을 사용하는 법을 연습한다.      
+• Ch10. You win! 에서는 if 절을 사용하는 법을 학습한다.      
 • 배의 위치가 random으로 만들어지고, 참여자가 위치를 맞추면 게임이 끝나는 것이다.    
 • 참여자가 승리하는 조건은 다음과 같다.    
 • i.g. if guess_col == ship_col and guess_row == ship_row    
@@ -1096,7 +1096,7 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 
 
 **설명:** [ Learn ]          
-• Ch11. Danger, Will Robinson!! 에서는 else 문을 연습한다.   
+• Ch11. Danger, Will Robinson!! 에서는 else 문을 학습한다.   
 • 항상, 한번에 맞출수는 없기에, 못 맞추었을 경우도 생각해야 한다.    
 • 'print board[2][3]' 은 좌표가 3번째, 4번째를 위치를 가리킨다.
 {: .notice--info}
@@ -1244,7 +1244,7 @@ The example above checks if either x or y are outside those ranges. The `\` char
 
 
 **설명:** [ Learn ]          
-• Ch12. Bad Aim  에서는 if/else의 예외처리를 강화하는 법을 연습한다.    
+• Ch12. Bad Aim  에서는 if/else의 예외처리를 강화하는 법을 학습한다.    
 • 좀더 치밀한게 프로그램을 다듬어 보자.     
 • 프로그램에서 실수할 요소가 다음과 같이 있다.     
 • ① board 보다 더 큰 값을 입력 할 경우     
@@ -1418,7 +1418,7 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 
 
 **설명:** [ Learn ]          
-• Ch13. Not Again! 에서는 elif 를 연습한다.     
+• Ch13. Not Again! 에서는 elif 를 학습한다.     
 • 이미 틀렸던, 좌표를 다시 입력하면, 이미 입력했다는것을 어떻게 알 수 있을까?    
 • print board[guess_row][guess_col] 의 반환값은 문자열 "X" 이거나 "O" 이다.
 {: .notice--info}
@@ -1547,7 +1547,7 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 
 
 **설명:** [ Learn ]         
-• Ch14. Test Run 에서는 프로그램을 UAT(단위 테스트)를 연습한다.    
+• Ch14. Test Run 에서는 프로그램을 UAT(단위 테스트)를 학습한다.    
 • 여러번 실행해 보고, 입력하여, 문법적으로, 내용적으로 이상이 없는지 확인한다.
 {: .notice--info}
 
@@ -1832,7 +1832,7 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 
 
 **설명:** [ Learn ]         
-• Ch16. Game Over 에서는 if 문을 사용하여 게임을 종료하는 법을 연습한다.    
+• Ch16. Game Over 에서는 if 문을 사용하여 게임을 종료하는 법을 학습한다.    
 • 플레이어가 4번 만에 배의 위치를 맞추지 못하면 게임은 끝난다.    
 • 게임이 끝났으면 끝났다고 알려주면 좋을 것이다.         
 • 소스의 어느 위치에 이 기능을 넣어야 할지를 고민하라.     
@@ -2023,7 +2023,7 @@ Guess Row:
 ```
 
 **설명:** [ Learn ]          
-• Ch17. A Real Win 에서는 break 문을 연습한다.    
+• Ch17. A Real Win 에서는 break 문을 학습한다.    
 • 4번의 기회를 다 사용 하기 전에 플레이어가 이기면 멈춰야 한다.    
 • 배의 좌표를 맞추어 이겼는데도, 계속 질문을 한다면 그 프로그램은 잘못 된 것이다.    
 • 반복문을 강제로 빠져나가는 break 문을 사용한다.
@@ -2149,7 +2149,7 @@ You may want to take some time to clean up and document your code as well.
 
 
 **설명:** [ Learn ]          
-• Ch18. To Your Battle Stations! 에서는 디버깅을 해제 하는법을 연습한다.     
+• Ch18. To Your Battle Stations! 에서는 디버깅을 해제 하는법을 학습한다.     
 • 프로그램은 모두 완성되었다.    
 • Debugging 을 위해서 배의 위치를 알려주는 print 문은 이제 삭제해야 한다.
 {: .notice--info}
@@ -2315,7 +2315,7 @@ Some of these options will be easier after we cover loops in the next lesson. Th
 
 
 **설명:** [ Learn ]    
-• Ch19. Extra Credit 에서는 프로그램을 확장하는 법을 연습한다.    
+• Ch19. Extra Credit 에서는 프로그램을 확장하는 법을 학습한다.    
 • 배틀쉽 게임을 더 확장할수 있다.     
 ① 배틀쉽을 여러대를 보드에 넣어서 찾을 수 있다.    
 ② 배틀쉽 board 사이즈를 더 크게 확장 할 수 있다.    

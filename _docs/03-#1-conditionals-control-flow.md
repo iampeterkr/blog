@@ -37,7 +37,7 @@ The Python programs we've written so far have had one-track minds: they can add 
 
 
 **설명:** [ Learn ]     
-• Control flow 기능을 사용하여 다중 선택 방법을 연습한다. 
+• Control flow 기능을 사용하여 다중 선택 방법을 학습한다. 
 {: .notice--info}
 
 
