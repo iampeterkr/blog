@@ -294,8 +294,9 @@ Another issue you might run into is attempting to create a string without quotes
 
 **설명:** [ Learn ]     
 • 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 EOL Error를 발생시킨다.   
-• i.g. SyntaxError: EOL while scanning string literal     
-• EOL Error는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.     
+• i.g. SyntaxError: EOL while scanning string literal    
+• EOL : End Of Line  
+• EOL Error는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.    
 • 시작이 (') 이면 끝도 (')이어야 하면, 시작이 (")이면, 끝도 (") 이어야 한다.     
 • 문자열을 만들때, 양 끝을 쿼트(quotest)가 없으면 Python은 해당 문자열을 print 와 같은 명령문 으로 인식한다.(or 변수로 인식한다.)     
 • 이런 경우 해당 문자열이 명령어 리스트(or 변수 리스트)에 없으면 NameError 를 발생시킨다.
@@ -817,10 +818,10 @@ float4 = 1.5e2
 
 **설명:** [ Instruction ]     
 • 변수 cucumbers 를 만들어라.    
-• 변수 cucumbers 에 정수 1 을 대입하라.
-• 변수 price_per_cucumber 를 만들고, 3.25 를 대입하라.
-• 변수 total_cost 를 만들고, 구매 할 오이의 총 가격을 계산하여 대입하라.
-• 변수 total_cost 를 print 문을 사용하여, console 창에 출력 하라. 
+• 변수 cucumbers 에 정수 1 을 대입하라.    
+• 변수 price_per_cucumber 를 만들고, 3.25 를 대입하라.    
+• 변수 total_cost 를 만들고, 구매 할 오이의 총 가격을 계산하여 대입하라.    
+• 변수 total_cost 를 print 문을 사용하여, console 창에 출력 하라.
 {: .notice--info}    
 
 
