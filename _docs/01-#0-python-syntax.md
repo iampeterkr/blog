@@ -798,6 +798,7 @@ float4 = 1.5e2
 • 실수는 소수점을 표현할 수 있다.     
 • 생성되는 변수가 정수인지, 실수 인지는 해당 값을 대입 할때 정해진다.    
 • 즉, 변수에 정수를 넣으면 정수형 변수가 되고, 실수를 넣으면 실수형 변수가 된다.   
+• 과학적 표기법인(scientific notation) e 도 실수(float)로 표현한다. 
 {: .notice--info}
 
 
@@ -940,9 +941,9 @@ quotient1 = float(7)/2
 • 변수 cucumbers 에  100 을 대입하라.    
 • 변수 num_people 에 6 을 대입하라.
 • 변수 whole_cucumbers_per_person 에 cucumbers / num_people 대입하라.    
-• 변수 whole_cucumbers_per_person 를 출력하라.
+• 변수 whole_cucumbers_per_person 를 출력하라.    
 • 16 이 출력되어 놀라운가?     
-• 예상한 바로는 100/6 은 16.66...으로 출력을 예상했는가? 
+• 예상한 바로는 100/6 은 16.66...으로 출력을 예상했는가?     
 • 변수 float_cucumbers_per_person 를 만들고, 실수 값이 출력 되도록 고쳐라.    
 • 변수 float_cucumbers_per_person 를 출력하라.
 {: .notice--info}
