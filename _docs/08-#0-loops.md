@@ -3,7 +3,7 @@
 title: "Loops"
 permalink: /loops/
 excerpt: "We learn about loops Syntax."
-last_modified_at: 2019-01-08T09:00:00-04:00
+last_modified_at: 2019-02-20T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
@@ -17,8 +17,8 @@ LESSON
 Loops allow you to quickly iterate over information in Python. In this lesson, we'll cover two types of loop: 'while' and 'for'.
 
 **설명:** [ 학습방향 ]     
-반복문을 활용하면, 파이썬에서 데이타를 신속하게 반복할 수 있다.    
-이 장에서는 while 문과, for문을 배워보자.
+이 장에서는 while 문과, for문을 학습한다.     
+반복문 while을 활용하여 데이타를 신속하게 처리하는 방법을 연습한다.
 {: .notice--info}     
      
 
@@ -35,9 +35,13 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 
 
 
-**설명:** [ ]          
-while 문은 if 문과 비슷하다.  while안의 조건절이 True 이면, 실행 되는 구조이다.    
-if문과 다른점은 조건절 안 값이 True 이면, 계속 실행된다는 것이다. if문은 조건절, 예를 들어 3번 실행하라고 조건을 주면 3번 실행하고 완료되지만, while문은 조건문 안의 값이 Ture(예를 들면, 0 < 5 )가 되면 무한대로 실행한다. 
+**설명:** [ Learn ]     
+• Ch1. While you're here 에서는 while 문에 대하여 학습한다.
+• while 문은 if 문과 비슷하다.     
+• while 문의 조건절이 True 이면, while 문 내부 구간이 실행 되는 구조이다.    
+• if 문과 다른점은 while 문은 조건절 값이 True 이면, 계속 실행된다.    
+• if 문은 조건절 값이 완료되면 끝난다. (i.g. 3번 실행하라고 하면 3번만 실행하고 종료)    
+• while 문은 조건절 상태가 Ture(예를 들면, 0 < 5 )가 되면 무한대로 실행한다.
 {: .notice--info}
 
 
@@ -47,14 +51,15 @@ if문과 다른점은 조건절 안 값이 True 이면, 계속 실행된다는 �
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Change the loop so that it counts **from 0 up to 9** (inclusive).
+* Change the loop so that it counts **from 0 up to 9** (inclusive).
 
-Be careful not to alter or remove the count += 1 statement. If your program has no way to increase count, your loop could go on forever and become an infinite loop which could crash your computer/browser!    
+* Be careful not to alter or remove the count += 1 statement. If your program has no way to increase count, your loop could go on forever and become an infinite loop which could crash your computer/browser!    
 
 
-**설명:** [ ]          
-① 반복문을 9(포함)까지 세는 프로그램으로 바꾸어라. (현재는 4까지 셈)   
-변수 `count` 가 증가하지 않으면, 무한대로 반복되는 프로그램이 될 수 있다. 이럴 경우 컴퓨터에 문제가 발생할 수 있으니 주의하자.  
+**설명:** [ Instruction ]          
+• 반복문을 9(포함)까지 세는 프로그램으로 변경하라. (현재는 4까지 셈)   
+• 변수 count 가 증가하지 않으면, 무한대로 반복되는 프로그램이 될 수 있다.    
+• 이럴 경우 컴퓨터에 문제가 발생할 수 있으니 주의하라.  
 {: .notice--info}
 
 
@@ -63,12 +68,11 @@ Be careful not to alter or remove the count += 1 statement. If your program has 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-To make sure your loop counts up to 9, your condition should be count < 10 (or count <= 9).
+* To make sure your loop counts up to 9, your condition should be 'count < 10' (or count <= 9).
 
 
-**설명:** [ ]         
-9까지만 실행되는 조건문을 만들어라. ( `count < 10 or count <= 9` )  
-
+**설명:** [ Hint ]         
+• 9 까지만 실행되는 조건문을 만든다. ( count < 10 or count <= 9 )
 {: .notice--info}
 
 <br>
@@ -89,8 +93,9 @@ while count < 10:
   count += 1
 ```
 
-**설명:** [ ]          
-if 문은 1번 출력할 것이다. 그리고 while 문은 `count`가 9일때 까지 9번 출력될 것이다.  
+**설명:** [ Solution ]          
+• if 문은 1번 출력한다.(조건문이 변수 count 가 10보다 작은지만 비교)    
+• while 문은 9번 출력한다.(조건문이 변수 count 가 9 일때 까지, True이다.)
 {: .notice--info}
 
 
@@ -128,19 +133,18 @@ The **condition** is the expression that decides whether the loop is going to co
 
 4. The variable loop_condition is set to False.
 
-5. The while loop again checks to see if loop_condition is True. It is not, so the loop is not executed a second time.
-
- 
+5. The while loop again checks to see if loop_condition is True. It is not, so the loop is not executed a second time.    
 
 
-
-**설명:** [ ]          
-조건절(loop_condition)은 반복(loop)을 계속 실행할지 그만 둘지를 결정하는 표현이다. 다음 5단계로 진행된다.     
-① 조건절의 변수값을 True 로 설정한다.       
-② 조건절의 상태가 True 이면, 반복문 안으로 들어간다.    
-③ print문을 출력한다.     
-④ 조건절의 상태를 False 로 설정한다.    
-⑤ while문의 조건절을 다시 True 인지 확인한다. True가 아니면 더이상 반복문을 실행하지 않는다.       
+**설명:** [ Learn ]     
+• Ch2. Condition 에서는 조건절에 대하여 학습한다.    
+• 조건절(loop_condition)은 반복(loop)을 계속할지 그만할지를 결정하는 표현이다.     
+• 다음 5단계로 진행된다.     
+• ① 조건절의 변수값을 True 로 설정한다.       
+• ② 조건절의 상태가 True 이면, 반복문 안으로 들어간다.    
+• ③ print문을 출력한다.     
+• ④ 조건절의 상태를 False 로 설정한다.    
+• ⑤ while 문의 조건절을 다시 True 인지 확인한다.(True가 아니면 반복 종료 )
 {: .notice--info}
 
 
@@ -150,11 +154,12 @@ The **condition** is the expression that decides whether the loop is going to co
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** See how the loop checks its condition, and when it stops executing? When you think you've got the hang of it, click Run to continue.
+* See how the loop checks its condition, and when it stops executing? When you think you've got the hang of it, click Run to continue.
 
 
-**설명:** [ ]          
-① 실행이 멈췄을때, 반복문의 상태를 어떻게 확인 하는지 살펴보라. 예상한대로 실행되는지 Run을 실행해 보자. 
+**설명:** [ Instruction ]          
+• 실행이 멈췄을때, 반복문의 상태를 어떻게 확인 하는지 살펴보라.    
+• 예상 한대로 실행되는지 Run을 실행해 보자. 
 {: .notice--info}
 
 
@@ -163,12 +168,12 @@ The **condition** is the expression that decides whether the loop is going to co
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-See how the source works.
+* See how the source works.
 
 
 
-**설명:** [ ]          
-소스가 어떻게 동작하는지를 확인 하세요. 
+**설명:** [ Hint ]          
+• 소스가 어떻게 동작하는지 확인하라. 
 {: .notice--info}
 
 <br>
@@ -186,8 +191,14 @@ while loop_condition:
   loop_condition = False
 ```
 
-**설명:** [ ]          
-변수 `loop_condition`을 True로 설정한다. 이후, while 문에 진입하고, `print "I am a loop"`를 출력하고, 변수 `loop_condition`을 False로 변경한다. 그리고 다시 while의 조건절 `loop_condition`이 True인지를 확인하고, 맞으면 while 의 블럭문이 실행되고, 아니면 while 문을 빠져나간다.  
+**설명:** [ Solution ]          
+• 변수 loop_condition 을 True 로 설정한다.    
+• 조건문이 True 이기에 while 문에 진입한다.    
+• 'print "I am a loop" '를 출력한다.    
+• 변수 loop_condition 을 강제로 False로 변경한다.    
+• 다시 while 문의 조건절 loop_condition 이 True 인지 확인한다.    
+• 조건문이 True 이면, while 문의 블럭문이 실행된다.    
+• 조건문이 False 이면, while 문을 빠져나간다.
 {: .notice--info}
 
 
@@ -209,8 +220,9 @@ Inside a while loop, you can do anything you could do elsewhere, including arith
 
 
 
-**설명:** [ ]         
-while 조건문 에서는 사칙 연산을 비롯하여 다른 곳에서 사용했던 어떤 것이든 들어갈수 있다.  
+**설명:** [ Learn ]         
+• Ch3. While you're at it 에서는 while 문의 조건문을 추가 학습한다.    
+• while 조건문 에는 사칙연산을 비롯하여 다른 곳에서 사용했던 어떤 것이든 들어갈수 있다.  
 {: .notice--info}
 
 
@@ -220,19 +232,18 @@ while 조건문 에서는 사칙 연산을 비롯하여 다른 곳에서 사용�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Create a while loop that prints out all the numbers from 1 to 10 squared (1, 4, 9, 16, ... , 100), each on their own line.
-
-* Fill in the blank space so that our while loop goes from 1 to 10 inclusive.
-* Inside the loop, print the value of num squared. The syntax for squaring a number is num ** 2.
+* Create a while loop that prints out all the numbers from 1 to 10 squared (1, 4, 9, 16, ... , 100), each on their own line.    
+* Fill in the blank space so that our while loop goes from 1 to 10 inclusive.    
+* Inside the loop, print the value of num squared. The syntax for squaring a number is num ** 2.    
 * Increment num.
 
 
 
-**설명:** [ ]          
-① while 문을 사용하여 1부터 10까지의 값의 제곱근 값을 출력 되도록 하라.    
-• while문의 조건을 넣는 공간에 1부터 10까지 돌도록 채우라.       
-• while문 내부 실행 블럭에서는 `num ** 2`값을 출력 하여라.       
-• 변수 `num`을 증가 시켜라. 
+**설명:** [ Instruction ]          
+• while 문을 사용하여 1부터 10까지 값의 제곱근 값을 출력하라.    
+• while 문의 조건문을 넣는 곳에 1부터 10까지 돌도록 작성하라.       
+• while 문의 내부실행 블럭에서는 'num ** 2' 제곱근 값을 출력하라.       
+• 변수 num 을 1 씩 증가 시켜라. 
 {: .notice--info}
 
 
@@ -241,11 +252,11 @@ while 조건문 에서는 사칙 연산을 비롯하여 다른 곳에서 사용�
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Your condition will have to be num <= 10 (or num < 11) so that the loop will always print until num is 11.
+* Your condition will have to be num <= 10 (or num < 11) so that the loop will always print until num is 11.
 
 
-**설명:** [ ]          
-조건절 `num <= 10` or `num < 11` 로 10 이하 인지를 확인한다. 
+**설명:** [ Hint ]          
+• 조건문 num <= 10 or num < 11 로 10 이하 인지를 확인한다. 
 {: .notice--info}
 
 <br>
@@ -265,10 +276,13 @@ while (num <= 10):  # Fill in the condition
   	num += 1
 ```
 
-**설명:** [ ]          
-• `num <= 10` 은 변수 `num`이 10이하 일때까지 실행하겠다는 의미이다.     
-• while 실행 블럭 안에 `num ** 2`는 제곱근을 구하는 방법이다.     
-• 마지막으로 `num +=1`은 변수 `num`을 증가시켜, while문 조건이 맞으면 while을 빠져 나가도록 한다.
+**설명:** [ Solution ]          
+• 변수 num 에 값 1로 초기화 한다.    
+• while 문에서 조건문 num <= 10 으로 정의하였다.    
+• while 문 조건은 변수 num 이 10 이하 일때까지 실행한다.(True)      
+• while 실행 블럭에서는 num ** 2 하여 제곱근을 구하고 출력한다.     
+• 마지막으로 변수 num 을 값 1을 증가시킨다.     
+• 다시, while 조건문에서 변수 num 이 10보다 같거나 작으면 실행블럭이 동작한다.(True)
 {: .notice--info}
 
 
