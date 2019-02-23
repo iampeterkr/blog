@@ -125,7 +125,7 @@ newObject = ClassName()
 
 
 **설명:** [ Instruction ]    
-• 클래스 Car 를 instance 하는 object my_car 를 만드시오.
+• 클래스 Car 를 instance 하는 object my_car 를 작성하라.
 {: .notice--info}
 
 
@@ -201,7 +201,7 @@ class ClassName(object):
 
 **설명:** [ Instruction ]    
 • 클래스 Car 안에 있는 pass 를 지우시오.    
-• 그 자리에 member 변수 condition을 만드시오.    
+• 그 자리에 member 변수 condition을 작성하라.    
 • 변수 condition을 초기화 하시오. (e.g. condition = "new")
 {: .notice--info}
 
@@ -1000,7 +1000,7 @@ One useful class method to override is the built-in `__repr__()` method, which i
 
 **설명:** [ Instruction ]    
 • `__repr__()`의 개념을 익히기 위하여 연습해 보자.    
-• 클래스 Point3D(object)를 만드시오.    
+• 클래스 Point3D(object)를 작성하라.    
 • 클래스 Point3D는 메서드 `__init__()`를 가진다.    
 • 메서드 `__init__()`는 parameter로 self, x, y, z 를 가진다.    
 • 그리고, 각 변수 x, y, z를 초기화 한다. (e.g. self.x )    

@@ -17,7 +17,7 @@ LESSON
 You know a lot of Python now. Let's do some practice problems!    
 
 **설명:** [ 학습방향 ]     
-반복문에 대한 연습을 해보자.
+반복문을 다양하고 심도있게 학습하자.
 {: .notice--info}     
      
 
@@ -30,14 +30,14 @@ You know a lot of Python now. Let's do some practice problems!
 
 The best way to get good at anything is a lot of practice. This lesson is full of practice problems for you to work on. Each exercise will contain minimal instructions to help you solve these problems. The goal is to help you take your programming skills and apply them to real life problems.
 
-The more challenging programs will contain some helpful hints to nudge you in the right direction.
-
- 
+The more challenging programs will contain some helpful hints to nudge you in the right direction.    
 
 
 
-**설명:** [ ]          
-프로그램을 잘 짜는 방법은 오직 연습뿐이다. loop를 배웠으니, 반복적으로 연습하면 프로그래밍 실력이 높아진다. 
+**설명:** [ Learn ]          
+• Ch1. Practice! Practice Practice! 에서는 연습만이 살길이다.    
+• 프로그램을 잘 짜는 방법은 오직 연습뿐이다.     
+• loop를 배웠으니, 반복적으로 연습하면 프로그래밍 실력이 높아진다. 
 {: .notice--info}
 
 
@@ -47,11 +47,11 @@ The more challenging programs will contain some helpful hints to nudge you in th
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Hit Run to continue.
+* Hit Run to continue.
 
 
-**설명:** [ ]          
-① `Run`을 클릭하여 다음으로 넘어가시오.
+**설명:** [ Instruction ]          
+• Run 을 클릭 후, 다음으로 넘어가시오.
 {: .notice--info}
 
 
@@ -63,7 +63,7 @@ The more challenging programs will contain some helpful hints to nudge you in th
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -78,7 +78,7 @@ The more challenging programs will contain some helpful hints to nudge you in th
 skip
 ```
 
-**설명:** [ ]          
+**설명:** [ Solution ]          
 • skip
 {: .notice--info}
 
@@ -95,17 +95,19 @@ skip
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
-### 2.  is_even    
+### 2. is_even    
 
-All right! Let's get started.
+All right! Let's get started.    
 
-Remember how an even number is a number that is divisible by 2?
+Remember how an even number is a number that is divisible by 2?    
 
 
 
-**설명:** [ ]          
-짝수는 `2`로 나누어지는 것을 기억하고 있는가?     
-`2`로 나누어지는 숫자는 짝수이다. 짝수인지를 어떻게 알수 있는지 공부해 보자.  
+**설명:** [ Learn ]          
+• Ch2. is_even 에서는 모듈 연산자 % 를 학습한다.    
+• 짝수는 2 로 나누어지는 것을 기억하고 있는가?     
+• 2 로 나누어지는 숫자는 짝수이다.     
+• 짝수인지를 어떻게 알수 있는지 모듈 연산자 % 를 학습한다.  
 {: .notice--info}
 
 
@@ -115,15 +117,16 @@ Remember how an even number is a number that is divisible by 2?
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function **`is_even`** that will take a number **`x`** as input.
+* Define a function **`is_even`** that will take a number **`x`** as input.
 
-If **`x`** is even, then return **True**.
+* If **`x`** is even, then return **True**.
 
-Otherwise, return **False**.
+* Otherwise, return **False**.
 
 
-**설명:** [ ]          
-① 함수 `is_even(x)`을 만들어라. `x`가 짝수이면 True를 반환하고, 홀수이면 False 를 반환하라. 
+**설명:** [ Learn ]          
+• 함수 is_even(x) 을 만들어라.    
+• 입력값 x 가 짝수이면 True를 반환하고, 홀수이면 False 를 반환한다. 
 {: .notice--info}
 
 
@@ -132,13 +135,17 @@ Otherwise, return **False**.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The modulo **`%`** operation is useful for determining if one number is divisible by another.
+* The modulo **`%`** operation is useful for determining if one number is divisible by another.
 
-Make sure to return True instead of printing it!
+* Make sure to return True instead of printing it!
 
 
-**설명:** [ ]          
-`%` 연산자는 하나의 숫자를 나누어서 남는 나머지를 반환해 주는 연산자이다. 나머지가 0인것은 나누어서 떨어진다는 의미이다. 즉 2로 나누어서 나머지가 0이면, 그것은 짝수인것이다. 단, 0은 제외이다. 함수를 만들고 해당 함수를 호출하고 출력하는것을 잊지 말라.
+**설명:** [ Hint ]          
+• 연산자 % 는 숫자를 나눈후 남는 나머지를 반환하는.     
+• 나머지가 0 인것은 나누어서 떨어진다는 의미이다.    
+• 즉 2 로 나누어서 나머지가 0이면, 그것은 짝수이다.    
+• 단, 0은 제외이다.    
+• 함수를 만든후, 해당 함수를 호출하고 출력하라.
 {: .notice--info}
 
 <br>
@@ -159,8 +166,14 @@ print is_even(5)
 print is_even(6)
 ```
 
-**설명:** [ ]          
-`is_even(5)`를 호출하면 함수 `is_even()`이 호출되어 x가 2로 나누어 0으로 떨어지는지를 점검한다. 2로 떨어지면 True를 반환하고, 그렇지 않으면 False를 반환한다.
+**설명:** [ Solution ]          
+• 함수 is_even(x): 를 정의한다.    
+• 이 함수는 parameter 로 X 를 가진다.    
+• 이 함수는 연산자 %를 사용하여, 입력값 X 를 2로 나누어 나머지가 0 인지를 확인한다.    
+• 이 함수는 나머지가 0 이면 True 를 반환한다.    
+• 이 함수는 나머지가 0 이 아니면 False 를 반환한다.    
+• 함수 is_even(5) 를 호출한다. 그리고 그 결과값을 출력한다.   
+• 함수 is_even(6) 을 호출한다. 그리고 그 결과값을 출력한다.
 {: .notice--info}
 
 
@@ -179,20 +192,28 @@ True
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
 ### 3. is_int    
 
-An integer is just a number without a decimal part (for instance, -17, 0, and 42 are all integers, but 98.6 is not).
+An integer is just a number without a decimal part (for instance, -17, 0, and 42 are all integers, but 98.6 is not).    
 
-For the purpose of this lesson, we'll also say that a number with a decimal part that is all 0s is also an integer, such as 7.0.
+For the purpose of this lesson, we'll also say that a number with a decimal part that is all 0s is also an integer, such as 7.0.    
 
-This means that, for this lesson, you can't just test the input to see if it's of type int.
+This means that, for this lesson, you can't just test the input to see if it's of type int.    
 
-If the difference between a number and that same number rounded is greater than zero, what does that say about that particular number?
+If the difference between a number and that same number rounded is greater than zero, what does that say about that particular number?    
 
  
 
 
 
-**설명:** [ ]          
-정수(integer)는 소수가 없는 10진수이다. (예, 소수점 있는 수 98.6), 그리고, 소수점 있는 수(예, 7.0)도 정수이다. 프로그램에서 정수인지를 어떻게 파악 할수 있을까? 우리는 어떤 수에서 그수를 반올림 한 값의 차리를 봐서, 0이면, 정수이고, 0이 아니면 정수가 아니라고 알수 있다.  이장에서 이것에 관하여 공부해 보자.  
+**설명:** [ Learn ]          
+• Ch3. is_int 에서는 입력값이 정수인지를 확인하는 함수를 학습한다.    
+• 정수(integer)는 소수점 값이 없는 10진수이다. (i.g. 소수점 있는 수 98.6)    
+• 소수점이 있지만, 이런 경우는 정수이다. (i.g. 7.0)    
+• 프로그램에서 입력값이 정수인지를 어떻게 파악할 수 있을까?    
+• 우리는 입력값을 다음과 같이 처리하면 정수인지 아닌지를 알수 있다.    
+• 입려값을 함수 abs()를 사용하여 절대값으로 변환한다.    
+• 입력값을 함수 round()를 사용하여 소수점을 버린 값으로 변환한다.    
+• 절대값에서 Round값을 뺀 결과가 0이면 정수이다. (절대값 - Round 값)    
+• 절대값에서 Round값을 뺀 결과가 0이 아니면 실수이다. (절대값 - Round 값)
 {: .notice--info}
 
 
@@ -202,11 +223,12 @@ If the difference between a number and that same number rounded is greater than 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function **`is_int`** that takes a number **`x`** as an input.
+* Define a function **`is_int`** that takes a number **`x`** as an input.
 
-Have it return True if the number is an **integer** (as defined above) and **False** otherwise.
+* Have it return True if the number is an **integer** (as defined above) and **False** otherwise.    
 
-For example:
+* For example:    
+
 ```python
 is_int(7.0)   # True    
 is_int(7.5)   # False    
@@ -214,8 +236,9 @@ is_int(-1)    # True
 ```
 
 
-**설명:** [ ]          
-① 함수 `is_int(x)`를 만드시오. 이 함수는 입력값 `x`가 정수(interger)이면 True를 반환하고, 아니면 False를 반환하라. 
+**설명:** [ Instruction ]          
+• 함수 is_int(x) 를 작성하라.   
+• 이 함수는 입력값 x 가 정수(interger)이면 True를 반환하고, 아니면 False를 반환하라. 
 {: .notice--info}
 
 
@@ -224,11 +247,13 @@ is_int(-1)    # True
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-To use the function **`abs()`**, **`round()`**
+* To use the function **`abs()`**, **`round()`**
 
 
-**설명:** [ ]          
-내장 함수 `abs()`는 절대값을 반환하고, `round()`는 소수점을 버린 정수만을 반환한다. 이를 활용하라. 
+**설명:** [ Hint ]          
+• 함수 abs() 는 절대값을 반환한다.   
+• 함수 round() 는 소수점을 버린 정수만을 반환한다.    
+• 이 두 함수를 활용하라. 
 {: .notice--info}
 
 <br>
@@ -248,8 +273,15 @@ print is_int(10)
 print is_int(10.5)
 ```
 
-**설명:** [ ]          
-함수 `is_int(x)`는 입력값 `x`를 절대값을 구하고, 이 값에서 round한 값을 뺀다. 이 두 수의 차이가 0보다 크면 이 `x`값은 정수가 아니다.
+**설명:** [ Solution ]          
+• 정의된 함수 is_int(x) 는 다음과 같이 동작한다.    
+• 변수 absolute 에 입력값 x 의 절대값을 구하여 저장한다.    
+• 변수 rounded 에 입력값 x 의 정수값만 구하여 저장한다.    
+• 변수 absolute - rounded 한 결과를 반환한다.    
+• 두 변수의 차가 0 이면, 정수이기에 True 가 자동으로 반환된다.    
+• 두 변수의 차가 0 이 아니면 실수이기에 False 가 자동으로 반환된다.    
+• 함수 is_int(10)을 호출하고, 그 결과값을 출력한다.    
+• 함수 is_int(10.5)를 호출하고, 그 결과값을 출력한다.
 {: .notice--info}
 
 
@@ -273,8 +305,8 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 
 
 
-**설명:** [ ]          
-각 자리별 수를 더하여 보자. 
+**설명:** [ Learn ]          
+• Ch4. digit_sum 에서는 각 자리의 수를 더하는 함수를 학습한다.
 {: .notice--info}
 
 
@@ -284,13 +316,17 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write a function called **`digit_sum`** that takes a **positive integer `n`** as input and returns the **sum of all** that number's digits. For example: digit_sum(1234) should return 10 which is 1 + 2 + 3 + 4. (Assume that the number you are given will always be positive.)
+* Write a function called **`digit_sum`** that takes a **positive integer `n`** as input and returns the **sum of all** that number's digits. For example: digit_sum(1234) should return 10 which is 1 + 2 + 3 + 4. (Assume that the number you are given will always be positive.)
 
-Check the hint if you need help!
+* Check the hint if you need help!
 
 
-**설명:** [ ]          
-① 함수 `digit_sum(n)`을 만들어 보자. 이 함수는 입력된 `n`값의 각 자리 수를 더하여 결과를 반환하는 함수이다. 예를 들면 `digit_sum(1234)`이면 반환값은 10이다. 즉, 1+2+3+4=10 인 것이다. 입력값은 항상 양수만 들어가야 한다.  
+**설명:** [ Instruction ]          
+• 함수 digit_sum(n) 을 작성하라.   
+• 이 함수는 입력값 n 의 각 자리 수를 더하여 결과를 반환하는 함수이다.    
+• i.g. digit_sum(1234) 의 반환값은 10이다.    
+• 원리는 1 + 2 + 3 + 4 = 10 인 것이다.    
+• 입력값은 항상 양수만 들어가야 한다. 
 {: .notice--info}
 
 
@@ -299,17 +335,21 @@ Check the hint if you need help!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-One way might be to convert the integer to a string with **`str()`**, iterate over it, and turn the substrings back into integers with **`int()`** to do the addition.
+* One way might be to convert the integer to a string with **`str()`**, iterate over it, and turn the substrings back into integers with **`int()`** to do the addition.    
 
-If you're looking for a challenge, try this: to get the rightmost digit of a number, you can modulo **`(%)`** the number by 10. To remove the rightmost digit you can floor divide (//) the number by 10. (Don't worry if you're not familiar with floor division—you can look up the documentation here. Remember, this is a challenge!)
+* If you're looking for a challenge, try this: to get the rightmost digit of a number, you can modulo **`(%)`** the number by 10. To remove the rightmost digit you can floor divide (//) the number by 10. (Don't worry if you're not familiar with floor division—you can look up the documentation here. Remember, this is a challenge!)
 
-Try working this into a pattern to isolate all of the digits and add them to a total.
-
-
+* Try working this into a pattern to isolate all of the digits and add them to a total.    
 
 
-**설명:** [ ]          
-`str()`함수를 사용하여 입력값을 문자열로 바꾼다. for 문을 돌면서 각 값을 빼내어 `int()`를 사용하여 변환한다. 각 값을 합한다. 그외에도 `%`연산자를 사용하여 10으로 나누어 나머지 값을 더하면 되는 방법도 있다. 한번 시도해 봐라. `%`와 비슷한 `//` 연산자도 있다. 
+
+**설명:** [ Hint ]          
+• 함수 str() 를 사용하여 입력값을 문자열로 바꾼다.    
+• for 문을 돌면서 각 값을 빼내어, 함수 int() 를 사용하여 변환한다.    
+• 변환된 각 값을 합한다.    
+• 또다른 방법도 있다.    
+• 연산자 % 를 사용하여 10으로 나누어 나머지 값을 더하면 되는 방법도 있다.    
+• 연산자 % 와 비슷한 연산자 // 를 사용하는 방법도 있다. 
 {: .notice--info}
 
 <br>
@@ -339,9 +379,18 @@ def digit_sum(n):
 print digit_sum(1234)
 ```
 
-**설명:** [ ]          
-입력값 `n`을 문자열로 바꾼다. 그리고 문자열을 하나씩 뽑아내서 `int(char)`숫자로 바꾼다. `total`변수에 각 값을 더한다.    
-또다른 방법은 입력값 `n`을 `%10`을 하여 제일 마지막 자릿수 4를 반환하여 전체 `total`값에 더한다. `n`값을 `//10`하여 마지막 자릿수를 버리고 `123`을 다시 `%10`으로 나누어 나머지 3을 `total`변수에 저장한다.
+**설명:** [ Solution ]          
+• 입력값 n 을 문자열로 바꾼다. (i.g. str(n) )   
+• for 문에서 문자열을 하나씩 뽑아내어, 변수 char 에 저장한다.    
+• 함수 int(char) 을 사용하여, 변수 char 을 정수값으로 변환한다.         
+• 변수 total 정수로 변환한 char 값을 더한다.    
+• 변수 total 값을 반환한다.    
+• 또다른 2 번째 방법은 다음과 같다.    
+• 입력값 n 을  % 10 로 나눈 나머지를 변수 total 에 더한다.    
+• 반복적으로 n 을 % 10 로 나눈 나머지를 더한다.     
+• 또다른 3 번째 방법은 다음과 같다.    
+• 입력값 n 을 연산자 ( n // 10 ) 를 계산하면 10 미만의 나머지가 계산된다.
+• 반복적으로 n 을 // 10 로 계산하면서 나머지를 더한다. 
 {: .notice--info}
 
 
@@ -366,13 +415,15 @@ To calculate the factorial of a non-negative integer **x**, just multiply all th
 
 factorial(4) would equal 4 * 3 * 2 * 1, which is 24.
 factorial(1) would equal 1.
-factorial(3) would equal 3 * 2 * 1, which is 6.
+factorial(3) would equal 3 * 2 * 1, which is 6.    
 
 
 
 
-**설명:** [ ]          
-수학이 factorial(계승)을 구현해 보자. `factorial(3)`은 6 이다. 계산하는 방법은 3 x 2 x 1 = 6 이다. 
+**설명:** [ Learn ]      
+• Ch5. factorial 에서는 수학의 factorial(계승) 함수를 학습한다.    
+• 수학의 factorial(3) = 6 이다.    
+• 계산하는 방법은 3 x 2 x 1 = 6 이다.
 {: .notice--info}
 
 
@@ -382,13 +433,14 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function **`factorial`** that takes an integer **`x`** as input.
+* Define a function **`factorial`** that takes an integer **`x`** as input.
 
-Calculate and return the factorial of that number.
+* Calculate and return the factorial of that number.
 
 
-**설명:** [ ]          
-① 함수 `factorial(x)`를 만들어라. `factorial(x)` 함수는 입력한 값의 계산값을 반환하라. 
+**설명:** [ Instruction ]          
+• 함수 factorial(x) 을 작성하라.    
+• 함수 factorial(x) 는 입력한 값의 계산후 결과값을 반환한다. 
 {: .notice--info}
 
 
@@ -397,13 +449,14 @@ Calculate and return the factorial of that number.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Consider having **`factorial()`** call itself. When the input is 1, your function could just return 1. Otherwise, it could return the number multiplied by **`factorial(n - 1)`**.
+* Consider having **`factorial()`** call itself. When the input is 1, your function could just return 1. Otherwise, it could return the number multiplied by **`factorial(n - 1)`**.
 
-Note that mathematically, factorial(0) is 1.
+* Note that mathematically, factorial(0) is 1.
 
 
-**설명:** [ ]          
-`facotorial(x)`함수는 `n` 값이 1이 될때까지 자신의 함수를 호출한다. 그리고 최종적으로 `factorial(0)`이면 값은 1을 반환한다.
+**설명:** [ Hint ]          
+• 함수 facotorial(x) 는 입력값 n 이 1 이 될때까지 자신의 함수를 호출한다.    
+• 최종적으로 입력값 x = 0 이 되어, factorial(0) 을 호출하면 최종값은 1을 반환한다.
 {: .notice--info}
 
 <br>
@@ -432,9 +485,18 @@ print factorial(5)
 # print factorial2(5)      
 ```
 
-**설명:** [ ]          
-`x`값을 1씩 줄여가면서 `total`값에 곱해 준다. `x`가 1이 될때까지 while문을 돌면서 진행한다.    
-또다른 방법은 `factorial2(n-1)`을 하는 방법이다. 자신의 함수를 다시 호출해서 사용하는 방법으로 나중에 배우게 될 것이다. 
+**설명:** [ Solution ]          
+• 정의된 함수 factorial(x) 에서는 입력값 x 를 가진다.    
+• 변수 total = 1 로 초기화 한다.    
+• while 문에서 입력값 ( x > 0 ) 동안 반복한다.    
+• 변수 total 에 입력값 x 를 곱한후 더한다.    
+• 입력값 x 의 값을 1씩 줄여준다.    
+• while 문에서 입력값 (x > 0 ) 동안 반복한다.    
+• while 문을 빠져나오면, 변수 total 값을 반환한다.    
+• 또다른 방법은 다음과 같다.     
+• 함수에서 함수를 재귀호출 하는 방법이다.     
+• i.g. return  n * factorial2(n-1)     
+• 자신의 함수를 다시 호출해서 사용하는 방법으로 나중에 배우게 될 것이다.
 {: .notice--info}
 
 
@@ -463,8 +525,12 @@ If there is a number between 1 and x that goes in evenly, then x is not prime.
 
 
 
-**설명:** [ ]          
-prime(소수)는 1 과 자신 이외에는 나눌수 없는 값을 말한다. 어떤 입력값 `x`를 입력해서 소수 인지를 확인하는 함수를 만들어 보자. 1, 2, 3, 5, 7, 11은 소수의 예이다. 4는 2로 나누어 지기에 소수가 아니다.
+**설명:** [ Learn ]     
+• Ch6. is_prime 에서는 prime(소수를) 함수를 만드는 법을 학습한다.    
+• Prime(소수)는 1 과 자신 이외에는 나눌수 없는 값을 말한다.    
+• 입력값 x 를 입력해서 소수 인지를 확인하는 함수를 만들어 본다.    
+• 1, 2, 3, 5, 7, 11 은 소수의 예이다.     
+• 4는 2로 나누어지기에 소수가 아니다.
 {: .notice--info}
 
 
@@ -474,17 +540,21 @@ prime(소수)는 1 과 자신 이외에는 나눌수 없는 값을 말한다. �
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function called **`is_prime`** that takes a number **`x`** as input.
+* Define a function called **`is_prime`** that takes a number **`x`** as input.
 
-For each number n **from 2 to x - 1**, test if x is evenly divisible by **n**.
+* For each number n **from 2 to x - 1**, test if x is evenly divisible by **n**.
 
-If it is, return False.
+* If it is, return False.
 
-If none of them are, then return True.
+* If none of them are, then return True.
 
 
-**설명:** [ ]          
-① 함수 `is_prime(x)`를 만들어라. 이 함수는 1과 자신 `x`이외에는 나누어 지지 않는다. 즉 2부터 `x-1`까지 값으로 나누어서 0이 나오면 소수가 아니기에 False를 반환하고, 그렇지 않으면 True를 반환하라. 
+**설명:** [ Instruction ]          
+• 함수 is_prime(x) 을 작성하라.    
+• 이 함수는 1과 자신 x 이외에는 나누어 지지 않는다.    
+• 입력값 x 를 2 부터 ( x - 1 ) 사이의 값중 하나로 나누어서 0이 나오면 소수가 아니다.    
+• 소수가 아니면 False 를 반환한다.    
+• 소수이면 True 를 반환한다. 
 {: .notice--info}
 
 
@@ -493,11 +563,11 @@ If none of them are, then return True.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember: all numbers less than 2 are not prime numbers!
+* Remember: all numbers less than 2 are not prime numbers!
 
 
-**설명:** [ ]          
-2보다 작은 모든 숫자는 소수가 아니다.
+**설명:** [ Hint ]          
+• 2 보다 작은 모든 숫자는 소수가 아니다.
 {: .notice--info}
 
 <br>
@@ -521,8 +591,18 @@ print is_prime(13)
 print is_prime(10)
 ```
 
-**설명:** [ ]          
-입력값 `x-1`값이 될때까지 2부터 나머지를 구해서 나누어지는 상황(`x%n==0`)이 발생하면 소수가 아니기에 False를 반환하고, 그외에는 True를 반환한다. 입력값이 2보다 작은 값이 들어오면 무조건 False를 반환한다. 
+**설명:** [ Solution ]          
+• 정의된 함수 is_prime(x): 은 입력값 x 를 가진다.    
+• 이 함수는 다음과 같이 동작한다.    
+• 입력값 x 가 2 보다 작으면 소수가 아니므로 False 를 반환한다.    
+• for 문에서 입력값 x 를 2 부터 ( x - 1 )까지 추출한다.    
+• 변수 n 에 추출한 값을 저장한다.    
+• 입력값 x 를 n 으로 모듈 연산자를 하여, 나머지가 0 이면 소수가 아니다.    
+• 소수가 아니면 False 를 반환한다.    
+• for 문이 정상 종료(x -1 까지 반복)되어 빠져 나오면, 이 값은 소수이다.    
+• 소수이면 True 를 반환한다.    
+• 함수 is_prime(13) 을 호출하고, 그 결과값을 출력한다.    
+• 함수 is_prime(10) 을 호출하고, 그 결과값을 출력한다.
 {: .notice--info}
 
 
@@ -546,8 +626,8 @@ Great work so far! Let's practice writing some functions that work with strings.
 
 
 
-**설명:** [ ]          
-문자열을 조작하는 방법을 연습해 보자. 
+**설명:** [ Learn ]          
+• Ch7. reverse 에서는 문자열을 조작하는 학습을 한다. 
 {: .notice--info}
 
 
@@ -557,16 +637,19 @@ Great work so far! Let's practice writing some functions that work with strings.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function called **`reverse`** that takes a string textand returns that string in reverse. For example: reverse("abcd") should return "dcba".
+* Define a function called **`reverse`** that takes a string textand returns that string in reverse. For example: reverse("abcd") should return "dcba".
 
-You may not use reversed or [::-1] to help you with this.
+* You may not use reversed or [::-1] to help you with this.
 
-You may get a string containing special characters (for example, !, @, or #).
+* You may get a string containing special characters (for example, !, @, or #).
 
 
-**설명:** [ ]          
-① `reverse()`함수를 만들어 보자. 이 함수는 입력한 문자열을 반대로 출력해주는 함수이다. 예를 들면 `reverse("abcd")`를 입력하면 "dcba"를 반환해 준다.    
-물론, 앞에서 배운 `[::-1]`, `reversed()`을 사용해도 되지만, 여기서는 직접 함수를 만들어 본다. 특수 문자도 포함된다.  
+**설명:** [ Instruction ]          
+• 함수 reverse() 를 작성한다.    
+• 이 함수는 입력한 문자열을 반대로 출력하는 함수이다.    
+• i.g reverse("abcd") 를 입력하면 "dcba" 를 반환한다.   
+• 물론 앞에서 배운 [::-1] , 함수 reversed() 을 사용해도 된다.    
+• 이 장에서는 직접 함수를 만들어 본다. (특수 문자도 포함된다.)
 {: .notice--info}
 
 
@@ -575,11 +658,11 @@ You may get a string containing special characters (for example, !, @, or #).
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Consider how you would loop through text starting from the last character through the first character.
+* Consider how you would loop through text starting from the last character through the first character.
 
 
-**설명:** [ ]          
-입력받은 문자열의 마지막 부터 추출하여 리스트에 저장한다. 
+**설명:** [ Hint ]          
+• 입력받은 문자열의 마지막 부터 추출하여 리스트에 저장한다. 
 {: .notice--info}
 
 <br>
@@ -604,8 +687,13 @@ print reverse("Hello World")
 
 ```
 
-**설명:** [ ]          
-입력한 문자열의 길이 -1 만큰 반복한다. 그리고 마지막 문자 index 값으로 읽어서 `word`에 저장한다. 
+**설명:** [ Solution ]          
+• 정의된 함수 reverse(text):는 다음과 같이 동작한다.    
+• while 문에서 입력한 문자열의 길이 -1 만큰 반복한다.    
+• i.g. text ="abcd" -> l = 3, 2, 1, 0 값이 된다.    
+• text[l] 의 index 값으로 읽어서 변수 word 해당 문자를 저장한다.    
+• 변수 l 을 -1 씩 차감한다.    
+• 변수 word 를 반환한다. 
 {: .notice--info}
 
 
@@ -628,8 +716,8 @@ Nice work. Next up: vowels!
 
 
 
-**설명:** [ ]          
-모음을 찾아서 조작하는 방법을 연습해 보자. 
+**설명:** [ Learn ]          
+• Ch8. anti_vowel 에서는 모음을 찾아서 조작하는 방법을 학습한다.
 {: .notice--info}
 
 
@@ -639,13 +727,17 @@ Nice work. Next up: vowels!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function called **`anti_vowel`** that takes one string, **`text`**, as input and returns the text with all of the **vowels removed**.
+* Define a function called **`anti_vowel`** that takes one string, **`text`**, as input and returns the text with all of the **vowels removed**.
 
-For example: anti_vowel("Hey You!") should return "Hy Y!". Don't count Y as a vowel. Make sure to remove lowercase and uppercase vowels. 
+* For example: anti_vowel("Hey You!") should return "Hy Y!". Don't count Y as a vowel. Make sure to remove lowercase and uppercase vowels. 
 
 
-**설명:** [ ]          
-① 함수 `anti_vowel(text)`을 만들어라. 이 함수는 모음을 찾아서 없앤 문자열을 반환한다. 예를 들면 `anti_vowel("Hey You!")`를 호출하면, "Hy Y!"를 반환한다. 단, 대문자 "Y"를 없애지 말라. 그 외 대/소문자 모음 모두를 삭제하라.  
+**설명:** [ Instruction ]          
+• 함수 anti_vowel(text) 을 작성하라.    
+• 이 함수는 모음을 찾아서 없앤 문자열을 반환한다.     
+• 예를 들면 anti_vowel("Hey You!") 를 호출하면, "Hy Y!"를 반환한다.    
+• 단, 대문자 "Y" 를 없애지 말라.    
+• 그 외 대/소문자 모음 모두를 삭제하라.  
 {: .notice--info}
 
 
@@ -654,11 +746,11 @@ For example: anti_vowel("Hey You!") should return "Hy Y!". Don't count Y as a vo
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-To check to see if **`c`** is a vowel, you can do: c in "aeiouAEIOU".
+* To check to see if **`c`** is a vowel, you can do: c in "aeiouAEIOU".
 
 
-**설명:** [ ]          
-모음 모둠인 "aeiouAEIOU"에 해당 문자가 속하는지를 점검한다. 
+**설명:** [ Learn ]       
+• 모음 모둠인 "aeiouAEIOU"에 해당 문자가 속하는지를 점검한다. 
 {: .notice--info}
 
 <br>
@@ -680,8 +772,14 @@ def anti_vowel(text):
 print anti_vowel("hello book")
 ```
 
-**설명:** [ ]          
-입력한 문자열을 한 글자씩 추출하여 "ieaouIEAOU"에 속하는지를 점검하여, 속하지 않으면 문자열을 저장하여 반환한다. 
+**설명:** [ Solution ]          
+• 입력한 문자열을 한 글자씩 추출하여 "ieaouIEAOU"에 속하는지를 점검한다.    
+• 정의된 함수 anti_vowel(text): 다음과 같이 동작한다. 
+• 입력된 값 변수 text 의 글자를 하나씩 추출한다.    
+• 추출한 문자를 변수 char 에 저장한다.   
+• 저장한 변수 char 의 문자가 모음값이 저장된 변수 vowels에 속하는지 확인한다.    
+• 속하지 않는 변수 char 의 글자를 변수 result 에 저장한다.    
+• 변수 result 값을 반환한다.
 {: .notice--info}
 
 
@@ -710,8 +808,14 @@ For example: the word "Helix" would score 15 points due to the sum of the letter
 
 
 
-**설명:** [ ]          
-Scrabble 게임은 각 알파벳에 다른 점수를 매겨서, 각 단어의 알파벳 점수를 합한 값을 가지는 게임이다. 우리는 기존에 배운 딕셔너리 변수에 각 알파벳의 점수를 할당하여 각 단어별 점수를 매긴다. 예를 들면, "Helix"는 각 알파벳 점수는 H:4, e:1, l:1, i:1, x:8이다 이들 점수의 합은 15점이다. Scrabble 게임을 통하여 딕셔너리 활용법을 배워보자. 
+**설명:** [ Learn ]          
+• Ch9. scrabble_score 에서는 딕셔너리를 활용하는 법을 학습한다.    
+• Scrabble 게임은 각 알파벳에 각각 다른 점수를 매긴다.    
+• 입력된 문자열의 각 단어의 알파벳 점수를 합한 값을 가지는 게임이다.    
+• 우리는 기존에 배운 딕셔너리 변수에 각 알파벳의 점수를 할당하여 각 단어별 점수를 매긴다.    
+• 예를 들면, "Helix"는 각 알파벳 점수는 H:4, e:1, l:1, i:1, x:8이다.    
+• 이들 점수의 합은 15점이다.    
+• Scrabble 게임을 통하여 딕셔너리 활용법을 배워보자. 
 {: .notice--info}
 
 
@@ -721,7 +825,7 @@ Scrabble 게임은 각 알파벳에 다른 점수를 매겨서, 각 단어의 �
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function **`scrabble_score`** that takes a string **`word`** as input and returns the **equivalent scrabble score** for that word.
+* Define a function **`scrabble_score`** that takes a string **`word`** as input and returns the **equivalent scrabble score** for that word.
 
 * Assume your input is only one word containing no spaces or punctuation.
 * As mentioned, no need to worry about score multipliers!
@@ -729,12 +833,13 @@ Scrabble 게임은 각 알파벳에 다른 점수를 매겨서, 각 단어의 �
 * Assume that you're only given non-empty strings.
 
 
-**설명:** [ ]          
-① 함수 `scrabble_score(word)`를 만들고, 이 함수는 입력한 `word`의 점수를 반환한다.     
+**설명:** [ Instruction ]          
+• 함수 scrabble_score(word) 를 작성하라.     
+• 이 함수는 입력한 parameter 변수 word 의 점수를 반환한다.     
 • 입력 단어는 공백이나, 구두점이 없어야 한다.     
 • 점수 배열에 대해서는 걱정하지 마라.      
 • 함수는 대문자, 소문자, 또는 대/소문자가 섞여 있어도 동작한다.     
-• 입력은 반드시 해야 한다. 
+• 입력은 반드시 있어야 한다. 
 {: .notice--info}
 
 
@@ -743,16 +848,17 @@ Scrabble 게임은 각 알파벳에 다른 점수를 매겨서, 각 단어의 �
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Have your function loop through the word that you are given as input and look up the score for each letter in the score dictionary. Add the score for each letter into a total of some sort.
+* Have your function loop through the word that you are given as input and look up the score for each letter in the score dictionary. Add the score for each letter into a total of some sort.
 
-Remember you can use a string's .lower() method to make your string lower case!
-
-
+* Remember you can use a string's .lower() method to make your string lower case!
 
 
-**설명:** [ ]          
-입력된 워드의 알파벳을 순차적으로 `score` 딕셔너리에 있는 각 알파벳 점수를 참조하여 더한다.    
-모든 입력된 문자는 `.lower()`를 사용하여 소문자로 일원화 하여 `score`딕셔너리에서 찾는다. 
+
+
+**설명:** [ Hint ]          
+• 입력된 워드의 알파벳을 순차적으로 딕셔너리 score 에 있는 각 알파벳 점수와 비교한다.    
+• 모든 입력된 문자는 '.lower()'를 사용하여 소문자로 만든다.    
+• 소문자된 입력된 문자를 딕셔너리 score 서 찾는다. 
 {: .notice--info}
 
 <br>
@@ -791,14 +897,15 @@ print scrabble_score("pizza")
 # print scrabble_score("pizza")
 ```
 
-**설명:** [ ]         
-입력 문자열 `word.lower()`로 소문자로 일원화한다.    
-전체값을 저장할 변수 `total`을 초기화 한다.    
-변수 `word`의 글자를 하나씩 뽑아낸다.    
-그 뽑아낸 글자를 딕셔너리 `score`에서 반복적으로 찾는다.    
-찾았으면, 그 글자가 맞는지 다시한번 확인하고.   
-변수 `total`에 해당 글자의 점수를 더한다.     
-결과를 반환한다. 
+**설명:** [ Solution ]         
+• 정의된 함수 scrabble_score(word): 는 다음과 같이 동작한다.    
+• 입력 문자열을 소문자로 만든다. (i.g. word.lower() )    
+• 전체값을 저장할 변수 total 을 0으로 초기화 한다.    
+• 변수 word 의 문자를 하나씩 뽑아낸다.    
+• 뽑아낸 문자를 딕셔너리 score 에서 반복적으로 찾는다.    
+• 찾았으면 그 문자의 값을 딕셔너리 score 의 값을 찾는다.(i.g. score[letter] )    
+• 변수 total 에 딕셔너리 score 에서 찾은 문자의 점수를 더한다.     
+• 결과 total 값을 반환(return)한다.
 {: .notice--info}
 
 
@@ -822,8 +929,8 @@ You're doing great with these string function challenges. Last one!
 
 
 
-**설명:** [ ]          
-문자열 조작 기능을 하나더 연습해 봅시다. 
+**설명:** [ Learn ]          
+• Ch10. censor 에서는 문자열 조작 기능을 하나더 학습한다.
 {: .notice--info}
 
 
@@ -833,23 +940,26 @@ You're doing great with these string function challenges. Last one!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write a function called **`censor`** that takes two strings, **`text`** and **`word`**, as input. It should return the text with the word you chose **replaced with asterisks**. For example:
+* Write a function called **`censor`** that takes two strings, **`text`** and **`word`**, as input.     
+* It should return the text with the word you chose **replaced with asterisks**.     
+For example:    
 ```python
 censor("this hack is wack hack", "hack")
-```
-should return:
+```    
+should return:    
 ```python
 "this **** is wack ****"
-```
-* Assume your input strings won't contain punctuation or upper case letters.
-* The number of asterisks you put should correspond to the number of letters in the censored word.
+```    
+* Assume your input strings won't contain punctuation or upper case letters.    
+* The number of asterisks you put should correspond to the number of letters in the censored word.    
 
 
 
-**설명:** [ ]          
-① 함수 `censor(text, word)`를 만들어라. 이 함수는 입력받은 `text`중 `word`글자 부분만 `*`로 변경하는 함수이다.     
-• 대문자는 사용하지 않는다
-• `*`로 대체할때, `word` 수 만큼만 `*`로 대체해야 한다. 
+**설명:** [ Instruction ]          
+• 함수 censor(text, word): 를 작성하라.    
+• 이 함수는 입력받은 text 중 word 글자 부분만 '*' 로 변경하는 함수이다.     
+• 입력값으로 대문자는 입력하지 않는다.    
+• '*' 로 대체할때, 변수 word 수 만큼만 * 로 대체해야 한다. 
 {: .notice--info}
 
 
@@ -858,27 +968,30 @@ should return:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can use
+* You can use    
 ```python
 string.split()
 # and 
 " ".join(list)
-```
-to help you here.
+```    
+to help you here.    
 
-Remember: "*" * 4 equals "****"
+* Remember: "*" * 4 equals "****"
 
-After splitting the string with string.split(), you can loop through the indices in the list and replace the words you are looking for with their asterisk equivalent. Join the list at the end to get your sentence!
-
-
+* After splitting the string with string.split(), you can loop through the indices in the list and replace the words you are looking for with their asterisk equivalent. Join the list at the end to get your sentence!
 
 
-**설명:** [ ]          
-`string.split()`와 `" ".join(list)`를 활용 할수 있다.    
-`"*" * 4 -> "****"`이 만들어 진다.    
-입력된 문자열의 분리하여, 반복하며 돌면서 해당 문자가 대치할 문자와 같은지를 비교하여 찾아 낸다.     
-해당 문자를 찾았으면 그 문자 크기만큼 "*"를 변경하고, 해당 문자열을 리스트에 저장한다.    
-마지막에 저장된 리스트를 하나의 스트링으로 만든다.그리고 반환한다.
+
+
+**설명:** [ Hint ]          
+• 함수 string.split() 와  " ".join(list) 를 활용한다.     
+• "*" * 4 는 "****" 로 만든다.     
+• 입력된 문자열을 반복하면서 하나씩 읽는다.    
+• 해당 문자가 대치할 문자와 같은지 비교한다.     
+• 해당 문자가 같으면, 그 문자 크기만큼 "*" 를 변경한다.    
+• 비교한 문자열을 리스트에 저장한다.    
+• 저장된 리스트를 하나의 문자열로 만든다.     
+• 최종 반환한다.
 {: .notice--info}
 
 <br>
@@ -922,13 +1035,20 @@ print censor("this hack is wack hack", "hack")
 # print censor2("this hack is wack hack", "hack")
 ```
 
-**설명:** [ ]          
-입력 받은 문장을 잘라서 리스트 `words`에 넣는다.    
-결과물을 저장할 변수 `result`를 초기화한다.    
-`*`로 변경할 `word` 갯수를 계산하여 변수 `star`에 저장한다. 
-리스트 `words`에서 하나씩 꺼내어, 변경할 `word`와 같은 지 확인한다.    
-리스트 `words`의 변경할 인덱스`words[count]`에 `star`를 저장한다.    
-리스트 `words`를 문자열로 변경하여 반환한다. 
+**설명:** [ Solution ]    
+• 정의된 함수 def censor(text, word): 는 다음과 같이 동작한다.    
+• 입력된 문장(text) 중 특정단어(word)를 '*'로 변환한다.    
+• 메서드 '.split()'를 사용하여 입력받은 text 의 문자열을 단어별로 자른다.    
+• 잘라진 단어를 리스트 words 에 저장한다.        
+• 결과물을 저장할 변수 result 를 초기화한다.    
+• 변수 starts 에 '*' 를 변경할 word 갯수만큼 저장한다.    
+• 변수 count 를 0 으로 초기화 한다.    
+• for 문에서 리스트 words 에서 하나씩 단어를 추출하여 변수 l 에 저장한다.    
+• 변수 l 과 '*' 로 바꿀 입력값 word 와 같은지 비교한다.    
+• 만약, 같으면 words[count] = stars 를 저장한다.   
+• 만약, 틀리면 count 를 값 1 을 증가후 다시 for 문을 진행한다.     
+• result 에 word 의 ' ' 를 추가하여 저장한다.(i.g. result =' '.join(words))    
+• result 값을 반환한다.
 {: .notice--info}
 
 
@@ -951,8 +1071,9 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 
 
 
-**설명:** [ ]          
-리스트를 arguments로 가지는 함수들에 대해서 연습해 보자. 
+**설명:** [ Learn ]          
+• Ch11. count 에서는 입력값 중 찾고자 하는 Item 이 몇개 있는지를 찾는것을 학습한다.    
+• 리스트를 arguments로 가지는 함수들을 연습한다.
 {: .notice--info}
 
 
@@ -962,26 +1083,30 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function called **`count`** that has two arguments called **`sequence`** and **`item`**.
+* Define a function called **`count`** that has two arguments called **`sequence`** and **`item`**.
 
-Return the number of times the item occurs in the list.
+* Return the number of times the item occurs in the list.
 
-For example: count([1, 2, 1, 1], 1) should return 3 (because 1 appears 3 times in the list).
+* For example: count([1, 2, 1, 1], 1) should return 3 (because 1 appears 3 times in the list).
 
-* There is a list method in Python that you can use for this, but you should do it the long way for practice.
-* Your function should return an integer.
-* The item you input may be an integer, string, float, or even another list!
-* Be careful not to use list as a variable name in your code—it's a reserved word in Python!
+* There is a list method in Python that you can use for this, but you should do it the long way for practice.    
+* Your function should return an integer.    
+* The item you input may be an integer, string, float, or even another list!    
+* Be careful not to use list as a variable name in your code—it's a reserved word in Python!    
 
 
 
-**설명:** [ ]          
-① 함수 `count(sequence, item)`을 만들어라.
-예를 들면 `count([1,2,1,1], 1)`을 호출하면 3이 반환된다. 이유는 1이 리스트에 3개가 들어 있기 때문이다.    
-• python 자체 내장 함수에서 리스트의 특정 항목의 갯수를 찾아주는 기능이 있지만, 연습을 위해서 우리는 직접 만들어 보자    
+**설명:** [ Instruction ]          
+• 함수 count(sequence, item) 를 작성하라.    
+• 이 함수는 다음과 같이 동작한다.     
+• 함수 count([1,2,1,1], 1) 을 호출하면 3이 반환된다.    
+• 이유는 리스트 [1, 2, 1, 1] 에 1이 3개가 들어 있기 때문이다.    
+• python 자체 함수에서 리스트의 특정 항목의 갯수를 찾아주는 기능이 있다.    
+• 하지만, 연습을 위해서 우리는 직접 만들어 본다.     
 • return(반환값)은 정수(integer) 이다.    
 • 입력값은 정수(integer), 문자(string), 실수(float) 또는 다른 것일 수 있다.    
-• 리스트 변수명을 정할때, python에서 예약된 코드(ex, if )를 사용하면 안된다.    
+• 리스트 변수명을 정할때, python에서 예약된 코드는 사용 금지한다.     
+• (i.g. 'if', 'else')
 {: .notice--info}
 
 
@@ -990,11 +1115,13 @@ For example: count([1, 2, 1, 1], 1) should return 3 (because 1 appears 3 times i
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can set a **`sum`** variable inside count. You can then iterate over sequence and increment **`sum`** every time you find an element in the sequence that matches item.
+* You can set a **`sum`** variable inside count.     
+* You can then iterate over sequence and increment **`sum`** every time you find an element in the sequence that matches item.
 
 
-**설명:** [ ]          
-변수 `sum`을 만들어, 찾고자 하는 숫자와 같은 것이 있으면 `sum`을 1씩 증가시킨다. 
+**설명:** [ Hint ]          
+• 변수 sum 을 만든다.    
+• 찾고자 하는 숫자와 같은 것이 있으면 변수 sum 을 값 1 씩 증가시킨다.
 {: .notice--info}
 
 <br>
@@ -1015,9 +1142,14 @@ def count(sequence, item):
 print count([1, 2, 1, 1], 1)
 ```
 
-**설명:** [ ]          
-리스트 [1,2,1,1]을 입력받고, 이중 1이 몇개 있는가를 찾는 프로그램이다.    
-`sequence=[1,2,1,1]`에서 `i`가 하나씩 추출하여, `if i==item`비교하여 일치하면, 변수 `count`를 1씩 증가시킨다. for 문이 끝나고 최종 `count`값을 return(반환)한다.
+**설명:** [ Solution ]          
+• 정의된 함수 count(sequence, item):은 다음과 같이 동작한다.     
+• 입력값 리스트 [1, 2, 1, 1] 에 값 1 이 몇개 있는지 찾는 함수다.    
+• 변수 count 를 0 으로 초기화 한다.    
+• for 문에서, 입력값 리스트 sequence 를 하나씩 추출하여 변수 i 에 저장한다.     
+• 추출한 변수 i 의 값과 입력값 item 을 비교한다.     
+• 만약, 같으면 변수 count 의 값을 1 증가한다.    
+• for 문이 완료되면, 변수 count 값을 반환(return) 한다.
 {: .notice--info}
 
 
@@ -1340,7 +1472,7 @@ If the list contains an **even number** of elements, your function should **retu
 
 
 **설명:** [ ]          
-① 함수 `median(lst)`만드시오. 이 함수는 입력된 리스트의 중간 항목을 return(반환) 합니다.    
+① 함수 `median(lst)`작성하라. 이 함수는 입력된 리스트의 중간 항목을 return(반환) 합니다.    
 • 입력되는 리스트의 크기는 다를수 있으며, 리스트에 들어있는 값들은 정렬되어 있지 않습니다.     
 • 짝수개의 리스트가 입력되면 중간 항목 2개의 평균값을 return(반환) 합니다.
 {: .notice--info}

@@ -740,7 +740,7 @@ When a class has its own functions, those functions are called **methods**. You'
 **설명:** [ Instruction ]    
 • Animal 클래스에 메서드 description()를 추가하여라.     
 • description()는 동물의 이름(name)과 나이(age)를 출력(print)한다.    
-• Animal 클래스의 instance를 가진 hippo를 만드시오.(ex.`hippo = Animal()`)    
+• Animal 클래스의 instance를 가진 hippo를 작성하라.(ex.`hippo = Animal()`)    
 • 그 객체(object) hippo의 메서드(method)인 description()를 호출하라.  
 {: .notice--info}
 
@@ -961,7 +961,7 @@ However, classes and objects are often used to model real-world objects. The cod
 
 
 **설명:** [ Instruction ]    
-• 클래스 ShoppingCart의 instance 인 객체 my_cart를 만드시오.    
+• 클래스 ShoppingCart의 instance 인 객체 my_cart를 작성하라.    
 • 메서드 add_item()의 parameter인 product, price에 자신이 좋아하는 값을 넣어라.    
 • object(객체) my_cart의 메서드 add_item()을 통하여 product와 price를 추가하라.
 {: .notice--info}
@@ -1297,7 +1297,7 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 
 
 **설명:** [ Instruction ]    
-• 클래스 Employee를 inheritance 하는 PartTimeEmployee를 만드시오.    
+• 클래스 Employee를 inheritance 하는 PartTimeEmployee를 작성하라.    
 • 클래스 Employee의 메서드 calculate_wage()를 클래스 PartTimeEmployee 에서 override 하시오.    
 • override 한 calculate_wage(self, hours)를 가진다.    
 • Employee.calcuate_wage의 override 한 것은 PartTimeEmployee.calculate_wage 이다.    

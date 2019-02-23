@@ -408,7 +408,7 @@ Call the newly created **`grades_average`** function with the list of grades and
 
 
 **설명:** [ ]          
-① 함수 `grades_average()`밑에 `grades_sum(grades_input)`함수를 만드시오.     
+① 함수 `grades_average()`밑에 `grades_sum(grades_input)`함수를 작성하라.     
 • 함수는 `grades_input` 입력값을 가진다.    
 • `grades_sum(grades_input)`으로 함수를 호출한다.   
 • 평균을 구하기 위하여 전체 합을 나눌때 `float(len(grades_input))`으로 나눈다.   
@@ -696,7 +696,7 @@ Finally print the result of calling `grades_std_deviation(variance)`.
 
 
 **설명:** [ ]          
-① 함수 `grades_std_deviation(variance)`를 만드시오.    
+① 함수 `grades_std_deviation(variance)`를 작성하라.    
 • 함수는 `variance ** 0.5`를 return(반환)한다.        
 • 함수 밖에서 변수 `variance`를 만들고, `grades_variance(grades)`호출하여 받은 결과값을 저장하라.    
 • 함수 `grades_std_deviation(variance)`를 호출하여, 그 결과 값을 출력하라.
