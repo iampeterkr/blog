@@ -1168,12 +1168,12 @@ print count([1, 2, 1, 1], 1)
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
 ### 12. purify    
 
-Awesome! Now let's practice filtering a list. 
+Awesome! Now let's practice filtering a list.      
 
 
 
-**설명:** [ ]          
-리스트의 필터링을 연습해 보자. 
+**설명:** [ Learn ]          
+• Ch12. purify 에서는 리스트의 필터링을 학습한다. 
 {: .notice--info}
 
 
@@ -1183,16 +1183,17 @@ Awesome! Now let's practice filtering a list.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function called **`purify`** that takes in a list of numbers, **removes all odd numbers** in the list, and **returns the result**. For example, purify([1,2,3]) should return [2].
+* Define a function called **`purify`** that takes in a list of numbers, **removes all odd numbers** in the list, and **returns the result**. For example, purify([1,2,3]) should return [2].
 
-**Do not directly modify** the list you are given as input; instead, return a new list with only the **even numbers**.
-
-
+* Do not directly modify the list you are given as input; instead, return a new list with only the **even numbers**.
 
 
-**설명:** [ ]          
-① 함수 `purify(list)`를 만들어라. 이 함수는 리스트의 값중 홀수를 삭제하고 해당 리스트를 return(반환) 하는 함수이다.     
-• 입력받은 리스트를 바로 수정하지 말고, 새로운 리스트를 만들어 결과값을 저장하라.  
+
+
+**설명:** [ Instruction ]          
+• 함수 purify(list) 를 작성하라.    
+• 이 함수는 리스트의 값중 홀수를 삭제하고 해당 리스트를 return(반환)하는 함수이다.     
+• 입력받은 리스트를 바로 수정하지 말고, 새로운 리스트를 만들어 결과값을 저장하라.
 {: .notice--info}
 
 
@@ -1201,12 +1202,12 @@ Awesome! Now let's practice filtering a list.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Your code should share something in common with the **`is_even`** function you defined earlier.
+* Your code should share something in common with the **`is_even`** function you defined earlier.
 
 
-**설명:** [ ]          
-앞에서 연습한 함수 `is_even()`의 기능을 활용하여 홀수인지 짝수인지를 판단하라.     
-`if i % 2 == 0` 이면 짝수이다. 
+**설명:** [ Hint ]     
+• 앞에서 연습한 함수 is_even() 의 기능을 활용하여 홀수인지 짝수인지를 판단하라.    
+• i.g. ( if i % 2 == 0 ) 이면 짝수이다. 
 {: .notice--info}
 
 <br>
@@ -1227,9 +1228,15 @@ def purify(lst):
 print purify([1, 2, 3, 4])
 ```
 
-**설명:** [ ]          
-리스트 `lst`를 입력받고, 새로운 빈 리스트 `res`를 초기화 하자.     
-`lst`의 값을 추출하여 `ele` 변수에 저장하고, 이 `ele`변수가 짝수인지를 (`ele % 2==0`)를 검사하여 짝수이면 리스트 `res=[]`에 추가한다. for 반복문이 끝나면 그 결과값을 return(반환)한다.
+**설명:** [ Solution ]          
+• 정의된 함수 purify(lst): 는 다음과 같이 동작한다.    
+• 이 함수는 입력값중 특정(홀수)값을 삭제하는 함수이다.    
+• 이 함수는 다음과 같이 동작한다.   
+• 빈 리스트 res 를 정의한다.    
+• for 문에서 입력받은 lst 를 하나씩 추출하여, 변수 ele 에 저장한다.    
+• 변수 ele 의 값이 짝수 이면, 리스트에 추가한다.(i.g. res.append(ele))    
+• for 문이 종료되면 리스트 res 를 반환한다.    
+• 함수 purify([1, 2, 3, 4]) 를 호출 후 반환값을 출력한다.
 {: .notice--info}
 
 
@@ -1252,8 +1259,8 @@ Great! Now let's try a little multiplication.
 
 
 
-**설명:** [ ]          
-리스트의 내용을 곱해 보자.  
+**설명:** [ Learn ]         
+• Ch13. product 에서는 리스트의 항목 내용을 모두 곱하는 부분을 학습한다.
 {: .notice--info}
 
 
@@ -1263,15 +1270,18 @@ Great! Now let's try a little multiplication.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Define a function called **`product`** that takes a list of integers as input and **returns** the product of all of the elements in the **list**. For example: product([4, 5, 5]) should return 100 (because 4 * 5 * 5 is 100).
+* Define a function called **`product`** that takes a list of integers as input and **returns** the product of all of the elements in the **list**. For example: product([4, 5, 5]) should return 100 (because 4 * 5 * 5 is 100).
 
-Don't worry about the list being empty.
-Your function should return an integer.
+* Don't worry about the list being empty.
+* Your function should return an integer.
 
 
 
-**설명:** [ ]          
-① 함수 `product(lst)`를 만들어 보자. 이 함수는 정수를 입력값으로 가지면 리스트의 모든 값을 곱한 결과를 return(반환)한다. 예를 들면 `product([4,5,5])`를 호출하면, return(반환)값은 100 이다.    
+**설명:** [ Instruction ]          
+• 함수 product(lst) 를 작성하라.    
+• 이 함수는 입력값으로 가지는 리스트의 모든 값을 곱한 결과를 반환(return)한다.    
+• 리스트의 항목은 정수값 이다.    
+• i.g. 함수 product([4,5,5]) 를 호출하면, 반환(return)값은 100 이다.    
 • 리스트가 비어 있을 경우는 없다.    
 • return(반환)값은 정수이다.
 {: .notice--info}
@@ -1282,18 +1292,20 @@ Your function should return an integer.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can use a loop to go through the elements of the list.
+* You can use a loop to go through the elements of the list.
 
-It'll probably be useful to use the **`*=`** operator.
+* It'll probably be useful to use the **`*=`** operator.
 
-Be careful **not to start your total at 0**, as this would make the overall result of the multiplication equal to 0! (Anything multiplied by zero equals zero.)
-
-
+* Be careful **not to start your total at 0**, as this would make the overall result of the multiplication equal to 0! (Anything multiplied by zero equals zero.)
 
 
-**설명:** [ ]          
-입력받은 리스트의 값을 하나씩 추출하여 `*=` 기능을 사용하여라.    
-전체 값을 담는 변수 `total`의 초기값은 0으로 해선 안된다. 이유는 곱셈에서 0은 어떤 값을 곱해도 0이다. `total` 초기값은 1로 초기화하라.  
+
+
+**설명:** [ Hint ]          
+• 입력받은 리스트의 값을 하나씩 추출하여 ( *= ) 기능을 사용하여라.    
+• 전체 값을 담는 변수 total 의 초기값은 0으로 해선 안된다.     
+• 이유는 곱셈에서 0은 어떤 값을 곱해도 0이다.    
+• 변수 total 의 초기값은 1로 초기화 하라.  
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1310,8 +1322,13 @@ def product(list):
 print product([4, 5, 5])
 ```
 
-**설명:** [ ]          
-입력받은 리스트 `list`의 항목 값을 하나씩 추출하여 변수 `total`값에 곱한다. 최종적으로 `total`값을 return(반환)한다. 
+**설명:** [ Solution ]          
+• 정의된 함수 product(list):는 다음과 같이 작동한다.    
+• 이 함수는 입력받은 리스트의 값들을 모두 곱한 결과를 반환한다.    
+• 변수 total 을 값 1 로 초기화 한다.    
+• for 문에서 입력받은 list 의 값을 하나씩 추출하여 변수 num 에 저장한다.    
+• 변수 total 과 변수 num을 곱한 값을 다시 변수 total 에 저장한다.    
+• for 문이 종료되면, 변수 total 값을 반환한다.
 {: .notice--info}
 
 
@@ -1333,8 +1350,8 @@ Awesome! Now for something a bit trickier.
 
 
 
-**설명:** [ ]          
-지금 부터 약간 더 복잡하게 조작하여 중복 된것을 제거하는 연습을 해보자. 
+**설명:** [ Learn ]          
+• Ch14. remove_duplicates 에서는 리스트 값의 중복을 제거하는것을 학습한다.
 {: .notice--info}
 
 
@@ -1344,21 +1361,25 @@ Awesome! Now for something a bit trickier.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write a function **`remove_duplicates`** that takes in a list and removes elements of the list that are the same.
+* Write a function **`remove_duplicates`** that takes in a list and removes elements of the list that are the same.
 
-For example: remove_duplicates([1, 1, 2, 2]) should return [1, 2].
+* For example: remove_duplicates([1, 1, 2, 2]) should return [1, 2].
 
-* Don't remove every occurrence, since you need to keep a single occurrence of a number.
-* The order in which you present your output does not matter. So returning [1, 2, 3] is the same as returning [3, 1, 2].
+* Don't remove every occurrence, since you need to keep a single occurrence of a number.    
+* The order in which you present your output does not matter. So returning [1, 2, 3] is the same as returning [3, 1, 2].    
 * Do not modify the list you take as input! Instead, return a new list.
 
 
 
-**설명:** [ ]          
-① 함수 `remove_duplicates(lst)`는 리스트 안에 중복되는 것이 있으면 삭제하는 리스트르 만들어 준다.  예를 들면 `remove_duplicates([1,1,2,2])`호출하면, `[1,2]`를 return(반환)한다.    
-• 모두 다 지우는 것이 아니라, 1개만 존재하는것은 놔 둔다.    
-• return(반환)값의 순서는 중요치 않다. (ex. [1,2,3] : ok, [3,2,1] : ok)   
-• 입력받은 리스트 `lst`를 직접 수정하지 말고 새로운 빈 리스트 `new_lst=[]`를 만들어 return(반환)하라.
+**설명:** [ Instruction ]          
+• 함수 remove_duplicates(lst) 는 다음과 같이 동작한다.    
+• 이 함수는 리스트 안에 중복 값이 있으면 해당 값 하나만 남겨 놓고 나머지는 삭제한다.    
+• i.g. remove_duplicates([1,1,2,2]) 호출하면, [1,2]를 반환(return)한다.     
+• 모두 다 지우는 것이 아니라, 중복된 값을 하나만 남겨둔다.    
+• 반환(return)값의 순서는 중요치 않다.    
+• i.g. [1,2,3] : ok, [3,2,1] : ok      
+• 입력받은 리스트 lst 를 직접 수정하지 않는다.    
+• 새로운 빈 리스트 new_lst=[] 를 만들어 저장훈 반환(return) 한다.
 {: .notice--info}
 
 
@@ -1367,16 +1388,19 @@ For example: remove_duplicates([1, 1, 2, 2]) should return [1, 2].
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-The easiest way to approach this problem is to create a new list in your function, loop through your input list, and add items from your input list to your new list if the current item is not already contained in your new list. Using the a not in b syntax might help you here.
+* The easiest way to approach this problem is to create a new list in your function, loop through your input list, and add items from your input list to your new list if the current item is not already contained in your new list. Using the a not in b syntax might help you here.
 
-Also, note that destructively modifying a list while you are looping through it is bad practice and will likely lead to bugs somewhere down the line! That's why we always make a fresh copy to work on.
-
-
+* Also, note that destructively modifying a list while you are looping through it is bad practice and will likely lead to bugs somewhere down the line! That's why we always make a fresh copy to work on.
 
 
-**설명:** [ ]          
-가장 쉬운 방법은 함수안에 새로운 리스트를 하나 만들고, 입력 받은 리스트를 반복하여 돌면서 해당 항목값을 추출하여 새로운 리스트에 추가한다. 이때, 추가할때, 새로운 리스트에 내가 추가할려는 항목이 있는지를 점검하여 없으면 추가하고, 있으면 다음 단계로 넘어간다.     
-그리고, 
+
+
+**설명:** [ Hint ]          
+• 가장 쉬운 방법은 함수안에 새로운 리스트를 하나 만든다.    
+• 입력 받은 리스트를 반복하여 돌면서 해당 항목값을 추출하여 새로운 리스트에 추가한다.    
+• 추가할때, 새로운 리스트에 내가 추가할려는 항목이 있는지를 점검한다.    
+• 만약 없으면 추가하고, 있으면 다음 단계로 넘어간다.     
+• 새로운 리스트를 구성하는 방식이 기존 리스트를 사용하는것 보다 실수를 할 가능성이 적다.
 {: .notice--info}
 
 <br>
@@ -1407,12 +1431,19 @@ def remove_duplicates(inputlist):
 print remove_duplicates([1, 1, 2, 2])
 ```
 
-**설명:** [ ]          
-• 입력값 리스트 `inputlist`가  비어 있으면 빈 리스트 `[]`를 return(반환)한다.    
-• `sorted(inputlist)` : 입력값 리스트 `inputlist`를 정렬한다.   
-• 정렬된 `inputlist[0]` 즉 첫번째 값을 `outputlist`에 추가한다.     
-• 정렬된 `inputlist`의 값을 하나씩 추출하여, `outputlist[-1]`제일 마지막 값보다 큰 경우만 `outputlist.append(i)`추가한다. 이이야기는 `outputlist`의 제일 마지막보다 큰값이 추출된 경우만 `outputlist`에 추가하겠다는 이야기다.     
-• 최종 `outputlist`를 return(반환)한다.
+**설명:** [ Solution ]          
+• 정의된 함수 remove_duplicates(inputlist): 는 다음과 같이 동작한다.    
+• 이 함수는 입력된 리스트의 중복값을 제거해주는 함수이다.    
+• 이 함수는 입력값으로 리스트 inputlist 를 받는다.   
+• 입력값 리스트 inputlist 가  비어 있으면 빈 리스트 ( [] ) 를 반환(return)한다.    
+• 입력값 리스트 inputlist 를 정렬한다.    
+• i.g. inputlist = sorted(inputlist)    
+• 정렬된 첫번째 값(inputlist[0])을 리스트 outputlist 에 추가한다.     
+• for 문에서 정렬된 inputlist 의 값을 하나씩 추출하여 변수 i 에 저장한다.    
+• 추출한 값 i 와 제일 마지막값(outputlist[-1]) 비교한다.    
+• 마지막 값과 비교하는 이유는 이미 outputlist 값을 정렬해 놓았기 때문이다.    
+• 만약 i 값이 마지막값 보다 크면 변수 outputlist.append(i)와 같이 추가한다.    
+• 최종 outputlist 를 반환(return) 한다.
 {: .notice--info}
 
 
@@ -1442,7 +1473,7 @@ If you are **given** a sequence with an **even number** of elements, you must **
 
 For example, the median of the sequence [7, 3, 1, 4] is 3.5, since the middle elements after sorting the list are 3 and 4 and (3 + 4) / (2.0) is 3.5.
 
-You can sort the sequence using the sorted() function, like so:
+You can sort the sequence using the sorted() function, like so:    
 ```python
 sorted([5, 2, 3, 1, 4])
 [1, 2, 3, 4, 5]
@@ -1450,11 +1481,14 @@ sorted([5, 2, 3, 1, 4])
 
 
 
-**설명:** [ ]          
-리스트의 중앙에 위치한 값을 찾는 함수를 만드는 연습을 해보자.    
-• 리스트 `[7, 12, 3, 1, 6]`입력되면, 먼저 정렬하여 `[1,3,6,7,12]`를 만든다. 그리고 리스트의 중앙에 위치한 6을 return(반환)한다.    
-• 리스트 `[7, 3, 1, 4]` 짝수개가 입력되면, 정렬후 `[1,3,4,7]` 중앙값 3과 4의 평균값이 3.5가 return(반환)된다.   
-• 정렬은 내장함수인 `sorted([5,2,3,1,4])`를 사용하면 `[1,2,3,4,5]`로 정렬이 된다.
+**설명:** [ Learn ]          
+• Ch15. median 에서는 리스트 중간값 찾는것을 학습한다.    
+• 리스트의 중앙에 위치한 값을 찾는 함수를 만드는 연습을 해보자.    
+• 리스트 [7, 12, 3, 1, 6] 이 입력되면, 먼저 정렬하여 [1,3,6,7,12] 를 만든다.    
+• 그리고 리스트의 중앙에 위치한 6 을 반환(return)한다.    
+• 리스트 [7, 3, 1, 4] 와 같이  짝수개가 입력되면,    
+• 정렬 후 [1,3,4,7] 중앙값 3 과 4 의 평균값이 3.5가 반환(return)된다.    
+• 정렬은 함수 sorted([5,2,3,1,4])를 사용하면 [1,2,3,4,5] 로 정렬이 된다.
 {: .notice--info}
 
 
@@ -1464,17 +1498,20 @@ sorted([5, 2, 3, 1, 4])
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write a function called **`median`** that takes a list as an input and **returns the median** value of the list. For example: median([1, 1, 2]) should return 1.
+* Write a function called **`median`** that takes a list as an input and **returns the median** value of the list.     
+* For example: median([1, 1, 2]) should return 1.
 
-The list can be of any size and the numbers are not guaranteed to be in any particular order. Make sure to sort it!
-If the list contains an **even number** of elements, your function should **return the average of the middle two**.
+* The list can be of any size and the numbers are not guaranteed to be in any particular order. Make sure to sort it!    
+* If the list contains an **even number** of elements, your function should **return the average of the middle two**.
  
 
 
-**설명:** [ ]          
-① 함수 `median(lst)`작성하라. 이 함수는 입력된 리스트의 중간 항목을 return(반환) 합니다.    
-• 입력되는 리스트의 크기는 다를수 있으며, 리스트에 들어있는 값들은 정렬되어 있지 않습니다.     
-• 짝수개의 리스트가 입력되면 중간 항목 2개의 평균값을 return(반환) 합니다.
+**설명:** [ Instruction ]          
+• 함수 median(lst) 를 작성하라.    
+• 이 함수는 입력된 리스트의 중간 항목값을 반환(return)한다.    
+• 입력되는 리스트의 크기는 다를수 있다.   
+• 리스트에 들어있는 값들은 정렬되어 있지않다.     
+• 짝수개의 리스트가 입력되면 중간 항목 2개의 평균값을 반환(return)한다.
 {: .notice--info}
 
 
@@ -1483,21 +1520,29 @@ If the list contains an **even number** of elements, your function should **retu
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-In order to find the median of a list with an even number of elements, you're going to need to find the indices of the middle two elements.
+* In order to find the median of a list with an even number of elements, you're going to need to find the indices of the middle two elements.
 
-You can find the middle two elements by halving the length of the array to find the index of the first element, and subtracting one from the first index to find the second index.
+* You can find the middle two elements by halving the length of the array to find the index of the first element, and subtracting one from the first index to find the second index.
 
-For example, with an array of length 6 like [0, 1, 2, 3, 4, 5], the two middle elements that need to be averaged in order find the median would be 2 and 3. You get 3 by cutting the length of the array in half and 2 by subtracting 1 from the previous index: 3. You can use a similar pattern to find the middle element of an odd-length list.
+* For example, with an array of length 6 like [0, 1, 2, 3, 4, 5], the two middle elements that need to be averaged in order find the median would be 2 and 3. You get 3 by cutting the length of the array in half and 2 by subtracting 1 from the previous index: 3. You can use a similar pattern to find the middle element of an odd-length list.
 
-Last but not least, **note that (2 + 3) / 2 is not the same as (2 + 3) / 2.0!** The former is integer division, meaning Python will try to give you an integer back. You'll want a float, so something like **(2 + 3) / 2.0** is the way to go.
-
-
+* Last but not least, **note that (2 + 3) / 2 is not the same as (2 + 3) / 2.0!** The former is integer division, meaning Python will try to give you an integer back. You'll want a float, so something like **(2 + 3) / 2.0** is the way to go.
 
 
-**설명:** [ ]          
-짝수개의 리스트가 들어오면 중간값을 찾는 방법은 다음과 같다.    
-• 입력된 리스트의 길이를 구한다. 만약 `[0,1,2,3,4,5]`가 입력되면 길이는 6 이다. 이를 반으로 나누면 중간 값은 3이다. 리스트의 index 값이 3인 자리의 값은 `3`이다. 우리가 필요한 값은 index 2와 3이므로, 3에서 1을 뺀 index값을 선택하면 된다.     
-• 두개의 값을 나누어 중간값을 계산할때, `(2+3)/2`과 `(2+3)/2.0`의 결과 값은 다르다. 앞의 경우는 2가 반환되고, 후자는 2.5가 반환다. 이 함수에서는 후자 `(2+3)/2.0`을 이용해야 한다.
+
+
+**설명:** [ Hint ]          
+• 짝수개의 리스트가 들어오면 중간값을 찾는 방법은 다음과 같다.    
+• 입력된 리스트의 길이를 구한다. 
+• 만약 [0,1,2,3,4,5] 가 입력되면 길이는 6 이다.    
+• 이를 반으로 나누면 중간 값은 3 이다.    
+• 리스트의 index 값이 3인 자리의 값은 3 이다.    
+• 우리가 필요한 값은 index 2 와 index 3 이다.    
+• i.g. index 3 에서 index 1 을 뺀 index 2 를 선택한다.     
+• 주의, 두개의 값을 나누어 중간값을 계산할때, 다음 2가지 경우의 결과 값은 다르다.    
+• i.g. ( (2+3) / 2 ) 과 ( (2+3) / 2.0 )     
+• 앞의 경우는 2 가 반환되고, 후자는 2.5 가 반환다.    
+• 이 함수에서는 후자의 방식( (2+3)/2.0 )을 이용해야 한다.
 {: .notice--info}
 
 <br>
@@ -1525,17 +1570,25 @@ print median([2, 4, 5, 9])
 
 ```
 
-**설명:** [ ]          
-• 입력된 리스트를 정렬한다. `sorted_list = sorted(lst)`    
-• if 절의 block 내용은 홀수 개가 입력 되었을때 동작한다.     
-•`len(sorted_list) %2 != 0` : 리스트 `%` 연산자로 계산해서 0이 아니면 홀수개이다    
-• 리스트의 중간값을 `//2`로 소수점 버리는 중간값으로 계산한다.   
-• `sorted_list[index]`가 중간 값이므로 return(반환) 한다.   
+**설명:** [ Solution ]          
+• 정의된 함수 median(lst): 는 다음과 같이 동작한다.    
+• 이 함수는 입력값 리스트의 중간값을 반환한다.    
+• 이 함수는 lst 를 입력값으로 받는다.    
+• 입력된 리스트를 정렬한다.(i.g. sorted_list = sorted(lst) )    
+• if 절의 block 내용은 리스트의 갯수가 홀수 개가 입력 되었을때 동작한다.     
+• if 절의 내용은 다음과 같이 처리한다.    
+• 리스트의 갯수가 홀수이면 index 중간값을 구한다.    
+• i.g. 리스트의 중간값을 ( //2 )로 소수점 버리는 중간값으로 계산한다.    
+• 리스트 sorted_list[index]가 중간 값이므로 해당 값을 반환(return)한다.   
 • else 절의 block 내용은 짝수 개가 입력 되었을때 동작한다.       
-• `len(sorted_list) %2 == 0` : 리스트 `%` 연산자로 계산해서 0이면 짝수개이다.   
-• 리스트의 길이를 구하여 `len(sorted_list)/2` 하여 반으로 나누면 중간 index값이 된다.   ex.[0,1,2,3] 는 길이는 4, 중간 index 계산값은 2가 나온다.    
-• 우리가 필요한 1,2의 index 값은 1,2 이므로 `index_1`=중간 index -1, `index_2`=중간 index이다.     
-• 두개의 index 값을 더하여 평균값을 구하여 return(반환)한다.
+• else 절의 내용은 다음과 같이 처리한다.    
+• 리스트의 길이를 구하여 반으로 나누면 중간 index 값이 된다.    
+• i.g. len(sorted_list)/2     
+• i.g. 입력 리스트 [0,1,2,3] 는 길이는 4, 중간 index 계산값은 2가 나온다.    
+• 우리가 필요한 1, 2의 index 값은 1, 2 이므로,    
+• 변수 index_1 = 중간 index -1 이 된다.    
+• 변수 index_2 = 중간 index 이다.     
+• 두개의 index 값을 더하여 평균값을 구하여 반환(return)한다.
 {: .notice--info}
 
 
