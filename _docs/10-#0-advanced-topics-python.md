@@ -45,8 +45,10 @@ Note that the .items() method doesn't return key/value pairs in any specific ord
 
 
 **설명:** [ Learn ]     
-딕셔너리의 반복문에 대해서 연습해 보자. 앞에서 배운 딕셔너리의 key 와 value를 조작하는 법을 연습해 본다.    
-`d.items()`는 딕셔너리 `d`의 key 와 value를 리스트로 보여준다. 
+• Ch1. Iterators for Dictionaries 에서는 딕셔너리를 집중 학습한다.     
+• 딕셔너리의 반복문에 대해서 연습해 보자.    
+• 앞에서 배운 딕셔너리의 key 와 value를 조작하는 법을 연습해 본다.    
+• 'd.items()' 는 딕셔너리 d 의 key 와 value 를 리스트 형태로로 보여준다. 
 {: .notice--info}
 
 
@@ -61,8 +63,9 @@ Note that the .items() method doesn't return key/value pairs in any specific ord
 
 
 **설명:** [ Instruction ]    
-① 딕셔너리 `my_dict{}`작성하여라. 이 딕셔너리는 2, 3개의 key/value 쌍을 가지고 있다.    
-• `my_dict.item()`를 실행하여 그 결과를 출력하라.     
+• 딕셔너리 my_dict 작성하라.    
+• 이 딕셔너리는 2 or 3 개의 key/value 쌍을 가진다.        
+• 메서드 my_dict.item() 를 실행후, 그 결과를 출력하라.     
 {: .notice--info}
 
 
@@ -71,11 +74,11 @@ Note that the .items() method doesn't return key/value pairs in any specific ord
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can think of dictionaries as unordered key/value pairs.
+* You can think of dictionaries as unordered key/value pairs.
 
 
 **설명:** [ Hint ]    
-딕셔너리는 key/value가 출력될때, 입력한 순으로 정렬되지 않습니다.
+• 딕셔너리는 key/value 가 출력될때, 입력한 순으로 정렬되지 않는다.
 {: .notice--info}
 
 <br>
@@ -96,7 +99,9 @@ print my_dict.items()
 ```
 
 **설명:** [ Solution ]     
-딕셔너리 `my_dict`에 `name`, `age`, `occupation`를 key/value 쌍으로 입력한후, `my_dict.items()`내재 함수로 출력하였다.
+• 딕셔너리 my_dict 에 다음과 같은 정보가 key/value 쌍으로 저장되어 있다.    
+• 'name':'Nick', 'age':31, 'occupation':'Dentist'    
+• 메서드 my_dict.items() 를 호출후 출력한다.
 {: .notice--info}
 
 
@@ -123,11 +128,12 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 
 **설명:** [ Learn ]     
-`.items()` 내재 함수는 딕셔너리에서 key/value로 구성된 각각의 튜플 형태의 배열로 반환 됩니다.    
-• `.keys()` 내재 함수는 딕셔너리의 key값을 리스트 형태로 반환 됩니다.    
-• `.values()` 내재 함수는 딕셔너리의 value값을 리스트 형태로 반환 됩니다.   
-• key와 value 값은 순서 없이 반환 됩니다.    
-• 튜플은 리스트와 동일하지만, 틀린점은 `()`로 둘러쌓인 그 항목 값을 변경할 수 없습니다.
+• 2. Chkeys() and values() 에서는 딕셔너리의 메서드 및 튜플을 학습한다.    
+• 메서드 '.items()' 는 key/value 로 구성된 각각의 튜플 형태의 배열로 반환된다.    
+• 메서드 '.keys()' 는 key 값을 리스트 형태로 반환한다.        
+• 메서드 '.values()' 는 value 값을 리스트 형태로 반환한다.    
+• key 와 value 쌍값은 순서 없이 반환된다.    
+• 튜플은 리스트와 동일하지만, 틀린점은 '()'로 둘러쌓인 그 항목 값을 변경할수 없다.
 {: .notice--info}
 
 
@@ -137,11 +143,12 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Remove your call to `.items()` and replace it with a call to `.keys()` and a call to `.values()`, each on its own line. Make sure to print both!
+* Remove your call to `.items()` and replace it with a call to `.keys()` and a call to `.values()`, each on its own line. Make sure to print both!
 
 
 **설명:** [ Instruction ]    
-① `.item()`를 지우고, 대신에 `.keys()`와 `.values()`로 대체하여라. 그리고 각각을 출력하여라.
+• 메서드 '.item()' 를 지우고, 대신에 '.keys()' 와 '.values()' 로 대체하라.    
+• 그리고 각각을 출력하라.
 {: .notice--info}
 
 
@@ -150,13 +157,13 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-For instance, your call to `my_dict.keys()` might look like:
+* For instance, your call to `my_dict.keys()` might look like:    
 ```python
 print my_dict.keys()
 ```
 
 **설명:** [ Hint ]   
-`my_dict.keys()`는 key만 출력하는 것이다. 
+• 메서드 my_dict.keys() 는 key 만 출력한다.
 {: .notice--info}
 
 <br>
@@ -178,8 +185,8 @@ print my_dict.values()
 ```
 
 **설명:** [ Solution ]     
-• `my_dict.keys()`는 key만 리스트 형태로 출력한다.    
-• `my_dict.values()`는 value만 리스트 형태로 출력한다. 
+• 메서드 my_dict.keys() 는 딕셔너리 my_dict 의 key 값만 리스트 형태로 출력한다.    
+• 메서드 my_dict.values() 는 딕셔너리 my_dict 의 value 값만 리스트 형태로 출력한다.
 {: .notice--info}
 
 
@@ -215,17 +222,20 @@ for key in d:
 for letter in "Eric":
   print letter,  # note the comma!
 ```
-1. In the example above, first we create and iterate through a range, printing out 0 1 2 3 4. Note that the trailing comma ensures that we keep printing on the same line.
-2. Next, we create a dictionary and iterate through, printing out age 26 name Eric. Dictionaries have no specific order.
+* In the example above, first we create and iterate through a range, printing out 0 1 2 3 4. Note that the trailing comma ensures that we keep printing on the same line.    
+* Next, we create a dictionary and iterate through, printing out age 26 name Eric. Dictionaries have no specific order.
 Finally, we iterate through the letters of a string, printing out E r i c.
   
 
 
 
 **설명:** [ Learn ]     
-리스트(list), 튜플(tuple), 딕셔너리(dictionarie), 문자열(string)을 반복적으로 추출할때 직관적으로 `in`을 사용할 수 있다.     
-① `range(5)`로 0,1,2,3,4를 출력할때, `,`를 사용하면 같은 줄에 문자열을 출력할수 있다.     
-② 딕셔너리는 순차적으로 출력이 안된다. 그리고 E r i c로 출력된다.
+• Ch3. The 'in' Operator 에서는 for 문의 'in' 문법을 학습한다.    
+• 리스트(list), 튜플(tuple), 딕셔너리(dictionarie), 문자열(string)을 반복적으로 추출할때 직관적으로 'in' 을 사용할 수 있다.     
+• 함수 range(5) 는 숫자 0,1,2,3,4 를 생성해 준다.    
+• 이를 한줄로 출력 할려면, ( , ) 를 사용한다.     
+• 문자열 "Erir" 를 한줄출력 ( , ) 를 사용하여, "E r i c" 로 출력한다.    
+• 딕셔너리는 순서가 보장 안된다는것을 잊지 말라.
 {: .notice--info}
 
 
@@ -235,11 +245,13 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. For each key in `my_dict`: print out the key , then a space, then the value stored by that key. (You should use print a, b rather than print a + " " + b.)
+* For each key in `my_dict`: print out the key , then a space, then the value stored by that key. (You should use print a, b rather than print a + " " + b.)
 
 
 **설명:** [ Instruction ]    
-① 딕셔너리 `my_dict`를 key를 출력하고 중간에 공백 하나가 있고, 그다음에 value가 출력되도록 하라. `print a + " " + b` 보다는 `print a, b`를 사용하라. 
+• 딕셔너리 my_dict 를 key 와 value 를 출력하라.    
+• 단, key 와 value 사이에 공백 하나가 있어야 한다.     
+• 출력시 'print a + " " + b' 보다는 'print a, b'를 사용하라. 
 {: .notice--info}
 
 
@@ -248,14 +260,16 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You'll want to do something like this:
+* You'll want to do something like this:    
 ```python
 for key in some_dict:
   print key, some_dict[key]
 ```
 
 **설명:** [ Hint ]    
-`print (key , some_dict[key])`key 와 some_dict[key] 사시에 공백이 있어야 한다. 
+• 출력시 key 와 some_dict[key] 사이에 공백이 있어야 한다.    
+• 공백은 ( " " ) 아닌, ( , ) 를 사용하라.    
+• i.g.  print key, some_dict[key]
 {: .notice--info}
 
 <br>
@@ -277,7 +291,8 @@ for key in my_dict:
 ```
 
 **설명:** [ Solution ]     
-딕셔너리 `my_dict`에서 key 값을 읽어서, 해당 key 와 value값(my_dict[key])을 출력한다. 
+• 딕셔너리 my_dict 에서 key 값을 읽는다.    
+• key 값과 value값(my_dict[key])을 출력한다. 
 {: .notice--info}
 
 
@@ -307,9 +322,13 @@ But what if we wanted to generate a list according to some logic—for example, 
 Python's answer to this is the list comprehension. List comprehensions are a powerful way to generate lists using the for/in and if keywords we've learned.
 
 
-**설명:** [ Learn ]      
-0부터 50까지의 정수를 리스트에 저장하고 싶으면 `my_list = range(51)`이라고 사용하면 된다. 만약, 0부터 50사이의 짝수만 저장하고 싶다면?     
-Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여 list comprehension을 기능을 사용하면 쉽게 만들수 있다.
+**설명:** [ Learn ]     
+• Ch4. Building Lists 에서는 리스트 컴프레션을 학습한다.    
+• 0 ~ 50 까지의 정수를 리스트에 저장하는 법은 다음과 같다.    
+• i.g. my_list = range(51)     
+• 만약, 0부터 50사이의 짝수만 저장하고 싶다면?     
+• Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용 후      
+• 리스트 컴프레션(list comprehension)을 기능을 사용하면 쉽게 만들수 있다.
 {: .notice--info}
 
 
@@ -319,11 +338,11 @@ Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여 lis
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Check out the list comprehension example in the editor. When you're pretty sure you know what it'll do, click Run to see it in action.
+* Check out the list comprehension example in the editor. When you're pretty sure you know what it'll do, click Run to see it in action.
 
 
 **설명:** [ Instruction ]    
-① edit 창에 있는 소스를 이해하고 실행시켜 보아라. 
+• editor 창에 있는 소스를 이해하고 실행시켜라. 
 {: .notice--info}
 
 
@@ -352,7 +371,12 @@ print evens_to_50
 ```
 
 **설명:** [ Solution ]     
-리스트 안에 for 문과 if문을 두어 해당 결과값이 for 앞에 있는 i에 저장되어 리스트에 i 값이 장된다. 
+• 리스트 컴프레션(list comprehension) 을 사용하여 리스트를 만들었다.    
+• 리스트 컴프레션은 다음과 같이 동작한다.    
+• 리스트 안에 for 문과 if문을 두어 조건에 해당하는 값을 산출한다.    
+• for 문에서 함수 range(51)을 사용하여 0 ~ 50까지 값을 산출후 변수 i 에 저장한다.    
+• 만약, 저장된 i 값을 % 2 로 계산하여 나머지가 0 이면, 제일앞 변수 i 저장한다.    
+• 저장된 i 의 값은 리스트 형태로 변수 event_to_50 에 저장한다.
 {: .notipce--info}
 
 
@@ -371,17 +395,17 @@ print evens_to_50
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 5. List Comprehension Syntax    
 
-Here's a simple example of list comprehension syntax:
+Here's a simple example of list comprehension syntax:    
 ```python
 new_list = [x for x in range(1, 6)]
 # => [1, 2, 3, 4, 5]
-```
-This will create a new_list populated by the numbers one to five. If you want those numbers doubled, you could use:
+```    
+This will create a new_list populated by the numbers one to five. If you want those numbers doubled, you could use:    
 ```python
 doubles = [x * 2 for x in range(1, 6)]
 # => [2, 4, 6, 8, 10]
-```
-And if you only wanted the doubled numbers that are evenly divisible by three:
+```    
+And if you only wanted the doubled numbers that are evenly divisible by three:    
 ```python
 doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 # => [6]
@@ -390,10 +414,15 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 
 
 **설명:** [ Learn ]      
-다음 예제는 list comprehension에 관한것이다.    
-• `new_list = [ x for x in range(1, 6)]`는 맨 앞 x에 for 문 결과값이 저장된다.    
-• `doubles = [x * 2 for x in range(1, 6)]`는 맨 앞 x에 for문 결과값이 저장되고 그 결과에에  `x * 2` 한값이 저장된다.   
-• `doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]` for문과 if문이 실행되어 만족한 x 값 3이 맨앞 x 변수에 저장되어, 그 값에 `x * 2`한 값 6이 리스트에 저장된다. 
+• Ch5. List Comprehension Syntax 에서는 리스트 컴프레션 문법을 학습한다.    
+• 다음 예제는 list comprehension 에 관한것이다.    
+• 예제 1) 'new_list = [ x for x in range(1, 6)]'    
+• 예제 1 은 맨 앞 x 에 for 문 결과값이 저장된다.    
+• 예제 2) 'doubles = [x * 2 for x in range(1, 6)]'    
+• 예제 2 는 맨 앞 x에 for문 결과값이 저장되고, 다시 x 값에 곱하기 2 한 값이 저장된다.    
+• 예제 3) doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]    
+• 예제 3은 for 문과 if 문이 실행되어 만족한 x 값 3이 맨앞 x 변수에 저장된다.    
+• 그리고 그 값에 x 에 곱하기 2 한 값이 리스트에 저장된다.
 {: .notice--info}
 
 
@@ -403,14 +432,14 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use a list comprehension to build a list called `even_squares` in the editor.
+* Use a list comprehension to build a list called `even_squares` in the editor.
 
-Your `even_squares` list should include the squares of the even numbers between 1 to 11. Your list should start [4, 16, 36...] and go from there.
+* Your `even_squares` list should include the squares of the even numbers between 1 to 11. Your list should start [4, 16, 36...] and go from there.
 
 
 **설명:** [ Instruction ]    
-① 리스트 `even_squares`를 만들어라.     
-• 이 리스트 `even_squares`는 1부터 11사이의 숫자중 짝수의 제곱근을 저장하는 리스트이다.
+• 리스트 even_squares 를 작성하라.         
+• 리스트 even_squares 는 1 부터 11사이의 숫자중 짝수의 제곱근을 저장하는 리스트이다.
 {: .notice--info}
 
 
@@ -419,7 +448,7 @@ Your `even_squares` list should include the squares of the even numbers between 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can use `x ** 2` to square a number, and `x % 2 == 0` to check if it's even.
+* You can use `x ** 2` to square a number, and `x % 2 == 0` to check if it's even.    
 ```python
 # from 1 to 10
 range(1,11) 
@@ -428,7 +457,7 @@ range(1,12)
 ```
 
 **설명:** [ Hint ]    
-제곱근은 `x ** 2`로 구하고, 짝수는 `x % 2 == 0`으로 구한다.
+• 제곱근은 ( x ** 2 ) 로 구하고, 짝수는 ( x % 2 == 0 ) 로 구한다.
 {: .notice--info}
 
 <br>
@@ -448,9 +477,13 @@ print even_squares
 ```
 
 **설명:** [ Solution ]     
-• 먼저 for문을 실행하여 1부터 11까지의 숫자를 변수 x에 저장된다.    
-• if 문에서 추출된 x 의 값이 2로 나누어 나머지가 0이면, 즉 짝수인지를 판단하고,   
-• x가 if 조건을 만족하면 해당 x 값의 제곱을 구하여 리스트에 저장한다.   
+• 리스트 even_squares 를 리스트 컴프레션을 사용하여 다음과 같이 만들어진다.    
+• for 문에서  1(포함) 부터 12(미포함) 까지 산출하고, 변수 x 에 저장한다.    
+• if 문에서 변수 x 를 % 2 로 나누어서 나머지가 0 인지 확인한다.    
+• 맨 앞 변수 x 에 나머지가 0 ( 즉, 짝수 ) 인 값을 저장한다.    
+• 변수 x 값을 제곱( i.g. 'x ** 2' )한다.    
+• 리스트 even_squares 에 저장한다.     
+• 리스트 even_squares 를 출력한다. 
 {: .notice--info}
 
 
@@ -469,17 +502,20 @@ print even_squares
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 6. Now You Try!    
 
-Great work! Now it's time for you to create a list comprehension all on your own.
+Great work! Now it's time for you to create a list comprehension all on your own.    
 ```python
 c = ['C' for x in range(5) if x < 3]
 print c
-```
+```    
 The example above creates and prints out a list containing ['C', 'C', 'C'].
 
  
 
 **설명:** [ Learn ]     
-for문에서 5개의 x값을 구하고 이 x 값이 3보다 작은 경우는 0, 1, 2이다. 즉, 3번의 'C'문자가 리스트에 저장되고, 이 리스트 c 를 출력한다.
+• Ch6. Now You Try! 에서는 리스트 컴프레션을 집중 학습한다.    
+• for 문에서 5개의 x 값을 구한다.    
+• 구한 x 값이 3보다 작은 경우는 0, 1, 2이다. 횟수가 3 회이다.     
+• 즉, 3 번의 'C' 문자가 리스트에 저장되고, 이 리스트 c 를 출력한다.
 {: .notice--info}
 
 
@@ -489,22 +525,24 @@ for문에서 5개의 x값을 구하고 이 x 값이 3보다 작은 경우는 0, 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use a list comprehension to create a list, `cubes_by_four`.
+* Use a list comprehension to create a list, `cubes_by_four`.
 
 * The comprehension should consist of the cubes of the numbers 1 through 10 only if the cube is evenly divisible by four.
 
 * Finally, print that list to the console.
 
-Note that in this case, the cubed number should be evenly divisible by 4, not the original number.
+* Note that in this case, the cubed number should be evenly divisible by 4, not the original number.
 
 
 
 
 **설명:** [ Instruction ]    
-① 리스트 `cubes_by_four`에 list comprehension을 만들어라.     
-• 1부터 10까지의 숫자를 3제곱(cube) 하여 4로 나누어 떨어지는 값(X ** 3)을 리스트에 저장하라.     
-• 위 결과가 담긴 리스트 `cubes_by_four`을 출력하라.    
-리스트 `cubes_by_four`는 4로 나눈 나머지 값들이다. 원래 x 값이 아니라, x ** 3한 값을 저장하는 것이다.     
+• 리스트 cubes_by_four 를 리스트 컴프레션을 사용하여 작성하라.    
+• 1 부터 10까지의 숫자를 세제곱(cube) 한다.    
+• 이 값을 4로 나누어 떨어지는 값만 리스트에 저장하라.     
+• 위 결과가 담긴, 리스트 cubes_by_four 를 출력하라.    
+• 리스트 cubes_by_four 는 4로 나누어 떨어지는 값들이다.    
+• 원래 x 값이 아니라, 세제곱한 ( x ** 3 )한 값을 리스트에 저장하는 것이다.     
 {: .notice--info}
 
 
@@ -520,8 +558,8 @@ range(1,11)
 
 
 **설명:** [ Hint ]    
-• 1부터 10까지를 출력하려면, `range(1,11)`을 해야한다.    
-• x ** 3 한 값이 `x%4 ==0` 인 값을 저장하는 것이다. 
+• 1부터 10 까지를 출력하려면, 함수 range(1 , 11) 을 해야한다.    
+• x ** 3 한 값이 ( x % 4 == 0 )인 값을 저장한다.
 {: .notice--info}
 
 <br>
@@ -537,9 +575,15 @@ print cubes_by_four
 ```
 
 **설명:** [ Solution ]     
-• 8 은 `8%4==0`를 충족하고, x=2일때, `2 ** 3` 도 충족한다.      
-• 16 은 `16%4==0`은 충족하지만 `x ** 3 = 16`은 충족하지 않는다.    
-• 64 는 `64%4==0`을 충족하고, x=4일때, `4 ** 3`도 충족한다. 
+• 리스트 컴프레션을 사용하여 리스트 cubes_by_four를 작성한다.    
+• for 문에서, 1 부터 10 까지 숫자를 산출하여, 변수 x 에 저장한다.    
+• if 문에서, x 값을 세제곱한다. 그리고 4 로 나누어 떨어지는 비교하한다.    
+• if 문에서 True 인 x 값을, 맨앞 변수 x 에 저장한다.    
+• 맨앞 변수 x 를 세제곱한다.    
+• 세제곱한 변수 x 를 리스트 cubes_by_four 에 저장한다.    
+• i.g. 숫자 8 은 (8%4==0)를 충족하고, x=2일때, (2 ** 3) 도 충족한다.      
+• i.g. 숫자 16 은 (16%4==0)은 충족하지만 ( x ** 3 = 16 )은 충족하지 않는다.    
+• i.g. 숫자 64 는 (64%4==0)을 충족하고, x=4일때, (4 ** 3)도 충족한다. 
 {: .notice--info}
 
 
@@ -558,23 +602,30 @@ print cubes_by_four
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 7. List Slicing Syntax    
 
-* Sometimes we only want part of a Python list. Maybe we only want the first few elements; maybe we only want the last few. Maybe we want every other element!
+Sometimes we only want part of a Python list. Maybe we only want the first few elements; maybe we only want the last few. Maybe we want every other element!
 
-* List slicing allows us to access elements of a list in a concise manner. The syntax looks like this:
+List slicing allows us to access elements of a list in a concise manner. The syntax looks like this:    
 ```python
 [start:end:stride]
-```
-* Where start describes where the slice starts (inclusive), end is where it ends (exclusive), and stride describes the space between items in the sliced list. For example, a stride of 2 would select every other item from the original list to place in the sliced list.
+```    
+
+Where start describes where the slice starts (inclusive), end is where it ends (exclusive), and stride describes the space between items in the sliced list. For example, a stride of 2 would select every other item from the original list to place in the sliced list.
 
 
 
 **설명:** [ Learn ]    
-• 우리는 list의 일부분을 발췌하고 싶을때가 있다. 이럴때 List slicing 을 사용한다.    
-• List slicing은 우리가 리스트를 간편하게 접근하게 해준다. 문법은 다음과 같다. `[시작:끝:간격]    
-`시작(start)` : Slicing을 시작할 위치(포함)    
-`끝(end)` : Slicing 끝낼 위치(포함하지 않음)    
-`간격(stride)` : 시작을 포함하여 몇번째를 가져올지(옵션)
-• 시작은 포함하고, 끝은 포함하지 않는다. 간격은 옵션으로 시작을 포함하여 몇 번씩 가져올지를 나타낸다. 
+• Ch7. List Slicing Syntax  에서는 리스트 슬라이싱을 학습한다.    
+• 우리는 list 의 일부분을 발췌하고 싶을때가 있다.    
+• 이런경우 List slicing 을 사용한다.    
+• List slicing 은 리스트를 간편하게 접근하게 해준다.    
+• 문법은 다음과 같다.     
+• i.g. [시작:끝:간격]     
+• - 시작(start) : Slicing을 시작할 위치(포함)     
+• - 끝(end) : Slicing 끝낼 위치(포함하지 않음)    
+• - 간격(stride) : 시작을 포함하여 몇번째를 가져올지(옵션)
+• 시작은 해당값을 포함한다.    
+• 끝은 포함하지 않는다.     
+• 간격은 옵션이다. 시작을 포함하여 몇 번씩 가져올지를 나타낸다. 
 {: .notice--info}
 
 
@@ -584,11 +635,14 @@ print cubes_by_four
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. We've generated a list with a list comprehension in the editor to the right, and we're about to print a selection from the list using list slicing. Can you guess what will be printed out? Click Run when you think you know!
+* We've generated a list with a list comprehension in the editor to the right, and we're about to print a selection from the list using list slicing.     
+* Can you guess what will be printed out? Click Run when you think you know!
 
 
 **설명:** [ Instruction ]    
-① Edit 창에서 list comprehension을 돌려 보자. 어떤 값이 예상되는가? 결과값과 당신이 예상한 값이 맞는지 확인해 보라. 
+• Editor 창에 작성되어진 list comprehension을 돌려 보자.    
+• 어떤 값이 예상되는가?     
+• 결과값과 당신이 예상한 값이 맞는지 확인하라. 
 {: .notice--info}
 
 
@@ -619,8 +673,16 @@ print l[2:9:2]
 ```
 
 **설명:** [ Solution ]     
+• 리스트 컴프레션을 이용하여 리스트의 값을 구한다.     
+• for 문에서 1(포함)부터 11(미포함) 값을 산출하여 변수 i 에 저장한다.    
+• 변수 i 값을 제곱근하여 리스트 l 에 추가한다.    
 • 리스트의 값은 i 값의 제곱값이 저장된다.[1, 4, 9, 16, ... 81, 100]    
-• 출력되는 값은 index 두번째 값인 9 부터(포함) index 아홉번째 값인 100(미포함)중, 9부터 2번째 항목인 `[9, 25, 49, 81]`가 출력 될 것이다.
+• 출력시 리스트 슬라이싱을 활용한다.    
+• 슬라이싱 조건은 index 2번(포함) 부터 index 9(미포함) 사이의 값을 잘라낸다.    
+• 슬라이싱 옵션은 첫번째를 기준으로 1칸씩 건너뛰어 출력한다.    
+• index 2번 값은 9 이다. (포함)   
+• index 9번 값은 100 이다. (미포함)    
+• 이 사이의 값중 9부터 1칸씩 건너뛰니, [9, 25, 49, 81]가 출력된다.
 {: .notice--info}
 
 
@@ -638,7 +700,7 @@ print l[2:9:2]
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 8. Omitting Indices    
 
-If you don't pass a particular index to the list slice, Python will pick a default.
+If you don't pass a particular index to the list slice, Python will pick a default.    
 ```python
 to_five = ['A', 'B', 'C', 'D', 'E']
 
@@ -650,7 +712,7 @@ print to_five[:2]
 
 print to_five[::2]
 # print ['A', 'C', 'E']
-```
+```    
 The default starting index is 0.
 The default ending index is the end of the list.
 The default stride is 1.
@@ -659,12 +721,13 @@ The default stride is 1.
 
 
 **설명:** [ Learn ]   
-리스트에서 특정 index를 지정하지 못할 경우에는, 범위와 조건을 주어 리스트의 특정 값을 골라 낼수 있다.     
-[예]    
-• `to_five[3:]` 는 index 3번(포함)부터 마지막(불포함)까지의 값을 골라 낸다.    
-• `to_five[:2]` 는 처음(포함)부터 index 2번(불포함)까지의 값을 골라 낸다.   
-• `to_five[::2]`는 처음(포함)부터 마지막(불포함)까지의 값 중, 하나씩 건너 뛰면서 골라낸다.   
-• index의 처음은 0부터 시작한다.    
+• Ch8. Omitting Indices 에서는 리스트 슬라이싱 활용을 학습한다.    
+• 리스트에서 특정 index를 지정하지 못할 경우가 있다.    
+• 이런경우, 범위와 조건을 주어 리스트의 특정 값을 골라 낼수 있다.     
+• i.g. 'to_five[3:]' 는 index 3번(포함)부터 마지막(미포함)의 값을 골라 낸다.    
+• i.g. 'to_five[:2]' 는 처음(포함)부터 index 2번(미포함)까지의 값을 골라 낸다.   
+• i.g. 'to_five[::2]'는 처음(포함)부터 마지막(미포함)까지의 값중, 하나씩 건너 뛰면서 골라낸다.   
+• index는 0 부터 시작한다.    
 {: .notice--info}
 
 
@@ -674,7 +737,7 @@ The default stride is 1.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use list slicing to print out every odd element of `my_list` from start to finish.
+* Use list slicing to print out every odd element of `my_list` from start to finish.
 
 * Omit the start and end index. You only need to specify a stride.
 
@@ -682,9 +745,10 @@ The default stride is 1.
 
 
 **설명:** [ Instruction ]    
-① `my_list` 에서 홀수 값만 골라 내어 출력하여라.    
-• 처음과 마지막을 표현한는 곳에는 값을 넣지 말라. 옵션인 조건(stride)을 활용하여라.    
-• 힌트를 참조하여라.
+• 리스트 my_list 에서 홀수값만 골라 내어 출력하라.    
+• 처음과 마지막을 표현한는 곳에는 값을 넣지 말라.     
+• 옵션 조건(stride)을 활용하라.    
+• 힌트를 참조하라.
 {: .notice--info}
 
 
@@ -693,17 +757,17 @@ The default stride is 1.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, the syntax for list slicing is
+* Remember, the syntax for list slicing is    
 ```python
 [start:end:stride]
-```
-Since you're using the entire list, you should leave out the start and end indices (but leave in the colons!) and give the slice a stride that will select every other (that is, odd) element.
+```    
+* Since you're using the entire list, you should leave out the start and end indices (but leave in the colons!) and give the slice a stride that will select every other (that is, odd) element.
 
 
 **설명:** [ Hint ]    
-`[start(처음):end(마지막):stride(조건, 옵션)]`    
-• 전체를 사용해야 하므로 `[::stride]` 처음과 마지막에 빈칸이어야 한다.     
-• 홀수만 추출해야 하기에, 옵션인 `조건(stride)`을 주어야 한다.
+• [start(처음):end(마지막):stride(조건, 옵션)]        
+• 처음과 마지막은 빈칸이란 의미는 전체를 사용해야 한다. (i.g. [ : : stride])
+• 홀수만 추출해야 하기에, 옵션인 조건(stride) 이 필요하다.
 {: .notice--info}
 
 <br>
@@ -721,10 +785,15 @@ print my_list[::2]
 ```
 
 **설명:** [ Solution ]     
-• 1부터 10까지의 정수를 리스트 `my_list=[1,2,3,4,5,6,7,8,9,10]`에 생성한다.   
-• `my_list[::2]`를 index 처음(0)부터 끝(9)까지 추출하는데, 첫번(0)째 index부터 2칸 뛴 값 들을 출력한다.
-• my_list=[1,2,3,4,5,6,7,8,9,10]    
-• index -> 0,1,2,3,4,5,6,7,8, 9 
+• 1부터 10 까지의 정수를 생성한다.    
+• 리스트 my_list 에 [ 1,2,3,4,5,6,7,8,9,10 ] 를 저장한다.    
+• 리스트 my_list[::2] 를 출력한다.    
+• 출력조건은 다음과 같다.    
+• index 처음(0)부터 끝(9)까지 추출한다.    
+• 첫번째(index : 0)는 포함, 마지막은(index : 10) 미포함.    
+• 옵션은 1칸씩 건너뛴다.     
+• i.g. my_list=[1,2,3,4,5,6,7,8,9,10]    
+• i.g. index -> 0,1,2,3,4,5,6,7,8, 9, 10(Null) 
 {: .notice--info}
 
 
@@ -745,17 +814,20 @@ print my_list[::2]
 
 We have seen that a **positive stride** progresses through the list from left to right.
 
-A **negative stride** progresses through the list from right to left.
+A **negative stride** progresses through the list from right to left.    
 ```python
 letters = ['A', 'B', 'C', 'D', 'E']
 print letters[::-1]
-```
+```    
 In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 
 
 **설명:** [ Learn ]     
-지금껏 옵션(stride)을 양수값만 주었는데, 양수값은 왼쪽부터 오른쪽으로 index를 읽는다. 반대로 이번에는 음수값을 주어 보자.    
+• Ch9. Reversing a List 에서는 역순(Revers)을 학습한다.    
+• 지금껏 옵션(stride)을 양수값만 주었다.    
+• 양수값은 왼쪽부터 오른쪽으로 index를 읽는다.    
+• 반대로 음수값을 주어 보자.    
 • 옵션(stride)을 음수를 지정하면, 오른쪽부터 왼쪽으로 index를 읽어 처리한다.       
 {: .notice--info}
 
@@ -766,14 +838,15 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a variable called `backwards` and set it equal to the reversed version of `my_list`.
+* Create a variable called `backwards` and set it equal to the reversed version of `my_list`.
 
-Make sure to reverse the list in the editor by passing your list slice a negative stride, like in the example above.
+* Make sure to reverse the list in the editor by passing your list slice a negative stride, like in the example above.
 
 
 **설명:** [ Instruction ]    
-① 리스트 변수 `backwards`를 만들어서, `my_list`의 값을 역순으로 `backwards`에 저장하라.    
-• edit 창에서, list slice의 옵션(stride)를 사용하여 역순으로 만들어라.
+• 리스트 backwards 를 생성하라.    
+• 리스트 my_list 의 값을 역순으로 만들어, 리스트 backwards 에 저장하라.    
+• Editor 창에서, list slice의 옵션(stride)을 사용하여 역순으로 만들어라.
 {: .notice--info}
 
 
@@ -784,11 +857,13 @@ Make sure to reverse the list in the editor by passing your list slice a negativ
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 ```python
 list_reverse[::-1] # reverse
-```
+```    
 Do not print `backwards`
 
 **설명:** [ Hint ]    
-`list_reverse[::-1]`는 리스트를 역순으로 만든다. 역순인 `backwards`만 만들고 출력은 하지 마라.
+• 리스트 옵션의 ( -1 ) 값은 리스트를 역순으로 슬라이싱 한다.    
+• i.g. list_reverse[::-1]    
+• 리스트 backwards 에 list_reverse의 역순값만 저장하고, 출력은 하지마라.
 {: .notice--info}
 
 <br>
@@ -806,8 +881,10 @@ backwards = my_list[::-1]
 ```
 
 **설명:** [ Solution ]     
-`backwards`에는 [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 이 저장 될 것이다.    
-궁금하면, 살짝 `print (backwards)`를 코딩하고, 실행 시켜 본다. 확인후 print문은 지우고 다음으로 넘어가자.
+• 리스트 my_list 에 1번(포함)부터 11번(미포함)까지의 값을 저장한다.    
+• 리스트 my_list 를 오른쪽부터 읽어서 리스트 backwards 에 저장한다.    
+• 리스트 backwards 에는 [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 이 저장된다.    
+• 궁금하면, 살짝 'print (backwards) 를 코딩하고, 실행 시켜 본다.    
 {: .notice--info}
 
 
@@ -832,9 +909,13 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 
 
 
-:**설명:** [ Learn ]     
-• 옵션인 stride(건너뛰다) 는 양수이면 왼쪽에서 오른쪽으로, 음수이면 오른쪽에서 왼쪽으로 진행한다.  
-• 게다가 stride의 값에 따라, 1이면 1칸씩 , 2이면 두칸씩 건너뛴다. 
+:**설명:** [ Learn ]    
+• Ch10. Stride Length 에서는 리스트 옵션(stride)을 집중 학습한다.    
+• 옵션인 stride(건너뛰다) 는 다음과 같이 동작한다.    
+• 양수이면 왼쪽에서 오른쪽으로 진행한다.    
+• 음수이면 오른쪽에서 왼쪽으로 진행한다.     
+• 옵션(stride)의 값에 따라, 1이면 1칸씩 , 2이면 두칸씩 건너뛴다.     
+• 1 에서 2로 가는것은 1칸씩 건너뛰는 것이다. 1에서 3으로 가는것은 2칸씩 건너뛰는 것이다.
 {: .notice--info}
 
 
@@ -844,16 +925,16 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a variable, `backwards_by_tens`, and set it equal to the result of going backwards through `to_one_hundred` by tens. Go ahead and print `backwards_by_tens` to the console.
+* Create a variable, `backwards_by_tens`, and set it equal to the result of going backwards through `to_one_hundred` by tens. Go ahead and print `backwards_by_tens` to the console.
 
 
 **설명:** [ Instruction ]    
-① 역순 list slicing에서 stride 값을 주는것을 연습해 보자.    
-• 리스트 변수 `backwards_by_tens`를 만들어라.    
-• 리스트 `to_one_hundred`에서 생성된 값을 역순으로 만어라.    
-• `to_one_hundred`를 역순으로 만들때, 옵션으로 10칸씩 건너뛰게 하라.    
-• 생성된 값을 `backwards_by_tens`에 넣어라.     
-• 그리고 `backwards_by_tens`를 출력한다.
+• 역순 조건에서 건너뛰기(stride) 값을 주는것을 연습한다.    
+• 리스트 backwards_by_tens 를 생성하라.        
+• 리스트 to_one_hundred 에서 생성된 값을 역순으로 만들어라.        
+• 리스트 to_one_hundred 를 역순으로 만들때, stride 값으로 10칸씩 건너뛰게 하라.    
+• 리스트 backwards_by_tens 에 to_one_hundred(역순&10칸)을 저장하라.        
+• 리스트 backwards_by_tens 를 출력하라.
 {: .notice--info}
 
 
@@ -868,8 +949,8 @@ new_list = old_list[begin:end:stride]
 ```
 
 **설명:** [ Hint ]    
-• `old_list[begin:end:stride]`를 활용하세요.    
-• stride 값으로 역순이고, 10칸씩 건너뛰는 것은 -10
+• 리스트 슬라이싱 old_list[begin:end:stride] 를 활용하라.    
+• stride 값으로 역순이고, 10칸씩 건너뛰는 것은 '-10' 이다.
 {: .notice--info}
 
 <br>
@@ -888,8 +969,10 @@ print backwards_by_tens
 ```
 
 **설명:** [ Solution ]     
-• `range(101)`은 0부터 100까지 총 101개 생성한다.   
-• `to_one_hundred[::-10]`은 역순으로 10칸씩 건너뛰는 것이다.
+• 리스트 to_one_hundred 에 0(포함)부터 101(미포함)까지 값을 생성하여 저장한다.    
+• 리스트 to_one_hundred[::-10] 은 역순으로 10칸씩 건너뛰는 것이다.    
+• [100,99,98,97,96,....,0] 중 10칸씩 건너뛰면, [100, 90, 80, ...., 0]    
+• 리스트 backwards_by_tens 를 출력한다.
 {: .notice--info}
 
 
@@ -915,7 +998,8 @@ Let's do one more, just to prove you really know your stuff.
 
 
 **설명:** [ Learn ]    
-list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘를 해보세요.  
+• Ch11. Practice Makes Perfect 에서는 리스트 슬라이싱을 집중 학습한다.    
+• List slicing 은 정말 유용하다. 그럼, 한번더 당신의 실력을 발휘해 보자.
 {: .notice--info}
 
 
@@ -925,7 +1009,7 @@ list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a list, `to_21`, that's just the numbers from 1 to 21, inclusive.
+* Create a list, `to_21`, that's just the numbers from 1 to 21, inclusive.
 
 * Create a second list, `odds`, that contains only the odd numbers in the `to_21` list (1, 3, 5, and so on). Use list slicing for this one instead of a list comprehension.
 
@@ -933,9 +1017,10 @@ list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘�
 
 
 **설명:** [ Instruction ]    
-① 리스트 변수 `to_21`을 만들고, 값을 1부터 21까지 저장하라.    
-• 리스트 변수 `odds`에 `to_21`의 홀수 값(1,3,5,...)를 입력하라. 단, list slicing만 사용하여야 한다.(list comprehension사용하지 말라.)    
-• 리스트 변수 `middle_third`에 `to_21`중 8부터 14까지 값을 저장하라.
+• 리스트 변수 to_21 을 생성하고, 값을 1 부터 21 까지 저장하라.    
+• 리스트 변수 odds 에 리스트 to_21 의 홀수 값(1,3,5,...)를 저장하라.     
+• 단, list slicing 만 사용하라. (list comprehension 사용금지)    
+• 리스트 middle_third 에 리스트 to_21 중 8부터 14까지 값을 저장하라.
 {: .notice--info}
 
 
@@ -971,9 +1056,12 @@ middle_third = to_21[7:14]
 ```
 
 **설명:** [ Solution ]     
-• `range(1,22)`는 1붜 21까지 총 21개 정수 발생    
-• `to_21[::2]`는 index 0 값(1)부터 끝까지 중 2칸씩 건너뛰어 발생   
-• `to_21[7:14]`는 index 7값(8)부터 index 14(15) 값을 발생
+• 함수 range(1, 22) 는 1부터 21까지 총 21개 정수를 생성한다.         
+• 리스트 슬라이싱 to_21[ : : 2] 는 index 0 부터 끝까지 잘라낸다.    
+• Stride 2 는 2 칸씩 건너뛰어 값을 고른다.         
+• 이 값을 리스트 odds 에 저장한다.    
+• 리스트 슬라이싱 to_21[7 : 14]는 index 7 부터 index 14를 잘라낸다.    
+• 이 값을 리스트 middle_third 에 저장한다.
 {: .notice--info}
 
 
@@ -994,26 +1082,32 @@ middle_third = to_21[7:14]
 
 One of the more powerful aspects of Python is that it allows for a style of programming called **functional programming**, which means that you're allowed to pass functions around just as if they were variables or values. Sometimes we take this for granted, but not all languages allow this!
 
-Check out the code at the right. See the **lambda** bit? Typing
+Check out the code at the right. See the **lambda** bit? Typing    
 ```python
 lambda x: x % 3 == 0
-```
-Is the same as
+```    
+Is the same as    
 ```python
 def by_three(x):
   return x % 3 == 0
-```
-Only we don't need to actually give the function a name; it does its work and returns a value without one. That's why the function the lambda creates is an anonymous function.
+```     
+Only we don't need to actually give the function a name; it does its work and returns a value without one. That's why the function the lambda creates is an anonymous function.    
 
-When we pass the lambda to filter, filter uses the lambda to determine what to filter, and the second argument (my_list, which is just the numbers 0 – 15) is the list it does the filtering on.
-
-
+When we pass the lambda to filter, filter uses the lambda to determine what to filter, and the second argument (my_list, which is just the numbers 0 – 15) is the list it does the filtering on.    
 
 
-**설명:** [ Learn ]     
-• Python의 특징중 하나가, 변수나 값을 넘기듯이 함수 자체를 넘길수 있다는 것이다. 이는 모든 언어에서 지원하는 것은 아니고, Python에서는 이 기능을 지원한다.    
-• Python의 특징중, 독특한 것이 하나 있는데, `lambda`라는 것이다. `lambda`는 함수의 이름을 호출하지 않고도 함수를 호출하여 계산한 것처럼, anonymous함수를 만들어 동작한다. 다음장에서 `lambda`에 대한 자세한 문법을 배울것이다. 
-• `lambda`는 입력값에서 값을 인자에 넘겨(필터링 한다고 표현), 표현식을 진행하고 그 결과값을 다시 돌려 받는다.`lambda`의 두번째 인수는 입력값 이다.  
+
+
+**설명:** [ Learn ]      
+• Ch12. Anonymous Functions 에서는 람다(lambda)를 학습한다.    
+• Python의 특징중 하나가, 변수나 값을 넘기듯이 함수 자체를 넘길수 있다는 것이다.    
+• 이는 모든 언어에서 지원하는 것은 아니고, Python에서는 이 기능을 지원한다.    
+• Python의 특징중, 독특한 것이 하나 있는데, `lambda`라는 것이다.    
+• 함수 `lambda` 는 함수의 이름을 호출하지 않고도 anonymous(익명)함수를 만들어 동작한다.    
+• 다음 장에서 함수 lambda 에 대한 자세한 문법을 배울것이다.     
+• 함수 lambda 는 다음과 같이 동작한다.    
+• 입력값을 인자에 넘겨(필터링 한다고 표현), 표현식을 진행하고 그 결과값을 다시 돌려받는다.    
+• 함수 lambda 의 두번째 인수는 입력값 이다.  
 {: .notice--info}
 
 
@@ -1023,11 +1117,12 @@ When we pass the lambda to filter, filter uses the lambda to determine what to f
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Can you guess what the this code will print to the console? Click Run to see.
+* Can you guess what the this code will print to the console?    
+* Click Run to see.
 
 
 **설명:** [ Instruction ]    
-① Edit 창에 있는 소스를 실행시켜 어떻게 처리 되는지 알아보자.
+• Editor 창에 있는 소스를 실행시켜 어떻게 처리 되는지 살펴보자.
 {: .notice--info}
 
 
@@ -1056,9 +1151,11 @@ print filter(lambda x: x % 3 == 0, my_list)
 ```
 
 **설명:** [ Solution ]     
-• 입력값 `my_list`에서 값을 추출하여 `x`에 저장한다.     
-• `x%3==0`인것만 `filter` 하여 뽑아낸다.    
-• 출력한다.
+• 리스트 my_list 에 0부터 15까지의 숫자 16개를 산출하여 저장한다.    
+• 리스트 my_list 를 lambda 에 입력값으로 넘겨준다.    
+• 리스트 my_list 값에서 하나씩 값을 추출하여 변수 x 에 저장한다.     
+• 비교 연산 ( x % 3 == 0 )에 True 조건인것만 filter 하여 뽑아낸다.    
+• filtering 된 값을 출력한다.
 {: .notice--info}
 
 
@@ -1075,12 +1172,14 @@ print filter(lambda x: x % 3 == 0, my_list)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-### 13. Lambda Syntax
-Lambda functions are defined using the following syntax:
+### 13. Lambda Syntax    
+
+Lambda functions are defined using the following syntax:    
+
 ```python
 my_list = range(16)
 filter(lambda x: x % 3 == 0, my_list)
-```
+```    
 Lambdas are useful when you need a quick function to do some work for you.
 
 If you plan on creating a function you'll use over and over, you're better off using def and giving that function a name.
@@ -1088,9 +1187,12 @@ If you plan on creating a function you'll use over and over, you're better off u
 
 
 **설명:** [ Learn ]    
-`lambda`함수는 다음 예와 같이 사용한다.     
-`filter(lambda x: x % 3 == 0, my_list)`    
-`lamda`는 함수를 정의할때, `def`함수 선언이 필요없이 빠르게 한줄로 함수를 구현할때 사용이 가능하다. 함수 이름을 줄 필요도 없다.(Anonymous function)  
+• Ch13. Lambda Syntax 에서는 lambda 의 문법을 학습한다.    
+• 함수 lambda 는 다음과 같이 사용한다.     
+• i.g. filter(lambda x: x % 3 == 0, my_list)    
+• 함수 lamda 를 정의할때, def 함수 선언이 필요없다.    
+• 빠르게 한줄로 함수를 구현할때 사용이 가능하다.    
+• 함수 이름을 줄 필요도 없다.(Anonymous function)  
 {: .notice--info}
 
 
@@ -1100,14 +1202,16 @@ If you plan on creating a function you'll use over and over, you're better off u
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Fill in the first part of the `filter` function with a `lambda`. The `lambda` should ensure that only "Python" is returned by the filter.
+* Fill in the first part of the `filter` function with a `lambda`. The `lambda` should ensure that only "Python" is returned by the filter.
 
-• Fill in the second part of the filter function with languages, the list to filter.
+* Fill in the second part of the filter function with languages, the list to filter.
 
 
 **설명:** [ Instruction ]    
-① `filter` 첫번째 항목에 `lambda`를 사용하라. `lambda` 기능은 `x`가 "Python"인지를 확인한여 맞으면 `filter`에 그 결과를 반환한다.    
-•  `filter` 두번째 항목에 전달할 리스트를 넣어라.
+• filter 첫번째 항목에 함수 lambda 를 작성하라.    
+• 함수 lambda 는 다음과 같이 동작한다.    
+• 변수 x 가 입력된 리스트중 문자열값이 "Python" 과 같으면 그 결과를 반환한다.    
+• filter 두번째 항목에 입력될 리스트를 넣어라.
 {: .notice--info}
 
 
@@ -1116,13 +1220,15 @@ If you plan on creating a function you'll use over and over, you're better off u
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, `filter()` takes **two arguments**: the first is the function that tells it what to filter, and the second is the object to perform the filtering on.
+* Remember, `filter()` takes **two arguments**: the first is the function that tells it what to filter, and the second is the object to perform the filtering on.
 
 
 **설명:** [ Hint ]    
-• `filter()`함수는 2개의 arguments를 가진다.     
-• 첫번째 인자는 필터링할 내용(즉, 조건 `lambda x:x=="Python"`)을 적어준다.    
-• 두번째 인자는 필터링할 대상(즉, 입력값 `languages`)를 적어준다.
+• 함수 filter() 는 2개의 arguments 를 가진다.     
+• 첫번째 인자는 필터링할 내용을 적어준다.    
+• i.g. ( lambda x:x=="Python" )    
+• 두번째 인자는 필터링할 대상, 입력값을 적어준다.    
+• i.g. ( 입력값 리스트 'languages')를 적어준다.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1136,9 +1242,11 @@ print filter(lambda x: x == "Python", languages)
 ```
 
 **설명:** [ Solution ]     
-• `filter()`함수에서 첫번째, `lambda`를 실행시켜 `x`가 "Python" 인것만 반환한다.   
-• 두번째 인자에는 입력값 `languages`를 넣어준다.   
-• 그 결과값을 반환한다.
+• 함수 filter() 에서 는 입력값이 문자열 "Python" 인것을 추출한다.    
+• 함수 filter() 는 2개의 arguments 를 가지며, 다음과 같이 동작한다.    
+• 첫번째 argument : 함수 lambda 를 실행시켜 변수 x 가 "Python" 인것만 반환한다.   
+• 두번째 인자에는 입력값 리스트 languages 를 넣어준다.   
+• filtering 된 결과값을 출력한다.
 {: .notice--info}
 
 
@@ -1156,19 +1264,22 @@ print filter(lambda x: x == "Python", languages)
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 14. Try It!    
 
-All right! Time to test out `filter()` and `lambda` expressions.
+All right! Time to test out `filter()` and `lambda` expressions.    
 ```python
 cubes = [x ** 3 for x in range(1, 11)]
 filter(lambda x: x % 3 == 0, cubes)
-```
+```    
 The example above is just a reminder of the syntax.
 
 
 
 **설명:** [ Learn ]     
-• `filter()`과 `lambda`표현을 조금 더 연습해 보자.    
-• list comprehension을 사용하여 변수 리스트 `cubes`에 `x`가 1부터 10까지의 x 값을 이용하여 `x ** 3`값을 저장한다. 
-• `filter`에서 `cubes`를 입력받아, `x % 3 ==0`값을 골라 낸다.
+• Ch14. Try It! 에서는 람다(lambda)를 집중 추가 학습한다.    
+• filter() 과 lambda 표현을 조금 더 연습해 보자.    
+• 리스트 컴프레션을 사용하여, 1 부터 10 까지의 수를 세제곱(x ** 3)한 값을 생성한다.    
+• 이 결과를 리스트 cubes 에 저장한다.     
+• filter 첫번째 인자로 함수 lambda를 사용하여 변수 x % 3 == 0 인값을 정의한다.     
+• filter 두번째 인자로 리스트 cubes 를 입력 받는다.
 {: .notice--info}
 
 
@@ -1178,15 +1289,18 @@ The example above is just a reminder of the syntax.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a list, `squares`, that consists of the squares of the numbers 1 to 10. A list comprehension could be useful here!
+* Create a list, `squares`, that consists of the squares of the numbers 1 to 10. A list comprehension could be useful here!
 
 * Use `filter()` and a `lambda` expression to print out only the squares that are between 30 and 70 (inclusive).
 
 
 **설명:** [ Instruction ]    
-① 변수 리스트 `squares`에  1부터 10까지의 제곱근 값을 list comprehension 을 사용하여 저장하라.   
-• `filter()`, `lambda`를 사용하여 제곱근 값중 30과 70이하의 값을 출력하라. 
-
+• 리스트 컴프레션을 사용하여 1부터 10까지의 제곱근값을 생성한다.    
+• 리스트 squares 에 이 값을 저장한다.    
+• filter()에서 lambda 를 사용하여 filtering 한다.    
+• 첫번째 argument : lambda 조건은 입력값 중 30 이상 70 이하의 값을 추출한다.    
+• 두번째 argument : 입력값은 리스트 squares 를 입력받는다.
+• filtering 한 결과를 출력하라.
 {: .notice--info}
 
 
@@ -1195,13 +1309,13 @@ The example above is just a reminder of the syntax.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You'll want to filter for 
+* You'll want to filter for     
 ```python
 x >= 30 and x <= 70.
 ```
 
 **설명:** [ Hint ]    
-`x >=30 and x <= 70`을 활용하라.
+• lambda 조건식을 ( x >=30 and x <= 70)을 활용하라.
 {: .notice--info}
 
 
@@ -1219,9 +1333,14 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 ```
 
 **설명:** [ Solution ]     
-• list comprehension 을 사용하여 1부터 10까지를 산출(`range(1,11)`)한 값을 제곱근(`x ** 2`)한 결과를 변수 `squares`에 저장한다.     
-• `filter()`를 사용하여 입력값 `squares`를 두번째 인자에 넣고, `lambda`로 조건(`x>=30 and x<=70`)을 첫번째 인자에 기술한다.    
-• `filter()`결과값을 출력한다. 
+• list comprehension 을 사용하여 다음과 같이 동작한다.    
+• 함수 range(1, 11)을 사용하여 1부터 10까지를 산출한다.    
+• for 문에서 x 값을 추출하여 제곱근한 값을 산출한다.    
+• 리스트 squares 에 산출한 값을 저장한다.    
+• lambda를 사용하여 다음과 같이 filter() 한다.    
+• 첫번째 argument : lambda 에서 변수 x 가 30 이상 & 70 이하인 조건만 추출한다.    
+• 두번째 argument : 입력값으로 리스트 squares 를 입력 받는다.
+• filter() 결과값을 출력한다. 
 {: .notice--info}
 
 
@@ -1246,7 +1365,7 @@ First, let's review iterating over a `dict`.
 
 
 **설명:** [ Learn ]   
-딕셔너리의 반복을 다시 복습해 보자.
+• Ch15. Iterating Over Dictionaries 에서는 딕셔너리리 반복을 학습한다.
 {: .notice--info}
 
 
@@ -1256,13 +1375,13 @@ First, let's review iterating over a `dict`.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Call the appropriate method on `movies` such that it will print out all the items (hint, hint) in the dictionary—that is, each key and each value.
+* Call the appropriate method on `movies` such that it will print out all the items (hint, hint) in the dictionary—that is, each key and each value.
 
 
 
 
 **설명:** [ Instruction ]    
-① 적당한 내재 함수를 이용하여 변수 `movies`에 들어있는 항목들 key/value값을 출력하라.
+• 적당한 함수를 이용하여 딕셔너리 movies 에 들어있는 항목들 key/value 값을 출력하라.
 {: .notice--info}
 
 
@@ -1271,11 +1390,13 @@ First, let's review iterating over a `dict`.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You'll just want to print the result of calling the `.items()` method on your `movies`. No loops necessary!
+* You'll just want to print the result of calling the `.items()` method on your `movies`. No loops necessary!
 
 
 **설명:** [ Hint ]    
-`.items()`를 활용하여 딕셔너리 `movies`의 항목들 key/value을 출력하여라. loop를 사용할 필요가 없다. 
+• 메서드 '.items()' 를 활용하라.    
+• 딕셔너리 movies 의 항목들 key/value 을 출력하여라.     
+• loop를 사용할 필요가 없다. 
 {: .notice--info}
 
 <br>
@@ -1296,7 +1417,7 @@ print ( movies.items() )
 ```
 
 **설명:** [ Solution ]     
-`movies.items()`는 딕셔너리의 항목값들을 튜플 상태로 반환해 준다. 
+• 메서드 movies.items() 는 딕셔너리의 항목값들을 튜플 형태로 반환한다. 
 {: .notice--info}
 
 **결과**     
@@ -1313,7 +1434,7 @@ print ( movies.items() )
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ## 16. Comprehending Comprehensions    
 
-Good! Now let's take another look at list comprehensions.
+Good! Now let's take another look at list comprehensions.    
 ```python
 squares = [x ** 2 for x in range(5)]
 ```
@@ -1321,7 +1442,7 @@ squares = [x ** 2 for x in range(5)]
 
 
 **설명:** [ Learn ]     
-list comprehensions를 복습해 보자.
+• Ch16. Comprehending Comprehensions 에서는 리스트 컴프레션을 집중 학습한다.
 {: .notice--info}
 
 
@@ -1331,11 +1452,12 @@ list comprehensions를 복습해 보자.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Use a list comprehension to create a list, `threes_and_fives`, that consists only of the numbers between 1 and 15 (inclusive) that are evenly divisible by 3 or 5.
+* Use a list comprehension to create a list, `threes_and_fives`, that consists only of the numbers between 1 and 15 (inclusive) that are evenly divisible by 3 or 5.
 
 
 **설명:** [ Instruction ]    
-① 변수 리스트`threes_and_fives`를 만들고, 1부터 15까지의 숫자중 3 or 5로 나누어 떨어지는 값들만 저장하라.
+• 리스트 threes_and_fives 를 생성하라.    
+• 이 리스트에  1부터 15까지의 숫자중 3 or 5로 나누어지는 떨어지는 값들만 저장하라.
 {: .notice--info}
 
 
@@ -1344,19 +1466,22 @@ list comprehensions를 복습해 보자.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, list comprehension syntax looks like this:
+* Remember, list comprehension syntax looks like this:    
 ```python
 list_name = [var for var in range]
-```
-You can include an optional `if` statement after the range. (You'll need such an `if` statement to check whether the numbers are evenly divisible by 3 or 5.)
+```    
+* You can include an optional `if` statement after the range. (You'll need such an `if` statement to check whether the numbers are evenly divisible by 3 or 5.)    
 
-Remember, modulo (`%`) is a good way to check if a number is evenly divisible by another.
+* Remember, modulo (`%`) is a good way to check if a number is evenly divisible by another.
 
 
 
 
 **설명:** [ Hint ]    
-• `for`문으로 `range()`를 구하고, 그 밑에 `if`문과 모듈연산자 `%`를 이용하여 3 or 5로 나누어 지는 값을 구한다. 
+• 리스트 컴프레션을 이용하여 작성하여야 한다.
+• for 문에서 함수 range() 로 구한 값 만큼 looping(반복)한다.    
+• for 문 블럭에서 다음과 같이 동작한다.    
+• if 문과 모듈연산자 ( % ) 를 이용하여 3 or 5로 나누어 지는 값을 구한다.     
 • 출력할 필요는 없지만, print문을 사용하여 확인해 보는것도 좋다. 
 {: .notice--info}
 
@@ -1375,8 +1500,13 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 ```
 
 **설명:** [ Solution ]     
-`for`문으로 `range(1,16)`으로 1부터 15까지의 값을 구하고, 그값 `x`가 `x%3==0 or x%5==0`인지를 확인하고, 그 결과를 맨 앞 `x`에 넣어서 저장한다. 
-변수 `threes_and_fives`를 출력하면 `[3,5,6,9,10,12,15]`가 출력할 것이다.
+• 리스트 컴프레션을 사용하여 다음과 같이 동작한다.    
+• for 문에서 함수 range(1,16) 으로 1부터 15까지의 값을 구한다.    
+• 산출된 값을 하나씩 변수 x 에 대입한다.    
+• 변수 x 가 3 or 5 로 나누어 떨어지는지 확인한다.     
+• True 인 경우만, 맨앞 변수 x 저장된다.    
+• 리스트 threes_and_fives 에 변수 x 값이 저장된다.   
+• 변수 threes_and_fives 를 출력하면 '[3,5,6,9,10,12,15]'가 출력할 것이다.
 {: .notice--info}
 
 
@@ -1394,19 +1524,23 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 17. List Slicing    
 
-Great! Next up: list slicing.
+Great! Next up: list slicing.    
 ```python
 str = "ABCDEFGHIJ"
 start, end, stride = 1, 6, 2
 str[start:end:stride]
-```
+```   
 You can think of a Python string as a list of characters.
 
 
 
 **설명:** [ Learn ]     
-list slicing을 복습해 보자.    
-변수 문자열 `str`의 무자열을 list slicing으로 `[1:6:2]`즉, 1번(포함) index부터 6번(미포함) index까지의 값중 2칸씩 건너 뛰어 저장하라.
+• Ch17. List Slicing 에서는 리스트 슬라이싱을 집중 학습한다.    
+• List slicing 을 복습해 보자.    
+• 변수 str 의 문자열 "ABCDEFGHIJ" 를 list slicing 으로 잘라내라.    
+• 리스트 슬라이싱 조건은 다음과 같다.    
+• start = 1(포함),  end = 6(미포함),  stride = 2(옵션)    
+• str[1:6:2] 이다.     
 {: .notice--info}
 
 
@@ -1416,20 +1550,20 @@ list slicing을 복습해 보자.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. The string in the editor is garbled in two ways:
+* The string in the editor is garbled in two ways:
 
 * Our message is backwards.
 * The letter we want is every other letter.    
-Use list slicing to extract the message and save it to a variable called message.
+* Use list slicing to extract the message and save it to a variable called message.
 
 
 
 
 **설명:** [ Instruction ]    
-① edit 창에 있는 문자열을 다음 2가지 문제가 있다.         
+• Editor 창에 있는 문자열을 다음 2가지 문제가 있다.         
 • 글자를 거꾸로 읽어야 한다.    
 • 우리가 원하지 않는 문자들이 섞여 있다.    
-list slicing을 사용하여 변수 `message`에 원하는 문자만 저장해라.
+• List slicing을 사용하여 변수 message 에 원하는 문자만 저장해라.
 {: .notice--info}
 
 
@@ -1438,7 +1572,9 @@ list slicing을 사용하여 변수 `message`에 원하는 문자만 저장해�
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-It's important to remember that lists are mutable (changeable) in Python, but strings aren't; when you slice a string, you get back a new string. The original string is unchanged unless you purposely "save over" it, like this:
+* It's important to remember that lists are mutable (changeable) in Python, but strings aren't; when you slice a string, you get back a new string.     
+* The original string is unchanged unless you purposely "save over" it, like this:    
+
 ```python
 my_string = "Monty Python"
 # => Monty Python
@@ -1447,8 +1583,9 @@ my_string = my_string[:-7]
 ```
 
 **설명:** [ Hint ]    
-• 역순으로 index -7부터 읽는 방법은 `my_string[:-7]`이다.    
-• 역순 index도 0부터 -1,-2 씩으로 읽는다.
+• 역순으로 읽는 법은 ( - ) 옵션을 준다.    
+• index -7부터 읽는 방법은 my_string[:-7] 이다.    
+• 역순 index도 0부터 -1, -2 씩으로 읽는다.
 {: .notice--info}
 
 <br>
@@ -1468,7 +1605,10 @@ message = garbled[::-2]
 ```
 
 **설명:** [ Solution ]     
-• -2값은 1칸씩을 건너 뛰는 것이다. 첫번째 글자는 포함하고 즉, I 찍고, X 건너뛰고, " "찍고, X건너뛰고, a찍고, X건너뛰고......마지막에 !를 찍는다.    
+• -2 값은 역순으로 -2 칸씩을 건너 뛰는 것이다.     
+• 시작하는 첫번째 글자는 포함하기에 문자열 "I" 는 출력된다.    
+• -2 칸씩 건너뛰기에, I 찍고, X 건너뛰고, " "찍고, X건너뛰고, a찍고,.....     
+• 마지막에 !를 찍는다.    
 • 만약, print문을 실행해 보면, 다음과 같이 결과가 나올 것이다.  
 {: .notice--info}
 
@@ -1487,17 +1627,17 @@ I am the secret message!
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 18. Lambda Expressions    
 
-Last but not least, let's look over some `lambdas`.
+Last but not least, let's look over some `lambdas`.    
 ```python
 my_list = range(16)
 filter(lambda x: x % 3 == 0, my_list)
-```
+```     
 We've given you another (slightly different) garbled. Sort it out with a `filter()` and a `lambda`.
 
 
 
 **설명:** [ Learn ]     
-`fileter()`와 `lambda`를 사용하여 복습해 보자. 
+• Ch18. Lambda Expressions 에서는 fileter() 와 lambda 를 집중 학습한다.
 {: .notice--info}
 
 
@@ -1507,20 +1647,22 @@ We've given you another (slightly different) garbled. Sort it out with a `filter
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-1. Create a new variable called `message`.
+* Create a new variable called `message`.
 
 * Set it to the result of calling `filter()` with the appropriate `lambda` that will filter out the "X"s. The second argument will be `garbled`.
 
-Finally, print your `message` to the console.
+* Finally, print your `message` to the console.
 
 
 
 
 **설명:** [ Instruction ]    
-① 변수 `message`를 만들어라.    
-• `filter()`와 `lambda`를 사용하여 입력값 `garbled`에 있는 "X"를 제거하라.    
-• 변수 `message`에 의 결과값을 저장하여라.    
-• 변수 `message`값을 출력하여라. 
+• 변수 message 를 생성하라.         
+• filter() 와  lambda 를 사용하여라.    
+• Arguments 첫번째는 입력값에 문자열 "X"를 제거한다.    
+• Arguments 두번째는 입력값으로 리스트 garbled 를 입력받는다.    
+• Filter() 된 값을 변수 message 에 저장한다.      
+• 변수 message 값을 출력하라. 
 {: .notice--info}
 
 
@@ -1529,17 +1671,19 @@ Finally, print your `message` to the console.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, a lambda expression looks like this:
+* Remember, a lambda expression looks like this:    
 ```python
 lambda variable: variable expression
-```
-For example, you might have
+```    
+For example, you might have    
 ```python
 lambda x: x != 10
 ```
 
 **설명:** [ Hint ]    
-• `lambda` 사용법은 `lambda x: x != 10`와 같이 `x`가 10이 아닌 값을 `x`에 저장한다.
+• 함수 lambda 사용법은 다음과 같이 연산자 ( != ) 를 사용할수 있다.    
+• i.g. lambda x: x != 10     
+• 변수 x 가 10 이 아닌 값이 변수 x 에 저장된다.
 {: .notice--info}
 
 <br>
@@ -1557,9 +1701,11 @@ print message
 ```
 
 **설명:** [ Solution ]     
-• `filter()`에 입력값 `garbled`를 두번째 인수에 입력한다.    
-• 첫번째 인수에는 `lambda x: x != "X"`의 조건값을 실행하여 `x`가 "X"가 아닌 값만 `lambda` `x`에 저장한다.    
-• 최종, `filter()`값이 반환되어 출력된다.
+• filter()는 lambda 를 사용하여 다음과 같은 입력값을 받는다.    
+• Argument 첫번째는 변수 x 가 문자열 "X" 가 아닌 값을 저장한다.     
+• Argument 두번째는 입력값으로 리스트 garbled 를 입력받는다.    
+• filter() 된 결과를 변수 message 에 저장한다.     
+• 변수 message 를 출력한다.
 {: .notice--info}
 
 
