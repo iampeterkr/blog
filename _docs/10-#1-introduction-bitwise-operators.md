@@ -3,7 +3,7 @@
 title: "Introduction to Bitwise Operators"
 permalink: /introduction-bitwise-operators/
 excerpt: "We learn about Bitwise Syntax."
-last_modified_at: 2019-01-22T09:00:00-04:00
+last_modified_at: 2019-02-26T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true

@@ -6,7 +6,8 @@ excerpt: "Introduce Python Syllabus Pages."
 last_modified_at: 2018-11-12T09:00:00-04:00
 redirect_from:
   - /theme-setup/
-toc: true
+# On this page disable
+# toc: true
 ---
     
     
@@ -20,72 +21,64 @@ toc: true
 <hr/>    
 <br>    
 
-<b>1.	Python Syntax</b> [§]({{site.baseurl}}/python-syntax/) 
-*  A.	Python Syntax  
+
+
+<b>1.	Python Syntax</b>     
+*  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)      
 <hr/>     
 
-<b>2.	Strings and Console Output</b> [§]({{site.baseurl}}/string-console-output/) 
-*  A.	String & Console Output   
-*  B.	Date and Time   
+<b>2.	Strings and Console Output</b>     
+*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)       
+*  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
 
-<b>3.	Conditionals and Control Flow</b>
-[§]({{site.baseurl}}/conditionals-control-flow/)  
-* A.	Conditionals & Control Flow
-* B.	PygLatin   
+<b>3.	Conditionals and Control Flow</b>      
+* A.	Conditionals & Control Flow [§]({{site.baseurl}}/conditionals-control-flow/)    
+* B.	PygLatin [§]({{site.baseurl}}/pyglatin/)   
 <hr/>     
 
-<b>4.	Functions</b>
-[§]({{site.baseurl}}/functions/)  
-* A.	Functions
-* B.	Taking a Vacation    
+<b>4.	Functions</b>      
+* A.	Functions [§]({{site.baseurl}}/functions/)    
+* B.	Taking a Vacation [§]({{site.baseurl}}/taking-vacation/)    
 <hr/>     
 
-<b>5.	Lists & Dictionaries</b>
-[§]({{site.baseurl}}/lists-dictionaries/)
-* A.	Python Lists and Dictionaries
-* B.	A Day at the Supermarket    
+<b>5.	Lists & Dictionaries</b>    
+* A.	Python Lists and Dictionaries [§]({{site.baseurl}}/lists-dictionaries/)    
+* B.	A Day at the Supermarket [§]({{site.baseurl}}/day-supermarket/)    
 <hr/>     
 
-<b>6.	Student Becomes the Teacher</b>
-[§]({{site.baseurl}}/student-becomes-teacher/)  
-* A.	Student Becomes the Teacher    
+<b>6.	Student Becomes the Teacher</b>      
+* A.	Student Becomes the Teacher [§]({{site.baseurl}}/student-becomes-teacher/)        
 <hr/>     
 
-<b>7.	Lists and Functions</b>
-[§]({{site.baseurl}}/lists-functions/)  
-* A.	Lists and Functions
-* B.	Battleship!    
+<b>7.	Lists and Functions</b>      
+* A.	Lists and Functions [§]({{site.baseurl}}/lists-functions/)    
+* B.	Battleship! [§]({{site.baseurl}}/battleship/)    
 <hr/>     
 
-<b>8.	Loops</b>
-[§]({{site.baseurl}}/loops/)  
-* A.	Loops
-* B.	Practice Makes Perfect    
+<b>8.	Loops</b>    
+* A.	Loops [§]({{site.baseurl}}/loops/)   
+* B.	Practice Makes Perfect [§]({{site.baseurl}}/practice-makes-perfect/)          
 <hr/>     
 
-<b>9.	Exam Statistics</b>
-[§]({{site.baseurl}}/exam-statistics/)
-* A.	Exam Statistics    
+<b>9.	Exam Statistics</b>    
+* A.	Exam Statistics [§]({{site.baseurl}}/exam-statistics/)   
 <hr/>     
 
-<b>10.	Advanced Topics in Python</b>
-[§]({{site.baseurl}}/advanced-topics-python/)
-* A.	Advanced Topics in Python
-* B.	Introduction to Bitwise Operators    
+<b>10.	Advanced Topics in Python</b>    
+* A.	Advanced Topics in Python [§]({{site.baseurl}}/advanced-topics-python/)    
+* B.	Introduction to Bitwise Operators [§]({{site.baseurl}}/introduction-bitwise-operators/)           
 <hr/>     
 
-<b>11.	Introduction to Classes</b>
-[§]({{site.baseurl}}/introduction-classes/) 
-* A.	Introduction to Classes
-* B.	Classes    
+<b>11.	Introduction to Classes</b>    
+* A.	Introduction to Classes [§]({{site.baseurl}}/introduction-classes/)     
+* B.	Classes [§]({{site.baseurl}}/classes/)      
 <hr/>     
 
-<b>12.	File Input and Output</b>
-[§]({{site.baseurl}}/file-input-output/)
-* A.	File Input / Output    
+<b>12.	File Input and Output</b>     
+* A.	File Input / Output [§]({{site.baseurl}}/file-input-output/)    
 <hr/>     
 
-<b>13.	PYTHON FINAL PROJECT</b>
-[§]({{site.baseurl}}/python-final-project/)
+<b>13.	PYTHON FINAL PROJECT</b>[§]({{site.baseurl}}/python-final-project/)
+
 <hr/>     

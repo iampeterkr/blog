@@ -6,7 +6,8 @@ excerpt: "Explaining Instructions."
 last_modified_at: 2018-11-17T09:00:00-04:00
 redirect_from:
   - /theme-setup/
-toc: true
+# On this page disable
+# toc: true
 ---
     
     
