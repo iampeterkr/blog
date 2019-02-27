@@ -38,6 +38,7 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 
 
 **설명:** [ Learn ]     
+• Ch1. Just a Little BIT 에서는 Bit 연산자를 학습한다.        
 • Bit 연산자는 이해하기가 어렵고, 모호하지만, 익숙해지면 빠른 계산을 할수 있다.    
 • Bit 연산자는 직접적으로 bit를 조작하여 계산한다. 
 {: .notice--info}
@@ -53,7 +54,7 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 
 
 **설명:** [ Instruction ]    
-• 6개의 bit 연산자에 대하여 실행하여 어떻게 동작되는지를 설명해 보는 시간을 가지자. 
+• 6 개의 bit 연산자를 실행후, 각각 어떻게 동작되는지를 설명해 보자.
 {: .notice--info}
 
 
@@ -88,7 +89,9 @@ print ~88     # Bitwise NOT
 ```
 
 **설명:** [ Solution ]     
-bit 연산자는 6종류가 있다. 
+• bit 연산자는 6 종류가 있다.     
+• 그런데, 어떻게 계산하는지 잘 모르겠다. 다음장 부터 차근차근 학습해 보자.    
+• 단, bit 연산자는 6 종류가 있다는것만 기억하고 있자.
 {: .notice--info}
 
 
@@ -117,12 +120,13 @@ For example, the numbers one and zero are the same in base 10 and base 2. But in
 
 Contrary to counting in base 10, where each decimal place represents a power of 10, each place in a binary number represents a power of two (or a bit). The rightmost bit is the 1's bit (two to the zero power), the next bit is the 2's bit (two to the first), then 4, 8, 16, 32, and so on.
 
-The binary number '1010' is 10 in base 2 because the 8's bit and the 2's bit are "on":
+The binary number '1010' is 10 in base 2 because the 8's bit and the 2's bit are "on":    
+
 ```
 8's bit  4's bit  2's bit  1's bit
     1       0       1      0 
     8   +   0    +  2   +  0  = 10 
-```    
+```        
 In Python, you can write numbers in binary format by starting the number with 0b. When doing so, the numbers can be operated on like any other number!
 
  
@@ -130,12 +134,15 @@ In Python, you can write numbers in binary format by starting the number with 0b
 
 
 **설명:** [ Learn ]     
-• 우리는 10진수를 사용한다. 10진수는 0부터 9까지의 수를 조합하여 사용한다.     
-• 컴퓨터는 2진수를 사용한다. 2진수는 0부터 1까지의 수를 조합하여 사용한다.    
-• 10진수는 9에서 1이 추가되면 자리수가 바뀌면서 10이 된다.   
-• 2진수는 0b1에서 0b1이 추가되면 자리수가 바뀌면서 0b10가 된다.   
-• 2진수는 각 자리에 값이 있으면 해당 값이 매겨진다.     
-• 2진수 0b1010는 10진수 10이다. 
+• Ch2. Lesson I0: The Base 2 Number System 에서는 2 진수를 학습한다.       
+• 우리는 10 진수를 사용한다.     
+• 10 진수는 0 부터 9 까지의 수를 조합하여 사용한다.     
+• 컴퓨터는 2 진수를 사용한다.    
+• 2 진수는 0 부터 1 까지의 수를 조합하여 사용한다.    
+• 10 진수는 9 에서 1 이 추가되면 자리수가 바뀌면서 10 이 된다.   
+• 2 진수는 0b1 에서 0b1 이 추가되면 자리수가 바뀌면서 0b10 가 된다.   
+• 2 진수는 각 자리에 값이 있으면 해당 값이 매겨진다.     
+• 2 진수 0b1010 는 10 진수 10 이다. 
 {: .notice--info}
      
 
@@ -150,7 +157,8 @@ In Python, you can write numbers in binary format by starting the number with 0b
 
 
 **설명:** [ Instruction ]    
-• edit 창에 있는 소스들이 이해해보고, 실행하여 계속 진행해 보자.
+• Editor 창에 있는 소스들이 어떤 패턴이 있는지 이해하여 보자.    
+• Run 실행 후 계속 진행해 보자.
 {: .notice--info}
 
 
@@ -187,16 +195,16 @@ print 0b11 * 0b11
 ```
 
 **설명:** [ Solution ]     
-• 자리수는 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024,.... 늘어난다.    
-• 1번째 자리에 bit 값이 있으면 (`0b1`)       십진수 1 이다.     
-• 2번째 자리에 bit 값이 있으면 (`0b10`)      십진수 2 이다.     
-• 1,2번째 자리에 bit 값이 있으면 (`0b11`)    십진수 3 이다.     
-• 3번째 자리에 bit 값이 있으면 (`0b100`)     십진수 4 이다.     
-• 1,3번째 자리에 bit 값이 있으면 (`0b101`)   십진수 5 이다.     
-• 2,3번째 자리에 bit 값이 있으면 (`0b110`)   십진수 6 이다.     
-• 1,2,3번째 자리에 bit 값이 있으면 (`0b111`) 십진수 7 이다.     
-• 이진수 (`0b1` + `0b11`)                십진수 4 이다.     
-• 이진수 (`0b11` * `0b11`)               십진수 9 이다.     
+• 2 진수 자리수는 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024,...늘어난다.    
+• 1 번째 자리에 bit 값이 있으면 ( 0b1 )      십진수 1 이다.     
+• 2 번째 자리에 bit 값이 있으면 ( 0b10 )     십진수 2 이다.     
+• 1, 2 번째 자리에 bit 값이 있으면 ( 0b11 )  십진수 3 이다.     
+• 3 번째 자리에 bit 값이 있으면 ( 0b100 )    십진수 4 이다.     
+• 1, 3 번째 자리에 bit 값이 있으면 ( 0b101 ) 십진수 5 이다.     
+• 2, 3 번째 자리에 bit 값이 있으면 ( 0b110 ) 십진수 6 이다.     
+• 1,2,3번째 자리에 bit 값이 있으면 ( 0b111 ) 십진수 7 이다.     
+• 이진수 ( 0b1  +  0b11 )                십진수 4 이다.     
+• 이진수 ( 0b11 *  0b11 )                십진수 9 이다.     
 {: .notice--info}
 
 
@@ -219,9 +227,9 @@ print 0b11 * 0b11
 
 All right! Time to practice counting in binary.
 
-To make sure you've got the hang of it, fill out the rest of the numbers all the way up to `twelve`. Please do not use the `str()` method or any other outside functions.
+To make sure you've got the hang of it, fill out the rest of the numbers all the way up to twelve. Please do not use the `str()` method or any other outside functions.
 
-Here are a few numbers that will be good to know going forward -
+Here are a few numbers that will be good to know going forward -    
 ```python
 2 ** 0 = 1
 2 ** 1 = 2
@@ -234,13 +242,16 @@ Here are a few numbers that will be good to know going forward -
 2 ** 8 = 256
 2 ** 9 = 512
 2 ** 10 = 1024
-```
+```    
 You may recognize these numbers. Do you have a 32 or 64 bit system? Does your computer have a 256GB hard drive? Computers think in binary! 
 
 
 
 **설명:** [ Learn ]     
-변수 `twelve`까지 값을 채워 넣어 보는걸로 이진수를 이해해 보자. 컴퓨터는 2진수로 움직인다.
+• Ch3. I Can Count to 1100! 에서는 2 진수를 학습한다.    
+• 2 진수로 10자리까지 있는 것을 12자리까지 확대하여 채워 넣어 보자.    
+• 값을 채워 넣어 보는걸로 2 진수를 이해해 보자.    
+• 컴퓨터는 2진수로 움직인다.
 {: .notice--info}
 
 
@@ -250,11 +261,12 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-*  Fill out the rest of the numbers with their corresponding binary values up to `twelve` in the editor to the right, using the 0bxxx format.
+*  Fill out the rest of the numbers with their corresponding binary values up to twelve in the editor to the right, using the 0bxxx format.
 
 
 **설명:** [ Instruction ]    
-• edit창에서 변수 `twelve` 까지 값을 채워 넣어라. 형식은 2진수 `0bxx`이다. 
+• Edit창에서 변수 twelve 에 값을 채워 넣어라.    
+• 2 진수 형식은 ( 0bxx ) 이다. 
 {: .notice--info}
 
 
@@ -263,7 +275,7 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Feel free to peek back at the previous exercise if you're having trouble!
+* Feel free to peek back at the previous exercise if you're having trouble!
 
 
 **설명:** [ Hint ]     
@@ -293,7 +305,7 @@ twelve = 0b1100
 ```
 
 **설명:** [ Solution ]     
-• 1부터 12까지의 2진수를 나타낸 것이다.
+• 1부터 12 자리의 2 진수를 나타낸 것이다.
 {: .notice--info}
 
 
@@ -323,11 +335,12 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 
 **설명:** [ Learn ]      
+• Ch4. The bin() Function 에서는 함수 bin() 를 학습한다.     
 • Python에는 bit 연산자를 지원하는 함수가 있다.    
-• print 출력할때 2진수로 재표현 해주는 것으로 `bin()` 함수를 사용하면 된다.    
-• `bin()`함수는 정수를 입력값으로 가지면, 2진수를 반환해 준다.    
-• print 출력할때, 2진수로 보여주지만, 그 값은 실제로는 string(문자)이다.    
-• `bin()`과 비슷한것으로 8진수(`oct()`), 16진수(`hex()`)도 있다.
+• print 출력할때 2 진수로 재표현 해주는 것으로 함수 bin() 를 사용한다.    
+• 함수 bin()는 정수를 입력값으로 가진다. 그리고 2 진수를 반환해 준다.    
+• print 출력할때, 2 진수로 보여주지만, 그 값은 실제로는 string(문자)이다.    
+• 함수 bin() 과 비슷한 것으로 8진수( oct() ), 16진수( hex() )도 있다.
 {: .notice--info}
 
 
@@ -341,7 +354,7 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 
 **설명:** [ Instruction ]    
-• `bin()`를 사용하여 정수 2부터 5까지를 출력하라.
+• 함수 bin() 를 사용하여 정수 2 부터 5 까지를 출력하라.
 • 각 라인마다 출력하라.
 {: .notice--info}
 
@@ -351,12 +364,12 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Use the code on line 1 as a guide! You can use a separate `print` statement for each number, though a loop or range should work just as well.
+* Use the code on line 1 as a guide! You can use a separate `print` statement for each number, though a loop or range should work just as well.
 
 
 **설명:** [ Hint ]     
-• edit 창의 1 라인을 참조 하세요.    
-• loop 또는 range를 사용할 줄 알지만, `print`문을 개별로 사용하세요.  
+• Editor 창의 라인 1 을 참조 하세요.    
+• Loop 또는 range 를 사용할 줄 알지만, print 문을 개별로 사용하세요.  
 {: .notice--info}
 
 <br>
@@ -375,7 +388,11 @@ print bin(5)
 ```
 
 **설명:** [ Solution ]     
-• `bin(2)`는 정수 2를 2진수 0b10으로 바꿔 준다. 
+• 함수 bin(1) 은 정수 1 을 2 진수 0b1  로 바꿔준다.    
+• 함수 bin(2) 은 정수 2 을 2 진수 0b10 로 바꿔준다.    
+• 함수 bin(3) 은 정수 3 을 2 진수 0b11 로 바꿔준다.    
+• 함수 bin(4) 은 정수 4 을 2 진수 0b110 로 바꿔준다.    
+• 함수 bin(5) 은 정수 5 을 2 진수 0b101 로 바꿔준다.    
 {: .notice--info}
 
 
@@ -398,26 +415,27 @@ print bin(5)
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
 ### 5. int()'s Second Parameter    
 
-Python has an `int()` function that you've seen a bit of already. It can turn non-integer input into an integer, like this:
+Python has an `int()` function that you've seen a bit of already. It can turn non-integer input into an integer, like this:      
 ```python
 int("42")
 # ==> 42
-```
-What you might not know is that the int function actually has an optional second parameter.
+```    
+What you might not know is that the int function actually has an optional second parameter.    
 ```python
 int("110", 2)
 # ==> 6
-```
+```    
 When given a string containing a number and the base that number is in, the function will return the value of that number converted to base ten.
 
 
 
 **설명:** [ Learn ]      
-• `int()`는 입력값을 int로 바꿔주는 함수이다.    
-• `int("42")` 는 문자열 "42"를 입력하면, 정수 42가 반환된다.    
-• `int()`는 또다른 옵션 기능이 있다.    
-• `int("110", 2)` 는 2진수 "110"을 입력하고, 옵션값을 2로 입력한다.    
-• `int()`는 입력값 2진수 "110"을 int(정수) 6을 반환한다. 
+• Ch5. int()'s Second Parameter 에서는 함수 int() 사용법을 학습한다.    
+• 함수 int() 는 입력값을 int 로 바꿔주는 함수이다.    
+• 함수 int("42") 는 문자열 "42" 를 입력하면, 정수 42가 반환된다.    
+• 함수 int() 는 다른 옵션 기능도 있다.    
+• 함수 int("110", 2) 는 2 진수 "110" 을 입력하고, 옵션값을 2로 입력한다.    
+• 함수 int() 는 입력값 2진수 "110"을 int(정수) 6 을 반환한다. 
 {: .notice--info}
 
 
@@ -431,8 +449,8 @@ When given a string containing a number and the base that number is in, the func
      
 
 **설명:** [ Instruction ]     
-• Console 화면에는 몇개의 int 함수 사용한 예제들이 있다.    
-• 라인 7에서, 2진수 11001001 을 int 함수를 사용하여 10진수로 변경해서 출력하라.
+• Editor 화면에는 몇개의 함수 int()를 사용한 예제들이 있다.    
+• 라인 7에서, 2진수 11001001 을 함수 int() 를 사용하여 10진수로 변경후 출력하라.
 {: .notice--info}
 
 
@@ -445,7 +463,7 @@ When given a string containing a number and the base that number is in, the func
 
 
 **설명:** [ Hint ]     
-• 라인 1~4의 예제들을 참조하여라. 
+• 라인 1 ~ 4 의 예제들을 참조하라. 
 {: .notice--info}
 
 <br>
@@ -466,7 +484,12 @@ print int("11001001", 2)
 ```
 
 **설명:** [ Solution ]     
-• `int("11001001",2)`는 2진수 "11001001"을 10진수로 변환해서 출력한다
+• 함수 int("1",2) 는 2진수 "1" 을 10진수 1 로 변환후 출력한다
+• 함수 int("10",2) 는 2진수 "10" 을 10진수 2 로 변환후 출력한다
+• 함수 int("111",2) 는 2진수 "111" 을 10진수 7 로 변환후 출력한다
+• 함수 int("0b100",2) 는 2진수 "0b100" 을 10진수 4 로 변환후 출력한다
+• 함수 int(bin(5),2) 는 2진수 "110" 을 10진수 5 로 변환후 출력한다
+• 함수 int("11001001",2) 는 2진수 "11001001" 을 10진수 201 로 변환후 출력한다
 {: .notice--info}
 
 
@@ -492,7 +515,7 @@ print int("11001001", 2)
 
 The next two operations we are going to talk about are the **left** and **right** shift bitwise operators. These operators work by shifting the bits of a number over by a designated number of slots.
 
-The block below shows how these operators work on the bit level. Note that in the diagram, the shift is always a positive integer:
+The block below shows how these operators work on the bit level. Note that in the diagram, the shift is always a positive integer:    
 ```python
 # Left Bit Shift (<<)  
 0b000001 << 2 == 0b000100 (1 << 2 = 4)
@@ -501,7 +524,7 @@ The block below shows how these operators work on the bit level. Note that in th
 # Right Bit Shift (>>)
 0b0010100 >> 3 == 0b000010 (20 >> 3 = 2)
 0b0000010 >> 2 == 0b000000 (2 >> 2 = 0)
-```
+```    
 Shift operations are similar to rounding down after **dividing** and **multiplying** by 2 (respectively) for every time you shift, but it's often easier just to think of it as shifting all the 1s and 0s left or right by the specified number of slots.
 
 Note that you can only do bitwise operations on an **integer** Trying to do them on strings or floats will result in nonsensical output!
@@ -511,8 +534,11 @@ Note that you can only do bitwise operations on an **integer** Trying to do them
 
 
 **설명:** [ Learn ]     
-• bit를 왼쪽으로 옮기면 제곱근, 오른족으로 옮기면 2로 나누는 효과가 있다.    
-• bit 연산자는 int(정수)만 가능하고, 나머지(문자열, 실수)은 아무런 반응이 없다.
+• Ch6. Slide to the Left! Slide to the Right! 에서는 시프트 연산을 학습한다.    
+• Bit를 왼쪽으로 한칸 옮기면 2를 곱하는 효과가 있다.    
+• Bit를 오른족으로 한칸 옮기면 2로 나누는 효과가 있다.    
+• Bit 연산자는 int(정수)만 가능하다.    
+• 문자열, 실수 등은 아무런 반응이 없다.
 {: .notice--info}
 
 
@@ -526,7 +552,8 @@ Note that you can only do bitwise operations on an **integer** Trying to do them
 
 
 **설명:** [ Instruction ]    
-• 변수 `shift_right`에는 `>>2`를 하고, `shift_left`에는 `<<2`를 하여라.    
+• 변수 shift_right 에는 ( >>2 ) 를 하라.(오른쪽으로 2칸 시프트)    
+• 변수 shift_left  에는 ( <<2 ) 를 하라.(왼쪽으로 2칸 시프트)    
 • 출력이 어떻게 될지 생각해 보자. 
 {: .notice--info}
 
@@ -563,9 +590,13 @@ print bin(shift_left)
 ```
 
 **설명:** [ Solution ]     
-• 변수 `shift_right`는 오른쪽으로 bit를 2칸 이동한후 저장한다. (`0b11`)   
-• 변수 `shift_left`는 왼쪽으로 bit를 2칸 이동한후 저장한다.(`0b100`)     
-• 변수 `shift_right`, `shift_left`를 출력한다.
+• 변수 shift_right 는 오른쪽으로 bit를 2칸 이동한후 저장한다.    
+• 그 결과는 ( 0b11 ) 이다.    
+• 나누기 2를 2번 한 효과가 나타난다.    
+• 변수 shift_left 는 왼쪽으로 bit를 2칸 이동한후 저장한다.    
+• 그 결과는 ( 0b100 ) 이다.    
+• 곱하기 2를 2번 한 효과가 나타난다.         
+• 변수 shift_right, shift_left 를 출력한다.
 {: .notice--info}
 
 
@@ -585,28 +616,31 @@ print bin(shift_left)
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
 ### 7. A BIT of This AND That    
 
-The bitwise **AND (&)** operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if the corresponding bits of both numbers are 1. For example:
+The bitwise **AND (&)** operator compares two numbers on a bit level and returns a number where the bits of that number are turned on if the corresponding bits of both numbers are 1. For example:    
+
 ```python
 
      a:   00101010   42
      b:   00001111   15       
 ===================
  a & b:   00001010   10
-```
+```    
+
 As you can see, the 2's bit and the 8's bit are the only bits that are on in both a and b, so a & b only contains those bits. Note that using the & operator can only result in a number that is less than or equal to the smaller of the two values.
 
-So remember, for every given bit in a and b:
+So remember, for every given bit in a and b:    
+
 ```python
 0 & 0 = 0
 0 & 1 = 0
 1 & 0 = 0
 1 & 1 = 1
-```
-Therefore,
+```    
+Therefore,     
 ```python
 0b111 (7) & 0b1010 (10) = 0b10
-```
-which equals two.
+```    
+which equals two.    
 
 
 **설명:** [ Learn ]   
