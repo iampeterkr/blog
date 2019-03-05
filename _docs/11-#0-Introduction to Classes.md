@@ -1572,7 +1572,7 @@ First things first: let's create a class to work with.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Make sure your Triangle inherits from `object`.     
+* Make sure your Triangle inherits from object.     
 * Remember, class syntax looks like this:    
 ```python
 class ClassName(object):
@@ -1581,7 +1581,7 @@ class ClassName(object):
 ```
 
 **설명:** [ Hint ]     
-• 클래스는 object를 inheritance 한다.    
+• 클래스 Triangle 는 클래스 object 를 상속한다.    
 • 클래스를 만드는 문법을 참고한다. 
 {: .notice--info}
 
@@ -1603,7 +1603,10 @@ class Triangle(object):
 **설명:** [ Solution ]     
 • 클래스 Triangle은 (object)를 inhertance 한다.    
 • 메서드 `__init__(self, angle1, angle2, angle3)`를 parameter를 가진다.    
-• `__init__()`의 내부를 초기화 (ex. self.angle1 = angle1) 한다.
+• `__init__()`의 내부를 초기화 한다.    
+• i.g. self.angle1 = angle1    
+• i.g. self.angle2 = angle2    
+• i.g. self.angle3 = angle3
 {: .notice--info}
 
 
@@ -1625,7 +1628,8 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]    
+• Ch16. Class It Up 에서는 클래스 변수와 메서드를 학습한다.     
 • member variable 와 method를 추가해 보자.
 {: .notice--info}
 
@@ -1650,8 +1654,8 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 • number_of_sides = 3    
 • def check_angles(self):   
 • 메서드 check_angles()는 True or False를 반환한다.        
-• True : `self.angle1`, `self.angle2`, `self.angle3` 합이 180    
-• False : True가 아닌 경우.
+• True : self.angle1 + self.angle2 + self.angle3 = 합이 180    
+• False : True 가 아닌 경우.
 {: .notice--info}
 
 
@@ -1660,7 +1664,7 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* The check_angles method should look something like this:
+* The check_angles method should look something like this:    
 ```python
 def check_angles(self):
   if (self.angle1 + self.angle2 + self.angle3 == 180):
@@ -1670,9 +1674,9 @@ def check_angles(self):
 ```
 
 **설명:** [ Hint ]     
-• member variables를 추가하라.
-• 메서드 check_angles(self)는 self만 parameter로 가진다.    
-• 메서드 작성 방법을 참조하자.
+• 클래스 변수(member variables)를 추가하라.    
+• 메서드 check_angles(self)는 매개변수(parameter) self 만 가진다.    
+• 메서드 작성 방법을 참조하라.
 {: .notice--info}
 
 <br>
@@ -1698,8 +1702,9 @@ class Triangle(object):
 ```
 
 **설명:** [ Solution ]     
-• member 변수  number_of_sides = 3 를 추가한다.    
-• 메서드 def check_angles(self):를 추가한다. parameter는 self만 있다.    
+• 클래스(member) 변수  'number_of_sides = 3' 를 추가한다.    
+• 메서드 check_angles(): 추가한다.    
+• i.g. def check_angles(self):    
 • 클래스에서 입력받은 parameter 값을 합하여 180이면 True를 반환한다.    
 • 그 외는 False를 반환한다.
 {: .notice--info}
@@ -1724,6 +1729,7 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 
 
 **설명:** [ Learn ]     
+• Ch17. Instantiate an Object 에서는 인스탄스를 학습한다.    
 • 클래스 Triangle 의 instance를 만들어 보자.
 {: .notice--info}
 
@@ -1745,10 +1751,13 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 
 
 **설명:** [ Instruction ]    
-• 클래스 Triangle 의 instance 인 object my_triangle를 만들어라.    
-• parameter 값으로 3개 합이 180이 되게 넣는다.(e.g. 90, 30, 60)   
-• print my_triangle.number_of_sides 를 호출하고 출력한다.   
-• print my_triangle.check_angles()를 호출하고 출력한다.
+• 클래스 Triangle 의 instance 인 객체(object) my_triangle 를 작성하라.    
+• parameter 값으로 3개 합이 180이 되게 넣는다.    
+• i.g. a=90, b=30, c=60       
+• Instance한 객체 my_triangle 의 변수 number_ofsides 를 호출후 출력한다.      
+• i.g. print my_triangle.number_of_sides    
+• Instance한 객체 my_triangle 의 메서드 check_angles()를 호출후 출력한다.    
+• i.g. print my_triangle.check_angles()
 {: .notice--info}
 
 
@@ -1757,7 +1766,7 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Remember, we can instantiate an `object` like so:
+* Remember, we can instantiate an `object` like so:    
 ```python
 instance = Class(args)
 ```
@@ -1765,8 +1774,8 @@ instance = Class(args)
 
 
 **설명:** [ Hint ]     
-• instance인 objec를 만드는 법을 참조 하자.    
-• arguments에는 self가 들어가지 않는다.
+• Iinstance 한 객체(object)를 만드는 법을 참조하라.        
+• 매개변수(arguments)에는 self 가 들어가지 않는다.
 {: .notice--info}
 
 <br>
@@ -1797,9 +1806,12 @@ print my_triangle.check_angles()
 ```
 
 **설명:** [ Solution ]     
-• 클래스 Triangle(30, 60, 90)을 instance 한 object my_triangle를 만든다.   
-• object my_triangle의 변수 number_of_sides 를 호출하고 출력한다.    
-• object my_triangle의 메서드 check_angles()를 호출하고 출력한다.
+• 객체(object) my_triangle 를 작성한다.    
+• 이 객체는 클래스 Triangle(30, 60, 90)을 instance 한다.    
+• 객체(object) my_triangle 의 클래스 변수 number_of_sides 를 호출한다.    
+• 그리고 그 결과값을 출력한다.    
+• 객체(object) my_triangle 의 메서드 check_angles() 를 호출한다.    
+• 그리고 그 결과값을 출력한다.
 {: .notice--info}
 
 
@@ -1822,7 +1834,8 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]    
+• Ch18. Inheritance 에서는 상속(inheritance)을 학습한다.      
 • 클래스 Triangle를 inheritance 한 클래스 Equilateral를 만들어 보자.    
 • Equilateral 은 3각 모두가 60˚ 인 삼각형이다.
 {: .notice--info}
@@ -1844,10 +1857,13 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 
 
 **설명:** [ Instruction ]    
-• 클래스 Triangle 를 inheritance 한 클래스 Equilateral 를 만들어라.        
-• 클래스 Equilateral 내부에는 member 변수인 angle = 60 을 만들어라.  
-• 내부에 메서드 `__init__(self)`를 만들어라.  
-• 내부 메서드의 3개 초기화 (e.g. self.angle1 = self.angle)로 초기화를 하여라.
+• 클래스 Triangle 를 inheritance 한 클래스 Equilateral 를 작성하라.        
+• 클래스 Equilateral 내부에는 클래스(member) 변수인 angle = 60 을 작성하라.      
+• 내부에 메서드 `__init__(self)`를 작성하라.      
+• 내부 메서드의 변수 3개를 다음과 같이 초기화 하라.    
+• i.g. self.angle1 = angle     
+• i.g. self.angle2 = angle     
+• i.g. self.angle3 = angle
 {: .notice--info}
 
 
@@ -1856,18 +1872,18 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Remember, **inheritance** looks like this:
+* Remember, **inheritance** looks like this:    
 ```python
 class DerivedClass(BaseClass):
   # Your code here
-```  
+```      
 where `DerivedClass` is the new class you're making, and `BaseClass` is the class it **inherits** from.
 
 
 **설명:** [ Hint ]     
-• Inheritance는 상위 클래스의 속성과 메서드를 상속 받는 것이다.   
-• Inheritance를 했기에, partamerter도 inheritance 된다. 
-• 예제를 참고 하시오.
+• Inheritance 는 상위 클래스의 속성과 메서드를 상속 받는다.       
+• Inheritance를 했기에, partamerter 도 inheritance 된다.      
+• 예제를 참고하라.
 {: .notice--info}
 
 <br>
@@ -1897,14 +1913,14 @@ class Equilateral(Triangle):
     self.angle1 = self.angle
     self.angle2 = self.angle
     self.angle3 = self.angle
-```
+```    
 
 **설명:** [ Solution ]     
 • 클래스 Equilateral은 클래스 Triangle를 inheritance 하여 정의한다.    
-• member 변수에 60을 할당한다.    
-• 메서드 `__init__(self)`를 정의한다.(이때, arguments가 없다.)    
+• 클래스(member) 변수에 60 을 할당한다.    
+• 메서드 `__init__(self)`를 정의한다. 이때, 매개변수(arguments)가 없다.    
 • 이유는 inheritance 했기 때문이다.     
-• 하지만, 초기화(e.g. self.angle1 = self.angle ) 은 한다.
+• 하지만, 초기화(e.g. self.angle1 = self.angle )은 한다.
 {: .notice--info}
 
 
