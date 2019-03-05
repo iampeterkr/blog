@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : " Peter's github.io Blog "
 title_separator          : "-"
-name                     : "Wonyoung Lee"
+name                     : "Peter Lee"
 description              : "This is Python Guide for Korean by Codecademy.com website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /codecademy # the subpath of your site, e.g. "/blog"
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author: 
-  name             : "Wonyoung Lee"
+  name             : "Peter Lee"
   avatar           : "/assets/images/bio-pic.png"
   bio              : "I am a programmer, skier, road cyclist, and amazing person."
   location         : "Korea, Seoul"
