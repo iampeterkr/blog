@@ -294,7 +294,7 @@ Another issue you might run into is attempting to create a string without quotes
 
 **설명:** [ Learn ]     
 • 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 EOL Error를 발생시킨다.   
-• i.g. SyntaxError: EOL while scanning string literal    
+• e.g. SyntaxError: EOL while scanning string literal    
 • EOL : End Of Line  
 • EOL Error는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.    
 • 시작이 (') 이면 끝도 (')이어야 하면, 시작이 (")이면, 끝도 (") 이어야 한다.     

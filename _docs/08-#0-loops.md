@@ -40,7 +40,7 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 • while 문은 if 문과 비슷하다.     
 • while 문의 조건절이 True 이면, while 문 내부 구간이 실행 되는 구조이다.    
 • if 문과 다른점은 while 문은 조건절 값이 True 이면, 계속 실행된다.    
-• if 문은 조건절 값이 완료되면 끝난다. (i.g. 3번 실행하라고 하면 3번만 실행하고 종료)    
+• if 문은 조건절 값이 완료되면 끝난다. (e.g. 3번 실행하라고 하면 3번만 실행하고 종료)    
 • while 문은 조건절 상태가 Ture(예를 들면, 0 < 5 )가 되면 무한대로 실행한다.
 {: .notice--info}
 
@@ -350,8 +350,8 @@ A common application of a while loop is to check user input to see if it is vali
 **설명:** [ Hint ]         
 • 조건문에 연산자 ( != ) 를 사용한다.   
 • 'y' or 'n' 이외에는 True 가 되지 않도록 한다.    
-• 입력받은 비교 변수가 "y" 와 가 같지 않는지를 비교하는 것은 (i.g. !="y" ) 이다.    
-• 연산자 ( and ) 는 A, B 모두 True 이어야 한다.(i.g. A and B )    
+• 입력받은 비교 변수가 "y" 와 가 같지 않는지를 비교하는 것은 (e.g. !="y" ) 이다.    
+• 연산자 ( and ) 는 A, B 모두 True 이어야 한다.(e.g. A and B )    
 {: .notice--info}
 
 <br>
@@ -741,7 +741,7 @@ Remember, **`raw_input`** turns user input into a **string**, so we use **`int()
 • 조건문은 변수 guesses_left > 0 큰 경우다.
 • Learn 에서 설명한 질문하는 문을 만들어라.        
 • 질문한 값이 맞으면 "You win!" 이라고 출력하고, break 문으로 빠져나온다.        
-• 변수 guess_left 를 값 1 씩 줄여 나간다. (i.g. guess_left -=1 )    
+• 변수 guess_left 를 값 1 씩 줄여 나간다. (e.g. guess_left -=1 )    
 • else 문을 사용하여 while 문을 빠져나오면 "You lose." 라고 출력한다.    
 {: .notice--info}
 
@@ -759,7 +759,7 @@ Remember, **`raw_input`** turns user input into a **string**, so we use **`int()
 **설명:** [ Hint ]          
 • 앞의 예제와 비슷하지만, break 문이 걸리는게 승리 했을때 이다.    
 • 승리의 조건은 다음과 같다.    
-• i.g. if guess == random_number    
+• e.g. if guess == random_number    
 • Random 값은 while 문 시작 하기전에 산출된다.     
 • break 문이 실행되어 while 문을 빠져나갈때, else 문은 실행되지 않는다. 
 {: .notice--info}
@@ -972,7 +972,7 @@ This kind of loop is useful when you want to do something a **certain number of 
 **설명:** [ Hint ]          
 • 함수 raw_input() 를 사용하라.     
 • 리스트에 추가하는 방법은 다음과 같다.    
-• i.g. hobbies.append(hobby)
+• e.g. hobbies.append(hobby)
 {: .notice--info}
 
 <br>
@@ -995,7 +995,7 @@ print hobbies
 ```
 
 **설명:** [ Solution ]          
-• for 문에서 3번이 돌도록 산출된다.(i.g. range(3))    
+• for 문에서 3번이 돌도록 산출된다.(e.g. range(3))    
 • 함수 raw_input()으로 입력값을 받아서, 변수 hobby 에 저장한다.    
 • 리스트 hobbies에 변수 hobby 의 값을 추가한다.    
 • 3번 입력이 끝나고, for 문을 빠져나온다.    
@@ -1127,7 +1127,7 @@ The `,` character after our print statement means that our next print statement 
 • for 문은 문자열 조작을 하기에 편리하다.    
 • 예제에서 "Marble"가 M a r b l e 로 출력된다.    
 • 문자열이 새로운 줄에서 출력되는 것이 아니라, 같은 라인에서 출력되게는 다음과 같이 한다.    
-• i.g. 'print char , '  --> ( , ) comma 를 해준다.  
+• e.g. 'print char , '  --> ( , ) comma 를 해준다.  
 {: .notice--info}
 
 

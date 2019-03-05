@@ -70,7 +70,7 @@ The example above is just to remind you how to create a dictionary and then to a
 • 딕셔너리 `lloyd`, `alice`, `tyler`를 생성하라.    
 • 각 딕셔너리의 key 로 "name", "homework", "quizzes", "tests"를 갖는다.    
 • key "name" 에는 학생들의 이름이 values로 매칭된다.    
-• ( i.g. lloyd = {"name":"Lloyd"} )    
+• ( e.g. lloyd = {"name":"Lloyd"} )    
 • 다른 key "homework", "quizzes", "tests" 의 values 는 리스트로 비워 둔다.    
 • ( 추후에 채워 나갈 예정이다.)  
 {: .notice--info}
@@ -121,10 +121,10 @@ tyler = {
 ```
 
 **설명:** [ Solution ]          
-• 각 사람의 이름으로 딕셔너리를 만들었다. (i.g. lloyd, alice, tyler)    
+• 각 사람의 이름으로 딕셔너리를 만들었다. (e.g. lloyd, alice, tyler)    
 • key 로 "name", "homework", "quizzes", "tests" 로 정의하였다.     
-• key 값 "name" 에만, 문자열 이름(i.g. "Lloyd", "Alice", "Tyler")을 쓴다.    
-• key 값 "homework", "quizzes", "tests" 는 빈 리스트(i.g. [] ) 이다. 
+• key 값 "name" 에만, 문자열 이름(e.g. "Lloyd", "Alice", "Tyler")을 쓴다.    
+• key 값 "homework", "quizzes", "tests" 는 빈 리스트(e.g. [] ) 이다. 
 {: .notice--info}
 
 
@@ -503,7 +503,7 @@ To divide two **integers** and end up with a **float**, you must first use `floa
 • 리스트 studetns 의 값들을 가져와서, 평균값을 만들어 주고 반환하는 함수를 만들어라.    
 • 평균값을 계산해주는 함수 average(numbers) 를 만들어라.    
 • 함수 average() 함수 sum() 을 사용하여 변수 total 에 결과 값을 저장하라.    
-• 함수 float() 를 사용하여 예제(i.g. float(total) )와 같이 변경 후 저장하라.    
+• 함수 float() 를 사용하여 예제(e.g. float(total) )와 같이 변경 후 저장하라.    
 • 변수 total 을 리스트의 갯수만큼 나누어라.    
 • 리스트의 갯수는 함수 len() 를 사용하라.    
 • 평균값 average 을 반환하라. 

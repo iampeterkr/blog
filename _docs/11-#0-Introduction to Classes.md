@@ -120,7 +120,7 @@ lemon.is_edible()
 • 클래스 Fruit는 object 를 상속 받고 있다.    
 • Object 상속의 개념은 추후에 설명할 것이다.    
 • 클래스 Fruit(object)에는 3개의 메소드가 정의되어 있다.   
-• i.g. def __init__():, def description(self):, def is_edible(self):     
+• e.g. def __init__():, def description(self):, def is_edible(self):     
 • 클래스 밖에는 lemon 이라는 객체가 만들어 진다.     
 • 이 lemon 객체는 Fruit 클래스의 instance 를 가진다.    
 • 객체 lemon을 통하여 Fruit 클래스의 description() 메서드를 사용한다.    
@@ -432,7 +432,7 @@ print my_shape.sides
 • 클래스의 기본은 만들어 졌다. 우리는 Instance 를 만들수 있다.     
 • ( . ) 을 사용하여 우리는 객체의 속성에 접근할 수 있다.    
 • 객체 my_shape 를 만드는 방법은 다음과 같다.    
-• i.g. my_shape = Square()    
+• e.g. my_shape = Square()    
 • 생성된 객체(Object) my_shape는 클래스 Square()의 속성을 그대로 사용할 수 있다.    
 • 객체 my_shapes 를 클래스 Square() 의 내부 속성을 사용할려면, 다음과 같다.    
 • my_shape. 이라고 ( . )을 찍는 순간 클래스의 `__init__(self)`가 자동 호출된다.    
@@ -506,7 +506,7 @@ print zebra.name
 • 클래스 Animal 은 메서드 `__init__(self, name):`을 가진다.    
 • 이 메서드는 입력받은 name 을 'self.name'에 저장한다.    
 • 객체 zebra 를 다음과 같이 생성한다.    
-• i.g. 'zebra = Animal("Jeffrey")'    
+• e.g. 'zebra = Animal("Jeffrey")'    
 • 클래스 Animal을 instance 하는 객체 zebra 를 생성한다.   
 • 클래스 Animal()의 파라메터에 값 "Jeffrey"를 넣는다.    
 • 변수 name 에는 "Jeffrey" 가 넘겨진다.
@@ -618,9 +618,9 @@ print panda.name, panda.age, panda.is_hungry
 
 **설명:** [ Solution ]     
 • 클래스 Animal 의 함수`__init__`에 매개변수 is_hungry 를 추가하였다.    
-• i.g. `def __init__(self, name, age, is_hungry):`    
+• e.g. `def __init__(self, name, age, is_hungry):`    
 • 함수 `__init__` 에 매개변수 is_hungry 를 할당하였다.    
-• i.g. `self.is_hungry = is_hungry`    
+• e.g. `self.is_hungry = is_hungry`    
 • 객체, zebra, giraffe, panda 를 생성할때, 3번째 매개변수 값도 지정하였다.
 {: .notice--info}
 
@@ -765,7 +765,7 @@ When a class has its own functions, those functions are called **methods**. You'
 • Animal 클래스에 메서드 description()를 추가하라.     
 • 메서드 description()는 동물의 이름(name)과 나이(age)를 출력(print)한다.    
 • Animal 클래스의 instance를 가진 hippo를 작성하라.     
-• i.g. hippo = Animal()       
+• e.g. hippo = Animal()       
 • 그 객체(object) hippo 의 메서드(method)인 description()를 호출하라.  
 {: .notice--info}
 
@@ -819,9 +819,9 @@ hippo.description()
 • 클래스 Animal 내부에 메서드 description(self) 를 만들었다.    
 • 메서드 description(self)는 name과 age를 출력한다.    
 • 클래스 Animal("Anderson", 36)을 instance 하는 object(객체) 를 생성한다.    
-• i.g. hippo = Animal("Anderson", 36)    
+• e.g. hippo = Animal("Anderson", 36)    
 • object(객체)를 이용하여, 메서드 description()을 호출한다.    
-• i.g. hippo.description()
+• e.g. hippo.description()
 {: .notice--info}
 
 
@@ -1054,9 +1054,9 @@ my_cart.add_item("Ukelele", 10)
 
 **설명:** [ Solution ]     
 • 클래스 ShoopingCart("Eric")의 instance인 객체 my_cart 를 생성한다.    
-• i.g. my_cart = ShoppingCart("Eric")    
+• e.g. my_cart = ShoppingCart("Eric")    
 • 객체(object) my_cart 의 메서드인 add_item("Ukelele", 10)을 호출한다.    
-• i.g. my_cart.add_item("Ukelele", 10)
+• e.g. my_cart.add_item("Ukelele", 10)
 {: .notice--info}
 
 
@@ -1187,7 +1187,7 @@ where `DerivedClass` is the new class you're making and `BaseClass` is the class
 • Ch12. Inheritance Syntax 에서는 inheritance(상속) 문법을 학습한다.    
 • 클래스(BaseClass)를 inhertance 하여 새로운 클래스(DerivedClass)를 만들려면,    
 • DerivedClass의 ()안에 상위 클래스 이름(BaseClass)을 넣으면 된다.     
-• i.g. Class DerivedClass (BaseClass):
+• e.g. Class DerivedClass (BaseClass):
 {: .notice--info}
 
 
@@ -1214,11 +1214,11 @@ class Triangle(Shape):
 **설명:** [ Instruction ]    
 • 상위 클래스 Shape 를 inheritance 하는 새로운 클래스 Triangle 를 작성한다.        
 • 클래스 Triangle 내부에는 다음과 같은 메서드가 있다.    
-• i.g.  `def __init__(self, side1, dise2, side3):`    
+• e.g.  `def __init__(self, side1, dise2, side3):`    
 • 메서드 `__init__()` 내부에는 다음을 작성한다.     
-• i.g. 'self.side1 = side1'    
-• i.g. 'self.side2 = side2'    
-• i.g. 'self.side3 = side3'
+• e.g. 'self.side1 = side1'    
+• e.g. 'self.side2 = side2'    
+• e.g. 'self.side3 = side3'
 {: .notice--info}
 
 
@@ -1450,10 +1450,10 @@ Where `m()` is a method from the base class.
 • return 값은 super 를 이용한다.     
 • super는 상위 클래스 Employee 의 calculate_wage()의 결과값을 호출하여 사용한다.    
 • 객체(objec)를 다음과 같이 생성한다.    
-• i.g. milton = PartTimeEmployee("peter")    
+• e.g. milton = PartTimeEmployee("peter")    
 • 매개변수 parameter 에 이름을 넣는것을 잊지 말라.    
 • 다음과 같이 호출 후, 출력하라.    
-• i.g. prit milton.full_time_wage(10)     
+• e.g. prit milton.full_time_wage(10)     
 • 결과값은 '시간 x $20.00', 즉 200.00 이 출력 될 것이다.
 {: .notice--info}
 
@@ -1509,12 +1509,12 @@ print milton.full_time_wage(10)
 
 **설명:** [ Solution ]     
 • 메서드 full_time_wage()를 다음과 같이 정의한다.    
-• i.g. def full_time_wage(self, hours):      
+• e.g. def full_time_wage(self, hours):      
 • 결과값을 반환을 다음과 같이 한다.    
-• i.g. return super(PartTimeEmployee, self).calculate_wage(hours)    
+• e.g. return super(PartTimeEmployee, self).calculate_wage(hours)    
 • 이 메서드는 상위클래스의 calculate_wage(hours)를 호출한다.    
 • 클래스 PartTimeEmployee('Milton') 의 instance 인 객체 milton을 만든다.    
-• i.g. milton.full_time_wage(10)    
+• e.g. milton.full_time_wage(10)    
 • milton.full_time_wage(10) 호출후 출력한다.
 {: .notice--info}
 
@@ -1559,11 +1559,11 @@ First things first: let's create a class to work with.
 **설명:** [ Instruction ]    
 • 클래스 Triangle 를 작성하라.    
 • 클래스 Triangle 는 다음의 메서드를 가진다.    
-• i.g. `def __init__(self, angle1, angle2, angle3):`    
+• e.g. `def __init__(self, angle1, angle2, angle3):`    
 • 메서드 `init__()`의 내부에는 다음고 같이 매칭하도록 추가한다.    
-• i.g. 'self.angle1 = angle1'    
-• i.g. 'self.angle2 = angle2'    
-• i.g. 'self.angle3 = angle3
+• e.g. 'self.angle1 = angle1'    
+• e.g. 'self.angle2 = angle2'    
+• e.g. 'self.angle3 = angle3
 {: .notice--info}
 
 
@@ -1604,9 +1604,9 @@ class Triangle(object):
 • 클래스 Triangle은 (object)를 inhertance 한다.    
 • 메서드 `__init__(self, angle1, angle2, angle3)`를 parameter를 가진다.    
 • `__init__()`의 내부를 초기화 한다.    
-• i.g. self.angle1 = angle1    
-• i.g. self.angle2 = angle2    
-• i.g. self.angle3 = angle3
+• e.g. self.angle1 = angle1    
+• e.g. self.angle2 = angle2    
+• e.g. self.angle3 = angle3
 {: .notice--info}
 
 
@@ -1704,7 +1704,7 @@ class Triangle(object):
 **설명:** [ Solution ]     
 • 클래스(member) 변수  'number_of_sides = 3' 를 추가한다.    
 • 메서드 check_angles(): 추가한다.    
-• i.g. def check_angles(self):    
+• e.g. def check_angles(self):    
 • 클래스에서 입력받은 parameter 값을 합하여 180이면 True를 반환한다.    
 • 그 외는 False를 반환한다.
 {: .notice--info}
@@ -1753,11 +1753,11 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 **설명:** [ Instruction ]    
 • 클래스 Triangle 의 instance 인 객체(object) my_triangle 를 작성하라.    
 • parameter 값으로 3개 합이 180이 되게 넣는다.    
-• i.g. a=90, b=30, c=60       
+• e.g. a=90, b=30, c=60       
 • Instance한 객체 my_triangle 의 변수 number_ofsides 를 호출후 출력한다.      
-• i.g. print my_triangle.number_of_sides    
+• e.g. print my_triangle.number_of_sides    
 • Instance한 객체 my_triangle 의 메서드 check_angles()를 호출후 출력한다.    
-• i.g. print my_triangle.check_angles()
+• e.g. print my_triangle.check_angles()
 {: .notice--info}
 
 
@@ -1861,9 +1861,9 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 • 클래스 Equilateral 내부에는 클래스(member) 변수인 angle = 60 을 작성하라.      
 • 내부에 메서드 `__init__(self)`를 작성하라.      
 • 내부 메서드의 변수 3개를 다음과 같이 초기화 하라.    
-• i.g. self.angle1 = angle     
-• i.g. self.angle2 = angle     
-• i.g. self.angle3 = angle
+• e.g. self.angle1 = angle     
+• e.g. self.angle2 = angle     
+• e.g. self.angle3 = angle
 {: .notice--info}
 
 

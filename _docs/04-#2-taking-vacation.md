@@ -626,7 +626,7 @@ def trip_cost(city, days, spending_money):
 
 **설명:** [ Solution ]    
 • 기존 함수 trip_cost() 에 parameter 변수 spending_money를 추가하였다.    
-• (i.g. def trip_cost(city, days, spending_money) )    
+• (e.g. def trip_cost(city, days, spending_money) )    
 • 함수 trip_cost() 의 반환(return)문에 변수 spending_money 값을 추가하였다.
 {: .notice--info}
 
@@ -699,7 +699,7 @@ print trip_cost("SOME CITY", NUM_DAYS, SPENDING_MONEY)
 • 함수 trip_cost(city, days, spending_money) 와 같이 입력값을 가진다.     
 • 함수 arguments 값에 직접 값을 넣어서 함수를 호출하라.
 • 함수를 호출하고, 그 결과값을 보기 위해선, print 문을 사용해야 한다. 
-• i.g. print trip_cost("LA", 7, 1000) 
+• e.g. print trip_cost("LA", 7, 1000) 
 {: .notice--info}
 
 <br>

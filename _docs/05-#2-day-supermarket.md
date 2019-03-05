@@ -53,7 +53,7 @@ would print **1**, then **3**, and then **21**. The variable between for and in 
 • Ch1. BeFOR We Begin 에서는 for문에서 리스트를 활용하는 연습을 한다.    
 • 'for x in a:'는 리스트 a에 있는 값들을 하나씩 추출하여 변수 x 에 넣어준다.   
 • 변수 x 와 같이 변수로 정의할 문자는 Python 예약어를 변수로 사용하면 안된다.    
-• i.g. for print in list: ( X ) , 예약어 print 를 변수로 사용하면 안된다. 
+• e.g. for print in list: ( X ) , 예약어 print 를 변수로 사용하면 안된다. 
 {: .notice--info}
 
 
@@ -173,7 +173,7 @@ Note that dictionaries are **unordered**, meaning that any time you loop through
 **설명:** [ Hint ]     
 • 딕셔너리는 key 값과 매치되는 value 가 있다.    
 • 딕셔너리 webster는 key 값을 지정하여 해당 value 를 가져올 수 있다.    
-• i.g. print webster["Aardvark"]    
+• e.g. print webster["Aardvark"]    
 • 모든 key 값을 for 문을 반복하면서 key 에 해당하는 value 값을 가져올 수 있다.
 {: .notice--info}
 
@@ -283,7 +283,7 @@ Make sure to keep track of your indentation or you may get confused!
 **설명:** [ Hint ]          
 • 변수 number 가 2로 나누어 지면 짝수이다.    
 • 연산자 % 를 이용하여 나누어 지는것을 확인할 수 있다.    
-• i.g. ( item % 10 ==0 )은 10 으로 나눠서 나머지가 0 이 되는것 이라는 의미이다. 
+• e.g. ( item % 10 ==0 )은 10 으로 나눠서 나머지가 0 이 되는것 이라는 의미이다. 
 {: .notice--info}
 
 <br>
@@ -692,7 +692,7 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 
 **설명:** [ Hint ]          
 • 딕셔너리를 만들때 ( {} ) 와, key/value 사이에 ( , ) 로 구분 하는것을 잊지말자.    
-• i.g. ddd = { "apple" : 1, "banana" : 2}
+• e.g. ddd = { "apple" : 1, "banana" : 2}
 {: .notice--info}
 
 <br>
@@ -748,7 +748,7 @@ Because we know that they have the same keys, we can loop through one dictionary
 • Ch8. Keeping Track of the Produce 에서는 딕셔너리의 key/value를 추출해보자.    
 • Key 이름은 딕셔너리 별로 관리된다.    
 • 2개의 딕셔너리에서 key 이름이 같아도, 딕셔너리 이름이 다르면 다른 key 로 인식한다.    
-• i.g. 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.  
+• e.g. 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.  
 {: .notice--info}
 
 
@@ -902,7 +902,7 @@ For paperwork and accounting purposes, let's record the total value of your inve
 
 **설명:** [ Hint ]          
 • 변수 total 에 각 항목별 재고 갯수와 가격을 곱한 금액을 추가로 더한다.    
-• i.g. 바나나의 전체 가격은 (개별 가격 : 4) x (제고 : 6) = 24 이다.  
+• e.g. 바나나의 전체 가격은 (개별 가격 : 4) x (제고 : 6) = 24 이다.  
 {: .notice--info}
 
 <br>
@@ -1133,7 +1133,7 @@ def compute_bill(food):
 
 **설명:** [ Solution ]     
 • 함수 compute_bill(food) 를 작성하였다.    
-• 이 함수는 입력 받은 리스트 food의 해당 항목의 가격을 찾는다.(i.g. "banana")   
+• 이 함수는 입력 받은 리스트 food의 해당 항목의 가격을 찾는다.(e.g. "banana")   
 • for 문에서, food에서 찾은 "banana"의 가격을 리스트 prices 에서 찾는다.    
 • 전체 값을 저장하는 변수 total 에 "banana"의 가격을 더하여 저장한다.    
 • 최종 total 값을 반환(return) 한다. 

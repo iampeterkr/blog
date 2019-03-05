@@ -609,7 +609,7 @@ A very large variance means that the students' grades were all over the place, w
 • 변수 variance 를 생성하고 0 으로 초기화 하라.     
 • 추후, 분산값을 구할때 사용할 것이다.       
 • for 문에서 각각의 점수들을 추출하여 차이를 계산한다.    
-• i.g. ( average - score)**2     
+• e.g. ( average - score)**2     
 • 결과값을 변수 variance 에 저장한다.     
 • 전체 variance 를 점수들의 갯수(len(grades)) 로 나눈다      
 • 그리고, 그 결과 값을 반환(return)한다.    
@@ -671,8 +671,8 @@ print grades_variance(grades)
 • 변수 average 에 함수 grades_average(scores) 호출후 얻은 결과값을 저장한다.    
 • 변수 variance 은 0 으로 초기화 한다.   
 • for 문에서 입력값 리스트 scores 의 항목 값을 하나씩 추출후, 변수 score 에 저장한다.    
-• 평균에서 점수를 밴후, 제곱근 한다.( i.g. (average - score)** 2 )    
-• 변수 variance 에 추가한다. (i.g. variance += (average - score) ** 2)
+• 평균에서 점수를 밴후, 제곱근 한다.( e.g. (average - score)** 2 )    
+• 변수 variance 에 추가한다. (e.g. variance += (average - score) ** 2)
 • for 문이 완료되면 변수 variance 에 len(scores) 를 나눈값을 반환(return)한다.
 • 함수 grades_variance(grades) 를 호출후 출력한다.
 {: .notice--info}

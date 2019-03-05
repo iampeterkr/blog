@@ -1074,7 +1074,7 @@ You already know about some of the **built-in functions** we've used with string
 **설명:** [ Learn ]    
 • Python 내장함수(built-in function) 에 대하여 알아보자.    
 • 내장함수는 import 을 선언하지 않고도 자유롭게 사용할수 있게 해준다.    
-• 대표적인 내장 함수는 이다. (i.g. .upper() , .lower() )
+• 대표적인 내장 함수는 이다. (e.g. .upper() , .lower() )
 {: .notice--info}
 
 
@@ -1616,7 +1616,7 @@ from math import sqrt
 • 함수 sqrt() 를 사용하는 방법은 3가지 이다.    
 • 첫째, 직접 함수 sqrt()를 만든다.   
 • 둘째, 모듈 math 를 import 한다.    
-• 셋째, 모듈 math 를 구체적으로 import 한다.(i.g. from math import sqrt)
+• 셋째, 모듈 math 를 구체적으로 import 한다.(e.g. from math import sqrt)
 • 3가지 방법중 하나를 사용하라.
 {: .notice--info}
 

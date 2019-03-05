@@ -1301,9 +1301,9 @@ We use 9 because we only need to slide the mask nine places over from the first 
 • Ch14. Slip and Slide 에서는 시프트 연산자를 학습한다.    
 • 변수 a 값의 10번째 bit를 on(1)로 만들려고 한다.    
 • 변수 mask 의 값 ( 0b1 ) 을 ( << 9 ) 9bit를 왼쪽으로 민다.     
-• 즉, ( 0b1 ) 다음에 0이 9개가 온다. ( i.g. mask=0b1000000000 )    
+• 즉, ( 0b1 ) 다음에 0이 9개가 온다. ( e.g. mask=0b1000000000 )    
 • 10번째 bit에 1이 오기 위해선, bit를 옆으로 9번 민다(slid).    
-• 변수 a 의 10번째 bit를 on 하려면, XOR 연산을 한다. ( i.g. a ^ mask )        
+• 변수 a 의 10번째 bit를 on 하려면, XOR 연산을 한다. ( e.g. a ^ mask )        
 • 두 변수의 비트가 같으면 0, 하나라도 틀리면 1이 된다.    
 • 변수 desired 값은 ( 0b1000000101 )이 된다.
 {: .notice--info}
@@ -1374,8 +1374,8 @@ def flip_bit(number, n):
 • 비트 '0b1' 을 (n-1) 만큼 << 왼쪽 으로 보낸다.(3번째는 시프트 2를 해야 한다.)    
 • 변수 bit_to_flip 에 시프트 된 결과값을 저장한다.    
 • 변수 result 에 변수 number ^ bit_to_flip 를 XOR 연산을 한다.    
-• i.g.       number : 0b10    
-• i.g. bit_to_flip : 0b100    
+• e.g.       number : 0b10    
+• e.g. bit_to_flip : 0b100    
 • 두 변수의 XOR 계산값은 0b110 이다.    
 • 변수 result 에 결과값 0b110 을 저장한다.    
 • 변수 result 의 값은 정수이다.    

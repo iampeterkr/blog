@@ -250,8 +250,8 @@ for i in range(5):
 **설명:** [ Solution ]          
 • 함수 range(5) 를 발생 시킨다.    
 • for 문에서 ['O']를 5번 곱하면, 싱글 리스트 ['O','O','O','O','O'] 이 만들어진다.   
-• (i.g. ['O'] * 5 -> ['O','O','O','O','O'] )    
-• 위와 같은 작업을 5번( i.g. range(5) ) 반복하여 아래와 같이 만든다.     
+• (e.g. ['O'] * 5 -> ['O','O','O','O','O'] )    
+• 위와 같은 작업을 5번( e.g. range(5) ) 반복하여 아래와 같이 만든다.     
 • [
     ['O','O','O','O','O'],
     ['O','O','O','O','O'],
@@ -413,9 +413,9 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 **설명:** [ Hint ]         
 • 함수는 다음 예제처럼 정의하여 사용한다.    
-• i.g. 'def fun_name(parameters):'    
+• e.g. 'def fun_name(parameters):'    
 • for문은 다음 예제처럼 사용한다.    
-• i.g. 'for x in list_name:'     
+• e.g. 'for x in list_name:'     
 • 함수를 for 문 다음에 정의하라.
 {: .notice--info}
 
@@ -489,12 +489,12 @@ We want to turn each row into **"O O O O O"**.
 • Ch6.Printing Pretty 에서는 메서드 '.join()' 를 사용법을 학습한다.    
 • 리스트 board 를 다듬어 보자.    
 • 리스트 letters = ['a', 'b', 'c', 'd'] 를 다음과 같이 실행하면,    
-• i.g. " ".join(letters)     
+• e.g. " ".join(letters)     
 • 리스트 letters 는 다음과 같이 바뀐다.    
-• i.g. "a b c d"      
+• e.g. "a b c d"      
 • 다른 예로, "---".join(letters) 를 실행하면,    
 • 리스트 letters 는 다음과 같이 바뀐다.    
-• i.g. "a---b---c"    
+• e.g. "a---b---c"    
 • 마지막으로, 메서드 '.join()' 기능을 사용하여 다음과 같이 바뀌도록 한다.    
 • 리스트 board =[ 'O','O','O','O','O' ] -> [ O O O O O ]
 {: .notice--info}
@@ -513,7 +513,7 @@ We want to turn each row into **"O O O O O"**.
 • 함수 print board() 를 다음과 같이 동작되도록 작성하라.    
 • for 문 안에서 메서드 '.join()'을 사용하여라.    
 • 리스트 row 항목값 의 구분자를 'O', 를 'O' 모양이 되게 만들어라.    
-• i.g. 'O','O','O','O','O' ->  O O O O O 
+• e.g. 'O','O','O','O','O' ->  O O O O O 
 {: .notice--info}
 
 
@@ -601,8 +601,8 @@ Let's generate a **`random_row`** and **`random_col`** from **zero to four**!
 **설명:** [ Learn ]          
 • Ch7. Hide... 에서는 함수 randinit()를 학습한다.     
 • 함수 randint(low, high) 는 low 와 high 사이의 값을 random으로 출력한다.    
-• i.g. randint(0, 1) :  0과 1사이의 값을 random으로 출력한다.     
-• i.g. randint(1, 6) :  1에서 6사이의 값을 random으로 출력 해준다.     
+• e.g. randint(0, 1) :  0과 1사이의 값을 random으로 출력한다.     
+• e.g. randint(1, 6) :  1에서 6사이의 값을 random으로 출력 해준다.     
 • 함수 random_row() 와 random_col()에 0부터 4까지의 값이 random으로 출력되게 한다.
 {: .notice--info}
 
@@ -748,9 +748,9 @@ if int(number) == 0:
 
 **설명:** [ Instruction ]          
 • 변수 guess_row 에 int(raw_input("Guess Row: ")) 을 대입하라.    
-• i.g. guess_row=int(raw_input("Guess Row: "))     
+• e.g. guess_row=int(raw_input("Guess Row: "))     
 • 변수 guess_col 에 int(raw_input("Guess Col: ")) 을 대입하라.    
-• i.g. guess_col=int(raw_input("Guess Col: "))    
+• e.g. guess_col=int(raw_input("Guess Col: "))    
 • Run  버튼을 눌러 실행후, prompt 에서 값을 입력하라.
 {: .notice--info}
 
@@ -805,11 +805,11 @@ guess_col = int(raw_input("Guess Col: "))
 
 **설명:** [ Solution ]          
 • 소스 : guess_row = int(raw_input("Guess Row: ")) 는 다음과 같이 동작한다.    
-• i.g. "Guess Row: " 가 출력되어 문자열 입력받을 준비를 하고 있다.    
-• i.g. 문자열을 입력하고 Enter를 치면, 그 문자열 값이 변수 guess_row 에 저장된다.    
+• e.g. "Guess Row: " 가 출력되어 문자열 입력받을 준비를 하고 있다.    
+• e.g. 문자열을 입력하고 Enter를 치면, 그 문자열 값이 변수 guess_row 에 저장된다.    
 • 소스 : guess_col = int(raw_input("Guess Col: ")) 는 다음과 같이 동작한다.    
-• i.g. "Guess Col: " 가 출력되어 문자열 입력받을 준비를 하고 있다.    
-• i.g. 문자열을 입력하고 Enter를 치면, 그 문자열 값이 변수 guess_col 에 저장된다.
+• e.g. "Guess Col: " 가 출력되어 문자열 입력받을 준비를 하고 있다.    
+• e.g. 문자열을 입력하고 Enter를 치면, 그 문자열 값이 변수 guess_col 에 저장된다.
 {: .notice--info}
 
 
@@ -960,7 +960,7 @@ The example above is just a reminder about if statements.
 • Ch10. You win! 에서는 if 절을 사용하는 법을 학습한다.      
 • 배의 위치가 random으로 만들어지고, 참여자가 위치를 맞추면 게임이 끝나는 것이다.    
 • 참여자가 승리하는 조건은 다음과 같다.    
-• i.g. if guess_col == ship_col and guess_row == ship_row    
+• e.g. if guess_col == ship_col and guess_row == ship_row    
 • if 절을 사용하여 비교하는 부분을 공부해 보자. 
 {: .notice--info}
 
@@ -1123,7 +1123,7 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 **설명:** [ Instruction ]          
 • if 문 밑의 else 문에  "You missed my battleship!" 을 작성하라.    
 • 리스트 board 의 guess_row, guess_col 좌표에 해당하는 곳에 문자 "X" 를 저장하라.     
-• i.g. board[1][2] = "X"    
+• e.g. board[1][2] = "X"    
 • print_board(board) 를 다시 호출하라.    
 • 해당 좌표에 "O" 대신에 "X"가 저장되어 있다.
 {: .notice--info}
@@ -1141,7 +1141,7 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 • 2차원 리스트를 만들어서 사용하라.     
 • 2차원 리스트는 list_name[i][j] 로 만든다.    
 • i 는 바깥 index, j는 내부 index 가리킨다.    
-• i.g.  list_name = [ [1,2], [3,4], [5,6] ] => list_name[1,1] = 4 
+• e.g.  list_name = [ [1,2], [3,4], [5,6] ] => list_name[1,1] = 4 
 {: .notice--info}
 
 <br>
@@ -1297,7 +1297,7 @@ if guess_row not in range(your_desired_range) or guess_col not in range(your_des
 
 **설명:** [ Hint ]          
 • 변수 guess_row , guess_col 의 값은 0부터 rows -1 , cols -1 이다.      
-• i.g. rows : 5 -> 0, 1, 2, 3, 4    
+• e.g. rows : 5 -> 0, 1, 2, 3, 4    
 • if 문에서 범위에 포함되고 안되고는 'not in'을 사용한다.
 {: .notice--info}
 
@@ -1685,7 +1685,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 **설명:** [ Instruction ]          
 • 질문 기회를 4번까지 가능한 for 문을 추가하라.    
 • for 문의 끝에는 몇 번 시도 했는지를 표시해 주는 print 문을 만들어라.    
-• i.g. print ( "Turn :", turn+1) 
+• e.g. print ( "Turn :", turn+1) 
 • for 문 안쪽에 들여 쓰여진 모든 소스는 반복된다.
 {: .notice--info}
 
@@ -1758,7 +1758,7 @@ for turn in range(4):
 
 **설명:** [ Solutin ]      
 • for 문에서 4번 반복하는것은 다음과 같이 작성한다.    
-• i.g. for turn in range(4):    
+• e.g. for turn in range(4):    
 • for 문으로 둘러 쌓여진(들여 쓰진) 소스는 4번 반복된다.
 {: .notice--info}
 

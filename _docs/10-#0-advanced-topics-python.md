@@ -269,7 +269,7 @@ for key in some_dict:
 **설명:** [ Hint ]    
 • 출력시 key 와 some_dict[key] 사이에 공백이 있어야 한다.    
 • 공백은 ( " " ) 아닌, ( , ) 를 사용하라.    
-• i.g.  print key, some_dict[key]
+• e.g.  print key, some_dict[key]
 {: .notice--info}
 
 <br>
@@ -325,7 +325,7 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 **설명:** [ Learn ]     
 • Ch4. Building Lists 에서는 리스트 컴프레션을 학습한다.    
 • 0 ~ 50 까지의 정수를 리스트에 저장하는 법은 다음과 같다.    
-• i.g. my_list = range(51)     
+• e.g. my_list = range(51)     
 • 만약, 0부터 50사이의 짝수만 저장하고 싶다면?     
 • Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용 후      
 • 리스트 컴프레션(list comprehension)을 기능을 사용하면 쉽게 만들수 있다.
@@ -481,7 +481,7 @@ print even_squares
 • for 문에서  1(포함) 부터 12(미포함) 까지 산출하고, 변수 x 에 저장한다.    
 • if 문에서 변수 x 를 % 2 로 나누어서 나머지가 0 인지 확인한다.    
 • 맨 앞 변수 x 에 나머지가 0 ( 즉, 짝수 ) 인 값을 저장한다.    
-• 변수 x 값을 제곱( i.g. 'x ** 2' )한다.    
+• 변수 x 값을 제곱( e.g. 'x ** 2' )한다.    
 • 리스트 even_squares 에 저장한다.     
 • 리스트 even_squares 를 출력한다. 
 {: .notice--info}
@@ -581,9 +581,9 @@ print cubes_by_four
 • if 문에서 True 인 x 값을, 맨앞 변수 x 에 저장한다.    
 • 맨앞 변수 x 를 세제곱한다.    
 • 세제곱한 변수 x 를 리스트 cubes_by_four 에 저장한다.    
-• i.g. 숫자 8 은 (8%4==0)를 충족하고, x=2일때, (2 ** 3) 도 충족한다.      
-• i.g. 숫자 16 은 (16%4==0)은 충족하지만 ( x ** 3 = 16 )은 충족하지 않는다.    
-• i.g. 숫자 64 는 (64%4==0)을 충족하고, x=4일때, (4 ** 3)도 충족한다. 
+• e.g. 숫자 8 은 (8%4==0)를 충족하고, x=2일때, (2 ** 3) 도 충족한다.      
+• e.g. 숫자 16 은 (16%4==0)은 충족하지만 ( x ** 3 = 16 )은 충족하지 않는다.    
+• e.g. 숫자 64 는 (64%4==0)을 충족하고, x=4일때, (4 ** 3)도 충족한다. 
 {: .notice--info}
 
 
@@ -619,7 +619,7 @@ Where start describes where the slice starts (inclusive), end is where it ends (
 • 이런경우 List slicing 을 사용한다.    
 • List slicing 은 리스트를 간편하게 접근하게 해준다.    
 • 문법은 다음과 같다.     
-• i.g. [시작:끝:간격]     
+• e.g. [시작:끝:간격]     
 • - 시작(start) : Slicing을 시작할 위치(포함)     
 • - 끝(end) : Slicing 끝낼 위치(포함하지 않음)    
 • - 간격(stride) : 시작을 포함하여 몇번째를 가져올지(옵션)
@@ -724,9 +724,9 @@ The default stride is 1.
 • Ch8. Omitting Indices 에서는 리스트 슬라이싱 활용을 학습한다.    
 • 리스트에서 특정 index를 지정하지 못할 경우가 있다.    
 • 이런경우, 범위와 조건을 주어 리스트의 특정 값을 골라 낼수 있다.     
-• i.g. 'to_five[3:]' 는 index 3번(포함)부터 마지막(미포함)의 값을 골라 낸다.    
-• i.g. 'to_five[:2]' 는 처음(포함)부터 index 2번(미포함)까지의 값을 골라 낸다.   
-• i.g. 'to_five[::2]'는 처음(포함)부터 마지막(미포함)까지의 값중, 하나씩 건너 뛰면서 골라낸다.   
+• e.g. 'to_five[3:]' 는 index 3번(포함)부터 마지막(미포함)의 값을 골라 낸다.    
+• e.g. 'to_five[:2]' 는 처음(포함)부터 index 2번(미포함)까지의 값을 골라 낸다.   
+• e.g. 'to_five[::2]'는 처음(포함)부터 마지막(미포함)까지의 값중, 하나씩 건너 뛰면서 골라낸다.   
 • index는 0 부터 시작한다.    
 {: .notice--info}
 
@@ -766,7 +766,7 @@ The default stride is 1.
 
 **설명:** [ Hint ]    
 • [start(처음):end(마지막):stride(조건, 옵션)]        
-• 처음과 마지막은 빈칸이란 의미는 전체를 사용해야 한다. (i.g. [ : : stride])
+• 처음과 마지막은 빈칸이란 의미는 전체를 사용해야 한다. (e.g. [ : : stride])
 • 홀수만 추출해야 하기에, 옵션인 조건(stride) 이 필요하다.
 {: .notice--info}
 
@@ -792,8 +792,8 @@ print my_list[::2]
 • index 처음(0)부터 끝(9)까지 추출한다.    
 • 첫번째(index : 0)는 포함, 마지막은(index : 10) 미포함.    
 • 옵션은 1칸씩 건너뛴다.     
-• i.g. my_list=[1,2,3,4,5,6,7,8,9,10]    
-• i.g. index -> 0,1,2,3,4,5,6,7,8, 9, 10(Null) 
+• e.g. my_list=[1,2,3,4,5,6,7,8,9,10]    
+• e.g. index -> 0,1,2,3,4,5,6,7,8, 9, 10(Null) 
 {: .notice--info}
 
 
@@ -862,7 +862,7 @@ Do not print `backwards`
 
 **설명:** [ Hint ]    
 • 리스트 옵션의 ( -1 ) 값은 리스트를 역순으로 슬라이싱 한다.    
-• i.g. list_reverse[::-1]    
+• e.g. list_reverse[::-1]    
 • 리스트 backwards 에 list_reverse의 역순값만 저장하고, 출력은 하지마라.
 {: .notice--info}
 
@@ -1189,7 +1189,7 @@ If you plan on creating a function you'll use over and over, you're better off u
 **설명:** [ Learn ]    
 • Ch13. Lambda Syntax 에서는 lambda 의 문법을 학습한다.    
 • 함수 lambda 는 다음과 같이 사용한다.     
-• i.g. filter(lambda x: x % 3 == 0, my_list)    
+• e.g. filter(lambda x: x % 3 == 0, my_list)    
 • 함수 lamda 를 정의할때, def 함수 선언이 필요없다.    
 • 빠르게 한줄로 함수를 구현할때 사용이 가능하다.    
 • 함수 이름을 줄 필요도 없다.(Anonymous function)  
@@ -1226,9 +1226,9 @@ If you plan on creating a function you'll use over and over, you're better off u
 **설명:** [ Hint ]    
 • 함수 filter() 는 2개의 arguments 를 가진다.     
 • 첫번째 인자는 필터링할 내용을 적어준다.    
-• i.g. ( lambda x:x=="Python" )    
+• e.g. ( lambda x:x=="Python" )    
 • 두번째 인자는 필터링할 대상, 입력값을 적어준다.    
-• i.g. ( 입력값 리스트 'languages')를 적어준다.
+• e.g. ( 입력값 리스트 'languages')를 적어준다.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1682,7 +1682,7 @@ lambda x: x != 10
 
 **설명:** [ Hint ]    
 • 함수 lambda 사용법은 다음과 같이 연산자 ( != ) 를 사용할수 있다.    
-• i.g. lambda x: x != 10     
+• e.g. lambda x: x != 10     
 • 변수 x 가 10 이 아닌 값이 변수 x 에 저장된다.
 {: .notice--info}
 

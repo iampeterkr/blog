@@ -151,7 +151,7 @@ x[n] = v
 
 **설명:** [ Learn ]     
 • 리스트의 특정 자리 항목을 변경하기 위해서는 다음과 같이 변경한다.    
-• i.g. x[n]=v     
+• e.g. x[n]=v     
 • x : 리스트,   n : index,   v : 값 
 {: .notice--info}
 
@@ -170,7 +170,7 @@ print n
 ```
 
 **설명:** [ Solution ]          
-• 인덱스 1번(두번째값) 자리 n[1] 에 값 5를 곱한다. (i.g. n[1] * 5)    
+• 인덱스 1번(두번째값) 자리 n[1] 에 값 5를 곱한다. (e.g. n[1] * 5)    
 • 리스트 n 을 출력한다.    
 • 곱하기 5를 항 2번째 항목(n[1])만 변경된다.
 {: .notice--info}
@@ -246,7 +246,7 @@ print n
 ```
 
 **설명:** [ Solution ]          
-• i.g. 'n.append(4)' 는 리스트의 맨 끝에 값 4를 추가한다.
+• e.g. 'n.append(4)' 는 리스트의 맨 끝에 값 4를 추가한다.
 {: .notice--info}
 
 
@@ -304,7 +304,7 @@ print n
 • n.remove(1),  index 값 1 위치에 해당하는 값을 찾아서 그 값이 삭제 된다.     
 • del(n[1]) index 값 1 위치에 해당하는 값이 삭제 된다.     
 • 주의, del(n[1])은 결과값이 return 안된다.     
-• i.g. print del(n[0]) 사용불가.
+• e.g. print del(n[0]) 사용불가.
 {: .notice--info}
 
 
@@ -339,7 +339,7 @@ n.pop(0)
 
 **설명:** [ Hint ]    
 • n.pop(0) 은 index 0 위치의 값을 지운다.    
-• 만약, index 값을 주지 않으면 마지막 인덱스를 지운다.( i.g. n.pop() )
+• 만약, index 값을 주지 않으면 마지막 인덱스를 지운다.( e.g. n.pop() )
 {: .notice--info}
 
 <br>
@@ -765,7 +765,7 @@ print list_function(n)
 • 함수 list_function(n) 을 호출한다.    
 • 입력값 리스트 n = [3,5,7] 이 입력된다.    
 • 함수 list_function(x):는 입력된 리스트 x 의 1번 index 를 반환한다.    
-• 함수 list_function(n)의 결과값이 출력된다.(i.g. print list_function(n))
+• 함수 list_function(n)의 결과값이 출력된다.(e.g. print list_function(n))
 {: .notice--info}
 
 
@@ -866,7 +866,7 @@ print list_function(n)
 • 입력받은 리스트 x 의 1번 index 에 값 3 을 더한다.    
 • 그리고, 그 결과값을 x[1] 에 다시 저정한다.        
 • 리스트 x 를 반환(return)한다.     
-• 함수 list_function(n)의 결과값을 출력한다.(i.g. print list_function(n) )
+• 함수 list_function(n)의 결과값을 출력한다.(e.g. print list_function(n) )
 {: .notice--info}
 
 
@@ -1048,7 +1048,7 @@ print_list(n)
 • 입력받은 리스트 x 의 함수 len(x)으로 길이를 구한다.    
 • 함수 range(0, len(x))를 호출하여, 리스트의 index 갯수를 구한다.    
 • for 문으로 리스트의 항목의 index 값을 하나씩 추출하여 변수 i 에 저장한다.     
-• 리스트 x 의 index 주소에 해당하는 항목을 출력한다.( i.g. print x[i] )
+• 리스트 x 의 index 주소에 해당하는 항목을 출력한다.( e.g. print x[i] )
 {: .notice--info}
 
 
@@ -1134,10 +1134,10 @@ print double_list(n)
 • 정의된 함수 double_list(x):는 parameter 로 리스트 x 를 가진다.     
 • 이 함수는 다음과 같은 기능을 가진다.    
 • 입력받은 리스트 x 의 길이를 함수 len(x) 를 사용하여 계산한다.    
-• 리스트 x 의 길이 만큼 index 값을 산출한다. (i.g. range(0, len(x)))    
+• 리스트 x 의 길이 만큼 index 값을 산출한다. (e.g. range(0, len(x)))    
 • for 문에서 리스트 x 의 index 값을 하나씩 추출한다.    
 • 추출한 값을 변수 i 에 저장한다.    
-• 리스트 x 의 i 번째 항목값에 값 2를 곱한다. (i.g. x[i] * 2)    
+• 리스트 x 의 i 번째 항목값에 값 2를 곱한다. (e.g. x[i] * 2)    
 • 값 2를 곱한 결과를, 다시 리스트 x[i] 에 저장한다.    
 • 리스트 x 를 반환한다.
 • 함수 double_list(n)을 호출하고 받은 결과값을 출력한다.
@@ -1186,17 +1186,17 @@ In all cases, the **`range()`** function **returns a list** of numbers from **st
 • ---------------------     
 • Arguments (1)    
 • 사용법 : range(stop)     
-• 설명 : i.g. range(6) 는 index 6번 까지 리스트를 생성한다. (6은 미포함)
+• 설명 : e.g. range(6) 는 index 6번 까지 리스트를 생성한다. (6은 미포함)
 • 결과 : [0,1,2,3,4,5]    
 • ---------------------      
 • Arguments (2)    
 • 사용법 : range(start, stop)     
-• 설명 : i.g. range(1, 6) 는 index 1번 부터 6번 까지 리스트 생성. (6은 미포함)
+• 설명 : e.g. range(1, 6) 는 index 1번 부터 6번 까지 리스트 생성. (6은 미포함)
 • 결과 : [1,2,3,4,5]    
 • ---------------------      
 • Arguments (3)    
 • 사용법 : range(start, stop, step)     
-• 설명 : i.g. range(1,6,3) 는 index 1번 부터 6번 까지 리스트 생성.(6은 미포함)    
+• 설명 : e.g. range(1,6,3) 는 index 1번 부터 6번 까지 리스트 생성.(6은 미포함)    
 • 결과 : [1,4]  (단, 3칸씩 간격을 두고 생성)   
 • ---------------------      
 {: .notice--info}
@@ -1367,8 +1367,8 @@ def total(numbers):
 • 함수 total(numbers)는 입력값 리스트인 numbers 에 있는 값들의 합을 반환하는 함수이다.    
 • 변수 result 를 초기화 한다.
 • for 문에서 다음과 같은 기능을 처리한다.    
-• 입력값 리스트 numbers 의 길이를 구한다.(i.g. len(numbers))    
-• 리스트 numbers 의 index 값을 산출한다.(i.g. range(0, len(numbers)))    
+• 입력값 리스트 numbers 의 길이를 구한다.(e.g. len(numbers))    
+• 리스트 numbers 의 index 값을 산출한다.(e.g. range(0, len(numbers)))    
 • 변수 i 에 리스트 numbers의 indext 값을 저장한다.    
 • 리스느 numbers[i] 의 항목값을 변수 result에 더해 준다.    
 • for 문이 종료되어, 리스트의 모든 항목값이 더해진 결과를 반환(return)한다.
@@ -1407,7 +1407,7 @@ The example above is just a reminder of the two methods for iterating over a lis
 **설명:** [ Learn ]          
 • Ch16. Using strings in lists in functions 에서는 리스트 항목값이 문자열인 리스트를 조작하는 방법을 학습한다.    
 • 문자열 리스트를 조작하는 방법은 2가지가 있다.    
-• Method 01 : 입력된 리스트의 항목값을 직접 출력(i.g. for item in list: )     
+• Method 01 : 입력된 리스트의 항목값을 직접 출력(e.g. for item in list: )     
 • Method 02 : 입력된 리스트의 항목값의 index를 이용하여 출력( list[i] )
 {: .notice--info}
 
@@ -1582,7 +1582,7 @@ print join_lists(m, n)
 • Arguments m = [ 1, 2, 3 ], n = [4, 5, 6]이 입력된다.    
 • 정의된 함수 join_lists(x, y): 는 parameter x, y 를 가진다.    
 • 이 함수는 입력된 리스트 x, y 의 항목값을 연산자 ( + ) 를 사용하여 합친다.    
-• 합친 결과를 반환(return) 한다. (i.g. return x + y )
+• 합친 결과를 반환(return) 한다. (e.g. return x + y )
 {: .notice--info}
 
 
@@ -1653,7 +1653,7 @@ We end up printing out:
 
 **설명:** [ Learn ]          
 • 함수 flattern(listst)는 복합 리스트를 싱글 리스트로 바꾸는 함수이다.     
-• (i.g. [ a, [b,c], d ] )    
+• (e.g. [ a, [b,c], d ] )    
 • Editor 창 3 라인에서, 함수 flatten(lists) 를 만들어라.    
 • 이 함수는 다음과 같은 기능을 한다.    
 • 빈 리스트 results 만들고 초기화 하시오.    
@@ -1721,7 +1721,7 @@ print flatten(n)
 • Arguments n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]] 이다.    
 • 정의된 함수 flatten(lists):는 다음과 같이 동작한다.    
 • 입력받은 parameters 변수 lists 에는 변수 n 값이 들어있다.    
-• 리스트 변수 results 를 초기화 환다. (i.g. results = [] )    
+• 리스트 변수 results 를 초기화 환다. (e.g. results = [] )    
 • for 문에서 lists 의 항목값을 변수 numbers에 하나씩 추출하여 저장한다.    
 • 이중 for 문에서 numbers 의 항목값을 변수 number에 하나씩 추출하여 저장한다.    
 • 빈 리스트 results 에 메서드 '.append(number)'를 사용하여 추가한다.    

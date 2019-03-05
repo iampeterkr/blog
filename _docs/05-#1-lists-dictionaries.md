@@ -47,9 +47,9 @@ Lists are very similar to strings, but there are a few key differences
 • Ch1. Introduction to Lists 에서는 리스트에 대하여 배워보자.         
 • 리스트는 각기 다른 형태의 데이타 타입을 모을 수 있다.    
 • 사용법은 '리스트 변수명 = [ item_1, item_2 ] ' 이다.    
-• i.g. test_list = [item1, item2]    
+• e.g. test_list = [item1, item2]    
 • 빈 리스트는 다음과 같이 만든다.    
-• i.g. test_list = []     
+• e.g. test_list = []     
 • 공부를 진행하다 보면, 리스트는 문자열과 비슷 하다는것을 알게 된다.
 {: .notice--info}
 
@@ -265,7 +265,7 @@ zoo_animals[2] = "hyena"
 
 **설명:** [ Learn ]     
 • Ch3. New Neighbors 에서는 리스트의 항목값을 주소(index)를 이용하여 변경해 보자.    
-• 리스트 zoo_animals의 index 값을 지정하면(i.g. zoo_animals[0]),    
+• 리스트 zoo_animals의 index 값을 지정하면(e.g. zoo_animals[0]),    
 • 리스트 zoo_animals[0] 의 항목값 'pangolin' 을 읽을 수 있다.    
 • 리스트 zoo_animals[2] = "hyena" 로 대입하면, 원래 "sloth" 을 "hyena"로 변경된다.
 {: .notice--info}
@@ -398,8 +398,8 @@ print letters
 
 **설명:** [ Hint ]    
 • 앞에서 배운바와 같이 ( % ) 는 변수의 값을 대체하는 기호이다.    
-• i.g. ( %d )는 숫자를 출력하기 위한 대체 표현이다.    
-• i.g. ( %s )는 문자열을 출력하기 위한 대체 표현이다.
+• e.g. ( %d )는 숫자를 출력하기 위한 대체 표현이다.    
+• e.g. ( %s )는 문자열을 출력하기 위한 대체 표현이다.
 {: .notice--info}
 
 <br>
@@ -475,10 +475,10 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 **설명:** [ Learn ]     
 • Ch5. List Slicing 에서는 문자열의 특정 범위를 잘라내는 법을 배워보자.    
 • 리스트 letters 의 특정 항목값 'b', 'c' 만 추출 하려면 어떻게 해야 할까?
-• 첫번째 방법은, 해당 문자열의 index 값을 지정해서 추출할 수 있다.(i.g. letters[1])   
-• 이 장에서는 index 값의 범위를 지정하여 추출할 수(i.g. letters[1:3]).    
+• 첫번째 방법은, 해당 문자열의 index 값을 지정해서 추출할 수 있다.(e.g. letters[1])   
+• 이 장에서는 index 값의 범위를 지정하여 추출할 수(e.g. letters[1:3]).    
 • 리스트 letters[1:3]은 리스트 letters 1번 주소 부터 3번 주소까지 잘라낸다는 의미이다.    
-• 단, 잘라내는 규칙은 다음과 같다. (i.g. letters[Begin:End] ).    
+• 단, 잘라내는 규칙은 다음과 같다. (e.g. letters[Begin:End] ).    
 • Begin : 첫번째 index 포함.    
 • End :  마지막 index 미포함.    
 • 리스트 index 는 0 부터 시작한다.    
@@ -617,8 +617,8 @@ If your list slice includes the very first or last item in a list (or a string),
 
 
 **설명:** [ Hint ]              
-• 첫번째 index(1) 포함, 마지막 index(5) 미 포함(i.g. list[1:5]).     
-• 마지막 index( ) 를 적지 않으면 끝까지 임(i.g. list[1:]).
+• 첫번째 index(1) 포함, 마지막 index(5) 미 포함(e.g. list[1:5]).     
+• 마지막 index( ) 를 적지 않으면 끝까지 임(e.g. list[1:]).
 {: .notice--info}
 
 <br>
@@ -642,9 +642,9 @@ frog = animals[6:]
 ```
 
 **설명:** [ Solution ]              
-• animals[:3] 은 index 0(포함) 부터 index 3(미포함)까지 잘라냄.(i.g. 'cat')    
-• animals[3:6] 은 index 3(포함) 부터 index 6(미포함)까지 잘라냄.(i.g. 'dog')    
-• anmals[6:] 은 index 6(포함) 부터 끝까지 잘라냄. (i.g. 'frog')
+• animals[:3] 은 index 0(포함) 부터 index 3(미포함)까지 잘라냄.(e.g. 'cat')    
+• animals[3:6] 은 index 3(포함) 부터 index 6(미포함)까지 잘라냄.(e.g. 'dog')    
+• anmals[6:] 은 index 6(포함) 부터 끝까지 잘라냄. (e.g. 'frog')
 {: .notice--info}
 
 
@@ -693,7 +693,7 @@ print animals
 • Ch7. Maintaining Order 에서는 리스트 특정 index에 항목을 추가하는 법을 배워보자.    
 • 리스트 animals 에 3개의 문자열 "ant", "bat", "cat"이 들어 있다.     
 • 리스트 animals 의 index 1번 자리에 "dog" 를 추가하려면 다음과 같이 한다.    
-• i.g. animals.insert(1, "dog")    
+• e.g. animals.insert(1, "dog")    
 • 추가 하고자 하는 index 번호화 항목값을 지정해 준다.
 {: .notice--info}
 
@@ -756,7 +756,7 @@ print animals # Observe what prints after the insert operation
 • 리스트 animals 에서 "duck"의 index 값은 2 이다.    
 • duck_index = 값에 2가 저장된다.    
 • index 2 번 자리에 문자열 "cobra"를 삽입한다.    
-• i.g. animals.insert(duck_index, "cobra")    
+• e.g. animals.insert(duck_index, "cobra")    
 • 변수 animals 를 출력한다.    
 • 문자열 "duck" 의 index 값은 3 이 된다.     
 • 문자열 "cobra" 의 index 값은 2 가 된다.
@@ -795,7 +795,7 @@ Then in `list_name` designates `list_name` as the list the loop will work on. Th
 • Ch8. For One and All 에서는 리스트의 값들을 추출하는것을 학습한다.    
 • 리스트의 항목(값)들을 모두 뽑아 내려면 해당 index 값을 지정해 주면 된다.    
 • for loop 문을 사용하여 리스트의 항목을 추출할 수 있다.    
-• i.g. for variable in list_name:      
+• e.g. for variable in list_name:      
 • 변수 variable 는 리스트 list_name 에서 뽑아낸 항목을 저장하는 변수이다.     
 • for 문의 끝에는 ( : ) 이 있다.    
 • for 문의 내용은 들여쓰기를 하여 작성한다. 
@@ -1007,7 +1007,7 @@ Dictionaries are great for things like phone books (pairing a name with a phone 
 • 딕셔너리는 리스트와 비슷하다.     
 • 리스트는 눈에 보이지 않는 인덱스를 가지고 해당 항목(값)을 나타낸다.    
 • 딕셔너리는 'key' 를 이용하여 해당 항목(값)을 나타낸다.     
-• i.g. 딕셔너리 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}     
+• e.g. 딕셔너리 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}     
 • 딕셔너리 항목(값)은 ( key : value ) 으로 이루어 진다.    
 • 'key1' 을 키(key)라고 부르면 이와 매칭되는 값 1 을 값(value)이라 부른다.    
 • key 는 문자열, 숫자 모두 사용 가능하다.    
@@ -1053,7 +1053,7 @@ residents['Puffin']# Gets the value 104
 
 **설명:** [ Hint ]         
 • 딕셔너리 residents 의 key 'Puffin'을 지정하면 해당 key의 value 값 104가 반환된다.    
-• i.g. print residents['Puffin'] # 104
+• e.g. print residents['Puffin'] # 104
 {: .notice--info}
 
 <br>
@@ -1116,10 +1116,10 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 • 딕셔너리도 리스트와 마찬가지로 변형이 가능하다.    
 • 여기서 변형은 추가/삭제 이다.     
 • 추가/삭제는 'key/value' 쌍으로 추가/삭제 해야 한다.     
-• i.g. 'dict_name[new_key]=new_value'     
+• e.g. 'dict_name[new_key]=new_value'     
 • 딕셔너리 초기화는 ( {} ) 를 사용한다.    
-• i.g. 'dict_name = {}'
-• 리스트 초기화와 구별하자. ( i.g. 'list_name = []')     
+• e.g. 'dict_name = {}'
+• 리스트 초기화와 구별하자. ( e.g. 'list_name = []')     
 • 함수 len() 를 사용하여, 딕셔너리의 쌍의 갯수가 몇개인지 알 수 있다.    
 • key/value 는 1:1 매칭이다.     
 • value 의 값은 리스트 형(type)이기에, key1:[list1, list2] 와 같이 사용할 수 있다. 
@@ -1223,7 +1223,7 @@ dict_name[key] = new_value
 **설명:** [ Learn ]     
 • Ch12. Changing Your Mind 에서는 딕셔너리 삭제(del)에 대하여 배워보자.    
 • 딕셔너리 삭제는 명령어 del 을 사용하여 삭제할 수 있다.    
-• i.g. del dict_name[key_name]     
+• e.g. del dict_name[key_name]     
 • 딕셔너리 dict_name 에 key_name 과 매칭되는 value(값)를 삭제할 수 있다.   
 • 삭제는 key/value 쌍이 삭제된다.    
 • 참고로, dict_name[key]=new_value 로 추가할 수 있다.    
@@ -1477,7 +1477,7 @@ inventory['backpack'].remove('dagger')
 
 **설명:** [ Hint ]     
 • 딕셔너리의 value가 리스트인 것의 값을 삭제하는 방법은 다음과 같다.    
-• i.g. inventory['backpack'].remove('dagger')      
+• e.g. inventory['backpack'].remove('dagger')      
 • 주의, add 50 은 기존 값에다 추가로 더하는 것이다.(항목을 리스트로 만드는것이 아니다.) 
 {: .notice--info}
 
@@ -1514,11 +1514,11 @@ print (inventory)
 **설명:** [ Solution ]    
 • 리스트 inventory['pocket'] 의 value 로 리스트 ['seashell', 'strange berry', 'lint'] 를 대입하였다.    
 • 리스트 inventory['backpack'] 의 value 인 리스트를 정렬하였다.    
-• 정렬은 메소드 .sort() 를 사용하였다. (i.g. inventory['backpack'].sort() )    
+• 정렬은 메소드 .sort() 를 사용하였다. (e.g. inventory['backpack'].sort() )    
 • 삭제는 inventory['backpack'] 의 value 인 리스트 'dagger'를 지정해서 삭제했다.   
-• i.g. inventory['backpack'].remove('dagger')    
+• e.g. inventory['backpack'].remove('dagger')    
 • 추가는 리스트의 key 값을 지정하여 value 를 변경할 수 있다.    
-• i.g. inventory['gold'] = inventory['gold'] + 50     
+• e.g. inventory['gold'] = inventory['gold'] + 50     
 • key 'gold' 의 원래 value 값 500 에 추가로 50을 추가한다. 
 {: .notice--info}
 

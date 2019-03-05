@@ -206,8 +206,8 @@ If the difference between a number and that same number rounded is greater than 
 
 **설명:** [ Learn ]          
 • Ch3. is_int 에서는 입력값이 정수인지를 확인하는 함수를 학습한다.    
-• 정수(integer)는 소수점 값이 없는 10진수이다. (i.g. 소수점 있는 수 98.6)    
-• 소수점이 있지만, 이런 경우는 정수이다. (i.g. 7.0)    
+• 정수(integer)는 소수점 값이 없는 10진수이다. (e.g. 소수점 있는 수 98.6)    
+• 소수점이 있지만, 이런 경우는 정수이다. (e.g. 7.0)    
 • 프로그램에서 입력값이 정수인지를 어떻게 파악할 수 있을까?    
 • 우리는 입력값을 다음과 같이 처리하면 정수인지 아닌지를 알수 있다.    
 • 입려값을 함수 abs()를 사용하여 절대값으로 변환한다.    
@@ -324,7 +324,7 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 **설명:** [ Instruction ]          
 • 함수 digit_sum(n) 을 작성하라.   
 • 이 함수는 입력값 n 의 각 자리 수를 더하여 결과를 반환하는 함수이다.    
-• i.g. digit_sum(1234) 의 반환값은 10이다.    
+• e.g. digit_sum(1234) 의 반환값은 10이다.    
 • 원리는 1 + 2 + 3 + 4 = 10 인 것이다.    
 • 입력값은 항상 양수만 들어가야 한다. 
 {: .notice--info}
@@ -380,7 +380,7 @@ print digit_sum(1234)
 ```
 
 **설명:** [ Solution ]          
-• 입력값 n 을 문자열로 바꾼다. (i.g. str(n) )   
+• 입력값 n 을 문자열로 바꾼다. (e.g. str(n) )   
 • for 문에서 문자열을 하나씩 뽑아내어, 변수 char 에 저장한다.    
 • 함수 int(char) 을 사용하여, 변수 char 을 정수값으로 변환한다.         
 • 변수 total 정수로 변환한 char 값을 더한다.    
@@ -495,7 +495,7 @@ print factorial(5)
 • while 문을 빠져나오면, 변수 total 값을 반환한다.    
 • 또다른 방법은 다음과 같다.     
 • 함수에서 함수를 재귀호출 하는 방법이다.     
-• i.g. return  n * factorial2(n-1)     
+• e.g. return  n * factorial2(n-1)     
 • 자신의 함수를 다시 호출해서 사용하는 방법으로 나중에 배우게 될 것이다.
 {: .notice--info}
 
@@ -690,7 +690,7 @@ print reverse("Hello World")
 **설명:** [ Solution ]          
 • 정의된 함수 reverse(text):는 다음과 같이 동작한다.    
 • while 문에서 입력한 문자열의 길이 -1 만큰 반복한다.    
-• i.g. text ="abcd" -> l = 3, 2, 1, 0 값이 된다.    
+• e.g. text ="abcd" -> l = 3, 2, 1, 0 값이 된다.    
 • text[l] 의 index 값으로 읽어서 변수 word 해당 문자를 저장한다.    
 • 변수 l 을 -1 씩 차감한다.    
 • 변수 word 를 반환한다. 
@@ -899,11 +899,11 @@ print scrabble_score("pizza")
 
 **설명:** [ Solution ]         
 • 정의된 함수 scrabble_score(word): 는 다음과 같이 동작한다.    
-• 입력 문자열을 소문자로 만든다. (i.g. word.lower() )    
+• 입력 문자열을 소문자로 만든다. (e.g. word.lower() )    
 • 전체값을 저장할 변수 total 을 0으로 초기화 한다.    
 • 변수 word 의 문자를 하나씩 뽑아낸다.    
 • 뽑아낸 문자를 딕셔너리 score 에서 반복적으로 찾는다.    
-• 찾았으면 그 문자의 값을 딕셔너리 score 의 값을 찾는다.(i.g. score[letter] )    
+• 찾았으면 그 문자의 값을 딕셔너리 score 의 값을 찾는다.(e.g. score[letter] )    
 • 변수 total 에 딕셔너리 score 에서 찾은 문자의 점수를 더한다.     
 • 결과 total 값을 반환(return)한다.
 {: .notice--info}
@@ -1047,7 +1047,7 @@ print censor("this hack is wack hack", "hack")
 • 변수 l 과 '*' 로 바꿀 입력값 word 와 같은지 비교한다.    
 • 만약, 같으면 words[count] = stars 를 저장한다.   
 • 만약, 틀리면 count 를 값 1 을 증가후 다시 for 문을 진행한다.     
-• result 에 word 의 ' ' 를 추가하여 저장한다.(i.g. result =' '.join(words))    
+• result 에 word 의 ' ' 를 추가하여 저장한다.(e.g. result =' '.join(words))    
 • result 값을 반환한다.
 {: .notice--info}
 
@@ -1106,7 +1106,7 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 • return(반환값)은 정수(integer) 이다.    
 • 입력값은 정수(integer), 문자(string), 실수(float) 또는 다른 것일 수 있다.    
 • 리스트 변수명을 정할때, python에서 예약된 코드는 사용 금지한다.     
-• (i.g. 'if', 'else')
+• (e.g. 'if', 'else')
 {: .notice--info}
 
 
@@ -1207,7 +1207,7 @@ Awesome! Now let's practice filtering a list.
 
 **설명:** [ Hint ]     
 • 앞에서 연습한 함수 is_even() 의 기능을 활용하여 홀수인지 짝수인지를 판단하라.    
-• i.g. ( if i % 2 == 0 ) 이면 짝수이다. 
+• e.g. ( if i % 2 == 0 ) 이면 짝수이다. 
 {: .notice--info}
 
 <br>
@@ -1234,7 +1234,7 @@ print purify([1, 2, 3, 4])
 • 이 함수는 다음과 같이 동작한다.   
 • 빈 리스트 res 를 정의한다.    
 • for 문에서 입력받은 lst 를 하나씩 추출하여, 변수 ele 에 저장한다.    
-• 변수 ele 의 값이 짝수 이면, 리스트에 추가한다.(i.g. res.append(ele))    
+• 변수 ele 의 값이 짝수 이면, 리스트에 추가한다.(e.g. res.append(ele))    
 • for 문이 종료되면 리스트 res 를 반환한다.    
 • 함수 purify([1, 2, 3, 4]) 를 호출 후 반환값을 출력한다.
 {: .notice--info}
@@ -1281,7 +1281,7 @@ Great! Now let's try a little multiplication.
 • 함수 product(lst) 를 작성하라.    
 • 이 함수는 입력값으로 가지는 리스트의 모든 값을 곱한 결과를 반환(return)한다.    
 • 리스트의 항목은 정수값 이다.    
-• i.g. 함수 product([4,5,5]) 를 호출하면, 반환(return)값은 100 이다.    
+• e.g. 함수 product([4,5,5]) 를 호출하면, 반환(return)값은 100 이다.    
 • 리스트가 비어 있을 경우는 없다.    
 • return(반환)값은 정수이다.
 {: .notice--info}
@@ -1374,10 +1374,10 @@ Awesome! Now for something a bit trickier.
 **설명:** [ Instruction ]          
 • 함수 remove_duplicates(lst) 는 다음과 같이 동작한다.    
 • 이 함수는 리스트 안에 중복 값이 있으면 해당 값 하나만 남겨 놓고 나머지는 삭제한다.    
-• i.g. remove_duplicates([1,1,2,2]) 호출하면, [1,2]를 반환(return)한다.     
+• e.g. remove_duplicates([1,1,2,2]) 호출하면, [1,2]를 반환(return)한다.     
 • 모두 다 지우는 것이 아니라, 중복된 값을 하나만 남겨둔다.    
 • 반환(return)값의 순서는 중요치 않다.    
-• i.g. [1,2,3] : ok, [3,2,1] : ok      
+• e.g. [1,2,3] : ok, [3,2,1] : ok      
 • 입력받은 리스트 lst 를 직접 수정하지 않는다.    
 • 새로운 빈 리스트 new_lst=[] 를 만들어 저장훈 반환(return) 한다.
 {: .notice--info}
@@ -1437,7 +1437,7 @@ print remove_duplicates([1, 1, 2, 2])
 • 이 함수는 입력값으로 리스트 inputlist 를 받는다.   
 • 입력값 리스트 inputlist 가  비어 있으면 빈 리스트 ( [] ) 를 반환(return)한다.    
 • 입력값 리스트 inputlist 를 정렬한다.    
-• i.g. inputlist = sorted(inputlist)    
+• e.g. inputlist = sorted(inputlist)    
 • 정렬된 첫번째 값(inputlist[0])을 리스트 outputlist 에 추가한다.     
 • for 문에서 정렬된 inputlist 의 값을 하나씩 추출하여 변수 i 에 저장한다.    
 • 추출한 값 i 와 제일 마지막값(outputlist[-1]) 비교한다.    
@@ -1538,9 +1538,9 @@ sorted([5, 2, 3, 1, 4])
 • 이를 반으로 나누면 중간 값은 3 이다.    
 • 리스트의 index 값이 3인 자리의 값은 3 이다.    
 • 우리가 필요한 값은 index 2 와 index 3 이다.    
-• i.g. index 3 에서 index 1 을 뺀 index 2 를 선택한다.     
+• e.g. index 3 에서 index 1 을 뺀 index 2 를 선택한다.     
 • 주의, 두개의 값을 나누어 중간값을 계산할때, 다음 2가지 경우의 결과 값은 다르다.    
-• i.g. ( (2+3) / 2 ) 과 ( (2+3) / 2.0 )     
+• e.g. ( (2+3) / 2 ) 과 ( (2+3) / 2.0 )     
 • 앞의 경우는 2 가 반환되고, 후자는 2.5 가 반환다.    
 • 이 함수에서는 후자의 방식( (2+3)/2.0 )을 이용해야 한다.
 {: .notice--info}
@@ -1574,17 +1574,17 @@ print median([2, 4, 5, 9])
 • 정의된 함수 median(lst): 는 다음과 같이 동작한다.    
 • 이 함수는 입력값 리스트의 중간값을 반환한다.    
 • 이 함수는 lst 를 입력값으로 받는다.    
-• 입력된 리스트를 정렬한다.(i.g. sorted_list = sorted(lst) )    
+• 입력된 리스트를 정렬한다.(e.g. sorted_list = sorted(lst) )    
 • if 절의 block 내용은 리스트의 갯수가 홀수 개가 입력 되었을때 동작한다.     
 • if 절의 내용은 다음과 같이 처리한다.    
 • 리스트의 갯수가 홀수이면 index 중간값을 구한다.    
-• i.g. 리스트의 중간값을 ( //2 )로 소수점 버리는 중간값으로 계산한다.    
+• e.g. 리스트의 중간값을 ( //2 )로 소수점 버리는 중간값으로 계산한다.    
 • 리스트 sorted_list[index]가 중간 값이므로 해당 값을 반환(return)한다.   
 • else 절의 block 내용은 짝수 개가 입력 되었을때 동작한다.       
 • else 절의 내용은 다음과 같이 처리한다.    
 • 리스트의 길이를 구하여 반으로 나누면 중간 index 값이 된다.    
-• i.g. len(sorted_list)/2     
-• i.g. 입력 리스트 [0,1,2,3] 는 길이는 4, 중간 index 계산값은 2가 나온다.    
+• e.g. len(sorted_list)/2     
+• e.g. 입력 리스트 [0,1,2,3] 는 길이는 4, 중간 index 계산값은 2가 나온다.    
 • 우리가 필요한 1, 2의 index 값은 1, 2 이므로,    
 • 변수 index_1 = 중간 index -1 이 된다.    
 • 변수 index_2 = 중간 index 이다.     

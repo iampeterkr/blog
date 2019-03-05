@@ -134,7 +134,7 @@ Doing this opens the file in write-mode and prepares Python to send data into th
 • Python 문법은 open 이라는 함수를 사용해서 연다.    
 • 함수 open() 은 2개의 parameter를 가진다.    
 • 첫번째 매개변수는 파일의 위치와 이름을 적는다.    
-• 두번째 매개변수는 파일을 어떻게 할지(i.g. 읽을지, 쓸지, 읽고/쓸지)를 결정한다.    
+• 두번째 매개변수는 파일을 어떻게 할지(e.g. 읽을지, 쓸지, 읽고/쓸지)를 결정한다.    
 • 파일이 정상적으로 open 되면 그 File object 가 반환된다.    
 • 그 반환값 File object 값을 변수 f 에 저장한다.    
 • 이후, 파일에 접근할때, File object f 를 사용한다.
@@ -230,7 +230,7 @@ You must close the file. You do this simply by calling `my_file.close()` (we did
 • 파일 output.txt 를 오픈하고, 반환된 값 object를 my_file 에 저장되어 있다.   
 • 지금부터, 파일에 저장하기 위해선, File object my_file을 통하여 저장한다.   
 • 메서드 '.write()' 를 사용하여, 다음과 같이 문자열을 저장한다.    
-• i.g.  my_file.write("Data to be written")    
+• e.g.  my_file.write("Data to be written")    
 • 파일을 다 사용한 후, 마지막에는 my_file.close()를 호출하여, 정리한다. 
 {: .notice--info}
 
@@ -490,7 +490,7 @@ variable = open("filename", "mode")
 
 **설명:** [ Hint ]     
 • Python 문법중 다음 예제의 File I/O 문법을 상기한다.    
-• i.g. variable = open("filename", "mode")     
+• e.g. variable = open("filename", "mode")     
 • 파일을 한 줄씩 읽을때는 'variable.readline()' 사용한다.    
 • 파일을 다 쓴 후에는 닫는 것을 잊지말라.
 {: .notice--info}
@@ -578,9 +578,9 @@ Run the code again.
 • print read_file.read() 소스에서 어떤 데이타도 읽지 못할 것이다.    
 • 이유는 파일을 쓰고, '.Close()' 를 하지 않았다.    
 • 파일을 write 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라. 
-• i.g. write_file.close()    
+• e.g. write_file.close()    
 • 파일을 read 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라.    
-• i.g. read_file.close()
+• e.g. read_file.close()
 {: .notice--info}
 
 
