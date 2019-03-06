@@ -209,7 +209,7 @@ This code will print out "This is a good string".
 **설명:** [ Learn ]    
 • 문자열을 Python 에서는 String 이라고 부른다.     
 • String 은 (' ') 또는 (" ") 사이에 문자를 넣는다.     
-• 문자열은 여러 문자열을 예제와 같이 + 를 사용하여 붙일 수 있다. 
+• 문자열은 여러 문자열을 예제와 같이 '+' 를 사용하여 붙일 수 있다. 
 {: .notice--info}
 
 
@@ -223,7 +223,7 @@ This code will print out "This is a good string".
 
 
 **설명:** [ Instruction ]     
-• 두개의 문자열 사이에 + 를 사용하여 두 문자열을 연결하라.    
+• 두개의 문자열 사이에 '+' 를 사용하여 두 문자열을 연결하라.    
 • e.g.  *Hello Hongkildong* 을 출력하라. 
 {: .notice--info}
 
@@ -239,7 +239,7 @@ print "Hello " + "Nicole"
 ```
 
 **설명:** [ Hint ]     
-• 우리는 두개의 문자열 + 를 사용하여, 문장을 연결 할 수 있다. 
+• 우리는 두개의 문자열을 '+' 를 사용하여, 문장을 연결 할 수 있다. 
 {: .notice--info}
 
 
@@ -255,7 +255,7 @@ print "Hello " + "Wonyoung Lee"
 ```
 
 **설명:** [ Solution ]     
-• 두 개의 스트링을 연결 할때는 + 를 사용한다.
+• 두 개의 스트링을 연결 할때는 '+' 를 사용한다.
 {: .notice--info}
 
 
@@ -298,8 +298,10 @@ Another issue you might run into is attempting to create a string without quotes
 • EOL : End Of Line  
 • EOL Error는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.    
 • 시작이 (') 이면 끝도 (')이어야 하면, 시작이 (")이면, 끝도 (") 이어야 한다.     
-• 문자열을 만들때, 양 끝을 쿼트(quotest)가 없으면 Python은 해당 문자열을 print 와 같은 명령문 으로 인식한다.(or 변수로 인식한다.)     
-• 이런 경우 해당 문자열이 명령어 리스트(or 변수 리스트)에 없으면 NameError 를 발생시킨다.
+• 문자열의 양 끝에 쿼트(quotest)가 없으면 Python은 해당 문자열을 변수로 인식한다.    
+• 또는 print 와 같은 명령문으로 인식한다.    
+• 이런 경우 Python 은 해당 문자열을 명령어(or 변수) 리스트에서 찾는다.    
+• 만약, 리스트에서 찾을수 없으면 NameError 를 발생시킨다.
 {: .notice--info}
 
 
@@ -914,7 +916,14 @@ quotient1 = float(7)/2
 • 항상, 계산한 결과 값이 실수 일 것을 대비하여야 한다.     
 • 입력값을 실수형으로 넣어 준다. ( e.g. 7.0 / 3)    
 • 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.
+{: .notice--info}    
+
+**설명:** [ Learn ]    
+• python3     
+• python3 에서는 이문제를 해결 하였다.    
+• 정수 ( 7/2 ) 은 그 계산하면 2.5 로 자동 출력된다.
 {: .notice--info}
+
 
 
 <br>
@@ -1029,8 +1038,8 @@ returns the modified input and a string that says "Success!" or "Failure..."
 
 
 **설명:** [ Learn ]    
-• """ """  or ''' ''' 를 이용하여 여러줄의 문자열을 만들수 있다.
-• 문자열도 만들수 있지만, 한 줄 주석(#) 외에 여러줄의 주석을 만들때도 사용한다. 
+• """ """  or ''' ''' 를 이용하여 여러줄의 문자열을 만들수 있다.    
+• 문자열도 만들수 있지만, 한 줄 주석(#) 외에 여러줄의 주석을 만들때도 사용한다.
 {: .notice--info}
 
 
@@ -1045,7 +1054,7 @@ returns the modified input and a string that says "Success!" or "Failure..."
 **설명:** [ Instruction ]    
 • 변수 haiku 를 만들어라.    
 • 변수 haiku 에 다음 여러줄의 문자열을 저장하라.     
-• 문자열 : "The old pond, A frog jumps in: Plop!". 
+• e.g. 문자열 : "The old pond, A frog jumps in: Plop!". 
 {: .notice--info}
 
 
@@ -1129,7 +1138,7 @@ A boolean is actually a special case of an integer. A value of True corresponds 
 **설명:** [ Instruction ]    
 • 변수 age_is_12 를 만들어라.    
 • 주석에서 설명하는 사람의 나이가 12 살이면 True 를 대입하라.    
-• 12 살이 아니면, False 를 입력하라. 
+• 12 살이 아니면, False 를 입력하라.     
 • 변수 name_is_maria 를 만들어라.    
 • 주석에서 설명하는 사람의 이름이 Maria 이면 True 를 대입하라.    
 • Maria 가 아니면, False 를 입력하라. 
@@ -1345,15 +1354,18 @@ Great! So far we’ve looked at:
 
 * Update `point_total` to be what it was before plus the result of multiplying `exercises_completed` and `points_per_exercise`.    
 
-* Add a comment above your declaration of points_per_exercise that says:        
-```
-The amount of points for each exercise may change, because points don't exist yet
-```    
-* Print a string to the console that says:    
+* Add a comment above your declaration of points_per_exercise that says:     
 
 ```
+The amount of points for each exercise may change, because points don't exist yet    
+```    
+     
+* Print a string to the console that says:    
+
+```    
 I got X points!
-```
+```    
+    
 
 with the value of `point_total` where `X` is.
 

@@ -15,7 +15,7 @@ author_profile: true
 
 
 
-**From *Peter***
+***From Peter***
 
 {% include group-by-array collection=site.posts field="categories" %}
 {% for category in group_names %}
