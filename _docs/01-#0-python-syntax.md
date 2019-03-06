@@ -45,7 +45,8 @@ your thousand miles to see it?"
 
 A `print` statement is the easiest way to get your Python program to communicate with you. Being able to command this communication will be one of the most valuable tools in your programming toolbox.
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch1. Hello World! 에서는 print 문을 학습한다.      
 • 우리가 배워야 할 첫번째 Python 문법은 print 문 이다.     
 • print 문은 컴퓨터와 대화 하는것을 실질적으로 사람이 볼수 있게 해준다.     
 • 상단 검정 박스안의 Python 소스를 Coding 창에 복사하여 실행(Run) 해 보자.     
@@ -124,6 +125,7 @@ In this course we will be using Python 2. If you go on to write Python 3 it will
 
 
 **설명:** [ Learn ]    
+• Ch2. Print Statements 에서는 python2 vs python3 의 차이를 학습한다.    
 • Python2 와 Python3는 문법이 조금 틀리다.     
 • Python2 는 () 사용하지 않는다.    
 • Python3 는 () 를 사용한다.    
@@ -206,7 +208,8 @@ This code will print out "This is a good string".
 ```
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]      
+• Ch3. String 에서는 문자열을 학습한다.     
 • 문자열을 Python 에서는 String 이라고 부른다.     
 • String 은 (' ') 또는 (" ") 사이에 문자를 넣는다.     
 • 문자열은 여러 문자열을 예제와 같이 '+' 를 사용하여 붙일 수 있다. 
@@ -292,7 +295,8 @@ Another issue you might run into is attempting to create a string without quotes
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]        
+• Ch4. Handling Errors 에서는 Error에 대하여 학습한다.     
 • 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 EOL Error를 발생시킨다.   
 • e.g. SyntaxError: EOL while scanning string literal    
 • EOL : End Of Line  
@@ -386,7 +390,8 @@ In the above example, we defined a variable called `greeting_message` and set it
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]       
+• Ch5. Variables 에서는 변수를 학습한다.    
 • 변수란 ?,  문자열이나, 숫자를 저장하기 위한 상자 이름 이다.     
 • 우리는 greeting_message 라는 변수 상자를 만든다.    
 • 그 변수 상자에 "Welcome to Codecademy!" 라는 문자열을 저장 한다.    
@@ -481,7 +486,8 @@ We also check the remainder of `133 / 7`. Since `133` divided by `7` has no rema
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch6. Arithmetic 에서는 수식을 학습한다.     
 • 컴퓨터의 많은 기능 중 하나는 계산하는 것이다.     
 • Python도 사칙연산( + , − , × , ÷ )을 지원한다.    
 • Python 에선 × → * , ÷ → / 로 표시한다.    
@@ -584,7 +590,8 @@ In the above example, we start with `50` fish in a local pond. After catching `1
 
 Updating a variable by adding or subtracting a number to the original contents of the variable has its own shorthand to make it faster and easier to read.
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]       
+• Ch7. Updating Variables 에서는 변수 변경을 학습한다.    
 • 변수 fish_in_clarks_pond 에 50 을 대입하라.    
 • 변수 number_of_fish_caught 에 10 을 대입하라.    
 • 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught    
@@ -702,7 +709,8 @@ row_count = 13
 ```
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch8. Comments 에서는 주석을 학습한다.    
 • Python 에서 프로그램으로 인식되지 않는 부분을 주석(Comment) 이라고 한다.    
 • 주석의 사용 목적은 프로그램에 정보를 남겨두거나 설명하기 위해서이다.     
 • 주석 처리된 부분은 컴퓨터는 인식 못하고 오직 프로그램을 읽는 사람만이 인식한다.    
@@ -794,7 +802,8 @@ float4 = 1.5e2
 ```
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]      
+• Ch9. Numbers 에서는 숫자를 학습한다.     
 • Python 에서는 숫자 관련 변수는 정수(integer)와 실수(float) 2 종류가 있다.    
 • 정수는 소숫점 이하를 표현 할수 없다.    
 • 실수는 소수점을 표현할 수 있다.     
@@ -908,7 +917,8 @@ quotient1 = float(7)/2
 # the value of quotient1 is 3.5
 ```
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]       
+• Ch10. Two Types of Division 에서는 나눗셈의 주의점을 학습한다.    
 • 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다.    
 • 정수 ( 7/2 ) 은 그 계산하면 2.5 이다. 2.5 실수이다.    
 • 하지만, Python은 정수( 3 )만 남고, 나머지는 0.5 는 버린다.    
@@ -1037,7 +1047,8 @@ returns the modified input and a string that says "Success!" or "Failure..."
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]      
+• Ch11. Multi-line Strings 에서는 다중 주석을 학습한다.     
 • """ """  or ''' ''' 를 이용하여 여러줄의 문자열을 만들수 있다.    
 • 문자열도 만들수 있지만, 한 줄 주석(#) 외에 여러줄의 주석을 만들때도 사용한다.
 {: .notice--info}
@@ -1115,7 +1126,8 @@ b = False
 A boolean is actually a special case of an integer. A value of True corresponds to an integer value of 1, and will behave the same. A value of False corresponds to an integer value of 0.
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]       
+• Ch12. Booleans 에서는 boolean 연산자를 학습한다.    
 • Python에서 참, 거짓 을 표현해야 할 때가 있다.     
 • 참  은 문자열로 True 로 표현한다.    
 • 거짓 은 문자열로 False 로 표현한다.     
@@ -1197,7 +1209,8 @@ Python automatically assigns a variable the appropriate datatype based on the va
 age = 13
 print "I am " + str(age) + " years old!"
 ```
-**설명:** [ Learn ]     
+**설명:** [ Learn ]       
+• Ch13. ValueError 에서는 출력시 주의할 점을 학습한다.     
 • 변수 age 는 정수 13 이 대입 되었기에 정수형 변수가 된다.     
 • 정수형 변수 age 를 문자열로 출력 하기 위해선, str()  함수를 사용한다.    
 • str(age) 로 바꾸면 age 는 문자열 형태로 출력된다.    

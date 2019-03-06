@@ -33,6 +33,7 @@ Here we'll use `datetime` to print the date and time in a nice format.
 
 
 **설명:** [ Learn ]    
+• Ch1. The datetime Library 에서는 datetime 클래스를 학습한다.     
 • 날짜와 시간을 사용하고자 하면, datetime 클래스를 사용한다. 
 {: .notice--info}
 
@@ -75,7 +76,7 @@ from datetime import datetime
 ```
 
 **설명:** [ Solution ]    
-• 클래스 datetim 으로 부터 datetime을 import 한다.
+• 클래스 datetime 으로 부터 datetime 을 import 한다.
 {: .notice--info}    
 
 
@@ -109,6 +110,7 @@ The second line will `print` out the current **date** and **time**.
 
 
 **설명:** [ Learn ]    
+• Ch2. Getting the Current Date and Time 에서는 현재시간을 학습한다.     
 • datetime.now() 는 현재 날짜와 시간을 알려주는 함수이다.    
 • datetime 을 사용하기 위해서는 클래스 datetime 기본제공 함수를 사용한다.    
 • datetime.now() 를 출력한다.
@@ -148,7 +150,7 @@ now = 4
 ```
 
 **설명:** [ Hint ]    
-• 변수를 대입할때  =  를 사용한다.  
+• 변수를 대입할때  '='  를 사용한다.  
 {: .notice--info}
 
 <br>
@@ -166,7 +168,7 @@ print now
 ```
 
 **설명:** [ Solution ]    
-• 클래스 datetime 를 import  한다.     
+• 클래스 datetime 를 import 한다.     
 • 변수 now 를 만들고, datetime.now() 를 저장한다.      
 • datetime.now() 는 현재 일자와 날짜를 반환한다.    
 • 변수 now 를 출력한다. 
@@ -187,7 +189,7 @@ print now
 
 ### 3. Extracting Information    
 
-Notice how the output looks like **2013-11-25 23:45:14.317454**. What if you don't want the entire date and time?
+Notice how the output looks like **2013-11-25 23:45:14.317454**. What if you don't want the entire date and time?    
 
 ```python
 from datetime import datetime
@@ -196,7 +198,7 @@ now = datetime.now()
 current_year = now.year
 current_month = now.month
 current_day = now.day
-```
+```    
 You already have the first two lines.
 
 In the third line, we take the year (and only the year) from the variable `now` and store it in `current_year`.
@@ -205,6 +207,7 @@ In the fourth and fifth lines, we store the `month` and `day` from `now`.
 
 
 **설명:** [ Learn ]    
+• Ch3. Extracting Information 에서는 년, 월, 일을 학습한다.     
 • 변수 now 에 datetime.now() 저장하라.  
 {: .notice--info}
 
@@ -222,7 +225,7 @@ In the fourth and fifth lines, we store the `month` and `day` from `now`.
 
 
 **설명:** [ Instruction ]    
-• 라인 3 에 다음 3 개를 작성 후 실행하라.
+• 라인 3 에 다음 3 개를 작성 후 실행하라.     
 • now.year 을 출력 하라.    
 • now.month 을 출력 하라.    
 • now.day 을 출력 하라.
@@ -241,7 +244,7 @@ print now.year
 ```
 
 **설명:** [ Hint ]    
-• 변수 now 에 저장된 year 값 을 직접 출력할 수 있다. 
+• 변수 now 에 저장된 year 값을 직접 출력할수 있다. 
 {: .notice--info}
 
 <br>
@@ -261,7 +264,7 @@ print now.day
 ```
 
 **설명:** [ Solution ]    
-• 변수 now 의  .year , .month , .day 를 출력한다. 
+• 변수 now 의  '.year' , '.month' , '.day' 를 출력한다. 
 {: .notice--info}
 
 
@@ -300,7 +303,9 @@ Remember that the standalone `%` operator after the string will fill the `%02d` 
 
 
 **설명:** [ Learn ]    
-• 변수 now 에 저장된 날짜 & 시간을 예제와 같이 사용하고자 한다.(e.g. 12-28-2002)    
+• Ch4. Hot Date 에서는 날짜&시간의 출력 형태를 학습한다.    
+• 변수 now 에 저장된 날짜 & 시간을 예제와 같이 사용하고자 한다.    
+• e.g. 12-28-2002    
 • print 문 출력시, 월 : %02d , 일 : %02d , 년 : %04d 로 작성한다.
 {: .notice--info}
 
@@ -385,7 +390,8 @@ We can again use the variable `now` to print the time.
 
 
 **설명:** [ Learn ]    
-• 변수 now 에 저장 되어 있는 값 중 hour, minute , second 를 각각 출력한다.
+• Ch5. Pretty Time 에서는 시간을 학습한다.     
+• 변수 now 에 저장 되어 있는 값 중 hour, minute, second 를 각각 출력한다.
 {: .notice--info}
 
 
@@ -403,7 +409,7 @@ We can again use the variable `now` to print the time.
 
 
 **설명:** [ Instruction ]     
-• 시간을 hour , minute , second 를 사용한다.    
+• 시간은 hour, minute, second 를 사용한다.    
 • 사용 방법은 now.hour , now.minute , now.second 이다. 
 {: .notice--info}
 
@@ -478,7 +484,8 @@ Let's print them all on the same line in a single print statement!
 
 
 **설명:** [ Learn ]    
-• 날짜를 반환하는 date 와 시간을 반환하는 time 사용방법이다.
+• Ch6. Grand Finale 에서는 datetime 사용법을 학습한다.    
+• 날짜를 반환하는 date 와 시간을 반환하는 time 사용법을 학습한다.
 {: .notice--info}
 
 

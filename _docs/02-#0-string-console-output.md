@@ -15,7 +15,7 @@ LESSON
 This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the "print" keyword.    
 
 **설명:** [ 학습방향 ]     
-이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 출력하는 법에 관하여 학습한다.
+이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 법을 학습한다.
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">
@@ -39,7 +39,8 @@ Strings need to be within quotes.
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]      
+• Ch1. Strings 에서는 문자열을 학습한다.    
 • 문자열(string)은 문자와, 숫자와, 기호도 사용할 수 있다.     
 • 스트링인데, 숫자도 사용할수 있다는 의미는 int()로 변화하여 사용할수 있다.  
 {: .notice--info}
@@ -127,7 +128,7 @@ Excellent! Let's get a little practice in with strings.
 
 
 **설명:** [ Learn ]     
-• 문자열 연습을 해보자.
+• Ch2. Practice 에서는 문자열 연습을 학습한다.
 {: .notice--info}
 
 
@@ -145,9 +146,9 @@ Excellent! Let's get a little practice in with strings.
 
 
 **설명:** [ Instruction ]    
-• 변수 caesar = "Graham"     
-• 변수 praline = "John"    
-• 변수 viking = "Teresa"
+• 변수 caesar = "Graham" 을 대입    
+• 변수 praline = "John"  을 대입  
+• 변수 viking = "Teresa" 을 대입
 {: .notice--info}
 
 
@@ -220,11 +221,12 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 ```
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]       
+• Ch3. Escaping characters 에서는 `\` 사용법을 학습한다.    
 • 우리는 문자열을 만들때,  (' ') 을 사용해야 한다고 앞에서 배웠다.    
 • 가령 'There's' 라는 문자열을 만들때 Python은 (') 를 쿼터로 인식하게 된다.     
-• 이런 경우는 (') 가 쿼터가 아님을 표시해주는 (\) 를 앞에 둔다.    
-• Python 은 (\') 이면 단순 문자로 인식한다.   
+• 이런 경우는 (') 가 쿼터가 아님을 표시해주는 `\` 를 앞에 둔다.    
+• Python 은 `\` 이면 다음 문자를 단순 문자로 인식한다.   
 {: .notice--info}
 
 
@@ -259,7 +261,7 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 * You cannot pass this exercise with the other methods.
 
 **설명:** [ Hint ]    
-• (\') 를 사용하라. 
+• `\` 를 사용하라. 
 {: .notice--info}
 
 <br>
@@ -335,7 +337,8 @@ Notice that in the first `"cat"` example we are calling the 0th letter of `"cat"
 ```
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]       
+• Ch4. Access by Index 에서는 문자열 주소 접근법을 학습한다.    
 • 문자열은 위와 같이 메모리에 저장된다.    
 • 그 메모리에는 0 번 부터 주소(index)가 매겨진다.  
 {: .notice--info}
@@ -447,7 +450,8 @@ We'll focus on four string methods:
 Let's start with `len()`, which gets the length (the number of characters) of a string!
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]       
+• Ch5. String methods 에서는 문자열 관련 함수를 학습한다.    
 • 함수 len() 는 문자의 갯수를 알려주는 함수이다. 
 {: .notice--info}
 
@@ -499,7 +503,7 @@ print len(parrot)
 • len() 함수 Parameter 로 parrot 변수를 넣었다.    
 • print 문으로 len(parrot) 를 출력하였다.    
 • 변수 parrot 에 들어있는 문자열 "Norwegian Blue"의 문자 갯수가 출력된다.    
-• 그런데, 예상된 문자 갯수가 13개가 아니e라, 14개 로 출력 된다.    
+• 그런데, 예상된 문자 갯수가 13개가 아니라, 14개가 출력 된다.    
 • 이유는 공백(space)도 하나의 문자로 계산한다.    
 • 중간에 공백을 몇개 넣고 RUN 해보면 바로 알수 있다.
 {: .notice--info}
@@ -532,8 +536,9 @@ which will return "ryan".
 ```
 
 
-**설명:** [ Learn ]    
-• lower() 함수는 대문자를 모두 소문자로 변경 하여 반환한다.
+**설명:** [ Learn ]     
+• Ch6. lower() 에서는 메서드 lower()를 학습한다.    
+• 함수 lower() 는 대문자를 모두 소문자로 변경 하여 반환한다.
 {: .notice--info}
 
 
@@ -547,7 +552,7 @@ which will return "ryan".
 
 
 **설명:** [ Instruction ]    
-• 변수 parrot 의 담긴 문자열을 lower() 함수를 사용하여, 라인 3에서 출력 해라. 
+• 변수 parrot 의 담긴 문자열을 함수 lower() 를 사용하여, 라인 3에서 출력 해라. 
 {: .notice--info}
 
 
@@ -557,13 +562,15 @@ which will return "ryan".
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* Your code should look something like this:
+* Your code should look something like this:    
+
 ```python
 print parrot.lower()
-```
+```    
+
 
 **설명:** [ Hint ]    
-• 변수 parrot.lower() 사용하라.  
+• 함수 parrot.lower() 사용하라.  
 {: .notice--info}
 
 <br>
@@ -577,11 +584,11 @@ print parrot.lower()
 parrot = "Norwegian Blue"
 
 print parrot.lower()
-```
+```     
 
 **설명:** [ Solution ]    
 • 문자열에 ( . ) 을 붙이고 lower() 를 사용할 수 있다.    
-• 변수에도 동일하게 ( . ) 을 붙이고 lower() 함수를 사용할 수 있다. 
+• 변수에도 동일하게 ( . ) 을 붙이고 함수 lower() 를 사용할 수 있다. 
 {: .notice--info}
 
 
@@ -604,6 +611,7 @@ norwegian blue
 Now your **string** is 100% lower case! A similar method exists to make a string completely upper case.
 
 **설명:** [ Learn ]     
+• Ch7. upper() 에서는 메서드 upper()를 학습한다.     
 • 함수 upper() 는 문자열을 모두 대문자로 바꿔 주는 함수이다.  
 {: .notice--info}
 
@@ -617,8 +625,8 @@ Now your **string** is 100% lower case! A similar method exists to make a string
 * Call `upper()` on parrot (after print on line 3) in order to capitalize all the characters in the string!
 
 
-**설명:** [ Instruction ]    
-• 변수 parrot 을  upper() 함수를 사용하여 출력하라. 
+**설명:** [ Instruction ]     
+• 변수 parrot 을  함수 upper() 를 사용하여 출력하라. 
 {: .notice--info}
 
 
@@ -628,13 +636,15 @@ Now your **string** is 100% lower case! A similar method exists to make a string
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* Use the same syntax as the previous exercise! Last time, you used:
+* Use the same syntax as the previous exercise! Last time, you used:    
+
 ```python
 print parrot.lower()
-```
+```    
+
 
 **설명:** [ Hint ]    
-• 사전에 연습한 lower() 함수와 사용법을 참조하라. 
+• 사전에 연습한 함수 lower() 사용법을 참조하라. 
 {: .notice--info}
 
 <br>
@@ -648,11 +658,12 @@ print parrot.lower()
 parrot = "norwegian blue"
 
 print parrot.upper()
-```
+```     
+
 
 **설명:** [ Solution ]     
-• 문자열에 ( . ) 을 붙이고 upper() 함수를 사용수 있다.     
-• 변수에도 ( . ) 을 붙이고 upper() 함수를 사용할수 있다.  
+• 문자열에 ( . ) 을 붙이고 함수 upper() 를 사용할 수 있다.     
+• 변수에도 ( . ) 을 붙이고 함수 upper() 를 사용할 수 있다.  
 {: .notice--info}
 
 
@@ -672,17 +683,19 @@ NORWEGIAN BLUE
 
 ### 8. str()    
 
-Now let's look at `str()`, which is a little less straightforward. The `str()` method turns non-strings into strings! For example:
+Now let's look at `str()`, which is a little less straightforward. The `str()` method turns non-strings into strings! For example:    
 
 ```python
 str(2)
-```
+```    
+
 would turn `2` into `"2"`.
 
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch8. str() 에서는 메서드 str()를 학습한다.     
 • 함수 str() 는 문자열이 아닌것을 문자열로 변환해 준다.    
 • e.g. integer 2 를 string "2" 로 변환해 준다.     
 • e.g. float 2.0 를 string "2.0" 로 변환해 준다.
@@ -697,7 +710,7 @@ would turn `2` into `"2"`.
 
 * Create a variable `pi` and set it to `3.14` on line 4.
 
-* Call `str(pi)` on line 5, after print.
+* Call `str(pi)` on line 5, after print.    
 
 
 **설명:** [ Instruction ]    
@@ -711,14 +724,14 @@ would turn `2` into `"2"`.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* The `str()` syntax is like the `len()` syntax:
+* The `str()` syntax is like the `len()` syntax:    
 
 ```python
 str(pi)
 ```
 
 **설명:** [ Hint ]    
-• str() 사용법은 len() 함수 사용법과 같다. 
+• 함수 str() 사용법은 함수 len() 사용법과 같다. 
 {: .notice--info}
 
 <br>
@@ -758,19 +771,21 @@ print str(pi)
 
 ### 9. Dot Notation    
 
-Let's take a closer look at why you use `len(string)` and `str(object)`, but dot notation (such as `"String".upper()`) for the rest.
+Let's take a closer look at why you use `len(string)` and `str(object)`, but dot notation (such as `"String".upper()`) for the rest.    
+
 ```python
 lion = "roar"
 len(lion)
 lion.upper()
-```
+```    
 Methods that use dot notation only work with strings.
 
-On the other hand, `len()` and `str()` can work on other data types.
+On the other hand, `len()` and `str()` can work on other data types.    
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]       
+• Ch9. Dot Notation 에서는 메서드 접근법을 학습한다.    
 • 문자열(대문자, 소문자)을 변환 할때는 ( . ) 을 사용한다.    
-• 데이타 type 을 변환 할때는 len() , str() 을 사용한다.
+• 데이타 type 을 변환 할때는 함수 len() , str() 을 사용한다.
 {: .notice--info}
 
 
@@ -786,8 +801,8 @@ On the other hand, `len()` and `str()` can work on other data types.
 
 
 **설명:** [ Instruction ]     
-• 라인 3에서는 len()  함수를 사용하여 출력하라.    
-• 라인 4에서는 .upper() 함수를 사용하여 출력하라.
+• 라인 3에서는 함수 len() 를 사용하여 출력하라.    
+• 라인 4에서는 함수 .upper() 를 사용하여 출력하라.
 {: .notice--info}
 
 
@@ -848,7 +863,8 @@ The **console** (the window to the right of the editor) is where the results of 
 
 
 
-**설명:**  [ Learn ]     
+**설명:**  [ Learn ]      
+•Ch10. Printing Strings 에서는 문자열 출력방법을 학습한다.    
 • print 는 editor 창에서 작성한 프로그래밍을 console 창에 보여준다. 
 {: .notice--info}
 
@@ -921,7 +937,8 @@ Monty Python
 Great! Now that we've printed strings, let's print variables
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]      
+• Ch11. Printing Variables 에서는 변수 출력을 학습한다.     
 • print 문은 변수도 출력한다.
 {: .notice--info}
 
@@ -1008,9 +1025,10 @@ The `+` operator between strings will **'add'** them together, one after the oth
 Combining strings together like this is called **concatenation**. Let's try concatenating a few strings together now!
 
 
-**설명:** [ Learn ]     
-• 문자열은  +  연산자를 사용하여 연결 할수있다.    
-• 문자열을 + 사용하여 연결 하는것을  concatenations 이라고 한다.  
+**설명:** [ Learn ]      
+• Ch12. String Concatenation 에서는 문자열 연결을 학습한다.     
+• 문자열은 '+' 연산자를 사용하여 연결할수 있다.    
+• 문자열을 '+' 사용하여 연결하는것을 concatenations 이라고 한다.  
 {: .notice--info}
 
 
@@ -1026,7 +1044,7 @@ Combining strings together like this is called **concatenation**. Let's try conc
 
 
 **설명:** [ Instruction ]    
-• 라인 3 에서, "Spam ", "and ", "eggs"를 연결 시켜라.    
+• 라인 3 에서, "Spam ", "and ", "eggs"를 연결하라.        
 • 주의할 점은 "Spam" 과 "and" 다음에 공백이 있어야 한다. 
 {: .notice--info}
 
@@ -1040,7 +1058,7 @@ Combining strings together like this is called **concatenation**. Let's try conc
 * Make sure you include the spaces and use the correct capitalization.
 
 **설명:** [ Hint ]    
-• 문자열 "Spam"과 "and" 다음에 공백이 있도록 주의한다. 
+• 문자열 "Spam"과 "and" 다음에 공백이 있다는것을 주의한다. 
 {: .notice--info}
 
 <br>
@@ -1057,9 +1075,9 @@ print "Spam " + "and " + "eggs"
 ```
 
 **설명:** [ Solution ]     
-• Concatenation ( + ) 는 문자 있는 그대로 연결 시켜준다.    
+• Concatenation ( + ) 는 문자 그대로 연결시켜 준다.    
 • 임의로 공백을 주지 않으면 "Spamandeggs" 로 출력된다.    
-• 문자열 (" ") 사이에 공백을 적절히 넣어 줘야한다. 
+• 문자열 (" ") 사이에 공백을 적절히 넣어줘야 한다. 
 {: .notice--info}
 
 
@@ -1091,7 +1109,8 @@ The `str()` method converts **non-strings** into strings. In the above example, 
 Now try it yourself!
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]       
+• Ch13. Explicit String Conversion 에서는 출력시 문자열 변환을 학습한다.     
 • 문자열과 숫자를 concatenation 시킬때는 숫자를 문자열 형태로 바꿔 줘야한다.    
 • 바꿔주지 않으면 Python interpreter 는 Error를 발생시킨다. 
 {: .notice--info}
@@ -1110,7 +1129,7 @@ Now try it yourself!
 
 **설명:** [ Instruction ]    
 • Editor 창의 소스를 Run 시키면 Error 가 발생한다.    
-• 실수 3.14 를  str()  함수를 사용하여 문자열 형태로 바꿔라.    
+• 실수 3.14 를 함수 str() 를 사용하여 문자열 형태로 바꾸어라.    
 • Run  시켜라.   
 {: .notice--info}
 
@@ -1126,7 +1145,7 @@ Now try it yourself!
 
 
 **설명:** [ Hint ]    
-• 숫자를 문자로 바꿔 주기 위해선 str() 를 사용한다. 
+• 숫자를 문자로 바꿔 주기 위해선, 함수 str() 를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -1143,7 +1162,7 @@ print "The value of pi is around " + str(3.14)
 ```
 
 **설명:** [ Solution ]    
-• 실수 3.14 를 문자열로 바꿔주는 str() 함수를 사용한다.    
+• 실수 3.14 를 문자열로 바꿔주는, 함수 str() 를 사용한다.    
 • e.g. str(3.14) 로 변경 해야한다. 
 {: .notice--info}
 
@@ -1184,11 +1203,22 @@ print "03 - %02d - 2019" % (day)
 # 03 - 06 - 2019
 ```
 
-**설명:** [ Learn ]     
-• 문자열을 출력 할때, % 옵션을 사용하여 해당 변수를 치환한다. 
+**설명:** [ Learn ]       
+• Ch14. String Formatting with %, Part 1 에서는 문자열 치환을 학습한다.    
+• 문자열을 출력 할때, % 옵션을 사용하여 해당 변수를 치환한다.     
 • %s 는 문자 변수를 치환한다.    
 • %d 는 정수 변수를 치환한다.    
 • %d 는 옵션을 추가하면, 숫자 앞 부분을 0 으로 채운다.
+{: .notice--info}    
+
+**설명:** [ Learn ]     
+• Python3    
+• python3 에서는 문자열 메서드 format() 을 사용한다.    
+• %s 대신에, {0}, {1}, {2}, {3} 등 인자의 위치를 알려준다.    
+• 사용은 다음과 같이 한다.    
+• 'I am {0}, and i love {1}'.format('Peter', 'Python')    
+• 출력은 다음과 같이 된다.    
+• 'I am Peter, and i love Python
 {: .notice--info}
 
 
@@ -1204,7 +1234,7 @@ print "03 - %02d - 2019" % (day)
 
 
 **설명:** [ Instruction ]     
-• Edit 창에 있는 소스를 실행하라.    
+• Editor 창에 있는 소스를 실행하라.    
 • 당신이 예상한대로 출력 되는지 검토하라. 
 {: .notice--info}
 
@@ -1233,11 +1263,11 @@ string_1 = "Camelot"
 string_2 = "place"
 
 print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
-```
+```    
 
 **설명:** [ Solution ]    
-• 1 번째 %s 에는 변수 string_1 이 할당 되어 출력된다.    
-• 2 번째 %s 에는 변수 string_2 가 할당 되어 출력된다.
+• 1 번째 %s 에는 변수 string_1 이 할당되어 출력된다.    
+• 2 번째 %s 에는 변수 string_2 가 할당되어 출력된다.
 {: .notice--info}
 
 
@@ -1272,6 +1302,7 @@ print "The %s who %s %s!" % ("Knights", "say", "Ni")
 ```
 
 **설명:** [ Learn ]     
+• Ch15. String Formatting with %, Part 2 에서는 문자열 치환을 학습한다.
 • %s 옵션으로 직접 문자열을 입력하여 치환한다.  
 {: .notice--info}
 
@@ -1291,6 +1322,7 @@ print "The %s who %s %s!" % ("Knights", "say", "Ni")
   * Hit Run.    
 
   * Answer the questions in the console as they pop up!     
+
   * Type in your answer and hit Enter.
 
 
@@ -1319,7 +1351,7 @@ print "%s" % (string_variable)
 
 **설명:**  [ Hint ]     
 • %s 를 변수로 치환하는 문법을 사용한다.    
-• ( \ ) 는 문자열이 계속 된다는 것을 Python interpreter 에게 알려준다. 
+• `\` 는 문자열이 계속 된다는 것을 Python interpreter 에게 알려준다. 
 {: .notice--info}
 
 <br>
@@ -1336,10 +1368,10 @@ color = raw_input("What is your favorite color? ")
 
 print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color)
-```
+```    
 
 **설명:** [ Solution ]    
-• %s를 변수 치환  % 를 사용하여 치환한다.    
+• %s를 변수 치환 % 를 사용하여 치환한다.    
 • Console 에서 질문에 답을 입력하고, Enter 키 를 누른다.    
 • %s, %s, %s 에 %( name, quest, color) 값이 출력 된다.
 {: .notice--info}
@@ -1393,8 +1425,8 @@ h = "Hotel"
 print "%s, %s" % (g, h)
 ```
 
-**설명:** [ Learn ]    
-• 이 2장에서 배운 내용 들을 다시 기억해 보자.   
+**설명:** [ Learn ]       
+• 'String & Console Output' 에서 배운 내용들을 다시 복습한다.   
 {: .notice--info}
 
 
