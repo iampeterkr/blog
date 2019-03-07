@@ -61,7 +61,7 @@ Pig Latin is a language game, where you move the first letter of the word to the
 
 
 **설명:** [ Instruction ]    
-• Coding 창의 소스가 이해가 되면, 마음의 준비가 되었으면, Next 를 클릭하라. 
+• Editor 창의 소스가 이해가 되었으면, Next 를 클릭하라. 
 {: .notice--info}
 
 
@@ -126,7 +126,7 @@ Let's warm up by **printing** a welcome message for our translator users.
 
 
 **설명:** [ Instruction ]    
-• 'print "Pig Latin' 을 실행하라.  
+• print "Pig Latin" 을 실행하라.  
 {: .notice--info}
 
 
@@ -171,7 +171,7 @@ Pig Latin
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYGLATIN</font> 
 
-### 3.  Input!    
+### 3. Input!    
 
 Next, we need to ask the user for input.    
 
@@ -192,11 +192,19 @@ Once you type in your name and hit Enter, it will be stored in name.
 
 
 **설명:** [ Learn ]     
+• Ch3. Input 에서는 문자열 입력함수를 학습한다.    
 • Console 창에 다음과 같은 문자열이 출력된다.    
 • "What's your name?"     
 • Console 창에 당신의 이름을 입력하라. 그리고 Enter를 클릭하라.        
 • # 함수 raw_input() 는 console 창에 문자열을 입력받는 함수이다.
+{: .notice--info}    
+
+
+**설명:** [ Python3 ]     
+• python3 에서는 문자열 입력받는 함수로 input() 을 사용한다. 
 {: .notice--info}
+
+
 
 
 <br>
@@ -215,7 +223,7 @@ Once you type in your name and hit Enter, it will be stored in name.
 
 **설명:** [ Instruction ]    
 • 함수 raw_input() 를 사용하여 다음과 같이 Editor 창에 코딩하라.    
-• ' raw_input("Enter a word: ") '
+• e.g. raw_input("Enter a word: ") 
 {: .notice--info}
 
 
@@ -292,7 +300,8 @@ else:
 We can check that the user's string actually has characters!
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]      
+• Ch4. Check Yourself! 에서는 입력된 문자열의 길이를 구하는 함수를 학습한다.    
 • 변수 empty_string 를 빈 문자열로 초기화 한다.    
 • 변수 empty_string 에 저장된 문자열의 길이를 함수 len() 을 사용하여 구한다.    
 • 변수 empty_string 의 길이가 0보다 큰지를 비교한다.
@@ -337,9 +346,9 @@ We can check that the user's string actually has characters!
 * Click inside the console window on the other side, type a word, then press Enter (or Return).
 
 
-**설명:** [ Hint ]    
-• 같거나 크다 :  >=    
-• 크다      :  >     
+**설명:** [ Hint ]     
+• ( >= ) : 같거나 크다    
+• ( >  ) : 크다          
 • # Console 에서 문자를 입력하고 Enter 를 클릭하면 입력이 되는 것이다  
 {: .notice--info}
 
@@ -361,7 +370,7 @@ else:
 ```
 
 **설명:** [ Solution ]    
-• 변수 original 에 Console 에서 입력값 이 들어가 있다.    
+• 변수 original 에 Console 에서 입력한 값이 들어간다.        
 • 변수 original 에 문자가 들어가 있으면 해당 문자를 출력한다.(if 문)    
 • 변수 original 에 문자가 없으면 "empty"를 출력한다.(else 문). 
 {: .notice--info}
@@ -407,7 +416,7 @@ The second line then runs the method `.isalpha()` which returns False since the 
 You can use `.isalpha()` to check that a string doesn't contain any non-letter characters! For example:
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
 • 함수 .isalpha() 은 변수 x 에 저장된 값이 알파벳 인지 검증한다.    
 • 변수 x 에 알파벳이 있으면 True 값을 반환한다.    
 • 변수 x 에 알파벳이 없으면 False 값을 반환한다.  
@@ -500,6 +509,7 @@ When you finish one part of your program, it's important to test it multiple tim
 
 
 **설명:** [ Learn ]    
+• Ch6. Pop Quiz! 에서는 입력 테스를 학습한다.     
 • 프로그램을 만들었으면 다양하게 입력하면서 테스트 해 보자. 
 {: .notice--info}
 
@@ -593,8 +603,8 @@ You move the first letter of the word to the end and then append the suffix 'ay'
 Let's create a variable to hold our translation suffix.
 
 
-**설명:** [ Learn ]    
-• 이 장에서는 문자열을 제어하는 방법을 배워보자.    
+**설명:** [ Learn ]      
+• Ch7. Ay B C 에서는 문자열을 제어하는 방법을 학습한다.        
 • "python" 의 첫글지 "p" 를 "python" 의 제일 뒤로 보낸다.        
 • 그다음에 문자열 "ay" 를 붙이자.    
 • e.g. "python" -> "ythonpay"    
@@ -622,7 +632,7 @@ Let's create a variable to hold our translation suffix.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* Remember to use a single equal sign to do the assignment and to put quotation marks around the string **'ay'**!
+* Remember to use a single equal sign to do the assignment and to put quotation marks around the string **'ay'**!     
 
 **설명:** [ Hint ]    
 • 문자열을 변수에 대입 할때는 (' ')를 사용한다. 
@@ -660,16 +670,17 @@ pyg = 'ay'
 
 ### 8. Word Up    
 
-Let's simplify things by making the letters in our word **lowercase**.
+Let's simplify things by making the letters in our word **lowercase**.    
 
 ```python
 the_string = "Hello"
 the_string = the_string.lower()
-```
+```    
 The `.lower()` function does not modify the string itself, it simply returns a lowercase-version. In the example above, we store the result back into the same variable.
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch8. Word Up 에서는 .lower() 함수를 학습한다.    
 • 함수 .lower() 는 입력된 문자열을 모두 소문자로 변환하는 함수이다.    
 • 변수 the_string 에 저장된 문자열을 소문자로 변경후, 변수 the_string에 재 저장한다. 
 {: .notice--info}
@@ -704,7 +715,7 @@ Remember that we start counting from **zero**, not one, so we access the first l
 
 **설명:** [ Instruction ]    
 • if 문 안에서 다음 2가지를 작성하라.    
-• 변수 word 를 만들고, 변수 origanl 값을 소문자로 변경후 대압히라.    
+• 변수 word 를 만들고, 변수 origanl 값을 소문자로 변경후 대입하라.    
 • 변수 first 를 만들고, 변수 word[0] index 값을 대입하라.   
 • # word[0] 은 첫번째 문자이다.
 {: .notice--info}
@@ -735,7 +746,7 @@ first # "p"
 • 변수 word 를 만들고, 변수 word 에 orginal.lower() 결과값을 저장하라.   
 • 변수 first 에 변수 word[0] 결과값을 저장하라.    
 • 위 2 가지를 if 문 구문 안에 구현하라.    
-• 변수 word, first 값을 중간 중간 출력하여 확인 하라.   
+• 변수 word, first 값을 중간 중간 출력하여 확인하라.   
 • 변수 first 의 첫번째 index 는 0 이다. 
 {: .notice--info}
 
@@ -760,10 +771,10 @@ else:
 
 **설명:** [ Solution ]    
 • 입력 변수 original 에 문자열을 입력 받는다.    
-• 변수 original 에 문자열이 존재하고 알파멧만 존재하는지 비교한다.    
+• 변수 original 에 문자열이 존재하고 알파벳만 존재하는지 비교한다.    
 • 변수 word 에 original.lower()결과 값을 저장한다.    
 • 변수 word[0] 의 글자를 변수 first 에 저장한다.    
-• if 문의 조건을 만족 못하면 (else) 'empty' 출력한다.
+• if 문의 조건을 만족 못하면, else 문에서는 문자열 'empty' 출력한다.
 {: .notice--info}
 
 
@@ -794,6 +805,7 @@ welcome = greeting + name
 ```
 
 **설명:** [ Learn ]    
+• 9. Move it on Back 에서는 변수내 문자열 연결을 학습한다.      
 • 변수 pyg 에 ( + ) 를 이용하여 다른 문자열을 연결할 수 있다.
 {: .notice--info}
 
@@ -810,7 +822,7 @@ welcome = greeting + name
 
 
 **설명:** [ Instruction ]    
-• 변수 first 다음 라인에서 작업하시오.   
+• 변수 first 다음 라인에서 작업하라.   
 • 변수 new_word 를 만들어라.   
 • 변수 new_word 에 변수 word , first , pyg 의 문자열을 연결하여라.  
 {: .notice--info}
@@ -895,7 +907,8 @@ print s[1:4]
 * We are going to **slice** the string just like in the 3rd example above.
 
 
-**설명:**     
+**설명:** [ Learn ]      
+• Ch10. Ending Up 에서는 문자열을 잘라내는 방법을 학습한다.      
 • 변수 s 를 만들고, 문자열 "Charlie" 를 대입한다.    
 • 변수 s[0] 는 첫번째 글자를 가리킨다.    
 • 변수 s[1:4] 는 변수 s 에서 문자열 "harl" 를 잘라낸다.    
@@ -913,8 +926,8 @@ print s[1:4]
 * Use [1:len(new_word)] to do this.
 
 
-**설명:**     
-• 변수 new_word 에 index 1번 문자부터 마지막 index 문자까지 잘라라.    
+**설명:** [ Instruction ]     
+• 변수 new_word 에 index 1번 문자부터 마지막 index 문자까지 잘라서 대입하라.    
 • [1:len(new_word)] 를 사용하라.
 {: .notice--info}
 
@@ -944,7 +957,7 @@ my_string = "Python"
 my_string[1:] # "ython"
 ```
 
-**설명:**    
+**설명:** [ Hint ]       
 • 문자열의 주소는 0 부터 시작한다.    
 • s[3] 은 4번째 문자를 가리킨다.    
 • s[3:6] 은 s[3] 부터 s[6] 까지의 문자열을 잘라낸다.    
@@ -972,7 +985,7 @@ else:
     print 'empty'
 ```
 
-**설명:**    
+**설명:** [ Solution ]       
  • new_word[1:len(new_word)] 는 다음과 같이 동작한다.    
  • len(new_word) 는 변수 new_word 의 길이를 계산한다.    
  • new_word[시작주소:끝주소]이다.    
@@ -1003,7 +1016,8 @@ Yay! You should have a fully functioning Pig Latin translator. Test your code th
 You'll also want to take out any `print` statements you were using to help debug intermediate steps of your code. Now might be a good time to add some comments too! Making sure your code is clean, commented, and fully functional is just as important as writing it in the first place.
 
 
-**설명:**     
+**설명:** [ Learn ]     
+• Ch11. Testing, Testing, is This Thing On? 에서는 테스팅을 학습한다.     
 • 코드 사이에 print 문을 사용하여 변수값을 출력한다.    
 • 코드가 어떻게 진행되는지 단계별로 확인한다.    
 • 코드가 이해가 되었으면, 프로그램에 주석(#)을 단다.
@@ -1019,7 +1033,7 @@ You'll also want to take out any `print` statements you were using to help debug
 * When you're sure your translator is working just the way you want it, click Run Code to finish this project.
 
 
-**설명:**    
+**설명:** [ Instruction ]   
 • Run 을 실행 후, 어떻게 동작되는지 확인한다.
 {: .notice--info}
 
@@ -1032,7 +1046,7 @@ You'll also want to take out any `print` statements you were using to help debug
 
 * skip
 
-**설명:**    
+**설명:** [ Hint ]   
 • skip
 {: .notice--info}
 
@@ -1060,7 +1074,7 @@ else:
     print 'empty'
 ```
 
-**설명:**    
+**설명:** [ Solution ]       
 • 입력값을 문자열 "ABCDEF"가 입력된다고 가정하자.    
 • 변수 original 에 문자열 "ABCDEF"가 저장된다.    
 • 변수 original 에 문자열이 들었거나, 모두 알파벳인지를 확인한다.    

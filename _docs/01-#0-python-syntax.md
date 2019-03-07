@@ -928,8 +928,7 @@ quotient1 = float(7)/2
 • 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.
 {: .notice--info}    
 
-**설명:** [ Learn ]    
-• python3     
+**설명:** [ Python3 ]    
 • python3 에서는 이문제를 해결 하였다.    
 • 정수 ( 7/2 ) 은 그 계산하면 2.5 로 자동 출력된다.
 {: .notice--info}
