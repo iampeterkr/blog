@@ -37,6 +37,7 @@ The Python programs we've written so far have had one-track minds: they can add 
 
 
 **설명:** [ Learn ]     
+• Ch1. Go With the Flow 에서는 상황에 따른 선택을 할수 있는 방법을 학습한다.    
 • Control flow 기능을 사용하여 다중 선택 방법을 학습한다. 
 {: .notice--info}
 
@@ -53,7 +54,7 @@ The Python programs we've written so far have had one-track minds: they can add 
 
 
 **설명:** [ Instruction ]    
-• Run 클리 후, 프로그램이 어떻게 동작 되는지 확인하라. 
+• Run 클릭 후, 프로그램이 어떻게 동작 되는지 확인하라. 
 {: .notice--info}
 
 
@@ -93,7 +94,8 @@ clinic()
 ```
 
 **설명:** [ Solution ]     
-• Console 창에서, right or r, left or l, or Enter를 입력하면, 입력값에 따라 결과물이 출력 된다.
+• Console 창에서, 'right' 또는 'r', 'left' 또는 l, 또는 Enter 를 입력한다.    
+• 입력값에 따라 결과물이 출력된다.
 {: .notice--info}
 
 
@@ -179,7 +181,8 @@ Note that `==` compares whether two things are **equal**, and `=` assigns a valu
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]   
+• Ch2.  Compare Closely! 에서는 비교 연산자를 학습한다.     
 • `==` 같다, `!=` 같지 않다.    
 • `>`  크다, `>=` 크거나 같다.    
 • `<`  작다, `<=` 작거나 같다.    
@@ -207,7 +210,7 @@ Note that `==` compares whether two things are **equal**, and `=` assigns a valu
 
 
 **설명:** [ Instruction ]    
-• 아래 계산값의 결과를 True  or  Fasle 로 각 변수에 대입하라.    
+• 아래 계산값의 결과를 True 또는 Fasle 로 각 변수에 대입하라.    
 • 변수 bool_one   에  17 < 238         의 결과 값을 저장하라.   
 • 변수 bool_two   에  100 == ( 2 * 50) 의 결과 값을 저장하라.   
 • 변수 bool_three 에  19 <= 19         의 결과 값을 저장하라.   
@@ -235,7 +238,7 @@ True == True
 
 
 **설명:** [ Hint ]    
-• 변수 bool_one 에  True or False 값을 대입하라. 
+• 변수 bool_one 에  True 또는 False 값을 대입하라. 
 {: .notice--info}
 
 <br>
@@ -328,7 +331,7 @@ bool_one = False
 
 **설명:** [ Hint ]    
 • 수식 (20-10) >  15 , 10 > 15라는 표현은 틀린 표현이다.    
-• 즉 False 이다. 
+• 즉, False 이다. 
 {: .notice--info}
 
 <br>
@@ -416,9 +419,11 @@ Let's switch it up: we'll give the boolean, and you'll write the expression, jus
  
 
 
-**설명:** [ Learn ]    
-• 각 주석문에서 지시하는 사항을 보고, 그 지시사항에 맞게끔 대입하라.    
-• e.g. #Make me True  "bool_one = 3 < 5 "  참(True)을 만든다.    
+**설명:** [ Instruction ]    
+• 각 주석문에서 지시하는 사항을 보고, 그 지시 사항에 맞게끔 대입하라.    
+• 비교 연산자를 서로 겹치지 않게 3종류 이상 사용하라.    
+• 직접 True, False 를 대입하지 마라.     
+• e.g. 'bool_one = 3 < 5 ' 같이 참(True)이 되게 만든다.         
 • 각 비교수식을 사용하여 작성하라. 
 {: .notice--info}
 
@@ -463,8 +468,9 @@ bool_four = "potato" != "potato"
 bool_five = "tomato" == "tomato"
 ```
 
-**설명:** [ Instruction ]    
-• 주석에서 지시하는 조건을 맞게끔, 참(True), 거짓(False)을 비교수식을 작성하여 대입하라.
+**설명:** [ Solution ]    
+• 주석에서 지시하는 조건을 맞게끔, 참(True), 거짓(False)값이 되도록 만든다.    
+• 대입값은 비교 수식을 작성하여 대입하라.
 {: .notice--info}
 
 
@@ -493,7 +499,9 @@ We'll go through the operators one by one.
 
 
 **설명:** [ Learn ]     
-• Boolean 에는 and , or , not 이 있다. 다음 아래의 boolean 표를 참조하자. 
+• Ch5. To Be and/or Not to Be 에서는 Boolean을 학습한다.     
+• Boolean 에는 and , or , not 이 있다.     
+• 아래의 boolean 표를 참조하자. 
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/03-boolean-00.svg)    
@@ -505,7 +513,7 @@ We'll go through the operators one by one.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)  
 
 * Check out the truth tables to the right.     
-* They show the results of using `AND`, `OR`, and `NOT` boolean operators given the boolean inputs `A` and `B`.
+* They show the results of using `AND`, `OR`, and `NOT` boolean operators given the boolean inputs `A` and `B`.    
 
 * Click next to continue. 
 
@@ -523,7 +531,7 @@ We'll go through the operators one by one.
 
 
 **설명:** [ Hint ]    
-* skip
+• skip
 {: .notice--info}
 
 <br>
@@ -555,17 +563,18 @@ skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 6. And    
+### 6. AND     
 
-The boolean operator and returns `True` when the expressions on both sides of `and` are `true`. For instance:
+The boolean operator and returns `True` when the expressions on both sides of `and` are `true`. For instance:     
 
-* 1 < 2 and 2 < 3 is True;
-* 1 < 2 and 2 > 3 is False.
+* 1 < 2 and 2 < 3 is True;    
+* 1 < 2 and 2 > 3 is False.     
 
 
-**설명:** [ Learn ]    
-• And 는 연산자 양 쪽 A, B의 값이 모두 참(True)이면, 참(True)이다.    
-• A or B 둘중 하나라도 거짓(False)이면 거짓(False)이다. 
+**설명:** [ Learn ]     
+• Ch6. AND 에서는 AND 연산자를 학습한다.    
+• AND 연산자는 양 쪽 A, B의 값이 모두 참(True)이면, 참(True)이다.    
+• A 또는 B 둘 중 하나라도 거짓(False)이면 거짓(False)이다. 
 {: .notice--info}
 
 
@@ -628,8 +637,8 @@ bool_one = False and False
 
 
 **설명:** [ Hint ]    
-• False(거짓) and False(거짓) 은 False(거짓) 이다. 
-• 변수 `bool_one` 에 결과값 거짓(False)을 대입한다.
+• False(거짓) and False(거짓) 은 False(거짓) 이다.     
+• 변수 bool_one 에 결과값 거짓(False)을 대입한다.
 {: .notice--info}
 
 <br>
@@ -654,7 +663,7 @@ bool_five = True and True
 **설명:** [ Solution ]    
 • 오른쪽의 계산 결과 값이 참(True) or 거짓(False) 인지를 계산한다.    
 • 그 결과가 각 변수에 저장된다.     
-• And  연산자는 양 변이 모두 참(True)일 때만, 참(Ture)을 반환한다. 
+• And 연산자는 양 변이 모두 참(True)일 때만, 참(Ture)을 반환한다. 
 {: .notice--info}
 
 
@@ -672,7 +681,7 @@ bool_five = True and True
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CONDITIONALS & CONTROL FLOW</font> 
 
-### 7. Or    
+### 7. OR    
 
 The **boolean** operator or returns `True` when at least one expression on either side of or is true. For example:
 
@@ -682,7 +691,8 @@ The **boolean** operator or returns `True` when at least one expression on eithe
 ```
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch7. OR 에서는 OR 연산자를 학습한다.     
 • OR 연산자는 양 변이 하나라도 참(True)이면, 참(True)을 반환한다. 
 {: .notice--info}
 
@@ -726,7 +736,7 @@ True or True
 
 
 **설명:** [ Instruction ]     
-• 각 변수에 OR 연산자를 한 결과 값( True or False ) 을 대입하라.
+• 각 변수에 OR 연산자를 한 결과 값( True 또는 False ) 을 대입하라.
 {: .notice--info}
 
 
@@ -790,7 +800,8 @@ not `False` will evaluate to `True`, while not `41 > 40` will return `False`.
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch8. Not 에서는 NOT 연산자를 학습한다.    
 • Not 은 다음과 같이 동작한다.    
 • True -> False 를 반환한다.    
 • False -> True 를 반환한다.    
@@ -840,7 +851,7 @@ not not False
 
 
 **설명:** [ Instruction ]    
-• 각 변수에 양변의 계산 결과 값을 True or False 로 대입하라. 
+• 각 변수에 양변의 계산 결과 값을 True 또는 False 로 대입하라. 
 {: .notice--info}
 
 
@@ -910,6 +921,7 @@ Parentheses `()` ensure your expressions are evaluated in the order you want. An
 
 
 **설명:** [ Learn ]    
+• Ch9. This and That 에서는 Boolean 의 우선순위를 학습한다.    
 • boolean 의 계산 순서는 수학의 계산 우선 순위와 값다.    
 • 1st : NOT     
 • 2nd : AND    
@@ -958,7 +970,7 @@ False or not (True and True)
 
 
 **설명:** [ Instruction ]    
-• 각 변수에 True or False 를 대입 하라. 
+• 각 변수에 True 또는 False 를 대입하라. 
 {: .notice--info}
 
 
@@ -967,7 +979,7 @@ False or not (True and True)
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* `True or not False and False`.     
+* True or not False and False.     
 
 1. `not` gets evaluated **first**, 
 2. so we have `True or True and False`. 
@@ -1000,8 +1012,9 @@ bool_five = False or not (True and True)
 ```
 
 **설명:** [ Solution ]    
-• 각 변수에 NOT , AND , OR 순으로 계산한다. 그 결과값 True or False 가 대입된다. 
-• 각 변수를 출력해 보면, 계산 결과값을 알 수 있다.
+• 각 변수에 NOT , AND , OR 순으로 계산한다.    
+• 그 결과값 True 또는 False 가 대입된다.     
+• 각 변수를 출력해 보면, 계산 결과값을 알수 있다.
 {: .notice--info}
 
 
@@ -1029,6 +1042,7 @@ bool_one = (2 <= 2) and "Alpha" == "Bravo"
 ```
 
 **설명:** [ Learn ]     
+• Ch10. Mix 'n' Match 에서는 boolean을 학습한다.  
 • 변수 bool_one 에는 False 값이 반환된다. 
 {: .notice--info}
 
@@ -1045,7 +1059,7 @@ bool_one = (2 <= 2) and "Alpha" == "Bravo"
 
 
 **설명:** [ Instruction ]     
-• Coding 창의 소스에서 주석을 읽고 이해하라.    
+• Editor 창의 소스에서 주석을 읽고 이해하라.    
 • 주석에서 지시하는대로 결과 값을 만들어라.    
 • Boolean 은 연산자 ( NOT , AND , OR ) 를 활용하라.
 {: .notice--info}
@@ -1129,6 +1143,7 @@ If the **indentation** from one line to the next is different and there is no co
 
 
 **설명:** [ Learn ]    
+• Ch11. Conditional Statement Syntax 에서는 조건문을 학습한다.      
 • if 문은 조건문 이다.     
 • 조건이 True 이면, if 절 내부의 정의 내용을 실행한다.    
 • if 문 사용시 주의 사항이 있다.    
@@ -1164,7 +1179,7 @@ If the **indentation** from one line to the next is different and there is no co
 
 
 **설명:** [ Hint ]    
-• 변수 response 에 'Y' or 'N' 를 대입한다.  
+• 변수 response 에 'Y' 또는 'N' 를 대입한다.  
 {: .notice--info}
 
 <br>
@@ -1186,7 +1201,7 @@ if answer == "Left":
 ```
 
 **설명:** [ Solution ]    
-• 출력문의 내용이 마음에 들지 않으므로 변수 response 에  'N' 를 대입한다. 
+• 출력문의 내용이 마음에 들지 않으므로 변수 response 에 'N' 를 대입한다. 
 {: .notice--info}
 
 
@@ -1220,9 +1235,13 @@ Looking at the example above, in the event that `some_function()` returns `True,
 Also, make sure you notice the `colons` at the end of the `if` statement. We've added them for you, but they're important.
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch12. If You're Having... 에서는 조건에 따라 결과값을 결정하는 학습을 한다.    
 • if 문 은 some_function()을 호출하여 받은 결과값이 True 인지를 비교한다.    
-• 결과값이 True 이면, 다음 라인에 들여쓰진  #block line one, #block line two, # et cetera 의 정의문 들이 실행된다.    
+• if 문의 결과값이 True 이면, if 문 블럭안에 다음 정의문이 실행된다.     
+• e.g.  # block line one,    
+• e.g.  # block line two,     
+• e.g.  # et cetera     
 • 결과값이 False 이면 정의문 들은 실행되지 않는다.    
 • if 문의 끝에는 ( : ) 이 항상 와야한다. 
 {: .notice--info}
@@ -1242,7 +1261,7 @@ Also, make sure you notice the `colons` at the end of the `if` statement. We've 
 * If you do it successfully, then both "Success #1" and "Success #2" are printed.
 
 
-**설명:** [ Instruction ] 
+**설명:** [ Instruction ]     
 • 2 라인과 6 라인에 각 True 가 되도록 계산식을 수정하라. 
 {: .notice--info}
 
@@ -1288,9 +1307,9 @@ print using_control_once()
 print using_control_again()
 ```
 
-**설명:** [ Solution ]    
-• " if 2 <  3: " 이 True 가 되도록 조건문을 만들었다.    
-• " if 3 == 3: " 이 True 가 되도록 조건문을 만들었다.
+**설명:** [ Solution ]     
+• if 2 <  3:  이 True 가 되도록 조건문을 만들었다.    
+• if 3 == 3:  이 True 가 되도록 조건문을 만들었다.
 {: .notice--info}
 
 
@@ -1323,6 +1342,7 @@ else:
 ```
 
 **설명:** [ Learn ]     
+• Ch13. Else Problems, ... 에서는 else 문을 학습한다.    
 • else 문은 if 문과 함께 사용한다.     
 • if 문 조건을 체크하고, 조건에 맞지 않으면, else 문이 실행된다.
 {: .notice--info}
@@ -1337,7 +1357,7 @@ else:
 * Complete the `else` statements to the right. Note the indentation for each line!
 
 
-**설명:** [ Instruction ]    
+**설명:** [ Instruction ]     
 • Coding 창에 있는 소스중, else 문을 완성하라. (단, 들여 쓰기를 주의하라.)
 {: .notice--info}
 
@@ -1379,7 +1399,8 @@ def french_soldier():
 ```
 
 **설명:** [ Solution ]    
-• 함수 black_knight() 에서 if 문이 answer 과 비교한다.    
+• 함수 black_knight() 에서는 다음과 같이 동작한다.    
+• if 문이 변수 answer 과 문자열을 비교한다.    
 • 비교한 결과가 참이면 True 를 반환한다.    
 • 비교한 결과가 거짓이면 else 문이 작동된다.    
 • else 문의 'print ("else call")' 이 출력된다.    
@@ -1418,6 +1439,7 @@ In the example above, the `elif` statement is only checked if the original if st
 
 
 **설명:** [ Learn ]    
+• Ch14. I Got 99 Problems, 에서는 elif 를 학습한다.     
 • elif 는 "else if" 의 줄인 말이다.    
 • elif 는 if 조건절이 아니고 그다음에 다른 조건을 체크 하고 싶을때 사용한다.    
 • else 차이는 else 는 조건을 만들수 없디만, elif 문은 조건을 만들수 있다.
@@ -1463,8 +1485,8 @@ else:
 ```
 
 **설명:** [ Hint ]    
-• if , elif , else 문의 끝에 ( : ) 를 꼭 넣어야 한다.
-• 마지막에 각 함수를 출력해보면, 결과 값을 알수있다.
+• if , elif , else 문의 끝에 ( : ) 를 꼭 넣어야 한다.    
+• 마지막에 각 함수를 출력해보면, 결과 값을 알수 있다.
 {: .notice--info}    
 
 
@@ -1489,8 +1511,8 @@ print greater_less_equal_5(6)
 
 ```
 
-**설명:** [ Solution ]    
-• 변수 answer 이 5 보다 큰지, 작은지, 같은지를 비교하여 그 결과값을 반환한다. 
+**설명:** [ Solution ]     
+• 변수 answer 가 5 보다 큰지 or 작은지 or 같은지를 비교하여 그 결과값을 반환한다. 
 {: .notice--info}
 
 
@@ -1515,7 +1537,7 @@ print greater_less_equal_5(6)
 
 Really great work! Here's what you've learned in this unit:
 
-**Comparators**
+**Comparators**    
 ```python
 3 < 4
 5 >= 5
@@ -1523,14 +1545,14 @@ Really great work! Here's what you've learned in this unit:
 12 != 13
 ```
 
-**Boolean operators**
+**Boolean operators**    
 ```python
 True or False 
 (3 < 4) and (5 >= 5)
 this() and not that()
 ```
 
-**Conditional statements**
+**Conditional statements**    
 ```python
 if this_might_be_true():
   print "This really is true."
@@ -1543,7 +1565,8 @@ Let's get to the grand finale.
 
 
 
-**설명:** [ Learn ]    
+**설명:** [ Learn ]     
+• Ch15. The Big If 에서는 지금가지 배운 모든 연산자를 학습한다.    
 • 지금까지 배운 비교문, Boolean 연산자, 조건문( if , elif , else )를 복습하자.
 {: .notice--info}
 
@@ -1570,8 +1593,8 @@ Let's get to the grand finale.
 
 
 **설명:** [ Instruction ]    
-• 함수 `grade_converter()` 를 만든다.    
-• 함수의 동작은 비교문, 조건문을 사용하여라.    
+• 함수 grade_converter() 를 만든다.    
+• 함수의 동작은 비교문, 조건문을 사용하라.    
 • 함수 조건은 점수 구간에 따라 A, B, C, D, F 등급을 준다.
 {: .notice--info}
 
