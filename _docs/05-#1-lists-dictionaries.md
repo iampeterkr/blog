@@ -44,13 +44,14 @@ Lists are very similar to strings, but there are a few key differences
 
 
 **설명:** [ Learn ]      
-• Ch1. Introduction to Lists 에서는 리스트에 대하여 배워보자.         
+• Ch1. Introduction to Lists 에서는 리스트에 대하여 학습한다.         
 • 리스트는 각기 다른 형태의 데이타 타입을 모을 수 있다.    
-• 사용법은 '리스트 변수명 = [ item_1, item_2 ] ' 이다.    
-• e.g. test_list = [item1, item2]    
+• 사용법은 다음과 같다.    
+• e.g. 리스트 변수명 = [ item_1, item_2 ]        
+• e.g. test_list = [ item_11, item_2 ]    
 • 빈 리스트는 다음과 같이 만든다.    
 • e.g. test_list = []     
-• 공부를 진행하다 보면, 리스트는 문자열과 비슷 하다는것을 알게 된다.
+• 리스트는 문자열과 비슷 하다는것을 알게 된다.
 {: .notice--info}
 
 
@@ -108,8 +109,8 @@ if len(zoo_animals) > 3:
 ```
 
 **설명:** [ Solution ]                
-• 리스트 zoo_animals 에 "dog" 을 추가하였다.    
-• 리스트 zoo_animals 의 항목이 4개 이상이면, 리스트 `zoo_aimals` 의 값이 출력된다.
+• 리스트 zoo_animals 에 문자열 "dog" 을 추가하였다.    
+• 리스트 zoo_animals 의 항목이 4개 이상이면, 리스트 zoo_aimals 의 값이 출력된다.
 {: .notice--info}
 
 
@@ -141,7 +142,7 @@ List indices begin with **0, not 1**! You access the first item in a list like t
 
 
 **설명:** [ Learn ]    
-• Ch2. Access by Index 에서는 index를 통하여 리스트에 접근하는 방법을 배워보자.    
+• Ch2. Access by Index 에서는 index를 통하여 리스트에 접근하는 방법을 학습한다.    
 • 리스트는 각 항목에 주소(index)를 지정할 수 있다.    
 • 주소(index)는 0 부터 시작한다.
 {: .notice--info}
@@ -297,7 +298,7 @@ zoo_animals[2] = "hyena"
 
 
 **설명:** [ Hint ]    
-• 주소(index)는 0 부터 시작한다. 
+• 주소(index)는 0 부터 시작한다.     
 • 4번째 항목값은 index 3 이다.  
 {: .notice--info}
 
@@ -358,7 +359,7 @@ print letters
 
 
 **설명:** [ Learn ]    
-• Ch4. Late Arrivals & List Length 에서는 리스트에 항목을 추가하는 방법을 배워보자.    
+• Ch4. Late Arrivals & List Length 에서는 리스트에 항목을 추가하는 방법을 학습한다.    
 • 리스트 letters 를 만든다.    
 • 리스트 letters 에 항목값으로  'a', 'b', 'c' 를 넣는다.    
 • 문자열 'd' 를 .append()를 사용하여, 리스트 letters 의 마지막 위치에 추가한다.    
@@ -381,7 +382,7 @@ print letters
 **설명:** [ Instruction ]    
 • Editor 창 5, 6, 7 라인에서 리스트 suitcase 에 3개 이상의 항목값을 추가하라.    
 • 리스트에 .append() 사용하라.    
-• 변수 list_length 에 리스트 suitcase 의 길이(len() 사용)를 저장하라. 
+• 변수 list_length 에 리스트 suitcase 의 길이를 함수 len()을 사용하여 저장하라.
 {: .notice--info}
 
 
@@ -473,16 +474,19 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 
 
 **설명:** [ Learn ]     
-• Ch5. List Slicing 에서는 문자열의 특정 범위를 잘라내는 법을 배워보자.    
-• 리스트 letters 의 특정 항목값 'b', 'c' 만 추출 하려면 어떻게 해야 할까?
-• 첫번째 방법은, 해당 문자열의 index 값을 지정해서 추출할 수 있다.(e.g. letters[1])   
-• 이 장에서는 index 값의 범위를 지정하여 추출할 수(e.g. letters[1:3]).    
+• Ch5. List Slicing 에서는 문자열의 특정 범위를 잘라내는 법을 학습한다.        
+• 리스트 letters 의 특정 항목값 'b', 'c' 만 추출 하려면 어떻게 해야 할까?    
+• 첫번째 방법은, 해당 문자열의 index 값을 지정해서 추출할 수 있다.    
+• e.g. letters[1]        
+• 이 장에서는 index 값의 범위를 지정하여 추출할 수 있다.    
+• e.g. letters[1:3]            
 • 리스트 letters[1:3]은 리스트 letters 1번 주소 부터 3번 주소까지 잘라낸다는 의미이다.    
-• 단, 잘라내는 규칙은 다음과 같다. (e.g. letters[Begin:End] ).    
-• Begin : 첫번째 index 포함.    
-• End :  마지막 index 미포함.    
+• 단, 잘라내는 규칙은 다음과 같다.     
+• e.g. letters[Begin:End]        
+• - Begin : 첫번째 index 포함.    
+• - End :  마지막 index 미포함.    
 • 리스트 index 는 0 부터 시작한다.    
-• 리스트를 추출하여 출력하여도 해당 리스트의 원본은 변함이 없다. 
+• 리스트를 추출하여 출력하여도 해당 리스트의 원본은 변함이 없다.
 {: .notice--info}
 
 
@@ -582,7 +586,7 @@ If your list slice includes the very first or last item in a list (or a string),
 
 
 **설명:** [ Learn ]   
-• Ch6. Slicing Lists and Strings 에서는 문자열 Slicing 을 배워보자.    
+• Ch6. Slicing Lists and Strings 에서는 문자열 Slicing 을 학습한다.    
 • 문자열도 각 알파벳마다 index가 부여되어 있다.     
 • 문자열도 각 index 값으로 잘라 낼수 있다.     
 • my_list[:2] 는 처음부터 index 2번(미포함)까지 잘라낸다.(처음부터 2번째까지)    
@@ -602,7 +606,7 @@ If your list slice includes the very first or last item in a list (or a string),
 
 
 **설명:** [ Instruction ]              
-• 리스트 dog 에 변수 animals 의 인덱스 3번(포함) 부터 6번(미포함)까지 잘라내서 저장하라.    
+• 리스트 dog에 변수 animals 의 인덱스 3번(포함) ~ 6번(미포함)까지 잘라내서 저장하라.    
 • 리스트 frog 에 animals 의 인덱스 6번(포함) 부터 끝까지 잘라내서 저장하라. 
 {: .notice--info}
 
@@ -690,7 +694,7 @@ print animals
 
 
 **설명:** [ Learn ]     
-• Ch7. Maintaining Order 에서는 리스트 특정 index에 항목을 추가하는 법을 배워보자.    
+• Ch7. Maintaining Order 에서는 리스트 특정 index에 항목을 추가하는 법을 학습한다.    
 • 리스트 animals 에 3개의 문자열 "ant", "bat", "cat"이 들어 있다.     
 • 리스트 animals 의 index 1번 자리에 "dog" 를 추가하려면 다음과 같이 한다.    
 • e.g. animals.insert(1, "dog")    
@@ -732,7 +736,7 @@ print animals
 • (주의) "duck" 대신 "cobra" 항목 값으로 대체하는 것이 아니다.    
 • 문자열 "duck" 의 index 값 자리에, "cobra"를 넣는 것이다.    
 • 즉, "duck" 자리에 "cobra"가 삽입 되는 것이다.    
-• 정상적으로 완료되면 "duck"는 "cobra"에 다음에 올것이다. 
+• 정상적으로 완료되면 "duck"는 "cobra"에 다음에 올 것이다. 
 {: .notice--info}
 
 <br>
@@ -813,7 +817,7 @@ Then in `list_name` designates `list_name` as the list the loop will work on. Th
 
 **설명:** [ Instruction ]     
 • for 문을 사용하여 리스트 my_list 에서 추출한 값을 변수 number 에 저장하라.    
-• 변수 number 값을 '2 x number' 하여 출력하라. 
+• 변수 number 값을 ( 2 x number ) 하여 출력하라. 
 {: .notice--info}
 
 
@@ -852,7 +856,7 @@ for number in my_list:
 ```    
 
 **설명:** [ Solution ]         
-• 리스트 my_list 의 값 [ 1,9,3,8,5,7 ] 이 변수 number 에 자동 저장된다.    
+• 리스트 my_list 의 값 [ 1, 9, 3, 8, 5, 7 ] 이 변수 number 에 자동 저장된다.    
 • for 문을 반복적으로 돌면서, number x 2 계산된 값이 출력된다. 
 {: .notice--info}
 
@@ -1003,10 +1007,10 @@ Dictionaries are great for things like phone books (pairing a name with a phone 
  
 
 **설명:** [ Learn ]      
-• Ch10. This Next Part is Key 에서는 딕셔너리에 대하여 배워보자.    
+• Ch10. This Next Part is Key 에서는 딕셔너리에 대하여 학습한다.    
 • 딕셔너리는 리스트와 비슷하다.     
 • 리스트는 눈에 보이지 않는 인덱스를 가지고 해당 항목(값)을 나타낸다.    
-• 딕셔너리는 'key' 를 이용하여 해당 항목(값)을 나타낸다.     
+• 딕셔너리는 key 를 이용하여 해당 항목(값)을 나타낸다.     
 • e.g. 딕셔너리 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}     
 • 딕셔너리 항목(값)은 ( key : value ) 으로 이루어 진다.    
 • 'key1' 을 키(key)라고 부르면 이와 매칭되는 값 1 을 값(value)이라 부른다.    
@@ -1034,7 +1038,8 @@ residents['Puffin']# Gets the value 104
 
 
 **설명:** [ Instruction ]          
-• 딕셔너리 residents 에서 key 값이 'Sloth', 'Burmese Python'인 것의 값(value)를 출력하라.   
+• 딕셔너리 residents 에서 key 값이 'Sloth' 인 것의 값(value)를 출력하라.    
+• 딕셔너리 residents 에서 key 값이 'Python' 인 것의 값(value)를 출력하라.    
 • 참고로, 리스트는 index 값을 지정하여 해당 값을 찾는다.     
 • 하지만, 딕셔너리는 key 값을 지정하여 해당 값을 찾는다.   
 {: .notice--info}
@@ -1112,14 +1117,15 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 
 
 **설명:** [ Learn ]          
-• Ch11. New Entries 에서는 딕셔너리의 다양한 기능을 배워보자.    
+• Ch11. New Entries 에서는 딕셔너리의 다양한 기능을 학습한다.    
 • 딕셔너리도 리스트와 마찬가지로 변형이 가능하다.    
 • 여기서 변형은 추가/삭제 이다.     
-• 추가/삭제는 'key/value' 쌍으로 추가/삭제 해야 한다.     
-• e.g. 'dict_name[new_key]=new_value'     
+• 추가/삭제는 key/value 쌍으로 추가/삭제 해야 한다.     
+• e.g. dict_name[new_key]=new_value     
 • 딕셔너리 초기화는 ( {} ) 를 사용한다.    
-• e.g. 'dict_name = {}'
-• 리스트 초기화와 구별하자. ( e.g. 'list_name = []')     
+• e.g. dict_name = {}    
+• 리스트 초기화와 구별하자.    
+• e.g. list_name = []         
 • 함수 len() 를 사용하여, 딕셔너리의 쌍의 갯수가 몇개인지 알 수 있다.    
 • key/value 는 1:1 매칭이다.     
 • value 의 값은 리스트 형(type)이기에, key1:[list1, list2] 와 같이 사용할 수 있다. 
@@ -1221,7 +1227,7 @@ dict_name[key] = new_value
 
 
 **설명:** [ Learn ]     
-• Ch12. Changing Your Mind 에서는 딕셔너리 삭제(del)에 대하여 배워보자.    
+• Ch12. Changing Your Mind 에서는 딕셔너리 삭제(del)에 대하여 학습한다.    
 • 딕셔너리 삭제는 명령어 del 을 사용하여 삭제할 수 있다.    
 • e.g. del dict_name[key_name]     
 • 딕셔너리 dict_name 에 key_name 과 매칭되는 value(값)를 삭제할 수 있다.   
@@ -1245,7 +1251,7 @@ dict_name[key] = new_value
 **설명:** [ Instruction ]          
 • 딕셔너리의 key 값이 'Sloth', 'Bengal Tiger'인 항목(값)을 삭제하라.    
 • 삭제는 명령어 del 을 사용하라.    
-• 딕셔너리의 key 값 'Rockhopper Penguin' 의 value 인 'Arctic Exhibit'을 'Plains Exhibit' 으로 빠꾸어라.
+• 딕셔너리의 key 값 'Rockhopper Penguin' 의 value 인 'Arctic Exhibit'을 'Plains Exhibit' 으로 변경하라.
 {: .notice--info}
 
 
@@ -1331,10 +1337,10 @@ This code will print:
 
 
 **설명:** [ Learn ]          
-• Ch13. Remove a Few Things 에서는 리스트의 삭제에 대해서 배워보자.    
+• Ch13. Remove a Few Things 에서는 리스트의 삭제를 학습한다.    
 • 리스트에서도 항목(값) 삭제가 가능하다.    
 • 리스트 beatles 에 5개의 항목이 있다.     
-• 메서드 '.remove' 를 사용하여 항목 'stuart'를 삭제한다.     
+• 메서드 .remove 를 사용하여 항목 'stuart'를 삭제한다.     
 • 리스트 beatles 에는 4개의 항목이 남아 있다.     
 • 리스트도 딕셔너리처럼 해당 값을 지정하여 직접 삭제할 수 있다.
 {: .notice--info}
@@ -1364,7 +1370,7 @@ This code will print:
 
 **설명:** [ Hint ]          
 • 상단의 리스트를 삭제하는 법을 다시한번 읽어 보고 참조하자.    
-• 주의) '.remove[]' 가 아니다.  '.remove()' 를 사용하자.
+• 주의) .remove[] 가 아니다.  .remove() 를 사용하자.
 {: .notice--info}
 
 
@@ -1378,7 +1384,7 @@ backpack.remove('dagger')
 
 **설명:** [ Solution ]      
 • 리스트의 항목중 하나인 'dagger' 를 삭제한다.    
-• 메서드 '.remove()' 를 사용하여, 'dagger'를 직접 지정하여 삭제한다.   
+• 메서드 .remove() 를 사용하여, 'dagger'를 직접 지정하여 삭제한다.   
 • backpack.remove('dagger') 
 {: .notice--info}
 
@@ -1418,12 +1424,12 @@ print my_dict["fish"][0]
 
 
 **설명:** [ Learn ]       
-• Ch14. It's Dangerous to Go Alone! Take This 에서는 딕셔너리 복습을 해보자.    
+• Ch14. It's Dangerous to Go Alone! Take This 에서는 딕셔너리를 복습한다.    
 • 딕셔너리에 대하여 전체적으로 정리해 보자.     
 • key 'fish' 는 value 를 리스트로 가진다.    
 • key 'cash' 는 value 로 숫자를 가진다.    
 • key 'luck' 는 value 로 문자열을 가진다.        
-• 문자 `c`를 출력하기 위해선, key 가 'fish'이면서, value(값)인 리스트 인덱스 값이 0 인 것을 출력한다. 
+• 문자 'c' 를 출력하기 위해선, key 가 'fish'이면서, value(값)인 리스트 인덱스 값이 0 인 것을 출력한다. 
 {: .notice--info}
 
 
@@ -1447,11 +1453,11 @@ print my_dict["fish"][0]
 
 
 **설명:** [ Instruction ]          
-• 딕셔너리에 inventory 에 key 'pocket'를 추가하라.      
+• 딕셔너리에 inventory 에 key 'pocket' 를 추가하라.      
 • key 'pocket' 의 value 에는 리스트 ['seashell', 'strange berry', 'lint']를 저장하라.    
-• key 'backpack' 의 value 를 '.sort()' 를 사용하여 정렬하라.    
-• key 'backpack' 의 value 값인 리스트 중에서 'dagger'를 삭제하라.    
-• 메소드 '.remove('dagger')'를 사용하여 삭제하라.    
+• key 'backpack' 의 value 를 .sort() 를 사용하여 정렬하라.    
+• key 'backpack' 의 value 값인 리스트 중에서 'dagger' 를 삭제하라.    
+• 메소드 .remove('dagger') 를 사용하여 삭제하라.    
 • key 'gold' 에 value 값 500에 50 을 더하라.    
 • 마지막에 출력하여라.
 {: .notice--info}
@@ -1513,8 +1519,9 @@ print (inventory)
 
 **설명:** [ Solution ]    
 • 리스트 inventory['pocket'] 의 value 로 리스트 ['seashell', 'strange berry', 'lint'] 를 대입하였다.    
-• 리스트 inventory['backpack'] 의 value 인 리스트를 정렬하였다.    
-• 정렬은 메소드 .sort() 를 사용하였다. (e.g. inventory['backpack'].sort() )    
+• 리스트 inventory['backpack'] 의 value 인 리스트를 정렬 하였다.    
+• 정렬은 메소드 .sort() 를 사용하였다.    
+• e.g. inventory['backpack'].sort()         
 • 삭제는 inventory['backpack'] 의 value 인 리스트 'dagger'를 지정해서 삭제했다.   
 • e.g. inventory['backpack'].remove('dagger')    
 • 추가는 리스트의 key 값을 지정하여 value 를 변경할 수 있다.    
