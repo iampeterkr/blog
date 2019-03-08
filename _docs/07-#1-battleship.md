@@ -341,7 +341,7 @@ print board
 **설명:** [ Solution ]          
 • 빈 리스트 board 를 초기화 한다.    
 • 함수 range(5) 를 활용하여 아래 작업을 5번 반복한다.    
-• 메서드 '.append(['O'] * 5) 를 리스트 board 에 추가한다. 
+• 메서드 '.append(['O'] * 5) 를 리스트 board 에 추가한다.     
 • print 문을 활용하여 리스트 board 가 어떤 상태인지 확인한다. 
 {: .notice--info}
 

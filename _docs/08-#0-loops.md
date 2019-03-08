@@ -36,7 +36,7 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 
 
 **설명:** [ Learn ]     
-• Ch1. While you're here 에서는 while 문에 대하여 학습한다.
+• Ch1. While you're here 에서는 while 문에 대하여 학습한다.    
 • while 문은 if 문과 비슷하다.     
 • while 문의 조건절이 True 이면, while 문 내부 구간이 실행 되는 구조이다.    
 • if 문과 다른점은 while 문은 조건절 값이 True 이면, 계속 실행된다.    
@@ -738,7 +738,7 @@ Remember, **`raw_input`** turns user input into a **string**, so we use **`int()
 
 **설명:** [ Instruction ]          
 • 사용자가 계속 질문하는 while 문을 만들어라.    
-• 조건문은 변수 guesses_left > 0 큰 경우다.
+• 조건문은 변수 guesses_left > 0 큰 경우다.    
 • Learn 에서 설명한 질문하는 문을 만들어라.        
 • 질문한 값이 맞으면 "You win!" 이라고 출력하고, break 문으로 빠져나온다.        
 • 변수 guess_left 를 값 1 씩 줄여 나간다. (e.g. guess_left -=1 )    
@@ -1126,8 +1126,16 @@ The `,` character after our print statement means that our next print statement 
 • Ch12. For your A 에서는 문자열의 문자를 비교하는 방법을 학습한다.    
 • for 문은 문자열 조작을 하기에 편리하다.    
 • 예제에서 "Marble"가 M a r b l e 로 출력된다.    
-• 문자열이 새로운 줄에서 출력되는 것이 아니라, 같은 라인에서 출력되게는 다음과 같이 한다.    
-• e.g. 'print char , '  --> ( , ) comma 를 해준다.  
+• 문자열이 새로운 줄에서 출력되는 것이 아니라,     
+• 같은 라인에서 출력되게는 다음과 같이 한다.    
+• e.g. print char ,   --> ( , ) comma 를 해준다.  
+{: .notice--info}
+
+
+**설명:** [ Python3 ]          
+• Python2 에서는 줄을 바꾸지 않고 출력하려면 comma ( , )를 사용한다.    
+• Python3 에서는 다음과 같이 키워드 인자 end="" 사용해야 한다.    
+• e.g print("Hello", end="")    
 {: .notice--info}
 
 
@@ -1227,9 +1235,11 @@ On each iteration, the variable **`num`** will be the next value in the list. So
 
 
 
-**설명:** [ ]         
-리스트를 사용할때 for 문이 많이 유용하다.     
-for 문으로 리스트 `numbers`의 값들을 하나식 꺼집어 낼 수 있다. 변수 `num`에는 그 꺼집어낸 값들이 하나씩 들어 있다. 
+**설명:** [ Learn ]         
+• Ch13. For your lists 에서는 리스트의 활용을 학습한다.    
+• 리스트를 사용할때 for 문이 많이 유용하다.     
+• for 문으로 리스트 numbers 의 값들을 하나식 추출할 수 있다.    
+• 변수 num 에는 그 추출된 값들이 하나씩 들어 있다. 
 {: .notice--info}
 
 
@@ -1239,13 +1249,13 @@ for 문으로 리스트 `numbers`의 값들을 하나식 꺼집어 낼 수 있�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Write a **second for loop** that goes through the **numbers list** and **prints** each **element squared**, each on its own line.
+* Write a **second for loop** that goes through the **numbers list** and **prints** each **element squared**, each on its own line.
 
 
 
 
-**설명:** [ ]          
-① 두번째 for 문을 통하여, `numbers`의 값들을 꺼내어 그 값의 제곱근을 구하여 출력하라.  
+**설명:** [ Instruction ]          
+• 두번째 for 문을 통하여, numbers 의 값들을 꺼내어 그 값의 제곱근을 구하여 출력하라.  
 {: .notice--info}
 
 
@@ -1254,11 +1264,12 @@ for 문으로 리스트 `numbers`의 값들을 하나식 꺼집어 낼 수 있�
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Use the **`**`** operator for exponentiation. The rest of the loop should be very similar to the first one.
+* Use the **`**`** operator for exponentiation. The rest of the loop should be very similar to the first one.
 
 
-**설명:** [ ]          
-`**`를 사용하여 제곱근을 구하라. for문 사용법은 첫번째 for문과 비슷하다. 
+**설명:** [ Hint ]          
+• ( ** ) 를 사용하여 제곱근을 구하라.     
+• for문 사용법은 첫번째 for문과 비슷하다. 
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1277,8 +1288,9 @@ for num in numbers:
   print num ** 2
 ```
 
-**설명:** [ ]          
-변수 `numbers`에 있는 값을 변수`num`에 넣고, `num`을 제곱근을 구하여 출력한다. 
+**설명:** [ Solution ]          
+• 변수 numbers 에 있는 값을 변수 num 에 대입하라.    
+• 변수 num 의 제곱근을 구하여 출력한다. 
 {: .notice--info}
 
 
@@ -1323,12 +1335,14 @@ for key in d:
 
 
 
-**설명:** [ ]          
-딕셔너리의 경우 반복문을 어떻게 사용하는지를 알아보자. 먼저 간단하게 이야기하면, key 로 값을 얻어 낼수 있다.  
-① 먼저, key와 value로 구성된 딕셔너리를 만든다.      
-② 딕셔너리의 key를 반복적으로 꺼낸다.    
-③ 꺼낸 key의 value 값이 10인지를 비교한다.    
-④ value 값이 10이면 "This dictionary has the value 10!"    
+**설명:** [ Learn ]          
+• Ch14. Looping over a dictionary 에서는 딕셔너리 반복을 학습한다.    
+• 딕셔너리의 경우 반복문을 어떻게 사용하는지를 알아보자.     
+• 먼저 간단하게 이야기하면, key 로 값을 얻어 낼수 있다.  
+• 먼저, key와 value로 구성된 딕셔너리를 만든다.      
+• 딕셔너리의 key를 반복적으로 꺼낸다.    
+• 꺼낸 key의 value 값이 10인지를 비교한다.    
+• value 값이 10이면 "This dictionary has the value 10!"    
 x{: .notice--info}
 
 
@@ -1338,11 +1352,11 @@ x{: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** On line 5, print the **key**, followed by a space, followed by the value associated with that key.
+* On line 5, print the **key**, followed by a space, followed by the value associated with that key.
 
 
 **설명:** [ Instruction ]          
-① 5라인에서, key를 출력하고, 공백을 하나 뛰고 key의 value를 출력하시오.  
+• 5라인에서, key를 출력하고, 공백을 하나 뛰고 key의 value를 출력하라.  
 {: .notice--info}
 
 
@@ -1351,7 +1365,7 @@ x{: .notice--info}
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-An easy way to print in the requested format is to use the , character, like so:
+* An easy way to print in the requested format is to use the , character, like so:    
 ```python
 greeting = "Hello"
 name = "World"
@@ -1360,8 +1374,8 @@ print greeting, name
 # prints "Hello World"
 ```
 
-**설명:** [ ]          
-`,`를 사용하면, 같은 줄에 출력 할 수 있다.
+**설명:** [ Hint ]          
+• ( , ) 를 사용하면, 같은 줄에 출력 할 수 있다.
 {: .notice--info}
 
 
@@ -1380,8 +1394,8 @@ for key in d:
   print key, d[key]
 ```
 
-**설명:** [ ]          
-`key`는 'a'이고, 그 값은 `d[key]`로 나타 낼수 있다.  
+**설명:** [ Solution ]          
+• key 는 'a' 이고, 그 값은 d[key] 로 나타 낼수 있다.  
 {: .notice--info}
 
 
@@ -1409,8 +1423,11 @@ A weakness of using this for-each style of iteration is that **you don't know th
 
 
 
-**설명:** [ ]         
-for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값의 인덱스는 알려주지 않는다. 다만 그 값만 뽑아 내 준다. 이러한 약점은 `enumerate`내재 함수를 사용하면 해당 값의 인덱스 값을 알수 있다. 
+**설명:** [ Learn ]       
+• Ch15. Counting as you go 에서는 리스트의 인덱스 값을 관리하는 법을 학습한다.     
+• for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값의 인덱스는 알려주지 않는다.    
+• 다만 그 값만 뽑아 내 준다.    
+• 이러한 약점은 함수 enumerate 를 사용하면 해당 값의 인덱스 값을 알수 있다. 
 {: .notice--info}
 
 
@@ -1420,11 +1437,13 @@ for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값�
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** We don't want the user to see things listed from index 0, since this looks unnatural. Instead, the items should appear to start at index 1. Modify the print statement to reflect this behavior. See the Hint for help. 
+* We don't want the user to see things listed from index 0, since this looks unnatural. Instead, the items should appear to start at index 1. Modify the print statement to reflect this behavior. See the Hint for help. 
 
 
-**설명:** [ ]          
-① 리스트의 index를 출력하면 0부터 출력된다. 그런데, 우리는 흔히 4가지중 하나를 고를때 리스트 번호를 1번 부터 번호를 매기는게 더 자연스럽다. 비록 index값이 0부터 출력되지만, print 할때는 1부터 하는것 처럼 보이게 하라.  
+**설명:** [ Instruction ]          
+• 리스트의 index를 출력하면 0부터 출력된다.    
+• 그런데, 우리는 흔히 4가지중 하나를 고를때 리스트 번호를 1번 부터 번호를 매기는게 더 자연스럽다.    
+• 비록 index값이 0부터 출력되지만, print 할때는 1부터 하는것 처럼 보이게 하라.  
 {: .notice--info}
 
 
@@ -1433,11 +1452,11 @@ for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값�
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Instead of just printing index, print index + 1!
+* Instead of just printing index, print index + 1!
 
 
-**설명:** [ ]          
-출력할때, index 값에 +1을 하여라. 
+**설명:** [ Hint ]          
+• 출력할때, index 값에 +1 을 하여라. 
 {: .notice--info}
 
 <br>
@@ -1455,8 +1474,8 @@ for index, item in enumerate(choices):
   print index + 1, item
 ```
 
-**설명:** [ ]          
-index 값에 +1을 하여 1 부터 보이게 한다. 
+**설명:** [ Solution ]          
+• index 값에 +1 을 하여 1 부터 보이게 한다. 
 {: .notice--info}
 
 
@@ -1487,9 +1506,11 @@ It's also common to need to iterate over **two lists at once**. This is where th
 
 
 
-**설명:** [ ]          
-한번에 두개의 리스트를 반복적으로 사용해야 할 경우에, 우리는 `zip` 내장 함수를 이용할수 있다.     
-`zip`은 2개의 리스트를 쌍으로 만들어주고, 잛은 리스트의 기준에 맞춰진다. 
+**설명:** [ Learn ]          
+• Ch16. Multiple lists 에서는 리스트 끼리 곱하는것을 학습한다.    
+• 한번에 두개의 리스트를 반복적으로 사용해야 할 경우에,    
+• 우리는 함수 zip() 를 이용할수 있다.     
+• 함수 zip() 은 2개의 리스트를 쌍으로 만들어주고, 잛은 리스트의 기준에 맞춰진다. 
 {: .notice--info}
 
 
@@ -1499,11 +1520,11 @@ It's also common to need to iterate over **two lists at once**. This is where th
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Compare each pair of elements and print the larger of the two.
+* Compare each pair of elements and print the larger of the two.
 
 
-**설명:** [ ]          
-① 각 원소들의 쌍을 비교하고, 두개중 더 큰것을 출력하라.  
+**설명:** [ Instruction ]          
+• 각 원소들의 쌍을 비교하고, 두개중 더 큰것을 출력하라.  
 {: .notice--info}
 
 
@@ -1517,8 +1538,10 @@ It's also common to need to iterate over **two lists at once**. This is where th
 You have two options: Use an **`if/else`** statement to compare the two and print whichever is larger. Alternatively, you can use the **`max`** function that you learned in unit 4.
 
 
-**설명:** [ ]          
-list_a를 변수 a로 받고, list_b를 변수 b로 값을 받는다. 그리고 각각의 변수를 `if/else`를 사용하여 어느것이 더 큰지를 비교한다. (또는 내장함수 `max()`를 활용해도 된다.)
+**설명:** [ Hint ]          
+• list_a를 변수 a로 받고, list_b를 변수 b로 값을 받는다.    
+• 그리고 각각의 변수를 if/else 를 사용하여 어느것이 더 큰지를 비교한다.     
+• 또는 내장함수 max() 를 활용해도 된다.
 {: .notice--info}
 
 <br>
@@ -1537,8 +1560,8 @@ for a, b in zip(list_a, list_b):
     print max(a, b)
 ```
 
-**설명:** [ ]          
-각각의 리스트를 변수 a, b로 받아서, `max(a,b)`를 비교하여 큰값을 출력한다.
+**설명:** [ Solution ]          
+• 각각의 리스트를 변수 a, b로 받아서, 함수 max(a,b) 를 비교하여 큰값을 출력한다.
 {: .notice--info}
 
 
