@@ -195,8 +195,8 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 
 
 **설명:** [ Learn ]          
-• Ch3. Appending to a list 에서는 메서드 '.append()'를 사용하는 법을 학습한다.    
-• 리스트에  '.append()' 를 이용하면, 리스트 제일 마지막에 값을 추가할 수 있다.
+• Ch3. Appending to a list 에서는 메서드 .append()를 사용하는 법을 학습한다.    
+• 리스트에  .append() 를 이용하면, 리스트 제일 마지막에 값을 추가할 수 있다.
 {: .notice--info}
 
 
@@ -228,7 +228,7 @@ x.append(item)
 
 
 **설명:** [ Hint ]          
-• 리스트 x 에 '.append(item)' 를 활용한다.
+• 리스트 x 에 .append(item) 를 활용한다.
 {: .notice--info}
 
 <br>
@@ -246,7 +246,7 @@ print n
 ```
 
 **설명:** [ Solution ]          
-• e.g. 'n.append(4)' 는 리스트의 맨 끝에 값 4를 추가한다.
+• e.g. n.append(4) 는 리스트의 맨 끝에 값 4를 추가한다.
 {: .notice--info}
 
 
@@ -318,7 +318,7 @@ print n
 
 
 **설명:** [ Instruction ]          
-• 리스트 n 를 '.pop()', '.remove()', 'del() 중 하나를 사용하여 첫번째 값을 지워라.
+• 리스트 n 를 .pop(), .remove(), .del() 중 하나를 사용하여 첫번째 값을 지워라.
 {: .notice--info}
 
 
@@ -803,7 +803,7 @@ When we pass a list to a function and modify that list, like in the double_first
 
 
 **설명:** [ Learn ]          
-• 10. Modifying an element of a list in a function 에서는 함수를 이용하여 리스트의 특정 값을 변경하는것을 학습한다.
+• Ch10. Modifying an element of a list in a function 에서는 함수를 이용하여 리스트의 특정 값을 변경하는것을 학습한다.
 {: .notice--info}
 
 
@@ -899,7 +899,7 @@ The example above is just a reminder of how to append items to a list.
  
 
 **설명:** [ Learn ]    
-• 11. List manipulation in functions 에서는 함수를 통하여 리스트를 추가, 삭제를 학습한다.
+• Ch11. List manipulation in functions 에서는 함수를 통하여 리스트를 추가, 삭제를 학습한다.
 {: .notice--info}
 
 
@@ -932,7 +932,7 @@ The example above is just a reminder of how to append items to a list.
 
 
 **설명:** [ Hint ]          
-• 앞자에서 배운 메서드 '.append()' 를 사용한다.
+• 앞자에서 배운 메서드 .append() 를 사용한다.
 {: .notice--info}
 
 <br>
@@ -957,7 +957,7 @@ print list_extender(n)
 • 함수 list_extender(n) 을 호출한다.    
 • 입력값은 리스트 n = [3, 5, 7] 이다.    
 • 정의된 함수 list_extender(lst) 는 다음과 같이 동작한다.    
-• 입력받은 lst 에 메서드 'lst.append(9)' 사용하여 값 9를 리스트에 추가한다.    
+• 입력받은 lst 에 메서드 lst.append(9) 사용하여 값 9를 리스트에 추가한다.    
 • 최종 리스트 lst 를 반환(return)한다.    
 • 호출한 함수 lst_extender(n)의 반환된 결과값을 출력한다.
 {: .notice--info}
@@ -1139,7 +1139,7 @@ print double_list(n)
 • 추출한 값을 변수 i 에 저장한다.    
 • 리스트 x 의 i 번째 항목값에 값 2를 곱한다. (e.g. x[i] * 2)    
 • 값 2를 곱한 결과를, 다시 리스트 x[i] 에 저장한다.    
-• 리스트 x 를 반환한다.
+• 리스트 x 를 반환한다.    
 • 함수 double_list(n)을 호출하고 받은 결과값을 출력한다.
 {: .notice--info}
 
@@ -1199,6 +1199,18 @@ In all cases, the **`range()`** function **returns a list** of numbers from **st
 • 설명 : e.g. range(1,6,3) 는 index 1번 부터 6번 까지 리스트 생성.(6은 미포함)    
 • 결과 : [1,4]  (단, 3칸씩 간격을 두고 생성)   
 • ---------------------      
+{: .notice--info}
+
+
+**설명:** [ Python3 ]          
+• python2와 python3 에서 range() 의 차이는 리시트를 생성할때 차이가 있다.    
+• 단순히 range(5)는 python2 와 python3는 차이가 없다.    
+• 다만, python2에서 변수 var_python2 = range(5) 를 넣으면,    
+• 리스트 [0,1,2,3,4] 가 변수에 대입된다.       
+• python3 에서 변수 var_python3 = range(5) 를 넣으면,     
+• 리스트 [0,1,2,3,4] 가 아닌, range(0.5) 가 대입된다.    
+• python3 에서 변수에 대입 할때는 다음과 같이 대입해야 한다.    
+• e.g. var_python3 = list(range(5))
 {: .notice--info}
 
 
@@ -1295,7 +1307,7 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 • Ch15. Iterating over a list in a function 에서는 리스트 자동생성법을 학습한다.     
 • 리스트를 자동으로 생성해주는 방법에는 2가지가 있다.    
 • 1st Method : for 문을 활용. (리스트 생성: O,  변경: X)   
-• 2nd Method : indexes 활용. (리스트 생성: O,  변경: O)
+• 2nd Method : indexes 활용. (리스트 생성: O,  변경: O)    
 • 본인이 편한것을 선택하여 학습한다.
 {: .notice--info}
 
@@ -1508,19 +1520,20 @@ MichaelLieberman
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
 ### 17. Using two lists as two arguments in a function    
 
-Using **multiple lists** in a function is no different from just using multiple arguments in a function!
-
+Using **multiple lists** in a function is no different from just using multiple arguments in a function!    
+```python
 a = [1, 2, 3]
 b = [4, 5, 6]
 print a + b
 # prints [1, 2, 3, 4, 5, 6]     
-
+```
 The example above is just a reminder of how to concatenate two lists.
 
 
 
 **설명:** [ Learn ]          
-• Ch17. Using two lists as two arguments in a function 에서는 2개의 리스트를 사용하는 방법을 학습한다. 2개의 리스트를 합치는 방법은 이미 앞에서 배웠다.
+• Ch17. Using two lists as two arguments in a function 에서는 2개의 리스트를 사용하는 방법을 학습한다.     
+• 2개의 리스트를 합치는 방법은 이미 앞에서 배웠다.
 {: .notice--info}
 
 
@@ -1658,7 +1671,7 @@ We end up printing out:
 • 이 함수는 다음과 같은 기능을 한다.    
 • 빈 리스트 results 만들고 초기화 하시오.    
 • 입력 받은 리스트를 iterate 하면서 리스트의 각 값을 뽑아내라.    
-• 메서드 '.append()' 를 사용하여 결과 값을 리스트 results 에 추가하라.    
+• 메서드 .append() 를 사용하여 결과 값을 리스트 results 에 추가하라.    
 • 마지막으로, 결과값 results 를 반환(return)하라.   
 {: .notice--info}
 
@@ -1724,7 +1737,7 @@ print flatten(n)
 • 리스트 변수 results 를 초기화 환다. (e.g. results = [] )    
 • for 문에서 lists 의 항목값을 변수 numbers에 하나씩 추출하여 저장한다.    
 • 이중 for 문에서 numbers 의 항목값을 변수 number에 하나씩 추출하여 저장한다.    
-• 빈 리스트 results 에 메서드 '.append(number)'를 사용하여 추가한다.    
+• 빈 리스트 results 에 메서드 .append(number) 를 사용하여 추가한다.    
 • for 문이 모두 끝나면 리스트 results 를 반환(return)한다.    
 • 함수 flatten(n) 을 호출후 반환된 결과값을 출력한다.    
 • 만약) 방법2 range()를 사용할 경우 인덱스 주소와 값을 혼동하지 말지. 
