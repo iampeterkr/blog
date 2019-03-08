@@ -1341,7 +1341,7 @@ x{: .notice--info}
 **①** On line 5, print the **key**, followed by a space, followed by the value associated with that key.
 
 
-**설명:** [ ]          
+**설명:** [ Instruction ]          
 ① 5라인에서, key를 출력하고, 공백을 하나 뛰고 key의 value를 출력하시오.  
 {: .notice--info}
 

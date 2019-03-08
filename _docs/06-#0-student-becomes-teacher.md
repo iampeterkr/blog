@@ -67,7 +67,7 @@ The example above is just to remind you how to create a dictionary and then to a
 
 
 **설명:** [ Instruction ]         
-• 딕셔너리 `lloyd`, `alice`, `tyler`를 생성하라.    
+• 딕셔너리 lloyd, alice, tyler를 생성하라.    
 • 각 딕셔너리의 key 로 "name", "homework", "quizzes", "tests"를 갖는다.    
 • key "name" 에는 학생들의 이름이 values로 매칭된다.    
 • ( e.g. lloyd = {"name":"Lloyd"} )    
@@ -87,7 +87,8 @@ The example above is just to remind you how to create a dictionary and then to a
 
 **설명:** [ Hint ]          
 • 주의) "homework", "quizzes", "tests"는 빈 리스트 이다.     
-• key 값은 name 이 아니고, 문자열 "name" 으로 만들어야 한다.(그냥 name 은 변수이다.)  
+• key 값은 name 이 아니고, 문자열 "name" 으로 만들어야 한다.    
+• 그냥 name 은 변수이다.
 {: .notice--info}
 
 <br>
@@ -169,7 +170,7 @@ Great work!
 
 
 **설명:** [ Instruction ]          
-• 딕셔너리 `lloyd` 의 key "homework", "quizzes", "test" 아래 값을 넣어라.    
+• 딕셔너리 lloyd 의 key "homework", "quizzes", "test" 아래 값을 넣어라.    
 • 입력값을 넣을때, float 값으로 넣어라.
 {: .notice--info}
 
@@ -476,10 +477,10 @@ To divide two **integers** and end up with a **float**, you must first use `floa
 
 **설명:** [ Learn ]          
 • Ch5. It's Okay to be Average 에서는 float, integer 계산법을 학습한다.    
-• python에서 정수를 정수로 나누면 정수가 반환된다.
-• 실수를 정수로 나누면 실수가 반환된다.
-• 실수를 실수로 나누면 실수가 반환된다.
-• 정수를 실수로 변환해주는 함수 float() 를 사용하여 정수로 나누면 실수가 반환된다.
+• python에서 정수를 정수로 나누면 정수가 반환된다.    
+• 실수를 정수로 나누면 실수가 반환된다.    
+• 실수를 실수로 나누면 실수가 반환된다.    
+• 정수를 실수로 변환해주는 함수 float() 를 사용하여 정수로 나누면 실수가 반환된다.    
 • 둘중 하나가 실수이면 반환값도 실수이다. 
 {: .notice--info}
 
@@ -500,7 +501,7 @@ To divide two **integers** and end up with a **float**, you must first use `floa
 
 
 **설명:** [ Instruction ]          
-• 리스트 studetns 의 값들을 가져와서, 평균값을 만들어 주고 반환하는 함수를 만들어라.    
+• 리스트 studetns 의 값들을 가져와서, 평균값을 만들어 주고 반환하는 함수를 만들어라.     
 • 평균값을 계산해주는 함수 average(numbers) 를 만들어라.    
 • 함수 average() 함수 sum() 을 사용하여 변수 total 에 결과 값을 저장하라.    
 • 함수 float() 를 사용하여 예제(e.g. float(total) )와 같이 변경 후 저장하라.    
@@ -521,7 +522,7 @@ To divide two **integers** and end up with a **float**, you must first use `floa
 **설명:** [ Hint ]          
 • Parameter 로 list 를 사용하지 못한다.    
 • list 는 Python 에서 이미 특수 함수로 지정되어 있기 때문이다.    
-• 변수 l 도 되도록 사용하지 말자. 숫자 1 과 혼동되기 때문이다. 
+• 변수 l 도 되도록 사용하지 말자. 숫자 1 과 혼동되기 때문이다.
 {: .notice--info}
 
 <br>
@@ -564,7 +565,7 @@ def average(numbers):
 • 입력값 numbers 를 함수 sum(number)으로 합을 구하였다.   
 • 변수 total 변수에 sum(number) 값을 저장한다.    
 • 변수 total 을 함수 float(total)을 사용하여 실수로 변환한다.    
-• 실수로 변환한 값을 다시 변수 total 에 저장한다. 
+• 실수로 변환한 값을 다시 변수 total 에 저장한다.     
 • 변수 numbers 의 갯수를 len(numbers) 로 구한다.    
 • 평균값을 구하기 위하여 최종 total 값에 변수 numbers 갯수를 나눈다.    
 • 그 결과값을 반환(return)한다.
@@ -1111,7 +1112,7 @@ print(get_letter_grade(avg))
 • 함수 get_class_average(students) 에 학생들 이름 리스트가 입력된다.    
 • 함수 get_class_average()는 학생 전체의 평균값을 계산한다.    
 • 변수 avg 에 학생들 전체 평균값을 저장한다.     
-• 변수 avg 를 출력한다.(학생 평균값 출력)
+• 변수 avg 를 출력한다.(학생 평균값 출력).     
 • 함수 get_letter_grade(avg) 에 학생들 전체 평균값을 입력한다.    
 • 학생 평균값의 등급을 계산한다.    
 • 학생 평균값의 등급을 출력된다.

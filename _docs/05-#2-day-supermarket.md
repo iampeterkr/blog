@@ -138,7 +138,7 @@ Note that dictionaries are **unordered**, meaning that any time you loop through
 
 
 **설명:** [ Learn ]     
-• Ch2. This is KEY! 에서는 for문에서 딕셔너리를 활용하는 방법을 연습해 보자.    
+• Ch2. This is KEY! 에서는 for문에서 딕셔너리를 활용하는 방법을 연습한다.       
 • for 문으로 딕셔너리의 항목(값)을 뽑아 낼수 있다.     
 • 주의할 점은, 딕셔너리는 순서가 없습니다.     
 • 즉, 딕셔너리를 반복 하여 추출할 때마다 모든 키를 추출한다.    
@@ -244,7 +244,7 @@ Make sure to keep track of your indentation or you may get confused!
 
 
 **설명:** [ Learn ]     
-• Ch3. Control Flow and Looping 에서는 for 문 안에서 비교문 if 문을 사용하는 것을 배워보자.    
+• Ch3. Control Flow and Looping 에서는 for문 안에서 if 문을 사용하는 것을 학습한다.    
 • for 문의 코드블럭 영역에는 크다/작다 와 같은 비교문 if 문을 작성할 수 있다.    
 • 위 예제에서 for 문으로 리스트의 항목(값)을 추출 한다.    
 • 그리고 for 문 영역 안에서 if 문으로 6보다 큰 경우만 출력하도록 한다.
@@ -358,15 +358,15 @@ print small
 
 
 **설명:** [ Learn ]    
-• Ch4. Lists + Functions 에서는 리스트를 함수를 호출하여 처리하는것을 배워보자.    
+• Ch4. Lists + Functions 에서는 리스트를 함수를 호출하여 처리하는것을 학습한다.    
 • 함수도 리스트를 입력 값으로 사용할 수 있다.    
 • 리스트 lotto 항목 중에서 10보다 작은값의 갯수를 반환한다.    
 • 소스는 다음과 같이 동작한다.     
 • 함수 count_samll(numbers)을 정의한다. parameter로 numbers를 가진다.    
-• 10 보다 작은 값을 저장하고 반환할 변수 total 을 선언호 초기화 한다.    
+• 10 보다 작은 값을 저장하고 반환할 변수 total 을 선언후 초기화 한다.    
 • parameter 리스트 numbers 의 항목값 n 이 10보다 작은지 비교한다.    
 • 변수 n 값이 10보다 작으면 변수 total 에 저장한다.    
-• for 문이 종료되면 결과값 total 을 반환한다.
+• for 문이 종료되면 결과값 total 을 반환한다.    
 • 리스트 lotto 의 값을 함수 count_samll(lotto)를 호출한다.    
 • 함수 count_small(lotto)의 결과값을 변수 small 에 저장한다.    
 • 변수 small 을 출력한다.
@@ -393,13 +393,13 @@ print small
 
 
 **설명:** [ Instruction ]     
-• 리스트의 값 중 문자열 "fizz" 의 갯수를 알려주는 함수를 만들어라.    
+• 리스트의 값 중 문자열 "fizz" 의 갯수를 알려주는 함수를 작성하라.    
 • 함수명은 fizz_count(x) 이다. parameter 는 x 값을 가진다.    
 • 변수 count 를 초기화 하고, 이 변수는 fizz의 갯수를 세어 저장하는 변수이다.    
 • for 문을 사용하여, 입력받은 리스트 x 의 값을 추출하여, 변수 item 에 저장한다.    
 • if 문으로 변수 item 이 문자열 "fizz" 인지를 비교한다.    
 • 만일, "fixx"이면, 변수 count 를 1 증가시킨다.     
-• for 문이 종료되고, 최종 증가된 변수 count 를 반환(return) 한다.   
+• for 문이 종료되고, 최종 증가된 변수 count 를 반환(return) 한다.
 {: .notice--info}
 
 
@@ -472,7 +472,7 @@ As we've mentioned, strings are like lists with characters as elements. You can 
 
 
 **설명:** [ Learn ]        
-• 5. String Looping 에서는 문자열을 관리하는 법을 배워보자.    
+• Ch5. String Looping 에서는 문자열을 관리하는 법을 학습한다.    
 • 문자열은 문자들의 리스트 이다. 그렇기에 for 문을 통하여 문자 하나씩 추출 할수 있다. 
 {: .notice--info}
 
@@ -603,7 +603,7 @@ Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from 
 
 
 **설명:** [ Instruction ]     
-• 딕셔너리 prices 를 {} 를 사용하여 만들어라.     
+• 딕셔너리 prices 를 {} 를 사용하여 작성하라.     
 • 딕셔너리 prices = { } 에 key/value 값들을 넣어라.
 {: .notice--info}
 
@@ -656,7 +656,7 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 
 
 **설명:** [ Learn ]          
-• Ch7. Investing in Stock 에서는 딕셔너리 변경하는 법을 배워보자.    
+• Ch7. Investing in Stock 에서는 딕셔너리 변경하는 법을 학습한다.    
 • 딕셔너리를 이용하여 재고(stock/inventory)를 정리하는 프로그램을 연습해 보자.
 {: .notice--info}
 
@@ -677,7 +677,7 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 ```
 
 **설명:** [ Instruction ]          
-• 딕셔너리 stock 을 만들어라.     
+• 딕셔너리 stock 을 작성하라.     
 • 딕셔너리 stock 의 항목값은 아래 내용을 넣어라. 
 {: .notice--info}
 
@@ -748,7 +748,8 @@ Because we know that they have the same keys, we can loop through one dictionary
 • Ch8. Keeping Track of the Produce 에서는 딕셔너리의 key/value를 추출해보자.    
 • Key 이름은 딕셔너리 별로 관리된다.    
 • 2개의 딕셔너리에서 key 이름이 같아도, 딕셔너리 이름이 다르면 다른 key 로 인식한다.    
-• e.g. 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.  
+• 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.     
+• e.g. once[key], twice[kye] , key 이름은 같지만, value 값은 다르다.
 {: .notice--info}
 
 
@@ -779,15 +780,16 @@ stock: 0
 
 **설명:** [ Instruction ]          
 • 다음과 같이 출력 되도록 코드를 수정하라.     
+{: .notice--info}
 
 ```
 apple
 price: 2 
 stock: 0
 ```    
-
 • 참고, 위와같이 출력할려면, 딕셔너리 price, stock의 각 key 값이 apple 이어야 한다.
 {: .notice--info}
+
 
 
 <br>
@@ -798,7 +800,7 @@ stock: 0
 * Reference above example !!
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • 상단의 Learn 예제를 참조하라. 
 {: .notice--info}
 
@@ -860,7 +862,7 @@ For paperwork and accounting purposes, let's record the total value of your inve
 
 
 **설명:** [ Learn ]          
-• Ch9. Something of Value 에서는 서로 다른 딕셔너리의 항목값을 계산하는것을 배워보자.    
+• Ch9. Something of Value 에서는 서로 다른 딕셔너리의 항목값 계산법을 학습한다.    
 • 이 장에서는 모든 물품의 제고와 가격을 정리하는 프로그램을 이해한다.  
 {: .notice--info}
 
@@ -884,7 +886,7 @@ For paperwork and accounting purposes, let's record the total value of your inve
 • 가지고 있는 모든 물건을 판매했을 경우 전체 금액이 얼마인지를 계산해 보자.    
 • 변수 total 을 만들고, 0 으로 초기화 한다.    
 • 딕셔너리 prices 를 for 문으로 순환하며 계산한다.       
-• prices 와 stock 의 각 key 별 value 를 곱하여 항목별 전체 금액을 계산한다. 
+• prices 와 stock 의 각 key 별 value 를 곱하여 항목별 전체 금액을 계산한다.     
 • for 문이 끝나면 최종 total 값을 출력한다.   
 {: .notice--info}
 
@@ -961,7 +963,7 @@ In order for customers to order online, we are going to have to make a consumer 
 
 
 **설명:** [ Learn ]          
-• Ch10. Shopping at the Market 에서는 리스트 활용을 배워보자.    
+• Ch10. Shopping at the Market 에서는 리스트 활용을 학습한다.    
 • 구매자의 사용 프로그램을 만들어 보면서, 리스트의 활용법을 숙지하자.    
 • 차근차근히 진행할 예정이니, 걱정하지 마라. 천천히 따라하면 된다.  
 {: .notice--info}
@@ -977,7 +979,7 @@ In order for customers to order online, we are going to have to make a consumer 
 
 
 **설명:** [ Instruction ]     
-• 리스트 groceries 를 만들어라.    
+• 리스트 groceries 를 작성하라.    
 • groceries 는 다음 값( "banana", "orange", apple" )을 가진다.
 {: .notice--info}
 
@@ -991,7 +993,7 @@ In order for customers to order online, we are going to have to make a consumer 
 
 
 **설명:** [ Hint ]          
-• 이 장은 리스트를 학습한다. 리스트 표현은 ( '[]' ) 을 사용한다. 
+• 이 장은 리스트를 학습한다. 리스트 표현은 ( [] ) 을 사용한다. 
 {: .notice--info}
 
 <br>
@@ -1048,7 +1050,7 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 
 
 **설명:** [ Learn ]     
-• Ch11. Making a Purchase  에서는 함수에서 리스트의 활용법을 배워보자.    
+• Ch11. Making a Purchase  에서는 함수에서 리스트의 활용법을 학습한다.    
 • 함수 sum(numbers) 은 리스트 numbers를 입력받는다.     
 • 함수 sum(numbers) 은 리스트의 각 값을 더하여 최종 반환한다.    
 • 함수 sum(n) 은 리스트 'n=[1,2,5,10,13]'을 arguments로 입력하여 호출한다.    
@@ -1076,13 +1078,14 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 
 
 **설명:** [ Instruction ]    
-• 함수 compute_bill(food) 을 작성하여라.    
+• 함수 compute_bill(food) 을 작성하라.    
 • 이 함수는 argument 로 food 를 입력 받는다.    
 • 다음과 같이 구현하라.    
 • 변수 total 을 만들고 0 으로 초기화 하라.     
 • 입력 받은 리스트 food 의 항목을 하나씩 추출하여 변수 total 에 저장하라.    
 • 최종 변수 total 값을 반환(return)하라.     
-• 청구 대상 품목의 재고가 있는지 여부를 신경쓰지 마라. (즉, 리스트에 있는것은 재고 목록에 있다는 전제하에 작성하라.)
+• 청구 대상 품목의 재고가 있는지 여부를 신경쓰지 마라.    
+• (즉, 리스트에 있는것은 재고 목록에 있다는 전제하에 작성하라.)
 {: .notice--info}
 
 
@@ -1162,7 +1165,7 @@ Ultimately, if an item isn't in stock, then it shouldn't be included in the tota
 
 
 **설명:** [ Learn ]    
-• Ch12. Stocking Out 에서는 딕셔너리의 value를 조작하는 법을 배워보자.     
+• Ch12. Stocking Out 에서는 딕셔너리의 value를 조작하는 법을 학습한다.     
 • 함수 compute_bill() 함수를 통하여 쇼핑하는 프로그램을 만들었다.    
 • 이 장에서는 재고가 없는 상품은 구매 할 수 없는 기능을 추가하자.    
 • 재고가 없는 상품은 가격을 계산하면 안된다.
