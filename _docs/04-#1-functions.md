@@ -1787,5 +1787,3 @@ def distance_from_zero(num):
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>

@@ -47,7 +47,7 @@ In the example above:
 
 
 **설명:** [ Learn ]    
-• Ch1. Before We Begin 는 내장함수(built-in) max()에 대해 학습한다.    
+• Ch1. Before We Begin 는 내장함수(built-in) max() 를 학습한다.    
 • 함수 bigger()  는 arguments 값으로 first 와 second 를 가진다.    
 • 그리고 built-in 함수인 max() 사용하여 first 와 second  두 값을 비교한다.    
 • 함수 max() 는 두 값을 비교하여 큰 값을 출력한다.    
@@ -70,7 +70,7 @@ In the example above:
 **설명:** [ Instruction ]     
 • 함수 answer() 를 만들어라.    
 • 함수 answer() 는 값 42 를 반환한다.    
-• 주의 사항은 함수끝에 '()' ':' 를 잊지말자.
+• 주의 사항은 함수끝에 `():` 를 잊지말자.
 {: .notice--info}
 
 
@@ -101,7 +101,7 @@ def answer():
 ```
 
 **설명:** [ Solution ]    
-• '()', ':' 를 주의한다.  
+•  `():` 를 주의한다.  
 {: .notice--info}
 
 
@@ -133,7 +133,7 @@ Let's use functions to calculate your trip's costs.
 
 
 **설명:** [ Learn ]    
-• Ch2. Planning Your Trip 에서는 함수 wages() 를 만들어 보자.    
+• Ch2. Planning Your Trip 에서는 함수 wages() 를 학습한다.    
 • 여행중 예상되는 비용을 계산해주는 프로그램을 짠다고 가정해 보자.     
 • 여행 비용을 계산해주는 함수 wages() 를 위와 같이 만들수 있다.    
 {: .notice--info}
@@ -222,7 +222,7 @@ def fruit_color(fruit):
 
 
 **설명:** [ Learn ]    
-• Ch3. Getting There 에서는 함수내에 if/elif/else 조건절을 만들어 보자.    
+• Ch3. Getting There 에서는 함수내에 if/elif/else 조건절 사용을 학습한다.        
 • 함수 fruit_color(fruit) 는 문자열 타입의 arguments 값인 fruit 를 입력받는다.    
 • 입력받은 fruit 와 일치하는 문자열을 찾아서, 색깔 문자열을 반환한다.
 {: .notice--info}
@@ -337,7 +337,7 @@ Remember that an `elif` statement is only checked if all preceding `if/elif` sta
 • ① 입력된 source 점수가  10 이상 이면 보너스로 티켓을 50장 더 지급한다.    
 • ② 입력된 source 점수가   7 이상 & 10 미만이면, 보너스로 티켓을 20장 더 지급한다.    
 • ③ 최종적으로 전체 티켓 수를 반환한다.     
-• elif 문은 if 문이 실패하면 다음을 확인 한다.   
+• elif 문은 if 문이 실패하면 elif 문을 실행된다.   
 {: .notice--info}
 
 
@@ -364,8 +364,9 @@ Return that cost.
 
 
 **설명:** [ Instruction ]    
-• 함수 rental_car_cost(days) 를 만들어라. 이 함수는 차 렌트 비용을 계산해준다.   
-• 1일 렌트 비용은 $40 이다. 
+• 함수 rental_car_cost(days) 를 만들어라.    
+• 이 함수는 차 렌트 비용을 계산해준다.   
+• 1일 렌트 비용은 $40 이다.     
 • 7일 이상 렌트시 총 비용에서 $50 를 할인해 준다.    
 • 3일 이상 7일 미만 렌트시 총 비용에서 $20 를 할인해 준다.    
 • 2 가지 혜택중 하나만 선택할 수 있다.     
@@ -382,8 +383,8 @@ Return that cost.
 * Remember to use an `elif` so you don't subtract both of the discounts! (You'll want to do your check for >= 7 days first.)    
 
 **설명:** [ Hint ]    
-• 7 일 이상을 먼저  if 문에 넣어야 한다.      
-• if 문에  3 일 이상을 먼저 비교하면 어떤 문제점이 있는지도 생각해 보자. 
+• 7 일 이상 확인하는것을 먼저 if 문에 넣어야 한다.      
+• if 문에 3 일 이상을 먼저 비교하면, 어떤 문제점이 있는지도 생각해 보자. 
 {: .notice--info}
 
 <br>
@@ -417,11 +418,11 @@ def rental_car_cost(days):
 ```
 
 **설명:** [ Solution ]     
-• 만약 'if cost >=3' 을 먼저 비교문을 만들게 되면,     
-• cost 가 8 이 들어온다고 가정하면,     
-• `if cost >=3' 도 만족하고, 'elif cost >=7' 도 만족하게 된다.    
-• 이렇게 되면 2번 할인이 일어 나기에 조심해야 한다.
-• 그렇기에, 'if cost >=7' 을 먼저 비교하고, 'elif cost >=3'을 비교한다.
+• 만약 if cost >=3 을 먼저 비교문을 만들게 되면 다음 상황이 발생하게 된다.         
+• 변수 cost 에 8 이 들어온다고 가정하면,     
+• if cost >=3  도 만족하고,  elif cost >=7 도 만족하게 된다.    
+• 이렇게 되면 2번 할인이 일어 나기에 조심해야 한다.    
+• 그렇기에, if cost >=7  을 먼저 비교하고, elif cost >=3 을 비교한다.
 {: .notice--info}
 
 
@@ -458,7 +459,7 @@ We define two simple functions, `double(n)` and `triple(p)` that return 2 times 
 We define a third function, `add(a, b)` that returns the sum of the previous two functions when called with `a` and `b`, respectively. Notice that even though the names of the parameters for `add(a, b)` are different than the names of the parameters for `double(n)` and `triple(p)` we can still pass them into those functions as arguments
 
 **설명:** [ Learn ]    
-• Ch5. Pull it Together 에서는 함수에서 함수를 호출하는것을 배워보자.
+• Ch5. Pull it Together 에서는 함수에서 함수를 호출하는것을 학습한다.    
 • 함수는 arguments 를 1개 이상을 받을 수 있다.    
 • 함수는 반환(return) 할때, 변수를 계산할 수 있다.    
 • 함수는 반환(return) 할때, 함수를 호출할 수 있다. 
@@ -533,7 +534,7 @@ def trip_cost(city, days):
 ```
 
 **설명:** [ Solution ]    
-• 함수 trip_cost(city, days) 는 return 문에서 바로 함수 를 호출한다.    
+• 함수 trip_cost(city, days) 는 return 문에서 바로 함수를 호출한다.    
 • 호출한 함수의 결과를 합하여 반환한다.
 {: .notice--info}
 
@@ -556,9 +557,9 @@ You can't expect to only spend money on the plane ride, hotel, and rental car wh
 
 
 **설명:** [ Learn ]   
-• Ch6. Hey, You Never Know! 에서는 기존 함수에 parameter를 추가해보자.    
+• Ch6. Hey, You Never Know! 에서는 기존 함수에 parameter를 추가를 학습한다.        
 • 프로그램을 더 추가해 보자.    
-• 음식값, 기년품 값등 추가로 사용한 비용을 계산해 주는 기능도 추가해 볼수 있다.    
+• 음식값, 기년품 값등 추가로 사용한 비용을 계산해 주는 기능도 추가해 볼 수 있다.    
 {: .notice--info}
 
 
@@ -588,7 +589,7 @@ You can't expect to only spend money on the plane ride, hotel, and rental car wh
 
 
 **설명:** [ Hint ]    
-• return 문에서 합을 구할때, spending_money 를 추가하라.  
+• return 문에서 합을 구할때, spending_money 를 추가하라.
 {: .notice--info}
 
 <br>
@@ -625,8 +626,8 @@ def trip_cost(city, days, spending_money):
 ```
 
 **설명:** [ Solution ]    
-• 기존 함수 trip_cost() 에 parameter 변수 spending_money를 추가하였다.    
-• (e.g. def trip_cost(city, days, spending_money) )    
+• 기존 함수 trip_cost() 에 parameter 변수 spending_money 를 추가하였다.    
+• e.g. def trip_cost(city, days, spending_money)      
 • 함수 trip_cost() 의 반환(return)문에 변수 spending_money 값을 추가하였다.
 {: .notice--info}
 
@@ -654,8 +655,9 @@ What if we went to Los Angeles for 5 days and brought an extra 600 dollars of sp
 
 **설명:** [ Learn ]    
 • Ch7. Plan Your Trip! 에서는 지금껏 만든 함수를 trip_cost() 호출후 출력해보자.    
-• 함수를 호출할때, arguments는 다음 내용을 생각해 보자.     
-• 로스엔젤레스 에서 5일 머무르고, 추가 비용으로 600 달러를 사용하면 여행비용은 얼마일까?
+• 함수를 호출할때, arguments 는 다음 내용을 생각해 보자.     
+• 로스엔젤레스 에서 5일 머무르고,    
+• 추가 비용으로 600 달러를 사용하면 여행비용은 얼마일까?
 {: .notice--info}
 
 
@@ -670,13 +672,13 @@ What if we went to Los Angeles for 5 days and brought an extra 600 dollars of sp
 * Don't forget the closing ) after passing in the 3 previous values!
 
 
-**설명:** [ Instruction ]   
+**설명:** [ Instruction ]    
 • 함수 trip_cost() 를 호출하라.    
 • 입력시, arguments 값은 다음과 같다.    
 • city : "Los Angeles"    
-• days : 5 일
-• spending_money : $ 600
-• 함수 trip_cost()에 위 값을 입력하여 호출하라. 
+• days : 5 일    
+• spending_money : $ 600    
+• 함수 trip_cost()에 위 값을 입력하여 호출하라.
 {: .notice--info}
 
 
@@ -697,9 +699,9 @@ print trip_cost("SOME CITY", NUM_DAYS, SPENDING_MONEY)
 
 **설명:** [ Hint ]    
 • 함수 trip_cost(city, days, spending_money) 와 같이 입력값을 가진다.     
-• 함수 arguments 값에 직접 값을 넣어서 함수를 호출하라.
-• 함수를 호출하고, 그 결과값을 보기 위해선, print 문을 사용해야 한다. 
-• e.g. print trip_cost("LA", 7, 1000) 
+• 함수 arguments 값에 직접 값을 넣어서 함수를 호출하라.    
+• 함수를 호출하고, 그 결과값을 보기 위해선, print 문을 사용해야 한다.     
+• e.g. print trip_cost("LA", 7, 1000)
 {: .notice--info}
 
 <br>
