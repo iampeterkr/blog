@@ -29,7 +29,7 @@ Loops allow you to quickly iterate over information in Python. In this lesson, w
 <font size="3"  face="돋움">LOOPS</font> 
 ### 1. While you're here    
 
-The **`while`** loop is similar to an if statement: it executes the code inside of it if some condition is true. The difference is that the while loop will continue to execute as long as the condition is true. In other words, instead of executing if something is true, it executes while that thing is true.
+The `while` loop is similar to an if statement: it executes the code inside of it if some condition is true. The difference is that the while loop will continue to execute as long as the condition is true. In other words, instead of executing if something is true, it executes while that thing is true.
 
 Line 6 decides when the loop will be executed. So, "as long as count is less than 5," the loop will continue to execute. Line 8 increases count by 1. This happens over and over until count equals 5. 
 
@@ -194,7 +194,7 @@ while loop_condition:
 **설명:** [ Solution ]          
 • 변수 loop_condition 을 True 로 설정한다.    
 • 조건문이 True 이기에 while 문에 진입한다.    
-• 'print "I am a loop" '를 출력한다.    
+• print "I am a loop" 를 출력한다.    
 • 변수 loop_condition 을 강제로 False로 변경한다.    
 • 다시 while 문의 조건절 loop_condition 이 True 인지 확인한다.    
 • 조건문이 True 이면, while 문의 블럭문이 실행된다.    
@@ -242,7 +242,7 @@ Inside a while loop, you can do anything you could do elsewhere, including arith
 **설명:** [ Instruction ]          
 • while 문을 사용하여 1부터 10까지 값의 제곱근 값을 출력하라.    
 • while 문의 조건문을 넣는 곳에 1부터 10까지 돌도록 작성하라.       
-• while 문의 내부실행 블럭에서는 'num ** 2' 제곱근 값을 출력하라.       
+• while 문의 내부실행 블럭에서는 ( num ** 2 ) 제곱근 값을 출력하라.       
 • 변수 num 을 1 씩 증가 시켜라. 
 {: .notice--info}
 
@@ -256,7 +256,7 @@ Inside a while loop, you can do anything you could do elsewhere, including arith
 
 
 **설명:** [ Hint ]          
-• 조건문 num <= 10 or num < 11 로 10 이하 인지를 확인한다. 
+• 조건문 num <= 10 또는 num < 11 로 10 이하 인지를 확인한다. 
 {: .notice--info}
 
 <br>
@@ -594,7 +594,7 @@ while True:
 <font size="3"  face="돋움">LOOPS</font> 
 ### 7. While / else    
 
-Something completely different about Python is the **`while/else`** construction. **`while/else`** is similar to **`if/else`**, but there is a difference: the **else** block will execute anytime the loop condition is evaluated to False. This means that it will execute if the loop is never entered or if the loop exits normally. If the loop exits as the result of a break, the else will not be executed.
+Something completely different about Python is the `while/else` construction. `while/else` is similar to `if/else`, but there is a difference: the **else** block will execute anytime the loop condition is evaluated to False. This means that it will execute if the loop is never entered or if the loop exits normally. If the loop exits as the result of a break, the else will not be executed.
 
 In this example, the loop will break if a 5 is generated, and the else will not execute. Otherwise, after 3 numbers are generated, the loop condition will become false and the else will execute.
 
@@ -707,7 +707,7 @@ In this exercise, allow the user to guess what the number is 3 times.
 ```python
 guess = int(raw_input("Your guess: "))
 ```    
-Remember, **`raw_input`** turns user input into a **string**, so we use **`int()`** to make it a number again.    
+Remember, `raw_input` turns user input into a **string**, so we use `int()` to make it a number again.    
 
 
 
@@ -862,7 +862,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-• Make sure to change the number inside of **`range`**.
+• Make sure to change the number inside of `range`.
 
 
 **설명:** [ Hint ]          
@@ -941,8 +941,8 @@ This kind of loop is useful when you want to do something a **certain number of 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a **`for`** loop that prompts the user for a **hobby 3 times**.    
-* Save the result of each prompt in a **`hobby`** variable    
+* Create a `for` loop that prompts the user for a **hobby 3 times**.    
+* Save the result of each prompt in a `hobby` variable    
 
 * append each one to `hobbies[]`.    
 
@@ -966,7 +966,7 @@ This kind of loop is useful when you want to do something a **certain number of 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Your for loop should use range(3). You should use the **`raw_input()`** function to get info from the user and **`hobbies.append(hobby)`** to add the **`hobby`** to the list.
+* Your for loop should use range(3). You should use the `raw_input()` function to get info from the user and `hobbies.append(hobby)` to add the `hobby` to the list.
 
 
 **설명:** [ Hint ]          
@@ -1040,7 +1040,7 @@ The example in the editor is almost plain English: "for each character c in thin
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Add a second for loop so that each character in **`word`** is printed one at a time.
+* Add a second for loop so that each character in `word` is printed one at a time.
 
 
 **설명:** [ Instruction ]          
@@ -1147,7 +1147,7 @@ The `,` character after our print statement means that our next print statement 
 
 * Let's filter out the letter "A" from our string.
 
-* Do the following for each character in the **`phrase`**.
+* Do the following for each character in the `phrase`.
 * If char is an "A" or char is an "a", print "X", instead of char. Make sure to include the trailing comma.
 * Otherwise (else:), please print char, with the trailing comma.
 
@@ -1229,7 +1229,7 @@ X   b i r d   i n   t h e   h X n d . . .
 
 Perhaps the most useful (and most common) use of for loops is to go through a list.
 
-On each iteration, the variable **`num`** will be the next value in the list. So, the first time through, it will be **7**, the second time it will be **9**, then **12, 54, 99,** and then the loop will exit when there are no more values in the list.
+On each iteration, the variable `num` will be the next value in the list. So, the first time through, it will be **7**, the second time it will be **9**, then **12, 54, 99,** and then the loop will exit when there are no more values in the list.
 
  
 
@@ -1264,7 +1264,7 @@ On each iteration, the variable **`num`** will be the next value in the list. So
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Use the **`**`** operator for exponentiation. The rest of the loop should be very similar to the first one.
+* Use the `**` operator for exponentiation. The rest of the loop should be very similar to the first one.
 
 
 **설명:** [ Hint ]          
@@ -1343,7 +1343,7 @@ for key in d:
 • 딕셔너리의 key를 반복적으로 꺼낸다.    
 • 꺼낸 key의 value 값이 10인지를 비교한다.    
 • value 값이 10이면 "This dictionary has the value 10!"    
-x{: .notice--info}
+{: .notice--info}
 
 
 <br>
@@ -1365,18 +1365,20 @@ x{: .notice--info}
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* An easy way to print in the requested format is to use the , character, like so:    
+* An easy way to print in the requested format is to use the , character, like so:     
+
 ```python
 greeting = "Hello"
 name = "World"
 
 print greeting, name
 # prints "Hello World"
-```
+```    
 
 **설명:** [ Hint ]          
 • ( , ) 를 사용하면, 같은 줄에 출력 할 수 있다.
-{: .notice--info}
+{: .notice--info}    
+
 
 
 <br>
@@ -1417,9 +1419,9 @@ b berry
 <font size="3"  face="돋움">LOOPS</font> 
 ### 15. Counting as you go    
 
-A weakness of using this for-each style of iteration is that **you don't know the index** of the thing you're looking at. Generally this isn't an issue, but at times it is useful to know how far into the list you are. Thankfully the built-in **`enumerate`** function helps with this.
+A weakness of using this for-each style of iteration is that **you don't know the index** of the thing you're looking at. Generally this isn't an issue, but at times it is useful to know how far into the list you are. Thankfully the built-in `enumerate` function helps with this.
 
-**`enumerate`** works by supplying a corresponding index to each element in the list that you pass it. Each time you go through the loop, index will be one greater, and item will be the next item in the sequence. It's very similar to using a normal for loop with a list, except this gives us an easy way to count how many items we've seen so far.
+`enumerate` works by supplying a corresponding index to each element in the list that you pass it. Each time you go through the loop, index will be one greater, and item will be the next item in the sequence. It's very similar to using a normal for loop with a list, except this gives us an easy way to count how many items we've seen so far.
 
 
 
@@ -1442,8 +1444,8 @@ A weakness of using this for-each style of iteration is that **you don't know th
 
 **설명:** [ Instruction ]          
 • 리스트의 index를 출력하면 0부터 출력된다.    
-• 그런데, 우리는 흔히 4가지중 하나를 고를때 리스트 번호를 1번 부터 번호를 매기는게 더 자연스럽다.    
-• 비록 index값이 0부터 출력되지만, print 할때는 1부터 하는것 처럼 보이게 하라.  
+• 우리는 리스트 번호를 1번 부터 번호를 매기는게 더 자연스럽다.    
+• 비록 index값이 0부터 출력되지만, print 할때는 1부터 하는것 처럼 보이게 하라.
 {: .notice--info}
 
 
@@ -1452,7 +1454,7 @@ A weakness of using this for-each style of iteration is that **you don't know th
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Instead of just printing index, print index + 1!
+* Instead of just printing index, print index + 1 !
 
 
 **설명:** [ Hint ]          
@@ -1497,11 +1499,11 @@ Your choices are:
 <font size="3"  face="돋움">LOOPS</font> 
 ### 16. Multiple lists    
 
-It's also common to need to iterate over **two lists at once**. This is where the built-in **`zip`** function comes in handy.
+It's also common to need to iterate over **two lists at once**. This is where the built-in `zip` function comes in handy.
 
-**`zip`** will create pairs of elements when passed two lists, and will **stop at the end of the shorter list**.
+`zip` will create pairs of elements when passed two lists, and will **stop at the end of the shorter list**.
 
-**`zip`** can handle three or more lists as well!
+`zip` can handle three or more lists as well!
 
 
 
@@ -1533,9 +1535,9 @@ It's also common to need to iterate over **two lists at once**. This is where th
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-**`a`** is an element from **`list_a`** and **`b`** is an element of **`list_b`**.
+`a` is an element from `list_a` and `b`is an element of `list_b`.
 
-You have two options: Use an **`if/else`** statement to compare the two and print whichever is larger. Alternatively, you can use the **`max`** function that you learned in unit 4.
+You have two options: Use an `if/else` statement to compare the two and print whichever is larger. Alternatively, you can use the `max` function that you learned in unit 4.
 
 
 **설명:** [ Hint ]          
@@ -1583,14 +1585,17 @@ for a, b in zip(list_a, list_b):
 <font size="3"  face="돋움">LOOPS</font> 
 ### 17. For / else    
 
-Just like with **`while`**, **`for`** loops may have an else associated with them.
+Just like with `while`, `for` loops may have an else associated with them.
 
-In this case, the **`else`** statement is executed after the **`for`**, but only **`if`** the **`for`** ends normally—that is, not with a **`break`**. This code will break when it hits 'tomato', so the **`else`** block won't be executed.
+In this case, the `else` statement is executed after the `for`, but only `if` the `for` ends normally—that is, not with a `break`. This code will break when it hits 'tomato', so the `else` block won't be executed.
 
 
 
-**설명:** [ ]          
-`for` 반복절은 `else`를 가질수 있다. `for`문이 다 실행되고, 빠져나오면 마지막으로 `else`문이 실행된다. 단, `for`문에서 `break`가 발생되면, `else`문은 실행되지 않는다. 
+**설명:** [ Learn ]          
+• Ch17. For / else 에서는 for 문에 else 문 사용을 학습한다.    
+• for 반복문 else 문을 가질수 있다.    
+• for 문이 다 실행되고, 빠져나오면 마지막으로 else 문이 실행된다.    
+• 단, for 문에서 break 가 발생되면, else 문은 실행되지 않는다. 
 {: .notice--info}
 
 
@@ -1600,11 +1605,11 @@ In this case, the **`else`** statement is executed after the **`for`**, but only
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Click Run to see how for and else work together.
+* Click Run to see how for and else work together.
 
 
-**설명:** [ ]          
-① `Run`을 실행시켜, 소스가 어떻게 동작되는지 확인한다. 
+**설명:** [ Instruction ]          
+• Run 을 실행시켜, 소스가 어떻게 동작되는지 확인한다. 
 {: .notice--info}
 
 
@@ -1616,7 +1621,7 @@ In this case, the **`else`** statement is executed after the **`for`**, but only
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -1640,8 +1645,12 @@ else:
   print 'A fine selection of fruits!'
 ```
 
-**설명:** [ ]          
-`for`문을 돌면서, 리스트 `fruits`의 값이 "tomato" 이면 "A tomato is not a fruit!"가 출력되고 `break`가 실행된다. 이 경우는 `else`가 실행되지 않는다. 만약에 `for`문에서 `break`가 안걸리고 정상적으로 다 돌게 되면, `else`가 마지막에 실행된다.
+**설명:** [ Solution ]          
+• for 문을 돌면서, 리스트 fruits 의 값이 "tomato" 이면,    
+• "A tomato is not a fruit!" 가 출력되고 break 가 실행된다.    
+• 이 경우는 else 가 실행되지 않는다.    
+• 만약에 for 문에서 break 가 안걸리고 정상적으로 다 돌게 되면,    
+• else 문이 마지막에 실행된다.
 {: .notice--info}
 
 
@@ -1675,14 +1684,16 @@ A fine selection of fruits!
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LOOPS</font> 
-### 18. Change it up 
+### 18. Change it up     
 
-As mentioned, the **`else`** block won't run in this case, since break executes when it hits **'tomato'**.
+As mentioned, the `else` block won't run in this case, since break executes when it hits **'tomato'**.
 
 
 
-**설명:** [ ]          
-`break`문이 실행되면(즉, 'tomato'가 있으면), `for/else`의 `else`는 실행되지 않는다. 
+**설명:** [ Learn ]          
+• Ch18. Change it up 에서는 for/else 를 계속 학습한다.    
+• break 문이 실행되면(즉, 'tomato'가 있으면),    
+• for/else 문의 else 문은 실행되지 않는다. 
 {: .notice--info}
 
 
@@ -1692,11 +1703,11 @@ As mentioned, the **`else`** block won't run in this case, since break executes 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Modify the code in the editor such that the **`for`** loop's **`else`** statement is executed.
+* Modify the code in the editor such that the `for` loop's `else` statement is executed.
 
 
-**설명:** [ ]          
-① `for`문의 `else`구문이 동작되도록 소스를 수정하라.  
+**설명:** [ Instruction ]          
+• for 문의  else 문이 동작 되도록 소스를 수정하라.  
 {: .notice--info}
 
 
@@ -1705,11 +1716,14 @@ As mentioned, the **`else`** block won't run in this case, since break executes 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-You can change the contents of fruits or the contents of the for statement such that the loop doesn't break on "tomato".
+* You can change the contents of fruits or the contents of the for statement such that the loop doesn't break on "tomato".
 
 
-**설명:** [ ]          
-리스트 `fruits`의 내용이 'tomato'가 없게 하거나, `if`문에서 'tomato'가 일치 하지 않게 만들어, `break`문이 작동하지 않게 하면, `else`문이 실행된다.
+**설명:** [ Hint ]          
+• else 문이 실행되게 하려면 다음과 같이 하면 된다.    
+• 리스트 fruits 의 내용이 'tomato'가 없게 하거나,    
+• if 문에서 'tomato'가 일치 하지 않게 만들어, break 문이 작동하지 않게 만들면,    
+• else 문이 실행된다.
 {: .notice--info}
 
 <br>
@@ -1731,8 +1745,9 @@ else:
   print 'A fine selection of fruits!'
 ```
 
-**설명:** [ ]          
-이 경우엔, `break`문을 삭제 했다. `for`문이 실행되고, `else`문도 실행 된다.
+**설명:** [ Solution ]          
+• 이 경우엔, break 문을 삭제 했다.    
+• for 문이 실행되고, else 문도 실행 된다.
 {: .notice--info}
 
 
@@ -1758,13 +1773,14 @@ A fine selection of fruits!
 <font size="3"  face="돋움">LOOPS</font> 
 ### 19. Create your own    
 
-To wrap up this lesson, let's create our own **`for/else`** statement from scratch.
+To wrap up this lesson, let's create our own `for/else` statement from scratch.
 
 
 
 
-**설명:** [ ]          
-지금까지 배운것을 종합하여, `for/else`문을 활용하여 자신만의 소스를 만들어 보자. 
+**설명:** [ Learn ]          
+• Ch19. Create your own 에서는 for/else 문을 활용하는 방법을 학습한다.    
+• 지금까지 배운것을 종합하여, for/else 문을 활용하여 자신만의 소스를 만들어 보자. 
 {: .notice--info}
 
 
@@ -1774,11 +1790,13 @@ To wrap up this lesson, let's create our own **`for/else`** statement from scrat
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-**①** Build your **`for/else`** statement in the editor. Execution of the **`else`** branch is optional, but your code should print a string of your choice to the editor regardless.
+* Build your `for/else` statement in the editor. Execution of the `else` branch is optional, but your code should print a string of your choice to the editor regardless.
 
 
-**설명:** [ ]          
-①  `for/else`문을 사용하여 프로그램을 짜 보자. `else`문이 실행되고 안되고는 자유다. 하지만, 당신이 원하는대로 출력이 되어야 한다.  
+**설명:** [ Instruction ]          
+• for/else 문을 사용하여 프로그램을 작성하라.    
+• else 문이 실행되고 안되고는 자유다.    
+• 하지만, 당신이 원하는대로 출력이 되어야 한다.  
 {: .notice--info}
 
 
@@ -1790,7 +1808,7 @@ To wrap up this lesson, let's create our own **`for/else`** statement from scrat
 * skip
 
 
-**설명:** [ ]          
+**설명:** [ Hint ]          
 • skip
 {: .notice--info}
 
@@ -1810,8 +1828,10 @@ else:
     print "ok"
 ```
 
-**설명:** [ ]          
-리스트 `test`에 3개의 값을 넣고, `for/else`문을 돌린다. 변수 `x`에 리스트이 값을 하나씩 추출하여, 출력하고, `for` 문이 다 돌고 나면, 마지막에 `else`문이 실행된다.
+**설명:** [ Solution ]          
+• 리스트 test 에 3개의 값을 넣고, for/else 문을 돌린다.     
+• 변수 x 에 리스트이 값을 하나씩 추출하여, 출력한다.    
+• for 문이 다 돌고 나면, 마지막에 else 문이 실행된다.
 {: .notice--info}
 
 
@@ -1827,5 +1847,3 @@ ok
 <br>
 <br>    
 <br>    
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>

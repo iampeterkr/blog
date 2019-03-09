@@ -1087,7 +1087,7 @@ This exercise shows how to **modify each element in a list**. It is useful to do
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a function called **`double_list`** that takes a single argument **`x`** (which will be a list) and **multiplies each element by 2** and **returns that list**. Use the existing code as a scaffold.
+* Create a function called `double_list` that takes a single argument `x` (which will be a list) and **multiplies each element by 2** and **returns that list**. Use the existing code as a scaffold.
 
 
 **설명:** [ Instruction ]          
@@ -1158,7 +1158,7 @@ print double_list(n)
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
 ### 14. Passing a range into a function    
 
-Okay! Range time. The Python **`range()`** function is just a shortcut for **generating a list**, so you can use ranges in all the same places you can use lists.    
+Okay! Range time. The Python `range()` function is just a shortcut for **generating a list**, so you can use ranges in all the same places you can use lists.    
 
 ```python
 range(6) # => [0, 1, 2, 3, 4, 5]
@@ -1173,7 +1173,7 @@ range(start, stop)
 range(start, stop, step)
 ```    
 
-In all cases, the **`range()`** function **returns a list** of numbers from **start up to (but not including) stop**. Each item increases by step.
+In all cases, the `range()` function **returns a list** of numbers from **start up to (but not including) stop**. Each item increases by step.
 
 **If omitted, start defaults to 0 and step defaults to 1.**
 
@@ -1220,7 +1220,7 @@ In all cases, the **`range()`** function **returns a list** of numbers from **st
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* On line 6, **replace** the (____) with a **`range()`** that returns a list containing [0, 1, 2].
+* On line 6, **replace** the (____) with a `range()` that returns a list containing [0, 1, 2].
 
 
 **설명:** [ Instruction ]          
@@ -1320,9 +1320,9 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 
 * Create a function that **returns the sum of a list of numbers**.
 
-* On line 3, define a function called **`total`** that accepts **one argument** called **`numbers`**. It will be a **list**.    
+* On line 3, define a function called `total` that accepts **one argument** called `numbers`. It will be a **list**.    
 
-* Inside the function, create a variable called **`result`** and **set it to zero**.    
+* Inside the function, create a variable called `result` and **set it to zero**.    
 
 * Using **one of the two methods** above, iterate through the numbers list. **For each number, add it to result**.    
 
@@ -1432,9 +1432,9 @@ The example above is just a reminder of the two methods for iterating over a lis
 
 * Create a function that **concatenates strings**.
 
-* Define a function called **`join_strings`** accepts an argument called **`words`**. It will be a **list**.
-* Inside the function, create a variable called **`result`** and set it to **""**, an empty string.
-* Iterate through the **`words`** list and concatenate each word to **`result`**.
+* Define a function called `join_strings` accepts an argument called `words`. It will be a **list**.
+* Inside the function, create a variable called `result` and set it to **""**, an empty string.
+* Iterate through the `words` list and concatenate each word to `result`.
 * Finally, **return the result**.
 Don't add spaces between the joined strings!
 
@@ -1545,8 +1545,8 @@ The example above is just a reminder of how to concatenate two lists.
 
 * Create a function that **joins two lists together**.
 
-On line 5, define a function called **`join_lists`** that has **two arguments**, **`x`** and **`y`**. They will both be **lists**.
-Inside that function, **return the result** of concatenating **`x`** and **`y`** together.
+On line 5, define a function called `join_lists` that has **two arguments**, `x` and `y`. They will both be **lists**.
+Inside that function, **return the result** of concatenating `x` and `y` together.
 
 
 
@@ -1562,7 +1562,7 @@ Inside that function, **return the result** of concatenating **`x`** and **`y`**
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* You can just use **`+`** to concatenate two lists. (You don't want to use append, because this just adds the entire second list as a single object at the end of the first.)
+* You can just use `+` to concatenate two lists. (You don't want to use append, because this just adds the entire second list as a single object at the end of the first.)
 
 
 **설명:** [ Hint ]          
@@ -1653,13 +1653,13 @@ We end up printing out:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a function called **`flatten`** that takes a **single list** and **concatenates** all the **sublists** that are part of it into a single list.
+* Create a function called `flatten` that takes a **single list** and **concatenates** all the **sublists** that are part of it into a single list.
 
-* On line 3, define a function called **`flatten`** with one argument called **`lists`**.
-* Make a new, empty list called **`results`**.
+* On line 3, define a function called `flatten` with one argument called `lists`.
+* Make a new, empty list called `results`.
 * Iterate through lists. Call the looping variable numbers.
 * Iterate through numbers.
-* For each number, **`.append()`** it to **`results`**.
+* For each number, `.append()` it to `results`.
 * Finally, return results from your function.
 
 

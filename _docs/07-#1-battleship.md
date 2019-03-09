@@ -116,7 +116,7 @@ The first thing we need to do is to set up the game board.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a variable **`board`** and set it equal to an empty list.
+* Create a variable `board` and set it equal to an empty list.
 
 
 **설명:** [ Instruction ]          
@@ -195,8 +195,8 @@ We'll do this five times to make five rows. (Since we have to do this five times
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * Create a 5 x 5 grid initialized to all **'O's** and store it in board.     
-* Use **`range()`** to **loop 5 times**.     
-* Inside the loop, **`.append()`** a list **containing 5 "O"s** to board, just like in the example above.     
+* Use `range()` to **loop 5 times**.     
+* Inside the loop, `.append()` a list **containing 5 "O"s** to board, just like in the example above.     
 * Note that these are capital letter **"O"** and **not zeros**.    
 
 
@@ -215,7 +215,7 @@ We'll do this five times to make five rows. (Since we have to do this five times
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* What if you use a for loop that does the appending in the **`range (0,5)`**?
+* What if you use a for loop that does the appending in the `range (0,5)`?
 
 ```python
 [
@@ -299,7 +299,7 @@ The easiest way to print the board would be to have Python display it for us usi
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Use the print command to display the contents of the **`board`** list.
+* Use the print command to display the contents of the `board` list.
 
 
 **설명:** [ Instruction ]          
@@ -382,9 +382,9 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* First, delete your existing **`print`** statement.
+* First, delete your existing `print` statement.
 
-* Then, define a function named **`print_board`** with a single argument, **`board_in`**.
+* Then, define a function named `print_board` with a single argument, `board_in`.
 
 * Inside the function, write a for loop to iterates through each row in board and print it to the screen.
 
@@ -408,7 +408,7 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)        
-* Remember that the syntax to declare a function is **`def fun_name(parameters):`**. The syntax for iterating through a list is **`for x in list_name:`**
+* Remember that the syntax to declare a function is `def fun_name(parameters):`. The syntax for iterating through a list is `for x in list_name:`
 
 
 **설명:** [ Hint ]         
@@ -477,9 +477,9 @@ print " ".join(letters)
 print "---".join(letters)
 ```    
 
-1. In the example above, we create a list called **`letters`**.     
-2. Then, we print **a b c d**. The **`.join`** method uses the string to combine the items in the list.    
-3. Finally, we print **a---b---c---d**. We are calling the **`.join`** function on the **"---"** string.    
+1. In the example above, we create a list called `letters`.     
+2. Then, we print **a b c d**. The `.join` method uses the string to combine the items in the list.    
+3. Finally, we print **a---b---c---d**. We are calling the `.join` function on the **"---"** string.    
 
 We want to turn each row into **"O O O O O"**. 
 
@@ -506,7 +506,7 @@ We want to turn each row into **"O O O O O"**.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Inside your function, inside your **for loop**, use **" "** as the separator to **`.join`** the elements of each row.
+* Inside your function, inside your **for loop**, use **" "** as the separator to `.join` the elements of each row.
 
 
 **설명:** [ Instruction ]          
@@ -580,7 +580,7 @@ O O O O O
 
 Excellent! Now, let's hide our battleship in a random location on the board.
 
-Since we have a 2-dimensional list, we'll use two variables to store the ship's location, **`ship_row`** and **`ship_col`**.    
+Since we have a 2-dimensional list, we'll use two variables to store the ship's location, `ship_row` and `ship_col`.    
 
 ```python
 from random import randint
@@ -588,11 +588,11 @@ coin = randint(0, 1)
 dice = randint(1, 6)
 ```    
 
-1. In the above example, we first import the **`randint(low, high)`** function **from the random module**.
+1. In the above example, we first import the `randint(low, high)` function **from the random module**.
 
 2. Then, we **generate** either **zero or one** and store it in coin.
 3. Finally, we **generate** a number from **one to six** inclusive.
-Let's generate a **`random_row`** and **`random_col`** from **zero to four**!
+Let's generate a `random_row` and `random_col` from **zero to four**!
 
 
 
@@ -613,9 +613,9 @@ Let's generate a **`random_row`** and **`random_col`** from **zero to four**!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define two new functions, **`random_row`** and **`random_col`**, that each take **`board_in`** as input.
+* Define two new functions, `random_row` and `random_col`, that each take `board_in` as input.
 
-* These functions should return a **random row index** and a **random column index** from your board, respectively. Use **`randint(0, len(board_in) - 1)`**.
+* These functions should return a **random row index** and a **random column index** from your board, respectively. Use `randint(0, len(board_in) - 1)`.
 
 * Call each function on board.
 
@@ -635,7 +635,7 @@ Let's generate a **`random_row`** and **`random_col`** from **zero to four**!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* While we could just call **`randint(0, 4)`**, we use **`len(board) - 1`** in case we want to change the board size later.
+* While we could just call `randint(0, 4)`, we use `len(board) - 1` in case we want to change the board size later.
 
 
 **설명:** [ Hint ]          
@@ -706,7 +706,7 @@ random_col(board)
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 8. ...and Seek!    
 
-Good job! For now, let's store coordinates for the ship in the variables **`ship_row`** and **`ship_col`**. Now you have a hidden battleship in your ocean! Let's write the code to allow the player to guess where it is.    
+Good job! For now, let's store coordinates for the ship in the variables `ship_row` and `ship_col`. Now you have a hidden battleship in your ocean! Let's write the code to allow the player to guess where it is.    
 
 ```python
 number = raw_input("Enter a number: ")
@@ -714,7 +714,7 @@ if int(number) == 0:
   print "You entered 0"
 ```   
 
-**`raw_input`** asks the user for input and returns it as a string. But we're going to want to use integers for our guesses! To do this, we'll wrap the **`raw_inputs`** with **`int()`** to convert the string to an integer.
+`raw_input` asks the user for input and returns it as a string. But we're going to want to use integers for our guesses! To do this, we'll wrap the `raw_inputs` with `int()` to convert the string to an integer.
 
 
 
@@ -737,11 +737,11 @@ if int(number) == 0:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a new variable called **`guess_row`** and set it to **`int(raw_input("Guess Row: "))`**.
+* Create a new variable called `guess_row` and set it to `int(raw_input("Guess Row: "))`.
 
-* Create a new variable called **`guess_col`** and set it to **`int(raw_input("Guess Col: "))`**.
+* Create a new variable called `guess_col` and set it to `int(raw_input("Guess Col: "))`.
 
-* Click **`Run`** and then answer the prompts by typing in a number and pressing Enter (or Return on some computers).
+* Click `Run` and then answer the prompts by typing in a number and pressing Enter (or Return on some computers).
 
 
 
@@ -943,7 +943,7 @@ Guess Col: 2
 
 Okay—now for the fun! We have the actual location of the ship and the player's guess so we can check to see if the player guessed right.
 
-For a guess to be right, **`guess_col`** should be equal to **`ship_col`** and **`guess_row`** should be equal to **`ship_row`**.    
+For a guess to be right, `guess_col` should be equal to `ship_col` and `guess_row` should be equal to `ship_row`.    
 
 ```python
 if guess_col == 0 and guess_row == 0:
@@ -1263,7 +1263,7 @@ The example above checks if either x or y are outside those ranges. The `\` char
 
 * Add a new if statement that is **nested under the else**.
 
-* Like the example above, it should check if **`guess_row`** is **not in range(5)** or **`guess_col`** is **not in range(5)**.
+* Like the example above, it should check if `guess_row` is **not in range(5)** or `guess_col` is **not in range(5)**.
 
 * If that is the case, print out "Oops, that's not even in the ocean."    
 * After your new if statement, add an else that contains your existing handler for an incorrect guess.     
@@ -1449,7 +1449,7 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Remember to use two equal signs (**`==`**) when you're checking for equality.
+* Remember to use two equal signs (`==`) when you're checking for equality.
 
 
 **설명:** [ Hint ]          
@@ -1677,7 +1677,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 * Add a for loop that **repeats the guessing** and checking part of your game for **4** turns, like the example above.
 
-* At the beginning of each iteration, **`print "Turn"`**, **`turn + 1`** to let the player know what turn they are on.
+* At the beginning of each iteration, `print "Turn"`, `turn + 1` to let the player know what turn they are on.
 
 * Indent everything that should be repeated.
 

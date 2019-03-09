@@ -34,7 +34,7 @@ This mini-project will give you some practice with functions, lists, and transla
 
 In order to use the scores in our program, we'll need them in a container, namely a list.
 
-On the right, you'll see the **`grades`** listed (see what I did there). The data is anonymous to protect the privacy of the students.
+On the right, you'll see the `grades` listed (see what I did there). The data is anonymous to protect the privacy of the students.
 
 
 
@@ -125,11 +125,11 @@ As a refresher, let's start off by writing a function to print out the list of g
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function on line 3 called **`print_grades`** with one argument, a list called **`grades_input`**.
+* Define a function on line 3 called `print_grades` with one argument, a list called `grades_input`.
 
-* Inside the function, iterate through **`grades_input`** and print each item on its own line.
+* Inside the function, iterate through `grades_input` and print each item on its own line.
 
-* After your function, call **`print_grades`** with the grades list as the parameter.
+* After your function, call `print_grades` with the grades list as the parameter.
 
 
 
@@ -314,12 +314,12 @@ Computing the sum manually involves computing a rolling sum. As you loop through
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* On line 3, define a function, **`grades_sum`**, that does the following:
+* On line 3, define a function, `grades_sum`, that does the following:
 
 * Takes in a list of scores, `scores`
 * Computes the sum of the scores
 * Returns the computed sum.
-* Call the newly created **`grades_sum`** function with the list of grades and print the result.
+* Call the newly created `grades_sum` function with the list of grades and print the result.
 
 
 
@@ -394,7 +394,7 @@ print grades_sum(grades)
 
 The average test grade can be found by **dividing** the sum of the grades by the total number of grades.
 
-Luckily, we just created an awesome function, **`grades_sum`** to compute the sum.
+Luckily, we just created an awesome function, `grades_sum` to compute the sum.
 
 
 **설명:** [ Learn ]         
@@ -411,13 +411,13 @@ Luckily, we just created an awesome function, **`grades_sum`** to compute the su
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function, **`grades_average`**, below the **`grades_sum`** function that does the following:    
+* Define a function, `grades_average`, below the `grades_sum` function that does the following:    
 
 * Has one argument, `grades_input`, a list     
 * Calls `grades_sum` with `grades_input`    
 * Computes the average of the grades by **dividing that sum by float(len(grades_input))**.    
 * Returns the **average**.    
-Call the newly created **`grades_average`** function with the list of grades and print the result.    
+Call the newly created `grades_average` function with the list of grades and print the result.    
 
 
 
@@ -437,7 +437,7 @@ Call the newly created **`grades_average`** function with the list of grades and
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Your **`grades_average`** function should use the built-in Python **`len`** function and your **`grades_sum`** function to compute the average.
+* Your `grades_average` function should use the built-in Python `len` function and your `grades_sum` function to compute the average.
 
 * Remember that **integer division** in Python will always **result in an integer**. We convert **len(grades_input) is a float** so that the average is a float.
 
@@ -591,10 +591,10 @@ A very large variance means that the students' grades were all over the place, w
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* On line 18, define a new function called **`grades_variance`** that accepts one argument, **`scores`**, a list.    
+* On line 18, define a new function called `grades_variance` that accepts one argument, `scores`, a list.    
 
-* First, create a variable **`average`** and store the result of calling **`grades_average(scores)`**.    
-* Next, create another variable **`variance`** and set it to zero. We will use this as a rolling sum.    
+* First, create a variable `average` and store the result of calling `grades_average(scores)`.    
+* Next, create another variable `variance` and set it to zero. We will use this as a rolling sum.    
 * for each score in scores: Compute its squared difference: `(average - score) ** 2` and add that to `variance`.    
 * Divide the total `variance` by the number of scores.    
 * Then, return that result.    
@@ -737,7 +737,7 @@ The standard deviation is the square root of the variance. You can calculate the
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Remember, raising a number to an exponent involves using the exponentiation `**` operator.
+* Remember, raising a number to an exponent involves using the exponentiation `` operator.
 
 
 **설명:** [ Hint ]     

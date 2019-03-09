@@ -117,9 +117,9 @@ Remember how an even number is a number that is divisible by 2?
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function **`is_even`** that will take a number **`x`** as input.
+* Define a function `is_even` that will take a number `x` as input.
 
-* If **`x`** is even, then return **True**.
+* If `x` is even, then return **True**.
 
 * Otherwise, return **False**.
 
@@ -135,7 +135,7 @@ Remember how an even number is a number that is divisible by 2?
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* The modulo **`%`** operation is useful for determining if one number is divisible by another.
+* The modulo `%` operation is useful for determining if one number is divisible by another.
 
 * Make sure to return True instead of printing it!
 
@@ -223,7 +223,7 @@ If the difference between a number and that same number rounded is greater than 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function **`is_int`** that takes a number **`x`** as an input.
+* Define a function `is_int` that takes a number `x` as an input.
 
 * Have it return True if the number is an **integer** (as defined above) and **False** otherwise.    
 
@@ -247,7 +247,7 @@ is_int(-1)    # True
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* To use the function **`abs()`**, **`round()`**
+* To use the function `abs()`, `round()`
 
 
 **설명:** [ Hint ]          
@@ -316,7 +316,7 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a function called **`digit_sum`** that takes a **positive integer `n`** as input and returns the **sum of all** that number's digits. For example: digit_sum(1234) should return 10 which is 1 + 2 + 3 + 4. (Assume that the number you are given will always be positive.)
+* Write a function called `digit_sum` that takes a **positive integer `n` as input and returns the **sum of all** that number's digits. For example: digit_sum(1234) should return 10 which is 1 + 2 + 3 + 4. (Assume that the number you are given will always be positive.)
 
 * Check the hint if you need help!
 
@@ -335,9 +335,9 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* One way might be to convert the integer to a string with **`str()`**, iterate over it, and turn the substrings back into integers with **`int()`** to do the addition.    
+* One way might be to convert the integer to a string with `str()`, iterate over it, and turn the substrings back into integers with `int()` to do the addition.    
 
-* If you're looking for a challenge, try this: to get the rightmost digit of a number, you can modulo **`(%)`** the number by 10. To remove the rightmost digit you can floor divide (//) the number by 10. (Don't worry if you're not familiar with floor division—you can look up the documentation here. Remember, this is a challenge!)
+* If you're looking for a challenge, try this: to get the rightmost digit of a number, you can modulo `(%)` the number by 10. To remove the rightmost digit you can floor divide (//) the number by 10. (Don't worry if you're not familiar with floor division—you can look up the documentation here. Remember, this is a challenge!)
 
 * Try working this into a pattern to isolate all of the digits and add them to a total.    
 
@@ -433,7 +433,7 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function **`factorial`** that takes an integer **`x`** as input.
+* Define a function `factorial` that takes an integer `x` as input.
 
 * Calculate and return the factorial of that number.
 
@@ -449,7 +449,7 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Consider having **`factorial()`** call itself. When the input is 1, your function could just return 1. Otherwise, it could return the number multiplied by **`factorial(n - 1)`**.
+* Consider having `factorial()` call itself. When the input is 1, your function could just return 1. Otherwise, it could return the number multiplied by `factorial(n - 1)`.
 
 * Note that mathematically, factorial(0) is 1.
 
@@ -517,7 +517,7 @@ print factorial(5)
 
 A prime number is a positive integer greater than 1 that has no positive divisors other than 1 and itself. (That's a mouthful!)
 
-In other words, if you want to test if a number in a variable **`x`** is prime, then no other number should go into **`x`** evenly besides 1 and x. So 2 and 5 and 11 are all prime, but 4 and 18 and 21 are not.
+In other words, if you want to test if a number in a variable `x` is prime, then no other number should go into `x` evenly besides 1 and x. So 2 and 5 and 11 are all prime, but 4 and 18 and 21 are not.
 
 If there is a number between 1 and x that goes in evenly, then x is not prime.
 
@@ -540,7 +540,7 @@ If there is a number between 1 and x that goes in evenly, then x is not prime.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function called **`is_prime`** that takes a number **`x`** as input.
+* Define a function called `is_prime` that takes a number `x` as input.
 
 * For each number n **from 2 to x - 1**, test if x is evenly divisible by **n**.
 
@@ -637,7 +637,7 @@ Great work so far! Let's practice writing some functions that work with strings.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function called **`reverse`** that takes a string textand returns that string in reverse. For example: reverse("abcd") should return "dcba".
+* Define a function called `reverse` that takes a string textand returns that string in reverse. For example: reverse("abcd") should return "dcba".
 
 * You may not use reversed or [::-1] to help you with this.
 
@@ -727,7 +727,7 @@ Nice work. Next up: vowels!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function called **`anti_vowel`** that takes one string, **`text`**, as input and returns the text with all of the **vowels removed**.
+* Define a function called `anti_vowel` that takes one string, `text`, as input and returns the text with all of the **vowels removed**.
 
 * For example: anti_vowel("Hey You!") should return "Hy Y!". Don't count Y as a vowel. Make sure to remove lowercase and uppercase vowels. 
 
@@ -746,7 +746,7 @@ Nice work. Next up: vowels!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* To check to see if **`c`** is a vowel, you can do: c in "aeiouAEIOU".
+* To check to see if `c` is a vowel, you can do: c in "aeiouAEIOU".
 
 
 **설명:** [ Learn ]       
@@ -825,7 +825,7 @@ For example: the word "Helix" would score 15 points due to the sum of the letter
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function **`scrabble_score`** that takes a string **`word`** as input and returns the **equivalent scrabble score** for that word.
+* Define a function `scrabble_score` that takes a string `word` as input and returns the **equivalent scrabble score** for that word.
 
 * Assume your input is only one word containing no spaces or punctuation.
 * As mentioned, no need to worry about score multipliers!
@@ -940,7 +940,7 @@ You're doing great with these string function challenges. Last one!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a function called **`censor`** that takes two strings, **`text`** and **`word`**, as input.     
+* Write a function called `censor` that takes two strings, `text` and `word`, as input.     
 * It should return the text with the word you chose **replaced with asterisks**.     
 For example:    
 ```python
@@ -1083,7 +1083,7 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function called **`count`** that has two arguments called **`sequence`** and **`item`**.
+* Define a function called `count` that has two arguments called `sequence` and `item`.
 
 * Return the number of times the item occurs in the list.
 
@@ -1115,8 +1115,8 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* You can set a **`sum`** variable inside count.     
-* You can then iterate over sequence and increment **`sum`** every time you find an element in the sequence that matches item.
+* You can set a `sum` variable inside count.     
+* You can then iterate over sequence and increment `sum` every time you find an element in the sequence that matches item.
 
 
 **설명:** [ Hint ]          
@@ -1183,7 +1183,7 @@ Awesome! Now let's practice filtering a list.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function called **`purify`** that takes in a list of numbers, **removes all odd numbers** in the list, and **returns the result**. For example, purify([1,2,3]) should return [2].
+* Define a function called `purify` that takes in a list of numbers, **removes all odd numbers** in the list, and **returns the result**. For example, purify([1,2,3]) should return [2].
 
 * Do not directly modify the list you are given as input; instead, return a new list with only the **even numbers**.
 
@@ -1202,7 +1202,7 @@ Awesome! Now let's practice filtering a list.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Your code should share something in common with the **`is_even`** function you defined earlier.
+* Your code should share something in common with the `is_even` function you defined earlier.
 
 
 **설명:** [ Hint ]     
@@ -1270,7 +1270,7 @@ Great! Now let's try a little multiplication.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a function called **`product`** that takes a list of integers as input and **returns** the product of all of the elements in the **list**. For example: product([4, 5, 5]) should return 100 (because 4 * 5 * 5 is 100).
+* Define a function called `product` that takes a list of integers as input and **returns** the product of all of the elements in the **list**. For example: product([4, 5, 5]) should return 100 (because 4 * 5 * 5 is 100).
 
 * Don't worry about the list being empty.
 * Your function should return an integer.
@@ -1294,7 +1294,7 @@ Great! Now let's try a little multiplication.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * You can use a loop to go through the elements of the list.
 
-* It'll probably be useful to use the **`*=`** operator.
+* It'll probably be useful to use the `*=` operator.
 
 * Be careful **not to start your total at 0**, as this would make the overall result of the multiplication equal to 0! (Anything multiplied by zero equals zero.)
 
@@ -1361,7 +1361,7 @@ Awesome! Now for something a bit trickier.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a function **`remove_duplicates`** that takes in a list and removes elements of the list that are the same.
+* Write a function `remove_duplicates` that takes in a list and removes elements of the list that are the same.
 
 * For example: remove_duplicates([1, 1, 2, 2]) should return [1, 2].
 
@@ -1498,7 +1498,7 @@ sorted([5, 2, 3, 1, 4])
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a function called **`median`** that takes a list as an input and **returns the median** value of the list.     
+* Write a function called `median` that takes a list as an input and **returns the median** value of the list.     
 * For example: median([1, 1, 2]) should return 1.
 
 * The list can be of any size and the numbers are not guaranteed to be in any particular order. Make sure to sort it!    
