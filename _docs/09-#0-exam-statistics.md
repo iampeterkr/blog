@@ -47,7 +47,7 @@ On the right, you'll see the `grades` listed (see what I did there). The data is
 • 당신은 숫자를 입력만 하면, 우리 프로그램이 모든것을 처리 할 것이다.    
 • 미니 프로젝트를 통하여 우리는 함수, 리스트, 수학적 공식을 프로그램화 하는것을 배운다.    
 • 우리 프로그램을 통하여 점수를 계산하기 위해선, 리스트 항목들이 필요하다.    
-• Edit 창에서 학생들의 개인적인 점수들이 리스트에 있는것을 볼수 있다.
+• Editor 창에서 학생들의 개인적인 점수들이 리스트에 있는것을 볼수 있다.
 {: .notice--info}
 
 
@@ -146,13 +146,14 @@ As a refresher, let's start off by writing a function to print out the list of g
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Need help with your for loop?    
+* Need help with your for loop?     
+
 ```python
 numbers = [2, 3, 5, 8, 13]
 
 for n in numbers:
   print n
-```
+```    
 
 **설명:** [ Hint ]          
 • for 문을 활용하여 반복(loop)한다. 
@@ -179,7 +180,7 @@ print_grades(grades)
 • 정의된 함수 print_grades(grades) 는 다음과 같이 동작한다.    
 • 이 함수는 입력값 grades_input 을 받은후, 해당 입력값의 항목값을 출력한다.       
 • for 문에서 입력값 리스트 grades_input 항목값을 추출하여, 변수 grade 에 저장한다.    
-• 변수 `grade`를 출력합니다.
+• 변수 grade 를 출력합니다.
 {: .notice--info}
 
 
@@ -299,7 +300,7 @@ Computing the sum manually involves computing a rolling sum. As you loop through
 
 
 **설명:** [ Learn ]          
-• Ch4. The sum of scores 에서는 성적을 출력과 전체합을 계산해주는 함수를 학습한다.    
+• Ch4. The sum of scores 에서는 성적 출력과 전체합을 계산해주는 함수를 학습한다.    
 • 이 두 함수는 평균 점수를 계산할때 필요하며, 아주 유용하다.    
 • Python 함수 sum() 을 사용하면 간단하다.   
 • 하지만, 우리는 수동 으로 sum(합)을 계산하는 함수를 만든다.   
@@ -326,7 +327,7 @@ Computing the sum manually involves computing a rolling sum. As you loop through
 
 **설명:** [ Learn ]          
 • 함수 grades_sum(scores) 를 작성하라.    
-• 이 함수는 입력값으로 리스트 `cores 를 가진다.   
+• 이 함수는 입력값으로 리스트 cores 를 가진다.   
 • 리스트의 점수들을 합하라.     
 • sum(합계)을 반환하라.   
 • 함수 grades_sum(grades) 를 호출후, 출력하라. 
@@ -369,7 +370,7 @@ print grades_sum(grades)
 ```
 
 **설명:** [ Solution ]          
-• 정의된 함수 grades_sum(scores): 는 다음과 같이 동작한다.    
+• 정의된 함수 grades_sum(scores): 은 다음과 같이 동작한다.    
 • 합계를 저장할 변수 total 을 0 으로 초기화 한다.    
 • for 문에서 입력받은 리스트 scores 에서 하나씩 값을 추출한다.    
 • 추출한 값을 변수 total 에 더한다.   
@@ -423,10 +424,10 @@ Call the newly created `grades_average` function with the list of grades and pri
 
 
 **설명:** [ Instruction ]          
-• 함수 grades_average() 밑에 함수 grades_sum(grades_input) 를 작성하라.     
+• 함수 grades_sum() 다음에, 함수 grades_average(grades_input) 를 작성하라.     
 • 함수는 입력값으로 grades_input 를 가진다.    
 • 함수 grades_sum(grades_input) 를 호출한다.    
-• 평균을 구하기 위하여 전체 합을 나눌때 'float(len(grades_input))' 으로 나눈다.    
+• 평균을 구하기 위하여 전체 합을 나눌때 float(len(grades_input)) 으로 나눈다.    
 • 평균값 average 를 반환(return)한다.    
 • 마지막으로, 함수 grades_average(grades) 를 호출 후 출력한다.
 {: .notice--info}
@@ -445,7 +446,8 @@ Call the newly created `grades_average` function with the list of grades and pri
 **설명:** [ Hint ]      
 • 함수 grades_average() 는 함수 len() 을 사용한다.    
 • 함수 grades_sum() 는 평균을 구한다.         
-• 정수로 나누면 정수가 반환되고, 실수로 나누면 실수가 반환된다. 우리는 실수로 나눌 것이다.
+• 정수로 나누면 정수가 반환되고, 실수로 나누면 실수가 반환된다.     
+• 우리는 실수로 나눌 것이다.
 {: .notice--info}
 
 <br>
@@ -481,7 +483,7 @@ print grades_average(grades)
 • 함수 grades_sum(grades_input) 를 호출한다.    
 • 호출후 결과값을 변수 sum_of_grades 에 저장한다.    
 • 변수 sum_of_grades 에 float(len(grades_input)) 을 나눈다.    
-• 나눈값을 변수 average 에 저장한다.
+• 나눈값을 변수 average 에 저장한다.     
 • 계산된 평균값 average 를 반환(return)한다.
 {: .notice--info}
 
@@ -580,7 +582,7 @@ A very large variance means that the students' grades were all over the place, w
 **설명:** [ Learn ]         
 • Ch7. The Variance  에서는 분산 프로그램을 학습한다.     
 • 성적들이 평균과 얼마나 떨어져 있는지를 살펴보자. 이것을 분산이라고 부른다.    
-• 평균에서 많이 떨어져 있다는 것은 학생들의 점수가 다양하게 넓게 흩어져 있다는 의미이다.    
+• 평균에서 많이 떨어져 있다는 것은 학생들의 점수가 다양하게 넓게 흩어져있다는 의미이다.    
 • 반대의 경우는 학생들의 점수가 좁게 분포되어 있다는 의미이다.  
 {: .notice--info}
 
@@ -671,9 +673,11 @@ print grades_variance(grades)
 • 변수 average 에 함수 grades_average(scores) 호출후 얻은 결과값을 저장한다.    
 • 변수 variance 은 0 으로 초기화 한다.   
 • for 문에서 입력값 리스트 scores 의 항목 값을 하나씩 추출후, 변수 score 에 저장한다.    
-• 평균에서 점수를 밴후, 제곱근 한다.( e.g. (average - score)** 2 )    
-• 변수 variance 에 추가한다. (e.g. variance += (average - score) ** 2)
-• for 문이 완료되면 변수 variance 에 len(scores) 를 나눈값을 반환(return)한다.
+• 평균에서 점수를 뺀후, 제곱근 한다.    
+• e.g. (average - score) ** 2     
+• 변수 variance 에 추가한다.    
+• e.g. variance += (average - score) ** 2    
+• for 문이 완료되면 변수 variance 에 len(scores) 를 나눈값을 반환(return)한다.    
 • 함수 grades_variance(grades) 를 호출후 출력한다.
 {: .notice--info}
 
@@ -700,9 +704,9 @@ The standard deviation is the square root of the variance. You can calculate the
 
 
 **설명:** [ Learn ]     
-• Ch8. Standard Deviation 에서는 '표준편차' 프로그램을 학습한다.    
+• Ch8. Standard Deviation 에서는 표준편차 프로그램을 학습한다.    
 • 분산(variance)에 이어, 우리가 연습할 것은 표준편차(Deviation) 이다.    
-• 표준편차는 분산을 square root(√, 양의 제곱근)한 것이다. 
+• 표준편차는 분산을 square root(√, 양의 제곱근)한 것이다.
 {: .notice--info}
 
 
@@ -786,7 +790,7 @@ print grades_std_deviation(variance)
 **설명:** [ Solution ]     
 • 정의된 함수 grades_std_deviation(variance) 는 다음과 같이 동작한다.    
 • 입력값 variance 를 가진다.    
-• 변수 'variance ** 0.5' 를 계산후 결과값을 반환(return)한다.    
+• 변수 variance ** 0.5 를 계산후 결과값을 반환(return)한다.    
 • 분산을 계산하는 함수 grades_variance(grades) 을 호출한다.     
 • 그 결과값을 외부 변수 variance 에 저장한다.    
 • 함수 grades_std_deviation(variance) 를 호출한다.    
@@ -822,7 +826,7 @@ Who needs to pay for grade calculation software when you can write your own? :)
 
 
 **설명:** [ Learn ]    
-• Ch9. Review 에서는 합, 평균, 분산, 표준편차 프로그램을 학습했다. 
+• Ch9. Review 에서는 합, 평균, 분산, 표준편차 프로그램을 학습했다.     
 • 이 장에서는 모든 통계값들을 출력해 보자.    
 {: .notice--info}
 
@@ -911,7 +915,8 @@ print grades_std_deviation(variance)
 ```
 
 **설명:** [ Solution ]     
-• 'for grade in grades:' 각 점수를 for문 통하여 출력한다.        
+• 각 점수를 for문 통하여 출력한다.        
+• e.g. for grade in grades:    
 • 점수 합    print grades_sum(grades)    
 • 평균 점수  print grades_average(grades)    
 • 분산 값    print grades_variance(grades)   
