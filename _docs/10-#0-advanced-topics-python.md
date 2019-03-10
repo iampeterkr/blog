@@ -582,7 +582,7 @@ print cubes_by_four
 **설명:** [ Solution ]     
 • 리스트 컴프레션을 사용하여 리스트 cubes_by_four를 작성한다.    
 • for 문에서, 1 부터 10 까지 숫자를 산출하여, 변수 x 에 저장한다.    
-• if 문에서, x 값을 세제곱한다. 그리고 4 로 나누어 떨어지는 비교하한다.    
+• if 문에서, x 값을 세제곱한다. 그리고 4 로 나누어 떨어지는 비교한다.    
 • if 문에서 True 인 x 값을, 맨앞 변수 x 에 저장한다.    
 • 맨앞 변수 x 를 세제곱한다.    
 • 세제곱한 변수 x 를 리스트 cubes_by_four 에 저장한다.    
@@ -627,7 +627,7 @@ Where start describes where the slice starts (inclusive), end is where it ends (
 • e.g. [시작:끝:간격]     
 • - 시작(start) : Slicing을 시작할 위치(포함)     
 • - 끝(end) : Slicing 끝낼 위치(포함하지 않음)    
-• - 간격(stride) : 시작을 포함하여 몇번째를 가져올지(옵션)
+• - 간격(stride) : 시작을 포함하여 몇번째를 가져올지(옵션)    
 • 시작은 해당값을 포함한다.    
 • 끝은 포함하지 않는다.     
 • 간격은 옵션이다. 시작을 포함하여 몇 번씩 가져올지를 나타낸다. 
@@ -729,9 +729,9 @@ The default stride is 1.
 • Ch8. Omitting Indices 에서는 리스트 슬라이싱 활용을 학습한다.    
 • 리스트에서 특정 index를 지정하지 못할 경우가 있다.    
 • 이런경우, 범위와 조건을 주어 리스트의 특정 값을 골라 낼수 있다.     
-• e.g. 'to_five[3:]' 는 index 3번(포함)부터 마지막(미포함)의 값을 골라 낸다.    
-• e.g. 'to_five[:2]' 는 처음(포함)부터 index 2번(미포함)까지의 값을 골라 낸다.   
-• e.g. 'to_five[::2]'는 처음(포함)부터 마지막(미포함)까지의 값중, 하나씩 건너 뛰면서 골라낸다.   
+• e.g. to_five[3:] 는 index 3번(포함)부터 마지막(미포함)의 값을 골라 낸다.    
+• e.g. to_five[:2] 는 처음(포함)부터 index 2번(미포함)까지의 값을 골라 낸다.   
+• e.g. to_five[::2] 는 처음(포함)부터 마지막(미포함)까지의 값중, 하나씩 건너 뛰면서 골라낸다.   
 • index는 0 부터 시작한다.    
 {: .notice--info}
 
@@ -763,6 +763,7 @@ The default stride is 1.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Remember, the syntax for list slicing is    
+
 ```python
 [start:end:stride]
 ```    
@@ -770,8 +771,8 @@ The default stride is 1.
 
 
 **설명:** [ Hint ]    
-• [start(처음):end(마지막):stride(조건, 옵션)]        
-• 처음과 마지막은 빈칸이란 의미는 전체를 사용해야 한다. (e.g. [ : : stride])
+• [start(처음) : end(마지막) : stride(조건, 옵션)]        
+• 처음과 마지막은 빈칸이란 의미는 전체를 사용해야 한다. (e.g. [ : : stride])    
 • 홀수만 추출해야 하기에, 옵션인 조건(stride) 이 필요하다.
 {: .notice--info}
 
@@ -793,9 +794,10 @@ print my_list[::2]
 • 1부터 10 까지의 정수를 생성한다.    
 • 리스트 my_list 에 [ 1,2,3,4,5,6,7,8,9,10 ] 를 저장한다.    
 • 리스트 my_list[::2] 를 출력한다.    
-• 출력조건은 다음과 같다.    
+• 출력 조건은 다음과 같다.    
 • index 처음(0)부터 끝(9)까지 추출한다.    
-• 첫번째(index : 0)는 포함, 마지막은(index : 10) 미포함.    
+• 첫번째(index : 0)는 포함,    
+• 마지막은(index : 10) 미포함.    
 • 옵션은 1칸씩 건너뛴다.     
 • e.g. my_list=[1,2,3,4,5,6,7,8,9,10]    
 • e.g. index -> 0,1,2,3,4,5,6,7,8, 9, 10(Null) 
@@ -862,8 +864,9 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 ```python
 list_reverse[::-1] # reverse
-```    
-Do not print `backwards`
+```     
+
+* Do not print `backwards`
 
 **설명:** [ Hint ]    
 • 리스트 옵션의 ( -1 ) 값은 리스트를 역순으로 슬라이싱 한다.    
@@ -889,7 +892,7 @@ backwards = my_list[::-1]
 • 리스트 my_list 에 1번(포함)부터 11번(미포함)까지의 값을 저장한다.    
 • 리스트 my_list 를 오른쪽부터 읽어서 리스트 backwards 에 저장한다.    
 • 리스트 backwards 에는 [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 이 저장된다.    
-• 궁금하면, 살짝 'print (backwards) 를 코딩하고, 실행 시켜 본다.    
+• 궁금하면, 살짝 print (backwards) 를 코딩하고, 실행 시켜 본다.    
 {: .notice--info}
 
 
@@ -920,7 +923,8 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 • 양수이면 왼쪽에서 오른쪽으로 진행한다.    
 • 음수이면 오른쪽에서 왼쪽으로 진행한다.     
 • 옵션(stride)의 값에 따라, 1이면 1칸씩 , 2이면 두칸씩 건너뛴다.     
-• 1 에서 2로 가는것은 1칸씩 건너뛰는 것이다. 1에서 3으로 가는것은 2칸씩 건너뛰는 것이다.
+• 1 에서 2로 가는것은 1칸씩 건너뛰는 것이다.    
+• 1 에서 3으로 가는것은 2칸씩 건너뛰는 것이다.
 {: .notice--info}
 
 
@@ -947,15 +951,16 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, the syntax is:
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)        
+* Remember, the syntax is:      
+
 ```python
 new_list = old_list[begin:end:stride]
 ```
 
 **설명:** [ Hint ]    
 • 리스트 슬라이싱 old_list[begin:end:stride] 를 활용하라.    
-• stride 값으로 역순이고, 10칸씩 건너뛰는 것은 '-10' 이다.
+• stride 값으로 역순이고, 10칸씩 건너뛰는 것은 -10 이다.
 {: .notice--info}
 
 <br>
@@ -971,12 +976,12 @@ to_one_hundred = range(101)
 
 backwards_by_tens = to_one_hundred[::-10]
 print backwards_by_tens
-```
+```    
 
 **설명:** [ Solution ]     
 • 리스트 to_one_hundred 에 0(포함)부터 101(미포함)까지 값을 생성하여 저장한다.    
-• 리스트 to_one_hundred[::-10] 은 역순으로 10칸씩 건너뛰는 것이다.    
-• [100,99,98,97,96,....,0] 중 10칸씩 건너뛰면, [100, 90, 80, ...., 0]    
+• 리스트 to_one_hundred[ : : -10] 은 역순으로 10칸씩 건너뛰는 것이다.    
+• [100, 99, 98, 97, 96,....,0] 중 10칸씩 건너뛰면, [100, 90, 80, ...., 0]    
 • 리스트 backwards_by_tens 를 출력한다.
 {: .notice--info}
 
@@ -1104,15 +1109,15 @@ When we pass the lambda to filter, filter uses the lambda to determine what to f
 
 
 **설명:** [ Learn ]      
-• Ch12. Anonymous Functions 에서는 람다(lambda)를 학습한다.    
+• Ch12. Anonymous Functions 에서는 람다(**lambda**)를 학습한다.    
 • Python의 특징중 하나가, 변수나 값을 넘기듯이 함수 자체를 넘길수 있다는 것이다.    
 • 이는 모든 언어에서 지원하는 것은 아니고, Python에서는 이 기능을 지원한다.    
-• Python의 특징중, 독특한 것이 하나 있는데, `lambda`라는 것이다.    
-• 함수 `lambda` 는 함수의 이름을 호출하지 않고도 anonymous(익명)함수를 만들어 동작한다.    
+• Python의 특징중, 독특한 것이 하나 있는데, lambda 라는 것이다.    
+• 함수 lambda 는 함수의 이름을 호출하지 않고도 anonymous(익명)함수를 만들어 동작한다.    
 • 다음 장에서 함수 lambda 에 대한 자세한 문법을 배울것이다.     
 • 함수 lambda 는 다음과 같이 동작한다.    
 • 입력값을 인자에 넘겨(필터링 한다고 표현), 표현식을 진행하고 그 결과값을 다시 돌려받는다.    
-• 함수 lambda 의 두번째 인수는 입력값 이다.  
+• 함수 lambda 의 두번째 인수는 입력값 이다.
 {: .notice--info}
 
 
@@ -1215,7 +1220,7 @@ If you plan on creating a function you'll use over and over, you're better off u
 **설명:** [ Instruction ]    
 • filter 첫번째 항목에 함수 lambda 를 작성하라.    
 • 함수 lambda 는 다음과 같이 동작한다.    
-• 변수 x 가 입력된 리스트중 문자열값이 "Python" 과 같으면 그 결과를 반환한다.    
+• 변수 x 가 입력된 리스트중 문자열값이 Python 과 같으면 그 결과를 반환한다.    
 • filter 두번째 항목에 입력될 리스트를 넣어라.
 {: .notice--info}
 
@@ -1231,9 +1236,9 @@ If you plan on creating a function you'll use over and over, you're better off u
 **설명:** [ Hint ]    
 • 함수 filter() 는 2개의 arguments 를 가진다.     
 • 첫번째 인자는 필터링할 내용을 적어준다.    
-• e.g. ( lambda x:x=="Python" )    
+• e.g. lambda x : x == "Python"    
 • 두번째 인자는 필터링할 대상, 입력값을 적어준다.    
-• e.g. ( 입력값 리스트 'languages')를 적어준다.
+• e.g. 입력값 리스트 languages 를 적어준다.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1247,9 +1252,9 @@ print filter(lambda x: x == "Python", languages)
 ```
 
 **설명:** [ Solution ]     
-• 함수 filter() 에서 는 입력값이 문자열 "Python" 인것을 추출한다.    
+• 함수 filter() 에서 는 입력값이 문자열 Python 인것을 추출한다.    
 • 함수 filter() 는 2개의 arguments 를 가지며, 다음과 같이 동작한다.    
-• 첫번째 argument : 함수 lambda 를 실행시켜 변수 x 가 "Python" 인것만 반환한다.   
+• 첫번째 argument : 함수 lambda 를 실행시켜 변수 x 가 Python 인것만 반환한다.   
 • 두번째 인자에는 입력값 리스트 languages 를 넣어준다.   
 • filtering 된 결과값을 출력한다.
 {: .notice--info}
@@ -1304,7 +1309,7 @@ The example above is just a reminder of the syntax.
 • 리스트 squares 에 이 값을 저장한다.    
 • filter()에서 lambda 를 사용하여 filtering 한다.    
 • 첫번째 argument : lambda 조건은 입력값 중 30 이상 70 이하의 값을 추출한다.    
-• 두번째 argument : 입력값은 리스트 squares 를 입력받는다.
+• 두번째 argument : 입력값은 리스트 squares 를 입력받는다.     
 • filtering 한 결과를 출력하라.
 {: .notice--info}
 
@@ -1315,12 +1320,13 @@ The example above is just a reminder of the syntax.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * You'll want to filter for     
+
 ```python
 x >= 30 and x <= 70.
-```
+```    
 
 **설명:** [ Hint ]    
-• lambda 조건식을 ( x >=30 and x <= 70)을 활용하라.
+• lambda 조건식을 ( x >=30 and x <= 70 )을 활용하라.
 {: .notice--info}
 
 
@@ -1344,7 +1350,7 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 • 리스트 squares 에 산출한 값을 저장한다.    
 • lambda를 사용하여 다음과 같이 filter() 한다.    
 • 첫번째 argument : lambda 에서 변수 x 가 30 이상 & 70 이하인 조건만 추출한다.    
-• 두번째 argument : 입력값으로 리스트 squares 를 입력 받는다.
+• 두번째 argument : 입력값으로 리스트 squares 를 입력 받는다.      
 • filter() 결과값을 출력한다. 
 {: .notice--info}
 
@@ -1472,9 +1478,11 @@ squares = [x ** 2 for x in range(5)]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Remember, list comprehension syntax looks like this:    
+
 ```python
 list_name = [var for var in range]
 ```    
+
 * You can include an optional `if` statement after the range. (You'll need such an `if` statement to check whether the numbers are evenly divisible by 3 or 5.)    
 
 * Remember, modulo (`%`) is a good way to check if a number is evenly divisible by another.
@@ -1483,11 +1491,11 @@ list_name = [var for var in range]
 
 
 **설명:** [ Hint ]    
-• 리스트 컴프레션을 이용하여 작성하여야 한다.
-• for 문에서 함수 range() 로 구한 값 만큼 looping(반복)한다.    
+• 리스트 컴프레션을 이용하여 작성하여야 한다.     
+• for 문에서 함수 range() 로 구한 값 만큼 loop(반복)한다.    
 • for 문 블럭에서 다음과 같이 동작한다.    
-• if 문과 모듈연산자 ( % ) 를 이용하여 3 or 5로 나누어 지는 값을 구한다.     
-• 출력할 필요는 없지만, print문을 사용하여 확인해 보는것도 좋다. 
+• if 문과 모듈 연산자 ( % ) 를 이용하여 3 or 5로 나누어 지는 값을 구한다.     
+• 출력할 필요는 없지만, print문을 사용하여 확인해 보는것도 좋다.
 {: .notice--info}
 
 <br>
@@ -1511,7 +1519,7 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 • 변수 x 가 3 or 5 로 나누어 떨어지는지 확인한다.     
 • True 인 경우만, 맨앞 변수 x 저장된다.    
 • 리스트 threes_and_fives 에 변수 x 값이 저장된다.   
-• 변수 threes_and_fives 를 출력하면 '[3,5,6,9,10,12,15]'가 출력할 것이다.
+• 변수 threes_and_fives 를 출력하면 [3, 5, 6, 9, 10, 12, 15] 가 출력할 것이다.
 {: .notice--info}
 
 
@@ -1530,6 +1538,7 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 ### 17. List Slicing    
 
 Great! Next up: list slicing.    
+
 ```python
 str = "ABCDEFGHIJ"
 start, end, stride = 1, 6, 2
@@ -1557,9 +1566,9 @@ You can think of a Python string as a list of characters.
 
 * The string in the editor is garbled in two ways:
 
-* Our message is backwards.
-* The letter we want is every other letter.    
-* Use list slicing to extract the message and save it to a variable called message.
+  * Our message is backwards.
+  * The letter we want is every other letter.    
+  * Use list slicing to extract the message and save it to a variable called message.
 
 
 
@@ -1589,8 +1598,8 @@ my_string = my_string[:-7]
 
 **설명:** [ Hint ]    
 • 역순으로 읽는 법은 ( - ) 옵션을 준다.    
-• index -7부터 읽는 방법은 my_string[:-7] 이다.    
-• 역순 index도 0부터 -1, -2 씩으로 읽는다.
+• index -7 부터 읽는 방법은 my_string[ : -7] 이다.    
+• 역순 index도 0 부터 -1, -2 씩으로 읽는다.
 {: .notice--info}
 
 <br>
@@ -1611,9 +1620,9 @@ message = garbled[::-2]
 
 **설명:** [ Solution ]     
 • -2 값은 역순으로 -2 칸씩을 건너 뛰는 것이다.     
-• 시작하는 첫번째 글자는 포함하기에 문자열 "I" 는 출력된다.    
+• 시작하는 첫번째 글자는 포함하기에 문자열 I 는 출력된다.    
 • -2 칸씩 건너뛰기에, I 찍고, X 건너뛰고, " "찍고, X건너뛰고, a찍고,.....     
-• 마지막에 !를 찍는다.    
+• 마지막에 ! 를 찍는다.    
 • 만약, print문을 실행해 보면, 다음과 같이 결과가 나올 것이다.  
 {: .notice--info}
 
@@ -1664,7 +1673,7 @@ We've given you another (slightly different) garbled. Sort it out with a `filter
 **설명:** [ Instruction ]    
 • 변수 message 를 생성하라.         
 • filter() 와  lambda 를 사용하여라.    
-• Arguments 첫번째는 입력값에 문자열 "X"를 제거한다.    
+• Arguments 첫번째는 입력값에 문자열 X 를 제거한다.    
 • Arguments 두번째는 입력값으로 리스트 garbled 를 입력받는다.    
 • Filter() 된 값을 변수 message 에 저장한다.      
 • 변수 message 값을 출력하라. 
@@ -1676,17 +1685,20 @@ We've given you another (slightly different) garbled. Sort it out with a `filter
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Remember, a lambda expression looks like this:    
+* Remember, a lambda expression looks like this:   
+
 ```python
 lambda variable: variable expression
 ```    
-For example, you might have    
+
+* For example, you might have    
+
 ```python
 lambda x: x != 10
 ```
 
 **설명:** [ Hint ]    
-• 함수 lambda 사용법은 다음과 같이 연산자 ( != ) 를 사용할수 있다.    
+• 함수 lambda 사용법은 다음과 같이 연산자 ( != ) 를 사용할 수 있다.    
 • e.g. lambda x: x != 10     
 • 변수 x 가 10 이 아닌 값이 변수 x 에 저장된다.
 {: .notice--info}
@@ -1707,7 +1719,7 @@ print message
 
 **설명:** [ Solution ]     
 • filter()는 lambda 를 사용하여 다음과 같은 입력값을 받는다.    
-• Argument 첫번째는 변수 x 가 문자열 "X" 가 아닌 값을 저장한다.     
+• Argument 첫번째는 변수 x 가 문자열 X 가 아닌 값을 저장한다.     
 • Argument 두번째는 입력값으로 리스트 garbled 를 입력받는다.    
 • filter() 된 결과를 변수 message 에 저장한다.     
 • 변수 message 를 출력한다.

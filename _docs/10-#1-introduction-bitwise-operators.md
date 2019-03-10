@@ -54,7 +54,7 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 
 
 **설명:** [ Instruction ]    
-• 6 개의 bit 연산자를 실행후, 각각 어떻게 동작되는지를 설명해 보자.
+• 6 개의 bit 연산자를 실행후, 각각 어떻게 동작 되는지를 설명해 보자.
 {: .notice--info}
 
 
@@ -89,7 +89,7 @@ print ~88     # Bitwise NOT
 ```
 
 **설명:** [ Solution ]     
-• bit 연산자는 6 종류가 있다.     
+• Bit 연산자는 6 종류가 있다.     
 • 그런데, 어떻게 계산하는지 잘 모르겠다. 다음장 부터 차근차근 학습해 보자.    
 • 단, bit 연산자는 6 종류가 있다는것만 기억하고 있자.
 {: .notice--info}
@@ -196,15 +196,15 @@ print 0b11 * 0b11
 
 **설명:** [ Solution ]     
 • 2 진수 자리수는 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024,...늘어난다.    
-• 1 번째 자리에 bit 값이 있으면 ( 0b1 )      십진수 1 이다.     
-• 2 번째 자리에 bit 값이 있으면 ( 0b10 )     십진수 2 이다.     
-• 1, 2 번째 자리에 bit 값이 있으면 ( 0b11 )  십진수 3 이다.     
-• 3 번째 자리에 bit 값이 있으면 ( 0b100 )    십진수 4 이다.     
-• 1, 3 번째 자리에 bit 값이 있으면 ( 0b101 ) 십진수 5 이다.     
-• 2, 3 번째 자리에 bit 값이 있으면 ( 0b110 ) 십진수 6 이다.     
-• 1,2,3번째 자리에 bit 값이 있으면 ( 0b111 ) 십진수 7 이다.     
-• 이진수 ( 0b1  +  0b11 )                십진수 4 이다.     
-• 이진수 ( 0b11 *  0b11 )                십진수 9 이다.     
+• 1 번째 자리에 bit 값이 있으면  0b1      십진수 1 이다.     
+• 2 번째 자리에 bit 값이 있으면  0b10     십진수 2 이다.     
+• 1, 2 번째 자리에 bit 값이 있으면  0b11  십진수 3 이다.     
+• 3 번째 자리에 bit 값이 있으면  0b100   십진수 4 이다.     
+• 1, 3 번째 자리에 bit 값이 있으면  0b101  십진수 5 이다.     
+• 2, 3 번째 자리에 bit 값이 있으면  0b110  십진수 6 이다.     
+• 1,2,3번째 자리에 bit 값이 있으면  0b111  십진수 7 이다.     
+• 이진수  0b1  +  0b11                 십진수 4 이다.     
+• 이진수  0b11 *  0b11                 십진수 9 이다.     
 {: .notice--info}
 
 
@@ -265,7 +265,7 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 
 **설명:** [ Instruction ]    
-• Edit창에서 변수 twelve 에 값을 채워 넣어라.    
+• Editor 창에서 변수 twelve 에 값을 채워 넣어라.    
 • 2 진수 형식은 ( 0bxx ) 이다. 
 {: .notice--info}
 
@@ -354,7 +354,7 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 
 **설명:** [ Instruction ]    
-• 함수 bin() 를 사용하여 정수 2 부터 5 까지를 출력하라.
+• 함수 bin() 를 사용하여 정수 2 부터 5 까지를 출력하라.     
 • 각 라인마다 출력하라.
 {: .notice--info}
 
@@ -450,7 +450,7 @@ When given a string containing a number and the base that number is in, the func
 
 **설명:** [ Instruction ]     
 • Editor 화면에는 몇개의 함수 int()를 사용한 예제들이 있다.    
-• 라인 7에서, 2진수 11001001 을 함수 int() 를 사용하여 10진수로 변경후 출력하라.
+• 라인 7에서, 2진수 0b11001001 을 함수 int() 를 사용하여 10진수로 변경후 출력하라.
 {: .notice--info}
 
 
@@ -474,11 +474,11 @@ When given a string containing a number and the base that number is in, the func
 
 
 ```python
-print int("1",2)
-print int("10",2)
-print int("111",2)
-print int("0b100",2)
-print int(bin(5),2)
+print int("1", 2)
+print int("10", 2)
+print int("111", 2)
+print int("0b100", 2)
+print int(bin(5), 2)
 # Print out the decimal equivalent of the binary 11001001.
 print int("11001001", 2)
 ```
@@ -541,8 +541,8 @@ Note that you can only do bitwise operations on an **integer** Trying to do them
 
 **설명:** [ Learn ]     
 • Ch6. Slide to the Left! Slide to the Right! 에서는 시프트 연산을 학습한다.    
-• Bit를 왼쪽으로 한칸 옮기면 2를 곱하는 효과가 있다.    
-• Bit를 오른족으로 한칸 옮기면 2로 나누는 효과가 있다.    
+• Bit 를 왼쪽으로 한칸 옮기면 2를 곱하는 효과가 있다.    
+• Bit 를 오른족으로 한칸 옮기면 2로 나누는 효과가 있다.    
 • Bit 연산자는 int(정수)만 가능하다.    
 • 문자열, 실수 등은 아무런 반응이 없다.
 {: .notice--info}
@@ -558,8 +558,8 @@ Note that you can only do bitwise operations on an **integer** Trying to do them
 
 
 **설명:** [ Instruction ]    
-• 변수 shift_right 에는 ( >>2 ) 를 하라.(오른쪽으로 2칸 시프트)    
-• 변수 shift_left  에는 ( <<2 ) 를 하라.(왼쪽으로 2칸 시프트)    
+• 변수 shift_right 에는 ( >> 2 ) 를 하라.( 오른쪽으로 2칸 시프트 )    
+• 변수 shift_left  에는 ( << 2 ) 를 하라.( 왼쪽으로 2칸 시프트 )    
 • 출력이 어떻게 될지 생각해 보자. 
 {: .notice--info}
 
@@ -596,12 +596,12 @@ print bin(shift_left)
 ```
 
 **설명:** [ Solution ]     
-• 변수 shift_right 는 오른쪽으로 bit를 2칸 이동한후 저장한다.    
-• 그 결과는 ( 0b11 ) 이다.    
+• 변수 shift_right 는 오른쪽으로 bit 를 2칸 이동한후 저장한다.    
+• 그 결과는 0b11 이다.    
 • 나누기 2를 2번 한 효과가 나타난다.    
-• 변수 shift_left 는 왼쪽으로 bit를 2칸 이동한후 저장한다.    
-• 그 결과는 ( 0b100 ) 이다.    
-• 곱하기 2를 2번 한 효과가 나타난다.         
+• 변수 shift_left 는 왼쪽으로 bit 를 2칸 이동한후 저장한다.    
+• 그 결과는 0b100 이다.    
+• 곱하기 2 를 2 번 한 효과가 나타난다.         
 • 변수 shift_right, shift_left 를 출력한다.
 {: .notice--info}
 
@@ -744,7 +744,7 @@ Meaning
 
 **설명:** [ Learn ]     
 • Ch8. A BIT of This OR That  에선ㄴ OR 비트 연산을 학습한다.    
-• OR (|) 연산자는 두 수 a, b 를 비교하여, 비트값이 하나라도 1이면 값 1 을 반환한다.    
+• OR ( | ) 연산자는 두수 a, b 를 비교하여, 비트값이 하나라도 1이면 값 1 을 반환한다.    
 • 값 a, b 모두 0 이면 0 을 반환한다. 
 {: .notice--info}
 
@@ -760,8 +760,8 @@ Meaning
 
 
 **설명:** [ Instruction ]    
-• OR (|) 연산자를 사용하여 0b1110 과 0b101 을 계산하라.   
-• OR (|) 연산자를 사용하지 않고 한번 해보세요.(And 연산자로 실행해 보아라) 
+• OR ( | ) 연산자를 사용하여 0b1110 과 0b101 을 계산하라.   
+• OR ( | ) 연산자를 사용하지 않고 한번 해보세요.( And 연산자로 실행해 보아라. ) 
 {: .notice--info}
 
 
@@ -774,7 +774,7 @@ Meaning
 
 
 **설명:** [ Hint ]     
-• AND(&) 연사자 대신에 OR(|) 연산자를 사용한다. 
+• AND( & ) 연사자 대신에 OR( | ) 연산자를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -789,9 +789,9 @@ print bin(0b1110 | 0b101)
 ```
 
 **설명:** [ Solution ]     
-• 0b1110 과 0b101을 OR (|) 연산자로 계산한다.    
+• 0b1110 과 0b101을 OR ( | ) 연산자로 계산한다.    
 • 0b1110 | 0b101 계산하면 0b1011이 된다.    
-• 그 결과값을 2진수 함수 bin()을 호출후 출력한다.
+• 그 결과값을 2진수 함수 bin() 을 호출후 출력한다.
 {: .notice--info}
 
 
@@ -835,7 +835,7 @@ Therefore:
 
 **설명:** [ Learn ]     
 • Ch9. This XOR That? 에서는 XOR 비트 연산을 학습한다.       
-• XOR(^)는 두 수 a, b 의 값이 같으면 0 을 반환한다.    
+• XOR( ^ )는 두 수 a, b 의 값이 같으면 0 을 반환한다.    
 • 두 수 a, b 중 하나라도 틀리면, 1 을 반환한다. 
 {: .notice--info}
 
@@ -850,8 +850,8 @@ Therefore:
 
 
 **설명:** [ Instruction ]    
-• XOR(^) 연산자를 사용하여 0b1110 과 0b101을 계산하라.        
-• XOR(^) 연산자 없이 한번 시도해 보시오.(OR 연산자로 한번 해보라.)
+• XOR( ^ ) 연산자를 사용하여 0b1110 과 0b101을 계산하라.        
+• XOR( ^ ) 연산자 없이 한번 시도해 보시오.( OR 연산자로 한번 해보라. )
 {: .notice--info}
 
 
@@ -864,7 +864,7 @@ Therefore:
 
 
 **설명:** [ Hint ]     
-• 기존 소스에서 OR(|) 대신에 AND(^) 를 넣으면 된다. 
+• 기존 소스에서 OR( | ) 대신에 XOR( ^ ) 를 넣으면 된다. 
 {: .notice--info}
 
 <br>
@@ -879,8 +879,8 @@ print bin(0b1110 ^ 0b101)
 ```
 
 **설명:** [ Solution ]     
-• 0b1110 과 0b101을 XOR(^) 연산자를 하면, 같은 자리의 숫자가 같으면 0을 반환한다.   
-• 0b1110 ^ 0b101 계산하면 0b1011이 된다.     
+• 0b1110 과 0b101을 XOR( ^ ) 연산자를 하면, 같은 자리의 숫자가 같으면 0을 반환한다.   
+• 0b1110 ^ 0b101 계산하면 0b1011 이 된다.     
 • 그 결과값을 2진수 함수 bin() 을 사용하여 출력한다.
 {: .notice--info}
 
@@ -908,7 +908,7 @@ And with that, you've seen all of the basic bitwise operators! We'll see what we
 
 **설명:** [ Learn ]     
 • Ch10. See? This is NOT That Hard! 에서는 Not 비트 연산을 학습한다.       
-• NOT (~)은 반대 값을 출력한다.    
+• NOT ( ~ )은 반대 값을 출력한다.    
 • 0 은 1 을 출력하고, 1 은 0 을 출력한다.  
 {: .notice--info}
 
@@ -957,7 +957,7 @@ print ~123
 **설명:** [ Solution ]     
 • 1 의 2 진수는 0b01 이고, ~ 는 첫째 bit에 1을 더한 값 0b10 이다.    
 • 0b11의 정수값은 2이고, ~ 이기에 - 값을 붙인다. 즉 -2 이다.     
-• 2의 2진수는 0b10이고, ~ 는 첫째 bit에 1을 더한 값 0b11 이다. 
+• 2의 2진수는 0b10이고, ~ 는 첫째 bit에 1을 더한 값 0b11 이다.      
 • 0b11의 정수값은 3이고, ~ 이기에 - 값을 붙인다. 즉 -3 이다.    
 • 이와 같이 ~3 은 -4 가 출력된다.    
 • ~42는 -43 이 출력된다.    
@@ -1036,8 +1036,8 @@ In the example above, we want to see if the third bit from the right is on.
 **설명:** [ Instruction ]    
 • 함수 check_bit4(input) 을 작성하라.        
 • 함수는 입력한 2 진수의 4번째 bit 값이 1 이면 "on" 을 반환한다.    
-• 입력한 4번째의 bit 값이 0 이면 "off" 를 반환한다.
-• 함수만 구현하고, 출력하는 함수 호출은 하지 않는다.   
+• 입력한 4번째의 bit 값이 0 이면 "off" 를 반환한다.     
+• 함수만 구현하고, 출력하는 함수 호출은 하지 않는다.
 {: .notice--info}
 
 
@@ -1047,6 +1047,7 @@ In the example above, we want to see if the third bit from the right is on.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Here are some examples:      
+
 ```python
 check_bit4(0b1) # ==> "off"
 check_bit4(0b11011) # ==> "on"
@@ -1083,8 +1084,8 @@ def check_bit4(input):
 • 입력받은 input 과 mask 값을 AND 연산을 한다.    
 • mask 가 4번째 bit 가 1 인 경우에만 정수값 8(0b1000)이상이 생성된다.    
 • 그 결과값을 desired 에 저장한다.   
-• desired 가 0보다 큰 경우(4번째 bit가 1 인 경우) "on" 을 반환한다.     
-• desired 가 0보다 작은 경우 "off" 를 반환한다.    
+• desired 가 0보다 큰 경우(4번째 bit가 1 인 경우) on 을 반환한다.     
+• desired 가 0보다 작은 경우 off 를 반환한다.    
 • print check_bit4(0b1010) 을 입력값이 정상적으로 실행되는지 확인한다.
 {: .notice--info}
 
@@ -1116,9 +1117,9 @@ Using the bitwise `OR(|)` operator will turn a corresponding bit on if it is off
 
 **설명:** [ Learn ]     
 • Ch12. Turn It On 에서는 비트 Mask 연습을 학습한다.       
-• OR(|) 연산자를 사용하여 bit mask 를 만들 수 있다.    
-• OR(|) 연산자는 두 수의 계산값중 하나라도 1이면 결과값이 1이된다.    
-• OR(|) bit mask 는 off 되어 있는 bit, 0 을 on, 즉 1로 만들어 준다.    
+• OR ( | ) 연산자를 사용하여 bit mask 를 만들 수 있다.    
+• OR ( | ) 연산자는 두 수의 계산값중 하나라도 1이면 결과값이 1이된다.    
+• OR ( | ) bit mask 는 off 되어 있는 bit, 0 을 on, 즉 1로 만들어 준다.    
 • 이미 on, bit 1은 on 되어 있는것은 on으로 유지한다. 
 {: .notice--info}
 
@@ -1171,7 +1172,7 @@ print bin(desired)
 
 **설명:** [ Solution ]     
 • 3번째 bit가 1 인 변수 mask = 0b1000 을 만든다.        
-• 변수 a 와 mask 를 OR (|) 연산을 한다.    
+• 변수 a 와 mask 를 OR ( | ) 연산을 한다.    
 • 그 결과를 변수 desired 에 저장한다.    
 • 변수 desired 를 bin(desired) 로 변환후 출력한다.
 {: .notice--info}
@@ -1206,7 +1207,7 @@ desired =  a ^ mask # 0b1
 
 **설명:** [ Learn ]     
 • Ch13. Just Flip Out 에서는 XOR 을 활용한 비트 Mask를 학습한다.    
-• XOR (^) 연산자는 두 수가 같으면 0, 틀리면 1 을 반환한다.   
+• XOR ( ^ ) 연산자는 두 수가 같으면 0, 틀리면 1 을 반환한다.   
 • 변수 a 에 mask = 0b111 을 XOR 연산해 주면, 두수가 같으면 0, 틀리면 1을 반환한다.
 {: .notice--info}
 
@@ -1257,7 +1258,7 @@ print bin(desired)
 
 **설명:** [ Solution ]     
 • 변수 a 의 2진수 값 길이만큼 변수 mask 에 2진수 1을 채운다.    
-• 변수 a 와 변수 mask 를 XOR (^) 계산한다.    
+• 변수 a 와 변수 mask 를 XOR ( ^ ) 계산한다.    
 • 계산 결과값을 변수 desired 에 저장한다.    
 • 변수 desired 를 함수 bin(desired) 로 출력한다.     
 • 함수 bin(desired)를 사용하지 않으면 정수로 출력된다.
@@ -1345,8 +1346,8 @@ We use 9 because we only need to slide the mask nine places over from the first 
 **설명:** [ Hint ]     
 • ( << )  연산자를 사용하여, 원하는 곳까지 이동(slide) 시켜라.    
 • 그리고 원하는 bit 를 반전 시키기 위하여 ( ^ ) 를 사용하여 연산하라.    
-• 기본 bit는 ( 0b1 ) 이다.    
-• ( 0b ) 을 10번째 bit로 옮기고 싶으면 ' <<(10번째 -1) ' 로 코딩해야 한다.    
+• 기본 bit는  0b1  이다.    
+• 0b1 을 10번째 bit로 옮기고 싶으면  `<< (10번째 -1)` 로 코딩해야 한다.    
 • 함수 flip_bit() 를 호출후, 출력은 하지마라.
 {: .notice--info}
 
@@ -1371,7 +1372,7 @@ def flip_bit(number, n):
 **설명:** [ Solution ]     
 • 입력값 parameter 변수 number 에 옮길 정수값을 입력한다.    
 • 입력값 parameter 변수 n 에 1로 셋팅하길 원하는 bit의 위치를 입력한다.    
-• 비트 '0b1' 을 (n-1) 만큼 << 왼쪽 으로 보낸다.(3번째는 시프트 2를 해야 한다.)    
+• 비트 0b1 을 (n-1) 만큼 << 왼쪽 으로 보낸다.(3번째는 시프트 2를 해야 한다.)    
 • 변수 bit_to_flip 에 시프트 된 결과값을 저장한다.    
 • 변수 result 에 변수 number ^ bit_to_flip 를 XOR 연산을 한다.    
 • e.g.       number : 0b10    
