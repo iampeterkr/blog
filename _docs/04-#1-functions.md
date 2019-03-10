@@ -313,7 +313,7 @@ square(10)
 **설명:** [ Solution ]   
 • 함수 square(n) 를 정의한다.     
 • 함수 square(n) 는 parameter 값으로 n 을 입력 받는다.     
-• 함수 square(n) 는 입력 받은 값 n 을 제곱근 한다.    
+• 함수 square(n) 는 입력 받은 값 n 을 제곱 한다.    
 • 함수 square(n) 는 입력값 n 과 결과값 squared 를 출력한다.    
 • 함수 square(n) 는 결과값 squared 를 반환한다.
 {: .notice--info}
@@ -421,7 +421,7 @@ power(37, 4)  # Add your arguments here!
 • 함수 power(37,4) 에 2개의 arguments로 37, 4를 입력하여 호출한다.    
 • 함수 power(base, exponent) 에 정의된 parameter 에 값이 전달된다.    
 • 파라미터 base=37, exponent=4 에 값이 전달된다.     
-• 거듭 제곱근 공식인 37 ** 4 의 결과값이 출력된다.
+• 거듭 제곱 공식인 37 ** 4 의 결과값이 출력된다.
 {: .notice--info}
 
 

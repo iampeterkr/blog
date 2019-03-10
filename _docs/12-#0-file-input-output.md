@@ -91,7 +91,7 @@ f.close()
 ```
 
 **설명:** [ Solution ]     
-• 리스트 my_list 에 list comphresion을 이용하여 1부터 10까지의 제곱근을 구한다.    
+• 리스트 my_list 에 list comphresion을 이용하여 1부터 10까지의 제곱을 구한다.    
 • 파일 output.txt 파일을 쓰기 모드로 연다.     
 • 그리고 그 주소를 변수 f 에 저장한다.       
 • for 문을 통하여 리스트 my_list 값을 하나씩 추출하여, 파일 f 값에 저장한다.    

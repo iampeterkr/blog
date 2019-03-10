@@ -921,7 +921,7 @@ for animal in animals:
 
 
 **설명:** [ Instruction ]         
-• 리스트 start_list 에 리스트 square_list 의 항목값의 제곱근을 저장하라.    
+• 리스트 start_list 에 리스트 square_list 의 항목값의 제곱을 저장하라.    
 • 메서드 .append() 를 사용하라.    
 • 리스트 square_list 를 sort 함수를 사용하여 정렬하라.
 {: .notice--info}
@@ -971,8 +971,8 @@ print square_list
 
 **설명:** [ Solution ]          
 • for 문에서, 리스트 start_list 의 각 항목값을 변수 number 에 저장한다.    
-• 변수 number 를 메서드 .append()를 활용하여 제곱근을 구한다.    
-• 변수 number 제곱근한 값을 리스트 square_list 에 저장한다.     
+• 변수 number 를 메서드 .append()를 활용하여 제곱을 구한다.    
+• 변수 number 제곱한 값을 리스트 square_list 에 저장한다.     
 • 리스트 square_list 를 메서드 .sort() 를 사용하여 정렬한다.    
 • 리스트 square_list 를 출력한다. 
 {: .notice--info}

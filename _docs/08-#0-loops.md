@@ -240,9 +240,9 @@ Inside a while loop, you can do anything you could do elsewhere, including arith
 
 
 **설명:** [ Instruction ]          
-• while 문을 사용하여 1부터 10까지 값의 제곱근 값을 출력하라.    
+• while 문을 사용하여 1부터 10까지 값의 제곱 값을 출력하라.    
 • while 문의 조건문을 넣는 곳에 1부터 10까지 돌도록 작성하라.       
-• while 문의 내부실행 블럭에서는 ( num ** 2 ) 제곱근 값을 출력하라.       
+• while 문의 내부실행 블럭에서는 ( num ** 2 ) 제곱 값을 출력하라.       
 • 변수 num 을 1 씩 증가 시켜라. 
 {: .notice--info}
 
@@ -280,7 +280,7 @@ while (num <= 10):  # Fill in the condition
 • 변수 num 에 값 1로 초기화 한다.    
 • while 문에서 조건문 num <= 10 으로 정의하였다.    
 • while 문 조건은 변수 num 이 10 이하 일때까지 실행한다.(True)      
-• while 실행 블럭에서는 num ** 2 하여 제곱근을 구하고 출력한다.     
+• while 실행 블럭에서는 num ** 2 하여 제곱을 구하고 출력한다.     
 • 마지막으로 변수 num 을 값 1을 증가시킨다.     
 • 다시, while 조건문에서 변수 num 이 10보다 같거나 작으면 실행블럭이 동작한다.(True)
 {: .notice--info}
@@ -1255,7 +1255,7 @@ On each iteration, the variable `num` will be the next value in the list. So, th
 
 
 **설명:** [ Instruction ]          
-• 두번째 for 문을 통하여, numbers 의 값들을 꺼내어 그 값의 제곱근을 구하여 출력하라.  
+• 두번째 for 문을 통하여, numbers 의 값들을 꺼내어 그 값의 제곱을 구하여 출력하라.  
 {: .notice--info}
 
 
@@ -1268,7 +1268,7 @@ On each iteration, the variable `num` will be the next value in the list. So, th
 
 
 **설명:** [ Hint ]          
-• ( ** ) 를 사용하여 제곱근을 구하라.     
+• ( ** ) 를 사용하여 제곱을 구하라.     
 • for문 사용법은 첫번째 for문과 비슷하다. 
 {: .notice--info}
 
@@ -1290,7 +1290,7 @@ for num in numbers:
 
 **설명:** [ Solution ]          
 • 변수 numbers 에 있는 값을 변수 num 에 대입하라.    
-• 변수 num 의 제곱근을 구하여 출력한다. 
+• 변수 num 의 제곱을 구하여 출력한다. 
 {: .notice--info}
 
 

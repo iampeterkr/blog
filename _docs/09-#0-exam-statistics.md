@@ -673,7 +673,7 @@ print grades_variance(grades)
 • 변수 average 에 함수 grades_average(scores) 호출후 얻은 결과값을 저장한다.    
 • 변수 variance 은 0 으로 초기화 한다.   
 • for 문에서 입력값 리스트 scores 의 항목 값을 하나씩 추출후, 변수 score 에 저장한다.    
-• 평균에서 점수를 뺀후, 제곱근 한다.    
+• 평균에서 점수를 뺀후, 제곱 한다.    
 • e.g. (average - score) ** 2     
 • 변수 variance 에 추가한다.    
 • e.g. variance += (average - score) ** 2    

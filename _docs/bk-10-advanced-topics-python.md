@@ -409,7 +409,7 @@ Your `even_squares` list should include the squares of the even numbers between 
 
 **설명:** [ Instruction ]    
 ① 리스트 `even_squares`를 만들어라.     
-• 이 리스트 `even_squares`는 1부터 11사이의 숫자중 짝수의 제곱근을 저장하는 리스트이다.
+• 이 리스트 `even_squares`는 1부터 11사이의 숫자중 짝수의 제곱을 저장하는 리스트이다.
 {: .notice--info}
 
 
@@ -427,7 +427,7 @@ range(1,12)
 ```
 
 **설명:** [ Hint ]    
-제곱근은 `x ** 2`로 구하고, 짝수는 `x % 2 == 0`으로 구한다.
+제곱은 `x ** 2`로 구하고, 짝수는 `x % 2 == 0`으로 구한다.
 {: .notice--info}
 
 <br>
@@ -1183,8 +1183,8 @@ The example above is just a reminder of the syntax.
 
 
 **설명:** [ Instruction ]    
-① 변수 리스트 `squares`에  1부터 10까지의 제곱근 값을 list comprehension 을 사용하여 저장하라.   
-• `filter()`, `lambda`를 사용하여 제곱근 값중 30과 70이하의 값을 출력하라. 
+① 변수 리스트 `squares`에  1부터 10까지의 제곱 값을 list comprehension 을 사용하여 저장하라.   
+• `filter()`, `lambda`를 사용하여 제곱 값중 30과 70이하의 값을 출력하라. 
 
 {: .notice--info}
 
@@ -1218,7 +1218,7 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 ```
 
 **설명:** [ Solution ]     
-• list comprehension 을 사용하여 1부터 10까지를 산출(`range(1,11)`)한 값을 제곱근(`x ** 2`)한 결과를 변수 `squares`에 저장한다.     
+• list comprehension 을 사용하여 1부터 10까지를 산출(`range(1,11)`)한 값을 제곱(`x ** 2`)한 결과를 변수 `squares`에 저장한다.     
 • `filter()`를 사용하여 입력값 `squares`를 두번째 인자에 넣고, `lambda`로 조건(`x>=30 and x<=70`)을 첫번째 인자에 기술한다.    
 • `filter()`결과값을 출력한다. 
 {: .notice--info}

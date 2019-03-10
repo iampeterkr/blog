@@ -48,7 +48,7 @@ Note that the .items() method doesn't return key/value pairs in any specific ord
 • Ch1. Iterators for Dictionaries 에서는 딕셔너리를 집중 학습한다.     
 • 딕셔너리의 반복문에 대해서 연습해 보자.    
 • 앞에서 배운 딕셔너리의 key 와 value를 조작하는 법을 연습해 본다.    
-• 'd.items()' 는 딕셔너리 d 의 key 와 value 를 리스트 형태로로 보여준다. 
+• d.items() 는 딕셔너리 d 의 key 와 value 를 리스트 형태로로 보여준다. 
 {: .notice--info}
 
 
@@ -100,7 +100,9 @@ print my_dict.items()
 
 **설명:** [ Solution ]     
 • 딕셔너리 my_dict 에 다음과 같은 정보가 key/value 쌍으로 저장되어 있다.    
-• 'name':'Nick', 'age':31, 'occupation':'Dentist'    
+• 'name' : 'Nick',     
+• 'age' : 31,     
+• 'occupation' : 'Dentist'    
 • 메서드 my_dict.items() 를 호출후 출력한다.
 {: .notice--info}
 
@@ -129,11 +131,11 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 **설명:** [ Learn ]     
 • 2. Chkeys() and values() 에서는 딕셔너리의 메서드 및 튜플을 학습한다.    
-• 메서드 '.items()' 는 key/value 로 구성된 각각의 튜플 형태의 배열로 반환된다.    
-• 메서드 '.keys()' 는 key 값을 리스트 형태로 반환한다.        
-• 메서드 '.values()' 는 value 값을 리스트 형태로 반환한다.    
+• 메서드 .items() 는 key/value 로 구성된 각각의 튜플 형태의 배열로 반환된다.    
+• 메서드 .keys() 는 key 값을 리스트 형태로 반환한다.        
+• 메서드 .values() 는 value 값을 리스트 형태로 반환한다.    
 • key 와 value 쌍값은 순서 없이 반환된다.    
-• 튜플은 리스트와 동일하지만, 틀린점은 '()'로 둘러쌓인 그 항목 값을 변경할수 없다.
+• 튜플은 리스트와 동일하지만, 틀린점은 ()로 둘러쌓인 그 항목 값을 변경할수 없다.
 {: .notice--info}
 
 
@@ -147,7 +149,7 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 
 **설명:** [ Instruction ]    
-• 메서드 '.item()' 를 지우고, 대신에 '.keys()' 와 '.values()' 로 대체하라.    
+• 메서드 .item() 를 지우고, 대신에 .keys() 와 .values() 로 대체하라.    
 • 그리고 각각을 출력하라.
 {: .notice--info}
 
@@ -231,7 +233,11 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 
 **설명:** [ Learn ]     
 • Ch3. The 'in' Operator 에서는 for 문의 'in' 문법을 학습한다.    
-• 리스트(list), 튜플(tuple), 딕셔너리(dictionarie), 문자열(string)을 반복적으로 추출할때 직관적으로 'in' 을 사용할 수 있다.     
+• ' in ' 연산자는 다음을 반복적으로 추출할때 직관적으로 사용한다.    
+• - 리스트(list),    
+• - 튜플(tuple),    
+• - 딕셔너리(dictionarie),    
+• - 문자열(string)    
 • 함수 range(5) 는 숫자 0,1,2,3,4 를 생성해 준다.    
 • 이를 한줄로 출력 할려면, ( , ) 를 사용한다.     
 • 문자열 "Erir" 를 한줄출력 ( , ) 를 사용하여, "E r i c" 로 출력한다.    
@@ -251,7 +257,7 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 **설명:** [ Instruction ]    
 • 딕셔너리 my_dict 를 key 와 value 를 출력하라.    
 • 단, key 와 value 사이에 공백 하나가 있어야 한다.     
-• 출력시 'print a + " " + b' 보다는 'print a, b'를 사용하라. 
+• 출력시 print a + " " + b 보다는 print a, b 를 사용하라. 
 {: .notice--info}
 
 
@@ -327,7 +333,7 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 • 0 ~ 50 까지의 정수를 리스트에 저장하는 법은 다음과 같다.    
 • e.g. my_list = range(51)     
 • 만약, 0부터 50사이의 짝수만 저장하고 싶다면?     
-• Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용 후      
+• Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여,       
 • 리스트 컴프레션(list comprehension)을 기능을 사용하면 쉽게 만들수 있다.
 {: .notice--info}
 
@@ -342,7 +348,7 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 
 
 **설명:** [ Instruction ]    
-• editor 창에 있는 소스를 이해하고 실행시켜라. 
+• Editor 창에 있는 소스를 이해하고 실행시켜라. 
 {: .notice--info}
 
 
@@ -364,11 +370,10 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
-
 ```python
 evens_to_50 = [i for i in range(51) if i % 2 == 0]
 print evens_to_50
-```
+```    
 
 **설명:** [ Solution ]     
 • 리스트 컴프레션(list comprehension) 을 사용하여 리스트를 만들었다.    
@@ -377,7 +382,7 @@ print evens_to_50
 • for 문에서 함수 range(51)을 사용하여 0 ~ 50까지 값을 산출후 변수 i 에 저장한다.    
 • 만약, 저장된 i 값을 % 2 로 계산하여 나머지가 0 이면, 제일앞 변수 i 저장한다.    
 • 저장된 i 의 값은 리스트 형태로 변수 event_to_50 에 저장한다.
-{: .notipce--info}
+{: .notice--info}    
 
 
 
@@ -416,9 +421,9 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 **설명:** [ Learn ]      
 • Ch5. List Comprehension Syntax 에서는 리스트 컴프레션 문법을 학습한다.    
 • 다음 예제는 list comprehension 에 관한것이다.    
-• 예제 1) 'new_list = [ x for x in range(1, 6)]'    
+• 예제 1) new_list = [ x for x in range(1, 6)]    
 • 예제 1 은 맨 앞 x 에 for 문 결과값이 저장된다.    
-• 예제 2) 'doubles = [x * 2 for x in range(1, 6)]'    
+• 예제 2) doubles = [x * 2 for x in range(1, 6)]    
 • 예제 2 는 맨 앞 x에 for문 결과값이 저장되고, 다시 x 값에 곱하기 2 한 값이 저장된다.    
 • 예제 3) doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]    
 • 예제 3은 for 문과 if 문이 실행되어 만족한 x 값 3이 맨앞 x 변수에 저장된다.    
@@ -439,7 +444,7 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 
 **설명:** [ Instruction ]    
 • 리스트 even_squares 를 작성하라.         
-• 리스트 even_squares 는 1 부터 11사이의 숫자중 짝수의 제곱근을 저장하는 리스트이다.
+• 리스트 even_squares 는 1 부터 11사이의 숫자중 짝수의 제곱을 저장하는 리스트이다.
 {: .notice--info}
 
 
@@ -457,7 +462,7 @@ range(1,12)
 ```
 
 **설명:** [ Hint ]    
-• 제곱근은 ( x ** 2 ) 로 구하고, 짝수는 ( x % 2 == 0 ) 로 구한다.
+• 제곱은 ( x ** 2 ) 로 구하고, 짝수는 ( x % 2 == 0 ) 로 구한다.
 {: .notice--info}
 
 <br>
@@ -675,7 +680,7 @@ print l[2:9:2]
 **설명:** [ Solution ]     
 • 리스트 컴프레션을 이용하여 리스트의 값을 구한다.     
 • for 문에서 1(포함)부터 11(미포함) 값을 산출하여 변수 i 에 저장한다.    
-• 변수 i 값을 제곱근하여 리스트 l 에 추가한다.    
+• 변수 i 값을 제곱하여 리스트 l 에 추가한다.    
 • 리스트의 값은 i 값의 제곱값이 저장된다.[1, 4, 9, 16, ... 81, 100]    
 • 출력시 리스트 슬라이싱을 활용한다.    
 • 슬라이싱 조건은 index 2번(포함) 부터 index 9(미포함) 사이의 값을 잘라낸다.    
@@ -1295,7 +1300,7 @@ The example above is just a reminder of the syntax.
 
 
 **설명:** [ Instruction ]    
-• 리스트 컴프레션을 사용하여 1부터 10까지의 제곱근값을 생성한다.    
+• 리스트 컴프레션을 사용하여 1부터 10까지의 제곱값을 생성한다.    
 • 리스트 squares 에 이 값을 저장한다.    
 • filter()에서 lambda 를 사용하여 filtering 한다.    
 • 첫번째 argument : lambda 조건은 입력값 중 30 이상 70 이하의 값을 추출한다.    
@@ -1335,7 +1340,7 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 **설명:** [ Solution ]     
 • list comprehension 을 사용하여 다음과 같이 동작한다.    
 • 함수 range(1, 11)을 사용하여 1부터 10까지를 산출한다.    
-• for 문에서 x 값을 추출하여 제곱근한 값을 산출한다.    
+• for 문에서 x 값을 추출하여 제곱한 값을 산출한다.    
 • 리스트 squares 에 산출한 값을 저장한다.    
 • lambda를 사용하여 다음과 같이 filter() 한다.    
 • 첫번째 argument : lambda 에서 변수 x 가 30 이상 & 70 이하인 조건만 추출한다.    
@@ -1394,7 +1399,7 @@ First, let's review iterating over a `dict`.
 
 
 **설명:** [ Hint ]    
-• 메서드 '.items()' 를 활용하라.    
+• 메서드 .items() 를 활용하라.    
 • 딕셔너리 movies 의 항목들 key/value 을 출력하여라.     
 • loop를 사용할 필요가 없다. 
 {: .notice--info}
