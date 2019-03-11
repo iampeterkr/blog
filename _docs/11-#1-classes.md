@@ -35,6 +35,7 @@ class ClassName(object):
 
 
 **설명:** [ Learn ]     
+• Ch1.  Class basics 에서는 클래스에 기본 정의에 대하여 학습한다.      
 • 클래스는 여러 가지 유용한 것들이 많다.    
 • 메서드와 변수들이 섞여 있는 객체를 만드는데 유용하다.    
 • 클래스간 Inherits(상속)를 할 수 있다.
@@ -108,7 +109,8 @@ newObject = ClassName()
 ``` 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]      
+• Ch2. Create an instance of a class 에서는 클래스 인스탄스를 학습한다.     
 • 클래스를 사용하는 방법은 다음과 같다.    
 • 클래스 ClassName() 를 instance 하는 object newObject 를 만든다.    
 • newObject = ClassName()
@@ -184,7 +186,8 @@ class ClassName(object):
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]       
+• Ch3. Class member variables 에서는 클래스(member) 변수를 학습한다.    
 • member변수는 클래스 object 내부에 있는 변수이다.    
 • member변수를 만들고 초기화 한다.
 {: .notice--info}
@@ -258,8 +261,10 @@ Each class object we create has its own set of **member variables**. Since we've
 
 
 
-**설명:** [ Learn ]      
-• object my_car를 만들면, 클래스 에서 선언된 member변수 condition이 자동으로 할당된다.
+**설명:** [ Learn ]        
+• Ch4. Calling class member variables 에서는 클래스 변수 호츨을 학습한다.    
+• object my_car를 만들면,     
+• 클래스 Car 에서 선언된 member변수 condition이 자동으로 할당된다.
 {: .notice--info}
 
 
@@ -273,7 +278,7 @@ Each class object we create has its own set of **member variables**. Since we've
 
 
 **설명:** [ Instruction ]    
-• object my_car의 member변수 condition을 출력하여라.
+• object my_car의 member변수 condition을 출력하라.
 {: .notice--info}
 
 
@@ -288,7 +293,8 @@ my_car.condition.
 ```
 
 **설명:** [ Hint ]     
-• my_car.condition
+• 클래스(member) 변수를 불러올때 Dot ( . ) 을 사용한다.     
+• e.g. my_car.condition
 {: .notice--info}
 
 <br>
@@ -338,15 +344,16 @@ self.new_variable = new_variable
 
 
 
-**설명:** [ Learn ]    
-• 객체를 만들기 위해서 클래스를 호출하면, 해당 클래스의 `__init__()`이 호출된다.    
-• 클래스 내에 있는 기본 `__init__()`를 우리가 추가 정의 할수도 있다.    
-• `__init__(self)`첫번째, argument는 무조건 self 이다.    
-• 객체가 self를 이용하여 자신을 추척한다.    
-• `__init__(self, a, b,c)` self 이후에는 여러개의 변수를 전달할수 있다.    
-•  클래스에 접근하기 위해선,  . 을 이용하여 접근이 가능 하다.    
-• `__init__()`에 값이 전달되면 다음과 같이 메서드 내부에 값을 전달할수 있다.    
-• self.new_variable = new_variable  
+**설명:** [ Learn ]       
+• Ch5. Initializing a class 에서는 클래스 초기화를 학습한다.    
+• 객체를 만들기 위해서 클래스를 호출하면, 해당 클래스의 `__init__()` 이 호출된다.    
+• 클래스 내에 있는 기본 `__init__()` 를 우리가 추가 정의 할수도 있다.    
+• `__init__(self)` 첫번째, argument는 무조건 self 이다.    
+• 객체가 self 를 이용하여 자신을 추적한다.    
+• `__init__(self, a, b,c)` self 이후에는 여러개의 변수를 전달할 수 있다.    
+•  클래스에 접근하기 위해선, Dot ( . ) 을 이용하여야 접근이 가능 하다.    
+• `__init__()` 에 값이 전달되면 다음과 같이 메서드 내부에 값을 전달할수 있다.    
+• e.g. self.new_variable = new_variable  
 {: .notice--info}
 
 
@@ -374,8 +381,9 @@ mpg = 88
 **설명:** [ Instruction ]    
 • 클래스 Car 안에 메서드 `__init__(self, model, color, mpg)`를 만들어라.    
 • 메서드 `__init__()` 내부에 입력된 변수를 self를 이용하여 초기화 하여라.    
-• 클래스 Car 를 instance 한 object my_car 를 아래 값들을 이용하여 수정하여라.    
-• my_car = Car(model="DeLorean", color = "silver", mpg=88) 호출한다.    
+• 클래스 Car 를 instance 한 object my_car 를 아래 값들을 이용하여 수정하라.    
+• 다음과 같이 수정후, 호출한다.    
+• e.g. my_car = Car(model="DeLorean", color = "silver", mpg=88)    
 • 참고로, object my_car를 생성할때, Car(self, a, b, c) self를 넣지 않는 이유는    
 • 넣지 않아도, 자동으로 self가 입력된다.
 {: .notice--info}
@@ -396,7 +404,9 @@ def __init__(self, model, color, mpg):
 
 
 **설명:** [ Hint ]     
-• 클래스의 instance를 만들때, 아래와 같이 변수 값을 지정할 수 있다.
+• 클래스의 instance를 만들때, 아래와 같이 변수 값을 지정할 수 있다.    
+• e.g. 변수 model 만 초기화 함.    
+• e.g. self.model = model
 {: .notice--info}
 
 <br>
@@ -418,7 +428,7 @@ my_car = Car("DeLorean", "silver", 88)
 ```
 
 **설명:** [ Solution ]     
-• `__init__(self, model, color, mpg):` 변수 초기화는 다음과 같다.    
+• 함수 `__init__(self, model, color, mpg):` 의 변수 초기화는 다음과 같다.    
 • e.g. self.model = model  
 • my_car를 만들때, member변수 초기값("DeLorean", "silver", 88)을 넣는다.
 {: .notice--info}
@@ -437,7 +447,7 @@ my_car = Car("DeLorean", "silver", 88)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
-### 6. Referring to member variables    
+### 6. Referring to member variables   
 
 Calling class member variables works the same whether those values are created within the class (like our car's condition) or values are passed into the new object at initialization. We use dot notation to access the member variables of classes since those variables belong to the object.
 
@@ -448,11 +458,13 @@ new_object.new_variable
 
 
 
-**설명:** [ Learn ]     
-• member 변수 인용    
-• member 변수는 클래스가 만들어질때 값이 초기화 되거나, 객체가 생성될때 전달되기도 한다.    
-• member 변수는 . 을 사용하여 접근 할 수 있다.     
-• new_object.new_variable 로 접근한다.
+**설명:** [ Learn ]       
+• Ch6. Referring to member variables 에서는 클래스 변수 참조하는 방법을 학습한다.    
+• member 변수는 클래스가 만들어질때 값이 초기화 된다.    
+• 또는, 객체가 생성될때 전달되기도 한다.    
+• 클래스(member) 변수는 Dot ( . ) 을 사용하여 접근 할 수 있다.     
+• 사용법은 다음과 같다.    
+• e.g. new_object.new_variable
 {: .notice--info}
 
 
@@ -471,9 +483,9 @@ new_object.new_variable
 
 
 **설명:** [ Instruction ]    
-• my_car 의 member 변수를 출력하시오.    
-• my_car 의 color 변수를 출력하시오.    
-• my_car 의 mpg 변수를 출력하시오.
+• my_car 의 member 변수를 출력하라.    
+• my_car 의 color 변수를 출력하라.    
+• my_car 의 mpg 변수를 출력하라.
 {: .notice--info}
 
 
@@ -482,13 +494,15 @@ new_object.new_variable
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* To print my_car's model, you'd type:
+* To print my_car's model, you'd type:    
+
 ```python
 print my_car.model
 ```
 
 
 **설명:** [ Hint ]     
+• Object my_car 의 클래스 변수 model 을 참조하는 방법이다.    
 • my_car.model 
 {: .notice--info}
 
@@ -557,7 +571,8 @@ Just like when we defined `__init__()`, you need to provide `self` as the first 
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]       
+• Ch7. Creating class methods 에서는 클래스안의 메서드를 만드는 방법을 학습한다.    
 • 클래스 안에는 `__init__()`외에도 다른 메서드를 만들수 있다.    
 • 메서드 perimeter()는 클래스 내의 다른 메서드에서 정의된 부분을 제외하고 정의하였다.    
 • 메서드는 무조건 첫번째 인자는 self 이다.  
@@ -579,9 +594,9 @@ Just like when we defined `__init__()`, you need to provide `self` as the first 
 
 
 **설명:** [ Instruction ]    
-• 클래스 Car 내부에 메서드 display_car를 정의 하시오.    
+• 클래스 Car 내부에 메서드 display_car() 를 정의 하시오.    
 • 메서드 display_car()은 color, model, mpg 를 반환한다.    
-• mpg 는 str(mpg) 로 변경후 반환한다.    
+• mpg 는 str(mpg) 로 변경 후 반환한다.    
 • my_car.display_car()를 호출하면, 각각의 color, model, mpg를 출력한다. 
 {: .notice--info}
 
@@ -599,8 +614,9 @@ def display_car(self):
 ```  
 
 **설명:** [ Hint ]     
-• 클래스의 member 변수에 접근하기 위해선 . 를 사용한다.     
-• 메서드 display_car(self) 내부에서 변수를 사용할때는 (e.g. self.color)
+• 클래스의 member 변수에 접근하기 위해선 Dot ( . ) 을 사용한다.     
+• 메서드 display_car(self) 내부에서 변수를 사용할때는 다음과 같이 사용한다.    
+• e.g. self.color
 {: .notice--info}
 
 <br>
@@ -650,9 +666,10 @@ We can modify variables that belong to a class the same way that we initialize t
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]      
+• Ch8. Modifying member variables 에서는 클래스 변수를 수정하는 방법을 학습한다.     
 • member 변수의 수정    
-• 클래스 내부의 member 변수를 수정해서 사용할 필요가 있을때 변경 할수 있다.
+• 클래스 내부의 member 변수를 수정해서 사용할 필요가 있을때 변경할 수 있다.
 {: .notice--info}
 
 
@@ -672,11 +689,12 @@ We can modify variables that belong to a class the same way that we initialize t
 
 
 **설명:** [ Instruction ]    
-• 클래스 Car 내부에 메서드 drive_car를 만들어라.    
-• 메서드 drive_car 내부에 self.condition = "used" 을 만들어라.    
-• my_car.display_car()를 삭제 하여라. 대신에 my_car.condition 값을 출력하라.    
-• my_car.drive_car()를 호출하여라.    
-• my_car.condition을 출력하여라.    
+• 클래스 Car 내부에 메서드 drive_car() 를 만들어라.    
+• 메서드 drive_car() 내부에 self.condition = "used" 을 만들어라.    
+• my_car.display_car() 를 삭제 하여라.     
+• 대신에 my_car.condition 값을 출력하라.    
+• my_car.drive_car() 를 호출하라.    
+• my_car.condition 을 출력하라.    
 • condition 값이 어떻게 변했는지 살펴 보아라.
 {: .notice--info}
 
@@ -723,7 +741,7 @@ print my_car.condition
 
 **설명:** [ Solution ]     
 • 클래스 내부에서 처음 정의한 condition 값은 "new" 이었다.    
-• 메서드 drive_car()가 호출되어 그 내부에 재정의한 condition 값은 "used" 이다.    
+• 메서드 drive_car() 가 호출되어 그 내부에 재정의한 condition 값은 "used" 이다.    
 • member 변수 condition 값이 "new" 에서 "used"로 변경 되었다.
 {: .notice--info}
 
@@ -755,14 +773,15 @@ Normally we use object as the parent class because it is the most basic type of 
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]      
+• Ch9. Inheritance 에서는 상속(Inheritance)를 학습한다.     
 • Inheritance(상속)    
-• 클래스의 가장 유용한 점은 inheritanc 을 할 수 있다는 것이다.    
-• Inheritance는 상위 클래스의 변수와 메소드를 상속 받을 수 있다.     
+• 클래스의 가장 유용한 점은 inheritance 를 할 수 있다는 것이다.    
+• Inheritance 는 상위 클래스의 변수와 메소드를 상속 받을 수 있다.     
 • 상속 받은 하위 클래스는 상위 클래스의 변수와 메소드에다 더 추가 할수가 있다.    
 • 상위 클래스는 부모 클래스라고 부르고, 하위 클래스는 자식 클래스라고 한다.   
-• 부모 클래스는 대부분 object를 부모 클래스로 두고 있다.    
-• 이런 inheritance로 우리는 다양하고 복잡한 클래스를 만들수 있다.
+• 부모 클래스는 대부분 object 를 부모 클래스로 두고 있다.    
+• 이런 inheritance 로 우리는 다양하고 복잡한 클래스를 만들수 있다.
 {: .notice--info}
 
 
@@ -798,8 +817,8 @@ Normally we use object as the parent class because it is the most basic type of 
 
 
 **설명:** [ Hint ]     
-• 자식 클래스는 () 안에 부모 클래스 이름을 적는다.    
-• 자식 클래스의 `__init__()`에 self를 넣는것을 잊지 말자.
+• 자식 클래스는 ( ) 안에 부모 클래스 이름을 적는다.    
+• 자식 클래스의 `__init__()` 에 self를 넣는것을 잊지 말자.
 {: .notice--info}
 
 <br>
@@ -858,7 +877,8 @@ Since our `ElectricCar` is a more specialized type of `Car`, we can give the `El
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]      
+• Ch10. Overriding methods 에서는 오버리이딩을 학습한다.     
 • Overriding
 • 클래스 ElectricCar는 부모 클래스 Car의 특화된 클래스이다.    
 • 클래스 ElectricCar의 내부 메서드 drive_car()는 클래스 Car의 메소드 drive_car()보다 다른 기능을 수행할수 있다.
@@ -881,8 +901,8 @@ Since our `ElectricCar` is a more specialized type of `Car`, we can give the `El
 
  
 **설명:** [ Instruction ]    
-• 클래스 ElectricCar의 내부 메서드 drive_car의 member변수 condition="like new"  라고 추가한다.    
-• 외부에, my_car = ElectricCar() 한 my_car.condition을 출력한다.    
+• 클래스 ElectricCar 의 내부 메서드 drive_car() 의 member 변수 condition = "like new" 라고 추가한다.    
+• 클래스 외부에, my_car = ElectricCar() 한 my_car.condition을 출력한다.    
 • my_car.drive_car()를 호출한다.    
 • my_car.condition을 출력한다.
 {: .notice--info}
@@ -967,7 +987,8 @@ One useful class method to override is the built-in `__repr__()` method, which i
 
 
 
-**설명:** [ Learn ]     
+**설명:** [ Learn ]       
+• Ch11. Building useful classes 에서는 클래스를 연습한다.    
 • 실전 프로그램에서, 클래스는 유용하게 사용된다.     
 • 하지만, 여러분이 바로 클래스를 만들고 사용하는 일은 조금 시간이 걸린다.   
 • 이렇게 유용한 클래스를 잘 사용하게끔 하려고, 새로운 내장 override 메서드가 있다.    
@@ -999,14 +1020,15 @@ One useful class method to override is the built-in `__repr__()` method, which i
 
 
 **설명:** [ Instruction ]    
-• `__repr__()`의 개념을 익히기 위하여 연습해 보자.    
+• `__repr__()` 의 개념을 익히기 위하여 연습해 보자.    
 • 클래스 Point3D(object)를 작성하라.    
-• 클래스 Point3D는 메서드 `__init__()`를 가진다.    
-• 메서드 `__init__()`는 parameter로 self, x, y, z 를 가진다.    
-• 그리고, 각 변수 x, y, z를 초기화 한다. (e.g. self.x )    
-• 클래스 Point3D에 메서드 `__repr__()`를 추가한다.    
-• 메서드 `__repr__()`는 "(%d, %d, %d)" % (self.x, self.y, self.z)을 반환한다.    
-• 출력시 (x,y,z) 로 출력이 된다.     
+• 클래스 Point3D는 메서드 `__init__()` 를 가진다.    
+• 메서드 `__init__()` 는 parameter로 self, x, y, z 를 가진다.    
+• 그리고, 각 변수 x, y, z 를 초기화 한다. (e.g. self.x )    
+• 클래스 Point3D에 메서드 `__repr__()` 를 추가한다.    
+• 메서드 `__repr__()` 는 다음과 같이 변환한다.    
+• e.g. "(%d, %d, %d)" % (self.x, self.y, self.z)    
+• 출력시 ( x, y, z ) 로 출력이 된다.     
 • 외부에서 my_point = Point3D(1, 2, 3) 이라고 호출한다.    
 • my_point를 출력하여라.
 {: .notice--info}
@@ -1027,11 +1049,14 @@ One useful class method to override is the built-in `__repr__()` method, which i
 my_point = point3D(1,2,3)
 ```
 **설명:** [ Hint ]     
-• `__repr__()`를 사용할때는 문자열이 반환된다.    
-• 반환할때, 숫자는 `str()`를 사용하여 반환하여라.    
-• `__repr__`이외의 다른 특별한 메서드에 대해서 궁금하면 Python 매뉴얼을 참조하라.    
-• `__repr__`과 `__str__` 사이의 약간의 차이점도 알아보자. 
-• `__repr__`는 정확하게 내가 표현할때 사용하고, `__str__`은 Python이 제공하는 기능을 참조하여 정해진 기본값을 보여줄때, 사용한다. e.g. 소숫점 20자리의 결과 값을 보여줄때, `__repr__`는 정확히 20자리를 보여줄수있지만, `__str__`은 Python 해석기가 기본으로 보여줄수 있는 적당한 값(15자리 or 그보다도 적거나 많을수도 있음)을 보여준다.
+• `__repr__()` 를 사용할때는 문자열이 반환된다.    
+• 반환할때, 숫자는 `str()` 를 사용하여 반환하라.    
+• `__repr__` 이외의 다른 특별한 메서드에 대해서 궁금하면 Python 매뉴얼을 참조하라.    
+• `__repr__` 과 `__str__` 사이의 약간의 차이점도 알아보자.      
+• `__repr__` 는 정확하게 내가 표현할때 사용한다.    
+• `__str__` 은 Python이 제공하는 기능을 참조하여 정해진 기본값을 보여줄때, 사용한다.     
+• 소숫점 20자리의 결과 값을 보여줄때, `__repr__`는 정확히 20자리를 보여줄수있다.    
+• 하지만, `__str__` 은 Python 해석기가 기본으로 보여줄수 있는 적당한 값 (15자리 or 그보다도 적거나 많을수도 있음)을 보여준다.
 {: .notice--info}
 
 <br>
@@ -1056,7 +1081,7 @@ print my_point
 ```
 
 **설명:** [ Solution ]     
-• `__repr__(self)`는 내가 object에서 호출시 정확히 보여주고자 하는 결과값을 출력해준다.
+• `__repr__(self)` 는 내가 object 에서 호출시 정확히 보여주고자 하는 결과값을 출력해 준다.
 {: .notice--info}
 
 

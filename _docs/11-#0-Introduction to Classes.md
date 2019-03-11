@@ -1945,7 +1945,7 @@ class Equilateral(Triangle):
 • 메서드 `__init__(self)`를 정의한다. 이때, 매개변수(arguments)가 없다.    
 • 이유는 inheritance 했기 때문이다.     
 • 하지만, 초기화는 다음과 같다.     
-• e.g. self.angle1 = self.angle 
+• e.g. self.angle1 = self.angle의
 {: .notice--info}
 
 
