@@ -8,9 +8,8 @@ title:  "Welcome to LLS !"
 
 **Hello everyone**, this is LLs blog post .
 
-I hope you like it!    
+I hope you like it!
 
-<p style="page-break-before: always;">
 <br>
 이곳은 LLs **[파이썬](/codecademy/docs-main/)** 관련 자료 블로거 입니다.    
 

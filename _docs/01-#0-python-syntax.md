@@ -103,9 +103,9 @@ print "Hellow World!"
 Hellow World!
 ```
 
+<p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -185,8 +185,13 @@ Hellow World!
 <br>
 <br>
 <br>
+<p style="page-break-before: always;"></p>
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
-<br>![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
+<br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
+
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 3. String    
 
@@ -270,6 +275,11 @@ Hello Wonyoung Lee
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>      
+<br>
+
+
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -371,7 +381,10 @@ You take away its chair!
 
 <br>
 <br>    
+<br>   
+<p style="page-break-before: always;"></p>     
 <br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -454,7 +467,10 @@ todays_date = "November 19, 2018"
 
 <br>
 <br>    
-<br>    
+<br>   
+<p style="page-break-before: always;"></p>     
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -566,6 +582,10 @@ remainder = 1398 % 11
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -626,7 +646,7 @@ In the above example, we use the price of a sandwich to calculate sales tax. Aft
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 * We're trying to figure out how much it rained in the past year! Update the `annual_rainfall` variable to include the values from September to December.
 
-**설명:** [ Learn ]    
+**설명:** [ Instruction ]    
 • 작년에 얼마나 많은 비가 왔는지 계산 하는 문제이다.    
 • 변수 annual_rainfall 에, 9월 부터 12월 까지의 비의 양을 누적하여 값을 더하라. 
 {: .notice--info}
@@ -694,6 +714,10 @@ print annual_rainfall
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -772,6 +796,9 @@ city_pop = 340000
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -881,6 +908,9 @@ print total_cost
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1015,6 +1045,9 @@ print float_cucumbers_per_person
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1109,6 +1142,9 @@ Plop!
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1196,6 +1232,9 @@ name_is_maria = True
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1322,6 +1361,9 @@ big_string = "The product was " + str(product)
 <br>
 <br>    
 <br>    
+<p style="page-break-before: always;"></p>     
+<br>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

@@ -2,3 +2,15 @@
 layout: pdf
 title: pdf document
 ---
+{% for docs in site.docs %}
+        {% for docs in site.docs %}
+        <main class="container">
+            <div class="content">
+                <article class="post-body">
+                    <h1>{{ docs.title }}</h1>
+                    {{ docs.content }}
+                </article>
+            </div>
+        </main>
+        {% endfor %}
+{% endfor %}
