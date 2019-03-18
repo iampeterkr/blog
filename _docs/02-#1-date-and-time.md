@@ -17,7 +17,7 @@ This lesson is a follow up to Unit 2: Strings and Console input and will give yo
 
 
 **설명:** [ 학습방향 ]     
-이 장에서는 2장의 연장선으로 문자열 콘솔 출력에 대한 연습을 한다. 
+이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다.
 {: .notice--info}     
      
     
@@ -34,7 +34,7 @@ Here we'll use `datetime` to print the date and time in a nice format.
 
 **설명:** [ Learn ]    
 • Ch1. The datetime Library 에서는 datetime 클래스를 학습한다.     
-• 날짜와 시간을 사용하고자 하면, datetime 클래스를 사용한다. 
+• 날짜와 시간을 사용하고자 하면, 클래스 datetime 을 사용한다. 
 {: .notice--info}
 
 
@@ -153,7 +153,7 @@ now = 4
 ```
 
 **설명:** [ Hint ]    
-• 변수를 대입할때  '='  를 사용한다.  
+• 변수를 대입할때  ( = )를 사용한다.  
 {: .notice--info}
 
 <br>
@@ -232,9 +232,9 @@ In the fourth and fifth lines, we store the `month` and `day` from `now`.
 
 **설명:** [ Instruction ]    
 • 라인 3 에 다음 3 개를 작성 후 실행하라.     
-• now.year 을 출력 하라.    
-• now.month 을 출력 하라.    
-• now.day 을 출력 하라.
+• now.year 을 출력하라.    
+• now.month 을 출력하라.    
+• now.day 을 출력하라.
 {: .notice--info}
 
 
@@ -250,7 +250,7 @@ print now.year
 ```
 
 **설명:** [ Hint ]    
-• 변수 now 에 저장된 year 값을 직접 출력할수 있다. 
+• 변수 now 에 저장된 year 값을 직접 출력할 수 있다. 
 {: .notice--info}
 
 <br>
@@ -270,7 +270,7 @@ print now.day
 ```
 
 **설명:** [ Solution ]    
-• 변수 now 의  '.year' , '.month' , '.day' 를 출력한다. 
+• 변수 now 의  ( .year ) , ( .month ) , ( .day )를 출력한다. 
 {: .notice--info}
 
 
@@ -331,7 +331,7 @@ Remember that the standalone `%` operator after the string will fill the `%02d` 
 
 
 **설명:** [ Instruction ]    
-• 날짜를 " mm/dd/yyyy " 형태로 출력하라. 
+• 날짜를 *mm/dd/yyyy* 형태로 출력하라. 
 {: .notice--info}
 
 
@@ -365,7 +365,7 @@ print '%02d/%02d/%04d' % (now.month, now.day, now.year)
 ```
 
 **설명:** [ Solution ]    
-• 출력을  월, 일, 년도 를 " %02d/%02d/%04d " 로 표현한다. 
+• 출력을  월, 일, 년도 를 %02d/%02d/%04d 로 표현한다. 
 {: .notice--info}
 
 
@@ -458,7 +458,7 @@ print '%02d:%02d:%02d' % (now.hour, now.minute, now.second)
 ```
 
 **설명:** [ Solution ]     
-• 시, 분, 초 를 " %02d:%02d:%02d " 형식으로 출력한다.   
+• 시, 분, 초 를 %02d:%02d:%02d 형식으로 출력한다.   
 {: .notice--info}
 
 

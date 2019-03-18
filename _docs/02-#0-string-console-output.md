@@ -15,7 +15,7 @@ LESSON
 This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the "print" keyword.    
 
 **설명:** [ 학습방향 ]     
-이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 법을 학습한다.
+이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다.
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">
@@ -42,7 +42,7 @@ Strings need to be within quotes.
 **설명:** [ Learn ]      
 • Ch1. Strings 에서는 문자열을 학습한다.    
 • 문자열(string)은 문자와, 숫자와, 기호도 사용할 수 있다.     
-• 스트링인데, 숫자도 사용할수 있다는 의미는 int()로 변화하여 사용할수 있다.  
+• 문자열인데, 숫자도 사용할수 있다는 의미는 함수 int()를 활용하여 변환후 사용할수 있다.  
 {: .notice--info}
 
 
@@ -55,7 +55,7 @@ Strings need to be within quotes.
 * Create a new variable `brian` and assign it the string `"Hello life!"`.    
 
 **설명:** [ Instruction ]    
-• 변수 brian 를 만들고 "Hellow life!" 를 대입하라. 
+• 변수 brian 를 만들고 *Hellow life!* 를 대입하라. 
 {: .notice--info}
 
 
@@ -70,7 +70,7 @@ Strings need to be within quotes.
 
 
 **설명:** [ Hint ]     
-• 문자열을 대입할때, 양 끝을 " " or ' ' 를 만들면 된다.     
+• 문자열을 대입할때, 양끝을 ( " " ) or ( ' ' ) 를 만들면 된다.     
 • 아래 소스를 실행시켜 보면 아래와 같은 결과를 얻는다.
 {: .notice--info}
 
@@ -103,7 +103,7 @@ brian = "Hello life!"
 ```
 
 **설명:** [ Solution ]    
-• 문자열을 대입할때, 양 끝을 (" ")or (' ') 를 사용한다. 
+• 문자열을 대입할때, 양 끝을 ( " " ) or ( ' ' )를 사용한다. 
 {: .notice--info}
 
 **결과**
@@ -226,9 +226,9 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 
 **설명:** [ Learn ]       
 • Ch3. Escaping characters 에서는 `\` 사용법을 학습한다.    
-• 우리는 문자열을 만들때,  (' ') 을 사용해야 한다고 앞에서 배웠다.    
-• 가령 'There's' 라는 문자열을 만들때 Python은 (') 를 쿼터로 인식하게 된다.     
-• 이런 경우는 (') 가 쿼터가 아님을 표시해주는 `\` 를 앞에 둔다.    
+• 우리는 문자열을 만들때,  ( ' ' )을 사용해야 한다고 앞에서 배웠다.    
+• 가령 'There's' 라는 문자열을 만들때 Python은 ( ' ) 를 쿼터로 인식하게 된다.     
+• 이런 경우는 ( ' ) 가 쿼터가 아님을 표시해주는 `\` 를 앞에 둔다.    
 • Python 은 `\` 이면 다음 문자를 단순 문자로 인식한다.   
 {: .notice--info}
 
@@ -247,7 +247,7 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 ```
 
 **설명:** [ Instruction ]     
-• 문자열 ist't 를 수정하여 정상적인 문자열로 만들어라.  
+• 문자열 *ist't* 를 수정하여 정상적인 문자열로 만들어라.  
 {: .notice--info}
 
 
@@ -280,8 +280,8 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 ```
 
 **설명:** [ Solution ]    
-• 문자열 isn't' 를 isn\'t 로 수정 한다.     
-• 또다른 방법은 가장 바깥쪽 문자열 쿼터 (' ') 를 (" ") 로 바꾸어 준다.   
+• 문자열 *isn't'* 를 *isn\'t* 로 수정 한다.     
+• 또다른 방법은 가장 바깥쪽 문자열 쿼터 ( ' ' ) 를 ( " " ) 로 바꾸어 준다.   
 {: .notice--info}
 
 ```python
@@ -321,11 +321,11 @@ Each character in a string is assigned a number. This number is called the index
 c = "cats"[0]
 n = "Ryan"[3]
 ```
-1. In the above example, we create a new variable called `c` and set it to `"c"`, the character at index **zero** of the string `"cats"`.
+1. In the above example, we create a new variable called `c` and set it to `"c"`, the character at index zero of the string `"cats"`.
 
-2. Next, we create a new variable called `n` and set it to `"n"`, the character at index **three** of the string `"Ryan"`.
+2. Next, we create a new variable called `n` and set it to `"n"`, the character at index three of the string `"Ryan"`.
 
-Notice that in the first `"cat"` example we are calling the 0th letter of `"cat"` and getting `"c"` in return. This is because in Python indices begin counting at **0**. Therefore, in the string `"cats"`, the first letter, `"c"`, is at the **0th** index and the last letter, `"s"`, is at the **3rd** index.
+Notice that in the first `"cat"` example we are calling the 0th letter of `"cat"` and getting `"c"` in return. This is because in Python indices begin counting at 0. Therefore, in the string `"cats"`, the first letter, `"c"`, is at the 0th index and the last letter, `"s"`, is at the 3rd index.
 
 ```
 +---+---+---+---+
@@ -367,14 +367,14 @@ So if you wanted "Y", you could just type
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* On line **13**, assign the variable `fifth_letter` equal to the **fifth** letter of the string **"MONTY"**.
+* On line 13, assign the variable `fifth_letter` equal to the fifth letter of the string "MONTY".
 
 * Remember that the fifth letter is not at index `5`.    
-* Start counting your indices from **zero**.
+* Start counting your indices from zero.
 
 
 **설명:** [ Instruction ]     
-• 변수 fifth_letter 에 "MONTY" 중 5 번째 글자만 대입하라.
+• 변수 fifth_letter 에 *MONTY* 중 5 번째 글자만 대입하라.
 {: .notice--info}
 
 
@@ -383,11 +383,11 @@ So if you wanted "Y", you could just type
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* The letter you want is **"Y"**.
+* The letter you want is *Y*.
 
 
 **설명:** [ Hint ]    
-• 문자열 "MONTY" 에서 "Y" 만 출력 할려면 변수에 "Y" 만 대입해야 한다.
+• 문자열 *MONTY* 에서 *Y* 만 출력 할려면 변수에 *Y* 만 대입해야 한다.
 {: .notice--info}
 
 <br>
@@ -415,7 +415,7 @@ print fifth_letter
 ```    
 
 **설명:** [ Solution ]    
-• 문자열 "MONTY" 에서 "Y" 만 출력 할려면 "Y"가 다섯번째에 있는 글자 이다.    
+• 문자열 *MONTY* 에서 *Y* 만 출력 할려면 *Y*가 다섯번째에 있는 글자 이다.    
 • 하지만, 실제 인덱스 주소에는 4 번에 저장되어 있다.    
 • "MONTY"[4] 즉, 4 번째 주소에 있는 글자만 변수에 대입해야 한다. 
 {: .notice--info}
@@ -438,9 +438,9 @@ Y
 
 ### 5. String methods    
 
-Great work! Now that we know how to store strings, let's see how we can change them using **string methods**.
+Great work! Now that we know how to store strings, let's see how we can change them using string methods.
 
-**String methods** let you perform specific tasks for strings.
+String methods let you perform specific tasks for strings.
 
 We'll focus on four string methods:
 
@@ -483,11 +483,11 @@ Let's start with `len()`, which gets the length (the number of characters) of a 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* `let()` 함수를 사용하자 
+* Use the function `let()`.  
 
 
 **설명:** [ Hint ]    
-• len() 함수에 변수를 삽입하여 해당 변수에 들어 있는 문자의 갯수를 셀 수 있다.
+• 함수 len() 에 변수를 삽입하여 해당 변수에 들어 있는 문자의 갯수를 셀 수 있다.
 {: .notice--info}
 
 <br>
@@ -503,9 +503,9 @@ print len(parrot)
 ```
 
 **설명:** [ Solution ]    
-• len() 함수 Parameter 로 parrot 변수를 넣었다.    
+• 함수 len()의 Parameter로 parrot 변수를 넣었다.    
 • print 문으로 len(parrot) 를 출력하였다.    
-• 변수 parrot 에 들어있는 문자열 "Norwegian Blue"의 문자 갯수가 출력된다.    
+• 변수 parrot 에 들어있는 문자열 *Norwegian Blue* 의 문자 갯수가 출력된다.    
 • 그런데, 예상된 문자 갯수가 13개가 아니라, 14개가 출력 된다.    
 • 이유는 공백(space)도 하나의 문자로 계산한다.    
 • 중간에 공백을 몇개 넣고 RUN 해보면 바로 알수 있다.
@@ -543,7 +543,7 @@ which will return "ryan".
 
 **설명:** [ Learn ]     
 • Ch6. lower() 에서는 메서드 lower()를 학습한다.    
-• 함수 lower() 는 대문자를 모두 소문자로 변경 하여 반환한다.
+• 함수 lower() 는 대문자를 모두 소문자로 변경하여 반환한다.
 {: .notice--info}
 
 
@@ -557,7 +557,7 @@ which will return "ryan".
 
 
 **설명:** [ Instruction ]    
-• 변수 parrot 의 담긴 문자열을 함수 lower() 를 사용하여, 라인 3에서 출력 해라. 
+• 변수 parrot 의 담긴 문자열을 함수 lower() 를 사용하여, 라인 3에서 출력하라. 
 {: .notice--info}
 
 
@@ -620,7 +620,7 @@ Now your **string** is 100% lower case! A similar method exists to make a string
 
 **설명:** [ Learn ]     
 • Ch7. upper() 에서는 메서드 upper()를 학습한다.     
-• 함수 upper() 는 문자열을 모두 대문자로 바꿔 주는 함수이다.  
+• 함수 upper() 는 문자열을 모두 대문자로 바꿔주는 함수이다.  
 {: .notice--info}
 
 
@@ -1050,8 +1050,8 @@ Combining strings together like this is called **concatenation**. Let's try conc
 
 **설명:** [ Learn ]      
 • Ch12. String Concatenation 에서는 문자열 연결을 학습한다.     
-• 문자열은 '+' 연산자를 사용하여 연결할수 있다.    
-• 문자열을 '+' 사용하여 연결하는것을 concatenations 이라고 한다.  
+• 문자열은 ( + ) 연산자를 사용하여 연결할수 있다.    
+• 문자열을 ( + ) 사용하여 연결하는것을 concatenations 이라고 한다.  
 {: .notice--info}
 
 
@@ -1061,9 +1061,9 @@ Combining strings together like this is called **concatenation**. Let's try conc
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Let's give it a try. Print the concatenated strings **"Spam ", "and ", "eggs"** on line 3, just like the example above.
+* Let's give it a try. Print the concatenated strings "Spam ", "and ", "eggs" on line 3, just like the example above.
 
-* Make sure you include the spaces at the end of **"Spam " and "and ".
+* Make sure you include the spaces at the end of "Spam " and "and ".
 
 
 **설명:** [ Instruction ]    
@@ -1332,7 +1332,7 @@ print "The %s who %s %s!" % ("Knights", "say", "Ni")
 ```
 
 **설명:** [ Learn ]     
-• Ch15. String Formatting with %, Part 2 에서는 문자열 치환을 학습한다.
+• Ch15. String Formatting with %, Part 2 에서는 문자열 치환을 학습한다.       
 • %s 옵션으로 직접 문자열을 입력하여 치환한다.  
 {: .notice--info}
 
@@ -1458,7 +1458,7 @@ print "%s, %s" % (g, h)
 ```
 
 **설명:** [ Learn ]       
-• 'String & Console Output' 에서 배운 내용들을 다시 복습한다.   
+• 이 장에서는 'String & Console Output' 에서 배운 내용들을 전체 복습한다.   
 {: .notice--info}
 
 
@@ -1477,8 +1477,8 @@ print "%s, %s" % (g, h)
 
 **설명:** [ Instruction ]    
 • 변수 my_string 을 만들고, 당신이 원하는 문자를 대입하라.    
-• 라인 4 에서 len() 함수를 사용하여 변수 my_string 길이를 출력하라.    
-• 라인 5 에서 .upper() 함수를 사용하여 변수 my_string 의 문자열을 대문자로 모두 변환하라. 그리고 출력하라. 
+• 라인 4 에서 함수 len() 를 사용하여 변수 my_string 길이를 출력하라.    
+• 라인 5 에서 함수 .upper() 를 사용하여 변수 my_string 의 문자열을 대문자로 모두 변환하라. 그리고 출력하라. 
 {: .notice--info}
 
 

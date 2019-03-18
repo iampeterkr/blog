@@ -94,7 +94,7 @@ clinic()
 ```
 
 **설명:** [ Solution ]     
-• Console 창에서, 'right' 또는 'r', 'left' 또는 l, 또는 Enter 를 입력한다.    
+• Console 창에서, *right* 또는 *r*, *left* 또는 *l*, 또는 Enter 를 입력한다.    
 • 입력값에 따라 결과물이 출력된다.
 {: .notice--info}
 
@@ -270,7 +270,7 @@ bool_five = False
 ```
 
 **설명:** [ Solution ]    
-• 각 변수에 결과값이 맞으면 `True`, 틀리면 `False`를 대입한다. 
+• 각 변수에 결과값이 맞으면 True, 틀리면 False를 대입한다. 
 {: .notice--info}
 
 **결과** 
@@ -404,11 +404,11 @@ Let's switch it up: we'll give the boolean, and you'll write the expression, jus
 
 
 **설명:** [ Learn ]     
-• 이전에 우리는 `boolean`에 대하여 잠시 공부한적이 있다.     
+• 이전에 우리는 boolean 에 대하여 잠시 공부한적이 있다.     
 • Python은 수식을 변수에 대입 하면(e.g. bool_one = 3 < 5)    
 • 그 결과 값이 참(True)이면 참(True) 값이 대입된다.    
 • 그 결과 값이 거짓(False)이면 거짓(True) 값이 대입된다.   
-• 변수 `bool_one`에 어떤 값이 대입될지 생각해 보자.  
+• 변수 bool_one 에 어떤 값이 대입될지 생각해 보자.  
 {: .notice--info}
 
 
@@ -432,7 +432,7 @@ Let's switch it up: we'll give the boolean, and you'll write the expression, jus
 • 각 주석문에서 지시하는 사항을 보고, 그 지시 사항에 맞게끔 대입하라.    
 • 비교 연산자를 서로 겹치지 않게 3종류 이상 사용하라.    
 • 직접 True, False 를 대입하지 마라.     
-• e.g. 'bool_one = 3 < 5 ' 같이 참(True)이 되게 만든다.         
+• e.g. ( bool_one = 3 < 5 ) 같이 참(True)이 되게 만든다.         
 • 각 비교수식을 사용하여 작성하라. 
 {: .notice--info}
 
@@ -449,7 +449,7 @@ bool_two = 8 < 7
 ```
 
 **설명:** [ Hint ]    
-• 변수 bool_two 에 Fasle 값이 들어가게 오른족 비교문을 만들어라.
+• 변수 bool_two 에 Fasle 값이 들어가게 오른쪽 비교문( 8 < 7 )을 만들어라.
 {: .notice--info}
 
 <br>
@@ -478,8 +478,8 @@ bool_five = "tomato" == "tomato"
 ```
 
 **설명:** [ Solution ]    
-• 주석에서 지시하는 조건을 맞게끔, 참(True), 거짓(False)값이 되도록 만든다.    
-• 대입값은 비교 수식을 작성하여 대입하라.
+• 주석에서 지시하는 조건을 만족하도록, 참(True), 거짓(False)값이 되도록 만든다.    
+• 대입값은 비교 수식을 작성하여 대입하였다.
 {: .notice--info}
 
 
@@ -637,7 +637,7 @@ The boolean operator and returns `True` when the expressions on both sides of `a
 
 **설명:** [ Instruction ]    
 • AND 연산자 양변 A, B를 계산하여라.    
-• 각 변수에, 계산 결과값이 참이면, 참(True), 거짓이면, 거짓(False)을 대입하라.
+• 각 변수에, 계산 결과값이 참이면, 참(True) or 거짓이면, 거짓(False)을 대입하라.
 {: .notice--info}
 
 
@@ -824,8 +824,8 @@ not `False` will evaluate to `True`, while not `41 > 40` will return `False`.
 **설명:** [ Learn ]     
 • Ch8. Not 에서는 NOT 연산자를 학습한다.    
 • Not 은 다음과 같이 동작한다.    
-• True -> False 를 반환한다.    
-• False -> True 를 반환한다.    
+• True 는 False 를 반환한다.    
+• False 는 True 를 반환한다.    
 • 41 > 40 은 계산 결과는 True 이다.    
 • 하지만, 앞에  NOT(!) 연산자가 있으므로, False 를 반환한다. 
 {: .notice--info}
@@ -872,7 +872,7 @@ not not False
 
 
 **설명:** [ Instruction ]    
-• 각 변수에 양변의 계산 결과 값을 True 또는 False 로 대입하라. 
+• 각 변수에 양변의 계산 결과 값을 True 또는 False 를 대입하라. 
 {: .notice--info}
 
 
@@ -888,7 +888,7 @@ bool_one = False
 ```
 
 **설명:** [ Hint ]    
-• NOT (!) 연산자는 양 변의 최종 결과값의 반대를 반환한다.  
+• NOT ( ! ) 연산자는 양 변의 최종 결과값의 반대를 반환한다.  
 {: .notice--info}
 
 <br>
@@ -945,8 +945,8 @@ Parentheses `()` ensure your expressions are evaluated in the order you want. An
 
 
 **설명:** [ Learn ]    
-• Ch9. This and That 에서는 Boolean 의 우선순위를 학습한다.    
-• boolean 의 계산 순서는 수학의 계산 우선 순위와 값다.    
+• Ch9. This and That 에서는 Boolean 의 우선 순위를 학습한다.    
+• boolean 의 계산 순서는 수학의 우선 순위와 같다.    
 • 1st : NOT     
 • 2nd : AND    
 • 3rd : OR    
@@ -1131,7 +1131,7 @@ bool_five = True or True
 ```
 
 **설명:** [ Solution ]    
-• 주석에서 True 를 만들라면, 우변의 값을 True로 만들어 대입한다.
+• 주석에서 True 를 만들려면, 우변의 값을 True로 만들어 대입한다.
 {: .notice--info}
 
 
@@ -1175,8 +1175,8 @@ If the **indentation** from one line to the next is different and there is no co
 **설명:** [ Learn ]    
 • Ch11. Conditional Statement Syntax 에서는 조건문을 학습한다.      
 • if 문은 조건문 이다.     
-• 조건이 True 이면, if 절 내부의 정의 내용을 실행한다.    
-• if 문 사용시 주의 사항이 있다.    
+• 조건이 True 이면, if 절 내부에 정의된 내용을 실행한다.    
+• if 문 사용시 주의 사항은 다음과 같다.    
 • if 문 조건 뒤에 항상 ( : )을 붙여줘야 한다.      
 • 이것은 if 문 조건이 끝났음을 의미한다.    
 • if 문 내부를 정의할때, if 문 보다 안쪽으로 Space 2칸이 들어간 상태에서 시작한다.    
@@ -1191,7 +1191,7 @@ If the **indentation** from one line to the next is different and there is no co
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* If you think the `print` statement will print to the console, set `response` equal to **'Y'*; otherwise, set response equal to **'N'**.
+* If you think the `print` statement will print to the console, set `response` equal to 'Y'; otherwise, set response equal to 'N'.
 
 
 **설명:** [ Instruction ]    
@@ -1263,7 +1263,7 @@ if some_function():
   # et cetera
 ```    
 
-Looking at the example above, in the event that `some_function()` returns `True,` then the indented block of code after it will be executed. In the event that it returns False, then the indented block will be **skipped**.
+Looking at the example above, in the event that `some_function()` returns `True,` then the indented block of code after it will be executed. In the event that it returns False, then the indented block will be skipped.
 
 Also, make sure you notice the `colons` at the end of the `if` statement. We've added them for you, but they're important.
 
@@ -1276,7 +1276,7 @@ Also, make sure you notice the `colons` at the end of the `if` statement. We've 
 • e.g.  # block line two,     
 • e.g.  # et cetera     
 • 결과값이 False 이면 정의문 들은 실행되지 않는다.    
-• if 문의 끝에는 ( : ) 이 항상 와야한다. 
+• if 문의 끝에는 ( : ) 이 항상 있어야 한다. 
 {: .notice--info}
 
 
@@ -1439,8 +1439,9 @@ def french_soldier():
 • if 문이 변수 answer 과 문자열을 비교한다.    
 • 비교한 결과가 참이면 True 를 반환한다.    
 • 비교한 결과가 거짓이면 else 문이 작동된다.    
-• else 문의 'print ("else call")' 이 출력된다.    
-• 그리고 False 가 반환된다.
+• e.g. print ("else call")     
+• else 문의 블럭내용이 출력된다.    
+• 그리고 False 가 반환(return)된다.    
 • # 각 line 에 print 문을 작성해 보면, 그 결과를 알 수 있다.
 {: .notice--info}
 
@@ -1479,9 +1480,9 @@ In the example above, the `elif` statement is only checked if the original if st
 
 **설명:** [ Learn ]    
 • Ch14. I Got 99 Problems, 에서는 elif 를 학습한다.     
-• elif 는 "else if" 의 줄인 말이다.    
+• elif 는 *else if* 의 줄인 말이다.    
 • elif 는 if 조건절이 아니고 그다음에 다른 조건을 체크 하고 싶을때 사용한다.    
-• else 차이는 else 는 조건을 만들수 없디만, elif 문은 조건을 만들수 있다.
+• 비슷한 else 와의 차이는 else 는 조건을 만들수 없지만, elif 문은 조건문을 만들수 있다.
 {: .notice--info}
 
 
@@ -1608,7 +1609,7 @@ Let's get to the grand finale.
 
 
 **설명:** [ Learn ]     
-• Ch15. The Big If 에서는 지금가지 배운 모든 연산자를 학습한다.    
+• Ch15. The Big If 에서는 지금까지 배운 모든 연산자를 학습한다.    
 • 지금까지 배운 비교문, Boolean 연산자, 조건문( if , elif , else )를 복습하자.
 {: .notice--info}
 
@@ -1659,7 +1660,7 @@ if grade >= 90:
 This will compare the variable grade with the value 90 and if it is greater than or equal to 90 it will return the letter A.
 
 **설명:** [ Hint ]    
-• 조건문 'if grade >= 90:' 은 변수 grade 값이 90 보다 크거나 같다는 표현이다.   
+• 조건문 ( if grade >= 90: ) 은 변수 grade 값이 90 보다 크거나 같다는 표현이다.   
 • 이 조건이 맞으면 if 문 내부에 A 가 반환되도록 작성한다.
 {: .notice--info}
 
