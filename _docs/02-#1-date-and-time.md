@@ -83,7 +83,10 @@ from datetime import datetime
 **결과**  
 ```
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -178,7 +181,10 @@ print now
 **결과**
 ```
 2018-11-27 10:27:29.102097
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -274,7 +280,10 @@ print now.day
 2018
 11
 27
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -364,7 +373,10 @@ print '%02d/%02d/%04d' % (now.month, now.day, now.year)
 **결과**
 ```
 11/27/2018
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -454,7 +466,10 @@ print '%02d:%02d:%02d' % (now.hour, now.minute, now.second)
 **결과**
 ```
 10:52:23
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    

@@ -110,7 +110,10 @@ Alex
 Mariah
 Martine
 Columbus
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -209,7 +212,10 @@ A star of a popular children's cartoon show.
 Goes on the floor.
 A small amount.
 The sound a goat makes.
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -320,7 +326,10 @@ for number in a:
 8
 10
 12
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -456,7 +465,10 @@ def fizz_count(x):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -549,7 +561,10 @@ y
 
 i
 i
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -640,7 +655,10 @@ prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -717,7 +735,10 @@ stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -846,7 +867,10 @@ stock: 6
 apple
 price: 2
 stock: 0
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -944,7 +968,10 @@ print total
 24
 0
 117.0
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1016,7 +1043,10 @@ groceries = ["banana", "orange", "apple"]
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1147,7 +1177,10 @@ def compute_bill(food):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1251,7 +1284,10 @@ def compute_bill(food):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    

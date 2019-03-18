@@ -120,7 +120,10 @@ The first animal at the zoo is the pangolin
 The second animal at the zoo is the cassowary
 The third animal at the zoo is the sloth
 The fourth animal at the zoo is the dog
-```
+```   
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -223,7 +226,10 @@ Adding the numbers at indices 0 and 2...
 12
 Adding the numbers at indices 1 and 3...
 14
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -331,7 +337,10 @@ zoo_animals[3] = "lion"
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -441,7 +450,10 @@ print suitcase
 ``` 
 There are 4 items in the suitcase.
 ['sunglasses', 'shirt', 'pants', 'shoes']
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -561,7 +573,10 @@ last = suitcase[4:6]
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -656,7 +671,10 @@ frog = animals[6:]
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -771,7 +789,10 @@ print animals # Observe what prints after the insert operation
 **결과** 
 ``` 
 ['aardvark', 'badger', 'cobra', 'duck', 'emu', 'fennec fox']
-```
+```     
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -870,7 +891,10 @@ for number in my_list:
 16
 10
 14
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -982,7 +1006,10 @@ print square_list
 **결과** 
 ``` 
 [1, 4, 9, 16, 25]
-```
+```     
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1090,7 +1117,10 @@ print residents['Burmese Python']
 104
 105
 106
-```
+```     
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1199,7 +1229,10 @@ print menu
 14.5
 There are 4 items on the menu.
 {'Chicken Alfredo': 14.5, 'Pizza Slice': 3.5, 'Hamburger': 8.5, 'Salad': 10.0}
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1306,7 +1339,10 @@ print zoo_animals
 **결과** 
 ``` 
 {'Atlantic Puffin': 'Arctic Exhibit', 'Rockhopper Penguin': 'Plains Exhibit'}
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1392,7 +1428,10 @@ backpack.remove('dagger')
 **결과** 
 ``` 
 #skip
-```
+```     
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    

@@ -24,7 +24,7 @@ redirect_from:
 
 
 <b>1.	Python Syntax</b>     
-*  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)      
+*  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)  
 <hr/>     
 
 <b>2.	Strings and Console Output</b>     

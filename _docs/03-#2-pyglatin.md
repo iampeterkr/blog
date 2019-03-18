@@ -96,7 +96,10 @@ skip
 **결과** 
 ```
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -161,7 +164,10 @@ print "Pig Latin"
 **결과** 
 ```
 Pig Latin
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -274,7 +280,10 @@ original = raw_input("Enter a word:")
 **결과**
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -388,7 +397,10 @@ hellow
 Welcome to the Pig Latin Translator!
 Enter a word:
 empty
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -492,7 +504,10 @@ else:
 Welcome to the Pig Latin Translator!
 Enter a word:Hellow
 Hellow
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -584,7 +599,10 @@ empty
 Welcome to the Pig Latin Translator!
 Enter a word:abcd
 abcd
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -658,7 +676,10 @@ pyg = 'ay'
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -782,7 +803,10 @@ else:
 **결과** 
 ``` 
 Enter a word:ABCD
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -874,7 +898,10 @@ else:
 ``` 
 Enter a word:ABCD
 # no display result
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -999,7 +1026,10 @@ else:
 ``` 
 Enter a word:ABCD
 # no display result
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    

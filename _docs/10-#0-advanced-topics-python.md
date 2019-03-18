@@ -110,8 +110,8 @@ print my_dict.items()
 **결과**     
 ```
 [('age', 31), ('name', 'Nick'), ('occupation', 'Dentist')]
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -196,8 +196,8 @@ print my_dict.values()
 ``` 
 ['age', 'name', 'occupation']
 [31, 'Nick', 'Dentist']
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -308,8 +308,8 @@ for key in my_dict:
 age 31
 name Nick
 occupation Dentist
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -389,8 +389,8 @@ print evens_to_50
 **결과**     
 ``` 
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -496,8 +496,8 @@ print even_squares
 **결과**     
 ``` 
 [4, 16, 36, 64, 100]
-```
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -596,8 +596,8 @@ print cubes_by_four
 **결과**     
 ``` 
 [8, 64, 216, 512, 1000]
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -694,8 +694,8 @@ print l[2:9:2]
 **결과**     
 ``` 
 [9, 25, 49, 81]
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -808,8 +808,8 @@ print my_list[::2]
 **결과**     
 ``` 
 [1, 3, 5, 7, 9]
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -900,8 +900,8 @@ backwards = my_list[::-1]
 **결과**     
 ``` 
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -990,8 +990,8 @@ print backwards_by_tens
 **결과**     
 ``` 
 [100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0]
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1079,8 +1079,8 @@ middle_third = to_21[7:14]
 **결과**     
 ```
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1173,8 +1173,8 @@ print filter(lambda x: x % 3 == 0, my_list)
 **결과**     
 ``` 
 [0, 3, 6, 9, 12, 15]
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1263,8 +1263,8 @@ print filter(lambda x: x == "Python", languages)
 **결과**     
 ``` 
 ['Python']
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1358,10 +1358,8 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 **결과**     
 ``` 
 [36, 49, 64]
-```   
-
-
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1434,8 +1432,8 @@ print ( movies.items() )
 **결과**     
 ``` 
 [("Monty Python's Life of Brian", 'Good'), ("Monty Python's Meaning of Life", 'Okay'), ('Monty Python and the Holy Grail', 'Great')]
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1526,8 +1524,8 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 **결과**     
 ``` 
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1630,8 +1628,8 @@ message = garbled[::-2]
 **결과**     
 ``` 
 I am the secret message!
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    

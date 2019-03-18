@@ -132,7 +132,10 @@ tyler = {
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -223,7 +226,10 @@ tyler = {
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -319,7 +325,10 @@ students = [lloyd, alice, tyler]
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -443,7 +452,10 @@ Tyler
 [0.0, 87.0, 75.0, 22.0]
 [0.0, 75.0, 78.0]
 [100.0, 100.0]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -576,7 +588,10 @@ def average(numbers):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -709,7 +724,10 @@ def get_average(student):
 **결과** 
 ``` 
 #skip
-```
+```     
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -862,7 +880,10 @@ print get_letter_grade(get_average(lloyd))
 **결과** 
 ``` 
 B
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -989,7 +1010,10 @@ def get_class_average(class_list):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    

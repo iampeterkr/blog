@@ -1,14 +1,14 @@
 ---
-# layout : rchive
+layout : archive
 title: "Python Syntax"
-permalink: /python-syntax/
+permalink: /llsk-llsk/
 excerpt: "We learn about Python Syntax."
 last_modified_at: 2018-11-19T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
 ---
-   
+## LLSK - LLSL  
 <hr style="border: solid 1px #dddddd ;">    
 LESSON    
 
@@ -1488,7 +1488,4 @@ print("I got "+str(point_total)+" points!")
 **결과**
 ```
 I got 165 points!
-```    
-
-<p style="page-break-before: always;"></p>
-<br>
+```

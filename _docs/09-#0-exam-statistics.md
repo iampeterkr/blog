@@ -97,8 +97,8 @@ print "Grades:", grades
 **결과** 
 ``` 
 Grades: [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -199,8 +199,8 @@ print_grades(grades)
 90
 85
 50.5
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -276,8 +276,8 @@ print "Let's compute some stats!"
 **결과** 
 ``` 
 Let's compute some stats!
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -382,8 +382,8 @@ print grades_sum(grades)
 **결과** 
 ``` 
 1045.5
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -493,8 +493,8 @@ print grades_average(grades)
 ``` 
 1045.5
 80.4230769231
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -563,8 +563,8 @@ print "Time to conquer the variance!"
 **결과** 
 ``` 
 Time to conquer the variance!
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -686,8 +686,8 @@ print grades_variance(grades)
 **결과** 
 ``` 
 334.071005917
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -802,8 +802,8 @@ print grades_std_deviation(variance)
 **결과** 
 ``` 
 18.2776094147
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    

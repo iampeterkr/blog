@@ -104,7 +104,10 @@ clinic()
 You've just entered the clinic!
 Do you take the door on the left or the right?
 Type left or right and hit 'Enter'.
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -273,7 +276,10 @@ bool_five = False
 **결과** 
 ```
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -371,7 +377,10 @@ bool_five = False
 **결과** 
 ```
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -478,7 +487,10 @@ bool_five = "tomato" == "tomato"
 **결과** 
 ```
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -554,7 +566,10 @@ skip
 **결과** 
 ```
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -671,7 +686,10 @@ bool_five = True and True
 **결과** 
 ```
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -780,7 +798,10 @@ bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
 **결과** 
 ```
 #skip 
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -898,7 +919,10 @@ bool_five = not not False
 **결과**
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1022,7 +1046,10 @@ bool_five = False or not (True and True)
 **결과** 
 ``` 
 #skip
-```
+```    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 <br>
 <br>    
@@ -1112,7 +1139,10 @@ bool_five = True or True
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1209,7 +1239,10 @@ if answer == "Left":
 **결과** 
 ``` 
 This is the Verbal Abuse Room, you heap of parrot droppings!
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1318,7 +1351,10 @@ print using_control_again()
 ```
 Success #1
 Success #2
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1412,7 +1448,10 @@ def french_soldier():
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1521,7 +1560,10 @@ print greater_less_equal_5(6)
 -1
 0
 1
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 
 

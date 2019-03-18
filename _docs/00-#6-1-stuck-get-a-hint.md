@@ -27,9 +27,10 @@ redirect_from:
   - ⓑ Reference `Hint`     
 
 
-**설명:**① 미션을 수행하기 어려운 경우 `Hint`를 참조한다.    
-  ⓐ `Stuck? get a hint` 클릭    
-  ⓑ `Hint` 참조    
+**설명:**    
+• 미션을 수행하기 어려운 경우 `Hint`를 참조한다.    
+• `Stuck? get a hint` 클릭    
+• `Hint` 참조    
 {: .notice--info}
 
 

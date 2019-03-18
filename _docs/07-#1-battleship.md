@@ -90,7 +90,10 @@ skip
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -157,7 +160,10 @@ board = []
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -266,7 +272,10 @@ for i in range(5):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -350,7 +359,10 @@ print board
 **결과** 
 ``` 
 [['O', 'O', 'O', 'O', 'O'], ['O', 'O', 'O', 'O', 'O'], ['O', 'O', 'O', 'O', 'O'], ['O', 'O', 'O', 'O', 'O'], ['O', 'O', 'O', 'O', 'O']]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -458,7 +470,10 @@ print_board(board)
 ['O', 'O', 'O', 'O', 'O']
 ['O', 'O', 'O', 'O', 'O']
 ['O', 'O', 'O', 'O', 'O']
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -567,7 +582,10 @@ O O O O O
 O O O O O
 O O O O O
 
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -695,7 +713,9 @@ random_col(board)
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
 
 <br>
 <br>    
@@ -818,7 +838,10 @@ guess_col = int(raw_input("Guess Col: "))
 ``` 
 Guess Row: 3
 Guess Col: 3
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -930,7 +953,10 @@ guess_col = int(raw_input("Guess Col: "))
 0
 Guess Row: 2
 Guess Col: 2
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1076,7 +1102,10 @@ Guess Row: 2
 Guess Col: 0
 Congratulations! You sank my battleship!
 
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1214,7 +1243,10 @@ O X O O O
 O O O O O
 O O O O O
 O O O O O
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1394,7 +1426,10 @@ O O O O O
 O O O O O
 O O O O O
 O O O O O
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1527,7 +1562,10 @@ O O O O O
 O O O O O
 O O O O X
 # 다음에 4,4를 입력 하면 이미 입력한 값이라고 출력 될 것이다.  
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1639,10 +1677,9 @@ else:
 **결과** 
 ``` 
 #skip
-```
-
-
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1809,8 +1846,9 @@ O O X O O
 O O O O X
 O O O O O
 
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1987,8 +2025,9 @@ O X O O O
 O O O O O
 O O O O O
 O O O O O
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -2129,8 +2168,9 @@ Turn 1
 Guess Row: 2
 Guess Col: 4
 Congratulations! You sank my battleship!
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -2287,8 +2327,9 @@ O X O O O
 O O O O O
 O O O O O
 O O O O O
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    

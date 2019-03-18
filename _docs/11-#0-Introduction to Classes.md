@@ -135,8 +135,8 @@ lemon.is_edible()
 ``` 
 I'm a yellow lemon and I taste sour.
 Yep! I'm edible.
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -222,8 +222,8 @@ class Animal(object):
 **결과**     
 ``` 
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -315,8 +315,8 @@ class Animal(object):
 **결과** 
 ``` 
 #skip
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -404,8 +404,8 @@ class Animal(object):
 **결과**     
 ``` 
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -523,8 +523,8 @@ print zebra.name
 **결과**     
 ``` 
 Jeffrey
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -636,8 +636,8 @@ print panda.name, panda.age, panda.is_hungry
 Jeffrey 2 True
 Bruce 1 False
 Chad 7 True
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -733,8 +733,8 @@ print panda.name, panda.age, panda.is_alive
 Jeffrey 2 True
 Bruce 1 True
 Chad 7 True
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -835,8 +835,8 @@ hippo.description()
 ``` 
 Anderson
 36
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -964,8 +964,8 @@ print ocelot.health
 good
 good
 good
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1075,8 +1075,8 @@ my_cart.add_item("Ukelele", 10)
 **결과**     
 ``` 
 Ukelele added.
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1174,8 +1174,8 @@ monty_python.display_order_history()
 ``` 
 I'm a string that stands in for the contents of your shopping cart!
 I'm a string that stands in for your order history!
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1288,8 +1288,8 @@ class Triangle(Shape):
 **결과**     
 ``` 
 #skip
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1410,7 +1410,7 @@ class PartTimeEmployee(Employee):
 ``` 
 #skip
 ```   
-
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1541,10 +1541,8 @@ print milton.full_time_wage(10)
 **결과**     
 ``` 
 200.0
-```   
-
-
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1633,8 +1631,8 @@ class Triangle(object):
 **결과**     
 ``` 
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1734,8 +1732,8 @@ class Triangle(object):
 **결과**     
 ``` 
 #skip
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1841,8 +1839,8 @@ print my_triangle.check_angles()
 ``` 
 3
 True
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    

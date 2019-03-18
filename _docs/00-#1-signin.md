@@ -17,6 +17,7 @@ redirect_from:
 Fisrt, We have to singn in to *Codecademy.com* site.    
 Enter the `Usnaername`, `Email`, `Password`, and click the `Start coding now` button. 
 
-**설명:** 먼저, 회원 가입을 해야 한다.    
+**설명:**     
+먼저, 회원 가입을 해야 한다.    
 `Username` , `Email`, `Password` 를 입력하고, `Start coding now`를 누른다. 
 {: .notice--info}

@@ -103,8 +103,8 @@ print ~88     # Bitwise NOT
 13
 38
 -89
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -214,8 +214,8 @@ print 0b11 * 0b11
 ******
 4
 9
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -313,8 +313,8 @@ twelve = 0b1100
 **결과** 
 ``` 
 #skip
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -404,8 +404,8 @@ print bin(5)
 0b11
 0b100
 0b101
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -508,8 +508,8 @@ print int("11001001", 2)
 4
 5
 201
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -611,8 +611,8 @@ print bin(shift_left)
 ``` 
 0b11
 0b100
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -709,8 +709,8 @@ print (bin(0b110 & 0b101))
 **결과**     
 ```
 0b100 
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -799,8 +799,8 @@ print bin(0b1110 | 0b101)
 **결과**     
 ``` 
 0b1111
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -889,8 +889,8 @@ print bin(0b1110 ^ 0b101)
 **결과**     
 ``` 
 0b1011
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -973,8 +973,8 @@ print ~123
 -4
 -43
 -124
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1094,8 +1094,8 @@ def check_bit4(input):
 **결과**     
 ``` 
 on
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1182,8 +1182,8 @@ print bin(desired)
 **결과**     
 ``` 
 0b10111111
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1268,8 +1268,8 @@ print bin(desired)
 **결과**     
 ``` 
 0b10001
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    

@@ -42,6 +42,7 @@ main:
  #   url: /terms/
 
 
+
 # documentation links
 docs:
   - title: Getting Started
@@ -160,19 +161,6 @@ docs:
         url: /3-file-input-output/
       - title: " 13. PYTHON FINAL PROJECT"
         url: /3-python-final-project/
-
-# sidebar navigation list sample
-sidebar:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /quick-start-guide/
-      - title: "Structure"
-        url: /structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
 
 sidebar:
   - title: "Parent Page A"

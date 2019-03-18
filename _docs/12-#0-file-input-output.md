@@ -102,8 +102,8 @@ f.close()
 **결과**     
 ``` 
 #skip
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -200,8 +200,8 @@ my_file = open("output.txt", "r+")
 **결과**     
 ```
 #skip 
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -330,8 +330,8 @@ my_file.close()
 **결과** 
 ``` 
 #skip
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -426,8 +426,8 @@ my_file.close()
 64
 81
 100
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -531,8 +531,8 @@ I'm the second line.
 
 Third line here, boss.
 
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -635,8 +635,8 @@ read_file.close()
 **결과**     
 ``` 
 Not closing files is VERY BAD.
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -716,8 +716,8 @@ with open("text.txt", "w") as textfile:
 **결과**     
 ``` 
 Success!
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -791,8 +791,8 @@ with open("text.txt", "w") as my_file:
 **결과**     
 ``` 
 cheapter 8 
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    

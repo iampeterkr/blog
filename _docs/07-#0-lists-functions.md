@@ -95,7 +95,10 @@ print n[1]
 **결과** 
 ``` 
 3
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -179,7 +182,10 @@ print n
 **결과** 
 ``` 
 [1, 15, 5]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -254,7 +260,10 @@ print n
 **결과** 
 ``` 
 [1, 3, 5, 4]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -366,7 +375,10 @@ print n
 **결과** 
 ``` 
 [3, 5]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -440,7 +452,10 @@ print my_function(number)
 **결과** 
 ``` 
 15
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -522,7 +537,10 @@ print add_function(m, n)
 **결과** 
 ``` 
 18
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -604,7 +622,10 @@ print string_function(n)
 **결과** 
 ``` 
 Helloworld
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -679,7 +700,10 @@ print list_function(n)
 **결과** 
 ``` 
 [3, 5, 7]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -773,7 +797,10 @@ print list_function(n)
 **결과** 
 ``` 
 5
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -874,7 +901,10 @@ print list_function(n)
 **결과** 
 ``` 
 [3, 8, 7]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -967,7 +997,10 @@ print list_extender(n)
 **결과** 
 ``` 
 [3, 5, 7, 9]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1058,7 +1091,10 @@ print_list(n)
 3
 5
 7
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1147,7 +1183,10 @@ print double_list(n)
 **결과** 
 ``` 
 [6, 10, 14]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1268,7 +1307,10 @@ print my_function(range(3)) # Add your range between the parentheses!
 **결과** 
 ``` 
 [0, 1, 2]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 
 
@@ -1390,7 +1432,10 @@ def total(numbers):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1509,7 +1554,10 @@ print join_strings(n)
 **결과** 
 ``` 
 MichaelLieberman
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1602,7 +1650,10 @@ print join_lists(m, n)
 **결과** 
 ``` 
 [1, 2, 3, 4, 5, 6]
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    

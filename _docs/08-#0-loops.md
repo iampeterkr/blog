@@ -112,8 +112,9 @@ Hello, I am a while and count is 6
 Hello, I am a while and count is 7
 Hello, I am a while and count is 8
 Hello, I am a while and count is 9
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -205,8 +206,9 @@ while loop_condition:
 **결과** 
 ``` 
 I am a loop
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -299,8 +301,9 @@ while (num <= 10):  # Fill in the condition
 64
 81
 100
-```
-
+```     
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -382,8 +385,9 @@ while choice != 'y' and choice != 'n':  # Fill in the condition (before the colo
 Enjoying the course? (y/n)x
 Sorry, I didn't catch that. Enter again: z
 Sorry, I didn't catch that. Enter again: y
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -483,8 +487,9 @@ while count < 10: # Add a colon
 7
 8
 9
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -583,8 +588,9 @@ while True:
 7
 8
 9
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -679,8 +685,9 @@ If one of them is a '5', you lose!
 6
 1
 You win!
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -821,8 +828,9 @@ Your guess: 2
 Your guess: 1
 Your guess: 3
 You win!
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -914,8 +922,9 @@ Counting...
 17
 18
 19
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1010,8 +1019,9 @@ Tell me one of your favorite hobbies: swim
 Tell me one of your favorite hobbies: ski
 Tell me one of your favorite hobbies: cycle
 [u'swim', u'ski', u'cycle']
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1099,8 +1109,9 @@ g
 g
 s
 !
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1216,8 +1227,9 @@ print
 **결과** 
 ``` 
 X   b i r d   i n   t h e   h X n d . . .
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1307,8 +1319,9 @@ This list contains:
 144
 2916
 9801
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1406,10 +1419,9 @@ for key in d:
 a apple
 c cherry
 b berry
-```
-
-
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1488,8 +1500,9 @@ Your choices are:
 2 pasta
 3 salad
 4 nachos
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1574,8 +1587,9 @@ for a, b in zip(list_a, list_b):
 17
 15
 30
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1675,7 +1689,10 @@ A tomato
 A pear
 A grape
 A fine selection of fruits!
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1762,8 +1779,9 @@ A tomato
 A pear
 A grape
 A fine selection of fruits!
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    

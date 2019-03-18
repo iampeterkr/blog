@@ -111,6 +111,8 @@ brian = "Hello life!"
  #skip
 ```
 
+<p style="page-break-before: always;"></p>
+<br>
 
 <br>
 <br>    
@@ -195,7 +197,8 @@ print viking
 Graham
 John
 Teresa
-```
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -297,8 +300,8 @@ print (b)
 ```
 This isn't flying, this is falling with style!
 This isn't flying, this is falling with style!
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -421,8 +424,8 @@ print fifth_letter
 ```
 Y
 ```
-
-
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -513,6 +516,8 @@ print len(parrot)
 ```
 14
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 <br>
 <br>    
@@ -595,7 +600,10 @@ print parrot.lower()
 **결과**
 ```
 norwegian blue
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -670,7 +678,10 @@ print parrot.upper()
 **결과**
 ```
 NORWEGIAN BLUE
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -758,7 +769,10 @@ print str(pi)
 **결과**
 ```
 3.14
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -842,7 +856,10 @@ print ministry.upper()
 ```
 27
 THE MINISTRY OF SILLY WALKS
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -921,7 +938,10 @@ print "Monty Python"
 **결과**
 ```
 Monty Python
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -1000,7 +1020,10 @@ print the_machine_goes
 **결과**
 ```
 Ping!
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -1084,7 +1107,10 @@ print "Spam " + "and " + "eggs"
 **결과**
 ```
 Spam and eggs
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -1171,7 +1197,9 @@ print "The value of pi is around " + str(3.14)
 **결과**
 ```
 The value of pi is around 3.14
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -1273,7 +1301,10 @@ print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 **결과**
 ```
 Let's not go to Camelot. 'Tis a silly place.
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 <br>
 <br>    
 <br>    
@@ -1382,7 +1413,9 @@ What is your name? iampeter
 What is your quest? earth
 What is your favorite color? yellow
 Ah, so your name is iampeter, your quest is earth, and your favorite color is yellow.
-```
+```     
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    

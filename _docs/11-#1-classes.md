@@ -90,8 +90,8 @@ class Car(object):
 **결과**     
 ``` 
 #skip
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -165,8 +165,8 @@ my_car = Car()
 **결과**     
 ``` 
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -244,8 +244,8 @@ my_car = Car()
 **결과** 
 ``` 
 #skip
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -322,8 +322,8 @@ print my_car.condition
 **결과**     
 ``` 
 new
-```   
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -438,8 +438,8 @@ my_car = Car("DeLorean", "silver", 88)
 **결과**     
 ``` 
 #skip
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -544,8 +544,8 @@ print my_car.mpg
 DeLorean
 silver
 88
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -651,8 +651,8 @@ my_car.display_car()
 **결과**     
 ``` 
 This is a silver DeLorean with 88 MPG.
-```   
-
+```      
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -751,8 +751,8 @@ print my_car.condition
 ```
 new
 used
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -862,8 +862,8 @@ my_car = ElectricCar("DeLorean", "silver", 88, "molten salt")
 **결과**     
 ``` 
 #skip
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -970,8 +970,8 @@ print my_car.condition
 ``` 
 new
 like new
-```   
-
+```     
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    

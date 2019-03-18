@@ -24,11 +24,11 @@ last_modified_at: 2019-03-11T09:00:00-04:00
 	<tr>
 		<td><img src="/codecademy/assets/images/lls-logo3.png" width="500" height="300">
         </td>
-		<td><a href="/codecademy/3-syllabus/">Python3</a></td>
+		<td><a href="/codecademy/docs-llsk/">Python3</a></td>
 	</tr>
 	<tr>
 		<td><img src="/codecademy/assets/images/lls-2.png" width="500" height="300">
         </td>
-		<td><a href="/codecademy/3-syllabus/">Python3</a></td>
+		<td><a href="/codecademy/llsk-llsk/">Python3</a></td>
 	</tr>
 </table>

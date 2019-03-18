@@ -112,7 +112,10 @@ meal_with_tip = tip(meal_with_tax)
 ``` 
 With tax: 108.000000
 With tip: 124.200000
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -235,7 +238,10 @@ spam()
 **결과** 
 ```
 Eggs!
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -323,7 +329,10 @@ square(10)
 **결과** 
 ``` 
 10 squared is 100.
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -429,7 +438,10 @@ power(37, 4)  # Add your arguments here!
 **결과** 
 ``` 
 37 to the power of 4 is 1874161.
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -519,7 +531,10 @@ def deserves_another(n):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -652,7 +667,10 @@ def by_three(number):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -739,7 +757,10 @@ print sqrt(25)
 Traceback (most recent call last):
   File "python", line 3, in <module>
 NameError: name 'sqrt' is not defined
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -830,7 +851,10 @@ print math.sqrt(25)
 **결과** 
 ``` 
 5.0
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -915,7 +939,10 @@ from math import sqrt
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -997,7 +1024,10 @@ from math import *
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1086,7 +1116,10 @@ print everything # Prints 'em all!
 ``` 
 ['__doc__', '__name__', '__package__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'copysign', 'cos', 'cosh', 'degrees', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'hypot', 'isinf', 'isnan', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'trunc']
 
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1175,7 +1208,10 @@ distance_from_zero(-10)
 10
 -10
 10
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1247,7 +1283,10 @@ print maximum
 **결과** 
 ``` 
 15
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1324,7 +1363,10 @@ print minimum
 **결과** 
 ``` 
 4
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 
 
@@ -1397,7 +1439,10 @@ print absolute
 **결과** 
 ``` 
 42
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1491,7 +1536,9 @@ print type('hello')
 <type 'int'>
 <type 'float'>
 <type 'str'>
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
 
 <br>
 <br>    
@@ -1599,7 +1646,10 @@ def shut_down(s):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -1681,7 +1731,10 @@ print math.sqrt(13689)
 **결과** 
 ``` 
 117.0
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    

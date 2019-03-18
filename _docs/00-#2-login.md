@@ -17,6 +17,7 @@ redirect_from:
 Fisrt, We have to login for connecting *Codecademy.com* site.    
 Enter the `Usnaername` or `Email`, `Password`, and click the `Log in` button. 
 
-**설명:**  로그인을 합니다.     
+**설명:**     
+로그인을 합니다.     
 가입한 `Username` or `Email`, `Password` 를 입력하고, `Log in`를 누른다. 
 {: .notice--info}

@@ -86,8 +86,9 @@ skip
 **결과** 
 ``` 
 #skip
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -181,7 +182,10 @@ print is_even(6)
 ``` 
 False
 True
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -290,7 +294,10 @@ print is_int(10.5)
 ``` 
 True
 False
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -400,8 +407,9 @@ print digit_sum(1234)
 **결과** 
 ``` 
 10
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -507,8 +515,9 @@ print factorial(5)
 **결과** 
 ``` 
 120
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -614,8 +623,8 @@ print is_prime(10)
 ``` 
 True
 False
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -704,8 +713,8 @@ print reverse("Hello World")
 **결과** 
 ``` 
 dlroW olleH
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -790,8 +799,9 @@ print anti_vowel("hello book")
 **결과** 
 ``` 
 hll bk
-```
-
+```    
+<p style="page-break-before: always;"></p>
+<br>
 <br>
 <br>    
 <br>    
@@ -917,8 +927,8 @@ print scrabble_score("pizza")
 **결과** 
 ``` 
 25
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1060,8 +1070,8 @@ print censor("this hack is wack hack", "hack")
 **결과** 
 ``` 
 this **** is wack ****
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1162,8 +1172,8 @@ print count([1, 2, 1, 1], 1)
 **결과** 
 ``` 
 3
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1249,8 +1259,8 @@ print purify([1, 2, 3, 4])
 **결과** 
 ``` 
 [2, 4]
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1340,8 +1350,8 @@ print product([4, 5, 5])
 **결과** 
 ``` 
 100
-```
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    
@@ -1457,10 +1467,8 @@ print remove_duplicates([1, 1, 2, 2])
 **결과** 
 ``` 
 [1, 2, 4]
-```
-
-
-
+```    
+<p style="page-break-before: always;"></p>
 <br>
 <br>    
 <br>    

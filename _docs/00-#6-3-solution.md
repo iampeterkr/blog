@@ -43,8 +43,8 @@ redirect_from:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 **설명:**    
-① 여러차레 `Run`을 시도하여 지시사항을 실패하면, `Solution` 버튼이 나타나고, 이 버튼을 클릭 한다.     
-② 수정된 Python 소스가 `Coding` 화면에 나타난다.    
+① 여러차레 `Run`을 시도하여 지시사항을 실패하면, `Solution` 버튼이 나타난다.    
+② Solution 버튼을 클릭하면, 수정된 Python 소스가 Editor 화면에 나타난다.    
 ③ `Run` 버튼을 다시 클릭하면, `Display` 화면에 정상적인 결과를 보여준다.   
   »»  ⓐ `Solution` 클릭 -> 수정된 Python 소스 확인    
   »»  ⓑ `Run` 클릭      -> 정상적인 결과 확인     

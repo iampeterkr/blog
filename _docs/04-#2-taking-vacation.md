@@ -108,7 +108,10 @@ def answer():
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -192,7 +195,10 @@ def hotel_cost(nights):
 **결과** 
 ```
 #skip 
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -297,7 +303,10 @@ def plane_ride_cost(city):
 **결과** 
 ``` 
 #skip
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -430,7 +439,10 @@ def rental_car_cost(days):
 **결과** 
 ```
 #skip 
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -543,7 +555,10 @@ def trip_cost(city, days):
 **결과** 
 ```
 #skip
-```
+```     
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    
@@ -636,7 +651,10 @@ def trip_cost(city, days, spending_money):
 **결과** 
 ```
 #skip 
-```
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 <br>
 <br>    

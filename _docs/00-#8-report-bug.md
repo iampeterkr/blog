@@ -31,7 +31,8 @@ redirect_from:
 If you see a bug or any other issue with this page, please report it [here]().   
 
 
-**설명:**  `here` 를 클릭하면, 설문 조사 화면이 나타난다. 자신의 의견을 선택하고 , 남길 메시지를 적고 제출 하면 된다. 
+**설명:**     
+`here` 를 클릭하면, 설문 조사 화면이 나타난다. 자신의 의견을 선택하고 , 남길 메시지를 적고 제출 하면 된다. 
 {: .notice--info}
 
 

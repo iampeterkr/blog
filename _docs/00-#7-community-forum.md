@@ -29,7 +29,8 @@ Here are some helpful links to the top questions asked by coders about this exer
 
 Still have questions? View this exercise's thread in the [Codecademy Forums](https://discuss.codecademy.com)
 
-**설명:**  Codecademy를 사용하던중, 의문점이나 의견 개진이 필요한 경우, 연결된 링크를 통하여 [Codecademy Forums](https://discuss.codecademy.com) 사이트에 의견을 보낼수 있다. 
+**설명:**     
+Codecademy를 사용하던중, 의문점이나 의견 개진이 필요한 경우, 연결된 링크를 통하여 [Codecademy Forums](https://discuss.codecademy.com) 사이트에 의견을 보낼수 있다. 
 {: .notice--info}
 
 

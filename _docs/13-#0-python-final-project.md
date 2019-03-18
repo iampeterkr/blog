@@ -19,3 +19,5 @@ Python 기초 작업을 모두 마쳤습니다.
  <hr style="border: solid 1px #dddddd ;">
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/13-python-final-project-01.png)    
+
+<p style="page-break-before: always;"></p>
