@@ -24,32 +24,29 @@ redirect_from:
 <br>
 
 ### Screen
-The screens are divided into 3 parts ① Learning ② Coding ③ Display   
-
-1. Learning
-     * It is consist of Learn, Instructions, Community Forum, Report bug.
-
-2. Coding     
-     * This area is to write python programing.   
-     
-3. Display
-     * It will have displayed normal result if you write normally the Python program and runs(`run`).    
-     * otherwise, you will see the information about Error.
+화면은 크게 3개로 나뉘어 진다.     
 
 
+**설명:** ① 설명화면       
+• (Learn) 배워야 할 내용    
+• (Instruction) 실행할 미션     
+• (Hint) 미션을 도와줄 힌트     
+• (Forum) 포럼    
+• (Bug) 버그 송신 으로 구성되어 있다.    
+{: .notice--info}    
 
-**설명:** [ 화면설명 ]    
-화면은 크게 3개로 나뉘어 진다. ① 설명화면 ② 코딩화면 ③ 출력화면   
-① 설명화면    
-   • 배워야 할 내용, 해야할 미션, 포럼, 버그 송신으로 구성되어 있다.    
-② 코딩화면     
-   • 해야할 미션을 작성(코딩)하는 곳이다. 즉, Python 프로그램을 작성하는 창이다.     
-③ 출력화면    
-   • 작성한 프로그램을 실행(Run)을 하면 출력되는 화면이다.    
-   • 프로그램을 제대로 수행했으면 정상 화면이 동작할 것이고, 틀리게 수행하면 에르가 표시된다.
-{: .notice--info}
+<hr>
 
+**설명:** ② 코딩화면(Editor)       
+• 수행할 Instruction 을 작성(코딩)하는 곳이다.     
+• 즉, Python 프로그램을 작성하는 Editor 창이다.
+{: .notice--info}    
+   
+<hr>
 
+**설명:** ③ 출력화면           
+• 작성한 프로그램을 실행(Run)을 하면 출력되는 화면이다.    
+• 프로그램을 제대로 수행했으면 정상 화면이 동작한다.    
+• 프로그램에 문제가 있으면 Error가 표시된다.
+{: .notice--info}    
 
-<hr/>    
-<br>    

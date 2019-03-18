@@ -19,8 +19,6 @@ redirect_from:
 <hr/>    
 
 
-We learn to Python syntax using the python education infra based on "[codecademy.com](https://codecademy.com)", and it is easily beginner to learn Python syntax without install of Python. 
-
 **설명:**    
-우리는 [codecademy.com](https://codecademy.com)의 python 교육 환경을 이용하여, 초보자도 쉽게 Python을 추가 설치 없이 아주 쉽게 Python 문법을 배운다.
+우리는 [codecademy.com](https://codecademy.com)의 python 교육 환경을 이용하여, 초보자도 Python 추가 설치 없이 아주 쉽게 Python 문법을 배운다.
 {: .notice--info}

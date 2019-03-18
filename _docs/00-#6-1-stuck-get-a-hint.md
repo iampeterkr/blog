@@ -22,12 +22,7 @@ redirect_from:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* ① Reference the `Hint` if you hard to understand the instructions.
-  - ⓐ Click `Stuck? get a hint`       
-  - ⓑ Reference `Hint`     
-
-
-**설명:**    
+**설명:** [ Hint ]   
 • 미션을 수행하기 어려운 경우 `Hint`를 참조한다.    
 • `Stuck? get a hint` 클릭    
 • `Hint` 참조    
