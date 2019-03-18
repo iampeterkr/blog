@@ -200,7 +200,7 @@ Once you type in your name and hit Enter, it will be stored in name.
 **설명:** [ Learn ]     
 • Ch3. Input 에서는 문자열 입력함수를 학습한다.    
 • Console 창에 다음과 같은 문자열이 출력된다.    
-• "What's your name?"     
+• e.g. *What's your name?*     
 • Console 창에 당신의 이름을 입력하라. 그리고 Enter를 클릭하라.        
 • # 함수 raw_input() 는 console 창에 문자열을 입력받는 함수이다.
 {: .notice--info}    
@@ -254,7 +254,7 @@ variable_name = raw_input('Prompt')
 
 **설명:** [ Hint ]    
 • 함수 raw_input() 은 Console 창에서 문자열을 입력 받는 함수이다.    
-• 'Prompt'는 console 창에 출력되는 질문 메시지 이다.     
+• Prompt 는 console 창에 출력되는 질문 메시지 이다.     
 {: .notice--info}
 
 <br>
@@ -272,7 +272,7 @@ original = raw_input("Enter a word:")
 ```
 
 **설명:** [ Solution ]    
-• 함수 ' raw_input("Enter a word:") ' 로 문자를 입력 받는다.
+• 함수 raw_input("Enter a word:") 로 문자를 입력 받는다.
 {: .notice--info}
 
 
@@ -429,6 +429,7 @@ You can use `.isalpha()` to check that a string doesn't contain any non-letter c
 
 
 **설명:** [ Learn ]     
+• Ch5. Check Yourself.. 에서는 함수 .isalpha()를 학습한다.     
 • 함수 .isalpha() 은 변수 x 에 저장된 값이 알파벳 인지 검증한다.    
 • 변수 x 에 알파벳이 있으면 True 값을 반환한다.    
 • 변수 x 에 알파벳이 없으면 False 값을 반환한다.  
@@ -469,7 +470,7 @@ else:
 
 **설명:** [ Hint ]    
 • if 문의 조건절에는 1 개 이상의 조건들이 들어갈 수 있다.     
-• ' the_string.isalpha() ' 은 변수 the_string 에 알파벳이 있는지 점검한다.
+• the_string.isalpha() 은 변수 the_string 에 알파벳이 있는지 점검한다.
 {: .notice--info}
 
 <br>
@@ -524,7 +525,7 @@ When you finish one part of your program, it's important to test it multiple tim
 
 
 **설명:** [ Learn ]    
-• Ch6. Pop Quiz! 에서는 입력 테스를 학습한다.     
+• Ch6. Pop Quiz! 에서는 입력 테스트를 학습한다.     
 • 프로그램을 만들었으면 다양하게 입력하면서 테스트 해 보자. 
 {: .notice--info}
 
@@ -544,7 +545,7 @@ When you finish one part of your program, it's important to test it multiple tim
 
 **설명:** [ Instruction ]    
 • 현재 코드를 이용하여 테스트를 하라.    
-• 통과할 값(알파벳이 포함된)과 실패할 값(알파벳이 없을 값)을 넣어라.    
+• 통과할 값(알파벳이 포함된)과 실패할 값(알파벳이 없는 값)을 넣어라.    
 • 알파벳이 포함된 문자열도 넣고, 없는것도 넣어라.    
 • 소스가 확실히 이해가고, 다음 장으로 넘어갈 준비가 되면 다음장으로 넘어가라.
 {: .notice--info}
@@ -623,10 +624,10 @@ Let's create a variable to hold our translation suffix.
 
 **설명:** [ Learn ]      
 • Ch7. Ay B C 에서는 문자열을 제어하는 방법을 학습한다.        
-• "python" 의 첫글지 "p" 를 "python" 의 제일 뒤로 보낸다.        
-• 그다음에 문자열 "ay" 를 붙이자.    
-• e.g. "python" -> "ythonpay"    
-• 문자 "ay" 를 담을 변수를 만든다.
+• 문자열 *python* 의 첫글지 *p* 를 문자열 *python* 의 제일 뒤로 보낸다.        
+• 그다음에 문자열 *ay* 를 붙이자.    
+• e.g. *python* -> *ythonpay*    
+• 문자 *ay* 를 담을 변수를 만든다.
 {: .notice--info}
 
 
@@ -640,7 +641,7 @@ Let's create a variable to hold our translation suffix.
 
 
 **설명:** [ Instruction ]    
-• 변수 pyg 를 만들고 여기에  문자열 'ay' 를 대입하라. 
+• 변수 pyg 를 만들고 여기에  문자열 *ay* 를 대입하라. 
 {: .notice--info}
 
 
@@ -650,10 +651,10 @@ Let's create a variable to hold our translation suffix.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* Remember to use a single equal sign to do the assignment and to put quotation marks around the string **'ay'**!     
+* Remember to use a single equal sign to do the assignment and to put quotation marks around the string 'ay'!     
 
 **설명:** [ Hint ]    
-• 문자열을 변수에 대입 할때는 (' ')를 사용한다. 
+• 문자열을 변수에 대입 할때는 ( ' ' )를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -668,7 +669,7 @@ pyg = 'ay'
 ```
 
 **설명:** [ Solution ]    
-• 변수 pyg 를 생성하고 문자열 'ay' 를 입력한다. 
+• 변수 pyg 를 생성하고 문자열 *ay* 를 입력한다. 
 {: .notice--info}
 
 
@@ -714,11 +715,11 @@ first_letter  = the_string[0]
 second_letter = the_string[1]
 third_letter  = the_string[2]
 ```
-Remember that we start counting from **zero**, not one, so we access the first letter by asking for **[0]**.
+Remember that we start counting from zero, not one, so we access the first letter by asking for [0].
 
 **설명:** [ Learn ]    
 • 변수 the_string 에 저장되어 있는 문자 하나씩 추출할 수 있다.    
-• 첫번째 문자에 접근할 수 있는 주소(index)는 0번 부터 시작한다. 
+• 첫번째 문자에 접근할수 있는 주소(index)는 0번 부터 시작한다. 
 {: .notice--info}
 
 
@@ -829,7 +830,7 @@ welcome = greeting + name
 ```
 
 **설명:** [ Learn ]    
-• 9. Move it on Back 에서는 변수내 문자열 연결을 학습한다.      
+• Ch9. Move it on Back 에서는 변수내 문자열 연결을 학습한다.      
 • 변수 pyg 에 ( + ) 를 이용하여 다른 문자열을 연결할 수 있다.
 {: .notice--info}
 
@@ -927,18 +928,18 @@ print s[1:4]
 
 * First we create a variable `s` and give it the string "Charlie"
 
-* Next we access the **first letter** of "Charlie" using `s[0]`. Remember letter positions start at **0**.
+* Next we access the first letter of "Charlie" using `s[0]`. Remember letter positions start at 0.
 
 * Then we access a slice of "Charlie" using `s[1:4]`. This returns everything from the letter at position `1` up till position `4`.    
 
-* We are going to **slice** the string just like in the 3rd example above.
+* We are going to slice the string just like in the 3rd example above.
 
 
 **설명:** [ Learn ]      
 • Ch10. Ending Up 에서는 문자열을 잘라내는 방법을 학습한다.      
-• 변수 s 를 만들고, 문자열 "Charlie" 를 대입한다.    
+• 변수 s 를 만들고, 문자열 *Charlie* 를 대입한다.    
 • 변수 s[0] 는 첫번째 글자를 가리킨다.    
-• 변수 s[1:4] 는 변수 s 에서 문자열 "harl" 를 잘라낸다.    
+• 변수 s[1:4] 는 변수 s 에서 문자열 *harl* 를 잘라낸다.    
 • 이 장에서는 문자열을 잘라내는 연습을 한다.
 {: .notice--info}
 
@@ -955,7 +956,7 @@ print s[1:4]
 
 **설명:** [ Instruction ]     
 • 변수 new_word 에 index 1번 문자부터 마지막 index 문자까지 잘라서 대입하라.    
-• [1:len(new_word)] 를 사용하라.
+• [ 1 : len(new_word) ] 를 사용하라.
 {: .notice--info}
 
 
@@ -1013,9 +1014,9 @@ else:
 ```
 
 **설명:** [ Solution ]       
- • new_word[1:len(new_word)] 는 다음과 같이 동작한다.    
+ • new_word[ 1 : len(new_word) ] 는 다음과 같이 동작한다.    
  • len(new_word) 는 변수 new_word 의 길이를 계산한다.    
- • new_word[시작주소:끝주소]이다.    
+ • new_word[ 시작주소 : 끝주소 ]이다.    
  • 시작주소는 포함, 끝주소는 미포함이다.    
  • 변수 new_word 1번부터, 변수 길이만큼 잘라내라.
 {: .notice--info}
