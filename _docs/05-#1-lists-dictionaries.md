@@ -29,7 +29,7 @@ Lists and dictionaries are powerful tools you can use to store, organize, and ma
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
 ### 1. Introduction to Lists    
 
-**Lists** are a **datatype** you can use to store a collection of different pieces of information as a sequence under a single variable name. (Datatypes you've already learned about include strings, numbers, and booleans.)
+Lists are a datatype you can use to store a collection of different pieces of information as a sequence under a single variable name. (Datatypes you've already learned about include strings, numbers, and booleans.)
 
 You can assign items to a list with an expression of the form
 
@@ -47,8 +47,8 @@ Lists are very similar to strings, but there are a few key differences
 • Ch1. Introduction to Lists 에서는 리스트에 대하여 학습한다.         
 • 리스트는 각기 다른 형태의 데이타 타입을 모을 수 있다.    
 • 사용법은 다음과 같다.    
-• e.g. 리스트 변수명 = [ item_1, item_2 ]        
-• e.g. test_list = [ item_11, item_2 ]    
+• e.g. 리스트 변수명 = [ item_1 , item_2 ]        
+• e.g. test_list = [ item_1 , item_2 ]    
 • 빈 리스트는 다음과 같이 만든다.    
 • e.g. test_list = []     
 • 리스트는 문자열과 비슷 하다는것을 알게 된다.
@@ -61,7 +61,7 @@ Lists are very similar to strings, but there are a few key differences
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* The list `zoo_animals` has three items (check them out on line 1). Go ahead and **add** a **fourth**! Just enter the name of your favorite animal (as a "string") on line 1, **after the final comma** but before the closing ].
+* The list `zoo_animals` has three items (check them out on line 1). Go ahead and add a fourth! Just enter the name of your favorite animal (as a "string") on line 1, after the final comma but before the closing ].
 
 
 **설명:** [ Instruction ]     
@@ -109,7 +109,7 @@ if len(zoo_animals) > 3:
 ```
 
 **설명:** [ Solution ]                
-• 리스트 zoo_animals 에 문자열 "dog" 을 추가하였다.    
+• 리스트 zoo_animals 에 문자열 *dog* 을 추가하였다.    
 • 리스트 zoo_animals 의 항목이 4개 이상이면, 리스트 zoo_aimals 의 값이 출력된다.
 {: .notice--info}
 
@@ -141,7 +141,7 @@ You can access an individual item on the list by its index. An index is like an 
 list_name[index]
 ```
 
-List indices begin with **0, not 1**! You access the first item in a list like this: list_name[0]. The second item in a list is at index 1: list_name[1]. Computer scientists love to start counting from zero.    
+List indices begin with 0, not 1! You access the first item in a list like this: list_name[0]. The second item in a list is at index 1: list_name[1]. Computer scientists love to start counting from zero.    
 
 
 **설명:** [ Learn ]    
@@ -170,7 +170,7 @@ print "Adding the numbers at indices 1 and 3..."
 ```    
 
 **설명:** [ Instruction ]             
-• # Your code here ! 밑에 다음 코드를 구현하라.    
+• *# Your code here !* 밑에 다음 코드를 구현하라.    
 • 리스트 numbers 의 2번째 항목(6)과 4번째 항목(8)을 더하여라.    
 • 그리고 출력하라.
 {: .notice--info}
@@ -216,7 +216,7 @@ print numbers[1] + numbers[3]
 **설명:** [ Solution ]    
 • 리스트 numbers[1]의 항목 값은 6 이다.      
 • 리스트 numbers[3]의 항목 값은 8 이다.    
-• 이 둘의 값을 더한후, 그 결과 값을 출력하였다.
+• 이 둘의 값을 더한 후, 그 결과 값을 출력하였다.
 {: .notice--info}
 
 
@@ -272,9 +272,10 @@ zoo_animals[2] = "hyena"
 
 **설명:** [ Learn ]     
 • Ch3. New Neighbors 에서는 리스트의 항목값을 주소(index)를 이용하여 변경해 보자.    
-• 리스트 zoo_animals의 index 값을 지정하면(e.g. zoo_animals[0]),    
-• 리스트 zoo_animals[0] 의 항목값 'pangolin' 을 읽을 수 있다.    
-• 리스트 zoo_animals[2] = "hyena" 로 대입하면, 원래 "sloth" 을 "hyena"로 변경된다.
+• 리스트 zoo_animals의 index 값을 지정하면 다음 예와 같다.    
+• e.g. zoo_animals[0]        
+• 리스트 zoo_animals[0] 의 항목값 *pangolin* 을 읽을 수 있다.    
+• 리스트 zoo_animals[2] = "hyena" 로 대입하면, 원래 *sloth* 을 *hyena*로 변경된다.
 {: .notice--info}
 
 
@@ -329,7 +330,7 @@ zoo_animals[3] = "lion"
 ```
 
 **설명:** [ Solution ]     
-• 리스트 zoo_animals[3] 의 항목값 "tiger"를 "lion" 으로 바꿨다.
+• 리스트 zoo_animals[3] 의 항목값 *tiger* 를 *lion* 으로 바꿨다.
 {: .notice--info}
 
 
@@ -362,8 +363,8 @@ print letters
 ```    
 
 1. In the above example, we first create a list called `letters`.
-2. Then, we **add** the string `'d'` to the end of the letters list.
-3. Next, we print out **4**, the length of the letters list.
+2. Then, we add the string `'d'` to the end of the letters list.
+3. Next, we print out 4, the length of the letters list.
 4. Finally, we print out `['a', 'b', 'c', 'd']`.
 
 
@@ -435,9 +436,9 @@ print suitcase
 ```
 
 **설명:** [ Solution ]    
-• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 "shirt"를 추가 하였다.    
-• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 "pants"를 추가 하였다.    
-• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 "shoes"를 추가 하였다.    
+• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 *shirt* 를 추가 하였다.    
+• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 *pants* 를 추가 하였다.    
+• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 *shoes* 를 추가 하였다.    
 • 리스트 suitcase 의 길이를 len() 내장 함수를 사용하여 계산한다.    
 • 변수 list_length 에 len(suitcase) 의 결과를 대입한다.    
 • 변수 list_length 의 값을 ( %d ) 에 대체하여 출력한다.    
@@ -478,9 +479,9 @@ What is this code doing?
 
 **First**, we create a list called `letters`.
 
-Then, we take a subsection of the list and store it in the slice list. We do this by defining the indices we want to include after the name of the list: `letters[1:3]`. In Python, when we specify a portion of a list in this manner, we **include** the element with the **first index**, 1, but we **exclude** the element with the **second index**, 3.
+Then, we take a subsection of the list and store it in the slice list. We do this by defining the indices we want to include after the name of the list: `letters[1:3]`. In Python, when we specify a portion of a list in this manner, we include the element with the first index, 1, but we exclude the element with the second index, 3.
 
-Next, we print out slice, which will print `['b','c']`. Remember, in Python indices always **start at 0**, so the 1 element is actually b.
+Next, we print out slice, which will print `['b','c']`. Remember, in Python indices always start at 0, so the 1 element is actually b.
 
 Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify the original letters list.
 
@@ -491,10 +492,10 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 • 첫번째 방법은, 해당 문자열의 index 값을 지정해서 추출할 수 있다.    
 • e.g. letters[1]        
 • 이 장에서는 index 값의 범위를 지정하여 추출할 수 있다.    
-• e.g. letters[1:3]            
-• 리스트 letters[1:3]은 리스트 letters 1번 주소 부터 3번 주소까지 잘라낸다는 의미이다.    
+• e.g. letters[1 : 3]            
+• 리스트 letters[1 : 3]은 리스트 letters 1번 주소부터 3번 주소까지 잘라낸다는 의미이다.    
 • 단, 잘라내는 규칙은 다음과 같다.     
-• e.g. letters[Begin:End]        
+• e.g. letters[Begin : End]        
 • - Begin : 첫번째 index 포함.    
 • - End :  마지막 index 미포함.    
 • 리스트 index 는 0 부터 시작한다.    
@@ -508,9 +509,9 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* On line 7, create a list called `middle` containing only the **two middle items** from `suitcase`.
+* On line 7, create a list called `middle` containing only the two middle items from `suitcase`.
 
-* On line 10, create a list called `last` made up only of the **last two items** from `suitcase`.
+* On line 10, create a list called `last` made up only of the last two items from `suitcase`.
 
 
 **설명:** [ Instruction ]             
@@ -537,7 +538,7 @@ myList[3:5]
 
 
 **설명:** [ Hint ]             
-• myList[3:5]는 myList[3]부터 myList[5] 까지 잘라낸다.    
+• myList[3 : 5]는 myList[3]부터 myList[5] 까지 잘라낸다.    
 • myList[3]은 포함된다. (항목값 : 3 )     
 • myList[5]는 미포함된다. (myList[4] 항목값 : 4까지 잘라낸다.)   
 • 즉, [0, 1, 2, 3, 4] 중  값 [3, 4] 만 잘라낸다.  
@@ -564,8 +565,8 @@ last = suitcase[4:6]
 ```
 
 **설명:** [ Solution ]     
-• suitcase[2:4] 는 index 2, 3 인 "passport", "laptop" 이 추출된다.    
-• suitcase[4:6] 는 index 4, 5 인 "suit", "shoes`가 추출된다.
+• suitcase[2 : 4] 는 index 2, 3 인 *passport*, *laptop* 이 추출된다.    
+• suitcase[4 : 6] 는 index 4, 5 인 *suit*, *shoes* 가 추출된다.
 {: .notice--info}
 
 
@@ -588,7 +589,7 @@ last = suitcase[4:6]
 
 ### 6. Slicing Lists and Strings    
 
-You can **slice** a string exactly like a list! In fact, you can think of strings as lists of characters: each character is a sequential item in the list, starting from index **0**.    
+You can slice a string exactly like a list! In fact, you can think of strings as lists of characters: each character is a sequential item in the list, starting from index 0.    
 
 ```python
 my_list[:2]
@@ -604,8 +605,8 @@ If your list slice includes the very first or last item in a list (or a string),
 • Ch6. Slicing Lists and Strings 에서는 문자열 Slicing 을 학습한다.    
 • 문자열도 각 알파벳마다 index가 부여되어 있다.     
 • 문자열도 각 index 값으로 잘라 낼수 있다.     
-• my_list[:2] 는 처음부터 index 2번(미포함)까지 잘라낸다.(처음부터 2번째까지)    
-• my_list[3:] 는 index 3번(포함)부터 끝까지 잘라냄.(4번째 항목부터 끝까지)
+• my_list[ : 2] 는 처음부터 index 2번(미포함)까지 잘라낸다.(처음부터 2번째까지)    
+• my_list[3 : ] 는 index 3번(포함)부터 끝까지 잘라냄.(4번째 항목부터 끝까지)
 {: .notice--info}
 
 
@@ -615,9 +616,9 @@ If your list slice includes the very first or last item in a list (or a string),
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Assign to `dog` a slice of `animals` from **index 3** up until but **not including index 6**.
+* Assign to `dog` a slice of `animals` from index 3 up until but not including index 6.
 
-* Assign to `frog` a slice of `animals` from **index 6** until the **end** of the string.
+* Assign to `frog` a slice of `animals` from index 6 until the end of the string.
 
 
 **설명:** [ Instruction ]              
@@ -636,8 +637,10 @@ If your list slice includes the very first or last item in a list (or a string),
 
 
 **설명:** [ Hint ]              
-• 첫번째 index(1) 포함, 마지막 index(5) 미 포함(e.g. list[1:5]).     
-• 마지막 index( ) 를 적지 않으면 끝까지 임(e.g. list[1:]).
+• 첫번째 index(1) 포함, 마지막 index(5) 미 포함    
+• e.g. list[1 : 5]     
+• 마지막 index( ) 를 적지 않으면 범위는 끝까지임    
+• e.g. list[1 : ]
 {: .notice--info}
 
 <br>
@@ -661,9 +664,9 @@ frog = animals[6:]
 ```
 
 **설명:** [ Solution ]              
-• animals[:3] 은 index 0(포함) 부터 index 3(미포함)까지 잘라냄.(e.g. 'cat')    
-• animals[3:6] 은 index 3(포함) 부터 index 6(미포함)까지 잘라냄.(e.g. 'dog')    
-• anmals[6:] 은 index 6(포함) 부터 끝까지 잘라냄. (e.g. 'frog')
+• animals[ : 3] 은 index 0(포함)부터 index 3(미포함)까지 잘라냄.(e.g. 'cat')    
+• animals[3 : 6] 은 index 3(포함)부터 index 6(미포함)까지 잘라냄.(e.g. 'dog')    
+• anmals[6 : ] 은 index 6(포함) 부터 끝까지 잘라냄. (e.g. 'frog')
 {: .notice--info}
 
 
@@ -693,9 +696,9 @@ animals = ["ant", "bat", "cat"]
 print animals.index("bat")
 ```    
 
-* ① First, we create a list called `animals` with three strings.    
+* First, we create a list called `animals` with three strings.    
 
-* ② Then, we print the **first** index that contains the string **"bat"**, which will print **1**.    
+* Then, we print the first index that contains the string "bat", which will print 1.    
 
 We can also insert items into a list.    
 
@@ -704,19 +707,19 @@ animals.insert(1, "dog")
 print animals
 ```    
 
-* ① We insert **"dog"** at index **1**, which moves everything down by 1.     
+* We insert "dog" at index 1, which moves everything down by 1.     
 
-* ② We print out **["ant", "dog", "bat", "cat"]**
+* We print out ["ant", "dog", "bat", "cat"]
 
 
 
 
 **설명:** [ Learn ]     
 • Ch7. Maintaining Order 에서는 리스트 특정 index에 항목을 추가하는 법을 학습한다.    
-• 리스트 animals 에 3개의 문자열 "ant", "bat", "cat"이 들어 있다.     
-• 리스트 animals 의 index 1번 자리에 "dog" 를 추가하려면 다음과 같이 한다.    
+• 리스트 animals 에 3개의 문자열 *ant*, *bat*, *cat* 이 들어 있다.     
+• 리스트 animals 의 index 1번 자리에 *dog* 를 추가하려면 다음과 같이 한다.    
 • e.g. animals.insert(1, "dog")    
-• 추가 하고자 하는 index 번호화 항목값을 지정해 준다.
+• 추가 하고자 하는 index 번호와 항목값을 지정해 준다.
 {: .notice--info}
 
 
@@ -726,16 +729,16 @@ print animals
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Use the `.index(item)` function to find the index of **"duck"**.    
+* Use the `.index(item)` function to find the index of "duck".    
 * Assign that result to a variable called `duck_index`.    
-* Then `.insert(index, item)` the string **"cobra"** at that index.  
+* Then `.insert(index, item)` the string "cobra" at that index.  
 
 
 **설명:** [ Instruction ]              
-• 리스트 animals 에서 "duck" 의 index 값을 알아 내어라.     
+• 리스트 animals 에서 *duck* 의 index 값을 알아 내어라.     
 • 해당 항목의 index 값은 메서드 .index("duck") 를 사용한다.    
-• 항목값 "duck" 의 index 값을 변수 duck_index 에 저장하라.   
-• 리스트 animals 의 문자열 "duck" 의 index 자리에 "cobra" 추가하라.    
+• 항목값 *duck* 의 index 값을 변수 duck_index 에 저장하라.   
+• 리스트 animals 의 문자열 *duck* 의 index 자리에 *cobra* 추가하라.    
 • 메서드 .insert(index, item) 을 활용하여 추가하라.
 {: .notice--info}
 
@@ -746,15 +749,15 @@ print animals
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)
 
-* You're **not replacing** "duck" with "cobra"—you're just finding "duck", then inserting "cobra".    
+* You're not replacing "duck" with "cobra"—you're just finding "duck", then inserting "cobra".    
 
 
 
 **설명:** [ Hint ]         
-• (주의) "duck" 대신 "cobra" 항목 값으로 대체하는 것이 아니다.    
-• 문자열 "duck" 의 index 값 자리에, "cobra"를 넣는 것이다.    
-• 즉, "duck" 자리에 "cobra"가 삽입 되는 것이다.    
-• 정상적으로 완료되면 "duck"는 "cobra"에 다음에 올 것이다. 
+• (주의) *duck* 대신 *cobra* 항목 값으로 대체하는 것이 아니다.    
+• 문자열 *duck* 의 index 값 자리에, *cobra* 를 넣는 것이다.    
+• 즉, *duck* 자리에 *cobra*가 삽입 되는 것이다.    
+• 정상적으로 완료되면 *duck*는 *cobra* 에 다음에 올 것이다. 
 {: .notice--info}
 
 <br>
@@ -775,13 +778,13 @@ print animals # Observe what prints after the insert operation
 ```
 
 **설명:** [ Solution ]          
-• 리스트 animals 에서 "duck"의 index 값은 2 이다.    
+• 리스트 animals 에서 *duck*의 index 값은 2 이다.    
 • duck_index = 값에 2가 저장된다.    
-• index 2 번 자리에 문자열 "cobra"를 삽입한다.    
+• index 2 번 자리에 문자열 *cobra*를 삽입한다.    
 • e.g. animals.insert(duck_index, "cobra")    
 • 변수 animals 를 출력한다.    
-• 문자열 "duck" 의 index 값은 3 이 된다.     
-• 문자열 "cobra" 의 index 값은 2 가 된다.
+• 문자열 *duck* 의 index 값은 3 이 된다.     
+• 문자열 *cobra* 의 index 값은 2 가 된다.
 {: .notice--info}
 
 
@@ -804,7 +807,7 @@ print animals # Observe what prints after the insert operation
 
 ### 8. For One and All    
 
-If you want to do something with **every item** in the list, you can use a for **loop**. If you've learned about for **loops** in JavaScript, pay close attention! They're different in Python.    
+If you want to do something with every item in the list, you can use a for loop. If you've learned about for loops in JavaScript, pay close attention! They're different in Python.    
 
 ```python
 for variable in list_name:
@@ -813,7 +816,7 @@ for variable in list_name:
 
 A `variable` name follows the `for` keyword; it will be assigned the value of each list item in turn.    
 
-Then in `list_name` designates `list_name` as the list the loop will work on. The **line ends** with a colon `(:)` and the indented code that follows it will be executed once per item in the list.
+Then in `list_name` designates `list_name` as the list the loop will work on. The line ends with a colon `(:)` and the indented code that follows it will be executed once per item in the list.
 
 
 **설명:** [ Learn ]    
@@ -833,7 +836,7 @@ Then in `list_name` designates `list_name` as the list the loop will work on. Th
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a statement in the indented part of the **for-loop** that prints a `number` equal to `2 * number` for every list item.
+* Write a statement in the indented part of the for-loop that prints a `number` equal to `2 * number` for every list item.
 
 
 **설명:** [ Instruction ]     
@@ -916,11 +919,11 @@ for animal in animals:
   print animal
 ```   
   
-* First, we create a list called `animals` with **three strings**. The strings are not in alphabetical order.     
+* First, we create a list called `animals` with three strings. The strings are not in alphabetical order.     
 
-* Then, we **sort** `animals` into alphabetical order. Note that `.sort()` modifies the list rather than returning a new list.    
+* Then, we sort `animals` into alphabetical order. Note that `.sort()` modifies the list rather than returning a new list.    
 
-* Then, for each item in `animals`, we print that item out as **"ant", "bat", "cat"** on their own line each.
+* Then, for each item in `animals`, we print that item out as "ant", "bat", "cat" on their own line each.
 
 
 
@@ -939,7 +942,7 @@ for animal in animals:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a for-loop that iterates over `start_list` and `.append()`s each number **squared (x ** 2)** to `square_list`.
+* Write a for-loop that iterates over `start_list` and `.append()`s each number squared (x ** 2) to `square_list`.
 
 * Then sort `square_list`!
 
@@ -1021,13 +1024,13 @@ print square_list
 
 ### 10. This Next Part is Key    
 
-A **dictionary** is similar to a **list**, but you access values by looking up a **key** instead of an **index**. A key can be **any string or number**. Dictionaries are **enclosed** in curly braces, like so:
+A dictionary is similar to a list, but you access values by looking up a key instead of an index. A key can be any string or number. Dictionaries are enclosed in curly braces, like so:
 
 ```python
 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
 ```
 
-This is a dictionary called `d` with **three key-value pairs**. The key 'key1' points to the value 1, 'key2' to 2, and so on.
+This is a dictionary called `d` with three key-value pairs. The key 'key1' points to the value 1, 'key2' to 2, and so on.
 
 Dictionaries are great for things like phone books (pairing a name with a phone number), login pages (pairing an e-mail address with a username), and more!
 
@@ -1039,7 +1042,7 @@ Dictionaries are great for things like phone books (pairing a name with a phone 
 • 리스트는 눈에 보이지 않는 인덱스를 가지고 해당 항목(값)을 나타낸다.    
 • 딕셔너리는 key 를 이용하여 해당 항목(값)을 나타낸다.     
 • e.g. 딕셔너리 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}     
-• 딕셔너리 항목(값)은 ( key : value ) 으로 이루어 진다.    
+• 딕셔너리 항목(값)은 ( key : value ) 쌍으로 구성되어 있다.    
 • 'key1' 을 키(key)라고 부르면 이와 매칭되는 값 1 을 값(value)이라 부른다.    
 • key 는 문자열, 숫자 모두 사용 가능하다.    
 • key 와 value 는 한 쌍이다.    
@@ -1132,13 +1135,13 @@ print residents['Burmese Python']
 
 ### 11. New Entries    
 
-Like Lists, Dictionaries are **mutable**. This means they can be changed after they are created. One advantage of this is that we can add new **key/value** pairs to the dictionary after it is created like so:
+Like Lists, Dictionaries are mutable. This means they can be changed after they are created. One advantage of this is that we can add new key/value pairs to the dictionary after it is created like so:
 
 ```python
 dict_name[new_key] = new_value
 ```    
 
-An empty pair of curly braces `{}` is an **empty dictionary**, just like an empty pair of `[]` is an **empty list**.
+An empty pair of curly braces `{}` is an empty dictionary, just like an empty pair of `[]` is an empty list.
 
 The length `len()` of a dictionary is the number of key-value pairs it has. Each pair counts only once, even if the value is a list. (That's right: you can put lists inside dictionaries!)
 
@@ -1168,7 +1171,7 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Add at least three more **key-value** pairs to the `menu` variable, with the dish name (as a "string") for the key and the price (a float or integer) as the value. Here's an example:    
+* Add at least three more key-value pairs to the `menu` variable, with the dish name (as a "string") for the key and the price (a float or integer) as the value. Here's an example:    
 
 ```python
 menu['Spam'] = 2.50
@@ -1185,7 +1188,7 @@ menu['Spam'] = 2.50
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-• You will need to add at **least three key-value** pairs. One has already been added on line 2.     
+• You will need to add at least three key-value pairs. One has already been added on line 2.     
 • Your code will follow the same format, but should create and assign different keys!
 
 
@@ -1249,7 +1252,7 @@ Because dictionaries are mutable, they can be changed in many ways. Items can be
 del dict_name[key_name]
 ```    
 
-will **remove** the key key_name and its associated value from the dictionary.
+will remove the key key_name and its associated value from the dictionary.
 
 A new value can be associated with a key by assigning a value to the key, like so:    
 
@@ -1276,9 +1279,9 @@ dict_name[key] = new_value
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Delete the **'Sloth'** and **'Bengal Tiger'** items from `zoo_animals` using `del`.
+* Delete the 'Sloth' and 'Bengal Tiger' items from `zoo_animals` using `del`.
 
-* Set the value associated with **'Rockhopper Penguin'** to anything other than **'Arctic Exhibit'**.
+* Set the value associated with 'Rockhopper Penguin' to anything other than 'Arctic Exhibit'.
 
 
 **설명:** [ Instruction ]          
@@ -1455,7 +1458,7 @@ print my_dict["fish"][0]
 
 * In the example above, we created a dictionary that holds many types of values.    
 
-* The key **"fish"** has a list, the key **"cash"** has an int, and the key **"luck"** has a string.    
+* The key "fish" has a list, the key "cash" has an int, and the key "luck" has a string.    
 
 * Finally, we print the letter `"c"`. When we access a value in the dictionary like `my_dict["fish"]`, we have direct access to that value (which happens to be a list). We can access the item at index `0` in the list stored by the key `"fish"`.
 
@@ -1478,7 +1481,7 @@ print my_dict["fish"][0]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* **Add** a **key** to `inventory` called `'pocket'`
+* Add a key to `inventory` called `'pocket'`
 
 * Set the value of `'pocket'` to be a list consisting of the strings `'seashell', 'strange berry', and 'lint'`
 
@@ -1498,7 +1501,7 @@ print my_dict["fish"][0]
 • key 'backpack' 의 value 값인 리스트 중에서 'dagger' 를 삭제하라.    
 • 메소드 .remove('dagger') 를 사용하여 삭제하라.    
 • key 'gold' 에 value 값 500에 50 을 더하라.    
-• 마지막에 출력하여라.
+• 마지막에 출력하라.
 {: .notice--info}
 
 

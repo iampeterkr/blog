@@ -34,7 +34,7 @@ You might have considered the situation where you would like to reuse a piece of
 **설명:** [ Learn ]    
 • Ch1. What Good are Functions? 에서는 함수의 필요성을 학습한다.     
 • 가끔식, 자주 사용되는 기능을 반복적으로 사용할 필요성이 있다.    
-• 그런경우, 반복적으로 만들것이 아니라, 해당 기능을 함수로 만들어 놓고 재 사용한다.       
+• 이런경우, 반복적으로 만들것이 아니라, 해당 기능을 함수로 만들어 놓고 재 사용한다.       
 • 코딩중 해당 기능이 필요 할때마다 불러서 사용하는 것이 현명하다.
 {: .notice--info}
 
@@ -367,7 +367,7 @@ When using, or calling, a function, inputs into the function are called argument
 
 
 **설명:** [ Learn ]      
-• Ch4. Parameters and Arguments 에서는 함수 파라미터와 아규먼트를 학습한다.     
+• Ch4. Parameters and Arguments 에서는 Parameter와 Arguments를 학습한다.     
 • 함수 square(n) 에서 n 은 parameter 라고 부른다.    
 • 함수 square(10) 호출 할때, 값 10 을 arugument 라고 부른다. 
 {: .notice--info}
@@ -386,12 +386,12 @@ When using, or calling, a function, inputs into the function are called argument
 * Replace the `___s` with the **parameters** base and exponent and then call the `power` function with a base of `37` and an exponent of `4`.
 
 **설명:** [ Instruction ]   
-• 함수 power 가 어떻게 동작 되는지를 먼저 확인하라.        
+• 함수 power 가 어떻게 동작 되는지를 먼저 확인한다.        
 • 함수 power 는 2개의 parameter 를 가진다.     
 • e.g. def power(base, exponent):    
 • e.g. 37^4 = 1874161 ( 37의 4 승 )    
-• e.g. base:37, exponent:4    
-• 함수 power(37,4) = 1874161
+• e.g. base : 37, exponent : 4    
+• 함수 power(37 , 4) = 1874161
 {: .notice--info}
 
 
@@ -406,8 +406,8 @@ When using, or calling, a function, inputs into the function are called argument
 
 
 **설명:** [ Hint ]    
-• base:37    
-• exponent:4    
+• base : 37    
+• exponent : 4    
 • def power(base, exponent) 구조이다.
 {: .notice--info}
 
@@ -427,9 +427,9 @@ power(37, 4)  # Add your arguments here!
 ```
 
 **설명:** [ Solution ]    
-• 함수 power(37,4) 에 2개의 arguments로 37, 4를 입력하여 호출한다.    
-• 함수 power(base, exponent) 에 정의된 parameter 에 값이 전달된다.    
-• 파라미터 base=37, exponent=4 에 값이 전달된다.     
+• 함수 power(37, 4)에 2개의 arguments로 37, 4를 입력하여 호출한다.    
+• 함수 power(base, exponent)에 정의된 parameter에 값이 전달된다.    
+• 파라미터 base = 37, exponent = 4 에 값이 전달된다.     
 • 거듭 제곱 공식인 37 ** 4 의 결과값이 출력된다.
 {: .notice--info}
 
@@ -465,8 +465,8 @@ def fun_two(m):
 
 
 **설명:** [ Learn ]      
-• Ch 5. Functions Calling Functions 에서는 함수가 함수 호출을 학습한다.    
-• 함수는 단순히 계산하고, 출력하는것 외에, 함수가 함수를 호출 할 수 있다.
+• Ch 5. Functions Calling Functions 에서는 함수가 함수를 호출하는것을 학습한다.    
+• 함수는 단순히 계산하고, 출력하는것 외에, 함수가 함수를 호출할 수 있다.
 {: .notice--info}
 
 
@@ -633,7 +633,7 @@ else:
 * Both branches of the `if/else` statement in `by_three` need to have return statements in them (that's three returns total, two for `by_three` and one for `cube`).
 
 **설명:** [ Hint ]    
-• 연사자 ( % ) 를 사용하여 함수의 기능을 처리하라.    
+• 연산자 ( % ) 를 사용하여 함수의 기능을 처리하라.    
 • if, else 문의 끝에는 항상 ( : ) 가 있어야 한다.
 {: .notice--info}
 
@@ -656,9 +656,9 @@ def by_three(number):
 ```
 
 **설명:** [ Solution ]   
-• 함수 by_three(number) 는 다음과 같이 처리하는 기능이 있다.    
+• 함수 by_three(number) 는 다음과 같이 처리한다.        
 • if 문에서는 number 에 전달된 값이 3 으로 나누어 떨어지면, 함수 cube()를 호출한다.    
-• 그리고, 그 결과 값을 반환한다.    
+• 그리고, 그 결과값을 반환한다.    
 • else 문에선 number 에 전달된 값이 3으로 나누어 떨어지지 않으면 False 를 반환한다.
 {: .notice--info}
 
@@ -805,11 +805,13 @@ There is a Python module named math that includes a number of useful variables a
 **설명:** [ Instruction ]    
 • 아래와 같이 2가지 작업을 실행하라.    
 • 첫번째, 2번 라인에 import math 를 선언한다.    
-• 함수 sqrt() 를 사용하기 위해선 다음과 같이 선언해야 한다.    
+• 함수 sqrt() 를 사용하기 위해선 다음과 같이 모듈 math의 sqrt()를 선언해야 한다.    
 • e.g. import math.sqrt()    
 • 그리고 함수 sqrt()를 사용해야 한다.    
 • Run 실행하라. 
 {: .notice--info}
+
+
 
 
 <br>
@@ -842,7 +844,7 @@ print math.sqrt(25)
 
 **설명:** [ Solution ]    
 • 수학 관련 내장된 함수를 사용하기 위해선, import math 를 선언한다.    
-• 사용 방법은 예제와 같다.    
+• 사용 방법은 아래 예와 같다.    
 • e.g. math.sqrt(25) 
 {: .notice--info}
 
@@ -1050,14 +1052,15 @@ For these reasons, it's best to stick with either import module and type module.
 
 
 **설명:** [ Learn ]      
-• Ch11. Here Be Dragons 에서는 함수 모듈을 확인하는 dir()을 학습한다.    
+• Ch11. Here Be Dragons 에서는 함수 모듈을 확인하는 함수 dir()을 학습한다.    
 • ( * )를 사용하여 해당 모듈의 모든것을 가져오기에 정말 편리해 보인다.    
-• 그러나 단점도 있다. ( * ) 를 사용하면, 해당 모듈에 대한 모든것을 가져온다.    
+• 그러나 단점도 있다.     
+• ( * ) 를 사용하면, 해당 모듈에 대한 모든것을 가져온다.    
 • 만약, 내가 만든 모듈이 Python 내부에서 제공하는 모듈과 이름이 같으면 어떻게 될까?     
 • Python은 혼돈이 올것이다.     
 • 지금 실행되는 함수 sqrt() 가 내가 작성한 함수인지 ?  
 • 아니면 모듈 math 에서 제공하는 함수 sqrt() 인지를 알수가 없다.     
-• 이러한 이유로, 우리는 좀더 정확하게 표현해야 한다.    
+• 이러한 이유로, 우리는 좀더 정확하게 선언을 해야 한다.    
 • 내가 만든 함수는 me.sqrt() 로 표현한다.    
 • Python 모듈 math 가 제공하는 함수는 math.sqrt() 로 표현한다.    
 • 이렇게 하는것이 프로그램 오류를 줄일 수 있는 방법이다. 
@@ -1140,7 +1143,8 @@ You already know about some of the **built-in functions** we've used with string
 • Ch12. On Beyond Strings 에서는 Built-in 함수를 학습한다.    
 • Python 내장함수(built-in function) 에 대하여 알아보자.    
 • 내장함수는 import 을 선언하지 않고도 자유롭게 사용할수 있게 해준다.    
-• 대표적인 내장 함수는 이다. (e.g. .upper() , .lower() )
+• 대표적인 내장 함수는 다음과 예와 같다.    
+• e.g. .upper() , .lower() 
 {: .notice--info}
 
 
@@ -1473,7 +1477,7 @@ Python will output:
 
 **설명:** [ Learn ]      
 • Ch16. type() 에서는 함수 type() 를 학습한다.    
-• 함수 type() 는 arguments의 값의 type 이 무엇인지 반환해 준다.    
+• 함수 type() 는 입력값 arguments의 type 이 무엇인지 알려준다.    
 • type(42) 를 호출하면, arguments 42 가 integer type 임을 알려준다. 
 {: .notice--info}
 
@@ -1489,7 +1493,7 @@ Python will output:
 
 
 **설명:** [ Instruction ]    
-• 함수 type() 를 사용하여라.     
+• 함수 type() 을 사용하여라.     
 • 입력된 argumetns 값이 interger, float, string type 이 출력 되도록 하라.
 {: .notice--info}
 
@@ -1500,7 +1504,9 @@ Python will output:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* Here's a freebie if you're a bit stuck: print type('I have to push the pram a lot') will cover your str string requirement.    
+* Here's a freebie if you're a bit stuck:     
+  * print type('I have to push the pram a lot')     
+* will cover your str string requirement.    
 
 **설명:** [ Hint ]    
 • type('i am a boy') 은 argument 값 i am a boy 의 값이 string 임을 알려준다.    
@@ -1581,13 +1587,13 @@ Again, the example code above is just there for your reference!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* First, def a function, `shut_down`, that takes one argument `s`. Don't forget the **parentheses** or the **colon**!
+* First, def a function, `shut_down`, that takes one argument `s`. Don't forget the parentheses or the colon!
 
-* Then, if the `shut_down` function receives an s equal to **"yes"**, it should return **"Shutting down"**
+* Then, if the `shut_down` function receives an s equal to "yes", it should return "Shutting down"
 
-* Alternatively, elif s is equal to **"no"**, then the function should return **"Shutdown aborted"**.
+* Alternatively, elif s is equal to "no", then the function should return "Shutdown aborted".
 
-* Finally, if `shut_down` gets anything other than those inputs, the function should return **"Sorry"**
+* Finally, if `shut_down` gets anything other than those inputs, the function should return "Sorry"
 
 
 
@@ -1806,7 +1812,7 @@ if type(thing) == int or type(thing) == float:
 
 **설명:** [ Hint ]    
 • Arguments 의 type을 알려주는 함수 type() 를 사용하라.    
-• 함수 type() 를 사용하여 입력갑이 int or floast 인지를 알수있다. 
+• 함수 type() 를 사용하여 입력값이 int or floast 인지를 파악한다. 
 {: .notice--info}
 
 <br>

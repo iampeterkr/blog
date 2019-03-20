@@ -51,9 +51,10 @@ would print **1**, then **3**, and then **21**. The variable between for and in 
 
 **설명:** [ Learn ]    
 • Ch1. BeFOR We Begin 에서는 for문에서 리스트를 활용하는 연습을 한다.    
-• 'for x in a:'는 리스트 a에 있는 값들을 하나씩 추출하여 변수 x 에 넣어준다.   
+• ( for x in a: )는 리스트 a에 있는 값들을 하나씩 추출하여 변수 x 에 넣어준다.   
 • 변수 x 와 같이 변수로 정의할 문자는 Python 예약어를 변수로 사용하면 안된다.    
-• e.g. for print in list: ( X ) , 예약어 print 를 변수로 사용하면 안된다. 
+• e.g. for print in list: ( X )    
+• 예약어 print 를 변수로 사용하면 안된다. 
 {: .notice--info}
 
 
@@ -80,7 +81,7 @@ would print **1**, then **3**, and then **21**. The variable between for and in 
 
 
 **설명:** [ Hint ]         
-• 상단의 Learn 에서 설명한 소스 코드를 참조하시오. 
+• 상단의 Learn 에서 설명한 소스 코드를 참조하라. 
 {: .notice--info}
 
 <br>
@@ -134,7 +135,7 @@ for key in d:
   print d[key]  # prints "bar"
 ```  
 
-Note that dictionaries are **unordered**, meaning that any time you loop through a dictionary, you will go through every key, but you are **not guaranteed** to get them in any particular **order**.
+Note that dictionaries are unordered, meaning that any time you loop through a dictionary, you will go through every key, but you are not guaranteed to get them in any particular order.
 
 
 
@@ -142,9 +143,8 @@ Note that dictionaries are **unordered**, meaning that any time you loop through
 
 **설명:** [ Learn ]     
 • Ch2. This is KEY! 에서는 for문에서 딕셔너리를 활용하는 방법을 연습한다.       
-• for 문으로 딕셔너리의 항목(값)을 뽑아 낼수 있다.     
-• 주의할 점은, 딕셔너리는 순서가 없습니다.     
-• 즉, 딕셔너리를 반복 하여 추출할 때마다 모든 키를 추출한다.    
+• for 문으로 딕셔너리의 항목(값)을 추출할수 있다.     
+• 딕셔너리를 for 문으로 추출할 때 모든 키를 추출한다.    
 • 다만 특정 순서로 키를 가져올 수는 없다.
 {: .notice--info}
 
@@ -251,8 +251,8 @@ Make sure to keep track of your indentation or you may get confused!
 
 **설명:** [ Learn ]     
 • Ch3. Control Flow and Looping 에서는 for문 안에서 if 문을 사용하는 것을 학습한다.    
-• for 문의 코드블럭 영역에는 크다/작다 와 같은 비교문 if 문을 작성할 수 있다.    
-• 위 예제에서 for 문으로 리스트의 항목(값)을 추출 한다.    
+• for 문의 코드블럭 영역에는 크다/작다 와 같이 비교할수 있는 if 문을 작성할 수 있다.    
+• 위 예제에서 for 문으로 리스트의 항목(값)을 추출한다.    
 • 그리고 for 문 영역 안에서 if 문으로 6보다 큰 경우만 출력하도록 한다.
 {: .notice--info}
 
@@ -269,8 +269,8 @@ Make sure to keep track of your indentation or you may get confused!
 
 
 **설명:** [ Instruction ]          
-• 리스트 a 에서 항목을 호출하여 변수 number 에 저장한다.     
-• 변수 number 의 항목값이 이 짝수(item % 2 == 0)만 출력 되게한다.
+• 리스트 a 에서 항목을 호출하여 변수 number 에 저장하라.     
+• 변수 number 의 항목값이 짝수(item % 2 == 0)만 출력 되게하라.
 {: .notice--info}
 
 
@@ -288,8 +288,8 @@ Make sure to keep track of your indentation or you may get confused!
 
 **설명:** [ Hint ]          
 • 변수 number 가 2로 나누어 지면 짝수이다.    
-• 연산자 % 를 이용하여 나누어 지는것을 확인할 수 있다.    
-• e.g. ( item % 10 ==0 )은 10 으로 나눠서 나머지가 0 이 되는것 이라는 의미이다. 
+• 연산자 ( % )를 이용하여 나누어 지는것을 확인할 수 있다.    
+• e.g. ( item % 10 == 0 )은 10 으로 나눠서 나머지가 0 이 되는것 이라는 의미이다. 
 {: .notice--info}
 
 <br>
@@ -402,12 +402,12 @@ print small
 
 
 **설명:** [ Instruction ]     
-• 리스트의 값 중 문자열 "fizz" 의 갯수를 알려주는 함수를 작성하라.    
+• 리스트의 값 중 문자열 *fizz* 의 갯수를 알려주는 함수를 작성하라.    
 • 함수명은 fizz_count(x) 이다. parameter 는 x 값을 가진다.    
 • 변수 count 를 초기화 하고, 이 변수는 fizz의 갯수를 세어 저장하는 변수이다.    
 • for 문을 사용하여, 입력받은 리스트 x 의 값을 추출하여, 변수 item 에 저장한다.    
-• if 문으로 변수 item 이 문자열 "fizz" 인지를 비교한다.    
-• 만일, "fixx"이면, 변수 count 를 1 증가시킨다.     
+• if 문으로 변수 item 이 문자열 *fizz* 인지를 비교한다.    
+• 만일, 문자열 *fixx* 와 같으면, 변수 count 를 1 증가 시킨다.     
 • for 문이 종료되고, 최종 증가된 변수 count 를 반환(return) 한다.
 {: .notice--info}
 
@@ -426,11 +426,11 @@ print small
 
 
 **설명:** [ Hint ]          
-• 리스트에 문자열 "fizz" 가 몇 개 있는지 계산한다.    
+• 리스트에 문자열 *fizz* 가 몇 개 있는지 계산한다.    
 • 함수에서 카운터 변수 (예 : count)를 만든다.    
-• 카운터 변수는 초기에 0으로 설정해야 한다.     
-• if 문을 사용하여 문자열 "fizz"와 같은 입력값이 있으면 개수를 하나씩 늘린다.    
-• 마지막으로, "fizz"의 수를 반환하는 것을 잊지 말자. 
+• 카운터 변수는 초기에 0 으로 설정해야 한다.     
+• if 문을 사용하여 문자열 *fizz* 와 같은 입력값이 있으면 개수를 하나씩 늘린다.    
+• 마지막으로, *fizz* 의 수를 반환하는 것을 잊지 말자. 
 {: .notice--info}
 
 <br>
@@ -451,12 +451,12 @@ def fizz_count(x):
 ```
 
 **설명:** [ Solution ]          
-• 리스트 x 의 값에 "fizz"의 갯수를 세어주는 fizz_count(x) 함수이다.   
+• 리스트 x 의 값에 *fizz* 의 갯수를 세어주는 fizz_count(x) 함수이다.   
 • 함수 fizz_count(x)는 다음과 같이 작동한다.    
-• 변수 count 를 초기화 한다. 이 변수는 "fizz"의 갯수를 저장한다.    
+• 변수 count 를 초기화 한다. 이 변수는 문자열 *fizz* 의 갯수를 저장한다.    
 • 리스트 x 에서 항목을 하나씩 추출하여, 변수 item 에 저장한다.    
-• 변수 item 이 문자열 "fizz"와 같으면, 변수 count 값을 1 증가 시킨다.    
-• 리스트 x 의 모든 값을 추출하여 비교할때까지 반복한다.    
+• 변수 item 이 문자열 *fizz*와 같으면, 변수 count 값을 1 증가 시킨다.    
+• 리스트 x 의 모든 값을 추출하여 비교한다. 그리고 계속 반복한다.    
 • 최종 결과값 변수 count 를 반환(return) 한다. 
 {: .notice--info}
 
@@ -512,7 +512,7 @@ As we've mentioned, strings are like lists with characters as elements. You can 
 
 
 **설명:** [ Hint ]          
-• 소스를 읽어보고, Run을 실행하여라. 
+• 소스를 읽어보고, Run을 실행하라. 
 {: .notice--info}
 
 <br>
@@ -539,8 +539,8 @@ for letter in word:
 ```
 
 **설명:** [ Solution ]     
-• 첫번째 for 문은 문자열 "Codecademy" 의 문자를 하나씩 출력하는 것이다.    
-• 두번째 for 문은 문자열 "Programming is fun" 의 문자중 문자 "i" 만 출력한다.
+• 첫번째 for 문은 문자열 *Codecademy* 의 문자를 하나씩 출력하는 것이다.    
+• 두번째 for 문은 문자열 *Programming is fun* 의 문자중 문자 *i* 만 출력한다.
 {: .notice--info}
 
 
@@ -592,8 +592,8 @@ In the example above, we create a **new dictionary** called `animal_counts` with
 
 **설명:** [ Learn ]    
 • Ch6. Your Own Store! 에서는 딕셔너리 활용을 학습한다.    
-• 딕셔너리 animal_counts 는 3개의 key/value 쌍을 가지고 있다.     
-• "ant":3, "bear":6, "crow":2 
+• 딕셔너리 animal_counts 는 3개의 key / value 쌍을 가지고 있다.     
+• "ant" : 3, "bear" : 6, "crow" : 2 
 {: .notice--info}
 
 
@@ -605,7 +605,7 @@ In the example above, we create a **new dictionary** called `animal_counts` with
 
 * Create a new dictionary called `prices` using {} format like the example above.
 
-Put these values in your prices dictionary, in between the {}:    
+* Put these values in your prices dictionary, in between the {}:    
 
 ```python
 "banana": 4,
@@ -614,12 +614,12 @@ Put these values in your prices dictionary, in between the {}:
 "pear": 3
 ```    
 
-Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from the last course.)    
+* Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from the last course.)    
 
 
 **설명:** [ Instruction ]     
 • 딕셔너리 prices 를 {} 를 사용하여 작성하라.     
-• 딕셔너리 prices = { } 에 key/value 값들을 넣어라.
+• 딕셔너리 prices = { } 에 key / value 값들을 넣어라.
 {: .notice--info}
 
 
@@ -631,7 +631,7 @@ Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from 
 * dictionary uses as `dic = { "aa":4, "bb":5 }`
 
 **설명:** [ Hint ]          
-• 딕셔너리는 ( dic = {"aa":4, "bb":5} ) 와 같이 사용한다. 
+• 딕셔너리는 ( dic = {"aa" : 4, "bb" : 5} ) 와 같이 사용한다. 
 {: .notice--info}
 
 <br>
@@ -646,8 +646,8 @@ prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
 ```
 
 **설명:** [ Solution ]          
-• 딕셔너리 prices 는 4개의 key/value 를 가진다.     
-• "banana":4, "apple":2, "orange":1.5, "pear":3
+• 딕셔너리 prices 는 4개의 key / value 를 가진다.     
+• "banana" : 4, "apple" : 2, "orange" : 1.5, "pear" : 3
 {: .notice--info}
 
 
@@ -675,7 +675,7 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 
 **설명:** [ Learn ]          
 • Ch7. Investing in Stock 에서는 딕셔너리 변경하는 법을 학습한다.    
-• 딕셔너리를 이용하여 재고(stock/inventory)를 정리하는 프로그램을 연습해 보자.
+• 딕셔너리를 이용하여 재고(stock / inventory)를 정리하는 프로그램을 연습해 보자.
 {: .notice--info}
 
 
@@ -709,7 +709,7 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 
 
 **설명:** [ Hint ]          
-• 딕셔너리를 만들때 ( {} ) 와, key/value 사이에 ( , ) 로 구분 하는것을 잊지말자.    
+• 딕셔너리를 만들때 ( {} )와, key / value 사이에 ( , ) 로 구분 하는것을 잊지말자.    
 • e.g. ddd = { "apple" : 1, "banana" : 2}
 {: .notice--info}
 
@@ -766,7 +766,7 @@ Because we know that they have the same keys, we can loop through one dictionary
 
 
 **설명:** [ Learn ]     
-• Ch8. Keeping Track of the Produce 에서는 딕셔너리의 key/value를 추출해보자.    
+• Ch8. Keeping Track of the Produce 에서는 딕셔너리의 key / value 하는 방법을 학습한다.         
 • Key 이름은 딕셔너리 별로 관리된다.    
 • 2개의 딕셔너리에서 key 이름이 같아도, 딕셔너리 이름이 다르면 다른 key 로 인식한다.    
 • 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.     
@@ -847,8 +847,10 @@ for food in prices:
 • 딕셔너리 prices 의 key를 기준으로 잡는다.    
 • for 문을 돌면서 prices 의 key 값을 추출한다.    
 • 딕셔너리 prices 의 key 값을 출력한다.    
-• 딕셔너리 prices 의 key의 value 을 출력한다.("print price: %s prices[food]")    
-• 딕셔너리 stock 의 key 의 value 을 출력한다.("print stock: %s stock[food]")
+• 딕셔너리 prices 의 key의 value 을 출력한다.    
+• e.g. print price: %s prices[food]    
+• 딕셔너리 stock 의 key 의 value 을 출력한다.    
+• e.g. print stock: %s stock[food]
 {: .notice--info}
 
 
@@ -887,7 +889,7 @@ For paperwork and accounting purposes, let's record the total value of your inve
 
 **설명:** [ Learn ]          
 • Ch9. Something of Value 에서는 서로 다른 딕셔너리의 항목값 계산법을 학습한다.    
-• 이 장에서는 모든 물품의 제고와 가격을 정리하는 프로그램을 이해한다.  
+• 이 장에서는 모든 물품의 재고와 가격을 정리하는 프로그램을 이해한다.  
 {: .notice--info}
 
 
@@ -1083,7 +1085,7 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 • Ch11. Making a Purchase  에서는 함수에서 리스트의 활용법을 학습한다.    
 • 함수 sum(numbers) 은 리스트 numbers를 입력받는다.     
 • 함수 sum(numbers) 은 리스트의 각 값을 더하여 최종 반환한다.    
-• 함수 sum(n) 은 리스트 'n=[1,2,5,10,13]'을 arguments로 입력하여 호출한다.    
+• 함수 sum(n) 은 리스트 ( n=[1,2,5,10,13] )을 arguments로 입력하여 호출한다.    
 • 함수 sum(n) 의 결과값 을 출력한다.
 {: .notice--info}
 

@@ -28,7 +28,7 @@ Use what you've learned so far to manage your own class.
 <font size="3"  face="돋움">STUDENTS BECOMES THE TEACHER</font> 
 ### 1. Lesson Number One   
 
-Welcome to this **"Challenge Course"**. Until now we've been leading you by the hand and working on some short and relatively easy projects. This is a challenge so be ready. We have faith in you!
+Welcome to this "Challenge Course". Until now we've been leading you by the hand and working on some short and relatively easy projects. This is a challenge so be ready. We have faith in you!
 
 We’re going to switch it up a bit and allow you to be the teacher of your own class. Make a gradebook for all of your students.    
 
@@ -46,8 +46,8 @@ The example above is just to remind you how to create a dictionary and then to a
 
 
 **설명:** [ Learn ]      
-• Ch13. Let's Check Out! 에서는 딕셔너리 개념을 정리해 보자.    
-• 이 장은 딕셔너리 생성하고, ky/value를 읽고, 삭제하고, 변경하는것을 학습한다.
+• Ch13. Let's Check Out! 에서는 딕셔너리 개념을 정리한다.    
+• 이 장은 딕셔너리 생성하고, ky / value를 읽고, 삭제하고, 변경하는것을 학습한다.
 {: .notice--info}
 
 
@@ -70,7 +70,7 @@ The example above is just to remind you how to create a dictionary and then to a
 • 딕셔너리 lloyd, alice, tyler를 생성하라.    
 • 각 딕셔너리의 key 로 "name", "homework", "quizzes", "tests"를 갖는다.    
 • key "name" 에는 학생들의 이름이 values로 매칭된다.    
-• ( e.g. lloyd = {"name":"Lloyd"} )    
+• e.g. lloyd = {"name" : "Lloyd"}     
 • 다른 key "homework", "quizzes", "tests" 의 values 는 리스트로 비워 둔다.    
 • ( 추후에 채워 나갈 예정이다.)  
 {: .notice--info}
@@ -122,7 +122,8 @@ tyler = {
 ```
 
 **설명:** [ Solution ]          
-• 각 사람의 이름으로 딕셔너리를 만들었다. (e.g. lloyd, alice, tyler)    
+• 각 사람의 이름으로 딕셔너리를 만들었다.     
+• e.g. lloyd, alice, tyler    
 • key 로 "name", "homework", "quizzes", "tests" 로 정의하였다.     
 • key 값 "name" 에만, 문자열 이름(e.g. "Lloyd", "Alice", "Tyler")을 쓴다.    
 • key 값 "homework", "quizzes", "tests" 는 빈 리스트(e.g. [] ) 이다. 
@@ -169,7 +170,7 @@ Great work!
 
   * Test Scores: 75.0, 90.0
 
-* Make sure to include the **decimal points** so your grades are stored as floats! This will be important later.
+* Make sure to include the decimal points so your grades are stored as floats! This will be important later.
 
 
 **설명:** [ Instruction ]          
@@ -355,7 +356,7 @@ The example above is just to remind you how to create a dictionary and then to a
 
 
 **설명:** [ Learn ]     
-• Ch4. For the Record 에서는 딕셔너리의 특정 key/value 값에 접근하는지 학습한다.
+• Ch4. For the Record 에서는 딕셔너리의 특정 key/value 에 접근하는 방법을 학습한다.
 {: .notice--info}
 
 
@@ -480,9 +481,9 @@ float(5) / 2
 ```
 The above example is a reminder of how division works in Python.
 
-When you divide an **integer** by another **integer**, the result is always an **integer** (rounded down, if needed).
-When you divide a **float** by an **integer**, the result is always a **float**.
-To divide two **integers** and end up with a **float**, you must first use `float()` to convert one of the **integers** to a **float**.
+When you divide an integer by another integer, the result is always an integer (rounded down, if needed).
+When you divide a float by an integer, the result is always a float.
+To divide two integers and end up with a float, you must first use `float()` to convert one of the integers to a float.
  
 
 
@@ -515,7 +516,7 @@ To divide two **integers** and end up with a **float**, you must first use `floa
 **설명:** [ Instruction ]          
 • 리스트 studetns 의 값들을 가져와서, 평균값을 만들어 주고 반환하는 함수를 만들어라.     
 • 평균값을 계산해주는 함수 average(numbers) 를 만들어라.    
-• 함수 average() 함수 sum() 을 사용하여 변수 total 에 결과 값을 저장하라.    
+• 함수 average(), 함수 sum() 을 사용하여 변수 total 에 결과 값을 저장하라.    
 • 함수 float() 를 사용하여 예제(e.g. float(total) )와 같이 변경 후 저장하라.    
 • 변수 total 을 리스트의 갯수만큼 나누어라.    
 • 리스트의 갯수는 함수 len() 를 사용하라.    
@@ -532,7 +533,7 @@ To divide two **integers** and end up with a **float**, you must first use `floa
 
 
 **설명:** [ Hint ]          
-• Parameter 로 list 를 사용하지 못한다.    
+• Parameter 변수명으로 list 를 사용하지 못한다.    
 • list 는 Python 에서 이미 특수 함수로 지정되어 있기 때문이다.    
 • 변수 l 도 되도록 사용하지 말자. 숫자 1 과 혼동되기 때문이다.
 {: .notice--info}
@@ -614,7 +615,7 @@ return 0.9 * average(cost["apples"]) + \
 ```
 
 In the above example, we create a dictionary called `cost` that contains the costs of some fruit.
-Then, we calculate the average cost of apples and the average cost of bananas. Since we like apples much more than we like bananas, we weight the average cost of apples by **90%** and the average cost of bananas by **10%**.
+Then, we calculate the average cost of apples and the average cost of bananas. Since we like apples much more than we like bananas, we weight the average cost of apples by 90% and the average cost of bananas by 10%.
 The `\` character is a continuation character. The following line is considered a continuation of the current line.
 
 
@@ -634,7 +635,7 @@ The `\` character is a continuation character. The following line is considered 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a function called `get_average` that takes a student dictionary **(like lloyd, alice, or tyler)** as input and returns his/her weighted average.
+* Write a function called `get_average` that takes a student dictionary (like lloyd, alice, or tyler) as input and returns his/her weighted average.
 
 * Define a function called `get_average` that takes one argument called `student`.
 * Make a variable homework that stores the average() of student["homework"].
@@ -758,14 +759,14 @@ Now let's write a `get_letter_grade` function that takes a `number score `as inp
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Define a new function called `get_letter_grade` that has one argument called `score`. Expect score to be a **number**.
+* Define a new function called `get_letter_grade` that has one argument called `score`. Expect score to be a number.
 
 * Inside your function, test score using a chain of `if: / elif: / else:` statements, like so:
 
-  * If score is **90** or above: return "A"
-  * Else if score is **80** or above: return "B"
-  * Else if score is **70** or above: return "C"
-  * Else if score is **60** or above: return "D"
+  * If score is 90 or above: return "A"
+  * Else if score is 80 or above: return "B"
+  * Else if score is 70 or above: return "C"
+  * Else if score is 60 or above: return "D"
   * Otherwise: return "F"
 
 * Finally, test your function!
@@ -776,7 +777,7 @@ Now let's write a `get_letter_grade` function that takes a `number score `as inp
 
 **설명:** [ Instruction ]          
 • 함수 get_letter_grade(score) 를 만들어라. 입력값은 score 를 받는다.    
-• 함수의 내부 기능은 점수에 따라  if:, elfi:, else: 문을 사용한다.     
+• 함수의 내부 기능은 점수에 따라  if / elfi / else 문을 사용한다.     
 • - 90점 이상 "A"    
 • - 80점 이상 "B"    
 • - 70점 이상 "C"    
@@ -802,7 +803,7 @@ def get_letter_grade(score):
     # ...and so on!
 ```    
 
-Your final print statement should be:    
+* Your final print statement should be:    
 
 ```python
 print get_letter_grade(get_average(lloyd))
@@ -811,7 +812,8 @@ print get_letter_grade(get_average(lloyd))
 
 **설명:** [ Hint ]          
 • 함수 get_letter_grade(score)를 만들경우,     
-• 호출 및 출력은 print get_letter_grade(get_average(lloyd))로 한다.
+• 호출 및 출력은 다음 예와 같이 한다.    
+• e.g. print get_letter_grade(get_average(lloyd))
 {: .notice--info}
 
 <br>
@@ -869,8 +871,8 @@ print get_letter_grade(get_average(lloyd))
 ```
 
 **설명:** [ Solution ]     
-• get_average(lloyd)가 호출되어, lloyd 의 평균값이 계산되어진다.    
-• 계산되어진 평균값을 get_letter_grade()의 입력값이 되어 호출된다.    
+• get_average(lloyd)가 호출되어, lloyd 의 평균값이 계산된다.    
+• 계산된 평균값을 get_letter_grade()의 입력값이 되어 호출된다.    
 • 입력값은 lloyd의 등급을 반환한다.    
 • print get_letter_grade(get_average(lloyd))는 lloyd의 등급을 출력한다.
 {: .notice--info}
@@ -896,12 +898,12 @@ B
 
 Good! Now let's calculate the class average.
 
-You need to get the average for **each student** and then calculate the average of those averages.    
+You need to get the average for each student and then calculate the average of those averages.    
 
 
 
 **설명:** [ Learn ]          
-• Ch8. Part of the Whole 에서는 리스트에 항목값을 추가하는것을 배워보자.    
+• Ch8. Part of the Whole 에서는 리스트에 항목값을 추가하는것을 학습한다.        
 • 각 학생의 평균점과 전체 학생의 평균점을 계산하는 프로그램을 추가해 보자. 
 {: .notice--info}
 
@@ -923,10 +925,10 @@ You need to get the average for **each student** and then calculate the average 
 
 **설명:** [ Instruction ]          
 • 함수 get_class_average(class_list) 를 정의하고 작성하라.    
-• 이 함수는 입력값으로 class_list 를 받는다.    
+• 이 함수는 입력값으로 리스트 class_list 를 받는다.    
 • 리스트 results 를 만들고 초기화 하라.    
 • 리스트 class_list 에는 학생들의 이름이 들어 있다.    
-• for 문을 사용하여, class_list의 학생이름을 추출하여 변수 student에 넣는다.    
+• for 문을 사용하여, class_list의 학생 이름을 추출하여 변수 student에 넣는다.    
 • 함수 get_average(student)를 호출한다.    
 • 그 결과값을 변수 student_avg 에 대입한다. (학생별 평균값)   
 • 리스트 변수results 에 변수 student_avg 값은 메소드 .append를 사용하여 추가한다.    
@@ -995,9 +997,10 @@ def get_class_average(class_list):
 
 **설명:** [ Solution ]          
 • 함수 get_class_average(class_list) 는 다음과 같이 동작한다.    
-• 입력값 class_list 를 가진다. class_list는 학생들 이름 들어 있을 것이다.    
+• 입력값 리스트 class_list 를 가진다.    
+• 리스트 class_list는 학생들 이름 들어 있을 것이다.    
 • for 문을 사용하여 입력받은 리스트 class_list의 학생이름을 추출한다.   
-• 변수 student 에 추출한 이름을 저정한다.    
+• 변수 student 에 추출한 이름을 저장한다.    
 • 함수 get_average(student)에 arguments로 student를 입력하여 호출한다.    
 • 변수 student_avg에 함수 get_average(studetn) 결과값(학생평균값)이 저장된다.    
 • 리스트 results 에 학생별 평균값을 메소드 .append를 사용하여 추가한다.    
@@ -1031,7 +1034,7 @@ Awesome! You're doing great. Now let's use the functions you've created to check
 
 
 **설명:** [ Learn ]          
-• ch9. How is Everybody Doing? 에서는 지금껏 개발한 내용을 점검해 보자.
+• ch9. How is Everybody Doing? 에서는 지금까지 개발한 내용을 점검한다.
 {: .notice--info}
 
 
