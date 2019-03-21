@@ -66,7 +66,7 @@ But what makes "Eric" a string and my_dict a dictionary? The fact that they're i
 
 
 **설명:** [ Instruction ]    
-• Editor 창의 소스를 분석해 보자.    
+• Editor 화면의 소스를 분석해 보자.    
 • 클래스 Fruit(object) 와, 인스탄스(instance) lemon 이 정의되어 있다.    
 • Run을 클릭하면, 자신만의 클래스와 객체(objects) 만들어 진다. 
 {: .notice--info}    
@@ -562,7 +562,7 @@ The first argument `__init__()` gets is used to refer to the instance object, an
 
 
 **설명:** [ Instruction ]    
-• Editor 창에서 함수 `__init__()`이 기동 되는지 확인하라.    
+• Editor 화면에서 함수 `__init__()`이 기동 되는지 확인하라.    
 • 매개변수 name , age 가 어떻게 self.name, self.age로 할당되는지도 확인하라.    
 • 함수 `__init__()` 에 is_hungry 를 세번재 매개변수로 추가 하여라.    
 • 실행시켜 보아라. 그리고 결과를 지켜보자.
@@ -1116,7 +1116,7 @@ Inheritance is the process by which one class takes on the attributes and method
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 있는 Code를 살펴보자.    
+• Editor 화면에 있는 Code를 살펴보자.    
 • 클래스 Customer 가 정의되어 있다.    
 • 클래스 ReturningCustomer가 클래스 Customer를 inheritance(상속)하고 있다.    
 • 주) 클래스 ReturningCustomer 내부에, 메소드 display_cart()를 정의하지 않는다.    

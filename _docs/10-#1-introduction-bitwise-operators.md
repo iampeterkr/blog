@@ -157,7 +157,7 @@ In Python, you can write numbers in binary format by starting the number with 0b
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 있는 소스들이 어떤 패턴이 있는지 이해하여 보자.    
+• Editor 화면에 있는 소스들이 어떤 패턴이 있는지 이해하여 보자.    
 • Run 실행 후 계속 진행해 보자.
 {: .notice--info}
 
@@ -265,7 +265,7 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 
 **설명:** [ Instruction ]    
-• Editor 창에서 변수 twelve 에 값을 채워 넣어라.    
+• Editor 화면에서 변수 twelve 에 값을 채워 넣어라.    
 • 2 진수 형식은 ( 0bxx ) 이다. 
 {: .notice--info}
 
@@ -368,7 +368,7 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 
 **설명:** [ Hint ]     
-• Editor 창의 라인 1 을 참조 하세요.    
+• Editor 화면의 라인 1 을 참조 하세요.    
 • Loop 또는 range 를 사용할 줄 알지만, print 문을 개별로 사용하세요.  
 {: .notice--info}
 
@@ -1057,7 +1057,7 @@ check_bit4(0b1010) # ==> "on"
 
 
 **설명:** [ Hint ]    
-• 입력한 4번째 bit 값이 1 인지를 확인하는 함수를 만들어라. 
+• 입력한 4번째 bit 값이 1 인지를 확인하는 함수를 작성하라. 
 {: .notice--info}
 
 <br>

@@ -30,7 +30,7 @@ In this lesson, we will make a simplified version of the classic board game Batt
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 1. Welcome to Battleship!    
 
-In this project you will **build a simplified**, **one-player version of the classic board game Battleship**! In this version of the game, there will be a single ship hidden in a random location on a 5x5 grid. The player will have 10 guesses to try to sink the ship.
+In this project you will build a simplified, one-player version of the classic board game Battleship! In this version of the game, there will be a single ship hidden in a random location on a 5x5 grid. The player will have 10 guesses to try to sink the ship.
 
 To build this game we will use our knowledge of lists, conditionals and functions in Python. When you're ready to get started, click Next to continue.
 
@@ -39,7 +39,7 @@ To build this game we will use our knowledge of lists, conditionals and function
 
 
 **설명:** [ Learn ]          
-• 지금까지 배운것을 활용하여 1인용 게임 'Battleship1'을 만든다.    
+• 지금까지 배운것을 활용하여 1인용 게임 Battleship 을 만든다.    
 • 이 게임은 10 번의 질문을 통하여 5 x 5 좌표 위에 숨어 있는 배의 위치를 찾는다.    
 • 이 게임은 우리가 이미 배운 리스트와 함수를 활용하여 개발한다.
 {: .notice--info}
@@ -54,7 +54,7 @@ To build this game we will use our knowledge of lists, conditionals and function
 * Click Next to get started with Battleship!
 
 
-**설명:** [ Learn ]          
+**설명:** [ Instruction ]          
 • Run을 실행하고 Next를 눌러 시작한다. 
 {: .notice--info}
 
@@ -109,7 +109,7 @@ The first thing we need to do is to set up the game board.
 
 
 **설명:** [ Learn ]          
-• 첫번째 미션은 게임 판을 만든다.
+• 첫번째 미션은 게임판을 만든다.
 {: .notice--info}
 
 
@@ -174,11 +174,11 @@ board = []
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 3. Make a List    
 
-Good! Now we'll use a built-in Python function to generate our board, which we'll make into a **5 x 5** grid of **all "O"s, for "ocean."**    
+Good! Now we'll use a built-in Python function to generate our board, which we'll make into a 5 x 5 grid of all "O"s, for "ocean."    
 ```python
 print ["O"] * 5
 ```    
-will print out **['O', 'O', 'O', 'O', 'O']**, which is the basis for a row of our board.    
+will print out ['O', 'O', 'O', 'O', 'O'], which is the basis for a row of our board.    
 
 We'll do this five times to make five rows. (Since we have to do this five times, it sounds like a loop might be in order.)
 
@@ -187,10 +187,10 @@ We'll do this five times to make five rows. (Since we have to do this five times
 
 
 **설명:** [ Learn ]          
-• 3. Make a List 에서는 리스트로 5 x 5 게임판을 만든다.     
+• Ch3. Make a List 에서는 리스트로 5 x 5 게임판을 만든다.     
 • 바다에 "o"으로 채워진 5 x 5 판이 있다.    
-• 이 판을 출력 해보면, 가로가 ["o", "o", "o", "o", "o"]인 판인 것이다.     
-• 우리는 이런 모양의 세로로 5개가 있는 리스트를 만들 것이다. 
+• 이 판을 출력 해보면, 가로가 ["o", "o", "o", "o", "o"]인 게임판이다.     
+• 우리는 이런 모양의 세로로 5개가 있는 리스트를 만들것이다. 
 {: .notice--info}
 
 
@@ -200,15 +200,16 @@ We'll do this five times to make five rows. (Since we have to do this five times
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a 5 x 5 grid initialized to all **'O's** and store it in board.     
-* Use `range()` to **loop 5 times**.     
-* Inside the loop, `.append()` a list **containing 5 "O"s** to board, just like in the example above.     
-* Note that these are capital letter **"O"** and **not zeros**.    
+* Create a 5 x 5 grid initialized to all 'O's and store it in board.     
+* Use `range()` to loop 5 times.     
+* Inside the loop, `.append()` a list containing 5 "O"s to board, just like in the example above.     
+* Note that these are capital letter "O" and not zeros.    
 
 
 
 **설명:** [ Instruction ]          
-• 리스트 board 를 만들어라.(board는 5 x 5 로 된 판이며, 값 "O" 으로 채워져 있다.)    
+• 리스트 board 를 만들어라.     
+• board는 5 x 5 로 된 판이며, 값 "O" 으로 채워져 있다.    
 • 함수 range() 활용하여 5번 loop 반복하라.    
 • loop 안에서는 메서드 '.append()'를 이용하여 리스트 board를 작성하라.    
 • 리스트 board 에는 ["O","O","O","O","O"] 가 5개가 있는 싱글 리스트를 만들어라.     
@@ -256,15 +257,15 @@ for i in range(5):
 **설명:** [ Solution ]          
 • 함수 range(5) 를 발생 시킨다.    
 • for 문에서 ['O']를 5번 곱하면, 싱글 리스트 ['O','O','O','O','O'] 이 만들어진다.   
-• (e.g. ['O'] * 5 -> ['O','O','O','O','O'] )    
+• e.g. ['O'] * 5 -> ['O','O','O','O','O']     
 • 위와 같은 작업을 5번( e.g. range(5) ) 반복하여 아래와 같이 만든다.     
-• [
-    ['O','O','O','O','O'],
-    ['O','O','O','O','O'],
-    ['O','O','O','O','O'],
-    ['O','O','O','O','O'],
-    ['O','O','O','O','O']
-  ] 
+[     
+    ['O','O','O','O','O'],     
+    ['O','O','O','O','O'],     
+    ['O','O','O','O','O'],     
+    ['O','O','O','O','O'],     
+    ['O','O','O','O','O']     
+] 
 {: .notice--info}
 
 
@@ -312,7 +313,7 @@ The easiest way to print the board would be to have Python display it for us usi
 
 
 **설명:** [ Instruction ]          
-• print ansdmf 사용하여, 리스트 board 의 상태를 출력하라.   
+• print 문을 사용하여, 리스트 board 의 상태를 출력하라.   
 {: .notice--info}
 
 
@@ -350,7 +351,7 @@ print board
 **설명:** [ Solution ]          
 • 빈 리스트 board 를 초기화 한다.    
 • 함수 range(5) 를 활용하여 아래 작업을 5번 반복한다.    
-• 메서드 '.append(['O'] * 5) 를 리스트 board 에 추가한다.     
+• 메서드 .append(['O'] * 5) 를 리스트 board 에 추가한다.     
 • print 문을 활용하여 리스트 board 가 어떤 상태인지 확인한다. 
 {: .notice--info}
 
@@ -493,10 +494,10 @@ print "---".join(letters)
 ```    
 
 1. In the example above, we create a list called `letters`.     
-2. Then, we print **a b c d**. The `.join` method uses the string to combine the items in the list.    
-3. Finally, we print **a---b---c---d**. We are calling the `.join` function on the **"---"** string.    
+2. Then, we print a b c d. The `.join` method uses the string to combine the items in the list.    
+3. Finally, we print a---b---c---d. We are calling the `.join` function on the "---" string.    
 
-We want to turn each row into **"O O O O O"**. 
+We want to turn each row into "O O O O O". 
 
 
 
@@ -521,7 +522,7 @@ We want to turn each row into **"O O O O O"**.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Inside your function, inside your **for loop**, use **" "** as the separator to `.join` the elements of each row.
+* Inside your function, inside your for loop, use " " as the separator to `.join` the elements of each row.
 
 
 **설명:** [ Instruction ]          
@@ -537,7 +538,7 @@ We want to turn each row into **"O O O O O"**.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Your function should contain a **for loop** that iterates over **each row** in the board. For each row, it should    
+* Your function should contain a for loop that iterates over each row in the board. For each row, it should    
 
 ```python
 print " ".join(row)
@@ -606,11 +607,11 @@ coin = randint(0, 1)
 dice = randint(1, 6)
 ```    
 
-1. In the above example, we first import the `randint(low, high)` function **from the random module**.
+1. In the above example, we first import the `randint(low, high)` function from the random module.
 
-2. Then, we **generate** either **zero or one** and store it in coin.
-3. Finally, we **generate** a number from **one to six** inclusive.
-Let's generate a `random_row` and `random_col` from **zero to four**!
+2. Then, we generate either zero or one and store it in coin.
+3. Finally, we generate a number from one to six inclusive.
+Let's generate a `random_row` and `random_col` from zero to four!
 
 
 
@@ -633,7 +634,7 @@ Let's generate a `random_row` and `random_col` from **zero to four**!
 
 * Define two new functions, `random_row` and `random_col`, that each take `board_in` as input.
 
-* These functions should return a **random row index** and a **random column index** from your board, respectively. Use `randint(0, len(board_in) - 1)`.
+* These functions should return a random row index and a random column index from your board, respectively. Use `randint(0, len(board_in) - 1)`.
 
 * Call each function on board.
 
@@ -1007,10 +1008,10 @@ The example above is just a reminder about if statements.
 
 
 **설명:** [ Instruction ]          
-• Editor 창의 29 라인에서, if 문을 추가한다.    
+• Editor 화면의 29 라인에서, if 문을 추가한다.    
 • if 문은 (guess_row == ship_row) and (guess_col == ship_col) 비교한다.    
-• if 조건문을 만족하면, "Congratulations! You sank my battleship!" 을 출력한다.     
-• 이 프로그램 실행하면, prompt 에 "Guess Row"와 "Guess Col"을 묻는다.    
+• if 조건문을 만족하면, *Congratulations! You sank my battleship!* 을 출력한다.     
+• 이 프로그램 실행하면, prompt 에 Guess Row 와 Guess Col 을 묻는다.    
 • 예상 되는 배의 위치의 row, col 숫자 값을 입력하라.
 {: .notice--info}
 
@@ -1127,7 +1128,7 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 **설명:** [ Learn ]          
 • Ch11. Danger, Will Robinson!! 에서는 else 문을 학습한다.   
 • 항상, 한번에 맞출수는 없기에, 못 맞추었을 경우도 생각해야 한다.    
-• 'print board[2][3]' 은 좌표가 3번째, 4번째를 위치를 가리킨다.
+• ( print board[2][3] )은 좌표가 3번째, 4번째를 위치를 가리킨다.
 {: .notice--info}
 
 
@@ -1141,20 +1142,20 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 
 * Print out "You missed my battleship!"
 
-* Set the list element at guess_row, guess_col to **"X"**.
+* Set the list element at guess_row, guess_col to "X".
 
-* As the last line in your **else** statement, **call print_board(board)** again so you can see the **"X"**.     
+* As the last line in your else statement, call print_board(board) again so you can see the "X".     
 * Make sure to enter a col and row that is on the board!
 
 
 
 
 **설명:** [ Instruction ]          
-• if 문 밑의 else 문에  "You missed my battleship!" 을 작성하라.    
-• 리스트 board 의 guess_row, guess_col 좌표에 해당하는 곳에 문자 "X" 를 저장하라.     
+• if 문 밑의 else 문에 *You missed my battleship!* 을 작성하라.    
+• 리스트 board 의 guess_row, guess_col 좌표에 해당하는 곳에 문자 X 를 저장하라.     
 • e.g. board[1][2] = "X"    
 • print_board(board) 를 다시 호출하라.    
-• 해당 좌표에 "O" 대신에 "X"가 저장되어 있다.
+• 해당 좌표에 문자 "O" 대신에 문자 X 가 저장되어 있다.
 {: .notice--info}
 
 
@@ -1283,7 +1284,7 @@ The example above checks if either x or y are outside those ranges. The `\` char
 • ② 이미 추측한 값을 입력할 경우     
 • ③ 배의 틀린 위치 값을 예측한 경우     
 • 상단의 소스는 입력값 변수 x 가 8보다 크면, 입력 범위를 알려주는 소스이다.    
-• 문자 ( '\' ) 는 소스가 다음 라인에 있지만, 이전과 계속 이어진다는 것을 얼려주는 표시이다.
+• 문자 `\` 는 소스가 다음 라인에 있지만, 이전과 계속 이어진다는 것을 얼려주는 표시이다.
 {: .notice--info}
 
 
@@ -1293,13 +1294,13 @@ The example above checks if either x or y are outside those ranges. The `\` char
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Add a new if statement that is **nested under the else**.
+* Add a new if statement that is nested under the else.
 
-* Like the example above, it should check if `guess_row` is **not in range(5)** or `guess_col` is **not in range(5)**.
+* Like the example above, it should check if `guess_row` is not in range(5) or `guess_col` is not in range(5).
 
 * If that is the case, print out "Oops, that's not even in the ocean."    
 * After your new if statement, add an else that contains your existing handler for an incorrect guess.     
-* Don't forget to **indent the code**!
+* Don't forget to indent the code!
 
 
 **설명:** [ Instruction ]          
@@ -1308,7 +1309,7 @@ The example above checks if either x or y are outside those ranges. The `\` char
 • 변수 guess_row 와 guess_col 의 범위가 5를 넘지 않도록 한다.    
 • 함수 range(5) 를 사용하라.    
 • 만약 입력값이 범위 5를 넘으면 다음 메시지를 출력한다.    
-• 메시지 : "Oops, that's not even in the ocean."    
+• 메시지 : *Oops, that's not even in the ocean.*    
 • 추가 if 문과 쌍이 되는 추가 else 문을 추가하라.    
 • 추가 if 문과, 추가 else 문은 들여 쓰기를 조심하라. 
 {: .notice--info}
@@ -1330,7 +1331,7 @@ if guess_row not in range(your_desired_range) or guess_col not in range(your_des
 **설명:** [ Hint ]          
 • 변수 guess_row , guess_col 의 값은 0부터 rows -1 , cols -1 이다.      
 • e.g. rows : 5 -> 0, 1, 2, 3, 4    
-• if 문에서 범위에 포함되고 안되고는 'not in'을 사용한다.
+• if 문에서 범위에 포함되고 안되고는 ( not in )을 사용한다.
 {: .notice--info}
 
 <br>
@@ -1386,8 +1387,8 @@ else:
 • 추가 if 문을 사용하여, 가로, 세로 입력한 값이 5개 범위 내인지를 점검한다.    
 • 5개의 범위를 벗어 났으면 Print 문으로 알려준다.    
 • 5개 범위 안에는 있지만, 배의 위치를 맞추지 못했으면, 다음 2가지 동작을 한다.    
-• 첫번째, "You missed my battleship!" 출력한다.    
-• 두번째, 플레이어가 입력한 좌표에 문자열 값 "X" 를 대입한다.     
+• 첫번째, *You missed my battleship!* 출력한다.    
+• 두번째, 플레이어가 입력한 좌표에 문자열 값 X 를 대입한다.     
 • 프로그램의 말미에는 현재 board 의 최종 좌표를 보여준다.
 {: .notice--info}
 
@@ -1454,8 +1455,8 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 
 **설명:** [ Learn ]          
 • Ch13. Not Again! 에서는 elif 를 학습한다.     
-• 이미 틀렸던, 좌표를 다시 입력하면, 이미 입력했다는것을 어떻게 알 수 있을까?    
-• print board[guess_row][guess_col] 의 반환값은 문자열 "X" 이거나 "O" 이다.
+• 이미 틀렸던, 좌표를 다시 입력하면, 이미 입력 했다는것을 어떻게 알 수 있을까?    
+• print board[guess_row][guess_col] 의 반환값은 문자열 X 이거나 O 이다.
 {: .notice--info}
 
 
@@ -1473,9 +1474,9 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 **설명:** [ Instruction ]          
 • 추가 if 문 밑에 elif 문을 추가하라.    
 • elif 문의 기능은 다음과 같이 동작한다.    
-• 입력받은 좌표가 기존에 입력했던 좌표 "X" 인지를 비교하라.    
-• 좌표에 "X" 가 있으면 다음 메시지를 출력하라.    
-• 메시지 : "You guessed that one alrady."
+• 입력받은 좌표가 기존에 입력했던 좌표 X 인지를 비교하라.    
+• 좌표에 X 가 있으면 다음 메시지를 출력하라.    
+• 메시지 : *You guessed that one alrady.*
 {: .notice--info}
 
 
@@ -1540,7 +1541,7 @@ else:
 
 **설명:** [ Solution ]          
 • elif 문에서 리스트 board[guess_row][guess_col] == "X" 인지 확인한다.    
-• 이미 "X" 값이 존재하면 "You guessed that one already."를 출력한다.
+• 이미 X 값이 존재하면 *You guessed that one already.* 를 출력한다.
 {: .notice--info}
 
 
@@ -1689,7 +1690,7 @@ else:
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 15. Play It, Sam    
 
-You can successfully make one guess in Battleship! But we’d like our game to allow the player to make up to **4 guesses** before they lose.    
+You can successfully make one guess in Battleship! But we’d like our game to allow the player to make up to 4 guesses before they lose.    
 ```python
 for turn in range(4):
   # Make a guess
@@ -1712,7 +1713,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Add a for loop that **repeats the guessing** and checking part of your game for **4** turns, like the example above.
+* Add a for loop that repeats the guessing and checking part of your game for 4 turns, like the example above.
 
 * At the beginning of each iteration, `print "Turn"`, `turn + 1` to let the player know what turn they are on.
 
@@ -1722,7 +1723,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 **설명:** [ Instruction ]          
 • 질문 기회를 4번까지 가능한 for 문을 추가하라.    
 • for 문의 끝에는 몇 번 시도 했는지를 표시해 주는 print 문을 만들어라.    
-• e.g. print ( "Turn :", turn+1) 
+• e.g. print ( "Turn :", turn+1)     
 • for 문 안쪽에 들여 쓰여진 모든 소스는 반복된다.
 {: .notice--info}
 
@@ -1733,7 +1734,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* Don't forget to **indent the code**!
+* Don't forget to indent the code!
 
 
 **설명:** [ Hint ]          
@@ -1794,7 +1795,7 @@ for turn in range(4):
 ```
 
 **설명:** [ Solutin ]      
-• for 문에서 4번 반복하는것은 다음과 같이 작성한다.    
+• for 문에서 4번 반복 하는것은 다음과 같이 작성한다.    
 • e.g. for turn in range(4):    
 • for 문으로 둘러 쌓여진(들여 쓰진) 소스는 4번 반복된다.
 {: .notice--info}
@@ -1872,9 +1873,9 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 **설명:** [ Learn ]         
 • Ch16. Game Over 에서는 if 문을 사용하여 게임을 종료하는 법을 학습한다.    
 • 플레이어가 4번 만에 배의 위치를 맞추지 못하면 게임은 끝난다.    
-• 게임이 끝났으면 끝났다고 알려주면 좋을 것이다.         
+• 게임이 끝났으면, 끝났다고 알려주면 좋을 것이다.         
 • 소스의 어느 위치에 이 기능을 넣어야 할지를 고민하라.     
-• 3 번의 기회가 주어지고, 그 안에 맞주지 못하면, 끝났다고 알려주기를 원한다.    
+• 3 번의 기회가 주어지고, 그 안에 맞추지 못하면, 끝났다고 알려주기를 원한다.    
 • 어느 위치가 좋을지 고민하라.
 {: .notice--info}
 
@@ -1895,11 +1896,11 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 
 
 **설명:** [ Instruction ]          
-• 3번을 틀리면 게임을 끝나는 부분을 어디에 넣을지 생각하라.    
+• 3번 틀리면 게임을 끝나는 부분을 어디에 넣을지 생각하라.    
 • 첫째, 3번 틀렸는지를 비교하는 if/elif/else 문 밑에 추가하라.    
 • 둘째, 실패 했을때 실행되는 else 문 안에 위치한다.    
 • 셋째, 플레이어가 못 맞췄는 else 문 안에 위치한다.   
-• 마지막으로, 변수 turn == 3 이면, "Game Over"를 출력한다. 
+• 마지막으로, 변수 turn == 3 이면, *Game Over* 를 출력한다. 
 {: .notice--info}
 
 
@@ -1974,7 +1975,7 @@ for turn in range(4):
 ```
 
 **설명:** [ Solution ]          
-• 추가 'if (turn == 3):' 는 따로 위치한다.    
+• 추가 ( if (turn == 3): )는 따로 위치한다.    
 • 기존 입력값과 좌표를 비교하는 if/elif/else 문과 연계하지 않았다.
 {: .notice--info}
 
@@ -2034,12 +2035,13 @@ O O O O O
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">BATTLESHIP!</font> 
+<font size="3"  face="돋움">BATTLESHIP!</font>     
+
 ### 17. A Real Win    
 
 Almost there! We can play Battleship!, but you’ll notice that when you win, if you haven’t already guessed 4 times, the program asks you to enter another guess. What we’d rather have happen is for the program to end—it’s no fun guessing if you know you’ve already sunk the Battleship!
 
-We can use the **break command** to get out of a for loop.
+We can use the break command to get out of a for loop.
 
 
 
@@ -2074,7 +2076,7 @@ Guess Row:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Add a **break** under the win condition to end the loop after a win.
+* Add a break under the win condition to end the loop after a win.
 
 
 **설명:** [ Instruction ]          
@@ -2091,7 +2093,7 @@ Guess Row:
 
 
 **설명:** [ Hint ]         
-• 작성 위치는 "Congratulations!!" 메시지 출력되는 다음 라인이다. 
+• 작성 위치는 *Congratulations!!* 메시지 출력되는 다음 라인이다. 
 {: .notice--info}
 
 <br>

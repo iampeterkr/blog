@@ -271,7 +271,7 @@ def fruit_color(fruit):
 
 **설명:** [ Hint ]    
 • if / elif / else 를 사용하라.    
-• 기존 함수 hotel_cost() 는 놔두고, 그 밑에 새로운 함수를 만들어라. 
+• 기존 함수 hotel_cost() 는 놔두고, 그 밑에 새로운 함수를 작성하라. 
 {: .notice--info}
 
 <br>

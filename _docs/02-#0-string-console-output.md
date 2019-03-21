@@ -882,7 +882,7 @@ The **console** (the window to the right of the editor) is where the results of 
 
 **설명:**  [ Learn ]      
 •Ch10. Printing Strings 에서는 문자열 출력방법을 학습한다.    
-• print 는 editor 창에서 작성한 프로그래밍을 console 창에 보여준다. 
+• print 는 editor 화면에서 작성한 프로그래밍을 console 창에 보여준다. 
 {: .notice--info}
 
 
@@ -1154,7 +1154,7 @@ Now try it yourself!
 
 
 **설명:** [ Instruction ]    
-• Editor 창의 소스를 Run 시키면 Error 가 발생한다.    
+• Editor 화면의 소스를 Run 시키면 Error 가 발생한다.    
 • 실수 3.14 를 함수 str() 를 사용하여 문자열 형태로 바꾸어라.    
 • Run  시켜라.   
 {: .notice--info}
@@ -1261,7 +1261,7 @@ print "03 - %02d - 2019" % (day)
 
 
 **설명:** [ Instruction ]     
-• Editor 창에 있는 소스를 실행하라.    
+• Editor 화면에 있는 소스를 실행하라.    
 • 당신이 예상한대로 출력 되는지 검토하라. 
 {: .notice--info}
 

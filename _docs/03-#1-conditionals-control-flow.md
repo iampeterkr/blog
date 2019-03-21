@@ -1086,7 +1086,7 @@ bool_one = (2 <= 2) and "Alpha" == "Bravo"
 
 
 **설명:** [ Instruction ]     
-• Editor 창의 소스에서 주석을 읽고 이해하라.    
+• Editor 화면의 소스에서 주석을 읽고 이해하라.    
 • 주석에서 지시하는대로 결과 값을 만들어라.    
 • Boolean 은 연산자 ( NOT , AND , OR ) 를 활용하라.
 {: .notice--info}

@@ -61,7 +61,7 @@ Pig Latin is a language game, where you move the first letter of the word to the
 
 
 **설명:** [ Instruction ]    
-• Editor 창의 소스가 이해가 되었으면, Next 를 클릭하라. 
+• Editor 화면의 소스가 이해가 되었으면, Next 를 클릭하라. 
 {: .notice--info}
 
 
@@ -228,7 +228,7 @@ Once you type in your name and hit Enter, it will be stored in name.
 
 
 **설명:** [ Instruction ]    
-• 함수 raw_input() 를 사용하여 다음과 같이 Editor 창에 코딩하라.    
+• 함수 raw_input() 를 사용하여 다음과 같이 Editor 화면에 코딩하라.    
 • e.g. raw_input("Enter a word: ") 
 {: .notice--info}
 

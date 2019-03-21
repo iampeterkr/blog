@@ -55,7 +55,7 @@ You might have considered the situation where you would like to reuse a piece of
 
 
 **설명:** [ Instruction ]     
-• Editor 창에 구현되어 있는 함수 tax() 와, 함수 tip() 를 해석해 보자.    
+• Editor 화면에 구현되어 있는 함수 tax() 와, 함수 tip() 를 해석해 보자.    
 • 참고로, 함수 tax() 는 세금을 계산해 주고, 함수 tip() 은 팁을 계산해주는 함수이다.    
 • 각 함수가 어떻게 작동 되는지를 이해해 보자.    
 • 그리고 실행해 보고, 당신이 생각한대로 동작 되는지 확인해 보자. 
@@ -482,7 +482,7 @@ def fun_two(m):
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 함수 2개가 있다.    
+• Editor 화면에 함수 2개가 있다.    
 • e.g. 함수 one_good_turn(), deserves_another().    
 • 함수 one_good_turn(n) 은 parameter 1개 n 을 받는다.    
 • 함수 one_good_turn(n) 은 n 값에 + 1 결과를 반환한다.    
@@ -713,12 +713,12 @@ print sqrt(25)
 • Python에서는 미리 만들어 놓은 함수들을 묶어서 정의해 둔 것이 있다.     
 • 그 중 예를 하나 들면, 함수 sqrt() 이다.     
 • e.g. 함수 sqrt(5), argument 값 5 의 루트 값을 구하는 함수이다.    
-• Editor 창 3 라인에서 함수 sqrt(25) 를 호출해보자.    
+• Editor 화면 3 라인에서 함수 sqrt(25) 를 호출해보자.    
 • 예상한대로, 값 루트 5가 계산되어 반환되는가?    
 • 예상과 달리, error 가 발생한다.     
-• Editor 창에서 시도해 보라.   
+• Editor 화면에서 시도해 보라.   
 {: .notice--info}
-
+면
 
 <br>
 <hr/>
@@ -1078,7 +1078,7 @@ For these reasons, it's best to stick with either import module and type module.
 * Click `Run` to check it out (you'll see `sqrt`, along with some other useful things like `pi`, `factorial`, and `trigonometric` functions.
 
 **설명:** [ Instruction ]   
-• Editor 창에 있는 소스를 실행 시켜보자.    
+• Editor 화면에 있는 소스를 실행 시켜보자.    
 • Python 모듈 math 에는 어떤 함수들이 포함되어 있는지 확인해 보자. 
 {: .notice--info}
 
@@ -1251,7 +1251,7 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 
 
 **설명:** [ Instruction ]    
-• Editor 창의 라인 3 에서 함수 max()를 사용하라.    
+• Editor 화면의 라인 3 에서 함수 max()를 사용하라.    
 • 숫자만 입력된다는 조건에서 가장 큰수를 반환한다.  
 {: .notice--info}
 

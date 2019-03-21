@@ -36,11 +36,11 @@ Check out the code in the editor to the right.
 
 **설명:** [ Learn ]   
 • Ch1. See It to Believe It 에서는 File I/O 를 학습한다.      
-• 지금까지는 코딩을 editor 창에서 하고, 그 결과를 console 에서 보여주었다.     
+• 지금까지는 코딩을 editor 화면에서 하고, 그 결과를 console 에서 보여주었다.     
 • 실상은 컴퓨터가 파일에서 정보를 읽어서 처리후 그 결과를 파일에 저장하여 보여준다.    
 • 이러한 파일 처리 절차를 File I/O 라고 부른다.     
 • Python에서는 이러한 File I/O를 관리하는 여러가지 내부 함수를 제공한다.    
-• Editor 창에 있는 소스를 보고, 이해해 보자.
+• Editor 화면에 있는 소스를 보고, 이해해 보자.
 {: .notice--info}
 
 
@@ -578,7 +578,7 @@ Run the code again.
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 있는 코드는 좋은 코드가 아니다.    
+• Editor 화면에 있는 코드는 좋은 코드가 아니다.    
 • print read_file.read() 소스에서 어떤 데이타도 읽지 못할 것이다.    
 • 이유는 파일을 쓰고, .Close() 를 하지 않았다.    
 • 파일을 write 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라. 

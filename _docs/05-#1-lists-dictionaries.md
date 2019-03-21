@@ -65,7 +65,7 @@ Lists are very similar to strings, but there are a few key differences
 
 
 **설명:** [ Instruction ]     
-• Editor 창에 있는 리스트 zoo_animals 에는 3개의 값이 미리 들어가 있다.    
+• Editor 화면에 있는 리스트 zoo_animals 에는 3개의 값이 미리 들어가 있다.    
 • 마지막에 4번째 항목에 자신이 좋아하는 동물 이름을 추가하라.    
 • 주의) 동물 이름은 String 형으로 해야한다. 그리고, 리스트 마지막에 추가 해야한다. 
 {: .notice--info}
@@ -390,7 +390,7 @@ print letters
 
 
 **설명:** [ Instruction ]    
-• Editor 창 5, 6, 7 라인에서 리스트 suitcase 에 3개 이상의 항목값을 추가하라.    
+• Editor 화면 5, 6, 7 라인에서 리스트 suitcase 에 3개 이상의 항목값을 추가하라.    
 • 리스트에 .append() 사용하라.    
 • 변수 list_length 에 리스트 suitcase 의 길이를 함수 len()을 사용하여 저장하라.
 {: .notice--info}
@@ -515,7 +515,7 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 
 
 **설명:** [ Instruction ]             
-• Editor 창, 7번 라인에서, 리스트 middle 를 만들어라.    
+• Editor 화면, 7번 라인에서, 리스트 middle 를 만들어라.    
 • 리스트 middle 에는, 리스트 suitcase 의 중간 항목값 2개를 추출하여 저장하라.    
 • 10 라인에서, 리스트 last 를 만들어라.    
 • 리스트 last 에는, 리스트 suitcase 의 마지막 항목값 2개를 추출하여 저장하라.

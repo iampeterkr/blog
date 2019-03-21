@@ -348,7 +348,7 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 있는 소스를 이해하고 실행시켜라. 
+• Editor 화면에 있는 소스를 이해하고 실행시켜라. 
 {: .notice--info}
 
 
@@ -645,7 +645,7 @@ Where start describes where the slice starts (inclusive), end is where it ends (
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 작성되어진 list comprehension을 돌려 보자.    
+• Editor 화면에 작성되어진 list comprehension을 돌려 보자.    
 • 어떤 값이 예상되는가?     
 • 결과값과 당신이 예상한 값이 맞는지 확인하라. 
 {: .notice--info}
@@ -853,7 +853,7 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 **설명:** [ Instruction ]    
 • 리스트 backwards 를 생성하라.    
 • 리스트 my_list 의 값을 역순으로 만들어, 리스트 backwards 에 저장하라.    
-• Editor 창에서, list slice의 옵션(stride)을 사용하여 역순으로 만들어라.
+• Editor 화면에서, list slice의 옵션(stride)을 사용하여 역순으로 만들어라.
 {: .notice--info}
 
 
@@ -1132,7 +1132,7 @@ When we pass the lambda to filter, filter uses the lambda to determine what to f
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 있는 소스를 실행시켜 어떻게 처리 되는지 살펴보자.
+• Editor 화면에 있는 소스를 실행시켜 어떻게 처리 되는지 살펴보자.
 {: .notice--info}
 
 
@@ -1572,7 +1572,7 @@ You can think of a Python string as a list of characters.
 
 
 **설명:** [ Instruction ]    
-• Editor 창에 있는 문자열을 다음 2가지 문제가 있다.         
+• Editor 화면에 있는 문자열을 다음 2가지 문제가 있다.         
 • 글자를 거꾸로 읽어야 한다.    
 • 우리가 원하지 않는 문자들이 섞여 있다.    
 • List slicing을 사용하여 변수 message 에 원하는 문자만 저장해라.

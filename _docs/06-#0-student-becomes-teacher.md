@@ -514,7 +514,7 @@ To divide two integers and end up with a float, you must first use `float()` to 
 
 
 **설명:** [ Instruction ]          
-• 리스트 studetns 의 값들을 가져와서, 평균값을 만들어 주고 반환하는 함수를 만들어라.     
+• 리스트 studetns 의 값들을 가져와서, 평균값을 만들어 주고 반환하는 함수를 작성하라.     
 • 평균값을 계산해주는 함수 average(numbers) 를 만들어라.    
 • 함수 average(), 함수 sum() 을 사용하여 변수 total 에 결과 값을 저장하라.    
 • 함수 float() 를 사용하여 예제(e.g. float(total) )와 같이 변경 후 저장하라.    

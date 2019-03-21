@@ -39,7 +39,7 @@ redirect_from:
 
 **설명:** ② 코딩화면(Editor)       
 • 수행할 Instruction 을 작성(코딩)하는 곳이다.     
-• 즉, Python 프로그램을 작성하는 Editor 창이다.
+• 즉, Python 프로그램을 작성하는 Editor 화면이다.
 {: .notice--info}    
    
 <hr>

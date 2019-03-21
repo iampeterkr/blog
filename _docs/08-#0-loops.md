@@ -874,7 +874,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 
 **설명:** [ Hint ]          
-• 함수 rang() 를 사용한다. 
+• 함수 range() 를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -1040,7 +1040,7 @@ The example in the editor is almost plain English: "for each character c in thin
 **설명:** [ Learn ]          
 • Ch11. For your strings 에서는 반복문으로 문자열을 관리하는 방법을 학습한다.    
 • loop 반복을 통하여 문자열을 문자 단위로 나눌수 있다.     
-• Editor 창에 있는 소스는 문자열 단어를 스펠링으로 나누는 소스이다. 
+• Editor 화면에 있는 소스는 문자열 단어를 스펠링으로 나누는 소스이다. 
 {: .notice--info}
 
 
