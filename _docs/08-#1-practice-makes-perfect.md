@@ -17,7 +17,7 @@ LESSON
 You know a lot of Python now. Let's do some practice problems!    
 
 **설명:** [ 학습방향 ]     
-반복문을 다양하고 심도있게 학습하자.
+Python 의 다양한 문제들을 연습하자.
 {: .notice--info}     
      
 
@@ -95,7 +95,8 @@ skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 2. is_even    
 
 All right! Let's get started.    
@@ -142,8 +143,8 @@ Remember how an even number is a number that is divisible by 2?
 
 
 **설명:** [ Hint ]          
-• 연산자 % 는 숫자를 나눈후 남는 나머지를 반환하는.     
-• 나머지가 0 인것은 나누어서 떨어진다는 의미이다.    
+• 연산자 % 는 숫자를 나눈후 남는 나머지를 반환한다.     
+• 나머지가 0 인것은, 나누어서 떨어진다는 의미이다.    
 • 즉 2 로 나누어서 나머지가 0이면, 그것은 짝수이다.    
 • 단, 0은 제외이다.    
 • 함수를 만든후, 해당 함수를 호출하고 출력하라.
@@ -213,7 +214,7 @@ If the difference between a number and that same number rounded is greater than 
 • 정수(integer)는 소수점 값이 없는 10진수이다. (e.g. 소수점 있는 수 98.6)    
 • 소수점이 있지만, 이런 경우는 정수이다. (e.g. 7.0)    
 • 프로그램에서 입력값이 정수인지를 어떻게 파악할 수 있을까?    
-• 우리는 입력값을 다음과 같이 처리하면 정수인지 아닌지를 알수 있다.    
+• 우리는 입력값을 다음과 같이 처리하면, 정수인지 아닌지를 알수 있다.    
 • 입려값을 함수 abs()를 사용하여 절대값으로 변환한다.    
 • 입력값을 함수 round()를 사용하여 소수점을 버린 값으로 변환한다.    
 • 절대값에서 Round값을 뺀 결과가 0이면 정수이다. (절대값 - Round 값)    
@@ -242,7 +243,7 @@ is_int(-1)    # True
 
 **설명:** [ Instruction ]          
 • 함수 is_int(x) 를 작성하라.   
-• 이 함수는 입력값 x 가 정수(interger)이면 True를 반환하고, 아니면 False를 반환하라. 
+• 이 함수는 입력값 x 가 정수(integer)이면 True를 반환하고, 아니면 False를 반환하라. 
 {: .notice--info}
 
 
@@ -416,7 +417,8 @@ print digit_sum(1234)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 5. factorial    
 
 All right! Now we're cooking. Let's try a **factorial problem**.
@@ -524,7 +526,8 @@ print factorial(5)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 6. is_prime    
 
 A prime number is a positive integer greater than 1 that has no positive divisors other than 1 and itself. (That's a mouthful!)
@@ -538,7 +541,7 @@ If there is a number between 1 and x that goes in evenly, then x is not prime.
 
 
 **설명:** [ Learn ]     
-• Ch6. is_prime 에서는 prime(소수를) 함수를 만드는 법을 학습한다.    
+• Ch6. is_prime 에서는 prime(소수) 함수를 만드는 법을 학습한다.    
 • Prime(소수)는 1 과 자신 이외에는 나눌수 없는 값을 말한다.    
 • 입력값 x 를 입력해서 소수 인지를 확인하는 함수를 만들어 본다.    
 • 1, 2, 3, 5, 7, 11 은 소수의 예이다.     
@@ -631,7 +634,8 @@ False
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 7. reverse    
 
 Great work so far! Let's practice writing some functions that work with strings.
@@ -659,7 +663,7 @@ Great work so far! Let's practice writing some functions that work with strings.
 **설명:** [ Instruction ]          
 • 함수 reverse() 를 작성한다.    
 • 이 함수는 입력한 문자열을 반대로 출력하는 함수이다.    
-• i.g reverse("abcd") 를 입력하면 "dcba" 를 반환한다.   
+• e.g. reverse("abcd") 를 입력하면 *dcba* 를 반환한다.   
 • 물론 앞에서 배운 [::-1] , 함수 reversed() 을 사용해도 된다.    
 • 이 장에서는 직접 함수를 만들어 본다. (특수 문자도 포함된다.)
 {: .notice--info}
@@ -721,7 +725,8 @@ dlroW olleH
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 8. anti_vowel    
 
 Nice work. Next up: vowels!
@@ -747,8 +752,8 @@ Nice work. Next up: vowels!
 **설명:** [ Instruction ]          
 • 함수 anti_vowel(text) 을 작성하라.    
 • 이 함수는 모음을 찾아서 없앤 문자열을 반환한다.     
-• 예를 들면 anti_vowel("Hey You!") 를 호출하면, "Hy Y!"를 반환한다.    
-• 단, 대문자 "Y" 를 없애지 말라.    
+• 예를 들면 anti_vowel("Hey You!") 를 호출하면, *Hy Y!* 를 반환한다.    
+• 단, 대문자 Y 를 없애지 말라.    
 • 그 외 대/소문자 모음 모두를 삭제하라.  
 {: .notice--info}
 
@@ -761,8 +766,8 @@ Nice work. Next up: vowels!
 * To check to see if `c` is a vowel, you can do: c in "aeiouAEIOU".
 
 
-**설명:** [ Learn ]       
-• 모음 모둠인 "aeiouAEIOU"에 해당 문자가 속하는지를 점검한다. 
+**설명:** [ Hint ]       
+• 모음 모둠인 *aeiouAEIOU* 에 해당 문자가 속하는지를 점검한다. 
 {: .notice--info}
 
 <br>
@@ -785,7 +790,7 @@ print anti_vowel("hello book")
 ```
 
 **설명:** [ Solution ]          
-• 입력한 문자열을 한 글자씩 추출하여 "ieaouIEAOU"에 속하는지를 점검한다.    
+• 입력한 문자열을 한 글자씩 추출하여 *ieaouIEAOU* 에 속하는지를 점검한다.    
 • 정의된 함수 anti_vowel(text): 다음과 같이 동작한다.      
 • 입력된 값 변수 text 의 글자를 하나씩 추출한다.    
 • 추출한 문자를 변수 char 에 저장한다.   
@@ -808,7 +813,8 @@ hll bk
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 9. scrabble_score    
 
 Scrabble is a game where players get points by spelling words. Words are scored by adding together the point values of each individual letter (we'll leave out the double and triple letter and word scores for now).
@@ -826,7 +832,7 @@ For example: the word "Helix" would score 15 points due to the sum of the letter
 • Scrabble 게임은 각 알파벳에 각각 다른 점수를 매긴다.    
 • 입력된 문자열의 각 단어의 알파벳 점수를 합한 값을 가지는 게임이다.    
 • 앞에서 배운 딕셔너리 변수에 각 알파벳의 점수를 할당하여 각 단어별 점수를 매긴다.    
-• 예를 들면, "Helix"는 각 알파벳 점수는 H:4, e:1, l:1, i:1, x:8이다.    
+• 예를 들면, *Helix* 는 각 알파벳 점수는 H:4, e:1, l:1, i:1, x:8이다.    
 • 이들 점수의 합은 15점이다.    
 • Scrabble 게임을 통하여 딕셔너리 활용법을 배워보자. 
 {: .notice--info}
@@ -870,7 +876,7 @@ For example: the word "Helix" would score 15 points due to the sum of the letter
 
 **설명:** [ Hint ]          
 • 입력된 워드의 알파벳을 순차적으로 딕셔너리 score 에 있는 각 알파벳 점수와 비교한다.    
-• 모든 입력된 문자는 .lower() 를 사용하여 소문자로 만든다.    
+• 모든 입력된 문자는 함수 .lower() 를 사용하여 소문자로 만든다.    
 • 소문자된 입력된 문자를 딕셔너리 score 서 찾는다. 
 {: .notice--info}
 
@@ -912,11 +918,11 @@ print scrabble_score("pizza")
 
 **설명:** [ Solution ]         
 • 정의된 함수 scrabble_score(word): 는 다음과 같이 동작한다.    
-• 입력 문자열을 소문자로 만든다. (e.g. word.lower() )    
-• 전체값을 저장할 변수 total 을 0으로 초기화 한다.    
+• 입력 문자열을 소문자로 만든다( e.g. word.lower() ).    
+• 전체값을 저장할 변수 total 을 0 으로 초기화 한다.    
 • 변수 word 의 문자를 하나씩 뽑아낸다.    
 • 뽑아낸 문자를 딕셔너리 score 에서 반복적으로 찾는다.    
-• 찾았으면 그 문자의 값을 딕셔너리 score 의 값을 찾는다.(e.g. score[letter] )    
+• 찾았으면 그 문자의 값을 딕셔너리 score 의 값을 찾는다(e.g. score[letter] ).    
 • 변수 total 에 딕셔너리 score 에서 찾은 문자의 점수를 더한다.     
 • 결과 total 값을 반환(return)한다.
 {: .notice--info}
@@ -935,7 +941,8 @@ print scrabble_score("pizza")
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 10. censor    
 
 You're doing great with these string function challenges. Last one!
@@ -943,7 +950,7 @@ You're doing great with these string function challenges. Last one!
 
 
 **설명:** [ Learn ]          
-• Ch10. censor 에서는 문자열 조작 기능을 하나더 학습한다.
+• Ch10. censor 에서는 문자열 조작 기능을 하나 더 학습한다.
 {: .notice--info}
 
 
@@ -955,6 +962,7 @@ You're doing great with these string function challenges. Last one!
 
 * Write a function called `censor` that takes two strings, `text` and `word`, as input.     
 * It should return the text with the word you chose **replaced with asterisks**.     
+
 For example:    
 ```python
 censor("this hack is wack hack", "hack")
@@ -982,6 +990,7 @@ should return:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * You can use    
+
 ```python
 string.split()
 # and 
@@ -1051,7 +1060,7 @@ print censor("this hack is wack hack", "hack")
 **설명:** [ Solution ]    
 • 정의된 함수 def censor(text, word): 는 다음과 같이 동작한다.    
 • 입력된 문장(text) 중 특정단어(word)를 ( * )로 변환한다.    
-• 메서드 .split()'를 사용하여 입력받은 text 의 문자열을 단어별로 자른다.    
+• 메서드 .split() 를 사용하여 입력받은 text 의 문자열을 단어별로 자른다.    
 • 잘라진 단어를 리스트 words 에 저장한다.        
 • 결과물을 저장할 변수 result 를 초기화한다.    
 • 변수 starts 에 ( * ) 를 변경할 word 갯수만큼 저장한다.    
@@ -1078,7 +1087,8 @@ this **** is wack ****
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 11. count     
 
 Great work so far. Let's finish up by practicing with a few functions that take lists as arguments.
@@ -1086,8 +1096,8 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 
 
 **설명:** [ Learn ]          
-• Ch11. count 에서는 입력값 중 찾고자 하는 Item 이 몇개 있는지를 찾는것을 학습한다.    
-• 리스트를 arguments로 가지는 함수들을 연습한다.
+• Ch11. count 에서는 입력값 중 찾고자 하는 Item 이 몇개 있는지 찾는것을 학습한다.    
+• 리스트를 arguments 값으로 갖는 함수들을 연습한다.
 {: .notice--info}
 
 
@@ -1113,15 +1123,15 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 **설명:** [ Instruction ]          
 • 함수 count(sequence, item) 를 작성하라.    
 • 이 함수는 다음과 같이 동작한다.     
-• 함수 count([1,2,1,1], 1) 을 호출하면 3이 반환된다.    
-• 이유는 리스트 [1, 2, 1, 1] 에 1이 3개가 들어 있기 때문이다.    
-• python 자체 함수에서 리스트의 특정 항목의 갯수를 찾아주는 기능이 있다.    
-• e.g. str.count()
-• 하지만, 연습을 위해서 우리는 직접 만들어 본다.     
+• 함수 count( [1, 2 ,1, 1], 1 ) 을 호출하면 3이 반환된다.    
+• 이유는 리스트 [1, 2, 1, 1] 에 1 이 3개가 들어 있기 때문이다.    
+• python 자체 함수에는 리스트의 특정 항목의 갯수를 찾아주는 기능이 있다.    
+• e.g. str.count()    
+• 하지만, 연습을 위해서 이번 장에서 우리는 직접 만들어 본다.     
 • return(반환값)은 정수(integer) 이다.    
 • 입력값은 정수(integer), 문자(string), 실수(float) 또는 다른 것일 수 있다.    
 • 리스트 변수명을 정할때, python에서 예약된 코드는 사용 금지한다.     
-• (e.g. 예약어 : if , else  등)
+• e.g. 예약어 : if , else  등
 {: .notice--info}
 
 
@@ -1180,7 +1190,8 @@ print count([1, 2, 1, 1], 1)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 12. purify    
 
 Awesome! Now let's practice filtering a list.      
@@ -1267,7 +1278,8 @@ print purify([1, 2, 3, 4])
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 13. product    
 
 Great! Now let's try a little multiplication.
@@ -1317,7 +1329,7 @@ Great! Now let's try a little multiplication.
 
 
 **설명:** [ Hint ]          
-• 입력받은 리스트의 값을 하나씩 추출하여 ( *= ) 기능을 사용하여라.    
+• 입력받은 리스트의 값을 하나씩 추출하여 ( *= ) 기능을 사용하라.    
 • 전체 값을 담는 변수 total 의 초기값은 0으로 해선 안된다.     
 • 이유는 곱셈에서 0은 어떤 값을 곱해도 0이다.    
 • 변수 total 의 초기값은 1로 초기화 하라.  
@@ -1358,7 +1370,8 @@ print product([4, 5, 5])
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 14. remove_duplicates    
 
 Awesome! Now for something a bit trickier.
@@ -1457,7 +1470,7 @@ print remove_duplicates([1, 1, 2, 2])
 • e.g. inputlist = sorted(inputlist)    
 • 정렬된 첫번째 값(inputlist[0])을 리스트 outputlist 에 추가한다.     
 • for 문에서 정렬된 inputlist 의 값을 하나씩 추출하여 변수 i 에 저장한다.    
-• 추출한 값 i 와 제일 마지막값(outputlist[-1]) 비교한다.    
+• 추출한 값 i 와 제일 마지막값(outputlist[-1])을 비교한다.    
 • 마지막 값과 비교하는 이유는 이미 outputlist 값을 정렬해 놓았기 때문이다.    
 • 만약 i 값이 마지막값 보다 크면 변수 outputlist.append(i)와 같이 추가한다.    
 • 최종 outputlist 를 반환(return) 한다.
@@ -1475,7 +1488,8 @@ print remove_duplicates([1, 1, 2, 2])
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
+<font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
+
 ### 15. median    
 
 Great work! You've covered a lot in these exercises. Last but not least, let's write a function to **find the median of a list**.
@@ -1499,11 +1513,11 @@ sorted([5, 2, 3, 1, 4])
 **설명:** [ Learn ]          
 • Ch15. median 에서는 리스트 중간값 찾는것을 학습한다.    
 • 리스트의 중앙에 위치한 값을 찾는 함수를 만드는 연습을 해보자.    
-• 리스트 [7, 12, 3, 1, 6] 이 입력되면, 먼저 정렬하여 [1,3,6,7,12] 를 만든다.    
+• 리스트 [7, 12, 3, 1, 6] 이 입력되면, 먼저 정렬하여 [1, 3, 6, 7, 12] 를 만든다.    
 • 그리고 리스트의 중앙에 위치한 6 을 반환(return)한다.    
 • 리스트 [7, 3, 1, 4] 와 같이  짝수개가 입력되면,    
-• 정렬 후 [1,3,4,7] 중앙값 3 과 4 의 평균값이 3.5가 반환(return)된다.    
-• 정렬은 함수 sorted([5,2,3,1,4])를 사용하면 [1,2,3,4,5] 로 정렬이 된다.
+• 정렬 후 [1, 3, 4, 7] 중앙값 3 과 4 의 평균값이 3.5가 반환(return)된다.    
+• 정렬은 함수 sorted([5, 2, 3, 1, 4])를 사용하면 [1, 2, 3, 4, 5] 로 정렬이 된다.
 {: .notice--info}
 
 
@@ -1541,7 +1555,7 @@ sorted([5, 2, 3, 1, 4])
 
 * For example, with an array of length 6 like [0, 1, 2, 3, 4, 5], the two middle elements that need to be averaged in order find the median would be 2 and 3. You get 3 by cutting the length of the array in half and 2 by subtracting 1 from the previous index: 3. You can use a similar pattern to find the middle element of an odd-length list.
 
-* Last but not least, **note that (2 + 3) / 2 is not the same as (2 + 3) / 2.0!** The former is integer division, meaning Python will try to give you an integer back. You'll want a float, so something like **(2 + 3) / 2.0** is the way to go.
+* Last but not least, note that (2 + 3) / 2 is not the same as (2 + 3) / 2.0! The former is integer division, meaning Python will try to give you an integer back. You'll want a float, so something like (2 + 3) / 2.0 is the way to go.
 
 
 
@@ -1549,15 +1563,16 @@ sorted([5, 2, 3, 1, 4])
 **설명:** [ Hint ]          
 • 짝수개의 리스트가 들어오면 중간값을 찾는 방법은 다음과 같다.    
 • 입력된 리스트의 길이를 구한다.     
-• 만약 [0,1,2,3,4,5] 가 입력되면 길이는 6 이다.    
+• 만약 [0, 1, 2, 3, 4, 5] 가 입력되면 길이는 6 이다.    
 • 이를 반으로 나누면 중간 값은 3 이다.    
 • 리스트의 index 값이 3인 자리의 값은 3 이다.    
 • 우리가 필요한 값은 index 2 와 index 3 이다.    
 • e.g. index 3 에서 index 1 을 뺀 index 2 를 선택한다.     
 • 주의, 두개의 값을 나누어 중간값을 계산할때, 다음 2가지 경우의 결과 값은 다르다.    
-• e.g. ( (2+3) / 2 ) 과 ( (2+3) / 2.0 )     
+• e.g. ( (2 + 3) / 2 ) 과 ( (2 + 3) / 2.0 )     
 • 앞의 경우는 2 가 반환되고, 후자는 2.5 가 반환다.    
-• 이 함수에서는 후자의 방식( (2+3)/2.0 )을 이용해야 한다.
+• 이 함수에서는 후자의 방식( (2+3)/2.0 )을 이용해야 한다.    
+• e.g. Python3 에서는 이 문제가 해결되어, 2를 사용해도 문제없다. 
 {: .notice--info}
 
 <br>
@@ -1590,7 +1605,7 @@ print median([2, 4, 5, 9])
 • 이 함수는 입력값 리스트의 중간값을 반환한다.    
 • 이 함수는 lst 를 입력값으로 받는다.    
 • 입력된 리스트를 정렬한다.(e.g. sorted_list = sorted(lst) )    
-• if 절의 block 내용은 리스트의 갯수가 홀수 개가 입력 되었을때 동작한다.     
+• if 절의 block 내용은 리스트의 갯수가 홀수개가 입력 되었을때 동작한다.     
 • if 절의 내용은 다음과 같이 처리한다.    
 • 리스트의 갯수가 홀수이면 index 중간값을 구한다.    
 • e.g. 리스트의 중간값을 ( //2 )로 소수점 버리는 중간값으로 계산한다.    
@@ -1599,7 +1614,7 @@ print median([2, 4, 5, 9])
 • else 절의 내용은 다음과 같이 처리한다.    
 • 리스트의 길이를 구하여 반으로 나누면 중간 index 값이 된다.    
 • e.g. len(sorted_list)/2     
-• e.g. 입력 리스트 [0,1,2,3] 는 길이는 4, 중간 index 계산값은 2가 나온다.    
+• e.g. 입력 리스트 [0, 1, 2, 3] 는 길이는 4, 중간 index 계산값은 2가 나온다.    
 • 우리가 필요한 1, 2의 index 값은 1, 2 이므로,    
 • 변수 index_1 = 중간 index -1 이 된다.    
 • 변수 index_2 = 중간 index 이다.     

@@ -36,11 +36,12 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 
 
 **설명:** [ Learn ]     
-• Ch1. While you're here 에서는 while 문에 대하여 학습한다.    
+• Ch1. While you're here 에서는 while 문을 학습한다.    
 • while 문은 if 문과 비슷하다.     
 • while 문의 조건절이 True 이면, while 문 내부 구간이 실행 되는 구조이다.    
 • if 문과 다른점은 while 문은 조건절 값이 True 이면, 계속 실행된다.    
-• if 문은 조건절 값이 완료되면 끝난다. (e.g. 3번 실행하라고 하면 3번만 실행하고 종료)    
+• if 문은 조건절 값이 완료되면 끝난다.    
+• e.g. 3번 실행하라고 하면 3번만 실행하고 종료    
 • while 문은 조건절 상태가 Ture(예를 들면, 0 < 5 )가 되면 무한대로 실행한다.
 {: .notice--info}
 
@@ -72,7 +73,7 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 
 
 **설명:** [ Hint ]         
-• 9 까지만 실행되는 조건문을 만든다. ( count < 10 or count <= 9 )
+• 9 까지만 실행되는 조건문을 만든다. ( count < 10 또는 count <= 9 )
 {: .notice--info}
 
 <br>
@@ -94,8 +95,8 @@ while count < 10:
 ```
 
 **설명:** [ Solution ]          
-• if 문은 1번 출력한다.(조건문이 변수 count 가 10보다 작은지만 비교)    
-• while 문은 9번 출력한다.(조건문이 변수 count 가 9 일때 까지, True이다.)
+• if 문은 1번 출력한다.(조건문이 변수 count 가 10 보다 작은지만 비교)    
+• while 문은 9번 출력한다.(조건문이 변수 count 가 9 일때 까지, True 이다.)
 {: .notice--info}
 
 
@@ -121,10 +122,11 @@ Hello, I am a while and count is 9
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>    
+
 ### 2. Condition    
 
-The **condition** is the expression that decides whether the loop is going to continue being executed or not. There are 5 steps to this program:
+The condition is the expression that decides whether the loop is going to continue being executed or not. There are 5 steps to this program:
 
 1. The loop_condition variable is set to True
 
@@ -138,8 +140,8 @@ The **condition** is the expression that decides whether the loop is going to co
 
 
 **설명:** [ Learn ]     
-• Ch2. Condition 에서는 조건절에 대하여 학습한다.    
-• 조건절(loop_condition)은 반복(loop)을 계속할지 그만할지를 결정하는 표현이다.     
+• Ch2. Condition 에서는 조건절을 학습한다.    
+• 조건절(loop_condition)은 반복(loop)을 계속할지 그만 할지를 결정하는 표현이다.     
 • 다음 5단계로 진행된다.     
 • ① 조건절의 변수값을 True 로 설정한다.       
 • ② 조건절의 상태가 True 이면, 반복문 안으로 들어간다.    
@@ -195,7 +197,7 @@ while loop_condition:
 **설명:** [ Solution ]          
 • 변수 loop_condition 을 True 로 설정한다.    
 • 조건문이 True 이기에 while 문에 진입한다.    
-• print "I am a loop" 를 출력한다.    
+• ( print "I am a loop" ) 를 출력한다.    
 • 변수 loop_condition 을 강제로 False로 변경한다.    
 • 다시 while 문의 조건절 loop_condition 이 True 인지 확인한다.    
 • 조건문이 True 이면, while 문의 블럭문이 실행된다.    
@@ -215,7 +217,8 @@ I am a loop
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 3. While you're at it    
 
 Inside a while loop, you can do anything you could do elsewhere, including arithmetic operations. 
@@ -281,10 +284,10 @@ while (num <= 10):  # Fill in the condition
 **설명:** [ Solution ]          
 • 변수 num 에 값 1로 초기화 한다.    
 • while 문에서 조건문 num <= 10 으로 정의하였다.    
-• while 문 조건은 변수 num 이 10 이하 일때까지 실행한다.(True)      
+• while 문 조건은 변수 num 이 10 이하 일때까지 실행한다(True).      
 • while 실행 블럭에서는 num ** 2 하여 제곱을 구하고 출력한다.     
-• 마지막으로 변수 num 을 값 1을 증가시킨다.     
-• 다시, while 조건문에서 변수 num 이 10보다 같거나 작으면 실행블럭이 동작한다.(True)
+• 마지막으로 변수 num 을 값 1을 증가 시킨다.     
+• 다시, while 조건문에서 변수 num 이 10보다 같거나 작으면 실행블럭이 동작한다(True).
 {: .notice--info}
 
 
@@ -310,7 +313,8 @@ while (num <= 10):  # Fill in the condition
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 4. Simple errors    
 
 A common application of a while loop is to check user input to see if it is valid. For example, if you ask the user to enter y or n and they instead enter 7, then you should re-prompt them for input.
@@ -321,8 +325,8 @@ A common application of a while loop is to check user input to see if it is vali
 • Ch4. Simple errors 에서는 연산자 같다( == ), 틀리다( != ) 를 학습한다.    
 • 주로 while 조건문에서 사용한다.   
 • 사용자가 입력한 값이 유효 한지를 체크하는 기능이다.    
-• 예를들면, 당신은 사용자가 'y' or 'n' 을 입력하길 기대하고 있다.    
-• 그런데, 사용자가 '7' 을 입력하면, 당신은 다시 입력하는 단계로 되돌아 갈 것이다. 
+• 예를들면, 당신은 사용자가 y 또는 n 을 입력하길 기대하고 있다.    
+• 그런데, 사용자가 7 을 입력하면, 당신은 다시 입력하는 단계로 되돌아 갈 것이다. 
 {: .notice--info}
 
 
@@ -336,9 +340,9 @@ A common application of a while loop is to check user input to see if it is vali
 
 
 **설명:** [ Instruction ]          
-• Prompt 창에서 입력값이 'y' 또는 'n' 만 입력 되도록 하라.    
+• Prompt 창에서 입력값이 y 또는 n 만 입력 되도록 하라.    
 • while 조건문에서 통제 하도록 하라.    
-• 만약 'y' or 'n' 이외의 값이 입력되면 다시 입력하도록 반복하라.
+• 만약 y 또는 n 이외의 값이 입력되면 다시 입력하도록 반복하라.
 {: .notice--info}
 
 
@@ -352,9 +356,9 @@ A common application of a while loop is to check user input to see if it is vali
 
 **설명:** [ Hint ]         
 • 조건문에 연산자 ( != ) 를 사용한다.   
-• 'y' or 'n' 이외에는 True 가 되지 않도록 한다.    
-• 입력받은 비교 변수가 "y" 와 가 같지 않는지를 비교하는 것은 (e.g. !="y" ) 이다.    
-• 연산자 ( and ) 는 A, B 모두 True 이어야 한다.(e.g. A and B )    
+• y 또는 n 이외에는 True(참) 가 되지 않도록 한다.    
+• 입력받은 비교 변수가 y 와 같지 않는지를 비교하는 것은 (e.g. !="y" ) 이다.    
+• 연산자 ( and ) 는 A, B 모두 True(참) 이어야 한다(e.g. A and B ).
 {: .notice--info}
 
 <br>
@@ -373,9 +377,9 @@ while choice != 'y' and choice != 'n':  # Fill in the condition (before the colo
 
 **설명:** [ Solution ]          
 • 변수 choice 에 입력값을 받아 저장한다.    
-• while 문에서 변수 choice 가 'y' 도 아니고, 'n'도 아니다 를 비교한다.    
-• 조건문이 True 이면, 다시 입력문을 받는다.    
-• 조건문이 False 이면, while 문을 실행하지 않고 빠져나간다.
+• while 문에서 변수 choice 가 y 도 아니고, n 도 아니다 를 비교한다.    
+• 조건문이 True(참) 이면, 다시 입력문을 받는다.    
+• 조건문이 False(거짓) 이면, while 문을 실행하지 않고 빠져나간다.
 {: .notice--info}
 
 
@@ -394,10 +398,11 @@ Sorry, I didn't catch that. Enter again: y
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 5. Infinite loops    
 
-An **infinite loop** is a loop that **never exits**. This can happen for a few reasons:
+An infinite loop is a loop that never exits. This can happen for a few reasons:
 
 1. The loop condition cannot possibly be false (e.g. while 1 != 2)
 
@@ -469,8 +474,8 @@ while count < 10: # Add a colon
 
 **설명:** [ Solution ]          
 • 변수 count 가 0 부터 10 보다 작을때까지 변수 count를 출력하는 프로그램이다.    
-• 변수 count 에 값 1을 증가시켜준다.   
-• 변수 count 가 10 이 되면 while 조건문을 빠져나간다.
+• 변수 count 에 값 1을 증가 시켜준다.   
+• 변수 count 가 10 이 되면 while 조건문을 빠져 나간다.
 {: .notice--info}
 
 
@@ -496,7 +501,8 @@ while count < 10: # Add a colon
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 6. Break    
 
 The **break** is a one-line statement that means "exit the current loop." An alternate way to make our counting loop exit and stop executing is with the `break` statement.
@@ -597,7 +603,8 @@ while True:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 7. While / else    
 
 Something completely different about Python is the `while/else` construction. `while/else` is similar to `if/else`, but there is a difference: the **else** block will execute anytime the loop condition is evaluated to False. This means that it will execute if the loop is never entered or if the loop exits normally. If the loop exits as the result of a break, the else will not be executed.
@@ -628,7 +635,7 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 
 
 **설명:** [ Instruction ]          
-• Run 실행후, 소스가 어떻게 동작되는지를 확인하라.
+• Run 실행후, 소스가 어떻게 동작 되는지를 확인하라.
 {: .notice--info}
 
 
@@ -672,7 +679,7 @@ else:
 **설명:** [ Solution ]          
 • while 문은 변수 count 가 3 보다 작을 때까지 내부블럭이 실행된다.    
 • 변수 count 가 3보다 크면 while 문을 빠져나온다. 그리고 else 문이 실행된다.    
-• else 문의 "You win!" 이 출력된다.
+• else 문의 *You win!* 이 출력된다.
 {: .notice--info}
 
 
@@ -694,7 +701,8 @@ You win!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 8. Your own while / else    
 
 Now you should be able to make a game similar to the one in the last exercise. The code from the last exercise is below:    
@@ -747,9 +755,9 @@ Remember, `raw_input` turns user input into a **string**, so we use `int()` to m
 • 사용자가 계속 질문하는 while 문을 만들어라.    
 • 조건문은 변수 guesses_left > 0 큰 경우다.    
 • Learn 에서 설명한 질문하는 문을 만들어라.        
-• 질문한 값이 맞으면 "You win!" 이라고 출력하고, break 문으로 빠져나온다.        
-• 변수 guess_left 를 값 1 씩 줄여 나간다. (e.g. guess_left -=1 )    
-• else 문을 사용하여 while 문을 빠져나오면 "You lose." 라고 출력한다.    
+• 질문한 값이 맞으면 *You win!* 이라고 출력하고, break 문으로 빠져나온다.        
+• 변수 guess_left 를 값 1 씩 줄여 나간다. (e.g. guess_left -= 1 )    
+• else 문을 사용하여 while 문을 빠져나오면 *You lose.* 라고 출력한다.    
 {: .notice--info}
 
 
@@ -798,30 +806,31 @@ else:
 ```
 
 **설명:** [ Solution ]          
-• 미리 random_number 값을 생성한다.     
+• 미리 변수 random_number 에 임의의 값을 생성한다.     
 • while 문이 True (변수 guess_left > 0) 인경우 진행된다.     
-• Prompt 창에서  "Your guess: " 로 임의의 숫자를 입력 받는다.    
+• Prompt 창에서  Your guess: 로 임의의 숫자를 입력 받는다.    
 • 입력받은 값은 변수 guess 에 저장된다.      
 • 변수 guess 값이 미리 산출한 변수 random_number 과 같은지 비교한다.    
-• 같으면, "You win!" 을 출력한다. 그리고 break 문이 작동되어 loop를 빠져나온다.    
+• 같으면, *You win!* 을 출력한다. 그리고 break 문이 작동되어 loop를 빠져나온다.    
 • 틀리면 변수 guess_left 에 1 을 차감한다. 다시 while 문을 돈다.    
 • 변수 guesses_left 의 값이 0 이 되면    
 • while 문의 조건문은 False 가 된다. 그리고 while 문을 빠져나온다.    
-• 이때, else 문이 실행되고, print "You lose"` 가 출력된다.    
+• 이때, else 문이 실행되고, ( print "You lose" ) 가 출력된다.    
 • 강제로 break 문이 실행되어 while 문을 빠져나오면 else 문이 실행 안된다.    
 • while 문의 조건문이 True 에서 False 로 변경되어 while 문을 빠져나오면 else 문이 실행된다.
 {: .notice--info}
 
 
 
-**결과**
+**결과**    
 `#` case : fail    
 ``` 
 Your guess: 2
 Your guess: 2
 Your guess: 2
 You lose.
-```
+```    
+
 `#` case : correct   
 ```
 Your guess: 2
@@ -837,7 +846,8 @@ You win!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 9. For your health    
 
 An alternative way to loop is the for loop. The syntax is as shown in the code editor. This example means "for each number i in the range 0 - 9, print i".
@@ -846,7 +856,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 **설명:** [ Learn ]          
 • Ch9. For your health 에서는 for 문을 학습한다.    
-• Edit 창에 있는 소스는, 0 부터 9 까지 산출하여 반복적으로 돌면서 산출하는 소스이다.  
+• Editor 화면에 있는 소스는, 0 부터 9 까지 산출하여 반복적으로 돌면서 산출하는 소스이다.  
 {: .notice--info}
 
 
@@ -870,6 +880,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+
 • Make sure to change the number inside of `range`.
 
 
@@ -931,7 +942,8 @@ Counting...
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 10. For your hobbies    
 
 This kind of loop is useful when you want to do something a **certain number of times**, such as append something to the end of a list.
@@ -1028,7 +1040,8 @@ Tell me one of your favorite hobbies: cycle
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 11. For your strings    
 
 Using a for loop, you can print out each individual character in a string.
@@ -1054,7 +1067,7 @@ The example in the editor is almost plain English: "for each character c in thin
 
 
 **설명:** [ Instruction ]          
-• for 문을 추가하여, 변수 word 에 담겨 있는 문자열 "eggs"를 문자 하나씩 출력하라.
+• for 문을 추가하여, 변수 word 에 담겨 있는 문자열 eggs 를 문자 하나씩 출력하라.
 {: .notice--info}
 
 
@@ -1091,7 +1104,7 @@ for character in word:
 ```
 
 **설명:** [ Solution ]          
-• 변수 word 에 있는 문자열 "eggs!" 를 알파벳 하나씩 읽어서 출력한다.     
+• 변수 word 에 있는 문자열 *eggs!* 를 알파벳 하나씩 읽어서 출력한다.     
 • 문자열도 문자별 index를 가지고 있다. 
 {: .notice--info}
 
@@ -1118,7 +1131,8 @@ s
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 12. For your A    
 
 String manipulation is useful in for loops if you want to modify some content in a string.    
@@ -1135,8 +1149,8 @@ The `,` character after our print statement means that our next print statement 
 
 **설명:** [ Learn ]          
 • Ch12. For your A 에서는 문자열의 문자를 비교하는 방법을 학습한다.    
-• for 문은 문자열 조작을 하기에 편리하다.    
-• 예제에서 "Marble"가 M a r b l e 로 출력된다.    
+• for 문은 문자열을 조작하기에 편리하다.    
+• 예제에서 Marble 가 M a r b l e 로 출력된다.    
 • 문자열이 새로운 줄에서 출력되는 것이 아니라,     
 • 같은 라인에서 출력되게는 다음과 같이 한다.    
 • e.g. print char ,   --> ( , ) comma 를 해준다.  
@@ -1165,9 +1179,9 @@ The `,` character after our print statement means that our next print statement 
 
 
 **설명:** [ Hint ]          
-• 문자열 중 "A" 를 걸러내자.         
+• 문자열 중 A 를 걸러내자.         
 • 변수 phrase 에 들어있는 문자열을 이용한다.    
-• 문자열 중 "A" or "a"는 해당 문자를 "X"로 출력되도로고 수정한다.    
+• 문자열 중 A 또는 a 는 해당 문자를 X 로 출력 되도록 수정한다.    
 • ( , ) 를 사용하여 한 줄에 출력하라.        
 • 그 외 문자는 는 ( , ) 를 사용하여, 문자열 그대로 출력하라. 
 {: .notice--info}
@@ -1190,7 +1204,7 @@ if c == "A" or c == "a":
 
 **설명:** [ Hint ]          
 • for 문을 돌면서 문자를 하나씩 추출한다.   
-• 해당 문자가 "A" or "a"이면 문자열 "X" 를 출력한다. 
+• 해당 문자가 A 또는 a 이면 문자열 X 를 출력한다. 
 {: .notice--info}
 
 <br>
@@ -1215,9 +1229,9 @@ print
 ```
 
 **설명:** [ Solution ]      
-• 변수 phrase 에 문자열 "A bird in the hand..." 가 저장되어 있다.    
+• 변수 phrase 에 문자열 *A bird in the hand...* 가 저장되어 있다.    
 • for 문으로 변수 phrase 의 문자를 하나씩 추출하여 변수 char 에 저장한다.    
-• 변수 char 에 "A" or "a" 가 들어 있으면 문자 "X"를 출력한다.    
+• 변수 char 에 A 또는 a 가 들어 있으면 문자 X 를 출력한다.    
 • 그렇지 않으면 변수 char 를 출력한다.    
 • 출력할때, ( , )를 사용하여 한줄에 출력된다. 
 {: .notice--info}
@@ -1236,12 +1250,13 @@ X   b i r d   i n   t h e   h X n d . . .
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 13. For your lists    
 
 Perhaps the most useful (and most common) use of for loops is to go through a list.
 
-On each iteration, the variable `num` will be the next value in the list. So, the first time through, it will be **7**, the second time it will be **9**, then **12, 54, 99,** and then the loop will exit when there are no more values in the list.
+On each iteration, the variable `num` will be the next value in the list. So, the first time through, it will be 7, the second time it will be 9, then 12, 54, 99, and then the loop will exit when there are no more values in the list.
 
  
 
@@ -1261,7 +1276,7 @@ On each iteration, the variable `num` will be the next value in the list. So, th
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Write a **second for loop** that goes through the **numbers list** and **prints** each **element squared**, each on its own line.
+* Write a second for loop that goes through the numbers list and prints each element squared, each on its own line.
 
 
 
@@ -1276,7 +1291,8 @@ On each iteration, the variable `num` will be the next value in the list. So, th
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Use the `**` operator for exponentiation. The rest of the loop should be very similar to the first one.
+* Use the `**` operator for exponentiation.    
+* The rest of the loop should be very similar to the first one.
 
 
 **설명:** [ Hint ]          
@@ -1328,18 +1344,21 @@ This list contains:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>    
+
 ### 14. Looping over a dictionary    
 
 You may be wondering how looping over a dictionary would work. Would you get the key or the value?
 
-The short answer is: you get the key which you can use to get the value.
+The short answer is: you get the key which you can use to get the value.    
+
 ```python
 d = {'x': 9, 'y': 10, 'z': 20}
 for key in d:
   if d[key] == 10:
     print "This dictionary has the value 10!"
 ```    
+
 1. First, we create a dictionary with strings as the keys and numbers as the values.
 2. Then, we iterate through the dictionary, each time storing the key in key.
 3. Next, we check if that key's value is equal to 10.
@@ -1355,7 +1374,7 @@ for key in d:
 • 먼저, key와 value로 구성된 딕셔너리를 만든다.      
 • 딕셔너리의 key를 반복적으로 꺼낸다.    
 • 꺼낸 key의 value 값이 10인지를 비교한다.    
-• value 값이 10이면 "This dictionary has the value 10!"    
+• value 값이 10이면 *This dictionary has the value 10!* 을 출력한다.
 {: .notice--info}
 
 
@@ -1410,7 +1429,7 @@ for key in d:
 ```
 
 **설명:** [ Solution ]          
-• key 는 'a' 이고, 그 값은 d[key] 로 나타 낼수 있다.  
+• key 는 문자열 'a' 이고, 그 값은 d[key] 로 나타낼수 있다.  
 {: .notice--info}
 
 
@@ -1428,7 +1447,8 @@ b berry
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 15. Counting as you go    
 
 A weakness of using this for-each style of iteration is that **you don't know the index** of the thing you're looking at. Generally this isn't an issue, but at times it is useful to know how far into the list you are. Thankfully the built-in `enumerate` function helps with this.
@@ -1439,8 +1459,8 @@ A weakness of using this for-each style of iteration is that **you don't know th
 
 **설명:** [ Learn ]       
 • Ch15. Counting as you go 에서는 리스트의 인덱스 값을 관리하는 법을 학습한다.     
-• for 문을 돌려 리스트의 항목을 뽑아 내더라도, 그 뽑아낸 값의 인덱스는 알려주지 않는다.    
-• 다만 그 값만 뽑아 내 준다.    
+• for 문을 돌려 리스트의 항목을 추출하더라도, 그 항목의 인덱스는 알려주지 않는다.    
+• 다만 그 값만 추출한다.    
 • 이러한 약점은 함수 enumerate 를 사용하면 해당 값의 인덱스 값을 알수 있다. 
 {: .notice--info}
 
@@ -1509,7 +1529,8 @@ Your choices are:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 16. Multiple lists    
 
 It's also common to need to iterate over **two lists at once**. This is where the built-in `zip` function comes in handy.
@@ -1596,7 +1617,8 @@ for a, b in zip(list_a, list_b):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 17. For / else    
 
 Just like with `while`, `for` loops may have an else associated with them.
@@ -1660,8 +1682,8 @@ else:
 ```
 
 **설명:** [ Solution ]          
-• for 문을 돌면서, 리스트 fruits 의 값이 "tomato" 이면,    
-• "A tomato is not a fruit!" 가 출력되고 break 가 실행된다.    
+• for 문을 돌면서, 리스트 fruits 의 값이 *tomato* 이면,    
+• *A tomato is not a fruit!* 가 출력되고 break 가 실행된다.    
 • 이 경우는 else 가 실행되지 않는다.    
 • 만약에 for 문에서 break 가 안걸리고 정상적으로 다 돌게 되면,    
 • else 문이 마지막에 실행된다.
@@ -1709,7 +1731,7 @@ As mentioned, the `else` block won't run in this case, since break executes when
 
 **설명:** [ Learn ]          
 • Ch18. Change it up 에서는 for/else 를 계속 학습한다.    
-• break 문이 실행되면(즉, 'tomato'가 있으면),    
+• break 문이 실행되면(즉, *tomato* 가 있으면),    
 • for/else 문의 else 문은 실행되지 않는다. 
 {: .notice--info}
 
@@ -1738,8 +1760,8 @@ As mentioned, the `else` block won't run in this case, since break executes when
 
 **설명:** [ Hint ]          
 • else 문이 실행되게 하려면 다음과 같이 하면 된다.    
-• 리스트 fruits 의 내용이 'tomato'가 없게 하거나,    
-• if 문에서 'tomato'가 일치 하지 않게 만들어, break 문이 작동하지 않게 만들면,    
+• 리스트 fruits 의 내용이 *tomato* 가 없게 하거나,    
+• if 문에서 *tomato* 가 일치 하지 않게 만들어, break 문이 작동하지 않게 만들면,    
 • else 문이 실행된다.
 {: .notice--info}
 
@@ -1788,7 +1810,8 @@ A fine selection of fruits!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">LOOPS</font> 
+<font size="3"  face="돋움">LOOPS</font>     
+
 ### 19. Create your own    
 
 To wrap up this lesson, let's create our own `for/else` statement from scratch.
@@ -1848,7 +1871,7 @@ else:
 
 **설명:** [ Solution ]          
 • 리스트 test 에 3개의 값을 넣고, for/else 문을 돌린다.     
-• 변수 x 에 리스트이 값을 하나씩 추출하여, 출력한다.    
+• 변수 x 에 리스트 test의 값을 하나씩 추출하여, 출력한다.    
 • for 문이 다 돌고 나면, 마지막에 else 문이 실행된다.
 {: .notice--info}
 

@@ -43,10 +43,10 @@ On the right, you'll see the `grades` listed (see what I did there). The data is
 **설명:** [ Learn ]    
 • Ch1. Let's look at those grades! 에서는 통계 프로그램을 학습한다.    
 • 통계를 계산하는 프로그램을 만든다.     
-• 이것은 당신이 계산기를 두드리거나, 수작업으로 수를 계산하는 일은 필요없다.    
-• 당신은 숫자를 입력만 하면, 우리 프로그램이 모든것을 처리 할 것이다.    
+• 이 프로그램을 사용하면, 계산기를 두드리거나, 수작업으로 계산하는 일은 없다.    
+• 당신은 숫자를 입력만 하면, 이 프로그램이 모든것을 처리 할 것이다.    
 • 미니 프로젝트를 통하여 우리는 함수, 리스트, 수학적 공식을 프로그램화 하는것을 배운다.    
-• 우리 프로그램을 통하여 점수를 계산하기 위해선, 리스트 항목들이 필요하다.    
+• 이 프로그램을 통하여 점수를 계산하기 위해선, 리스트 항목들이 필요하다.    
 • Editor 화면에서 학생들의 개인적인 점수들이 리스트에 있는것을 볼수 있다.
 {: .notice--info}
 
@@ -268,7 +268,7 @@ print "Let's compute some stats!"
 ```
 
 **설명:** [ Solution ]      
-• "Let's compute some stats!" 이 출력된다.
+• *Let's compute some stats!* 이 출력된다.
 {: .notice--info}
 
 
@@ -300,7 +300,7 @@ Computing the sum manually involves computing a rolling sum. As you loop through
 
 
 **설명:** [ Learn ]          
-• Ch4. The sum of scores 에서는 성적 출력과 전체합을 계산해주는 함수를 학습한다.    
+• Ch4. The sum of scores 에서는 성적 출력과 전체합을 계산하는 함수를 학습한다.    
 • 이 두 함수는 평균 점수를 계산할때 필요하며, 아주 유용하다.    
 • Python 함수 sum() 을 사용하면 간단하다.   
 • 하지만, 우리는 수동 으로 sum(합)을 계산하는 함수를 만든다.   

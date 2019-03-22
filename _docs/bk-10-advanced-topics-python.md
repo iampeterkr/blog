@@ -322,7 +322,7 @@ Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여 lis
 
 
 **설명:** [ Instruction ]    
-① edit 창에 있는 소스를 이해하고 실행시켜 보아라. 
+① editor 화면에 있는 소스를 이해하고 실행시켜 보아라. 
 {: .notice--info}
 
 
@@ -587,7 +587,7 @@ print cubes_by_four
 
 
 **설명:** [ Instruction ]    
-① Edit 창에서 list comprehension을 돌려 보자. 어떤 값이 예상되는가? 결과값과 당신이 예상한 값이 맞는지 확인해 보라. 
+① Editor 화면에서 list comprehension을 돌려 보자. 어떤 값이 예상되는가? 결과값과 당신이 예상한 값이 맞는지 확인해 보라. 
 {: .notice--info}
 
 
@@ -772,7 +772,7 @@ Make sure to reverse the list in the editor by passing your list slice a negativ
 
 **설명:** [ Instruction ]    
 ① 리스트 변수 `backwards`를 만들어서, `my_list`의 값을 역순으로 `backwards`에 저장하라.    
-• edit 창에서, list slice의 옵션(stride)를 사용하여 역순으로 만들어라.
+• Editor 화면에서, list slice의 옵션(stride)를 사용하여 역순으로 만들어라.
 {: .notice--info}
 
 
@@ -1026,7 +1026,7 @@ When we pass the lambda to filter, filter uses the lambda to determine what to f
 
 
 **설명:** [ Instruction ]    
-① Edit 창에 있는 소스를 실행시켜 어떻게 처리 되는지 알아보자.
+① Editor 화면에 있는 소스를 실행시켜 어떻게 처리 되는지 알아보자.
 {: .notice--info}
 
 
@@ -1425,7 +1425,7 @@ Use list slicing to extract the message and save it to a variable called message
 
 
 **설명:** [ Instruction ]    
-① edit 창에 있는 문자열을 다음 2가지 문제가 있다.         
+① Eeditor 화면에 있는 문자열을 다음 2가지 문제가 있다.         
 • 글자를 거꾸로 읽어야 한다.    
 • 우리가 원하지 않는 문자들이 섞여 있다.    
 list slicing을 사용하여 변수 `message`에 원하는 문자만 저장해라.

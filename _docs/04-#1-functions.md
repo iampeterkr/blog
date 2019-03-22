@@ -1494,7 +1494,7 @@ Python will output:
 
 **설명:** [ Instruction ]    
 • 함수 type() 을 사용하여라.     
-• 입력된 argumetns 값이 interger, float, string type 이 출력 되도록 하라.
+• 입력된 argumetns 값이 integer, float, string type 이 출력 되도록 하라.
 {: .notice--info}
 
 
