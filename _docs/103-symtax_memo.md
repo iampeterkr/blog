@@ -2,7 +2,7 @@
 # layout : rchive
 title: ""
 permalink: /--/
-excerpt: "Syntax Memo."
+excerpt: ""
 last_modified_at: 2019-01-21T09:00:00-04:00
 redirect_from:
   - /theme-setup/
@@ -14,19 +14,7 @@ toc: true
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 1. tupple
-
-
-* my_dic.items() : 딕셔너리의 key/value를 리스트 형식으로 출력(단, 튜플 형태임, () 모양 안에 있는 값은 변경할수 없음).
-* my_dic.keys()  : 딕셔너리의 key만 리스트로 출력
-* my_dic.values() : 딕셔너리의 value만 리스트로 출력
-
-[ list comprehension ]
-* list = [ x*2 for i in aa_list if x % 4 ==0 ]
-
-
-[ list slicing ]
-* list[start:end:stride]
+### 1. 
 
 
 

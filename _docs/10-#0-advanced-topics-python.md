@@ -118,7 +118,8 @@ print my_dict.items()
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 2. keys() and values()    
 
 While `.items()` returns an array of **tuples** with each tuple consisting of a key/value pair from the dictionary:
@@ -130,7 +131,7 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 
 **설명:** [ Learn ]     
-• 2. Chkeys() and values() 에서는 딕셔너리의 메서드 및 튜플을 학습한다.    
+• Ch2. Chkeys() and values() 에서는 딕셔너리의 메서드 및 튜플을 학습한다.    
 • 메서드 .items() 는 key/value 로 구성된 각각의 튜플 형태의 배열로 반환된다.    
 • 메서드 .keys() 는 key 값을 리스트 형태로 반환한다.        
 • 메서드 .values() 는 value 값을 리스트 형태로 반환한다.    
@@ -160,6 +161,7 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * For instance, your call to `my_dict.keys()` might look like:    
+
 ```python
 print my_dict.keys()
 ```
@@ -204,7 +206,8 @@ print my_dict.values()
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 3. The 'in' Operator    
 
 For iterating over lists, tuples, dictionaries, and strings, Python also includes a special keyword: `in`. You can use `in` very intuitively, like so:
@@ -238,9 +241,9 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 • - 튜플(tuple),    
 • - 딕셔너리(dictionarie),    
 • - 문자열(string)    
-• 함수 range(5) 는 숫자 0,1,2,3,4 를 생성해 준다.    
+• 함수 range(5) 는 숫자 0, 1, 2, 3, 4 를 생성해 준다.    
 • 이를 한줄로 출력 할려면, ( , ) 를 사용한다.     
-• 문자열 "Erir" 를 한줄출력 ( , ) 를 사용하여, "E r i c" 로 출력한다.    
+• 문자열 *Erir* 를 한줄출력 ( , ) 를 사용하여, "E r i c" 로 출력한다.    
 • 딕셔너리는 순서가 보장 안된다는것을 잊지 말라.
 {: .notice--info}
 
@@ -267,6 +270,7 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * You'll want to do something like this:    
+
 ```python
 for key in some_dict:
   print key, some_dict[key]
@@ -316,7 +320,8 @@ occupation Dentist
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 4. Building Lists    
 
 Let's say you wanted to build a list of the numbers from 0 to 50 (inclusive). We could do this pretty easily:
@@ -333,7 +338,7 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 • 0 ~ 50 까지의 정수를 리스트에 저장하는 법은 다음과 같다.    
 • e.g. my_list = range(51)     
 • 만약, 0부터 50사이의 짝수만 저장하고 싶다면?     
-• Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여,       
+• Python 에서는 우리가 익히 잘 사용하는 for / if 문을 사용하여,       
 • 리스트 컴프레션(list comprehension)을 기능을 사용하면 쉽게 만들수 있다.
 {: .notice--info}
 
@@ -348,7 +353,7 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 
 
 **설명:** [ Instruction ]    
-• Editor 화면에 있는 소스를 이해하고 실행시켜라. 
+• Editor 화면에 있는 소스를 이해하고 실행하라. 
 {: .notice--info}
 
 
@@ -397,7 +402,8 @@ print evens_to_50
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 5. List Comprehension Syntax    
 
 Here's a simple example of list comprehension syntax:    
@@ -424,7 +430,7 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 • 예제 1) new_list = [ x for x in range(1, 6)]    
 • 예제 1 은 맨 앞 x 에 for 문 결과값이 저장된다.    
 • 예제 2) doubles = [x * 2 for x in range(1, 6)]    
-• 예제 2 는 맨 앞 x에 for문 결과값이 저장되고, 다시 x 값에 곱하기 2 한 값이 저장된다.    
+• 예제 2 는 맨 앞 x 에 for 문 결과값이 저장되고, 다시 x 값에 곱하기 2 한 값이 저장된다.    
 • 예제 3) doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]    
 • 예제 3은 for 문과 if 문이 실행되어 만족한 x 값 3이 맨앞 x 변수에 저장된다.    
 • 그리고 그 값에 x 에 곱하기 2 한 값이 리스트에 저장된다.
@@ -444,7 +450,7 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 
 **설명:** [ Instruction ]    
 • 리스트 even_squares 를 작성하라.         
-• 리스트 even_squares 는 1 부터 11사이의 숫자중 짝수의 제곱을 저장하는 리스트이다.
+• 리스트 even_squares 는 1 부터 11 사이의 숫자중 짝수의 제곱을 저장하는 리스트이다.
 {: .notice--info}
 
 
@@ -453,7 +459,8 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* You can use `x ** 2` to square a number, and `x % 2 == 0` to check if it's even.    
+* You can use `x ** 2` to square a number, and `x % 2 == 0` to check if it's even.      
+
 ```python
 # from 1 to 10
 range(1,11) 
@@ -486,7 +493,7 @@ print even_squares
 • for 문에서  1(포함) 부터 12(미포함) 까지 산출하고, 변수 x 에 저장한다.    
 • if 문에서 변수 x 를 % 2 로 나누어서 나머지가 0 인지 확인한다.    
 • 맨 앞 변수 x 에 나머지가 0 ( 즉, 짝수 ) 인 값을 저장한다.    
-• 변수 x 값을 제곱( e.g. 'x ** 2' )한다.    
+• 변수 x 값을 제곱( e.g. x ** 2 )한다.    
 • 리스트 even_squares 에 저장한다.     
 • 리스트 even_squares 를 출력한다. 
 {: .notice--info}
@@ -504,7 +511,8 @@ print even_squares
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 6. Now You Try!    
 
 Great work! Now it's time for you to create a list comprehension all on your own.    
@@ -582,13 +590,13 @@ print cubes_by_four
 **설명:** [ Solution ]     
 • 리스트 컴프레션을 사용하여 리스트 cubes_by_four를 작성한다.    
 • for 문에서, 1 부터 10 까지 숫자를 산출하여, 변수 x 에 저장한다.    
-• if 문에서, x 값을 세제곱한다. 그리고 4 로 나누어 떨어지는 비교한다.    
+• if 문에서, x 값을 세제곱한다. 그리고 4 로 나누어 떨어지는지를 비교한다.    
 • if 문에서 True 인 x 값을, 맨앞 변수 x 에 저장한다.    
 • 맨앞 변수 x 를 세제곱한다.    
 • 세제곱한 변수 x 를 리스트 cubes_by_four 에 저장한다.    
-• e.g. 숫자 8 은 (8%4==0)를 충족하고, x=2일때, (2 ** 3) 도 충족한다.      
-• e.g. 숫자 16 은 (16%4==0)은 충족하지만 ( x ** 3 = 16 )은 충족하지 않는다.    
-• e.g. 숫자 64 는 (64%4==0)을 충족하고, x=4일때, (4 ** 3)도 충족한다. 
+• e.g. 숫자 8 은 (8 % 4 == 0)를 충족하고, x=2일때, (2 ** 3) 도 충족한다.      
+• e.g. 숫자 16 은 (16 % 4 == 0)은 충족하지만 (x ** 3 = 16)은 충족하지 않는다.    
+• e.g. 숫자 64 는 (64 % 4 == 0)을 충족하고, x=4일때, (4 ** 3)도 충족한다. 
 {: .notice--info}
 
 
@@ -604,7 +612,8 @@ print cubes_by_four
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>    
+
 ### 7. List Slicing Syntax    
 
 Sometimes we only want part of a Python list. Maybe we only want the first few elements; maybe we only want the last few. Maybe we want every other element!
@@ -645,7 +654,7 @@ Where start describes where the slice starts (inclusive), end is where it ends (
 
 
 **설명:** [ Instruction ]    
-• Editor 화면에 작성되어진 list comprehension을 돌려 보자.    
+• Editor 화면에 작성되어진 list comprehension을 실행해 보자.    
 • 어떤 값이 예상되는가?     
 • 결과값과 당신이 예상한 값이 맞는지 확인하라. 
 {: .notice--info}
@@ -702,7 +711,8 @@ print l[2:9:2]
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 8. Omitting Indices    
 
 If you don't pass a particular index to the list slice, Python will pick a default.    
@@ -792,15 +802,15 @@ print my_list[::2]
 
 **설명:** [ Solution ]     
 • 1부터 10 까지의 정수를 생성한다.    
-• 리스트 my_list 에 [ 1,2,3,4,5,6,7,8,9,10 ] 를 저장한다.    
+• 리스트 my_list 에 [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] 를 저장한다.    
 • 리스트 my_list[::2] 를 출력한다.    
 • 출력 조건은 다음과 같다.    
 • index 처음(0)부터 끝(9)까지 추출한다.    
 • 첫번째(index : 0)는 포함,    
 • 마지막은(index : 10) 미포함.    
 • 옵션은 1칸씩 건너뛴다.     
-• e.g. my_list=[1,2,3,4,5,6,7,8,9,10]    
-• e.g. index -> 0,1,2,3,4,5,6,7,8, 9, 10(Null) 
+• e.g. my_list=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]    
+• e.g. index -> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10(Null) 
 {: .notice--info}
 
 
@@ -816,7 +826,8 @@ print my_list[::2]
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 9. Reversing a List    
 
 We have seen that a **positive stride** progresses through the list from left to right.
@@ -908,7 +919,8 @@ backwards = my_list[::-1]
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 10. Stride Length    
 
 A positive stride length traverses the list from left to right, and a negative one traverses the list from right to left.
@@ -998,7 +1010,8 @@ print backwards_by_tens
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 11. Practice Makes Perfect    
 
 Great work! See? This list slicing business is pretty straightforward.
@@ -1087,7 +1100,8 @@ middle_third = to_21[7:14]
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 12. Anonymous Functions    
 
 One of the more powerful aspects of Python is that it allows for a style of programming called **functional programming**, which means that you're allowed to pass functions around just as if they were variables or values. Sometimes we take this for granted, but not all languages allow this!
@@ -1181,7 +1195,8 @@ print filter(lambda x: x % 3 == 0, my_list)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 13. Lambda Syntax    
 
 Lambda functions are defined using the following syntax:    
@@ -1271,7 +1286,8 @@ print filter(lambda x: x == "Python", languages)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 14. Try It!    
 
 All right! Time to test out `filter()` and `lambda` expressions.    
@@ -1366,7 +1382,8 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 15. Iterating Over Dictionaries    
 
 First, let's review iterating over a `dict`.
@@ -1532,7 +1549,8 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 17. List Slicing    
 
 Great! Next up: list slicing.    
@@ -1549,10 +1567,10 @@ You can think of a Python string as a list of characters.
 **설명:** [ Learn ]     
 • Ch17. List Slicing 에서는 리스트 슬라이싱을 집중 학습한다.    
 • List slicing 을 복습해 보자.    
-• 변수 str 의 문자열 "ABCDEFGHIJ" 를 list slicing 으로 잘라내라.    
+• 변수 str 의 문자열 "A B C D E F G H I J" 를 list slicing 으로 잘라내라.    
 • 리스트 슬라이싱 조건은 다음과 같다.    
 • start = 1(포함),  end = 6(미포함),  stride = 2(옵션)    
-• str[1:6:2] 이다.     
+• str[1 : 6 : 2] 이다.     
 {: .notice--info}
 
 
@@ -1636,7 +1654,8 @@ I am the secret message!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
+<font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
+
 ### 18. Lambda Expressions    
 
 Last but not least, let's look over some `lambdas`.    

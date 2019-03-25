@@ -102,7 +102,7 @@ meal_with_tip = tip(meal_with_tax)
 **설명:** [ Solution ]     
 • 변수 meal_cost 에 100 을 대입한다.    
 • 함수 tax() 에 변수 meal_cost 를 대입하여 호출한다.    
-• 변수 meal_with_tex 에 함수 tax() 를 호출한 결과값을 저장한다.    
+• 변수 meal_with_tax 에 함수 tax() 를 호출한 결과값을 저장한다.    
 • 함수 tip() 에 변수 meal_with_tax 를 대입하여 호출한다.    
 • 변수 meal_with_tip 에 함수 tip() 호출한 결과값을 저장한다.
 {: .notice--info}

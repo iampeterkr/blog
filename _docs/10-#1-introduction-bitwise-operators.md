@@ -90,7 +90,8 @@ print ~88     # Bitwise NOT
 
 **설명:** [ Solution ]     
 • Bit 연산자는 6 종류가 있다.     
-• 그런데, 어떻게 계산하는지 잘 모르겠다. 다음장 부터 차근차근 학습해 보자.    
+• 그런데, 어떻게 계산하는지 잘 이해가 되지 않을 것이다.    
+• 다음장 부터 차근차근 학습하니, 두려워 말자.        
 • 단, bit 연산자는 6 종류가 있다는것만 기억하고 있자.
 {: .notice--info}
 
@@ -266,7 +267,7 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 **설명:** [ Instruction ]    
 • Editor 화면에서 변수 twelve 에 값을 채워 넣어라.    
-• 2 진수 형식은 ( 0bxx ) 이다. 
+• 2 진수 형식은 ( 0bxxx ) 이다. 
 {: .notice--info}
 
 
@@ -669,7 +670,7 @@ which equals two.
 
 **설명:** [ Instruction ]    
 • 함수 bin() 를 사용하여 2 진수 ( 0b110 & 0b101 ) 을 계산후 출력하라.         
-• 출력 결과가 어떻게 되는지 확안하라.
+• 출력 결과가 어떻게 되는지 확인하라.
 {: .notice--info}
 
 
@@ -743,8 +744,8 @@ Meaning
 
 
 **설명:** [ Learn ]     
-• Ch8. A BIT of This OR That  에선ㄴ OR 비트 연산을 학습한다.    
-• OR ( | ) 연산자는 두수 a, b 를 비교하여, 비트값이 하나라도 1이면 값 1 을 반환한다.    
+• Ch8. A BIT of This OR That 에서는 OR 비트 연산을 학습한다.    
+• OR ( | ) 연산자는 두수 a, b 를 비교하여, 비트값이 하나라도 1 이면 값 1 을 반환한다.    
 • 값 a, b 모두 0 이면 0 을 반환한다. 
 {: .notice--info}
 
@@ -790,7 +791,7 @@ print bin(0b1110 | 0b101)
 
 **설명:** [ Solution ]     
 • 0b1110 과 0b101을 OR ( | ) 연산자로 계산한다.    
-• 0b1110 | 0b101 계산하면 0b1011이 된다.    
+• ( 0b1110 | 0b101 ) 을 계산하면 0b1011이 된다.    
 • 그 결과값을 2진수 함수 bin() 을 호출후 출력한다.
 {: .notice--info}
 
@@ -880,7 +881,7 @@ print bin(0b1110 ^ 0b101)
 
 **설명:** [ Solution ]     
 • 0b1110 과 0b101을 XOR( ^ ) 연산자를 하면, 같은 자리의 숫자가 같으면 0을 반환한다.   
-• 0b1110 ^ 0b101 계산하면 0b1011 이 된다.     
+• ( 0b1110 ^ 0b101 ) 을 계산하면 0b1011 이 된다.     
 • 그 결과값을 2진수 함수 bin() 을 사용하여 출력한다.
 {: .notice--info}
 
@@ -907,7 +908,7 @@ And with that, you've seen all of the basic bitwise operators! We'll see what we
 
 
 **설명:** [ Learn ]     
-• Ch10. See? This is NOT That Hard! 에서는 Not 비트 연산을 학습한다.       
+• Ch10. See? This is NOT That Hard! 에서는 NOT 비트 연산을 학습한다.       
 • NOT ( ~ )은 반대 값을 출력한다.    
 • 0 은 1 을 출력하고, 1 은 0 을 출력한다.  
 {: .notice--info}
@@ -923,7 +924,7 @@ And with that, you've seen all of the basic bitwise operators! We'll see what we
 
 
 **설명:** [ Instruction ]    
-• 소스를 실행하여 어떻게 출력되는지 살펴본다.   
+• 소스를 실행후 어떻게 출력되는지 살펴본다.   
 {: .notice--info}
 
 
@@ -1003,14 +1004,14 @@ In the example above, we want to see if the third bit from the right is on.
 
 
 **설명:** [ Learn ]     
-• Ch11. The Man Behind the Bit Mask 에서는 비트 매스크를 학습한다.    
+• Ch11. The Man Behind the Bit Mask 에서는 비트 Mask를 학습한다.    
 • Bit mask는 bit 단위 연산을 돕기 위한 단순한 변수이다.     
-• Bit mask는 특정 bit의 값을 활성화 하기 하는데 도움을 준다.    
-• 우리는 bit 가 1이면 On(켜짐)이라 하고, 0이면 Off(꺼짐)이라 표현한다.    
-• 특정 자리의 bit만을 On(켜짐)하기 위해서 사용되는 것을 bit mask 라 한다.    
-• 변수 num 의 3번째 bit 만을 On(1)위해서 사용되는 것을 bit mask라 한다.    
-• 예제에서, 변수 num & mask ` 한 값이 0보다 클려면, mask 값이 0b0100이어야 한다.    
-• 변수 desired  가 0 보다 크므로 "Bit was on" 출력된다.
+• Bit mask는 특정 bit의 값을 활성화 하는데 도움을 준다.    
+• 우리는 일잔적으로 bit 가 1이면 On(켜짐)이라 하고, 0이면 Off(꺼짐)이라 표현한다.    
+• 특정 자리의 bit 만을 On(켜짐)하기 위해서 사용되는 것을 bit mask 라 한다.    
+• 변수 num 의 3번째 bit 만을 On(1)하기 위해서 사용되는 것을 bit mask라 한다.    
+• 예제에서, 변수( num & mask )한 값이 0보다 클려면, mask 값이 0b0100이어야 한다.    
+• 변수 desired 가 0 보다 크므로 "Bit was on" 출력된다.
 {: .notice--info}
 
 
@@ -1080,13 +1081,14 @@ def check_bit4(input):
 ```
 
 **설명:** [ Solution ]     
-• 변수 'mask = 0b1000' 4번째 bit 만 1 인것을 만든다.    
+• 변수 ( mask = 0b1000 ) 의 4번째 bit 만 1 인것을 만든다.    
 • 입력받은 input 과 mask 값을 AND 연산을 한다.    
 • mask 가 4번째 bit 가 1 인 경우에만 정수값 8(0b1000)이상이 생성된다.    
 • 그 결과값을 desired 에 저장한다.   
 • desired 가 0보다 큰 경우(4번째 bit가 1 인 경우) on 을 반환한다.     
 • desired 가 0보다 작은 경우 off 를 반환한다.    
-• print check_bit4(0b1010) 을 입력값이 정상적으로 실행되는지 확인한다.
+• 다음 예제와 같이 실행하여 입력값이 정상적으로 실행되는지 확인한다.    
+• e.g. print check_bit4(0b1010)
 {: .notice--info}
 
 
