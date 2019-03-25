@@ -3,7 +3,7 @@
 title: "Functions"
 permalink: /functions/
 excerpt: "We learn about Functions Syntax."
-last_modified_at: 2018-12-04T09:00:00-04:00
+# last_modified_at: 2018-12-04T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true

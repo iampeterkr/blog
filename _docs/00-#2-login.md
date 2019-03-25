@@ -3,7 +3,7 @@
 title: "LogIn"
 permalink: /login/
 excerpt: "Shows that How to LogIn to Codecademy.com "
-last_modified_at: 2018-11-16T09:00:00-04:00
+# last_modified_at: 2018-11-16T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 # On this page disable

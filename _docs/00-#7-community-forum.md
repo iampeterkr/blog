@@ -3,7 +3,7 @@
 title: "Community and Forums"
 permalink: /community-forums/
 excerpt: "Explaining Community and Forums."
-last_modified_at: 2018-11-17T09:00:00-04:00
+# last_modified_at: 2018-11-17T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 # On this page disable

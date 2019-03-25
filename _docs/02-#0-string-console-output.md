@@ -3,7 +3,7 @@
 title: "String & Console Output"
 permalink: /string-console-output/
 excerpt: "We learn about String, Console, and Output Syntax."
-last_modified_at: 2019-01-30T09:00:00-04:00
+# last_modified_at: 2019-01-30T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true

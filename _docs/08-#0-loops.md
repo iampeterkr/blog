@@ -3,7 +3,7 @@
 title: "Loops"
 permalink: /loops/
 excerpt: "We learn about loops Syntax."
-last_modified_at: 2019-02-20T09:00:00-04:00
+# last_modified_at: 2019-02-20T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true

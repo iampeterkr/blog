@@ -3,7 +3,7 @@
 title: "Lists and Functions"
 permalink: /lists-functions/
 excerpt: "We learn about lists and functions."
-last_modified_at: 2019-02-18T09:00:00-04:00
+# last_modified_at: 2019-02-18T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true

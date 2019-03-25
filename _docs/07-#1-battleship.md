@@ -3,7 +3,7 @@
 title: "Battleship!"
 permalink: /battleship/
 excerpt: "Let's practice what we have learned so far."
-last_modified_at: 2019-02-19T09:00:00-04:00
+# last_modified_at: 2019-02-19T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true

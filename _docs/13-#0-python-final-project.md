@@ -3,7 +3,7 @@
 title: "PYTHON FINAL PROJECT"
 permalink: /python-final-project/
 excerpt: "We have finished the python syntax learning project."
-last_modified_at: 2019-01-28T09:00:00-04:00
+# last_modified_at: 2019-01-28T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: false

@@ -3,7 +3,7 @@
 title: "Practice Makes Perfect"
 permalink: /practice-makes-perfect/
 excerpt: "We practice about loop."
-last_modified_at: 2019-01-15T09:00:00-04:00
+# last_modified_at: 2019-01-15T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true

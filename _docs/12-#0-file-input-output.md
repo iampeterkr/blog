@@ -3,7 +3,7 @@
 title: "File Input/Output"
 permalink: /file-input-output/
 excerpt: "We learn about File input/output Syntax."
-last_modified_at: 2019-03-05T09:00:00-04:00
+# last_modified_at: 2019-03-05T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
