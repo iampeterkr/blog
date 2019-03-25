@@ -175,10 +175,10 @@ Doing this opens the file in write-mode and prepares Python to send data into th
 
 **설명:** [ Hint ]     
 • File 모드 에 대해서 알아보자.    
-• 쓰기만 가능 ("w")    
-• 읽기만 가능 ("r)")     
-• 읽기, 쓰기 모두 가능 ("r+")    
-• 덧붙이기 ("a")
+• 쓰기만 가능 ( "w" )    
+• 읽기만 가능 ( "r" )     
+• 읽기, 쓰기 모두 가능 ( "r+" )    
+• 덧붙이기 ( "a" )
 {: .notice--info}
 
 <br>
@@ -228,10 +228,10 @@ You must close the file. You do this simply by calling `my_file.close()` (we did
 **설명:** [ Learn ]     
 • Ch3. Writing 에서는 쓰기를 학습한다.        
 • 파일 output.txt 를 오픈하고, 반환된 값 object를 my_file 에 저장되어 있다.   
-• 지금부터, 파일에 저장하기 위해선, File object my_file을 통하여 저장한다.   
+• 지금부터, 파일에 저장하기 위해선, File object my_file 을 통하여 저장한다.   
 • 메서드 .write() 를 사용하여, 다음과 같이 문자열을 저장한다.    
 • e.g.  my_file.write("Data to be written")    
-• 파일을 모두 사용한 후, 마지막에는 my_file.close()를 호출하여, 정리한다. 
+• 파일을 모두 사용한 후, 마지막에는 my_file.close() 를 호출하여, 정리한다. 
 {: .notice--info}
 
 
@@ -258,10 +258,10 @@ You must close the file. You do this simply by calling `my_file.close()` (we did
 
 **설명:** [ Instruction ]    
 • File object my_list 에 있는 값을 반복적으로 추출한다.    
-• my_file.write()를 사용하여, output.txt. 파일에 my_list 값의 내용을 저장한다.    
+• my_file.write() 를 사용하여, output.txt. 파일에 my_list 값의 내용을 저장한다.    
 • 함수 str() 을 사용하여 저장하라.    
 • 저장할때, ( \n ) 을 추가하여, 새로운 줄에 저장하라.    
-• 마지막에 my_file.close()호출하여, 파일을 닫아라.   
+• 마지막에 my_file.close() 호출하여, 파일을 닫아라.   
 • File object my_list 값을 output.txt 에 정상적으로 저장되면 성공이다.
 {: .notice--info}
 
@@ -278,16 +278,16 @@ for item in list:
   # Do something
 ```  
 
-You should write to the file inside your iterator, but you should close the file outside your iterator—otherwise, you'll attempt to close the file after you write each line!    
+* You should write to the file inside your iterator, but you should close the file outside your iterator—otherwise, you'll attempt to close the file after you write each line!    
 
-And the syntax for calling `str()` looks like this:    
+* And the syntax for calling `str()` looks like this:    
 
 ```python
 str(42)
 # => "42"
 ```    
 
-Make sure to add a newline (+ "\n")     
+* Make sure to add a newline (+ "\n")     
 
 
 **설명:** [ Hint ]     
@@ -321,7 +321,7 @@ my_file.close()
 • 변수 value 에 my_list 값을 하나씩 추출한다.    
 • 변수 value 값을 함수 str() 을 활용하여 문자열로 만든다.     
 • 변수 value 끝에 ( \n ) 을 추가한다.    
-• File object my_file에 value 값을 저장한다.    
+• File object my_file 에 value 값을 저장한다.    
 • for 문이 완료되면, my_file 을 close() 한다.
 {: .notice--info}
 
@@ -408,8 +408,8 @@ my_file.close()
 
 **설명:** [ Solution ]     
 • 파일 output.txt 를 read 모드로 오픈하여, File object my_file에 저장한다.    
-• File object my_file을 읽어서 출력한다.   
-• File object my_file을 닫는다.
+• File object my_file 을 읽어서 출력한다.   
+• File object my_file 을 닫는다.
 {: .notice--info}
 
 
@@ -495,7 +495,7 @@ variable = open("filename", "mode")
 **설명:** [ Hint ]     
 • Python 문법중 다음 예제의 File I/O 문법을 상기한다.    
 • e.g. variable = open("filename", "mode")     
-• 파일을 한 줄씩 읽을때는 'variable.readline()' 사용한다.    
+• 파일을 한 줄씩 읽을때는 variable.readline() 를 사용한다.    
 • 파일을 다 쓴 후에는 닫는 것을 잊지말라.
 {: .notice--info}
 
@@ -581,7 +581,7 @@ Run the code again.
 • Editor 화면에 있는 코드는 좋은 코드가 아니다.    
 • print read_file.read() 소스에서 어떤 데이타도 읽지 못할 것이다.    
 • 이유는 파일을 쓰고, .Close() 를 하지 않았다.    
-• 파일을 write 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라. 
+• 파일을 write 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라.     
 • e.g. write_file.close()    
 • 파일을 read 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라.    
 • e.g. read_file.close()
@@ -823,7 +823,7 @@ By checking `file_object.closed`, we'll know whether our file is closed and can 
 **설명:** [ Learn ]    
 • Ch9. Case Closed? 에서는 파일 close 점검하는 법을 학습한다.    
 • 파일이 닫혔는지 열렸는지를 확인해 주는 함수는 file_object.closed 이다.   
-• file_object.close 를 호출하여 False가 반환되면 아직 열려 있는 상태이다.    
+• file_object.closed 를 호출하여 False가 반환되면 아직 열려 있는 상태이다.    
 • 반대로, True 이면 닫힌 상태이다.
 {: .notice--info}
 

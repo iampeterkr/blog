@@ -17,8 +17,8 @@ LESSON
 Classes are a crucial part of object-oriented programming (OOP). In this lesson, we'll explain what classes are, why they're important, and how to use them effectively.
 
 **설명:** [ 학습방향 ]     
-클래스는 객체지향의 끝판왕 이라 할수 있다.    
-이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 배우겠다.
+클래스는 객체지향의 끝판왕 이라고 말할수 있다.    
+이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 학습한다.
 {: .notice--info}     
      
  <hr style="border: solid 1px #dddddd ;">
@@ -144,6 +144,7 @@ Yep! I'm edible.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 2. Class Syntax    
 
 A basic class consists only of the `class` keyword, the name of the class, and the class from which the new class **inherits** in parentheses. (We'll get to inheritance soon.)     
@@ -231,6 +232,7 @@ class Animal(object):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 3. Classier Classes    
 
 We'd like our classes to do more than... well, nothing, so we'll have to replace our pass with something else.
@@ -248,7 +250,7 @@ You can think of `__init__()` as the function that "boots up" each object the cl
 • 클래스 내부의 키워드 pass 자리에 어떤 기능들을 구현하여야 한다.     
 • 클래스 1장에서 클래스를 소개하면서 보여준 소스에서, `__init__()` 메서드를 보았다.    
 • `__init__()`는 클래스에서 반드시 필요한 메서드이다.    
-• `__init__()`는 클래스 객체가 생성될때, 초기화 하는데 사용되어진다.    
+• `__init__()`는 클래스 객체가 생성될때, 초기화 하는데 사용된다.    
 • `__init__()`는 최소한 1개의 argument self 를 가진다.    
 • `__init__()`는 객체가 생성될 때마다 실행되는 함수이자 메서드이다. 
 {: .notice--info}
@@ -324,6 +326,7 @@ class Animal(object):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 4. Let's Not Get Too Selfish    
 
 Excellent! Let's make one more tweak to our class definition, then go ahead and instantiate (create) our first object.
@@ -413,6 +416,7 @@ class Animal(object):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 5. Instantiating Your First Object    
 
 Perfect! Now we're ready to start creating objects.
@@ -512,7 +516,7 @@ print zebra.name
 • e.g. zebra = Animal("Jeffrey")    
 • 클래스 Animal을 instance 하는 객체 zebra 를 생성한다.   
 • 클래스 Animal()의 파라메터에 값 "Jeffrey" 를 넣는다.    
-• 변수 name 에는 "Jeffrey" 가 넘겨진다.
+• 변수 name 에는 "Jeffrey" 가 넘겨진다.     
 • 객체 zebra 는 클래스 Aniaml의 속성을 그대로 가지고 있다.    
 • zebra. 하는 순간 클래스 Animal()의 `__init__(self)`가 호출된다.    
 • zebra.name  은 클래스 Animal의 name 이 출력된다.
@@ -532,6 +536,7 @@ Jeffrey
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 6. More on __init__() and self    
 
 Now that you're starting to understand how classes and objects work, it's worth delving a bit more into `__init__()` and `self`. They can be confusing!
@@ -645,6 +650,7 @@ Chad 7 True
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 7. Class Scope    
 
 Another important aspect of Python classes is **scope**. The **scope of a variable** is the **context** in which it's visible to the program.
@@ -742,6 +748,7 @@ Chad 7 True
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 8. A Methodical Approach    
 
 When a class has its own functions, those functions are called **methods**. You've already seen one such method: `__init__()`. But you can also define your own methods!
@@ -783,6 +790,7 @@ When a class has its own functions, those functions are called **methods**. You'
 * Remember to pass `self` as an argument to `description`.     
 * Otherwise, printing `self.name` and `self.age` won't work, since Python won't know which `self` (that is, which object) you're talking about!    
 * Your method should look something like this:    
+
 ```python
 def description(self):
   print self.name
@@ -794,7 +802,7 @@ def description(self):
 **설명:** [ Hint ]     
 • 메서드 description(self)은 self parameter가 있어야 한다.     
 • 메서드 description()가 호출되면, name과 age가 출력된다.    
-• 생성된 객체 hippo.description() 으로 호출 한다. 
+• 생성된 객체 hippo.description() 으로 호출한다. 
 {: .notice--info}
 
 <br>
@@ -823,9 +831,9 @@ hippo.description()
 **설명:** [ Solution ]     
 • 클래스 Animal 내부에 메서드 description(self) 를 만들었다.    
 • 메서드 description(self)는 name과 age를 출력한다.    
-• 클래스 Animal("Anderson", 36)을 instance 하는 object(객체) 를 생성한다.    
+• 클래스 Animal("Anderson", 36)을 instance 하는 object(객체) hippo를 생성한다.    
 • e.g. hippo = Animal("Anderson", 36)    
-• object(객체)를 이용하여, 메서드 description()을 호출한다.    
+• object(객체) hippo를 이용하여, 메서드 description()을 호출한다.    
 • e.g. hippo.description()
 {: .notice--info}
 
@@ -844,6 +852,7 @@ Anderson
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 9. They're Multiplying!    
 
 A class can have any number of **member variables**. These are variables that are available to all members of a class.    
@@ -891,7 +900,7 @@ Let's add another member variable to Animal.
  
 **설명:** [ Instruction ]    
 • 라인 3에서, 2번째 클래스(member) 변수 health 를 추가한다.    
-• 클래스 변수 health = "good"라고 할당한다.   
+• 클래스 변수 health = "good" 라고 할당한다.   
 • 클래스 Animals의 instance를 가지는 sloth, ocelot 를 생성한다.    
 • 객체(object) sloth, ocelot 에 이름과, 나이는 적당히 넣어라.    
 • 객체 hippo, sloth, ocelot 의 health를 각 라인에서 출력하라.  
@@ -973,6 +982,7 @@ good
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 10. It's Not All Animals and Fruits     
 
 Classes like `Animal` and `Fruit` make it easy to understand the concepts of **classes** and **instances**, but you probably won't see many `zebras` or `lemons` in real-world programs.
@@ -1024,7 +1034,7 @@ my_cart.add_item("Ukelele", 10)
 
 **설명:** [ Hint ]     
 • 클래스 ShoppingCart 의 instance인 my_cart 를 생성한다.    
-• 이때, parameter를 "Eric" 을 넣는다.    
+• 이때, parameter를 *Eric* 을 넣는다.    
 • 객체(object) my_cart 에서 add_item() 메서드를 호출한다.
 {: .notice--info}
 
@@ -1084,6 +1094,7 @@ Ukelele added.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 11. Warning: Here Be Dragons    
 
 **Inheritance** is a tricky concept, so let's go through it step by step.
@@ -1183,6 +1194,7 @@ I'm a string that stands in for your order history!
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 12. Inheritance Syntax    
 
 In Python, inheritance works like this:    
@@ -1297,6 +1309,7 @@ class Triangle(Shape):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 13. Override!    
 
 Sometimes you'll want one class that inherits from another to not only take on the methods and attributes of its parent, but to **override** one or more of them.    
@@ -1328,8 +1341,8 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 • Inheritance 는 상위 클래스의 속성과 메서드를 이용한다.    
 • 속성과 메서드 를 포함한 전체를 가져오고 싶을때는 override 를 한다.    
 • 오버라이딩은 클래스의 메서드를 객체의 사유에 따라 덮어쓰기를 할 수 있다.    
-• ceo.greet()를 호출하면 "Get back to work, Emily"가 출력될 것이라고 예상할 것이다.    
-• ceo.greet(emp)호출하면, "Get back to work, Steve"가 호출된다.    
+• ceo.greet()를 호출하면 *Get back to work, Emily* 가 출력될 것이라고 예상할 것이다.    
+• ceo.greet(emp)호출하면, *Get back to work, Steve* 가 호출된다.    
 • 이유는 object(객체) emp를 객체 ceo가 override 하였기 때문이다.  
 {: .notice--info}
 
@@ -1418,6 +1431,7 @@ class PartTimeEmployee(Employee):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 14. This Looks Like a Job For...    
 
 On the flip side, sometimes you'll be working with a derived class (or subclass) and realize that you've overwritten a method or attribute defined in that class' base class (also called a parent or superclass) that you actually need. Have no fear! You can directly access the attributes or methods of a superclass with Python's built-in `super` call.
@@ -1470,7 +1484,7 @@ Where `m()` is a method from the base class.
 • e.g. milton = PartTimeEmployee("peter")    
 • 매개변수 parameter 에 이름을 넣는것을 잊지 말라.    
 • 다음과 같이 호출 후, 출력하라.    
-• e.g. prit milton.full_time_wage(10)     
+• e.g. print milton.full_time_wage(10)     
 • 결과값은 '시간 x $20.00', 즉 200.00 이 출력 될 것이다.
 {: .notice--info}
 
@@ -1550,6 +1564,7 @@ print milton.full_time_wage(10)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 15. Class Basics    
 
 First things first: let's create a class to work with.
@@ -1640,6 +1655,7 @@ class Triangle(object):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 16. Class It Up    
 
 Great! Now let's **add** a **member variable** and a **method** to our class.
@@ -1741,6 +1757,7 @@ class Triangle(object):
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 17. Instantiate an Object    
 
 Let's go ahead and create an **instance** of our `Triangle` class.
@@ -1748,7 +1765,7 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 
 
 **설명:** [ Learn ]     
-• Ch17. Instantiate an Object 에서는 인스탄스를 학습한다.    
+• Ch17. Instantiate an Object 에서는 Instance 학습한다.    
 • 클래스 Triangle 의 instance를 만들어 보자.
 {: .notice--info}
 
@@ -1773,7 +1790,7 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 • 클래스 Triangle 의 instance 인 객체(object) my_triangle 를 작성하라.    
 • parameter 값으로 3개 합이 180이 되게 넣는다.    
 • e.g. a=90, b=30, c=60       
-• Instance한 객체 my_triangle 의 변수 number_ofsides 를 호출후 출력한다.      
+• Instance한 객체 my_triangle 의 변수 number_of_sides 를 호출후 출력한다.      
 • e.g. print my_triangle.number_of_sides    
 • Instance한 객체 my_triangle 의 메서드 check_angles()를 호출후 출력한다.    
 • e.g. print my_triangle.check_angles()
@@ -1848,6 +1865,7 @@ True
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
+
 ### 18. Inheritance    
 
 Finally, let's create an `Equilateral` class that **inherits** from our `Triangle` class. (An equilateral triangle is a triangle whose angles are all 60˚, which also means that its three sides are equal in length.)
@@ -1899,7 +1917,7 @@ class DerivedClass(BaseClass):
   # Your code here
 ```      
 
-where `DerivedClass` is the new class you're making, and `BaseClass` is the class it **inherits** from.
+* where `DerivedClass` is the new class you're making, and `BaseClass` is the class it **inherits** from.
 
 
 **설명:** [ Hint ]     
