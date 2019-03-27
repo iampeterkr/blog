@@ -116,9 +116,7 @@ Hello, I am a while and count is 9
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -211,9 +209,7 @@ I am a loop
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -307,9 +303,7 @@ while (num <= 10):  # Fill in the condition
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -392,9 +386,7 @@ Sorry, I didn't catch that. Enter again: y
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -495,9 +487,7 @@ while count < 10: # Add a colon
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -597,9 +587,7 @@ while True:
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -695,9 +683,7 @@ You win!
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -840,9 +826,7 @@ You win!
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -936,9 +920,7 @@ Counting...
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1034,9 +1016,7 @@ Tell me one of your favorite hobbies: cycle
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1125,9 +1105,7 @@ s
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1244,9 +1222,7 @@ X   b i r d   i n   t h e   h X n d . . .
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1338,9 +1314,7 @@ This list contains:
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1441,9 +1415,7 @@ b berry
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1523,9 +1495,7 @@ Your choices are:
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1611,9 +1581,7 @@ for a, b in zip(list_a, list_b):
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1715,10 +1683,6 @@ A fine selection of fruits!
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1804,9 +1768,7 @@ A fine selection of fruits!
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

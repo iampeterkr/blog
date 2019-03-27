@@ -114,9 +114,6 @@ brian = "Hello life!"
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
@@ -200,8 +197,6 @@ Teresa
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
@@ -303,8 +298,6 @@ This isn't flying, this is falling with style!
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
@@ -426,9 +419,6 @@ Y
 ```
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 <br>
@@ -519,9 +509,6 @@ print len(parrot)
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)     
 <br>
 <br>
@@ -604,9 +591,6 @@ norwegian blue
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
@@ -682,9 +666,6 @@ NORWEGIAN BLUE
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
@@ -773,9 +754,6 @@ print str(pi)
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
@@ -860,9 +838,6 @@ THE MINISTRY OF SILLY WALKS
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
@@ -942,9 +917,6 @@ Monty Python
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)     
 <br>
 <br>
@@ -1024,9 +996,6 @@ Ping!
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
@@ -1111,9 +1080,6 @@ Spam and eggs
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
@@ -1200,9 +1166,7 @@ The value of pi is around 3.14
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>
@@ -1305,9 +1269,6 @@ Let's not go to Camelot. 'Tis a silly place.
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
 <br>
@@ -1416,9 +1377,7 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 <br>

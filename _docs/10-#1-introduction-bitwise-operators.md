@@ -107,8 +107,7 @@ print ~88     # Bitwise NOT
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -218,8 +217,7 @@ print 0b11 * 0b11
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -317,8 +315,7 @@ twelve = 0b1100
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -408,8 +405,7 @@ print bin(5)
 ```      
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -512,8 +508,7 @@ print int("11001001", 2)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -615,8 +610,7 @@ print bin(shift_left)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -713,8 +707,7 @@ print (bin(0b110 & 0b101))
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -803,8 +796,7 @@ print bin(0b1110 | 0b101)
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -893,8 +885,7 @@ print bin(0b1110 ^ 0b101)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -977,8 +968,7 @@ print ~123
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1099,8 +1089,7 @@ on
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1187,8 +1176,7 @@ print bin(desired)
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1273,8 +1261,7 @@ print bin(desired)
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

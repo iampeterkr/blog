@@ -100,8 +100,7 @@ Grades: [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -202,8 +201,7 @@ print_grades(grades)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -279,8 +277,7 @@ Let's compute some stats!
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -385,8 +382,7 @@ print grades_sum(grades)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -496,8 +492,7 @@ print grades_average(grades)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -566,8 +561,7 @@ Time to conquer the variance!
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -689,8 +683,7 @@ print grades_variance(grades)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -805,8 +798,7 @@ print grades_std_deviation(variance)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

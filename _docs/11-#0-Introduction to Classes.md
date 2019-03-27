@@ -138,8 +138,7 @@ Yep! I'm edible.
 ```      
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -226,8 +225,7 @@ class Animal(object):
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -320,8 +318,7 @@ class Animal(object):
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -410,8 +407,7 @@ class Animal(object):
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -530,8 +526,7 @@ Jeffrey
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -644,8 +639,7 @@ Chad 7 True
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -742,8 +736,7 @@ Chad 7 True
 ```      
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -846,8 +839,7 @@ Anderson
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -976,8 +968,7 @@ good
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1088,8 +1079,7 @@ Ukelele added.
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1188,8 +1178,7 @@ I'm a string that stands in for your order history!
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1303,8 +1292,7 @@ class Triangle(Shape):
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1425,8 +1413,7 @@ class PartTimeEmployee(Employee):
 ```   
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1558,8 +1545,7 @@ print milton.full_time_wage(10)
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1649,8 +1635,7 @@ class Triangle(object):
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1751,8 +1736,7 @@ class Triangle(object):
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1859,8 +1843,7 @@ True
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

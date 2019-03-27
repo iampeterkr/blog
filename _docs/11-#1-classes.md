@@ -93,8 +93,7 @@ class Car(object):
 ```      
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -169,8 +168,7 @@ my_car = Car()
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -250,8 +248,7 @@ my_car = Car()
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -328,8 +325,7 @@ new
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -445,8 +441,7 @@ my_car = Car("DeLorean", "silver", 88)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -551,8 +546,7 @@ silver
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -658,8 +652,7 @@ This is a silver DeLorean with 88 MPG.
 ```      
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -758,8 +751,7 @@ used
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -869,8 +861,7 @@ my_car = ElectricCar("DeLorean", "silver", 88, "molten salt")
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -976,8 +967,7 @@ like new
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

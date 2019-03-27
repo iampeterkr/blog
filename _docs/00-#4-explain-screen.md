@@ -23,6 +23,10 @@ redirect_from:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-screen-01.png)    
 <br>
 
+
+<p style="page-break-before: always;"></p>
+
+
 ### Screen
 화면은 크게 3개로 나뉘어 진다.     
 

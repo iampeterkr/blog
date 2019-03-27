@@ -113,8 +113,7 @@ print my_dict.items()
 ```      
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -201,8 +200,7 @@ print my_dict.values()
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -315,8 +313,7 @@ occupation Dentist
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -397,8 +394,7 @@ print evens_to_50
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -506,8 +502,7 @@ print even_squares
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -607,8 +602,7 @@ print cubes_by_four
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -706,8 +700,7 @@ print l[2:9:2]
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -821,8 +814,7 @@ print my_list[::2]
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -914,8 +906,7 @@ backwards = my_list[::-1]
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1005,8 +996,7 @@ print backwards_by_tens
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1095,8 +1085,7 @@ middle_third = to_21[7:14]
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1190,8 +1179,7 @@ print filter(lambda x: x % 3 == 0, my_list)
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1281,8 +1269,7 @@ print filter(lambda x: x == "Python", languages)
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1377,8 +1364,7 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1452,8 +1438,7 @@ print ( movies.items() )
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1544,8 +1529,7 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 ```     
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1649,8 +1633,7 @@ I am the secret message!
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-<br>    
-<br>    
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

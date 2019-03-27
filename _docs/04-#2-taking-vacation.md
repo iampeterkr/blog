@@ -112,10 +112,6 @@ def answer():
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -199,10 +195,6 @@ def hotel_cost(nights):
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -307,10 +299,6 @@ def plane_ride_cost(city):
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -443,10 +431,6 @@ def rental_car_cost(days):
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -559,10 +543,6 @@ def trip_cost(city, days):
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -655,10 +635,6 @@ def trip_cost(city, days, spending_money):
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

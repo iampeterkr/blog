@@ -99,10 +99,6 @@ print n[1]
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -188,10 +184,6 @@ print n
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -266,10 +258,6 @@ print n
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -382,10 +370,6 @@ print n
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -459,10 +443,6 @@ print my_function(number)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -544,10 +524,6 @@ print add_function(m, n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -629,10 +605,6 @@ Helloworld
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -707,10 +679,6 @@ print list_function(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -805,10 +773,6 @@ print list_function(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -910,10 +874,6 @@ print list_function(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1006,10 +966,6 @@ print list_extender(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1100,10 +1056,6 @@ print_list(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1192,10 +1144,6 @@ print double_list(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1316,12 +1264,6 @@ print my_function(range(3)) # Add your range between the parentheses!
 <p style="page-break-before: always;"></p>
 <br>
 
-
-
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1443,10 +1385,6 @@ def total(numbers):
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1566,10 +1504,6 @@ MichaelLieberman
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -1662,10 +1596,6 @@ print join_lists(m, n)
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    

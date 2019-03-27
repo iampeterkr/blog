@@ -26,8 +26,3 @@ redirect_from:
 • `Run` 버튼을 클린한다.     
 • `Display` 화면에서 Error 또는 정상 메시지를 확인 한다.
 {: .notice--info}
-
-
-
-<hr/>    
-<br>    

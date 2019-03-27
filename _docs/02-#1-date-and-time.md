@@ -87,11 +87,6 @@ from datetime import datetime
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
-
-
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -185,9 +180,6 @@ print now
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -284,10 +276,6 @@ print now.day
 <p style="page-break-before: always;"></p>
 <br>
 
-
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -377,9 +365,6 @@ print '%02d/%02d/%04d' % (now.month, now.day, now.year)
 <p style="page-break-before: always;"></p>
 <br>
 
-<br>
-<br>    
-<br>    
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -469,12 +454,6 @@ print '%02d:%02d:%02d' % (now.hour, now.minute, now.second)
 ```    
 <p style="page-break-before: always;"></p>
 <br>
-
-<br>
-<br>    
-<br>    
-
-
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
 <br>

@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Syllabus"
-permalink: /syllabus/
+permalink: /bk-syllabus/
 excerpt: "Introduce Python Syllabus Pages."
 # last_modified_at: 2018-11-12T09:00:00-04:00
 redirect_from:
@@ -14,25 +14,25 @@ redirect_from:
     
 <hr/>
 
-<!-- ![codecademy]({{ site.baseurl }}/assets/images/codecademy_logo.svg)     -->
-<!-- <h6> https://codecademy.com </h6> -->
+![codecademy]({{ site.baseurl }}/assets/images/codecademy_logo.svg)    
+<h6> https://codecademy.com </h6>
 
 
-<!-- <hr/> -->
-<!-- <br>     -->
+<hr/>    
+<br>    
 
 
 
-<b>1.	Python Syntax</b>     
+<b>1.	Python Syntax</b>
 *  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)  
 <hr/>     
 
-<b>2.	Strings and Console Output</b>     
+<b>2.	Strings and Console Output</b>
 *  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)       
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
 
-<b>3.	Conditionals and Control Flow</b>      
+<b>3.	Conditionals and Control Flow</b>
 * A.	Conditionals & Control Flow [§]({{site.baseurl}}/conditionals-control-flow/)    
 * B.	PygLatin [§]({{site.baseurl}}/pyglatin/)   
 <hr/>     
@@ -44,11 +44,14 @@ redirect_from:
 
 <p style="page-break-before: always;"></p>
 
+# Syllabus    
+<hr/>
 
 <b>5.	Lists & Dictionaries</b>    
 * A.	Python Lists and Dictionaries [§]({{site.baseurl}}/lists-dictionaries/)    
 * B.	A Day at the Supermarket [§]({{site.baseurl}}/day-supermarket/)    
 <hr/>     
+
 
 <b>6.	Student Becomes the Teacher</b>      
 * A.	Student Becomes the Teacher [§]({{site.baseurl}}/student-becomes-teacher/)        
@@ -61,20 +64,23 @@ redirect_from:
 
 <b>8.	Loops</b>    
 * A.	Loops [§]({{site.baseurl}}/loops/)   
-* B.	Practice Makes Perfect [§]({{site.baseurl}}/practice-makes-perfect/) 
+* B.	Practice Makes Perfect [§]({{site.baseurl}}/practice-makes-perfect/)          
 <hr/>     
 
 <b>9.	Exam Statistics</b>    
 * A.	Exam Statistics [§]({{site.baseurl}}/exam-statistics/)   
 <hr/>     
 
+<p style="page-break-before: always;"></p>
+
+# Syllabus    
+<hr/>
+
+
 <b>10.	Advanced Topics in Python</b>    
 * A.	Advanced Topics in Python [§]({{site.baseurl}}/advanced-topics-python/)    
 * B.	Introduction to Bitwise Operators [§]({{site.baseurl}}/introduction-bitwise-operators/)           
 <hr/>     
-
-<p style="page-break-before: always;"></p>
-
 
 <b>11.	Introduction to Classes</b>    
 * A.	Introduction to Classes [§]({{site.baseurl}}/introduction-classes/)     
@@ -86,3 +92,5 @@ redirect_from:
 <hr/>     
 
 <b>13.	PYTHON FINAL PROJECT</b>[§]({{site.baseurl}}/python-final-project/)
+
+<hr/>     

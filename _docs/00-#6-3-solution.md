@@ -43,7 +43,3 @@ redirect_from:
   »»  ⓐ `Solution` 클릭 -> 수정된 Python 소스 확인    
   »»  ⓑ `Run` 클릭      -> 정상적인 결과 확인     
 {: .notice--info}
-
-
-<br>
-<hr/>

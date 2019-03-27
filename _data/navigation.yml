@@ -54,7 +54,7 @@ docs:
       - title: "LogIn"
         url: /login/
       - title: "Syllabus"
-        url: /syllabus/
+        url: /bk-syllabus/
   - title: How to use    
     children:
       - title: "Explain Screen"

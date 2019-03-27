@@ -23,7 +23,3 @@ redirect_from:
 • 우리가 배워야 할 Python 문법을 설명 한다.    
 • 어떻게 Editor 화면에 Python 프로그램을 작성하는지를 설명하다.  
 {: .notice--info}
-
-
-<hr/>    
-<br>    
