@@ -136,10 +136,10 @@ Let's warm up by **printing** a welcome message for our translator users.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
 ```python
-print " Hellow World"
+print " Hello World"
 ```
 **설명:** [ Hint ]    
-• print " Hellow World" 라고 사용한다. 
+• print " Hello World" 라고 사용한다. 
 {: .notice--info}
 
 <br>
@@ -376,10 +376,10 @@ else:
 
 **결과** 
 ```
-# Input the string, hellow, and Click the `Enter`
+# Input the string, Hello, and Click the `Enter`
 Welcome to the Pig Latin Translator!
-Enter a word:hellow
-hellow
+Enter a word:Hello
+Hello
 
 # No input and Click the `Enter`
 Welcome to the Pig Latin Translator!
@@ -485,10 +485,10 @@ else:
 
 **결과** 
 ```
-# Input the string "Hellow"
+# Input the string "Hello"
 Welcome to the Pig Latin Translator!
-Enter a word:Hellow
-Hellow
+Enter a word:Hello
+Hello
 ```    
 <p style="page-break-before: always;"></p>
 <br>

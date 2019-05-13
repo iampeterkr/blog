@@ -565,7 +565,7 @@ This is a basic recap on using strings in functions.
 
 ```python
 print "Hello" + "world"
-# outputs "Helloworld"
+# outputs "Helloorld"
 ```
 
 **설명:** [ Hint ]          

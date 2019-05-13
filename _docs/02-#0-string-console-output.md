@@ -55,7 +55,7 @@ Strings need to be within quotes.
 * Create a new variable `brian` and assign it the string `"Hello life!"`.    
 
 **설명:** [ Instruction ]    
-• 변수 brian 를 만들고 *Hellow life!* 를 대입하라. 
+• 변수 brian 를 만들고 *Hello life!* 를 대입하라. 
 {: .notice--info}
 
 

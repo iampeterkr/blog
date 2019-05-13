@@ -91,16 +91,16 @@ print "Your Message!"
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print "Hellow World!"
+print "Hello World!"
 ```
 
 **설명:** [ Solution ]    
-• print 문을 사용하여 *Hellow World!* 를 출력하였다.
+• print 문을 사용하여 *Hello World!* 를 출력하였다.
 {: .notice--info}
 
 **결과**    
 ```
-Hellow World!
+Hello World!
 ```
 
 <p style="page-break-before: always;"></p>
@@ -171,7 +171,7 @@ print("Your message!")
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print ("Hellow World!")
+print ("Hello World!")
 ```
 
 **설명:** [ Solution ]    
@@ -180,7 +180,7 @@ print ("Hellow World!")
 
 **결과**    
 ```
-Hellow World!
+Hello World!
 ```
 <br>
 <br>

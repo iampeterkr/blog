@@ -37,7 +37,7 @@ We convey our commands to the computer by writing them in a text file using a pr
 • 우리가 배워야 할 첫번째 Python 문법은 print 문이다.     
 • print 문은 컴퓨터와 대화 하는것을 실질적으로 사람이 볼수 있게 해준다.     
 • 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.     
-• 우리는 컴퓨터에게 *Hellow World!* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
+• 우리는 컴퓨터에게 *Hello World!* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
 {: .notice--info}
 
 

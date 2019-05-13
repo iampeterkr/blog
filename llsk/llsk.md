@@ -50,7 +50,7 @@ A `print` statement is the easiest way to get your Python program to communicate
 • 우리가 배워야 할 첫번째 Python 문법은 print 문 이다.     
 • print 문은 컴퓨터와 대화 하는것을 실질적으로 사람이 볼수 있게 해준다.     
 • 상단 검정 박스안의 Python 소스를 Coding 창에 복사하여 실행(Run) 해 보자.     
-• 우리는 컴퓨터에게 *"Hellow World!"* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
+• 우리는 컴퓨터에게 *"Hello World!"* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
 {: .notice--info}
 
 
@@ -91,16 +91,16 @@ print "Your Message!"
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print "Hellow World!"
+print "Hello World!"
 ```
 
 **설명:** [ Solution ]    
-• print 문을 사용하여 Hellow World!" 를 출력하였다.
+• print 문을 사용하여 Hello World!" 를 출력하였다.
 {: .notice--info}
 
 **결과**    
 ```
-Hellow World!
+Hello World!
 ```
 
 <p style="page-break-before: always;"></p>
@@ -171,7 +171,7 @@ print("Your message!")
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print ("Hellow World!")
+print ("Hello World!")
 ```
 
 **설명:** [ Solution ]    
@@ -180,7 +180,7 @@ print ("Hellow World!")
 
 **결과**    
 ```
-Hellow World!
+Hello World!
 ```
 <br>
 <br>
