@@ -22,7 +22,7 @@ redirect_from:
 ### RUN & Error   
 
 **설명:** [ Run ]    
-• Editor 화면에서 지시 사항 Python 프로그램을 작성한 후,    
-• `Run` 버튼을 클린한다.     
+• Editor 화면에서 지시사항(Instruction)을 작성(coding)한 후,    
+• `Run` 버튼을 누른다.     
 • `Display` 화면에서 Error 또는 정상 메시지를 확인 한다.
 {: .notice--info}

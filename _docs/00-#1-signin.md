@@ -10,11 +10,36 @@ redirect_from:
 # toc: true
 ---
 <hr/>
-<br/>   
+<br/>
+
+
 ![signin]({{ site.baseurl }}/assets/images/codecademy/00-signin-00.png)
 <hr/>    
 
-**설명:**     
-먼저, 회원 가입을 해야 한다.    
-`Username` , `Email`, `Password` 를 입력하고, `Start coding now`를 누른다. 
+
+**설명:** [ 회원가입 ]     
+1단계    
+Codecademy 사이트로 이동합니다.    
+주소 : www.codecademy.com    
+{: .notice--info}
+
+**설명:** [ 회원가입 ]     
+2단계    
+`Username` 을 등록합니다.    
+{: .notice--info}
+
+**설명:** [ 회원가입 ]     
+3단계    
+`Email` 을 등록합니다.    
+{: .notice--info}
+
+**설명:** [ 회원가입 ]     
+4단계       
+`Password` 를 등록합니다.    
+{: .notice--info}    
+
+**설명:** [ 회원가입 ]     
+5단계       
+`Start coding now` 를 눌러 등록을 완료합니다.     
+또는 지메일, 페이스북 등의 어카운터를 활용하여 로그인 할 수 있습니다.    
 {: .notice--info}
