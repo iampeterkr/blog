@@ -17,11 +17,11 @@ This lesson will introduce you to Python, a general-purpose, object-oriented int
 
 **설명:** [ 학습방향 ]     
 이 장에서는 객체 지향 프로그램 언어인 Python을 소개합니다.     
-Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램에 사용할 수 있습니다.
+Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다.
 {: .notice--info}     
      
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 1. Hello World!    
@@ -50,7 +50,7 @@ A `print` statement is the easiest way to get your Python program to communicate
 • 우리가 배워야 할 첫번째 Python 문법은 print 문이다.     
 • print 문은 컴퓨터와 대화 하는것을 실질적으로 사람이 볼수 있게 해준다.     
 • 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.     
-• 우리는 컴퓨터에게 *Hellow World!* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
+• 우리는 컴퓨터에게 *Hello World!* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
 {: .notice--info}
 
 
@@ -64,7 +64,7 @@ A `print` statement is the easiest way to get your Python program to communicate
 
 
 **설명:** [ Instruction ]    
-• print 문 을 사용하여 당신이 쓰고 싶은 문장을 컴퓨터에게 화면에 출력 시키라. 
+• print 문을 사용하여 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜라. 
 {: .notice--info}
 
 
@@ -82,7 +82,7 @@ print "Your Message!"
 
 
 **설명:** [ Hint ]    
-• print 문을 사용하여 *Your Message!* 를 출력한다. 
+• print 문을 사용하여 *Your Message!* 를 화면에 출력한다. 
 {: .notice--info}
 
 <br>
@@ -144,7 +144,7 @@ In this course we will be using Python 2. If you go on to write Python 3 it will
 * Print something using Python 3's syntax.
 
 **설명:** [ Instruction ]     
-• print 문을 Python3 문법을 사용하여 출력하라. 
+• Python3 문법을 사용하여 print 문을 출력하라. 
 {: .notice--info}
 
 
@@ -162,7 +162,7 @@ print("Your message!")
 
 
 **설명:** [ Hint ]     
-• Python3는 print 문을 사용시 괄호() 가 필요하다.  
+• Python3 는 print 문을 사용시 괄호`()` 가 필요하다.  
 {: .notice--info}
 
 <br>
@@ -175,7 +175,7 @@ print ("Hello World!")
 ```
 
 **설명:** [ Solution ]    
-• python 3은 print 문에서 괄호()를 사용한다.
+• Python3 는 print 문을 사용시 괄호`()` 를 사용한다.
 {: .notice--info}
 
 **결과**    
@@ -216,8 +216,9 @@ This code will print out "This is a good string".
 **설명:** [ Learn ]      
 • Ch3. String 에서는 문자열을 학습한다.     
 • 문자열을 Python 에서는 String 이라고 부른다.     
-• String 은 (' ') 또는 (" ") 사이에 문자를 넣는다.     
-• 문자열은 여러 문자열을 예제와 같이 ( + )를 사용하여 붙일 수 있다. 
+• String은 작은 따옴표(' ') 또는 큰 따옴표(" ") 사이에 문자를 넣는다.    
+• 이후 부터는 우리는 따옴표를 쿼터(quotes)라고 부른다.     
+• 문자열은 여러 문자열을 예제와 같이 ( + ) 기호를 사용하여 붙일 수 있다. 
 {: .notice--info}
 
 
@@ -231,7 +232,7 @@ This code will print out "This is a good string".
 
 
 **설명:** [ Instruction ]     
-• 두개의 문자열 사이에 ( + ) 를 사용하여 두 문자열을 연결하라.    
+• 두개의 문자열 사이에 ( + ) 기호를 사용하여 두 문자열을 연결하라.    
 • e.g.  *Hello Hongkildong* 을 출력하라. 
 {: .notice--info}
 
@@ -247,7 +248,7 @@ print "Hello " + "Nicole"
 ```
 
 **설명:** [ Hint ]     
-• 우리는 두개의 문자열을 ( + )를 사용하여, 문장을 연결할수 있다. 
+• 우리는 두개의 문자열을 ( + ) 기호를 사용하여, 문장을 연결할 수 있다. 
 {: .notice--info}
 
 
@@ -263,7 +264,7 @@ print "Hello " + "Wonyoung Lee"
 ```
 
 **설명:** [ Solution ]     
-• 두 개의 스트링을 연결 할때는 ( + )를 사용한다.
+• 두 개의 스트링을 연결 할때는 ( + ) 기호를 사용한다.
 {: .notice--info}
 
 
@@ -313,7 +314,7 @@ Another issue you might run into is attempting to create a string without quotes
 • *EOL Error*는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.    
 • 시작이 (') 이면 끝도 (') 이어야 한다.    
 • 시작이 (") 이면 끝도 (") 이어야 한다.     
-• 문자열의 양 끝에 쿼트(quotest)가 없으면 Python은 해당 문자열을 변수로 인식한다.    
+• 문자열의 양 끝에 쿼트(quotes)가 없으면 Python은 해당 문자열을 변수로 인식한다.    
 • 또는 print 와 같은 명령문으로 인식한다.    
 • 이런 경우 Python 은 해당 문자열을 명령어(or 변수) 리스트에서 찾는다.    
 • 만약, 리스트에서 찾을수 없으면 *NameError* 를 발생시킨다.
@@ -333,7 +334,7 @@ Another issue you might run into is attempting to create a string without quotes
 
 **설명:** [ Instruction ]    
 • 쿼트(quotes)를 잘못 사용하면 Error 가 발생한다.    
-• 잘못된 Python 프로그램을 고쳐라.  
+• 잘못된 Python 프로그램을 수정하라.  
 {: .notice--info}
 
 
@@ -357,7 +358,7 @@ print "This is also a good print statement"
 
 
 **설명:** [ Hint ]    
-• 문자열은 쿼트(quotes)의 처음과 끝이 같은 모앙이어야 한다. 
+• 문자열은 쿼트(quotes)의 처음과 끝이 같은 모양이어야 한다. 
 {: .notice--info}
 
 
@@ -386,7 +387,7 @@ You take away its chair!
 <p style="page-break-before: always;"></p>     
 <br>    
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -406,7 +407,7 @@ In the above example, we defined a variable called `greeting_message` and set it
 
 **설명:** [ Learn ]       
 • Ch5. Variables 에서는 변수를 학습한다.    
-• 변수는 문자열이나, 숫자를 저장하기 위한 상자이름 이다.     
+• 변수는 문자열이나, 숫자를 저장하기 위한 상자 이름이다.     
 • 우리는 greeting_message 라는 변수 상자를 만든다.    
 • 그 변수 상자에 *Welcome to Codecademy!* 라는 문자열을 저장한다.    
 • greeting_message 는 문자를 담은 변수 상자가 된다.    
@@ -427,7 +428,7 @@ In the above example, we defined a variable called `greeting_message` and set it
 * Create a variable called `toodays_date` and assign a value that will represent today's date to that variable.
 
 **설명:** [ Instruction ]     
-• 변수 todays_date 를 만들고, 이 변수에 오늘 날짜를 넣어라.
+• 변수 todays_date 를 만들고, 이 변수 todays_date에 오늘 날짜를 넣어라.
 {: .notice--info}
 
 
@@ -587,7 +588,7 @@ remainder = 1398 % 11
 <br>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -615,7 +616,7 @@ Updating a variable by adding or subtracting a number to the original contents o
 • Ch7. Updating Variables 에서는 변수 변경을 학습한다.    
 • 변수 fish_in_clarks_pond 에 50 을 대입하라.    
 • 변수 number_of_fish_caught 에 10 을 대입하라.    
-• 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught    
+• 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught 값을 저장한다.       
 • 변수 fish_in_clarks_pond 에는 50 - 10 의 값이 계산된 40 이 저장된다. 
 {: .notice--info}
 
@@ -800,7 +801,7 @@ city_pop = 340000
 <p style="page-break-before: always;"></p>     
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -835,9 +836,9 @@ float4 = 1.5e2
 • Python 에서는 숫자 관련 변수는 정수(integer)와 실수(float) 2 종류가 있다.    
 • 정수는 소숫점 이하를 표현할수 없다.    
 • 실수는 소수점을 표현할 수 있다.     
-• 생성되는 변수가 정수인지, 실수 인지는 해당 값을 대입 할때 정해진다.    
+• 생성되는 변수가 정수형인지, 실수형인지는 해당 값을 대입 할때 정해진다.    
 • 즉, 변수에 정수를 넣으면 정수형 변수가 되고, 실수를 넣으면 실수형 변수가 된다.   
-• 과학적 표기법인(scientific notation) e 도 실수(float)로 표현한다. 
+• 과학적 표기법인(scientific notation) e 도 실수(float)형으로 표현한다. 
 {: .notice--info}
 
 
@@ -912,7 +913,7 @@ print total_cost
 <p style="page-break-before: always;"></p>     
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -949,19 +950,19 @@ quotient1 = float(7)/2
 ```
 
 **설명:** [ Learn ]       
-• Ch10. Two Types of Division 에서는 나눗셈의 주의점을 학습한다.    
+• Ch10. Two Types of Division 에서는 나눗셈 계산에서 주의할점을 학습한다.    
 • 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다.    
-• 정수 ( 7/2 ) 은 그 계산하면 3.5 이다. 3.5는 실수이다.    
-• 하지만, Python은 정수( 3 )만 남고, 나머지 0.5는 버린다.    
+• 정수 ( 7/2 ) 를 계산하면 3.5 이다. 3.5는 실수이다.    
+• 하지만, Python2 에서는 정수( 3 )만 남고, 나머지 0.5는 버린다.    
 • 이런 실수를 방지하기 위하여 값을 대입 할때 주의 해야한다.    
-• 항상, 계산한 결과값이 실수 일 것을 대비하여야 한다.     
+• 항상, 계산한 결과값이 실수일 것을 대비하여야 한다.     
 • 입력값을 실수형으로 넣어 준다. ( e.g. 7.0 / 3)    
 • 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.
 {: .notice--info}    
 
 **설명:** [ Python3 ]    
-• python3 에서는 이문제를 해결 하였다.    
-• 정수 ( 7/2 ) 은 그 계산하면 3.5 로 자동 출력된다.
+• python3 에서는 이 문제를 해결 하였다.    
+• 정수 ( 7/2 ) 을 계산하면 3.5 로 자동 계산된다.
 {: .notice--info}
 
 
@@ -1253,8 +1254,8 @@ print "I am " + str(age) + " years old!"
 • Ch13. ValueError 에서는 출력시 주의할 점을 학습한다.     
 • 변수 age 는 정수 13 이 대입 되었기에 정수형 변수가 된다.     
 • 정수형 변수 age 를 문자열로 출력 하기 위해선, 함수 str()를 사용한다.    
-• 정수 변수 age를 str(age)로 바꾸면 age 는 문자열 형태로 출력된다.    
-• *주의)* 정수형 age 를 출력 할때 문자열 형태로 출력하는 것이지, age 가 문자열 형 변수가 되는것은 아니다.  
+• 정수형 변수 age 를 str(age)로 바꾸면 변수 age 는 문자열 형태로 출력된다.    
+• *주의)* 정수형 age 를 출력 할때 문자열 형태로 출력하는 것이지, age 가 문자열형 변수가 되는것은 아니다.  
 {: .notice--info}
 
 This would print:
@@ -1278,7 +1279,7 @@ int_addition = int(number1) + int(number2)
 • Python 에서는 문자형 데이타 이지만, 데이타가 숫자를 뜻하면 계산을 할수가 있다.     
 • e.g. 문자열 "4", "5.0"    
 • 단, 계산할때, 함수 int()를 사용하여 정수형으로 바꾸어 주어야 한다.     
-• *주의)* 문자형 number1 , number2를 계산 목적으로 integer 로 바꾸어 주는 것이지, number1 , number2 가 integer 형이 되는것은 아니다.  
+• *주의)* 문자형 number1 , number2를 계산 목적으로 정수형으로 바꾸어 주는 것이지,변수 number1 , number2 에 들어있는 데이타가 정수형이 되는것은 아니다.  
 {: .notice--info}
 
 If you use `int()` on a floating point number, it will round the number down. To preserve the decimal, you can use `float()`:
@@ -1314,9 +1315,9 @@ The product was X
 
 **설명:** [ Instruction ]     
 • 변수 product 를 만들어라.    
-• 그리고, 그 변수에 float_1 , float_2 곱한 값을 대입하라.  
+• 변수 product 에 변수 float_1 , float_2 곱한 값을 대입하라.  
 • 변수 big_string 를 만들어라.    
-• 그리고, 그 변수에 *The product was* + str(product) 를 대입하라.   
+• 변수 big_string 에 *The product was* + str(product) 를 대입하라.   
 {: .notice--info}
 
 <br>
@@ -1350,7 +1351,7 @@ big_string = "The product was " + str(product)
 ```
 
 **설명:** [ Solution ]     
-• float type 변수 product 를 문자열 type 으로 변환 해주고 대입한다. 
+• float 형(type) 변수 product 를 문자열 형(type) 으로 변환 해주고 대입한다. 
 {: .notice--info}
 
 
@@ -1390,7 +1391,7 @@ Great! So far we’ve looked at:
 • 사칙연산    
 • 주석처리    
 • 데이터 종류(integer, float, string, boolean)    
-• 테이터 type 변환을 공부하였다.  
+• 테이터 형(type) 변환을 공부하였다.  
 {: .notice--info}
 
 
@@ -1430,7 +1431,7 @@ with the value of `point_total` where `X` is.
 • 변수 exercises_completed 에 13 을 대입하라.        
 • 변수 points_per_exercise 에 5 를 대입하라.      
 • 변수 point_total 에  100 을 대입하라.    
-• 변수 point_total 에 변수 exercises_completed * points_per_exercise 곱한 결과 값을 더하라.     
+• 변수 point_total 에 기존 결과값 변수 point_total 값에 변수 exercises_completed * points_per_exercise 곱한 결과 값을 더하라.     
 • *The amount* 부터 *yet* 까지의 문자열을 주석 처리하라.     
 • *I got X points!* 를 콘솔창에 출력하라.    
 • 변수 X 값은 변수 point_total 값이다.
