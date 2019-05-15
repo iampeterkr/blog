@@ -18,8 +18,8 @@ This lesson will introduce you to strings and console output in Python, includin
 이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다.
 {: .notice--info}     
      
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
@@ -70,7 +70,7 @@ Strings need to be within quotes.
 
 
 **설명:** [ Hint ]     
-• 문자열을 대입할때, 양끝을 ( " " ) or ( ' ' ) 를 만들면 된다.     
+• 문자열을 대입할때, 문자열의 양끝을 따옴표 ( " " ) or ( ' ' ) 를 사용하면 된다.     
 • 아래 소스를 실행시켜 보면 아래와 같은 결과를 얻는다.
 {: .notice--info}
 
@@ -103,7 +103,7 @@ brian = "Hello life!"
 ```
 
 **설명:** [ Solution ]    
-• 문자열을 대입할때, 양 끝을 ( " " ) or ( ' ' )를 사용한다. 
+• 문자열을 대입할때, 문자열 양 끝에 따옴표 ( " " ) or ( ' ' )를 사용한다. 
 {: .notice--info}
 
 **결과**
@@ -115,7 +115,6 @@ brian = "Hello life!"
 <br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -199,7 +198,6 @@ Teresa
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 <br>
-<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
@@ -221,8 +219,8 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 
 **설명:** [ Learn ]       
 • Ch3. Escaping characters 에서는 `\` 사용법을 학습한다.    
-• 우리는 문자열을 만들때,  ( ' ' )을 사용해야 한다고 앞에서 배웠다.    
-• 가령 'There's' 라는 문자열을 만들때 Python은 ( ' ) 를 쿼터로 인식하게 된다.     
+• 우리는 문자열을 만들때, 따옴표( ' ' )를 사용해야 한다고 앞에서 배웠다.    
+• 가령 'There's' 라는 문자열을 만들때 Python은 따옴표 ( ' )를 쿼터로 인식한다.     
 • 이런 경우는 ( ' ) 가 쿼터가 아님을 표시해주는 `\` 를 앞에 둔다.    
 • Python 은 `\` 이면 다음 문자를 단순 문자로 인식한다.   
 {: .notice--info}
@@ -299,7 +297,6 @@ This isn't flying, this is falling with style!
 <p style="page-break-before: always;"></p>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -419,8 +416,8 @@ Y
 ```
 <p style="page-break-before: always;"></p>
 <br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -473,7 +470,7 @@ Let's start with `len()`, which gets the length (the number of characters) of a 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* Use the function `let()`.  
+* Use the function `len()`.  
 
 
 **설명:** [ Hint ]    
@@ -511,7 +508,6 @@ print len(parrot)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)     
 <br>
-<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
@@ -524,8 +520,9 @@ You can use the `lower()` method to get rid of all the capitalization in your st
 
 ```python
 "Ryan".lower()
+```    
 which will return "ryan".
-```
+
 
 
 **설명:** [ Learn ]     
@@ -593,7 +590,6 @@ norwegian blue
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
-<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
@@ -636,7 +632,7 @@ print parrot.lower()
 
 
 **설명:** [ Hint ]    
-• 사전에 연습한 함수 lower() 사용법을 참조하라. 
+• 이전에 연습한 함수 lower() 사용법을 참조하라. 
 {: .notice--info}
 
 <br>
@@ -667,7 +663,6 @@ NORWEGIAN BLUE
 <br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -756,7 +751,6 @@ print str(pi)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
-<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
@@ -825,7 +819,8 @@ print ministry.upper()
 
 **설명:** [ Solution ]     
 • 함수 len(ministry) 는 변수 ministry 의 길이를 반환한다.    
-• ministry.upper() 는 변수 ministry 의 문자열을 대문자로 변환한다.
+• ministry.upper() 는 변수 ministry 의 문자열을 대문자로 변환한다.    
+• *주의)* 변수 ministry 의 저장되어 있는 내용은 변하지 않는다. 
 {: .notice--info}
 
 
@@ -839,7 +834,6 @@ THE MINISTRY OF SILLY WALKS
 <br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -919,7 +913,6 @@ Monty Python
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)     
 <br>
-<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
@@ -998,7 +991,6 @@ Ping!
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
-<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
@@ -1020,7 +1012,7 @@ Combining strings together like this is called **concatenation**. Let's try conc
 **설명:** [ Learn ]      
 • Ch12. String Concatenation 에서는 문자열 연결을 학습한다.     
 • 문자열은 ( + ) 연산자를 사용하여 연결할수 있다.    
-• 문자열을 ( + ) 사용하여 연결하는것을 concatenations 이라고 한다.  
+• 문자열을 ( + ) 연산자를 사용하여 연결하는것을 concatenations 이라고 한다.  
 {: .notice--info}
 
 
@@ -1037,7 +1029,8 @@ Combining strings together like this is called **concatenation**. Let's try conc
 
 **설명:** [ Instruction ]    
 • 라인 3 에서, "Spam ", "and ", "eggs"를 연결하라.        
-• 주의할 점은 "Spam" 과 "and" 다음에 공백이 있어야 한다. 
+• 주의할 점은 "Spam" 과 "and" 문자뒤에 공백이 있어야 한다.    
+• e.g. "Spam ",   "and "
 {: .notice--info}
 
 
@@ -1050,7 +1043,7 @@ Combining strings together like this is called **concatenation**. Let's try conc
 * Make sure you include the spaces and use the correct capitalization.
 
 **설명:** [ Hint ]    
-• 문자열 "Spam"과 "and" 다음에 공백이 있다는것을 주의한다. 
+• 문자열 "Spam "과 "and " 다음에 공백이 있다는것을 주의한다. 
 {: .notice--info}
 
 <br>
@@ -1067,7 +1060,7 @@ print "Spam " + "and " + "eggs"
 ```
 
 **설명:** [ Solution ]     
-• Concatenation ( + ) 는 문자 그대로 연결시켜 준다.    
+• Concatenation( + ) 는 문자 그대로 연결시켜 준다.    
 • 임의로 공백을 주지 않으면 "Spamandeggs" 로 출력된다.    
 • 문자열 (" ") 사이에 공백을 적절히 넣어줘야 한다. 
 {: .notice--info}
@@ -1081,7 +1074,6 @@ Spam and eggs
 <br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -1104,7 +1096,7 @@ Now try it yourself!
 **설명:** [ Learn ]       
 • Ch13. Explicit String Conversion 에서는 출력시 문자열 변환을 학습한다.     
 • 문자열과 숫자를 concatenation 시킬때는 숫자를 문자열 형태로 바꿔 줘야한다.    
-• 바꿔주지 않으면 Python interpreter 는 Error를 발생시킨다. 
+• 바꿔주지 않으면 Python 해석기(interpreter)는 Error를 발생시킨다. 
 {: .notice--info}
 
 
@@ -1168,7 +1160,6 @@ The value of pi is around 3.14
 <br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -1270,7 +1261,6 @@ Let's not go to Camelot. 'Tis a silly place.
 <br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
@@ -1379,7 +1369,6 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 <br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
-<br>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
