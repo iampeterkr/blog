@@ -21,8 +21,8 @@ This lesson is a follow up to Unit 2: Strings and Console input and will give yo
 {: .notice--info}     
      
     
-<hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">DATA AND TIME</font> 
 ### 1. The datetime Library    
@@ -84,11 +84,9 @@ from datetime import datetime
 ```
 #skip
 ```    
-<p style="page-break-before: always;"></p>
+<p style="page-break-before: always;"></p>    
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
-<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 

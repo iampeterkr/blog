@@ -21,9 +21,8 @@ A function is a reusable section of code written to perform a specific task in a
 {: .notice--info}     
      
     
-<hr style="border: solid 1px #dddddd ;">
-
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
 ### 1. What Good are Functions?    
@@ -33,9 +32,9 @@ You might have considered the situation where you would like to reuse a piece of
 
 **설명:** [ Learn ]    
 • Ch1. What Good are Functions? 에서는 함수의 필요성을 학습한다.     
-• 가끔식, 자주 사용되는 기능을 반복적으로 사용할 필요성이 있다.    
-• 이런경우, 반복적으로 만들것이 아니라, 해당 기능을 함수로 만들어 놓고 재 사용한다.       
-• 코딩중 해당 기능이 필요 할때마다 불러서 사용하는 것이 현명하다.
+• 자주 사용되는 기능은 반복적으로 사용하게 된다.    
+• 이런경우, 매번 만들것이 아니라, 해당 기능을 함수로 만들어 놓고 재 사용한다.       
+• 코딩중 해당 기능이 필요시 불러서 재 사용하는 것이 현명하다.
 {: .notice--info}
 
 
@@ -116,7 +115,7 @@ With tip: 124.200000
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -132,10 +131,9 @@ def hello_world(): # There are no parameters
 ```
 
 **설명:** [ Learn ]    
-• Ch2. Function Junction 에서는 함수의 구성요소를 학습한다.      
+• Ch2. Function Junction 에서는 함수의 구성 요소를 학습한다.      
 • 함수를 사용하기 위해선 크게 3 단계의 절차로 진행된다.    
-• 첫째. 함수를 정의한다.    
-• 함수 정의는 다음과 같은 구성이 필요하다.         
+• 함수 정의 절차는 다음과 같다.         
 • - def 함수를 선언한다.    
 • - 함수 이름을 선언한다.    
 • - 함수 인자를 가진다.
@@ -149,7 +147,7 @@ def hello_world(): # There are no parameters
 ```
 
 **설명:** [ Learn ]     
-• 둘째. 함수가 하는 기능을 문자열 주석( """ """ ) 처리한다.    
+• 함수가 하는 기능을 문자열 주석( """ """ ) 처리한다.    
 {: .notice--info}
 
 
@@ -168,7 +166,7 @@ def hello_world():
 
 
 **설명:** [ Learn ]     
-• 셋째. 함수가 처리할 기능을 구현한다.     
+• 함수가 처리할 기능을 구현한다.     
 • 정의된 함수 def hello_world() 는 인자가 없다.    
 • 이 함수는 문자열 "Hello world" 를 출력한다.
 {: .notice--info}
@@ -185,8 +183,8 @@ def hello_world():
 
 **설명:** [ Instruction ]     
 • 함수 spam 을 작성하라.    
-• 함수 spam 은  "Eggs!" 를 출력하는 역할을 한다.    
-• 함수 spam 이 무슨 기능을 하는지 주석( """ """ ) 을 단다. 
+• 함수 spam 은  "Eggs!" 를 출력하는 기능을 한다.    
+• 함수 spam 이 무슨 기능을 하는지 주석( """ """ )을 사용하여 설명한다. 
 {: .notice--info}
 
 
@@ -226,7 +224,7 @@ spam()
 
 **설명:** [ Solution ]    
 • 함수 spam(): 을 선언한다.    
-• 함수 spam 내부에 어떤 기능을 처리 하는지를 문자열 주석 처리한다.    
+• 함수 spam 내부에 어떤 기능을 처리 하는지를 주석 처리한다.    
 • 함수 spam 기능, 즉 "Eggs!" 를 출력하는 기능을 구현한다. 
 {: .notice--info}
 
@@ -238,7 +236,7 @@ Eggs!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -251,8 +249,8 @@ After defining a function, it must be *called* to be implemented. In the previou
 **설명:** [ Learn ]     
 • Ch3. Call and Response 에서는 함수 호출을 학습한다.     
 • 함수를 사용하기 위해선, 먼저 함수 선언을 해야 한다.    
-• 함수 선언이 되어 있으면, 해당 함수를 호출 한다.    
-• 함수는 호출을 받으면, 해당 함수가 실행하고, 실행 결과값을 처음 호출한 곳으로 반환한다.
+• 함수 선언이 되어 있으면, 해당 함수를 호출 할수 있다.    
+• 함수는 호출을 받으면, 해당 함수가 실행되고, 실행 결과값을 처음 호출한 곳으로 반환한다.
 {: .notice--info}
 
 
@@ -325,7 +323,7 @@ square(10)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -396,7 +394,7 @@ When using, or calling, a function, inputs into the function are called argument
 **설명:** [ Hint ]    
 • base : 37    
 • exponent : 4    
-• def power(base, exponent) 구조이다.
+• def power(base, exponent): 
 {: .notice--info}
 
 <br>
@@ -430,7 +428,7 @@ power(37, 4)  # Add your arguments here!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -450,7 +448,7 @@ def fun_two(m):
 
 **설명:** [ Learn ]      
 • Ch 5. Functions Calling Functions 에서는 함수가 함수를 호출하는것을 학습한다.    
-• 함수는 단순히 계산하고, 출력하는것 외에, 함수가 함수를 호출할 수 있다.
+• 함수는 단순히 계산하고, 출력하는것 기능 외에도, 함수가 함수를 호출할 수 있다.
 {: .notice--info}
 
 
@@ -468,9 +466,9 @@ def fun_two(m):
 **설명:** [ Instruction ]    
 • Editor 화면에 함수 2개가 있다.    
 • e.g. 함수 one_good_turn(), deserves_another().    
-• 함수 one_good_turn(n) 은 parameter 1개 n 을 받는다.    
+• 함수 one_good_turn(n) 은 parameter 1개인 n 을 받는다.    
 • 함수 one_good_turn(n) 은 n 값에 + 1 결과를 반환한다.    
-• 함수 deserves_another(n) 는 parameter 1개 n 을 받는다.    
+• 함수 deserves_another(n) 는 parameter 1개인 n 을 받는다.    
 • 함수 deserves_another(n) 는 n 값에 + 2 결과를 반환한다.    
 • 함수 deserves_another(n) 를 다음과 같이 변경하라.    
 • 함수 one_good_turn(n) 값에 + 2 결과를 반환하는 프로그램으로 변경하라.
@@ -487,7 +485,7 @@ def fun_two(m):
 
 **설명:** [ Hint ]   
 • 함수 deserves_another(n) 의 return 문을 변경한다.    
-• return 문 변수 n 자리에 함수 one_good_turn(n)를 넣어라.
+• return 문의 변수 n 자리에 함수 one_good_turn(n)를 넣어라.
 {: .notice--info}
 
 <br>
@@ -651,7 +649,7 @@ def by_three(number):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -694,7 +692,7 @@ print sqrt(25)
 • 예상과 달리, error 가 발생한다.     
 • Editor 화면에서 시도해 보라.   
 {: .notice--info}
-면
+
 
 <br>
 <hr/>
@@ -723,7 +721,7 @@ print sqrt(25)
 
 **설명:** [ Solution ]    
 • 함수 sqrt(25)의 결과 값을 출력하면 Error 가 발생한다.    
-• 이유는 함수 sqrt() 를 사용할수 있게 해주는 import 가 선언되지 않아서이다.
+• 이유는 함수 sqrt() 를 사용할수 있게 해주는 import 가 선언되지 않았기 때문이다.
 {: .notice--info}
 
 
@@ -737,7 +735,7 @@ NameError: name 'sqrt' is not defined
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -829,7 +827,7 @@ print math.sqrt(25)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -845,7 +843,7 @@ It's possible to import only certain variables or functions from a given module.
 ```python
 from module import function
 ```
-Now you can just type `sqrt()` to get the square root of a number—no more `math.sqrt()`!
+Now you can just type `sqrt()` to get the square root of a number.     no more `math.sqrt()`!
 
 
 
@@ -853,7 +851,7 @@ Now you can just type `sqrt()` to get the square root of a number—no more `mat
 
 **설명:** [ Learn ]     
 • Ch9. Function Imports 에서는 함수명을 Imports 하는것을 학습한다.     
-• 함수 sqrt()를 사용하기 위해선, import math 를 선언해 주어야 한다고 이미 배웠다.    
+• 함수 sqrt()를 사용하기 위해선, import math 를 선언해줘야 한다고 이미 배웠다.    
 • 그리고 math.sqrt() 를 사용했다.    
 • math.sqrt() 를 사용할 수도 있지만, 다른 방법도 있다.    
 • import 선언시 좀더 구체적으로 math 모듈에 대하여 자세히 선언해 주면 된다.    
@@ -913,7 +911,7 @@ from math import sqrt
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -994,7 +992,7 @@ from math import *
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1083,7 +1081,7 @@ print everything # Prints 'em all!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1172,7 +1170,7 @@ distance_from_zero(-10)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1243,7 +1241,7 @@ print maximum
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1319,7 +1317,7 @@ print minimum
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1389,7 +1387,7 @@ print absolute
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1484,7 +1482,7 @@ print type('hello')
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1591,7 +1589,7 @@ def shut_down(s):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
@@ -1672,7 +1670,7 @@ print math.sqrt(13689)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FUNCTIONS</font> 
