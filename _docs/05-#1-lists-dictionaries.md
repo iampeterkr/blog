@@ -17,14 +17,13 @@ LESSON
 Lists and dictionaries are powerful tools you can use to store, organize, and manipulate all kinds of information.
 
 **설명:** [ 학습방향 ]           
-이 장에서는 리스트와 딕셔너리에 대한 공부를 해보자.    
+이 장에서는 리스트와 딕셔너리를 학습한다.    
 이들은 모든 종류의 데이타를 저장, 구성 및 조작 하는데 활용할 수 있는 강력한 도구이다.     
 {: .notice--info}     
      
     
-<hr style="border: solid 1px #dddddd ;">
-
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
 ### 1. Introduction to Lists    
@@ -44,7 +43,7 @@ Lists are very similar to strings, but there are a few key differences
 
 
 **설명:** [ Learn ]      
-• Ch1. Introduction to Lists 에서는 리스트에 대하여 학습한다.         
+• Ch1. Introduction to Lists 에서는 리스트를 학습한다.         
 • 리스트는 각기 다른 형태의 데이타 타입을 모을 수 있다.    
 • 사용법은 다음과 같다.    
 • e.g. 리스트 변수명 = [ item_1 , item_2 ]        
@@ -124,7 +123,7 @@ The fourth animal at the zoo is the dog
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png) 
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
@@ -142,7 +141,7 @@ List indices begin with 0, not 1! You access the first item in a list like this:
 
 **설명:** [ Learn ]    
 • Ch2. Access by Index 에서는 index를 통하여 리스트에 접근하는 방법을 학습한다.    
-• 리스트는 각 항목에 주소(index)를 지정할 수 있다.    
+• 리스트는 각 항목별로 주소(index)가 배정되어 있다.    
 • 주소(index)는 0 부터 시작한다.
 {: .notice--info}
 
@@ -263,11 +262,11 @@ zoo_animals[2] = "hyena"
 ``` 
 
 **설명:** [ Learn ]     
-• Ch3. New Neighbors 에서는 리스트의 항목값을 주소(index)를 이용하여 변경해 보자.    
-• 리스트 zoo_animals의 index 값을 지정하면 다음 예와 같다.    
+• Ch3. New Neighbors 에서는 리스트 항목값을 주소(index)를 이용하여 변경하는것을 학습한다.    
+• 리스트 zoo_animals 의 index 값을 지정하면 다음 예와 같다.    
 • e.g. zoo_animals[0]        
 • 리스트 zoo_animals[0] 의 항목값 *pangolin* 을 읽을 수 있다.    
-• 리스트 zoo_animals[2] = "hyena" 로 대입하면, 원래 *sloth* 을 *hyena*로 변경된다.
+• 리스트 zoo_animals[2] = "hyena" 로 대입하면, 원래 *sloth* 을 *hyena* 로 변경된다.
 {: .notice--info}
 
 
@@ -298,7 +297,7 @@ zoo_animals[2] = "hyena"
 
 **설명:** [ Hint ]    
 • 주소(index)는 0 부터 시작한다.     
-• 4번째 항목값은 index 3 이다.  
+• 4번째 항목값은 index 값이 3 이다.  
 {: .notice--info}
 
 <br>
@@ -322,7 +321,7 @@ zoo_animals[3] = "lion"
 ```
 
 **설명:** [ Solution ]     
-• 리스트 zoo_animals[3] 의 항목값 *tiger* 를 *lion* 으로 바꿨다.
+• 리스트 zoo_animals[3] 의 항목값 *tiger* 를 *lion* 으로 변경했다.
 {: .notice--info}
 
 
@@ -334,7 +333,7 @@ zoo_animals[3] = "lion"
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)  
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>     
@@ -360,7 +359,7 @@ print letters
 • Ch4. Late Arrivals & List Length 에서는 리스트에 항목을 추가하는 방법을 학습한다.    
 • 리스트 letters 를 만든다.    
 • 리스트 letters 에 항목값으로  'a', 'b', 'c' 를 넣는다.    
-• 문자열 'd' 를 .append()를 사용하여, 리스트 letters 의 마지막 위치에 추가한다.    
+• 문자열 'd' 를 메소드 .append()를 사용하여, 리스트 letters 의 마지막 위치에 추가한다.    
 • 리스트 letters 의 길이를 내장 함수 len() 을 사용하여 계산후 출력한다.  
 • 리스트 letters 의 전체 값을 출력한다. 
 {: .notice--info}
@@ -379,7 +378,7 @@ print letters
 
 **설명:** [ Instruction ]    
 • Editor 화면 5, 6, 7 라인에서 리스트 suitcase 에 3개 이상의 항목값을 추가하라.    
-• 리스트에 .append() 사용하라.    
+• 리스트에 메소드 .append() 사용하라.    
 • 변수 list_length 에 리스트 suitcase 의 길이를 함수 len()을 사용하여 저장하라.
 {: .notice--info}
 
@@ -443,7 +442,7 @@ There are 4 items in the suitcase.
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
@@ -471,7 +470,7 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 
 
 **설명:** [ Learn ]     
-• Ch5. List Slicing 에서는 문자열의 특정 범위를 잘라내는 법을 학습한다.        
+• Ch5. List Slicing 에서는 문자열의 특정 범위를 잘라내는 방법을 학습한다.        
 • 리스트 letters 의 특정 항목값 'b', 'c' 만 추출 하려면 어떻게 해야 할까?    
 • 첫번째 방법은, 해당 문자열의 index 값을 지정해서 추출할 수 있다.    
 • e.g. letters[1]        
@@ -562,7 +561,7 @@ last = suitcase[4:6]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>     
@@ -586,7 +585,7 @@ If your list slice includes the very first or last item in a list (or a string),
 • 문자열도 각 알파벳마다 index가 부여되어 있다.     
 • 문자열도 각 index 값으로 잘라 낼수 있다.     
 • my_list[ : 2] 는 처음부터 index 2번(미포함)까지 잘라낸다.(처음부터 2번째까지)    
-• my_list[3 : ] 는 index 3번(포함)부터 끝까지 잘라냄.(4번째 항목부터 끝까지)
+• my_list[3 : ] 는 index 3번(포함)부터 끝까지 잘라낸다.(4번째 항목부터 끝까지)
 {: .notice--info}
 
 
@@ -644,9 +643,9 @@ frog = animals[6:]
 ```
 
 **설명:** [ Solution ]              
-• animals[ : 3] 은 index 0(포함)부터 index 3(미포함)까지 잘라냄.(e.g. 'cat')    
-• animals[3 : 6] 은 index 3(포함)부터 index 6(미포함)까지 잘라냄.(e.g. 'dog')    
-• anmals[6 : ] 은 index 6(포함) 부터 끝까지 잘라냄. (e.g. 'frog')
+• animals[ : 3] 은 index 0(포함)부터 index 3(미포함)까지 잘라낸다.(e.g. 'cat')    
+• animals[3 : 6] 은 index 3(포함)부터 index 6(미포함)까지 잘라낸다.(e.g. 'dog')    
+• anmals[6 : ] 은 index 6(포함) 부터 끝까지 잘라낸다. (e.g. 'frog')
 {: .notice--info}
 
 
@@ -658,7 +657,7 @@ frog = animals[6:]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
@@ -691,7 +690,7 @@ print animals
 
 
 **설명:** [ Learn ]     
-• Ch7. Maintaining Order 에서는 리스트 특정 index에 항목을 추가하는 법을 학습한다.    
+• Ch7. Maintaining Order 에서는 리스트의 특정 index에 항목을 추가하는 방법을 학습한다.    
 • 리스트 animals 에 3개의 문자열 *ant*, *bat*, *cat* 이 들어 있다.     
 • 리스트 animals 의 index 1번 자리에 *dog* 를 추가하려면 다음과 같이 한다.    
 • e.g. animals.insert(1, "dog")    
@@ -711,8 +710,8 @@ print animals
 
 
 **설명:** [ Instruction ]              
-• 리스트 animals 에서 *duck* 의 index 값을 알아 내어라.     
-• 해당 항목의 index 값은 메서드 .index("duck") 를 사용한다.    
+• 리스트 animals 에서 *duck* 의 index 값을 찾아라.     
+• 해당 항목의 index 값은 메서드 .index("duck") 를 사용하여 찾는다.    
 • 항목값 *duck* 의 index 값을 변수 duck_index 에 저장하라.   
 • 리스트 animals 의 문자열 *duck* 의 index 자리에 *cobra* 추가하라.    
 • 메서드 .insert(index, item) 을 활용하여 추가하라.
@@ -755,7 +754,7 @@ print animals # Observe what prints after the insert operation
 
 **설명:** [ Solution ]          
 • 리스트 animals 에서 *duck*의 index 값은 2 이다.    
-• duck_index = 값에 2가 저장된다.    
+• 변수 duck_index 에 *duck* 의 index 값 2가 저장된다.    
 • index 2 번 자리에 문자열 *cobra*를 삽입한다.    
 • e.g. animals.insert(duck_index, "cobra")    
 • 변수 animals 를 출력한다.    
@@ -772,7 +771,7 @@ print animals # Observe what prints after the insert operation
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>     
@@ -870,7 +869,7 @@ for number in my_list:
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>     
@@ -981,7 +980,7 @@ print square_list
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
@@ -1003,11 +1002,11 @@ Dictionaries are great for things like phone books (pairing a name with a phone 
 **설명:** [ Learn ]      
 • Ch10. This Next Part is Key 에서는 딕셔너리에 대하여 학습한다.    
 • 딕셔너리는 리스트와 비슷하다.     
-• 리스트는 눈에 보이지 않는 인덱스를 가지고 해당 항목(값)을 나타낸다.    
+• 리스트는 눈에 보이지 않는 index를 가지고 해당 항목(값)을 나타낸다.    
 • 딕셔너리는 key 를 이용하여 해당 항목(값)을 나타낸다.     
 • e.g. 딕셔너리 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}     
 • 딕셔너리 항목(값)은 ( key : value ) 쌍으로 구성되어 있다.    
-• 'key1' 을 키(key)라고 부르면 이와 매칭되는 값 1 을 값(value)이라 부른다.    
+• 'key1' 을 키(key)라고 부르며, 이와 매칭되는 값 1 을 값(value)이라 부른다.    
 • key 는 문자열, 숫자 모두 사용 가능하다.    
 • key 와 value 는 한 쌍이다.    
 • key 는 중복된 이름을 가질수 없다.       
@@ -1088,7 +1087,7 @@ print residents['Burmese Python']
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
@@ -1119,7 +1118,7 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 • e.g. dict_name = {}    
 • 리스트 초기화와 구별하자.    
 • e.g. list_name = []         
-• 함수 len() 를 사용하여, 딕셔너리의 쌍의 갯수가 몇개인지 알 수 있다.    
+• 내장함수 len() 를 사용하여, 딕셔너리의 쌍의 갯수가 몇개인지 알 수 있다.    
 • key/value 는 1:1 매칭이다.     
 • value 의 값은 리스트 형(type)이기에, key1:[list1, list2] 와 같이 사용할 수 있다. 
 {: .notice--info}
@@ -1196,7 +1195,7 @@ There are 4 items on the menu.
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font>    
@@ -1243,7 +1242,7 @@ dict_name[key] = new_value
 **설명:** [ Instruction ]          
 • 딕셔너리의 key 값이 'Sloth', 'Bengal Tiger'인 항목(값)을 삭제하라.    
 • 삭제는 명령어 del 을 사용하라.    
-• 딕셔너리의 key 값 'Rockhopper Penguin' 의 value 인 'Arctic Exhibit'을 'Plains Exhibit' 으로 변경하라.
+• 딕셔너리의 key 값 'Rockhopper Penguin' 의 value(값) 'Arctic Exhibit'을 'Plains Exhibit' 으로 변경하라.
 {: .notice--info}
 
 
@@ -1302,7 +1301,7 @@ print zoo_animals
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
@@ -1387,7 +1386,7 @@ backpack.remove('dagger')
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON LISTS AND DICTIONARIES</font> 
@@ -1416,10 +1415,10 @@ print my_dict["fish"][0]
 **설명:** [ Learn ]       
 • Ch14. It's Dangerous to Go Alone! Take This 에서는 딕셔너리를 복습한다.    
 • 딕셔너리에 대하여 전체적으로 정리해 보자.     
-• key 'fish' 는 value 를 리스트로 가진다.    
+• key 'fish' 는 value 로 리스트를 가진다.    
 • key 'cash' 는 value 로 숫자를 가진다.    
 • key 'luck' 는 value 로 문자열을 가진다.        
-• 문자 'c' 를 출력하기 위해선, key 가 'fish'이면서, value(값)인 리스트 인덱스 값이 0 인 것을 출력한다. 
+• 문자 'c' 를 출력하기 위해선, key 가 'fish'이면서, value(값)가 리스트의 인덱스 값 0 인 것을 출력한다. 
 {: .notice--info}
 
 
@@ -1445,10 +1444,10 @@ print my_dict["fish"][0]
 **설명:** [ Instruction ]          
 • 딕셔너리에 inventory 에 key 'pocket' 를 추가하라.      
 • key 'pocket' 의 value 에는 리스트 ['seashell', 'strange berry', 'lint']를 저장하라.    
-• key 'backpack' 의 value 를 .sort() 를 사용하여 정렬하라.    
-• key 'backpack' 의 value 값인 리스트 중에서 'dagger' 를 삭제하라.    
+• key 'backpack' 의 value 를 메소드 .sort() 를 사용하여 정렬하라.    
+• key 'backpack' 의 value(값)인 리스트 중에서 'dagger' 를 삭제하라.    
 • 메소드 .remove('dagger') 를 사용하여 삭제하라.    
-• key 'gold' 에 value 값 500에 50 을 더하라.    
+• key 'gold' 에 value(값) 500에 50 을 더하라.    
 • 마지막에 출력하라.
 {: .notice--info}
 
@@ -1474,7 +1473,7 @@ inventory['backpack'].remove('dagger')
 **설명:** [ Hint ]     
 • 딕셔너리의 value가 리스트인 것의 값을 삭제하는 방법은 다음과 같다.    
 • e.g. inventory['backpack'].remove('dagger')      
-• 주의, add 50 은 기존 값에다 추가로 더하는 것이다.(항목을 리스트로 만드는것이 아니다.) 
+• 주의) add 50 은 기존 값(500)에 추가로 더하는 것이다.(항목을 리스트로 만드는것이 아니다.) 
 {: .notice--info}
 
 
@@ -1508,13 +1507,13 @@ print (inventory)
 ```
 
 **설명:** [ Solution ]    
-• 리스트 inventory['pocket'] 의 value 로 리스트 ['seashell', 'strange berry', 'lint'] 를 대입하였다.    
-• 리스트 inventory['backpack'] 의 value 인 리스트를 정렬 하였다.    
+• 리스트 inventory['pocket'] 의 value(값)로 리스트 ['seashell', 'strange berry', 'lint'] 를 대입하였다.    
+• 리스트 inventory['backpack'] 의 value(값)인 리스트를 정렬 하였다.    
 • 정렬은 메소드 .sort() 를 사용하였다.    
 • e.g. inventory['backpack'].sort()         
-• 삭제는 inventory['backpack'] 의 value 인 리스트 'dagger'를 지정해서 삭제했다.   
+• 삭제는 inventory['backpack'] 의 value(값)인 리스트 'dagger'를 지정해서 삭제했다.   
 • e.g. inventory['backpack'].remove('dagger')    
-• 추가는 리스트의 key 값을 지정하여 value 를 변경할 수 있다.    
+• 추가는 리스트의 key 값을 지정하여 value(값)를 변경할 수 있다.    
 • e.g. inventory['gold'] = inventory['gold'] + 50     
 • key 'gold' 의 원래 value 값 500 에 추가로 50을 추가한다. 
 {: .notice--info}
