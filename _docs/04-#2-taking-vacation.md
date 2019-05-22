@@ -17,13 +17,13 @@ Hard day at work? Rough day at school? Take a load off with a programming vacati
 
 
 **설명:** [ 학습방향 ]     
-이 장에서는 여행의 경비를 계산해주는 관련 함수를 만들어 보면서, 여러 함수를 만드는 연습을 통하여 함수에 대한 개념과 사용법에 대하여 익숙해지자.
+이 장에서는 여행의 경비를 계산해주는 함수를 만들어 보면서, 관련 함수를 만드는 연습을 통하여 함수에 대한 개념과 사용법에 대하여 익숙해지자.
 {: .notice--info}     
      
 
     
-<hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
 ### 1. Before We Begin   
@@ -48,8 +48,8 @@ In the example above:
 
 **설명:** [ Learn ]    
 • Ch1. Before We Begin 는 내장함수(built-in) max() 를 학습한다.    
-• 함수 bigger()  는 arguments 값으로 first 와 second 를 가진다.    
-• 그리고 built-in 함수인 max() 사용하여 first 와 second  두 값을 비교한다.    
+• 함수 bigger() 는 arguments 값으로 first 와 second 를 가진다.    
+• 그리고 built-in 함수인 max() 사용하여 first 와 second 두 값을 비교한다.    
 • 함수 max() 는 두 값을 비교하여 큰 값을 출력한다.    
 • 정상적 동작을 완료하면, 함수는 True 값을 반환한다.    
 • 지금부터 각자의 함수를 만들어 보자.
@@ -112,7 +112,7 @@ def answer():
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
@@ -133,7 +133,7 @@ Let's use functions to calculate your trip's costs.
 
 **설명:** [ Learn ]    
 • Ch2. Planning Your Trip 에서는 함수 wages() 를 학습한다.    
-• 여행중 예상되는 비용을 계산해주는 프로그램을 짠다고 가정해 보자.     
+• 예상 여행비용을 계산해주는 프로그램을 만든다고 가정해 보자.     
 • 여행 비용을 계산해주는 함수 wages() 를 위와 같이 만들수 있다.    
 {: .notice--info}
 
@@ -195,7 +195,7 @@ def hotel_cost(nights):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font>    
@@ -299,7 +299,7 @@ def plane_ride_cost(city):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
@@ -431,7 +431,7 @@ def rental_car_cost(days):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
@@ -543,7 +543,7 @@ def trip_cost(city, days):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
@@ -635,7 +635,7 @@ def trip_cost(city, days, spending_money):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">TAKING A VACATION</font> 
@@ -734,7 +734,7 @@ print trip_cost("Los Angeles", 5, 600)
 ```
 
 **설명:** [ Solution ]    
-• 함수 trip_cost()를 arguments 값 "Lost Angelse", 5, 600 을 직접 입력하였다.    
+• 함수 trip_cost()의 arguments 값으로 "Lost Angelse", 5, 600 을 직접 입력하였다.    
 • print 문을 사용하여 함수 trip_cost()의 결과값을 출력하였다.
 {: .notice--info}
 
