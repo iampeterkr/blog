@@ -869,7 +869,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 
 
 **설명:** [ Hint ]          
-• 함수 range() 를 사용한다. 
+• 내부 함수 range() 를 사용한다. 
 {: .notice--info}
 
 <br>

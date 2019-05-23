@@ -23,8 +23,8 @@ Now that you've learned about lists, let's turbo-charge them with functions.
 
     
     
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
 ### 1. List accessing    
@@ -69,7 +69,7 @@ x[n]
 
 **설명:** [ Hint ]    
 • 리스트의 인덱스는 0 부터 시작한다.    
-• 첫번째 항목값에 접근 할려면 n[0] 으로 접근한다.
+• 첫번째 항목값에 접근 하려면 n[0] 으로 접근한다.
 {: .notice--info}
 
 <br>
@@ -87,8 +87,8 @@ print n[1]
 ```
 
 **설명:** [ Solution ]          
-• 리스트 n 의 항목값 3 에 접근할려면, n[1]로 접근해야 한다.     
-• 접근한 후 n[1]의 항목값 3을 출력한다.
+• 리스트 n 의 항목값 3 에 접근할려면, n[1] 로 접근해야 한다.     
+• 접근한 후 n[1] 의 항목값 3을 출력한다.
 {: .notice--info}
 
 
@@ -99,7 +99,7 @@ print n[1]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -129,7 +129,7 @@ You've already learned how to modify elements of a list in a previous section. T
 
 
 **설명:** [ Instruction ]          
-• 3 라인에서, 두번째 항목값 3 에 5배를 곱한 값(e.g. 3 x 5 )으로 변경하라.    
+• 3 라인에서, 두번째 항목값 3 에 5를 곱한 값(e.g. 3 x 5 )으로 변경하라.    
 • 변경 작업이 완료되면 해당 항목을 출력하라.
 {: .notice--info}
 
@@ -173,7 +173,7 @@ print n
 **설명:** [ Solution ]          
 • 인덱스 1번(두번째값) 자리 n[1] 에 값 5를 곱한다. (e.g. n[1] * 5)    
 • 리스트 n 을 출력한다.    
-• 2번째 항목(n[1])만 곱하기 5를 한 결과값 15로 변경된다.
+• 출력 결과를 보면, 2번째 항목(n[1])만 곱하기 5를 한 결과값 15로 변경된다.
 {: .notice--info}
 
 
@@ -184,7 +184,7 @@ print n
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -210,7 +210,7 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 
 
 **설명:** [ Instruction ]          
-• 리스트 n 마지막 자리에 정수 4를 추가하라.  
+• 리스트 n 마지막 자리에 정수 4 를 추가하라.  
 {: .notice--info}
 
 
@@ -258,7 +258,7 @@ print n
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -304,7 +304,8 @@ print n
 • n.remove(1)에서 1이 여러개 있으면 첫번째 값 1만 삭제된다.             
 • del(n[1]) index 값 1 위치에 해당하는 값이 삭제 된다.     
 • 주의, del(n[1])은 결과값이 return 안된다.     
-• e.g. print del(n[0]) 사용불가.(이유는 삭제한 결과값이 없기에 print를 할수 없다.)
+• e.g. print del(n[0]) 사용불가.    
+• (사용불가 이유는 삭제한 결과값이 없기에 print 를 할수 없다.)
 {: .notice--info}
 
 
@@ -318,7 +319,7 @@ print n
 
 
 **설명:** [ Instruction ]          
-• 리스트 n 를 .pop(), .remove(), .del() 중 하나를 사용하여 첫번째 값을 지워라.
+• 리스트 n 를 .pop(), .remove(), del() 중 하나를 사용하여 첫번째 값을 지워라.
 {: .notice--info}
 
 
@@ -370,7 +371,7 @@ print n
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -381,8 +382,8 @@ In this exercise, you will just be making a minor change to a function to change
 
 
 **설명:** [ Learn ]          
-• Ch5. Changing the functionality of a function 에서는 함수를 강화한다.    
-• 함수를 조금 변경해 봄으로써, 함수 연습을 한다.
+• Ch5. Changing the functionality of a function 에서는 함수 변경을 학습한다.    
+• 함수를 조금 변경해 봄으로써, 함수 사용에 익슥해진다.
 {: .notice--info}
 
 
@@ -397,7 +398,7 @@ In this exercise, you will just be making a minor change to a function to change
 
 **설명:** [ Instruction ]          
 • Editor 화면에 작성되어 있는 함수를 변경하라.    
-• 이 함수는 입력값에 값 3을 곱한 결과값을 반환한다. 
+• 이 함수는 입력값에 값 3 을 곱한 결과값을 반환한다. 
 {: .notice--info}
 
 
@@ -430,8 +431,8 @@ print my_function(number)
 ```
 
 **설명:** [ Solution ]          
-• 함수 my_function(x)은 입력값 x 를 값 3을 곱한 결과를 반환한다.     
-• 함수 my_function(number)를 호출하여 출력한다.
+• 함수 my_function(x) 은 입력값 x 에 곱하기 3 을 한 결과를 반환한다.     
+• 함수 my_function(number) 를 호출하여 출력한다.
 {: .notice--info}
 
 
@@ -443,7 +444,7 @@ print my_function(number)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -454,7 +455,7 @@ This exercise will recap how to use more than one argument in a function.
 
 
 **설명:** [ Learn ]     
-• Ch6. More than one argument 에서는 1개 이상의 arguments를 학습한다.    
+• Ch6. More than one argument 에서는 1개 이상의 arguments 를 학습한다.    
 {: .notice--info}
 
 
@@ -468,8 +469,8 @@ This exercise will recap how to use more than one argument in a function.
 
 
 **설명:** [ Instruction ]          
-• 함수 add_function(x, y)를 정의하라.    
-• 함수 add_function()은 parameter로 x 와 y 를 가진다.  
+• 함수 add_function(x, y) 를 정의하라.    
+• 함수 add_function() 은 parameter 값으로 x 와 y 를 가진다.  
 {: .notice--info}
 
 
@@ -510,8 +511,8 @@ print add_function(m, n)
 ```
 
 **설명:** [ Solution ]     
-• 함수 add_function(x, y)는 입력값 x 와 y 의 합을 반환(return)한다.    
-• 함수 add_function(m, n)을 입력한후, 반환값을 출력한다.    
+• 함수 add_function(x, y) 는 입력값 x 와 y 의 합을 반환(return)한다.    
+• 함수 add_function(m, n) 을 입력한 후, 반환값을 출력한다.    
 • 입력값 m = 5 , n = 13 이다.
 {: .notice--info}
 
@@ -524,7 +525,7 @@ print add_function(m, n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -549,9 +550,9 @@ This is a basic recap on using strings in functions.
 
 
 **설명:** [ Instruction ]          
-• 함수 string_function(s)를 작성하라.    
-• 이 함수는 스트링 parameter s 를 가진다.    
-• 입력받은 문자열 변수 s 에 문자열 *world* 를 덧붙이고 그 결괄를 반환한다.    
+• 함수 string_function(s) 를 작성하라.    
+• 이 함수는 스트링형 parameter 값으로 s 를 가진다.    
+• 입력받은 문자열 변수 s 에 문자열 *world* 를 덧붙이고 그 결과를 반환한다.    
 • 문자열 *world* 앞에 스페이스는 없다.
 {: .notice--info}
 
@@ -605,7 +606,7 @@ Helloworld
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -632,7 +633,7 @@ You pass a list to a function the same way you pass any other argument to a func
 
 **설명:** [ Instruction ]    
 • Run 을 클릭하여 소스를 실행시켜 보자.    
-• 함수의 arguments로 리스트를 사용하여 호출한다.    
+• 함수의 arguments 로 리스트를 사용하여 호출한다.    
 • 리스트에는 숫자와 문자열을 사용한다.
 {: .notice--info}
 
@@ -667,7 +668,7 @@ print list_function(n)
 **설명:** [ Solution ]          
 • 함수 list_function(n) 을 호출하였다.    
 • 함수의 입력값 리스트 n 은 숫자 3, 5, 7 을 가지고 있다.    
-• 함수 list_function(x): 는 입력 받은 리스트를 그대로 반환(return) 한다.
+• 함수 list_function(x) 는 입력 받은 리스트를 그대로 반환(return) 한다.
 {: .notice--info}
 
 
@@ -679,7 +680,7 @@ print list_function(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -705,11 +706,11 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 
 **설명:** [ Learn ]          
 • Ch9. Using an element from a list in a function 에서는 함수에 입력된 값을 관리하는 법을 학습한다.    
-• 함수 first_item(numbers)를 호출한다.    
+• 함수 first_item(numbers) 를 호출한다.    
 • 입력값 리스트 numbers = [2, 7, 9] 가 입력된다.    
-• 정의된 함수 first_item(numbers)는, parameter로 numbers 를 가진다.    
+• 정의된 함수 first_item(numbers) 는, parameter 값으로 numbers 를 가진다.    
 • numbers 에는 [2, 7, 9] 가 입력된다.    
-• 함수 기능에서, 리스트 items[0] 첫번째 index 값은 2 가 출력된다.
+• 함수 기능에서, 리스트 items[0]의 첫번째 index 값은 2 가 출력된다.
 {: .notice--info}
 
 
@@ -724,7 +725,7 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 
 **설명:** [ Instruction ]          
 • 함수 list_function(x) 의 기능을 다음과 같이 변경하라.    
-• 입력 받은 x 의 1번 index 값을 출력하는 기능으로 바꿔라.   
+• 입력받은 x 의 1 번 index 값을 출력하는 기능으로 바꿔라.   
 {: .notice--info}
 
 
@@ -759,8 +760,8 @@ print list_function(n)
 **설명:** [ Solution ]          
 • 함수 list_function(n) 을 호출한다.    
 • 입력값 리스트 n = [3,5,7] 이 입력된다.    
-• 함수 list_function(x):는 입력된 리스트 x 의 1번 index 를 반환한다.    
-• 함수 list_function(n)의 결과값이 출력된다.    
+• 함수 list_function(x) 는 입력된 리스트 x 의 1 번 index 를 반환한다.    
+• 함수 list_function(n) 의 결과값이 출력된다.    
 • e.g. print list_function(n)
 {: .notice--info}
 
@@ -773,7 +774,7 @@ print list_function(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -856,12 +857,12 @@ print list_function(n)
 
 **설명:** [ Solution ]          
 • 함수 list_funciton(n) 을 호출한다.    
-• 입력값 리스트 n 은 [3, 5, 7]이 입력된다.    
-• 함수 list_function(x)는 다음과 같이 동작한다.    
-• 입력받은 리스트 x 의 1번 index 에 값 3 을 더한다.    
+• 입력값 리스트 n 은 [3, 5, 7] 이 입력된다.    
+• 함수 list_function(x) 는 다음과 같이 동작한다.    
+• 입력받은 리스트 x 의 1 번 index 에 값 3 을 더한다.    
 • 그리고, 그 결과값을 x[1] 에 다시 저정한다.        
 • 리스트 x 를 반환(return)한다.     
-• 함수 list_function(n)의 결과값을 출력한다.    
+• 함수 list_function(n) 의 결과값을 출력한다.    
 • e.g. print list_function(n)
 {: .notice--info}
 
@@ -874,7 +875,7 @@ print list_function(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -927,7 +928,7 @@ The example above is just a reminder of how to append items to a list.
 
 
 **설명:** [ Hint ]          
-• 앞자에서 배운 메서드 .append() 를 사용한다.
+• 앞장에서 배운 메서드 .append() 를 사용한다.
 {: .notice--info}
 
 <br>
@@ -949,12 +950,12 @@ print list_extender(n)
 ```
 
 **설명:** [ Solution ]          
-• 함수 list_extender(n) 을 호출한다.    
+• 함수 list_extender(n) 를 호출한다.    
 • 입력값은 리스트 n = [3, 5, 7] 이다.    
 • 정의된 함수 list_extender(lst) 는 다음과 같이 동작한다.    
-• 입력받은 lst 에 메서드 lst.append(9) 사용하여 값 9를 리스트에 추가한다.    
+• 입력받은 lst 에 메서드 lst.append(9) 사용하여 값 9 를 리스트에 추가한다.    
 • 최종 리스트 lst 를 반환(return)한다.    
-• 호출한 함수 lst_extender(n)의 반환된 결과값을 출력한다.
+• 호출한 함수 lst_extender(n) 의 반환된 결과값을 출력한다.
 {: .notice--info}
 
 
@@ -966,7 +967,7 @@ print list_extender(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -981,7 +982,7 @@ Don't worry about the range function quite yet—we'll explain it later in this 
 
 
 **설명:** [ Learn ]          
-• Ch12. Printing out a list item by item in a function 에서는 함수안에서 for 문을 사용하여 입력받은 리스트의 항목값들을 활용하는 방법을 학습한다.
+• Ch12. Printing out a list item by item in a function 에서는 함수 안에서 for 문을 사용하여 입력받은 리스트의 항목 값들을 활용하는 방법을 학습한다.
 {: .notice--info}
 
 
@@ -999,7 +1000,7 @@ Don't worry about the range function quite yet—we'll explain it later in this 
 
 **설명:** [ Instruction ]          
 • 함수 print_list(x) 를 정의하라.     
-• 함수 print_list(x) 는 리스트 x 를 parameter로 가진다.    
+• 함수 print_list(x) 는 리스트 x 를 parameter 로 가진다.    
 • 함수 내부 기능은, 리스트의 항목을 하나씩 출력한다.    
 • Editor 화면에 있는 기존 코드를 변경하라.     
 • argument n 을 가진 함수를 호출하라.
@@ -1038,9 +1039,9 @@ print_list(n)
 **설명:** [ Solution ]          
 • 함수 print_list(n) 을 호출한다.    
 • 입력값 n = [ 3, 5, 7] 이다.     
-• 정의된 함수 print_list(x):는 다음과 같이 동작한다.    
-• 입력받은 리스트 x 의 함수 len(x)으로 길이를 구한다.    
-• 함수 range(0, len(x))를 호출하여, 리스트의 index 갯수를 구한다.    
+• 정의된 함수 print_list(x) 는 다음과 같이 동작한다.    
+• 입력받은 리스트 x 의 함수 len(x) 으로 길이를 구한다.    
+• 함수 range(0, len(x)) 를 호출하여, 리스트의 index 갯수를 구한다.    
 • for 문으로 리스트의 항목의 index 값을 하나씩 추출하여 변수 i 에 저장한다.     
 • 리스트 x 의 index 주소에 해당하는 항목을 출력한다.( e.g. print x[i] )
 {: .notice--info}
@@ -1056,7 +1057,7 @@ print_list(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -1086,7 +1087,7 @@ This exercise shows how to modify each element in a list. It is useful to do so 
 **설명:** [ Instruction ]          
 • 함수 double_list() 를 만들어라.    
 • 이 함수는 argument  x 를 가진다.    
-• 이 함수의 기능은 입력받은 리스트의 각 항목값에 값 2를 곱한 결과를 반환한다.    
+• 이 함수의 기능은 입력받은 리스트의 각 항목값에 값 2 를 곱한 결과를 반환한다.    
 • Editor 화면에 미리 작성되어 있는 코드를 재활용하여 작성하라.     
 {: .notice--info}
 
@@ -1124,16 +1125,16 @@ print double_list(n)
 **설명:** [ Solution ]          
 • 함수 double_list(n) 을 호출한다.    
 • 함수는 arguments 인 n = [3, 5, 7] 을 가진다.    
-• 정의된 함수 double_list(x):는 parameter 로 리스트 x 를 가진다.     
+• 정의된 함수 double_list(x) 는 parameter 로 리스트 x 를 가진다.     
 • 이 함수는 다음과 같은 기능을 가진다.    
 • 입력받은 리스트 x 의 길이를 함수 len(x) 를 사용하여 계산한다.    
 • 리스트 x 의 길이 만큼 index 값을 산출한다. (e.g. range(0, len(x)))    
 • for 문에서 리스트 x 의 index 값을 하나씩 추출한다.    
 • 추출한 값을 변수 i 에 저장한다.    
-• 리스트 x 의 i 번째 항목값에 값 2를 곱한다. (e.g. x[i] * 2)    
-• 값 2를 곱한 결과를, 다시 리스트 x[i] 에 저장한다.    
+• 리스트 x 의 i 번째 항목값에 값 2 를 곱한다. (e.g. x[i] * 2)    
+• 값 2 를 곱한 결과를, 다시 리스트 x[i] 에 저장한다.    
 • 리스트 x 를 반환한다.    
-• 함수 double_list(n)을 호출하고 받은 결과값을 출력한다.
+• 함수 double_list(n) 을 호출하고 받은 결과값을 출력한다.
 {: .notice--info}
 
 
@@ -1144,7 +1145,7 @@ print double_list(n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -1173,36 +1174,37 @@ If omitted, start defaults to 0 and step defaults to 1.
 
 
 **설명:** [ Learn ]          
-• Ch14. Passing a range into a function 에서는 함수 range() 사용법을 학습한다.    
-• 함수 range() 는 1 ~ 3 개의 arguments를 가진다.     
+• Ch14. Passing a range into a function 에서는 내부 함수 range() 사용법을 학습한다.    
+• 내부 함수 range() 는 1 ~ 3 개의 arguments 를 가진다.     
 • ---------------------     
 • Arguments (1)    
 • 사용법 : range(stop)     
-• 설명 : e.g. range(6) 는 index 6번 까지 리스트를 생성한다. (6은 미포함)    
+• 설명 : e.g. range(6) 는 index 6 번까지 리스트를 생성한다. (6은 미포함)    
 • 결과 : [0,1,2,3,4,5]    
 • ---------------------      
 • Arguments (2)    
 • 사용법 : range(start, stop)     
-• 설명 : e.g. range(1, 6) 는 index 1번 부터 6번 까지 리스트 생성. (6은 미포함)    
+• 설명 : e.g. range(1, 6) 는 index 1 번 부터 6 번까지 리스트 생성. (6은 미포함)    
 • 결과 : [1,2,3,4,5]    
 • ---------------------      
 • Arguments (3)    
 • 사용법 : range(start, stop, step)     
-• 설명 : e.g. range(1,6,3) 는 index 1번 부터 6번 까지 리스트 생성.(6은 미포함)    
+• 설명 : e.g. range(1,6,3) 는 index 1 번 부터 6번까지 리스트 생성.(6은 미포함)    
 • 결과 : [1,4]  (단, 3칸씩 간격을 두고 생성)   
 • ---------------------      
 {: .notice--info}
 
 
 **설명:** [ Python3 ]          
-• python2와 python3 에서 range() 의 차이는 리스트를 생성할때 차이가 있다.    
-• 단순히 range(5)는 python2 와 python3는 차이가 없다.    
-• 다만, python2에서 변수 var_python2 = range(5) 를 넣으면,    
+• python2 와 python3 에서 range() 의 차이는 리스트를 생성할때 차이가 있다.    
+• 단순히 range(5) 는 python2 와 python3 는 차이가 없다.    
+• 다만, python2 에서 변수 var_python2 = range(5) 를 넣으면,    
 • 리스트 [0,1,2,3,4] 가 변수에 대입된다.       
 • python3 에서 변수 var_python3 = range(5) 를 넣으면,     
 • 리스트 [0,1,2,3,4] 가 아닌, range(0.5) 가 대입된다.    
 • python3 에서 변수에 대입 할때는 다음과 같이 대입해야 한다.    
-• e.g. var_python3 = list( range(5) )
+• e.g. var_python3 = list( range(5) )    
+• 대입하는 값이 리스트임을 명확히 알려줘야 한다.
 {: .notice--info}
 
 
@@ -1216,8 +1218,8 @@ If omitted, start defaults to 0 and step defaults to 1.
 
 
 **설명:** [ Instruction ]          
-• Editor 화면 6라인 ( ____ ) 에 [0, 1, 2]가 출력 되게하라.    
-• 함수 range() 를 사용하라.
+• Editor 화면 6라인 ( ____ ) 에 [0, 1, 2] 가 출력 되게하라.    
+• 내부 함수 range() 를 사용하라.
 {: .notice--info}
 
 
@@ -1233,7 +1235,7 @@ range(0,3,1) # [0,1,2]
 ```
 
 **설명:** [ Hint ]              
-• 함수 range() 를 사용하여 리스트 [0,1,2]를 만들어 내는 방법은 여러 가지가 있다. 
+• 내부 함수 range() 를 사용하여 리스트 [0,1,2] 를 만들어 내는 방법은 여러 가지가 있다. 
 {: .notice--info}
 
 <br>
@@ -1253,7 +1255,7 @@ print my_function(range(3)) # Add your range between the parentheses!
 ```
 
 **설명:** [ Solution ]          
-• 이 장에서는 range(3) 을 활용하여 리스트 [0, 1, 2]를 생성했다. 
+• 이 장에서는 range(3) 을 활용하여 리스트 [0, 1, 2] 를 생성했다. 
 {: .notice--info}
 
 
@@ -1264,7 +1266,7 @@ print my_function(range(3)) # Add your range between the parentheses!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -1294,7 +1296,7 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 
 **설명:** [ Learn ]          
 • Ch15. Iterating over a list in a function 에서는 리스트 자동 생성법을 학습한다.     
-• 리스트를 자동으로 생성해주는 방법에는 2가지가 있다.    
+• 리스트를 자동으로 생성 해주는 방법에는 2 가지가 있다.    
 • 1st Method : for 문을 활용. (리스트 생성: O,  변경: X)   
 • 2nd Method : indexes 활용. (리스트 생성: O,  변경: O)    
 • 본인이 편한것을 선택하여 학습한다.
@@ -1324,7 +1326,7 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 • 라인 3 에서, 함수 total(numbers) 를 만들어라.    
 • 함수 total(numbers) Parameter 는 리스트 numbers 이다.    
 • 이 함수는 다음과 같은 기능을 한다.    
-• 변수 result 를 만들고 기본 값으로 0으로 초기화 하라.    
+• 변수 result 를 만들고 기본 값으로 0 으로 초기화 하라.    
 • 리스트 생성 방법 2가지 중 하나를 선택하여 리스트를 생성하라.    
 • 리스트의 각 항목값을 변수 result 에 더하여라.      
 • 마지막으로, 변수 result 를 반환(return)하라.
@@ -1344,7 +1346,7 @@ for in range(0, len(numbers)):
 
 
 **설명:** [ Hint ]         
-• 함수 range() 를 Method 2 방법으로 사용할때, 리스트의 산출할 범위를 지정해 주어라. 
+• 내부 함수 range() 를 Method 2 방법으로 사용할때, 리스트의 산출할 범위를 지정해 주어라. 
 {: .notice--info}
 
 <br>
@@ -1365,15 +1367,15 @@ def total(numbers):
 ```
 
 **설명:** [ Solution ]          
-• 함수 total(numbers)는 입력값 리스트 numbers 값들의 합을 반환하는 함수이다.    
+• 함수 total(numbers) 는 입력값 리스트 numbers 값들의 합을 반환하는 함수이다.    
 • 변수 result 를 초기화 한다.    
 • for 문에서 다음과 같은 기능을 처리한다.    
 • 입력값 리스트 numbers 의 길이를 구한다.    
 • e.g. len(numbers)    
 • 리스트 numbers 의 index 값을 산출한다.    
 • e.g. range(0, len(numbers))    
-• 변수 i 에 리스트 numbers의 indext 값을 저장한다.    
-• 리스트 numbers[i] 의 항목값을 변수 result에 더해 준다.    
+• 변수 i 에 리스트 numbers 의 indext 값을 저장한다.    
+• 리스트 numbers[i] 의 항목값을 변수 result 에 더해 준다.    
 • for 문이 종료되어, 리스트의 모든 항목값이 더해진 결과를 반환(return)한다.
 {: .notice--info}
 
@@ -1385,7 +1387,7 @@ def total(numbers):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -1408,10 +1410,10 @@ The example above is just a reminder of the two methods for iterating over a lis
 
 **설명:** [ Learn ]          
 • Ch16. Using strings in lists in functions 에서는 리스트 항목값이 문자열인 리스트를 조작하는 방법을 학습한다.    
-• 문자열 리스트를 조작하는 방법은 2가지가 있다.    
+• 문자열 리스트를 조작하는 방법은 2 가지가 있다.    
 • Method 01 : 입력된 리스트의 항목값을 직접 출력    
 • e.g. for item in list:      
-• Method 02 : 입력된 리스트의 항목값의 index를 이용하여 출력( list[i] )
+• Method 02 : 입력된 리스트의 항목값의 index 를 이용하여 출력( list[i] )
 {: .notice--info}
 
 
@@ -1435,7 +1437,7 @@ Don't add spaces between the joined strings!
 **설명:** [ Instruction ]          
 • 함수 join_strings(words) 를 작성하라.     
 • 이 함수는 입력된 리스트의 문자열을 연결하는 기능을 가진다.     
-• 함수 내부에 변수 result 를 만들고, ( ""  )로 초기화 하라.    
+• 함수 내부에 변수 result 를 만들고, ( "" )로 초기화 하라.    
 • 입력받은 변수 words 에서 항목값을 하나씩 추출한다.    
 • 변수 result 에 추출한 항목값을 연결하여 저장하라.    
 • 마지막으로, 변수 result 값을 반환하라.
@@ -1486,12 +1488,12 @@ print join_strings(n)
 ```
 
 **설명:** [ Solution ]     
-• 함수 join_string(words): 를 정의한다.    
+• 함수 join_string(words) 를 정의한다.    
 • 이 함수는 다음과 같이 처리한다.    
 • 입력값으로 words 를 받는다.    
 • 변수 result 를 초기화 ( "" ) 한다.    
 • for 문 안에서, 입력받은 words 의 항목값을 하나씩 추출한다.    
-• 추출받은 항목값을 변수 word 에 저장한다.    
+• 추출 받은 항목값을 변수 word 에 저장한다.    
 • 변수 result 에 변수 word 를 저장한다.    
 • for 문을 빠져나오면, 변수 result 를 반환한다.
 {: .notice--info}
@@ -1504,7 +1506,7 @@ MichaelLieberman
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -1522,8 +1524,8 @@ The example above is just a reminder of how to concatenate two lists.
 
 
 **설명:** [ Learn ]          
-• Ch17. Using two lists as two arguments in a function 에서는 2개의 리스트를 사용하는 방법을 학습한다.     
-• 2개의 리스트를 합치는 방법은 이미 앞에서 배웠다.
+• Ch17. Using two lists as two arguments in a function 에서는 2 개의 리스트를 사용하는 방법을 학습한다.     
+• 2 개의 리스트를 합치는 방법은 이미 앞에서 배웠다.
 {: .notice--info}
 
 
@@ -1542,7 +1544,7 @@ Inside that function, **return the result** of concatenating `x` and `y` togethe
 
 **설명:** [ Instruction ]          
 • 함수 join_lists(x, y) 작성하라.    
-• 함수 join_lists(x, y) 는 리스트인 2개의 arguments 를 가진다.    
+• 함수 join_lists(x, y) 는 리스트인 2 개의 arguments 를 가진다.    
 • 함수 내부에서 x, y 를 연결하여 결과 값을 반환하라. 
 {: .notice--info}
 
@@ -1581,9 +1583,9 @@ print join_lists(m, n)
 ```
 
 **설명:** [ Solution ]          
-• 함수 join_lists(m, n)을 호출한다.    
-• Arguments m = [ 1, 2, 3 ], n = [4, 5, 6]이 입력된다.    
-• 정의된 함수 join_lists(x, y): 는 parameter x, y 를 가진다.    
+• 함수 join_lists(m, n) 을 호출한다.    
+• Arguments m = [ 1, 2, 3 ], n = [4, 5, 6] 이 입력된다.    
+• 정의된 함수 join_lists(x, y) 는 parameter x, y 를 가진다.    
 • 이 함수는 입력된 리스트 x, y 의 항목값을 연산자 ( + ) 를 사용하여 합친다.    
 • 합친 결과를 반환(return) 한다. (e.g. return x + y )
 {: .notice--info}
@@ -1596,7 +1598,7 @@ print join_lists(m, n)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">LISTS AND FUNCTIONS</font> 
@@ -1630,7 +1632,7 @@ We end up printing out:
 
 **설명:** [ Learn ]         
 • Ch18. Using a list of lists in a function 에서는 리스트 안에 리스트가 있는것을 학습한다.    
-• 하나의 리스트 안에 또다시 2개의 리스트가 항목 값으로 들어가 있다.    
+• 하나의 리스트 안에 또다시 2 개의 리스트가 항목 값으로 들어가 있다.    
 • 이런 모양의 리스트를 추출하는 함수를 만든다.    
 • for 문 2 개를 활용한다.
 {: .notice--info}
@@ -1654,11 +1656,11 @@ We end up printing out:
 
 
 **설명:** [ Instruction ]          
-• 함수 flattern(listst)는 복합 리스트를 싱글 리스트로 바꾸는 함수이다.     
+• 함수 flattern(listst) 는 복합 리스트를 싱글 리스트로 바꾸는 함수이다.     
 • (e.g. [ a, [b,c], d ] )    
 • Editor 화면 3 라인에서, 함수 flatten(lists) 를 만들어라.    
 • 이 함수는 다음과 같은 기능을 한다.    
-• 빈 리스트 results 만들고 초기화 하시오.    
+• 빈 리스트 results 만들고 초기화 하라.    
 • 입력 받은 리스트를 iterate 하면서 리스트의 각 값을 뽑아내라.    
 • 메서드 .append() 를 사용하여 결과 값을 리스트 results 에 추가하라.    
 • 마지막으로, 결과값 results 를 반환(return)하라.   
@@ -1721,15 +1723,15 @@ print flatten(n)
 **설명:** [ Solution ]          
 • 함수 flatten(n) 을 호출한다.    
 • Arguments n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]] 이다.    
-• 정의된 함수 flatten(lists):는 다음과 같이 동작한다.    
+• 정의된 함수 flatten(lists) 는 다음과 같이 동작한다.    
 • 입력받은 parameters 변수 lists 에는 변수 n 값이 들어있다.    
 • 리스트 변수 results 를 초기화 환다. (e.g. results = [] )    
-• for 문에서 lists 의 항목값을 변수 numbers에 하나씩 추출하여 저장한다.    
-• 이중 for 문에서 numbers 의 항목값을 변수 number에 하나씩 추출하여 저장한다.    
+• for 문에서 lists 의 항목값을 변수 numbers 에 하나씩 추출하여 저장한다.    
+• 이중 for 문에서 numbers 의 항목값을 변수 number 에 하나씩 추출하여 저장한다.    
 • 빈 리스트 results 에 메서드 .append(number) 를 사용하여 추가한다.    
 • for 문이 모두 끝나면 리스트 results 를 반환(return)한다.    
-• 함수 flatten(n) 을 호출후 반환된 결과값을 출력한다.    
-• 만약) 방법2 range()를 사용할 경우 인덱스 주소와 값을 혼동하지 말라. 
+• 함수 flatten(n) 을 호출 후 반환된 결과값을 출력한다.    
+• 만약) 방법2 range()를 사용할 경우 인덱스 주소와 값을 혼동하지 말것. 
 {: .notice--info}
 
 

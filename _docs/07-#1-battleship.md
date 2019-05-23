@@ -202,7 +202,7 @@ We'll do this five times to make five rows. (Since we have to do this five times
 **설명:** [ Instruction ]          
 • 리스트 board 를 만들어라.     
 • board는 5 x 5 로 된 판이며, 값 "O" 으로 채워져 있다.    
-• 함수 range() 활용하여 5번 loop 반복하라.    
+• 내부 함수 range() 활용하여 5번 loop 반복하라.    
 • loop 안에서는 메서드 '.append()'를 이용하여 리스트 board를 작성하라.    
 • 리스트 board 에는 ["O","O","O","O","O"] 가 5개가 있는 싱글 리스트를 만들어라.     
 • 주의 할것은 "O"는 숫자가 아닌 영문 대문자 "O" 이다.   
