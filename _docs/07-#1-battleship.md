@@ -23,9 +23,8 @@ In this lesson, we will make a simplified version of the classic board game Batt
      
 
 
-
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
 ### 1. Welcome to Battleship!    
@@ -94,7 +93,7 @@ skip
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -134,7 +133,7 @@ lst=[]
 
 
 **설명:** [ Hint ]          
-• 리스트 변수 lst=[] 은 변수 lst 를 리스트로 초기화 하는 것이다. 
+• 리스트 변수 lst=[] 은 변수 lst 를 초기화 하는 것이다. 
 {: .notice--info}
 
 <br>
@@ -160,7 +159,7 @@ board = []
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -203,9 +202,9 @@ We'll do this five times to make five rows. (Since we have to do this five times
 • 리스트 board 를 만들어라.     
 • board는 5 x 5 로 된 판이며, 값 "O" 으로 채워져 있다.    
 • 내부 함수 range() 활용하여 5번 loop 반복하라.    
-• loop 안에서는 메서드 '.append()'를 이용하여 리스트 board를 작성하라.    
+• loop 안에서는 메서드 .append() 를 이용하여 리스트 board 를 작성하라.    
 • 리스트 board 에는 ["O","O","O","O","O"] 가 5개가 있는 싱글 리스트를 만들어라.     
-• 주의 할것은 "O"는 숫자가 아닌 영문 대문자 "O" 이다.   
+• 주의 할것은 "O" 는 숫자가 아닌 영문 대문자 "O" 이다.   
 {: .notice--info}
 
 
@@ -227,7 +226,7 @@ We'll do this five times to make five rows. (Since we have to do this five times
 ```    
 
 **설명:** [ Hint ]          
-• for 문과 함수 range(0,5) 를 활용하여 위 모양과 같은 리스트를 만들어라. 
+• for 문과 내부 함수 range(0,5) 를 활용하여 위 모양과 같은 리스트를 만들어라. 
 {: .notice--info}
 
 <br>
@@ -247,10 +246,10 @@ for i in range(5):
 ```
 
 **설명:** [ Solution ]          
-• 함수 range(5) 를 발생 시킨다.    
-• for 문에서 ['O']를 5번 곱하면, 싱글 리스트 ['O','O','O','O','O'] 이 만들어진다.   
+• 내부 함수 range(5) 를 발생 시킨다.    
+• for 문에서 ['O'] 를 5 번 곱하면, 싱글 리스트 ['O','O','O','O','O'] 이 만들어진다.   
 • e.g. ['O'] * 5 -> ['O','O','O','O','O']     
-• 위와 같은 작업을 5번( e.g. range(5) ) 반복하여 아래와 같이 만든다.     
+• 위와 같은 작업을 5 번( e.g. range(5) ) 반복하여 아래와 같이 만든다.     
 [     
     ['O','O','O','O','O'],     
     ['O','O','O','O','O'],     
@@ -269,7 +268,7 @@ for i in range(5):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -286,7 +285,7 @@ The easiest way to print the board would be to have Python display it for us usi
 
 
 **설명:** [ Learn ]          
-• Ch4. Check it Twice 에서는 print 문을 통하여 기본적인 debug 하는 법을 학습한다.    
+• Ch4. Check it Twice 에서는 print 문을 통하여 기본적인 Debug 하는 방법을 학습한다.    
 • print 문을 통하여 리스트 board 의 상태를 확인할 수 있다. 
 {: .notice--info}
 
@@ -338,7 +337,7 @@ print board
 
 **설명:** [ Solution ]          
 • 빈 리스트 board 를 초기화 한다.    
-• 함수 range(5) 를 활용하여 아래 작업을 5번 반복한다.    
+• 내부 함수 range(5) 를 활용하여 아래 작업을 5번 반복한다.    
 • 메서드 .append(['O'] * 5) 를 리스트 board 에 추가한다.     
 • print 문을 활용하여 리스트 board 가 어떤 상태인지 확인한다. 
 {: .notice--info}
@@ -352,7 +351,7 @@ print board
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -391,8 +390,8 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 **설명:** [ Instruction ]          
 • 먼저, print 문을 삭제 하라.    
-• 라인 6 에서 함수 print_board(board_in): 를 정의후 작성하라.    
-• 함수 print_board(board_in): 은 다음과 같이 동작한다.    
+• 라인 6 에서 함수 print_board(board_in) 를 정의후 작성하라.    
+• 함수 print_board(board_in) 는 다음과 같이 동작한다.    
 • for 루프를 반복한다.    
 • for 문에서 리스트 board 값을 추출하여 변수 row 에 저장한다.    
 • 변수 row 를 출력한다.    
@@ -410,9 +409,9 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 **설명:** [ Hint ]         
 • 함수는 다음 예제처럼 정의하여 사용한다.    
-• e.g. 'def fun_name(parameters):'    
+• e.g. def fun_name(parameters):    
 • for문은 다음 예제처럼 사용한다.    
-• e.g. 'for x in list_name:'     
+• e.g. for x in list_name:     
 • 함수를 for 문 다음에 정의하라.
 {: .notice--info}
 
@@ -439,8 +438,8 @@ print_board(board)
 **설명:** [ Solution ]          
 • 빈 리스트 board 를 만든다.    
 • 빈 리스트 board 에 ['O'] * 5 를 추가한다.    
-• 함수 print_board(board_in): 을 정의한다.    
-• 함수 print_board(board_in)은 다음과 같이 동작한다.    
+• 함수 print_board(board_in) 을 정의한다.    
+• 함수 print_board(board_in) 은 다음과 같이 동작한다.    
 • for 문에서 리스트 board 의 값을 추출하여, 변수 row 에 저장한다.    
 • 변수 row 를 출력한다.(for 문의 board 항목 만큼)    
 • 함수 print_board(board) 를 호출한다.
@@ -459,7 +458,7 @@ print_board(board)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -482,7 +481,7 @@ We want to turn each row into "O O O O O".
 
 
 **설명:** [ Learn ]    
-• Ch6.Printing Pretty 에서는 메서드 '.join()' 를 사용법을 학습한다.    
+• Ch6.Printing Pretty 에서는 메서드 .join() 를 사용법을 학습한다.    
 • 리스트 board 를 다듬어 보자.    
 • 리스트 letters = ['a', 'b', 'c', 'd'] 를 다음과 같이 실행하면,    
 • e.g. " ".join(letters)     
@@ -491,7 +490,7 @@ We want to turn each row into "O O O O O".
 • 다른 예로, "---".join(letters) 를 실행하면,    
 • 리스트 letters 는 다음과 같이 바뀐다.    
 • e.g. "a---b---c"    
-• 마지막으로, 메서드 '.join()' 기능을 사용하여 다음과 같이 바뀌도록 한다.    
+• 마지막으로, 메서드 .join() 기능을 사용하여 다음과 같이 바뀌도록 한다.    
 • 리스트 board =[ 'O','O','O','O','O' ] -> [ O O O O O ]
 {: .notice--info}
 
@@ -507,8 +506,8 @@ We want to turn each row into "O O O O O".
 
 **설명:** [ Instruction ]          
 • 함수 print board() 를 다음과 같이 동작되도록 작성하라.    
-• for 문 안에서 메서드 '.join()'을 사용하여라.    
-• 리스트 row 항목값 의 구분자를 'O', 를 'O' 모양이 되게 만들어라.    
+• for 문 안에서 메서드 .join() 을 사용하여라.    
+• 리스트 row 항목값 의 구분자를 'O' -> O 모양이 되게 만들어라.    
 • e.g. 'O','O','O','O','O' ->  O O O O O 
 {: .notice--info}
 
@@ -567,7 +566,7 @@ O O O O O
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -594,11 +593,11 @@ Let's generate a `random_row` and `random_col` from zero to four!
 
 
 **설명:** [ Learn ]          
-• Ch7. Hide... 에서는 함수 randinit()를 학습한다.     
-• 함수 randint(low, high) 는 low 와 high 사이의 값을 random으로 출력한다.    
-• e.g. randint(0, 1) :  0과 1사이의 값을 random으로 출력한다.     
-• e.g. randint(1, 6) :  1에서 6사이의 값을 random으로 출력 해준다.     
-• 함수 random_row() 와 random_col()에 0부터 4까지의 값이 random으로 출력되게 한다.
+• Ch7. Hide... 에서는 내부 함수 randinit() 를 학습한다.     
+• 내부 함수 randint(low, high) 는 low 와 high 사이의 값을 random 으로 출력한다.    
+• e.g. randint(0, 1) :  0 과 1 사이의 값을 random 으로 출력한다.     
+• e.g. randint(1, 6) :  1 에서 6 사이의 값을 random 으로 출력 해준다.     
+• 함수 random_row() 와 random_col() 에 0 부터 4 까지의 값이 random 으로 출력되게 한다.
 {: .notice--info}
 
 
@@ -621,7 +620,7 @@ Let's generate a `random_row` and `random_col` from zero to four!
 • 함수 random_row() 와 random_col() 을 정의하라.    
 • 각 함수는 parameters 변수로 board_in 을 가진다.    
 • 각 함수는 보드판 위의 가로/세로 index 값을 random으로 가진다.     
-• 함수 randint(0, len(board_in) -1)을 활용하라. 
+• 함수 randint(0, len(board_in) -1) 을 활용하라. 
 {: .notice--info}
 
 
@@ -634,9 +633,9 @@ Let's generate a `random_row` and `random_col` from zero to four!
 
 
 **설명:** [ Hint ]          
-• 손쉽게 함수 randint(0,4) 로 직접 값을 호출할 수 있다.    
+• 손쉽게 내부 함수 randint(0,4) 로 직접 값을 호출할 수 있다.    
 • 하지만, 향후 board 사이즈가 커질때를 대비하여 확장성 있게 만든다.    
-• 함수 randint(0, len(board)-1)의 입력값을 ( len(board) - 1 )로 정의한다.
+• 함수 randint(0, len(board)-1) 의 입력값을 ( len(board) - 1 ) 로 정의한다.
 {: .notice--info}
 
 <br>
@@ -672,17 +671,17 @@ random_col(board)
 ```
 
 **설명:** [ Solution ]          
-• 함수 random_row(board):를 정의한다.    
-• 함수 random_rwo(board)는 다음과 같이 동작한다.    
-• 함수 randint(0, len(board)-1) 을 호출하여, 가로 index 값을 random하게 산출한다.    
-• 함수 random_col(board):를 정의한다.    
-• 함수 random_col(board)는 다음과 같이 동작한다.    
-• 함수 randint(0, len(board)-1) 을 호출하여, 세로 index 값을 random하게 산출한다.     
-• 리스트 board 의 값은 'O', 'O', 'O', 'O', 'O' 항목이 5개 들어있다.    
-• 이 리스트의 길이는 5이다.     
-• 함수 randint(0, len(5) -1)는 randint(0, 4) 를 호출 하는것과 같다.    
-• randint(0, 4) :  0부터 4사이의 숫자가 random 하게 출력된다.    
-• 함수 random_row(board), random_col(board)를 호출한다.
+• 함수 random_row(board) 를 정의한다.    
+• 함수 random_rwo(board) 는 다음과 같이 동작한다.    
+• 함수 randint(0, len(board)-1) 을 호출하여, 가로 index 값을 random 하게 산출한다.    
+• 함수 random_col(board) 를 정의한다.    
+• 함수 random_col(board) 는 다음과 같이 동작한다.    
+• 함수 randint(0, len(board)-1) 을 호출하여, 세로 index 값을 random 하게 산출한다.     
+• 리스트 board 의 값은 'O', 'O', 'O', 'O', 'O' 항목이 5 개 들어있다.    
+• 이 리스트의 길이는 5 이다.     
+• 함수 randint(0, len(5) -1) 는 randint(0, 4) 를 호출 하는것과 같다.    
+• e.g. randint(0, 4) : 0 부터 4 사이의 숫자가 random 하게 출력된다.    
+• 함수 random_row(board), random_col(board) 를 호출한다.
 {: .notice--info}
 
 
@@ -694,7 +693,7 @@ random_col(board)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -715,12 +714,12 @@ if int(number) == 0:
 
 
 **설명:** [ Learn ]          
-• Ch8. ...and Seek! 에서는 함수 int()를 학습한다.    
+• Ch8. ...and Seek! 에서는 내부 함수 int() 를 학습한다.    
 • 변수 ship_row 와 ship_col 에 배에 대한 위치 정보(가로/세로)를 저장해 보자.    
 • 리스트 board 를 바다라고 가정하자.     
 • 당신의 배가 바다(board) 어딘가에 있다고 생각하자.    
 • 함수 raw_input() 은 prompt 에서 문자를 입력 받을수 있는 함수이다.    
-• 입력 받은 문자 값을 숫자로 바꿔야 한다. 이유는 board의 좌표 index 값은 숫자이다.    
+• 입력 받은 문자 값을 숫자로 바꿔야 한다. 이유는 board 의 좌표 index 값은 숫자이다.    
 • 함수 int(number) 활용하여 문자열 number 를 숫자로 바꾼다. 
 {: .notice--info}
 
@@ -816,7 +815,7 @@ Guess Col: 3
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -927,7 +926,7 @@ Guess Col: 2
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -949,8 +948,8 @@ The example above is just a reminder about if statements.
 
 
 **설명:** [ Learn ]         
-• Ch10. You win! 에서는 if 절을 사용하는 법을 학습한다.      
-• 배의 위치가 random으로 만들어지고, 참여자가 위치를 맞추면 게임이 끝나는 것이다.    
+• Ch10. You win! 에서는 if 절을 사용하는 방법을 학습한다.      
+• 배의 위치가 random 으로 정해지고, 참여자가 위치를 맞추면 게임이 끝난다.    
 • 참여자가 승리하는 조건은 다음과 같다.    
 • e.g. if guess_col == ship_col and guess_row == ship_row    
 • if 절을 사용하여 비교하는 부분을 공부해 보자. 
@@ -976,7 +975,7 @@ The example above is just a reminder about if statements.
 • Editor 화면의 29 라인에서, if 문을 추가한다.    
 • if 문은 (guess_row == ship_row) and (guess_col == ship_col) 비교한다.    
 • if 조건문을 만족하면, *Congratulations! You sank my battleship!* 을 출력한다.     
-• 이 프로그램 실행하면, prompt 에 Guess Row 와 Guess Col 을 묻는다.    
+• 이 프로그램을 실행하면, prompt 에 Guess Row 와 Guess Col 을 질문한다.    
 • 예상 되는 배의 위치의 row, col 숫자 값을 입력하라.
 {: .notice--info}
 
@@ -1072,7 +1071,7 @@ Congratulations! You sank my battleship!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -1182,8 +1181,8 @@ else:
 **설명:** [ Solution ]          
 • 플레이어가 배의 위치를 못 맞췄을 경우를 대비하여, else 문을 작성한다.    
 • else 문에서는 못 맞춘 좌표 board[guess_row][guess_col]="X" 표시한다.    
-• 전체 board를 한번 보여준다.     
-• "X"를 넣는 이유는, 이미 틀린 좌표는 더 이상 입력 하지 않도록 유도 하기 위해서이다. 
+• 전체 board 를 한번 보여준다.     
+• "X" 를 넣는 이유는, 이미 틀린 좌표는 더 이상 입력 하지 않도록 유도하기 위해서이다. 
 {: .notice--info}
 
 
@@ -1209,7 +1208,7 @@ O O O O O
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -1234,14 +1233,14 @@ The example above checks if either x or y are outside those ranges. The `\` char
 
 
 **설명:** [ Learn ]          
-• Ch12. Bad Aim  에서는 if/else의 예외처리를 강화하는 법을 학습한다.    
+• Ch12. Bad Aim  에서는 if/else 의 예외 처리를 강화하는 방법을 학습한다.    
 • 좀더 치밀한게 프로그램을 다듬어 보자.     
 • 프로그램에서 실수할 요소가 다음과 같이 있다.     
 • ① board 보다 더 큰 값을 입력 할 경우     
 • ② 이미 추측한 값을 입력할 경우     
 • ③ 배의 틀린 위치 값을 예측한 경우     
-• 상단의 소스는 입력값 변수 x 가 8보다 크면, 입력 범위를 알려주는 소스이다.    
-• 문자 `\` 는 소스가 다음 라인에 있지만, 이전과 계속 이어진다는 것을 얼려주는 표시이다.
+• 상단의 소스는 입력값 변수 x 가 8 보다 크면, 입력 범위를 알려주는 소스이다.    
+• 문자 `\` 는 소스가 다음 라인에 있지만, 이전과 계속 이어진다는 것을 알려주는 표시이다.
 {: .notice--info}
 
 
@@ -1263,9 +1262,9 @@ The example above checks if either x or y are outside those ranges. The `\` char
 **설명:** [ Instruction ]          
 • else 문의 내부에 추가로 if 문을 넣는다.    
 • 추가한 if 문은 다음과 같은 기능을 한다.    
-• 변수 guess_row 와 guess_col 의 범위가 5를 넘지 않도록 한다.    
-• 함수 range(5) 를 사용하라.    
-• 만약 입력값이 범위 5를 넘으면 다음 메시지를 출력한다.    
+• 변수 guess_row 와 guess_col 의 범위가 5 를 넘지 않도록 한다.    
+• 내부 함수 range(5) 를 사용하라.    
+• 만약 입력값이 범위 5 를 넘으면 다음 메시지를 출력한다.    
 • 메시지 : *Oops, that's not even in the ocean.*    
 • 추가 if 문과 쌍이 되는 추가 else 문을 추가하라.    
 • 추가 if 문과, 추가 else 문은 들여 쓰기를 조심하라. 
@@ -1286,7 +1285,7 @@ if guess_row not in range(your_desired_range) or guess_col not in range(your_des
 
 
 **설명:** [ Hint ]          
-• 변수 guess_row , guess_col 의 값은 0부터 rows -1 , cols -1 이다.      
+• 변수 guess_row , guess_col 의 값은 0 부터 rows -1 , cols -1 이다.      
 • e.g. rows : 5 -> 0, 1, 2, 3, 4    
 • if 문에서 범위에 포함되고 안되고는 ( not in )을 사용한다.
 {: .notice--info}
@@ -1341,9 +1340,9 @@ else:
 
 **설명:** [ Solution ]          
 • else 문에서는 추가 if/else 문을 표현한다.    
-• 추가 if 문을 사용하여, 가로, 세로 입력한 값이 5개 범위 내인지를 점검한다.    
-• 5개의 범위를 벗어 났으면 Print 문으로 알려준다.    
-• 5개 범위 안에는 있지만, 배의 위치를 맞추지 못했으면, 다음 2가지 동작을 한다.    
+• 추가 if 문을 사용하여, 가로, 세로 입력한 값이 5 개 범위 내인지를 점검한다.    
+• 5 개의 범위를 벗어 났으면 print 문으로 알려준다.    
+• 5 개 범위 안에는 있지만, 배의 위치를 맞추지 못했으면, 다음 2 가지 동작을 한다.    
 • 첫번째, *You missed my battleship!* 출력한다.    
 • 두번째, 플레이어가 입력한 좌표에 문자열 값 X 를 대입한다.     
 • 프로그램의 말미에는 현재 board 의 최종 좌표를 보여준다.
@@ -1388,7 +1387,7 @@ O O O O O
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -1443,7 +1442,7 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 
 **설명:** [ Hint ]          
 • 연사자 ( == ) 는 비교 할때 양쪽의 값이 같다는 뜻이다.    
-• if 문에서 연산자 ( == ) 을 활용한다. 
+• if 문에서 연산자 ( == ) 를 활용한다. 
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1520,7 +1519,7 @@ O O O O X
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -1535,8 +1534,9 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 
 
 **설명:** [ Learn ]         
-• Ch14. Test Run 에서는 프로그램을 UAT(단위 테스트)를 학습한다.    
-• 여러번 실행해 보고, 입력하여, 문법적으로, 내용적으로 이상이 없는지 확인한다.
+• Ch14. Test Run 에서는 프로그램 UAT(단위 테스트)를 학습한다.    
+• 여러번 실행해 보고, 입력해 보자.     
+• 그리고 문법적으로 또는 내용적으로 이상이 없는지 점검한다.
 {: .notice--info}
 
 
@@ -1551,7 +1551,7 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 
 
 **설명:** [ Instruction ]          
-• 여러번 실행해서 문법적이나, 로직상 문제가 없는지 확인한다.     
+• 여러번 실행해서 문법적 오류나 소스의 로직에 이상이 없는지 확인한다.     
 • 소스가 어떻게 동작 되는지를 확인한다. 
 {: .notice--info}
 
@@ -1631,7 +1631,7 @@ else:
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -1650,7 +1650,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 
 **설명:** [ Learn ]          
-• Ch15. Play It, Sam 에서는 입력을 4번까지만 허용하는 기능을 추가한다. 
+• Ch15. Play It, Sam 에서는 입력을 4 번까지만 허용하는 기능을 추가한다. 
 {: .notice--info}
 
 
@@ -1668,7 +1668,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 
 **설명:** [ Instruction ]          
-• 질문 기회를 4번까지 가능한 for 문을 추가하라.    
+• 질문 기회를 4 번까지 가능한 for 문을 추가하라.    
 • for 문의 끝에는 몇 번 시도 했는지를 표시해 주는 print 문을 만들어라.    
 • e.g. print ( "Turn :", turn+1)     
 • for 문 안쪽에 들여 쓰여진 모든 소스는 반복된다.
@@ -1685,7 +1685,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 
 
 **설명:** [ Hint ]          
-• for 문 의 블럭안 내용은 모두 반복된다. 
+• for 문의 블럭안 내용은 모두 반복된다. 
 {: .notice--info}
 
 <br>
@@ -1798,7 +1798,7 @@ O O O O O
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -1816,7 +1816,7 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 
 
 **설명:** [ Learn ]         
-• Ch16. Game Over 에서는 if 문을 사용하여 게임을 종료하는 법을 학습한다.    
+• Ch16. Game Over 에서는 if 문을 사용하여 게임을 종료하는 방법을 학습한다.    
 • 플레이어가 4번 만에 배의 위치를 맞추지 못하면 게임은 끝난다.    
 • 게임이 끝났으면, 끝났다고 알려주면 좋을 것이다.         
 • 소스의 어느 위치에 이 기능을 넣어야 할지를 고민하라.     
@@ -1975,7 +1975,7 @@ O O O O O
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font>     
@@ -2117,7 +2117,7 @@ Congratulations! You sank my battleship!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -2274,7 +2274,7 @@ O O O O O
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">BATTLESHIP!</font> 
@@ -2297,7 +2297,7 @@ Some of these options will be easier after we cover loops in the next lesson. Th
 
 
 **설명:** [ Learn ]    
-• Ch19. Extra Credit 에서는 프로그램을 확장하는 법을 학습한다.    
+• Ch19. Extra Credit 에서는 프로그램을 확장하는 방법을 학습한다.    
 • 배틀쉽 게임을 더 확장할수 있다.     
 ① 배틀쉽을 여러대를 보드에 넣어서 찾을 수 있다.    
 ② 배틀쉽 board 사이즈를 더 크게 확장 할 수 있다.    
