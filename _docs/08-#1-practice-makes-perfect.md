@@ -22,8 +22,8 @@ Python 의 다양한 문제들을 연습하자.
      
 
     
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
 ### 1. Practice! Practice Practice!    
@@ -51,7 +51,7 @@ The more challenging programs will contain some helpful hints to nudge you in th
 
 
 **설명:** [ Instruction ]          
-• Run 을 클릭 후, 다음으로 넘어가시오.
+• Run 을 클릭 후, 다음으로 넘어 가시오.
 {: .notice--info}
 
 
@@ -90,7 +90,7 @@ skip
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -185,7 +185,7 @@ True
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
@@ -205,9 +205,9 @@ If the difference between a number and that same number rounded is greater than 
 
 **설명:** [ Learn ]          
 • Ch3. is_int 에서는 입력값이 정수인지를 확인하는 함수를 학습한다.    
-• 정수(integer)는 소수점 값이 없는 10진수이다. (e.g. 소수점 있는 수 98.6)    
+• 정수(integer)는 소수점 값이 없는 10진수이다. (e.g. 98.6)    
 • 소수점이 있지만, 이런 경우는 정수이다. (e.g. 7.0)    
-• 프로그램에서 입력값이 정수인지를 어떻게 파악할 수 있을까?    
+• 프로그램에서 입력값이 정수인지를 어떻게 확인할 수 있을까?    
 • 우리는 입력값을 다음과 같이 처리하면, 정수인지 아닌지를 알수 있다.    
 • 입려값을 함수 abs()를 사용하여 절대값으로 변환한다.    
 • 입력값을 함수 round()를 사용하여 소수점을 버린 값으로 변환한다.    
@@ -293,7 +293,7 @@ False
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font> 
@@ -402,7 +402,7 @@ print digit_sum(1234)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -509,7 +509,7 @@ print factorial(5)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -616,7 +616,7 @@ False
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -706,7 +706,7 @@ dlroW olleH
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -792,7 +792,7 @@ hll bk
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -919,7 +919,7 @@ print scrabble_score("pizza")
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -1064,7 +1064,7 @@ this **** is wack ****
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -1166,7 +1166,7 @@ print count([1, 2, 1, 1], 1)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -1197,7 +1197,7 @@ Awesome! Now let's practice filtering a list.
 
 **설명:** [ Instruction ]          
 • 함수 purify(list) 를 작성하라.    
-• 이 함수는 리스트의 값중 홀수를 삭제하고 해당 리스트를 return(반환)하는 함수이다.     
+• 이 함수는 리스트의 값중 홀수값이 있으면 삭제하고 해당 리스트를 return(반환)한다.     
 • 입력받은 리스트를 바로 수정하지 말고, 새로운 리스트를 만들어 결과값을 저장하라.
 {: .notice--info}
 
@@ -1253,7 +1253,7 @@ print purify([1, 2, 3, 4])
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -1344,7 +1344,7 @@ print product([4, 5, 5])
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -1380,7 +1380,7 @@ Awesome! Now for something a bit trickier.
 • 함수 remove_duplicates(lst) 는 다음과 같이 동작한다.    
 • 이 함수는 리스트 안에 중복 값이 있으면 해당 값 하나만 남겨 놓고 나머지는 삭제한다.    
 • e.g. remove_duplicates([1,1,2,2]) 호출하면, [1,2]를 반환(return)한다.     
-• 모두 다 지우는 것이 아니라, 중복된 값을 하나만 남겨둔다.    
+• 모두 다 지우는 것이 아니라, 중복된 값 하나만 남겨둔다.    
 • 반환(return)값의 순서는 중요치 않다.    
 • e.g. [1,2,3] : ok, [3,2,1] : ok      
 • 입력받은 리스트 lst 를 직접 수정하지 않는다.    
@@ -1403,10 +1403,10 @@ Awesome! Now for something a bit trickier.
 **설명:** [ Hint ]          
 • 가장 쉬운 방법은 함수안에 새로운 리스트를 하나 만든다.    
 • 입력 받은 리스트를 반복하여 돌면서 해당 항목값을 추출하여 새로운 리스트에 추가한다.    
-• 추가할때, 새로운 리스트에 내가 추가할려는 항목이 있는지를 점검한다.    
+• 추가할때, 새로운 리스트에 내가 추가할 항목이 있는지를 점검한다.    
 • 만약 없으면 추가하고, 있으면 다음 단계로 넘어간다.     
 • 기존 리스트를 수정하는 것보단, 새로운 리스트를 구성하는 방식이 안전하다.    
-• 이유는 기존 리스트를 잘 못 수정하면 복원하기 어렵기 때문이다.    
+• 이유는 기존 리스트를 잘못 수정하면 복원하기 어렵기 때문이다.    
 • 새로운 리스트를 잘못 수정했으면, 다시 지우고 만들면 된다. 
 {: .notice--info}
 
@@ -1461,7 +1461,7 @@ print remove_duplicates([1, 1, 2, 2])
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PRACTICE MAKES PERFECT</font>     
@@ -1488,7 +1488,7 @@ sorted([5, 2, 3, 1, 4])
 
 **설명:** [ Learn ]          
 • Ch15. median 에서는 리스트 중간값 찾는것을 학습한다.    
-• 리스트의 중앙에 위치한 값을 찾는 함수를 만드는 연습을 해보자.    
+• 리스트의 중앙에 위치한 값을 찾는 함수를 만들어 보자.    
 • 리스트 [7, 12, 3, 1, 6] 이 입력되면, 먼저 정렬하여 [1, 3, 6, 7, 12] 를 만든다.    
 • 그리고 리스트의 중앙에 위치한 6 을 반환(return)한다.    
 • 리스트 [7, 3, 1, 4] 와 같이  짝수개가 입력되면,    
