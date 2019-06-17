@@ -22,8 +22,8 @@ Your students just took their first test. It's time to see how everyone did. Let
      
 
 
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
 ### 1. Let's look at those grades!    
@@ -101,7 +101,7 @@ Grades: [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -179,7 +179,7 @@ print_grades(grades)
 • 정의된 함수 print_grades(grades) 는 다음과 같이 동작한다.    
 • 이 함수는 입력값 grades_input 을 받은후, 해당 입력값의 항목값을 출력한다.       
 • for 문에서 입력값 리스트 grades_input 항목값을 추출하여, 변수 grade 에 저장한다.    
-• 변수 grade 를 출력합니다.
+• 변수 grade 를 출력한다.
 {: .notice--info}
 
 
@@ -202,7 +202,7 @@ print_grades(grades)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -278,7 +278,7 @@ Let's compute some stats!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -324,7 +324,7 @@ Computing the sum manually involves computing a rolling sum. As you loop through
 
 **설명:** [ Learn ]          
 • 함수 grades_sum(scores) 를 작성하라.    
-• 이 함수는 입력값으로 리스트 cores 를 가진다.   
+• 이 함수는 입력값으로 리스트 scores 를 가진다.   
 • 리스트의 점수들을 합하라.     
 • sum(합계)을 반환하라.   
 • 함수 grades_sum(grades) 를 호출후, 출력하라. 
@@ -383,7 +383,7 @@ print grades_sum(grades)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -478,7 +478,7 @@ print grades_average(grades)
 • 이 함수는 grades_input 을 입력 받는다.    
 • 함수 grades_sum(grades_input) 를 호출한다.    
 • 호출후 결과값을 변수 sum_of_grades 에 저장한다.    
-• 변수 sum_of_grades 에 float(len(grades_input)) 을 나눈다.    
+• 변수 sum_of_grades 에 float(len(grades_input)) 으로 나눈다.    
 • 나눈값을 변수 average 에 저장한다.     
 • 계산된 평균값 average 를 반환(return)한다.
 {: .notice--info}
@@ -493,7 +493,7 @@ print grades_average(grades)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -508,7 +508,7 @@ We're going to use the average for computing the variance. The variance allows u
 **설명:** [ Learn ]          
 • Ch6. Review 에서는 현재까지 프로그램을 검토 학습한다.    
 • 지금껏 우리는 시험 점수의 평균을 계산하는 작업을 수행하였다.    
-• 다음장에서 우리는 평균으로 부터 variance(분산)을 통하여 성적의 분포도를 볼 것이다. 
+• 다음장에서 성적의 분포도를 보기 위하여 평균을 이용한 분산(variance)을 학습한다. 
 {: .notice--info}
 
 
@@ -562,7 +562,7 @@ Time to conquer the variance!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -574,9 +574,9 @@ A very large variance means that the students' grades were all over the place, w
 
 
 **설명:** [ Learn ]         
-• Ch7. The Variance  에서는 분산 프로그램을 학습한다.     
+• Ch7. The Variance 에서는 분산 프로그램을 학습한다.     
 • 성적들이 평균과 얼마나 떨어져 있는지를 살펴보자. 이것을 분산이라고 부른다.    
-• 평균에서 많이 떨어져 있다는 것은 학생들의 점수가 다양하게 넓게 흩어져있다는 의미이다.    
+• 평균에서 많이 떨어져 있다는 것은 학생들의 점수가 다양하게 넓게 흩어져 있다는 의미이다.    
 • 반대의 경우는 학생들의 점수가 좁게 분포되어 있다는 의미이다.  
 {: .notice--info}
 
@@ -605,7 +605,7 @@ A very large variance means that the students' grades were all over the place, w
 • 변수 variance 를 생성하고 0 으로 초기화 하라.     
 • 추후, 분산값을 구할때 사용할 것이다.       
 • for 문에서 각각의 점수들을 추출하여 차이를 계산한다.    
-• e.g. ( average - score)**2     
+• e.g. ( average - score ) ** 2     
 • 결과값을 변수 variance 에 저장한다.     
 • 전체 variance 를 점수들의 갯수(len(grades)) 로 나눈다      
 • 그리고, 그 결과 값을 반환(return)한다.    
@@ -684,7 +684,7 @@ print grades_variance(grades)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -799,7 +799,7 @@ print grades_std_deviation(variance)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">EXAM STATISTICS</font> 
@@ -907,12 +907,12 @@ print grades_std_deviation(variance)
 ```
 
 **설명:** [ Solution ]     
-• 각 점수를 for문 통하여 출력한다.        
+• 각 점수를 for문을 통하여 출력한다.        
 • e.g. for grade in grades:    
-• 점수 합    print grades_sum(grades)    
-• 평균 점수  print grades_average(grades)    
-• 분산 값    print grades_variance(grades)   
-• 표준편차 값 print grades_std_deviation(variance)
+• 점수 합 : print grades_sum(grades)    
+• 평균 점수 : print grades_average(grades)    
+• 분산 값 : print grades_variance(grades)   
+• 표준편차 값 : print grades_std_deviation(variance)
 {: .notice--info}
 
 
