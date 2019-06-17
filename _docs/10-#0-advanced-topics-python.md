@@ -22,8 +22,7 @@ Data structure, list comprehension, list slicing, lambda 를 배워보자.
 {: .notice--info}  
     
 <hr style="border: solid 1px #dddddd ;">    
-
-
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
 ### 1. Iterators for Dictionaries    
@@ -48,7 +47,7 @@ Note that the .items() method doesn't return key/value pairs in any specific ord
 • Ch1. Iterators for Dictionaries 에서는 딕셔너리를 집중 학습한다.     
 • 딕셔너리의 반복문에 대해서 연습해 보자.    
 • 앞에서 배운 딕셔너리의 key 와 value를 조작하는 법을 연습해 본다.    
-• d.items() 는 딕셔너리 d 의 key 와 value 를 리스트 형태로로 보여준다. 
+• d.items() 는 딕셔너리 d 의 key 와 value 를 리스트 형태로 보여준다. 
 {: .notice--info}
 
 
@@ -114,7 +113,7 @@ print my_dict.items()
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -130,12 +129,12 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 
 
 **설명:** [ Learn ]     
-• Ch2. Chkeys() and values() 에서는 딕셔너리의 메서드 및 튜플을 학습한다.    
-• 메서드 .items() 는 key/value 로 구성된 각각의 튜플 형태의 배열로 반환된다.    
+• Ch2. keys() and values() 에서는 딕셔너리의 메서드 및 튜플을 학습한다.    
+• 메서드 .items() 는 key/value 로 구성된 각각의 튜플 형태의 배열로 반환한다.    
 • 메서드 .keys() 는 key 값을 리스트 형태로 반환한다.        
 • 메서드 .values() 는 value 값을 리스트 형태로 반환한다.    
 • key 와 value 쌍값은 순서 없이 반환된다.    
-• 튜플은 리스트와 동일하지만, 틀린점은 ()로 둘러쌓인 그 항목 값을 변경할수 없다.
+• 주의) 튜플은 리스트와 동일하지만, 틀린점은 ()로 둘러쌓인 그 항목 값을 변경할수 없다.
 {: .notice--info}
 
 
@@ -201,7 +200,7 @@ print my_dict.values()
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -233,8 +232,8 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 
 
 **설명:** [ Learn ]     
-• Ch3. The 'in' Operator 에서는 for 문의 'in' 문법을 학습한다.    
-• ' in ' 연산자는 다음을 반복적으로 추출할때 직관적으로 사용한다.    
+• Ch3. The `in` Operator 에서는 for 문의 `in` 문법을 학습한다.    
+• `in` 연산자는 다음을 반복적으로 추출할때 직관적으로 사용한다.    
 • - 리스트(list),    
 • - 튜플(tuple),    
 • - 딕셔너리(dictionarie),    
@@ -242,7 +241,7 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 • 함수 range(5) 는 숫자 0, 1, 2, 3, 4 를 생성해 준다.    
 • 이를 한줄로 출력 할려면, ( , ) 를 사용한다.     
 • 문자열 *Erir* 를 한줄출력 ( , ) 를 사용하여, "E r i c" 로 출력한다.    
-• 딕셔너리는 순서가 보장 안된다는것을 잊지 말라.
+• 딕셔너리는 순서가 보장 안되는 것을 잊지 말라.
 {: .notice--info}
 
 
@@ -256,7 +255,7 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 
 
 **설명:** [ Instruction ]    
-• 딕셔너리 my_dict 를 key 와 value 를 출력하라.    
+• 딕셔너리 my_dict 의 key 와 value 를 출력하라.    
 • 단, key 와 value 사이에 공백 하나가 있어야 한다.     
 • 출력시 print a + " " + b 보다는 print a, b 를 사용하라. 
 {: .notice--info}
@@ -300,7 +299,7 @@ for key in my_dict:
 
 **설명:** [ Solution ]     
 • 딕셔너리 my_dict 에서 key 값을 읽는다.    
-• key 값과 value값(my_dict[key])을 출력한다. 
+• key 값과 value값(my_dict[key]) 을 출력한다. 
 {: .notice--info}
 
 
@@ -314,7 +313,7 @@ occupation Dentist
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -382,7 +381,7 @@ print evens_to_50
 • 리스트 컴프레션은 다음과 같이 동작한다.    
 • 리스트 안에 for 문과 if문을 두어 조건에 해당하는 값을 산출한다.    
 • for 문에서 함수 range(51)을 사용하여 0 ~ 50까지 값을 산출후 변수 i 에 저장한다.    
-• 만약, 저장된 i 값을 % 2 로 계산하여 나머지가 0 이면, 제일앞 변수 i 저장한다.    
+• 만약, 저장된 i 값을 % 2 로 계산하여 나머지가 0 이면, 제일 앞 변수 i 저장한다.    
 • 저장된 i 의 값은 리스트 형태로 변수 event_to_50 에 저장한다.
 {: .notice--info}    
 
@@ -395,7 +394,7 @@ print evens_to_50
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -503,7 +502,7 @@ print even_squares
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -603,7 +602,7 @@ print cubes_by_four
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>    
@@ -701,7 +700,7 @@ print l[2:9:2]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -815,7 +814,7 @@ print my_list[::2]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -907,7 +906,7 @@ backwards = my_list[::-1]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -925,9 +924,9 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 • 옵션인 stride(건너뛰다) 는 다음과 같이 동작한다.    
 • 양수이면 왼쪽에서 오른쪽으로 진행한다.    
 • 음수이면 오른쪽에서 왼쪽으로 진행한다.     
-• 옵션(stride)의 값에 따라, 1이면 1칸씩 , 2이면 두칸씩 건너뛴다.     
-• 1 에서 2로 가는것은 1칸씩 건너뛰는 것이다.    
-• 1 에서 3으로 가는것은 2칸씩 건너뛰는 것이다.
+• 옵션(stride)의 값에 따라, 1 이면 1 칸씩 , 2 이면 2칸씩 건너뛴다.     
+• 1 에서 2 로 가는것은 1 칸씩 건너뛰는 것이다.    
+• 1 에서 3 으로 가는것은 2 칸씩 건너뛰는 것이다.
 {: .notice--info}
 
 
@@ -944,8 +943,8 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 • 역순 조건에서 건너뛰기(stride) 값을 주는것을 연습한다.    
 • 리스트 backwards_by_tens 를 생성하라.        
 • 리스트 to_one_hundred 에서 생성된 값을 역순으로 만들어라.        
-• 리스트 to_one_hundred 를 역순으로 만들때, stride 값으로 10칸씩 건너뛰게 하라.    
-• 리스트 backwards_by_tens 에 to_one_hundred(역순&10칸)을 저장하라.        
+• 리스트 to_one_hundred 를 역순으로 만들때, stride 값으로 10 칸씩 건너뛰게 하라.    
+• 리스트 backwards_by_tens 에 to_one_hundred(역순&10칸) 을 저장하라.        
 • 리스트 backwards_by_tens 를 출력하라.
 {: .notice--info}
 
@@ -963,7 +962,7 @@ new_list = old_list[begin:end:stride]
 
 **설명:** [ Hint ]    
 • 리스트 슬라이싱 old_list[begin:end:stride] 를 활용하라.    
-• stride 값으로 역순이고, 10칸씩 건너뛰는 것은 -10 이다.
+• stride 값으로 역순이고, 10 칸씩 건너뛰는 것은 -10 이다.
 {: .notice--info}
 
 <br>
@@ -983,8 +982,8 @@ print backwards_by_tens
 
 **설명:** [ Solution ]     
 • 리스트 to_one_hundred 에 0(포함)부터 101(미포함)까지 값을 생성하여 저장한다.    
-• 리스트 to_one_hundred[ : : -10] 은 역순으로 10칸씩 건너뛰는 것이다.    
-• [100, 99, 98, 97, 96,....,0] 중 10칸씩 건너뛰면, [100, 90, 80, ...., 0]    
+• 리스트 to_one_hundred[ : : -10] 은 역순으로 10 칸씩 건너뛰는 것이다.    
+• [100, 99, 98, 97, 96,....,0] 중 10 칸씩 건너뛰면, [100, 90, 80, ...., 0]    
 • 리스트 backwards_by_tens 를 출력한다.
 {: .notice--info}
 
@@ -997,7 +996,7 @@ print backwards_by_tens
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -1033,7 +1032,7 @@ Let's do one more, just to prove you really know your stuff.
 • 리스트 변수 to_21 을 생성하고, 값을 1 부터 21 까지 저장하라.    
 • 리스트 변수 odds 에 리스트 to_21 의 홀수 값(1,3,5,...)를 저장하라.     
 • 단, list slicing 만 사용하라. (list comprehension 사용금지)    
-• 리스트 middle_third 에 리스트 to_21 중 8부터 14까지 값을 저장하라.
+• 리스트 middle_third 에 리스트 to_21 중 8 부터 14 까지 값을 저장하라.
 {: .notice--info}
 
 
@@ -1069,11 +1068,11 @@ middle_third = to_21[7:14]
 ```
 
 **설명:** [ Solution ]     
-• 함수 range(1, 22) 는 1부터 21까지 총 21개 정수를 생성한다.         
+• 함수 range(1, 22) 는 1 부터 21 까지 총 21 개 정수를 생성한다.         
 • 리스트 슬라이싱 to_21[ : : 2] 는 index 0 부터 끝까지 잘라낸다.    
 • Stride 2 는 2 칸씩 건너뛰어 값을 고른다.         
 • 이 값을 리스트 odds 에 저장한다.    
-• 리스트 슬라이싱 to_21[7 : 14]는 index 7 부터 index 14를 잘라낸다.    
+• 리스트 슬라이싱 to_21[7 : 14] 는 index 7 부터 index 14 를 잘라낸다.    
 • 이 값을 리스트 middle_third 에 저장한다.
 {: .notice--info}
 
@@ -1086,7 +1085,7 @@ middle_third = to_21[7:14]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -1115,7 +1114,7 @@ When we pass the lambda to filter, filter uses the lambda to determine what to f
 • Ch12. Anonymous Functions 에서는 람다(**lambda**)를 학습한다.    
 • Python의 특징중 하나가, 변수나 값을 넘기듯이 함수 자체를 넘길수 있다는 것이다.    
 • 이는 모든 언어에서 지원하는 것은 아니고, Python에서는 이 기능을 지원한다.    
-• Python의 특징중, 독특한 것이 하나 있는데, lambda 라는 것이다.    
+• Python의 문법중, 독특한 것이 하나 있는데, 이는 함수 lambda 라는 것이다.    
 • 함수 lambda 는 함수의 이름을 호출하지 않고도 anonymous(익명)함수를 만들어 동작한다.    
 • 다음 장에서 함수 lambda 에 대한 자세한 문법을 배울것이다.     
 • 함수 lambda 는 다음과 같이 동작한다.    
@@ -1164,10 +1163,10 @@ print filter(lambda x: x % 3 == 0, my_list)
 ```
 
 **설명:** [ Solution ]     
-• 리스트 my_list 에 0부터 15까지의 숫자 16개를 산출하여 저장한다.    
+• 리스트 my_list 에 0 부터 15 까지의 숫자 16 개를 산출하여 저장한다.    
 • 리스트 my_list 를 lambda 에 입력값으로 넘겨준다.    
 • 리스트 my_list 값에서 하나씩 값을 추출하여 변수 x 에 저장한다.     
-• 비교 연산 ( x % 3 == 0 )에 True 조건인것만 filter 하여 뽑아낸다.    
+• 비교 연산 ( x % 3 == 0 ) 에 True 조건인것만 필터링 하여 뽑아낸다.    
 • filtering 된 값을 출력한다.
 {: .notice--info}
 
@@ -1180,7 +1179,7 @@ print filter(lambda x: x % 3 == 0, my_list)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -1205,7 +1204,7 @@ If you plan on creating a function you'll use over and over, you're better off u
 • e.g. filter(lambda x: x % 3 == 0, my_list)    
 • 함수 lamda 를 정의할때, def 함수 선언이 필요없다.    
 • 빠르게 한줄로 함수를 구현할때 사용이 가능하다.    
-• 함수 이름을 줄 필요도 없다.(Anonymous function)  
+• 함수 이름을 지정할 필요도 없다.(Anonymous function)  
 {: .notice--info}
 
 
@@ -1270,7 +1269,7 @@ print filter(lambda x: x == "Python", languages)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -1288,10 +1287,10 @@ The example above is just a reminder of the syntax.
 
 **설명:** [ Learn ]     
 • Ch14. Try It! 에서는 람다(lambda)를 집중 추가 학습한다.    
-• filter() 과 lambda 표현을 조금 더 연습해 보자.    
+• filter() 와 lambda 표현을 조금 더 연습해 보자.    
 • 리스트 컴프레션을 사용하여, 1 부터 10 까지의 수를 세제곱(x ** 3)한 값을 생성한다.    
 • 이 결과를 리스트 cubes 에 저장한다.     
-• filter 첫번째 인자로 함수 lambda를 사용하여 변수 x % 3 == 0 인값을 정의한다.     
+• filter 첫번째 인자로 함수 lambda 를 사용하여 변수 x % 3 == 0 인값을 정의한다.     
 • filter 두번째 인자로 리스트 cubes 를 입력 받는다.
 {: .notice--info}
 
@@ -1308,9 +1307,9 @@ The example above is just a reminder of the syntax.
 
 
 **설명:** [ Instruction ]    
-• 리스트 컴프레션을 사용하여 1부터 10까지의 제곱값을 생성한다.    
+• 리스트 컴프레션을 사용하여 1 부터 10 까지의 제곱값을 생성한다.    
 • 리스트 squares 에 이 값을 저장한다.    
-• filter()에서 lambda 를 사용하여 filtering 한다.    
+• filter() 에서 lambda 를 사용하여 filtering 한다.    
 • 첫번째 argument : lambda 조건은 입력값 중 30 이상 70 이하의 값을 추출한다.    
 • 두번째 argument : 입력값은 리스트 squares 를 입력받는다.     
 • filtering 한 결과를 출력하라.
@@ -1348,7 +1347,7 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 
 **설명:** [ Solution ]     
 • list comprehension 을 사용하여 다음과 같이 동작한다.    
-• 함수 range(1, 11)을 사용하여 1부터 10까지를 산출한다.    
+• 함수 range(1, 11) 을 사용하여 1 부터 10 까지를 산출한다.    
 • for 문에서 x 값을 추출하여 제곱한 값을 산출한다.    
 • 리스트 squares 에 산출한 값을 저장한다.    
 • lambda를 사용하여 다음과 같이 filter() 한다.    
@@ -1365,7 +1364,7 @@ print filter(lambda x: x >= 30 and x <= 70, squares)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -1408,7 +1407,7 @@ First, let's review iterating over a `dict`.
 **설명:** [ Hint ]    
 • 메서드 .items() 를 활용하라.    
 • 딕셔너리 movies 의 항목들 key/value 을 출력하여라.     
-• loop를 사용할 필요가 없다. 
+• loop 를 사용할 필요가 없다. 
 {: .notice--info}
 
 <br>
@@ -1439,7 +1438,7 @@ print ( movies.items() )
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
@@ -1468,7 +1467,7 @@ squares = [x ** 2 for x in range(5)]
 
 **설명:** [ Instruction ]    
 • 리스트 threes_and_fives 를 생성하라.    
-• 이 리스트에  1부터 15까지의 숫자중 3 or 5로 나누어지는 떨어지는 값들만 저장하라.
+• 이 리스트에  1 부터 15 까지의 숫자중 3 or 5 로 나누어지는 떨어지는 값들만 저장하라.
 {: .notice--info}
 
 
@@ -1494,7 +1493,7 @@ list_name = [var for var in range]
 • 리스트 컴프레션을 이용하여 작성하여야 한다.     
 • for 문에서 내부 함수 range() 로 구한 값 만큼 loop(반복)한다.    
 • for 문 블럭에서 다음과 같이 동작한다.    
-• if 문과 모듈 연산자 ( % ) 를 이용하여 3 or 5로 나누어 지는 값을 구한다.     
+• if 문과 모듈 연산자 ( % ) 를 이용하여 3 or 5 로 나누어지는 값을 구한다.     
 • 출력할 필요는 없지만, print문을 사용하여 확인해 보는것도 좋다.
 {: .notice--info}
 
@@ -1514,7 +1513,7 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 
 **설명:** [ Solution ]     
 • 리스트 컴프레션을 사용하여 다음과 같이 동작한다.    
-• for 문에서 함수 range(1,16) 으로 1부터 15까지의 값을 구한다.    
+• for 문에서 함수 range(1,16) 으로 1 부터 15 까지의 값을 구한다.    
 • 산출된 값을 하나씩 변수 x 에 대입한다.    
 • 변수 x 가 3 or 5 로 나누어 떨어지는지 확인한다.     
 • True 인 경우만, 맨앞 변수 x 저장된다.    
@@ -1530,7 +1529,7 @@ threes_and_fives = [x for x in range(1, 16) if x % 3 == 0 or x % 5 == 0]
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -1574,10 +1573,10 @@ You can think of a Python string as a list of characters.
 
 
 **설명:** [ Instruction ]    
-• Editor 화면에 있는 문자열을 다음 2가지 문제가 있다.         
+• Editor 화면에 있는 문자열을 다음 2 가지 문제가 있다.         
 • 글자를 거꾸로 읽어야 한다.    
 • 우리가 원하지 않는 문자들이 섞여 있다.    
-• List slicing을 사용하여 변수 message 에 원하는 문자만 저장해라.
+• List slicing 을 사용하여 변수 message 에 원하는 문자만 저장하라.
 {: .notice--info}
 
 
@@ -1621,9 +1620,9 @@ message = garbled[::-2]
 **설명:** [ Solution ]     
 • -2 값은 역순으로 -2 칸씩을 건너 뛰는 것이다.     
 • 시작하는 첫번째 글자는 포함하기에 문자열 I 는 출력된다.    
-• -2 칸씩 건너뛰기에, I 찍고, X 건너뛰고, " "찍고, X건너뛰고, a찍고,.....     
+• -2 칸씩 건너뛰기에, I 찍고, X 건너뛰고, " " 찍고, X 건너뛰고, a 찍고, ...     
 • 마지막에 ! 를 찍는다.    
-• 만약, print문을 실행해 보면, 다음과 같이 결과가 나올 것이다.  
+• 만약, print 문을 실행해 보면, 다음과 같이 결과가 나올 것이다.  
 {: .notice--info}
 
 
@@ -1634,7 +1633,7 @@ I am the secret message!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font>     
@@ -1672,7 +1671,7 @@ We've given you another (slightly different) garbled. Sort it out with a `filter
 
 **설명:** [ Instruction ]    
 • 변수 message 를 생성하라.         
-• filter() 와  lambda 를 사용하여라.    
+• filter() 와 lambda 를 사용하여라.    
 • Arguments 첫번째는 입력값에 문자열 X 를 제거한다.    
 • Arguments 두번째는 입력값으로 리스트 garbled 를 입력받는다.    
 • Filter() 된 값을 변수 message 에 저장한다.      
@@ -1718,7 +1717,7 @@ print message
 ```
 
 **설명:** [ Solution ]     
-• filter()는 lambda 를 사용하여 다음과 같은 입력값을 받는다.    
+• filter() 는 lambda 를 사용하여 다음과 같은 입력값을 받는다.    
 • Argument 첫번째는 변수 x 가 문자열 X 가 아닌 값을 저장한다.     
 • Argument 두번째는 입력값으로 리스트 garbled 를 입력받는다.    
 • filter() 된 결과를 변수 message 에 저장한다.     
