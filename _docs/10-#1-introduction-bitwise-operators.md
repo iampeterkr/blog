@@ -21,8 +21,8 @@ Bitwise operations directly manipulate bits—patterns of 0s and 1s. Though they
 처음에는 배우기가 어렵지만, 익숙 해지면 코딩의 속도를 높여주니 공부해 보자.
 {: .notice--info}  
      
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
 ### 1. Just a Little BIT     
@@ -40,7 +40,7 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 **설명:** [ Learn ]     
 • Ch1. Just a Little BIT 에서는 Bit 연산자를 학습한다.        
 • Bit 연산자는 이해하기가 어렵고, 모호하지만, 익숙해지면 빠른 계산을 할수 있다.    
-• Bit 연산자는 직접적으로 bit를 조작하여 계산한다. 
+• Bit 연산자는 직접적으로 bit 를 조작하여 계산한다. 
 {: .notice--info}
 
 
@@ -108,7 +108,7 @@ print ~88     # Bitwise NOT
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -218,7 +218,7 @@ print 0b11 * 0b11
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -248,9 +248,9 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 **설명:** [ Learn ]     
 • Ch3. I Can Count to 1100! 에서는 2 진수를 학습한다.    
-• 2 진수로 10자리까지 있는 것을 12자리까지 확대하여 채워 넣어 보자.    
+• 2 진수로 10 자리까지 있는 것을 12 자리까지 확대하여 채워 넣어 보자.    
 • 값을 채워 넣어 보는걸로 2 진수를 이해해 보자.    
-• 컴퓨터는 2진수로 움직인다.
+• 컴퓨터는 2 진수로 움직인다.
 {: .notice--info}
 
 
@@ -304,7 +304,7 @@ twelve = 0b1100
 ```
 
 **설명:** [ Solution ]     
-• 1부터 12 자리의 2 진수를 나타낸 것이다.
+• 1 부터 12 자리의 2 진수를 나타낸 것이다.
 {: .notice--info}
 
 
@@ -316,7 +316,7 @@ twelve = 0b1100
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -334,9 +334,9 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 **설명:** [ Learn ]      
 • Ch4. The bin() Function 에서는 함수 bin() 를 학습한다.     
-• Python에는 bit 연산자를 지원하는 함수가 있다.    
+• Python 에는 bit 연산자를 지원하는 함수가 있다.    
 • print 출력할때 2 진수로 재표현 해주는 것으로 함수 bin() 를 사용한다.    
-• 함수 bin()는 정수를 입력값으로 가진다. 그리고 2 진수를 반환해 준다.    
+• 함수 bin() 는 정수를 입력값으로 가진다. 그리고 2 진수를 반환해 준다.    
 • print 출력할때, 2 진수로 보여주지만, 그 값은 실제로는 string(문자)이다.    
 • 함수 bin() 과 비슷한 것으로 8진수( oct() ), 16진수( hex() )도 있다.
 {: .notice--info}
@@ -366,8 +366,8 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 
 
 **설명:** [ Hint ]     
-• Editor 화면의 라인 1 을 참조 하세요.    
-• Loop 또는 range 를 사용할 줄 알지만, print 문을 개별로 사용하세요.  
+• Editor 화면의 라인 1 을 참조하라.    
+• Loop 또는 range 를 사용할 줄 알지만, print 문을 개별로 사용하라.  
 {: .notice--info}
 
 <br>
@@ -406,7 +406,7 @@ print bin(5)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -429,10 +429,10 @@ When given a string containing a number and the base that number is in, the func
 **설명:** [ Learn ]      
 • Ch5. int()'s Second Parameter 에서는 함수 int() 사용법을 학습한다.    
 • 함수 int() 는 입력값을 int 로 바꿔주는 함수이다.    
-• 함수 int("42") 는 문자열 "42" 를 입력하면, 정수 42가 반환된다.    
+• 함수 int("42") 는 문자열 "42" 를 입력하면, 정수 42 가 반환된다.    
 • 함수 int() 는 다른 옵션 기능도 있다.    
-• 함수 int("110", 2) 는 2 진수 "110" 을 입력하고, 옵션값을 2로 입력한다.    
-• 함수 int() 는 입력값 2진수 "110"을 int(정수) 6 을 반환한다. 
+• 함수 int("110", 2) 는 2 진수 "110" 을 입력하고, 옵션값을 2 로 입력한다.    
+• 함수 int() 는 입력값 2 진수 "110" 을 int(정수) 6 으로 반환한다. 
 {: .notice--info}
 
 
@@ -446,8 +446,8 @@ When given a string containing a number and the base that number is in, the func
      
 
 **설명:** [ Instruction ]     
-• Editor 화면에는 몇개의 함수 int()를 사용한 예제들이 있다.    
-• 라인 7에서, 2진수 0b11001001 을 함수 int() 를 사용하여 10진수로 변경후 출력하라.
+• Editor 화면에는 몇개의 함수 int() 를 사용한 예제들이 있다.    
+• 라인 7 에서, 2 진수 0b11001001 을 함수 int() 를 사용하여 10 진수로 변경후 출력하라.
 {: .notice--info}
 
 
@@ -482,17 +482,17 @@ print int("11001001", 2)
 
 **설명:** [ Solution ]     
 • 함수 int( "1", 2 )     
-→ 2진수 "1"  을  10진수 1 로 변환 후 출력.    
+→ 2 진수 "1"  을  10 진수 1 로 변환 후 출력.    
 • 함수 int( "10", 2 )    
-→ 2진수 "10" 을  10진수 2 로 변환후 출력.    
+→ 2 진수 "10" 을  10 진수 2 로 변환후 출력.    
 • 함수 int( "111", 2 )    
-→ 2진수 "111" 을 10진수 7 로 변환후 출력.    
+→ 2 진수 "111" 을 10 진수 7 로 변환후 출력.    
 • 함수 int( "0b100", 2 )    
-→ 2진수 "0b100" 을 10진수 4 로 변환후 출력.    
+→ 2 진수 "0b100" 을 10 진수 4 로 변환후 출력.    
 • 함수 int( bin(5), 2 )    
-→ 2진수 "110"   을 10진수 5 로 변환후 출력.    
+→ 2 진수 "110"   을 10 진수 5 로 변환후 출력.    
 • 함수 int( "11001001", 2 )    
-→ 2진수 "11001001" 을  10진수 201 로 변환후 출력.
+→ 2 진수 "11001001" 을  10 진수 201 로 변환후 출력.
 {: .notice--info}
 
 
@@ -509,7 +509,7 @@ print int("11001001", 2)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -592,12 +592,12 @@ print bin(shift_left)
 ```
 
 **설명:** [ Solution ]     
-• 변수 shift_right 는 오른쪽으로 bit 를 2칸 이동한후 저장한다.    
-• 그 결과는 0b11 이다.    
-• 나누기 2를 2번 한 효과가 나타난다.    
-• 변수 shift_left 는 왼쪽으로 bit 를 2칸 이동한후 저장한다.    
-• 그 결과는 0b100 이다.    
-• 곱하기 2 를 2 번 한 효과가 나타난다.         
+• 변수 shift_right 는 오른쪽으로 bit 를 2 칸 이동한후 저장한다.    
+• 그 결과는 0b11 이다.(10 진수 3)    
+• 십진수 12를 나누기 2 를 2 번 한 효과가 나타난다.    
+• 변수 shift_left 는 왼쪽으로 bit 를 2 칸 이동한후 저장한다.    
+• 그 결과는 0b100 이다.(10진수 4)    
+• 십진수 1를 곱하기 2 를 2 번 한 효과가 나타난다.         
 • 변수 shift_right, shift_left 를 출력한다.
 {: .notice--info}
 
@@ -611,7 +611,7 @@ print bin(shift_left)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -663,7 +663,7 @@ which equals two.
 
 
 **설명:** [ Instruction ]    
-• 함수 bin() 를 사용하여 2 진수 ( 0b110 & 0b101 ) 을 계산후 출력하라.         
+• 함수 bin() 를 사용하여 2 진수 ( 0b110 & 0b101 ) 를 계산후 출력하라.         
 • 출력 결과가 어떻게 되는지 확인하라.
 {: .notice--info}
 
@@ -678,7 +678,7 @@ print ( bin ( a & b ) )
 ```
 
 **설명:** [ Hint ]     
-• 함수 bin() 안에 2진수를 넣어라.
+• 함수 bin() 안에 2 진수를 넣어라.
 {: .notice--info}
 
 <br>
@@ -693,8 +693,8 @@ print (bin(0b110 & 0b101))
 ```
 
 **설명:** [ Solution ]     
-• 함수 bin() 안에 단순히 2진수만 넣는게 아니라, AND (&) 연산자도 넣어서 계산한다.    
-• 먼저, 0b110 & 0b101 이 계산된 2진수 0b100이 반환된다.    
+• 함수 bin() 안에 단순히 2 진수만 넣는게 아니라, AND(&) 연산자도 넣어서 계산한다.    
+• 먼저, 0b110 & 0b101 이 계산된 2 진수 0b100이 반환된다.    
 • 함수 bin(0b100) 에 넣는다.    
 • 그 결과를 출력한다.
 {: .notice--info}
@@ -708,7 +708,7 @@ print (bin(0b110 & 0b101))
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -783,9 +783,9 @@ print bin(0b1110 | 0b101)
 ```
 
 **설명:** [ Solution ]     
-• 0b1110 과 0b101을 OR ( | ) 연산자로 계산한다.    
-• ( 0b1110 | 0b101 ) 을 계산하면 0b1011이 된다.    
-• 그 결과값을 2진수 함수 bin() 을 호출후 출력한다.
+• 0b1110 과 0b101 을 OR ( | ) 연산자로 계산한다.    
+• ( 0b1110 | 0b101 ) 을 계산하면 0b1011 이 된다.    
+• 그 결과값을 2 진수 함수 bin() 을 호출후 출력한다.
 {: .notice--info}
 
 
@@ -797,7 +797,7 @@ print bin(0b1110 | 0b101)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -843,7 +843,7 @@ Therefore:
 
 
 **설명:** [ Instruction ]    
-• XOR( ^ ) 연산자를 사용하여 0b1110 과 0b101을 계산하라.        
+• XOR( ^ ) 연산자를 사용하여 0b1110 과 0b101 을 계산하라.        
 • XOR( ^ ) 연산자 없이 한번 시도해 보시오.( OR 연산자로 한번 해보라. )
 {: .notice--info}
 
@@ -872,9 +872,9 @@ print bin(0b1110 ^ 0b101)
 ```
 
 **설명:** [ Solution ]     
-• 0b1110 과 0b101을 XOR( ^ ) 연산자를 하면, 같은 자리의 숫자가 같으면 0을 반환한다.   
+• 0b1110 과 0b101 을 XOR( ^ ) 연산을 하면, 같은 자리의 숫자가 같으면 0을 반환한다.   
 • ( 0b1110 ^ 0b101 ) 을 계산하면 0b1011 이 된다.     
-• 그 결과값을 2진수 함수 bin() 을 사용하여 출력한다.
+• 그 결과값을 2 진수 함수 bin() 을 사용하여 출력한다.
 {: .notice--info}
 
 
@@ -886,7 +886,7 @@ print bin(0b1110 ^ 0b101)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -947,10 +947,10 @@ print ~123
 ```
 
 **설명:** [ Solution ]     
-• 1 의 2 진수는 0b01 이고, ~ 는 첫째 bit에 1을 더한 값 0b10 이다.    
-• 0b11의 정수값은 2이고, ~ 이기에 - 값을 붙인다. 즉 -2 이다.     
-• 2의 2진수는 0b10이고, ~ 는 첫째 bit에 1을 더한 값 0b11 이다.      
-• 0b11의 정수값은 3이고, ~ 이기에 - 값을 붙인다. 즉 -3 이다.    
+• 1 의 2 진수는 0b01 이고, ~ 는 첫째 bit에 1 을 더한 값 0b10 이다.    
+• 0b11 의 정수값은 2 이고, ~ 이기에 - 값을 붙인다. 즉 -2 이다.     
+• 2 의 2 진수는 0b10 이고, ~ 는 첫째 bit에 1을 더한 값 0b11 이다.      
+• 0b11 의 정수값은 3 이고, ~ 이기에 - 값을 붙인다. 즉 -3 이다.    
 • 이와 같이 ~3 은 -4 가 출력된다.    
 • ~42는 -43 이 출력된다.    
 • ~123 은 -124 가 출력된다.
@@ -969,7 +969,7 @@ print ~123
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -994,13 +994,13 @@ In the example above, we want to see if the third bit from the right is on.
 
 
 **설명:** [ Learn ]     
-• Ch11. The Man Behind the Bit Mask 에서는 비트 Mask를 학습한다.    
+• Ch11. The Man Behind the Bit Mask 에서는 비트 Mask 를 학습한다.    
 • Bit mask는 bit 단위 연산을 돕기 위한 단순한 변수이다.     
-• Bit mask는 특정 bit의 값을 활성화 하는데 도움을 준다.    
-• 우리는 일잔적으로 bit 가 1이면 On(켜짐)이라 하고, 0이면 Off(꺼짐)이라 표현한다.    
-• 특정 자리의 bit 만을 On(켜짐)하기 위해서 사용되는 것을 bit mask 라 한다.    
-• 변수 num 의 3번째 bit 만을 On(1)하기 위해서 사용되는 것을 bit mask라 한다.    
-• 예제에서, 변수( num & mask )한 값이 0보다 클려면, mask 값이 0b0100이어야 한다.    
+• Bit mask는 특정 bit 의 값을 활성화 하는데 도움을 준다.    
+• 우리는 우선 bit 가 1 이면 On(켜짐)이라 하고, 0 이면 Off(꺼짐)라 표현한다.    
+• 특정 자리의 bit 만을 On(켜짐)하기 위해 사용되는 것을 bit mask 라 한다.    
+• 변수 num 의 3번째 bit 만을 On(1)하기 위해 사용되는 것을 bit mask 라 한다.    
+• 예제에서, 변수( num & mask )한 값이 0 보다 크려면, mask 값이 0b0100 이어야 한다.    
 • 변수 desired 가 0 보다 크므로 "Bit was on" 출력된다.
 {: .notice--info}
 
@@ -1026,8 +1026,8 @@ In the example above, we want to see if the third bit from the right is on.
 
 **설명:** [ Instruction ]    
 • 함수 check_bit4(input) 을 작성하라.        
-• 함수는 입력한 2 진수의 4번째 bit 값이 1 이면 "on" 을 반환한다.    
-• 입력한 4번째의 bit 값이 0 이면 "off" 를 반환한다.     
+• 함수는 입력한 2 진수의 4 번째 bit 값이 1 이면 "on" 을 반환한다.    
+• 입력한 4 번째의 bit 값이 0 이면 "off" 를 반환한다.     
 • 함수만 구현하고, 출력하는 함수 호출은 하지 않는다.
 {: .notice--info}
 
@@ -1048,7 +1048,7 @@ check_bit4(0b1010) # ==> "on"
 
 
 **설명:** [ Hint ]    
-• 입력한 4번째 bit 값이 1 인지를 확인하는 함수를 작성하라. 
+• 입력한 4 번째 bit 값이 1 인지를 확인하는 함수를 작성하라. 
 {: .notice--info}
 
 <br>
@@ -1071,12 +1071,12 @@ def check_bit4(input):
 ```
 
 **설명:** [ Solution ]     
-• 변수 ( mask = 0b1000 ) 의 4번째 bit 만 1 인것을 만든다.    
+• 변수 ( mask = 0b1000 ) 의 4 번째 bit 만 1 인것을 만든다.    
 • 입력받은 input 과 mask 값을 AND 연산을 한다.    
-• mask 가 4번째 bit 가 1 인 경우에만 정수값 8(0b1000)이상이 생성된다.    
+• mask 가 4 번째 bit 가 1 인 경우에만 정수값 8(0b1000)이상이 생성된다.    
 • 그 결과값을 desired 에 저장한다.   
-• desired 가 0보다 큰 경우(4번째 bit가 1 인 경우) on 을 반환한다.     
-• desired 가 0보다 작은 경우 off 를 반환한다.    
+• desired 가 0 보다 큰 경우(4 번째 bit가 1 인 경우) on 을 반환한다.     
+• desired 가 0 보다 작은 경우 off 를 반환한다.    
 • 다음 예제와 같이 실행하여 입력값이 정상적으로 실행되는지 확인한다.    
 • e.g. print check_bit4(0b1010)
 {: .notice--info}
@@ -1090,7 +1090,7 @@ on
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -1109,9 +1109,9 @@ Using the bitwise `OR(|)` operator will turn a corresponding bit on if it is off
 **설명:** [ Learn ]     
 • Ch12. Turn It On 에서는 비트 Mask 연습을 학습한다.       
 • OR ( | ) 연산자를 사용하여 bit mask 를 만들 수 있다.    
-• OR ( | ) 연산자는 두 수의 계산값중 하나라도 1이면 결과값이 1이된다.    
-• OR ( | ) bit mask 는 off 되어 있는 bit, 0 을 on, 즉 1로 만들어 준다.    
-• 이미 on, bit 1은 on 되어 있는것은 on으로 유지한다. 
+• OR ( | ) 연산자는 두 수의 계산값중 하나라도 1 이면 결과값이 1 이된다.    
+• OR ( | ) bit mask 는 off 되어 있는 bit, 0 을 on, 즉 1 로 만들어 준다.    
+• 이미 on, 즉, bit 값이 1 이어서 on 되어 있는것은 on 으로 유지한다. 
 {: .notice--info}
 
 
@@ -1127,7 +1127,7 @@ Using the bitwise `OR(|)` operator will turn a corresponding bit on if it is off
 
 
 **설명:** [ Instruction ]    
-• 변수 a 에 있는 3번째 bit를 on(1) 시켜라.    
+• 변수 a 에 있는 3 번째 bit를 on(1) 시켜라.    
 • 함수 bin() 을 사용하여 출력하라.
 {: .notice--info}
 
@@ -1141,7 +1141,7 @@ Using the bitwise `OR(|)` operator will turn a corresponding bit on if it is off
 * If you do not use `bin()` then you will see integer results    
 
 **설명:** [ Hint ]     
-• 변수 a 의 3번째 bit가 0이든 1이든 mask를 사용하여 무조건 1(on)이 되게 한다.    
+• 변수 a 의 3 번째 bit 가 0 이든 1 이든 mask 를 사용하여 OR 연산자를 사용하여 무조건 1(on)이 되게 한다.    
 • 결과값을 함수 bin() 을 사용하지 않으면 정수값이 출력된다.
 {: .notice--info}
 
@@ -1162,7 +1162,7 @@ print bin(desired)
 ```
 
 **설명:** [ Solution ]     
-• 3번째 bit가 1 인 변수 mask = 0b1000 을 만든다.        
+• 3 번째 bit 가 1 인 변수 mask = 0b100 을 만든다.        
 • 변수 a 와 mask 를 OR ( | ) 연산을 한다.    
 • 그 결과를 변수 desired 에 저장한다.    
 • 변수 desired 를 bin(desired) 로 변환후 출력한다.
@@ -1177,7 +1177,7 @@ print bin(desired)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -1196,9 +1196,9 @@ desired =  a ^ mask # 0b1
 
 
 **설명:** [ Learn ]     
-• Ch13. Just Flip Out 에서는 XOR 을 활용한 비트 Mask를 학습한다.    
+• Ch13. Just Flip Out 에서는 XOR 을 활용한 비트 Mask 를 학습한다.    
 • XOR ( ^ ) 연산자는 두 수가 같으면 0, 틀리면 1 을 반환한다.   
-• 변수 a 에 mask = 0b111 을 XOR 연산해 주면, 두수가 같으면 0, 틀리면 1을 반환한다.
+• 변수 a 에 mask = 0b111 을 XOR 연산해 주면, 두수가 같으면 0, 틀리면 1 을 반환한다.
 {: .notice--info}
 
 
@@ -1214,7 +1214,7 @@ desired =  a ^ mask # 0b1
 
 
 **설명:** [ Instruction ]    
-• 변수 a 는 8개의 bit가 저장되어 있다.    
+• 변수 a 는 8 개의 bit 가 저장되어 있다.    
 • 변수 a 의 값 모두를 반대로 만들어라.    
 • 출력할때, 함수 bin() 를 사용하여라.   
 {: .notice--info}
@@ -1230,8 +1230,8 @@ desired =  a ^ mask # 0b1
 
 **설명:** [ Hint ]     
 • mask 값을 만들때 먼저 다음과 같은 절차로 진행해야 함.    
-• 바꿔야할 변수에 저장되어 있는 2진수의 갯수를 알아내야 한다.    
-• 그 변수의 2진수 값 길이만큼, 1을 만들어야 한다.
+• 바꿔야할 변수에 저장되어 있는 2 진수의 갯수를 알아내야 한다.    
+• 그 변수의 2 진수 값 길이만큼, 1 을 만들어야 한다.
 {: .notice--info}
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -1247,8 +1247,9 @@ print bin(desired)
 ```
 
 **설명:** [ Solution ]     
-• 변수 a 의 2진수 값 길이만큼 변수 mask 에 2진수 1을 채운다.    
+• 변수 a 의 2 진수 값 길이만큼 변수 mask 에 2 진수 1 을 채운다.    
 • 변수 a 와 변수 mask 를 XOR ( ^ ) 계산한다.    
+• bit 값이 같으면 0 , 틀리면 1 반환되므로, 현재 값의 반대값이 생성된다.        
 • 계산 결과값을 변수 desired 에 저장한다.    
 • 변수 desired 를 함수 bin(desired) 로 출력한다.     
 • 함수 bin(desired)를 사용하지 않으면 정수로 출력된다.
@@ -1262,7 +1263,7 @@ print bin(desired)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO BITWISE OPERATORS</font> 
@@ -1289,12 +1290,12 @@ We use 9 because we only need to slide the mask nine places over from the first 
 
 **설명:** [ Learn ]     
 • Ch14. Slip and Slide 에서는 시프트 연산자를 학습한다.    
-• 변수 a 값의 10번째 bit를 on(1)로 만들려고 한다.    
-• 변수 mask 의 값 ( 0b1 ) 을 ( << 9 ) 9bit를 왼쪽으로 민다.     
-• 즉, ( 0b1 ) 다음에 0이 9개가 온다. ( e.g. mask=0b1000000000 )    
-• 10번째 bit에 1이 오기 위해선, bit를 옆으로 9번 민다(slid).    
-• 변수 a 의 10번째 bit를 on 하려면, XOR 연산을 한다. ( e.g. a ^ mask )        
-• 두 변수의 비트가 같으면 0, 하나라도 틀리면 1이 된다.    
+• 변수 a 값의 10 번째 bit를 on(1) 로 만들려고 한다.    
+• 변수 mask 의 값 ( 0b1 ) 을 ( << 9 ) 9 bit를 왼쪽으로 민다.     
+• 즉, ( 0b1 ) 다음에 0 이 9 개가 온다. ( e.g. mask=0b1000000000 )    
+• 10 번째 bit 에 1 이 오기 위해선, bit 를 옆으로 9 번 민다(slid).    
+• 변수 a 의 10 번째 bit 를 on 하려면, XOR 연산을 한다. ( e.g. a ^ mask )        
+• 두 변수의 비트가 같으면 0, 하나라도 틀리면 1 이 된다.    
 • 변수 desired 값은 ( 0b1000000101 )이 된다.
 {: .notice--info}
 
@@ -1335,8 +1336,8 @@ We use 9 because we only need to slide the mask nine places over from the first 
 **설명:** [ Hint ]     
 • ( << )  연산자를 사용하여, 원하는 곳까지 이동(slide) 시켜라.    
 • 그리고 원하는 bit 를 반전 시키기 위하여 ( ^ ) 를 사용하여 연산하라.    
-• 기본 bit는  0b1  이다.    
-• 0b1 을 10번째 bit로 옮기고 싶으면  `<< (10번째 -1)` 로 코딩해야 한다.    
+• 기본 bit 는 0b1 이다.    
+• 0b1 을 10 번째 bit 로 옮기고 싶으면  `<< (10번째 -1)` 로 코딩해야 한다.    
 • 함수 flip_bit() 를 호출후, 출력은 하지마라.
 {: .notice--info}
 
@@ -1360,7 +1361,7 @@ def flip_bit(number, n):
 
 **설명:** [ Solution ]     
 • 입력값 parameter 변수 number 에 옮길 정수값을 입력한다.    
-• 입력값 parameter 변수 n 에 1로 셋팅하길 원하는 bit의 위치를 입력한다.    
+• 입력값 parameter 변수 n 에 1 로 셋팅하길 원하는 bit 의 위치를 입력한다.    
 • 비트 0b1 을 (n-1) 만큼 << 왼쪽 으로 보낸다.(3번째는 시프트 2를 해야 한다.)    
 • 변수 bit_to_flip 에 시프트 된 결과값을 저장한다.    
 • 변수 result 에 변수 number ^ bit_to_flip 를 XOR 연산을 한다.    
@@ -1369,8 +1370,8 @@ def flip_bit(number, n):
 • 두 변수의 XOR 계산값은 0b110 이다.    
 • 변수 result 에 결과값 0b110 을 저장한다.    
 • 변수 result 의 값은 정수이다.    
-• 함수 bin(result) 를 사용하여 2진수로 출력한다.         
-• 임의로 해당 값을 출력해 본다. 정수 2 의 2진수값 3번째 비트에 1 이 셋팅되어 있다.
+• 함수 bin(result) 를 사용하여 2 진수로 출력한다.         
+• 임의로 해당 값을 출력해 본다. 정수 2 의 2 진수값 3 번째 비트에 1 이 셋팅되어 있다.
 {: .notice--info}
 
 
