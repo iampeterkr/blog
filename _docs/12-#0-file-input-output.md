@@ -20,8 +20,8 @@ Now that you understand Python syntax and have been introduced to some Python be
 그 외 지금까지 배워온 Python 문법을 이해하고 연습한다.  
 {: .notice--info}     
      
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
 ### 1. See It to Believe It    
@@ -106,7 +106,7 @@ f.close()
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
@@ -203,7 +203,7 @@ my_file = open("output.txt", "r+")
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
@@ -332,7 +332,7 @@ my_file.close()
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
@@ -370,8 +370,8 @@ print my_file.read()
 
 **설명:** [ Instruction ]    
 • my_file = open("output.txt", "r") 을 정의하라.    
-• File object my_file을 메서드 .read() 를 사용하여 읽어라. 그리고 출력하라.  
-• 파일을 사용후에는 File object my_file을 메서드 .close() 로 닫아라.
+• File object my_file 을 메서드 .read() 를 사용하여 읽어라. 그리고 출력하라.  
+• 파일을 사용후에는 File object my_file 을 메서드 .close() 로 닫아라.
 {: .notice--info}
 
 
@@ -404,7 +404,7 @@ my_file.close()
 ```
 
 **설명:** [ Solution ]     
-• 파일 output.txt 를 read 모드로 오픈하여, File object my_file에 저장한다.    
+• 파일 output.txt 를 read 모드로 오픈하여, File object my_file 에 저장한다.    
 • File object my_file 을 읽어서 출력한다.   
 • File object my_file 을 닫는다.
 {: .notice--info}
@@ -427,7 +427,7 @@ my_file.close()
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
@@ -440,7 +440,7 @@ If you open a file and call `.readline()` on the file object, you'll get the fir
 
 
 **설명:** [ Learn ]     
-• Ch5. Reading Between the Lines 에서는 파일 함수 readline()을 학습한다.      
+• Ch5. Reading Between the Lines 에서는 파일 함수 readline() 을 학습한다.      
 • Python에서 .readline() 을 사용하면, 파일을 한번에 한 줄씩 읽을 수 있다.    
 • 파일을 오픈후, 메서드 .readline() 을 사용하면 순차적으로 파일의 내용을 한 줄씩 읽는다.
 {: .notice--info}
@@ -465,7 +465,7 @@ If you open a file and call `.readline()` on the file object, you'll get the fir
 
 **설명:** [ Instruction ]    
 • 변수 my_file 에 파일 "text.txt" 을 읽기 모드로 오픈하라.    
-• File object my_file.readline()을 호출하여, 파일의 내용을 읽어 출력하라.    
+• File object my_file.readline() 을 호출하여, 파일의 내용을 읽어 출력하라.    
 • 한줄은 읽었는데, 다음줄은 어떻게 할지를 고민해 보라.   
 • 파일을 다 사용후에는 꼭 메서드 .close() 로 닫아야 한다.
 {: .notice--info}
@@ -513,7 +513,7 @@ my_file.close()
 
 **설명:** [ Solution ]     
 • 파일 text.txt 을 read 모드로 오픈 후, File object my_file 에 저장한다.     
-• File object my_file 에 readline()으로 한 라인씩 출력한다.    
+• File object my_file 에 readline() 으로 한 라인씩 출력한다.    
 • File object my_file 을 close() 한다. 
 {: .notice--info}
 
@@ -531,7 +531,7 @@ Third line here, boss.
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
@@ -634,7 +634,7 @@ Not closing files is VERY BAD.
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
@@ -672,7 +672,7 @@ with open("file", "mode") as variable:
 
 
 **설명:** [ Instruction ]    
-• Editor 화면에 있는 내용을 실행하여 살펴봐라.    
+• Editor 화면에 있는 내용을 실행후 살펴보라.    
 • 메서드 .close() 를 하지 않았음에도 정상적으로 text.txt 파일에 저장이 되었다.
 {: .notice--info}
 
@@ -714,7 +714,7 @@ Success!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
@@ -788,7 +788,7 @@ cheapter 8
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">FILE INPUT/OUTPUT</font> 
