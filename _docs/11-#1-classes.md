@@ -20,8 +20,8 @@ Make your own Car and learn how to driveCar()!
 이 장에서는 자동차를 가지고 작은 프로젝트를 단계별 진행하면서 클래스에 대하여 좀 더 깊이 있게 이해하고 연습해 보자. 
 {: .notice--info}     
      
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
 ### 1.  Class basics    
@@ -94,7 +94,7 @@ class Car(object):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font>     
@@ -169,7 +169,7 @@ my_car = Car()
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -187,8 +187,8 @@ class ClassName(object):
 
 **설명:** [ Learn ]       
 • Ch3. Class member variables 에서는 클래스(member) 변수를 학습한다.    
-• member변수는 클래스 object 내부에 있는 변수이다.    
-• member변수를 만들고 초기화 한다.    
+• member 변수는 클래스 object 내부에 있는 변수이다.    
+• member 변수를 만들고 초기화 한다.    
 • e.g. memberVariable = "initialValue"
 {: .notice--info}
 
@@ -205,7 +205,7 @@ class ClassName(object):
 **설명:** [ Instruction ]    
 • 클래스 Car 안에 있는 pass 를 삭제하라.    
 • 그 자리에 member 변수 condition 을 작성하라.    
-• 변수 condition 을 초기화 하라.    
+• member 변수 condition 을 초기화 하라.    
 • e.g. condition = "new"
 {: .notice--info}
 
@@ -237,7 +237,7 @@ my_car = Car()
 ```
 
 **설명:** [ Solution ]     
-• member변수 condition에 초기값 "new"를 저장한다.
+• member 변수 condition 에 초기값 "new"를 저장한다.
 {: .notice--info}
 
 
@@ -249,7 +249,7 @@ my_car = Car()
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -263,8 +263,8 @@ Each class object we create has its own set of **member variables**. Since we've
 
 **설명:** [ Learn ]        
 • Ch4. Calling class member variables 에서는 클래스 변수 호츨을 학습한다.    
-• object my_car를 만들면,     
-• 클래스 Car 에서 선언된 member변수 condition이 자동으로 할당된다.
+• object my_car 를 만들면,     
+• 클래스 Car 에서 선언된 member 변수 condition 이 자동으로 할당된다.
 {: .notice--info}
 
 
@@ -278,7 +278,7 @@ Each class object we create has its own set of **member variables**. Since we've
 
 
 **설명:** [ Instruction ]    
-• object my_car의 member변수 condition을 출력하라.
+• object my_car 의 member 변수 condition 을 출력하라.
 {: .notice--info}
 
 
@@ -287,13 +287,14 @@ Each class object we create has its own set of **member variables**. Since we've
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Since the attribute condition belongs to the object `my_car`, you'll need to use **dot** notation to access the object's member variable: 
+* Since the attribute condition belongs to the object `my_car`, you'll need to use **dot** notation to access the object's member variable:     
+
 ```python
 my_car.condition.
 ```
 
 **설명:** [ Hint ]     
-• 클래스(member) 변수를 불러올때 Dot ( . ) 을 사용한다.     
+• 클래스(member) 변수를 불러올때는 Dot( . ) 을 사용한다.     
 • e.g. my_car.condition
 {: .notice--info}
 
@@ -314,7 +315,7 @@ print my_car.condition
 ```
 
 **설명:** [ Solution ]     
-• object my_car 의 member변수 condition을 호출하고 출력한다. 
+• object my_car 의 member 변수 condition 을 호출하고 출력한다. 
 {: .notice--info}
 
 
@@ -326,7 +327,7 @@ new
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -347,10 +348,10 @@ self.new_variable = new_variable
 • Ch5. Initializing a class 에서는 클래스 초기화를 학습한다.    
 • 객체를 만들기 위해서 클래스를 호출하면, 해당 클래스의 `__init__()` 이 호출된다.    
 • 클래스 내에 있는 기본 `__init__()` 를 우리가 추가 정의 할수도 있다.    
-• `__init__(self)` 첫번째, argument는 무조건 self 이다.    
+• `__init__(self)` 첫번째, argument 는 무조건 self 이다.    
 • 객체가 self 를 이용하여 자신을 추적한다.    
 • 첫번째 arguments 인 self 외에도 a, b, c 와 같이 여러개의 변수를 전달할 수 있다.    
-• e.g. `__init__(self, a, b,c)`     
+• e.g. `__init__(self, a, b, c)`     
 •  클래스에 접근하기 위해선, Dot ( . ) 을 이용하여야 접근이 가능 하다.    
 • `__init__()` 에 값이 전달되면 다음과 같이 메서드 내부에 값을 전달할수 있다.    
 • e.g. self.new_variable = new_variable  
@@ -380,7 +381,7 @@ mpg = 88
 
 **설명:** [ Instruction ]    
 • 클래스 Car 안에 메서드 `__init__(self, model, color, mpg)`를 만들어라.    
-• 메서드 `__init__()` 내부에 입력된 변수를 self 를 이용하여 초기화 하여라.    
+• 메서드 `__init__()` 내부에 입력된 instance 변수를 self 를 이용하여 초기화 하여라.    
 • 클래스 Car 를 instance 한 object my_car 를 아래 값들을 이용하여 수정하라.    
 • 다음과 같이 수정후, 호출한다.    
 • e.g. my_car = Car(model="DeLorean", color = "silver", mpg=88)    
@@ -405,7 +406,7 @@ def __init__(self, model, color, mpg):
 
 **설명:** [ Hint ]     
 • 클래스의 instance를 만들때, 아래와 같이 변수 값을 지정할 수 있다.    
-• e.g. 변수 model 만 초기화 함.    
+• e.g. instance 변수 model 만 초기화 함.    
 • e.g. self.model = model
 {: .notice--info}
 
@@ -430,7 +431,7 @@ my_car = Car("DeLorean", "silver", 88)
 **설명:** [ Solution ]     
 • 함수 `__init__(self, model, color, mpg):` 의 변수 초기화는 다음과 같다.    
 • e.g. self.model = model  
-• my_car를 만들때, member변수 초기값("DeLorean", "silver", 88)을 넣는다.
+• my_car를 만들때, instance 변수 초기값("DeLorean", "silver", 88)을 넣는다.
 {: .notice--info}
 
 
@@ -442,7 +443,7 @@ my_car = Car("DeLorean", "silver", 88)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -483,8 +484,9 @@ new_object.new_variable
 
 **설명:** [ Instruction ]    
 • my_car 의 member 변수를 출력하라.    
-• my_car 의 color 변수를 출력하라.    
-• my_car 의 mpg 변수를 출력하라.
+• my_car 의 instance 변수 model 을 출력하라.    
+• my_car 의 instance 변수 color 를 출력하라.    
+• my_car 의 instance 변수 mpg 를 출력하라.    
 {: .notice--info}
 
 
@@ -501,7 +503,7 @@ print my_car.model
 
 
 **설명:** [ Hint ]     
-• Object my_car 의 클래스 변수 model 을 참조하는 방법이다.    
+• Object my_car 의 instance 변수 model 을 참조하는 방법이다.    
 • my_car.model 
 {: .notice--info}
 
@@ -533,7 +535,7 @@ print my_car.mpg
 ```
 
 **설명:** [ Solution ]     
-• 생성된 my_car 의 member 변수를 호출하여 출력한다.
+• 생성된 my_car 의 instance 변수 model, color, mpg 를 호출하여 출력한다.
 {: .notice--info}
 
 
@@ -547,7 +549,7 @@ silver
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -571,8 +573,8 @@ Just like when we defined `__init__()`, you need to provide `self` as the first 
 
 **설명:** [ Learn ]       
 • Ch7. Creating class methods 에서는 클래스안의 메서드를 만드는 방법을 학습한다.    
-• 클래스 안에는 `__init__()`외에도 다른 메서드를 만들수 있다.    
-• 메서드 perimeter()는 클래스 내의 다른 메서드에서 정의된 부분을 제외하고 정의하였다.    
+• 클래스 안에는 `__init__()` 외에도 다른 메서드를 만들수 있다.    
+• 메서드 perimeter() 는 클래스 내의 다른 메서드에서 정의된 부분을 제외하고 정의하였다.    
 • 메서드는 무조건 첫번째 인자는 self 이다.  
 {: .notice--info}
 
@@ -604,7 +606,7 @@ Just like when we defined `__init__()`, you need to provide `self` as the first 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Remember, in order to access member variables of a class (even while inside of that class), we have to use the self keyword and dot notation to specify that we mean the member variable that belongs to the class.
+* Remember, in order to access member variables of a class (even while inside of that class), we have to use the self keyword and dot notation to specify that we mean the member variable that belongs to the class.
 
 ```python
 def display_car(self):
@@ -653,7 +655,7 @@ This is a silver DeLorean with 88 MPG.
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -752,7 +754,7 @@ used
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -796,9 +798,9 @@ Normally we use object as the parent class because it is the most basic type of 
 
 **설명:** [ Instruction ]    
 • 클래스 Car 를 inheritance 하는 클래스 ElectricCar 를 만들어라.    
-• 클래스 ElectricCar 의 메서드 `__init__()` 내부에 member 변수 battery_type를 추가하라.    
+• 클래스 ElectricCar 의 메서드 `__init__()` 내부에 member 변수 battery_type 를 추가하라.    
 • my_car = ElectricCar("molten salt", model, color, mpg)를 만들어라.     
-• model, color, mpg 도 당신이 원하는 값을 넣어라.
+• model, color, mpg 에 당신이 원하는 값을 넣어라.
 {: .notice--info}
 
 
@@ -862,7 +864,7 @@ my_car = ElectricCar("DeLorean", "silver", 88, "molten salt")
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -875,7 +877,7 @@ Since our `ElectricCar` is a more specialized type of `Car`, we can give the `El
 **설명:** [ Learn ]      
 • Ch10. Overriding methods 에서는 오버리이딩을 학습한다.   
 • 클래스 ElectricCar 는 부모 클래스 Car 의 특화된 클래스이다.    
-• 클래스 ElectricCar 의 내부 메서드 drive_car() 는 클래스 Car 의 메소드 drive_car() 보다 다른 기능을 수행할 수 있다.
+• 클래스 ElectricCar 의 내부 메서드 drive_car() 는 클래스 Car 내부의 메소드 drive_car() 와 다른 기능을 수행할 수 있다.
 {: .notice--info}
 
 
@@ -968,7 +970,7 @@ like new
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">CLASSES</font> 
@@ -984,9 +986,10 @@ One useful class method to override is the built-in `__repr__()` method, which i
 • Ch11. Building useful classes 에서는 클래스를 연습한다.    
 • 실전 프로그램에서, 클래스는 유용하게 사용된다.     
 • 하지만, 여러분이 바로 클래스를 만들고 사용하는 일은 조금 시간이 걸린다.   
-• 이렇게 유용한 클래스를 잘 사용하게끔 하려고, 새로운 내장 override 메서드가 있다.    
-• 메서드 `__repr__()` 이다.    
-• 이 메서드는 Python에서 객체를 반환할때, 어떻게 표현할지를 알려 줄수 있다. 
+• 이렇게 유용한 클래스를 잘 사용하게끔 하려고, 새로운 내장 메서드가 있다.    
+• 이 내장 메서드는 따로 구현할 필요 없이 overriding 기능을 활용하여 쉽게 사용할수 있게 해준다.    
+• 지금 소개할 대표적 메서드는 `__repr__()` 이다.    
+• 이 메서드는 Python에서 객체를 반환할때, 어떻게 표현할지를 정확하게 알려주는 메서드이다. 
 {: .notice--info}
 
 
