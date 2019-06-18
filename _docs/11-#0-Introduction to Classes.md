@@ -21,8 +21,8 @@ Classes are a crucial part of object-oriented programming (OOP). In this lesson,
 이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 학습한다.
 {: .notice--info}     
      
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
 ### 1. Why Use Classes?    
@@ -43,10 +43,10 @@ But what makes "Eric" a string and my_dict a dictionary? The fact that they're i
 
 **설명:** [ Learn ]     
 • Ch1. Why Use Classes? 에서는 클래스 정의에 대하여 학습한다.    
-• Python은 객체지향 프로그램이다.     
+• Python 은 객체지향 프로그램이다.     
 • 객체지향이란, 객체(objects)라고 불리는 것을 조작할수 있는 프로그램이다.    
 • 우리는 함수(function)라는것을 배웠다. 이것도 하나의 객체(objects)이다.     
-• 함수는 우리가 외부에서 arguments로 입력값을 조절하며, 결과값을 구할 수 있었다.    
+• 함수는 우리가 외부에서 arguments 로 입력값을 조절하며, 결과값을 구할 수 있었다.    
 • 함수의 또다른 이름은 메서드(methods)라고 한다.    
 • 이런 메서드들을 모아 놓은 것을 클래스라 한다.     
 • 클래스를 함수 = 메서드 = 객체의 개념적 틀이라고 일단 생각하자.    
@@ -118,9 +118,9 @@ lemon.is_edible()
 
 **설명:** [ Solution ]     
 • 클래스 Fruit(object) 가 정의되어 있다.    
-• 클래스 Fruit는 object 를 상속 받고 있다.    
+• 클래스 Fruit 는 object 를 상속 받고 있다.    
 • Object 상속의 개념은 추후에 설명할 것이다.    
-• 클래스 Fruit(object)에는 3개의 메소드가 정의되어 있다.   
+• 클래스 Fruit(object) 에는 3개의 메소드가 정의되어 있다.   
 • e.g. def `__init__():`,    
 • e.g. def description(self):,     
 • e.g. def is_edible(self):     
@@ -139,7 +139,7 @@ Yep! I'm edible.
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -165,8 +165,8 @@ By convention, user-defined Python class names start with a capital letter.
 • - class : 이 정의된 것이 클래스임을 알려줌.    
 • - 클래스 이름 : 메서드들을 대표할수 있는 이름을 적어줌.    
 • - (objects) : objects 의 기능을 상속(inherits) 받는다.    
-• (objects) 라고 선언하면 Pythond object의 기능을 활용할수 있게 해준다.    
-• Python은 클래스 이름을 쓸때, capital letter 방식으로 정의한다.
+• (objects) 라고 선언하면 Pythond object 의 기능을 활용할수 있게 해준다.    
+• Python 은 클래스 이름을 쓸때, capital letter 방식으로 정의한다.
 {: .notice--info}
 
 
@@ -181,7 +181,7 @@ By convention, user-defined Python class names start with a capital letter.
 
 
 **설명:** [ Instruction ]    
-• 클래스 Animal을 작성하라.        
+• 클래스 Animal 을 작성하라.        
 • 클래스 Animal 내부에 pass 키워드를 사용하라.    
 • pass 는 추후에 설명하겠다. 
 {: .notice--info}
@@ -196,7 +196,7 @@ By convention, user-defined Python class names start with a capital letter.
 
 
 **설명:** [ Hint ]     
-• 상단의 클래스 함수 정의 한것을 참조하라. 
+• 상단의 클래스를 정의 한것을 참조하라. 
 {: .notice--info}
 
 <br>
@@ -226,7 +226,7 @@ class Animal(object):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -245,12 +245,12 @@ You can think of `__init__()` as the function that "boots up" each object the cl
 
 **설명:** [ Learn ]     
 • Ch3. Classier Classes 에서는 메서드 `__init__():` 를 학습한다.      
-• 클래스 내부의 키워드 pass 자리에 어떤 기능들을 구현하여야 한다.     
+• 클래스 내부의 키워드 pass 자리에 어떤 기능들을 구현 하여야 한다.     
 • 클래스 1장에서 클래스를 소개하면서 보여준 소스에서, `__init__()` 메서드를 보았다.    
-• `__init__()`는 클래스에서 반드시 필요한 메서드이다.    
-• `__init__()`는 클래스 객체가 생성될때, 초기화 하는데 사용된다.    
-• `__init__()`는 최소한 1개의 argument self 를 가진다.    
-• `__init__()`는 객체가 생성될 때마다 실행되는 함수이자 메서드이다. 
+• `__init__()` 는 클래스에서 반드시 필요한 메서드이다.    
+• `__init__()` 는 클래스 객체가 생성될때, 초기화 하는데 사용된다.    
+• `__init__()` 는 최소한 1개의 argument self 를 가진다.    
+• `__init__()` 는 객체가 생성될 때마다 실행되는 함수이자 메서드이다. 
 {: .notice--info}
 
 
@@ -268,8 +268,8 @@ You can think of `__init__()` as the function that "boots up" each object the cl
 
 
 **설명:** [ Instruction ]    
-• 키워드 pass 를 제거하고, 그자리에 `__init__()`를 정의하라.    
-• `__init__()`는 기본적으로 arguments 인 self 를 가진다.    
+• 키워드 pass 를 제거하고, 그자리에 `__init__()` 를 정의하라.    
+• `__init__()` 는 기본적으로 arguments 인 self 를 가진다.    
 • `__init__()` 내부에 키워드 pass 를 넣어라.    
 •  단, 들여쓰기(indented block)를 주의하여라.
 {: .notice--info}
@@ -305,8 +305,8 @@ class Animal(object):
 ```
 
 **설명:** [ Solution ]     
-• 클래스 Animal(object)를 정의한다.    
-• 내부 메서드 `__init__(self)`를 선언한다.     
+• 클래스 Animal(object) 를 정의한다.    
+• 내부 메서드 `__init__(self)` 를 선언한다.     
 • 그안에 pass 키워드를 입력한다. 
 {: .notice--info}
 
@@ -319,7 +319,7 @@ class Animal(object):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -336,11 +336,11 @@ The part that is magic is the fact that `self` is the first parameter passed to 
 
 **설명:** [ Learn ]    
 • Ch4. Let's Not Get Too Selfish 에서는 self 에 관하여 학습한다.     
-• 메서드 `__inti__()`는 self 를 매개변수를 가진다. 이것은 Python 약속이다.    
-• self 가 특별한 것은 없지만, 무조건 `__inti__()`의 첫번째 매개변수로 사용된다.    
-• 클래스가 호출되면, 자동으로 `__init__(slef)`가 호출된다.     
+• 메서드 `__inti__()` 는 self 를 매개변수를 가진다. 이것은 Python 약속이다.    
+• self 가 특별한 것은 없지만, 무조건 `__inti__()` 의 첫번째 매개변수로 사용된다.    
+• 클래스가 호출되면, 자동으로 `__init__(slef)` 가 호출된다.     
 • 호출될때, 자기 자신을 호출하기에, self 라고 부른다.    
-• self 가 호출되는것은 이 객체의 정체성(누구 것인지)를 알게 해준다.     
+• self 가 호출 되는것은 이 객체의 정체성(누구 것인지)를 알게 해준다.     
 {: .notice--info}
 
 
@@ -359,8 +359,8 @@ The part that is magic is the fact that `self` is the first parameter passed to 
 
 
 **설명:** [ Instruction ]    
-• 메서드 `__init__(self)`의 두번째 매개변수(parameter)에 변수 name 을 넣자.    
-• 메서드 `__init__(self, name)`의 내부에 `self.name = name` 라고 만든다.
+• 메서드 `__init__(self)` 의 두번째 매개변수(parameter)에 변수 name 을 넣자.    
+• 메서드 `__init__(self, name)` 의 내부에 `self.name = name` 라고 만든다.
 {: .notice--info}
 
 
@@ -377,7 +377,7 @@ class Animal(object):
 ```
 
 **설명:** [ Hint ]     
-• 메서드 `__init__(self, namee)`에 두번째 매개변수에 변수 name 을 정의하자.    
+• 메서드 `__init__(self, name)` 에 두번째 매개변수에 변수 name 을 정의하자.    
 {: .notice--info}
 
 <br>
@@ -394,7 +394,7 @@ class Animal(object):
 ```
 
 **설명:** [ Solution ]     
-• 클래스 Animal 안, 메서드 `def __init__(self, name):`를 정의한다.    
+• 클래스 Animal 안, 메서드 `def __init__(self, name):` 를 정의한다.    
 • 변수 `self.name = name` 이라고 정의한다.     
 • 이 뜻은 매개변수 name 의 값을 self.name 에 저장한다는 뜻이다.
 {: .notice--info}
@@ -408,7 +408,7 @@ class Animal(object):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -437,11 +437,11 @@ print my_shape.sides
 • ( . ) 을 사용하여 우리는 객체의 속성에 접근할 수 있다.    
 • 객체 my_shape 를 만드는 방법은 다음과 같다.    
 • e.g. my_shape = Square()    
-• 생성된 객체(Object) my_shape는 클래스 Square()의 속성을 그대로 사용할 수 있다.    
+• 생성된 객체(Object) my_shape 는 클래스 Square() 의 속성을 그대로 사용할 수 있다.    
 • 객체 my_shapes 를 클래스 Square() 의 내부 속성을 사용할려면, 다음과 같다.    
-• my_shape. 이라고 ( . )을 찍는 순간 클래스의 `__init__(self)`가 자동 호출된다.    
-• my_shape.sides 는 `__init__(self)`의 self.sides 에 접근할 수 있다.    
-• `self.sides = 4` 이기에,     
+• my_shape. 이라고 ( . )을 찍는 순간 클래스의 `__init__(self)` 가 자동 호출된다.    
+• my_shape.sides 는 `__init__(self)` 의 self.sides 에 접근할 수 있다.    
+• self.sides = 4 이기에,     
 • print my_shape.sides 는 4 가 출력된다. 
 {: .notice--info}
 
@@ -483,7 +483,7 @@ print zebra.name
 
 **설명:** [ Hint ]     
 • 클래스 Animal 를 사용하는 객체(object) zebra 를 생성한다.    
-• zebra.name을 호출하면, 클래스 Animal의 name에 있는 내용이 출력된다.
+• zebra.name 을 호출하면, 클래스 Animal 의 name 에 있는 내용이 출력된다.
 {: .notice--info}
 
 <br>
@@ -506,16 +506,16 @@ print zebra.name
 **설명:** [ Solution ]     
 • 클래스 Animal 을 정의한다.     
 • 클래스 Animal 은 Object 를 상속한다.    
-• 클래스 Animal 은 메서드 `__init__(self, name):`을 가진다.    
+• 클래스 Animal 은 메서드 `__init__(self, name):` 을 가진다.    
 • 이 메서드는 입력받은 name 을 self.name 에 저장한다.    
 • 객체 zebra 를 다음과 같이 생성한다.    
 • e.g. zebra = Animal("Jeffrey")    
-• 클래스 Animal을 instance 하는 객체 zebra 를 생성한다.   
-• 클래스 Animal()의 파라메터에 값 "Jeffrey" 를 넣는다.    
+• 클래스 Animal 을 instance 하는 객체 zebra 를 생성한다.   
+• 클래스 Animal() 의 파라메터에 값 "Jeffrey" 를 넣는다.    
 • 변수 name 에는 "Jeffrey" 가 넘겨진다.     
-• 객체 zebra 는 클래스 Aniaml의 속성을 그대로 가지고 있다.    
-• zebra. 하는 순간 클래스 Animal()의 `__init__(self)`가 호출된다.    
-• zebra.name  은 클래스 Animal의 name 이 출력된다.
+• 객체 zebra 는 클래스 Aniaml 의 속성을 그대로 가지고 있다.    
+• zebra. 하는 순간 클래스 Animal()의 `__init__(self)` 가 호출된다.    
+• zebra.name 은 클래스 Animal 의 name 이 출력된다.
 {: .notice--info}
 
 
@@ -527,7 +527,7 @@ Jeffrey
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -543,10 +543,10 @@ The first argument `__init__()` gets is used to refer to the instance object, an
 
 
 **설명:** [ Learn ]     
-• Ch6. More on `__init__()` and self 에서는 함수 init와 self를 추가 학습한다.    
-• 객체를 생성할때, 함수`__init__(self)` 가 자동 호출된다.     
-• 함수 `__init__`에는 self 외에도 name, age 매개 변수를 추가할 수 있다.    
-• 함수 `__init__()`이 호출되면 내부에는 self.name, self.age 가 만들어진다.    
+• Ch6. More on `__init__()` and self 에서는 함수 init 와 self 를 추가 학습한다.    
+• 객체를 생성할때, 함수 `__init__(self)` 가 자동 호출된다.     
+• 함수 `__init__` 에는 self 외에도 name, age 매개 변수를 추가할 수 있다.    
+• 함수 `__init__()` 이 호출되면 내부에는 self.name, self.age 가 만들어진다.    
 {: .notice--info}
 
 
@@ -562,9 +562,9 @@ The first argument `__init__()` gets is used to refer to the instance object, an
 
 
 **설명:** [ Instruction ]    
-• Editor 화면에서 함수 `__init__()`이 기동 되는지 확인하라.    
-• 매개변수 name , age 가 어떻게 self.name, self.age로 할당되는지도 확인하라.    
-• 함수 `__init__()` 에 is_hungry 를 세번재 매개변수로 추가 하여라.    
+• Editor 화면에서 함수 `__init__()` 이 어떻게 기동 되는지 확인하라.    
+• 매개변수 name , age 가 어떻게 self.name, self.age 로 할당되는지도 확인하라.    
+• 함수 `__init__()` 에 is_hungry 를 세번째 매개변수로 추가 하여라.    
 • 실행시켜 보아라. 그리고 결과를 지켜보자.
 {: .notice--info}
 
@@ -622,11 +622,11 @@ print panda.name, panda.age, panda.is_hungry
 ```
 
 **설명:** [ Solution ]     
-• 클래스 Animal 의 함수`__init__`에 매개변수 is_hungry 를 추가하였다.    
+• 클래스 Animal 의 함수 `__init__` 에 매개변수 is_hungry 를 추가 하였다.    
 • e.g. `def __init__(self, name, age, is_hungry):`    
-• 함수 `__init__` 에 매개변수 is_hungry 를 할당하였다.    
+• 함수 `__init__` 에 매개변수 is_hungry 를 할당 하였다.    
 • e.g. self.is_hungry = is_hungry    
-• 객체, zebra, giraffe, panda 를 생성할때, 3번째 매개변수 값도 지정하였다.
+• 객체, zebra, giraffe, panda 를 생성할때, 3 번째 매개변수 값도 지정 하였다.
 {: .notice--info}
 
 
@@ -640,7 +640,7 @@ Chad 7 True
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -658,10 +658,10 @@ The same goes for functions: some are available everywhere, some are only availa
 • Ch7. Class Scope 에서는 클래스의 변수 주기를 학습한다.    
 • 클래스에서 중요한게 변수의 주기(scope)이다.      
 • 우리는 변수는 한번 생성되면 계속 접속 or 사용할수 있다고 생각한다.      
-• 클래스 변수에는 3종류가 있다.    
+• 클래스 변수에는 3 종류가 있다.    
   1 . 전역변수(global variables) : 어디서든 접근 가능    
-  2 . 변수(member variables) : 클래스 멤버만 접근 가능    
-  3 . instance variables : 클래스의 객체만 접근 가능 
+  2 . 클래스 변수(member variables) : 클래스 멤버만 접근 가능    
+  3 . 인스탄스 변수(Instance variables) : 클래스의 객체만 접근 가능 
 {: .notice--info}
 
 
@@ -677,8 +677,10 @@ The same goes for functions: some are available everywhere, some are only availa
 
 
 **설명:** [ Instruction ]    
+• Editor 안의 코드를 확인하라.        
 • 클래스에서 변수 name, age 는 instance 변수 이다.        
 • 클래스에서 변수 is_alive 는 클래스 변수 이다.     
+• Run 실행시켜, 결과를 확인하라.
 {: .notice--info}
 
 
@@ -737,7 +739,7 @@ Chad 7 True
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -767,11 +769,11 @@ When a class has its own functions, those functions are called **methods**. You'
 
 
 **설명:** [ Instruction ]    
-• Animal 클래스에 메서드 description()를 추가하라.     
-• 메서드 description()는 동물의 이름(name)과 나이(age)를 출력(print)한다.    
-• Animal 클래스의 instance를 가진 hippo를 작성하라.     
+• Animal 클래스에 메서드 description() 를 추가하라.     
+• 메서드 description() 는 동물의 이름(name)과 나이(age)를 출력(print)한다.    
+• Animal 클래스의 instance 를 가진 hippo 를 작성하라.     
 • e.g. hippo = Animal()       
-• 그 객체(object) hippo 의 메서드(method)인 description()를 호출하라.  
+• 그 객체(object) hippo 의 메서드(method)인 description() 를 호출하라.  
 {: .notice--info}
 
 
@@ -793,8 +795,8 @@ def description(self):
 
 
 **설명:** [ Hint ]     
-• 메서드 description(self)은 self parameter가 있어야 한다.     
-• 메서드 description()가 호출되면, name과 age가 출력된다.    
+• 메서드 description(self) 은 self parameter 가 있어야 한다.     
+• 메서드 description() 가 호출되면, name 과 age 가 출력된다.    
 • 생성된 객체 hippo.description() 으로 호출한다. 
 {: .notice--info}
 
@@ -823,10 +825,10 @@ hippo.description()
 
 **설명:** [ Solution ]     
 • 클래스 Animal 내부에 메서드 description(self) 를 만들었다.    
-• 메서드 description(self)는 name과 age를 출력한다.    
-• 클래스 Animal("Anderson", 36)을 instance 하는 object(객체) hippo를 생성한다.    
+• 메서드 description(self) 는 name 과 age 를 출력한다.    
+• 클래스 Animal("Anderson", 36) 을 instance 하는 object(객체) hippo 를 생성한다.    
 • e.g. hippo = Animal("Anderson", 36)    
-• object(객체) hippo를 이용하여, 메서드 description()을 호출한다.    
+• object(객체) hippo 를 이용하여, 메서드 description() 을 호출한다.    
 • e.g. hippo.description()
 {: .notice--info}
 
@@ -840,7 +842,7 @@ Anderson
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -866,11 +868,11 @@ Let's add another member variable to Animal.
 
 **설명:** [ Learn ]     
 • Ch9. They're Multiplying! 에서는 객체 생성 및 호출을 학습한다.       
-• 클래스 Animal의 instance 를 가진 2개의 object(객체) hippo, cat을 만든다.   
+• 클래스 Animal 의 instance 를 가진 2개의 object(객체) hippo, cat 을 만든다.   
 • 객체 member 변수(클래스 변수) hippo.is_alive 를 호출 후, 출력한다.    
-• 객체 변수 hippo.is_alive 값을 False로 변경한다.    
-• hippo.is_alive를 출력한다.    
-• 객체 cat.is_alive를 호출 후, 출력한다.     
+• 객체 변수 hippo.is_alive 값을 False 로 변경한다.    
+• hippo.is_alive 를 출력한다.    
+• 객체 cat.is_alive 를 호출 후, 출력한다.     
 • 클래스 변수(member variables) is_alive 가 어떻게 동작되는지 생각해 본다.      
 • 각각의 클래스변수(member variables) 가 객체별로 따로 관리된다.    
 • 다른 객체(object)에 영향을 주지 않는다.   
@@ -891,11 +893,11 @@ Let's add another member variable to Animal.
 
  
 **설명:** [ Instruction ]    
-• 라인 3에서, 2번째 클래스(member) 변수 health 를 추가한다.    
+• 라인 3 에서, 2 번째 클래스(member) 변수 health 를 추가한다.    
 • 클래스 변수 health = "good" 라고 할당한다.   
-• 클래스 Animals의 instance를 가지는 sloth, ocelot 를 생성한다.    
+• 클래스 Animals 의 instance 를 가지는 sloth, ocelot 를 생성한다.    
 • 객체(object) sloth, ocelot 에 이름과, 나이는 적당히 넣어라.    
-• 객체 hippo, sloth, ocelot 의 health를 각 라인에서 출력하라.  
+• 객체 hippo, sloth, ocelot 의 health 를 각 라인에서 출력하라.  
 {: .notice--info}
 
 
@@ -919,7 +921,7 @@ print hippo.health
 
 
 **설명:** [ Hint ]     
-• 클래스(member) 변수 is_alive 밑에 클래스 변수 health를 추가한다.     
+• 클래스(member) 변수 is_alive 밑에 클래스 변수 health 를 추가한다.     
 • 객체(object) hippo.health 호출후 출력한다.
 {: .notice--info}
 
@@ -954,7 +956,7 @@ print ocelot.health
 
 **설명:** [ Solution ]     
 • 클래스 Animal에 클래스(member) 변수 health = "good" 를 추가한다.     
-• 클래스 Animal의 instance 인 객체 hippo, sloth, ocelt를 생성한다.    
+• 클래스 Animal의 instance 인 객체 hippo, sloth, ocelot 를 생성한다.    
 • 객체 각각의 health 값을 호출 후, 출력한다. 
 {: .notice--info}
 
@@ -969,7 +971,7 @@ good
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -983,7 +985,7 @@ However, classes and objects are often used to model real-world objects. The cod
 
 
 **설명:** [ Learn ]     
-• Ch10. It's Not All Animals and Fruits 에서는 클래스 실습을 학습한다.    
+• Ch10. It's Not All Animals and Fruits 에서는 클래스를 실습한다.    
 • 실전에서 클래스, 객체, 인스탄스가 어떻게 사용되는지를 쇼핑몰 카트를 만들어 보면서 이해하자.
 {: .notice--info}
 
@@ -1000,8 +1002,8 @@ However, classes and objects are often used to model real-world objects. The cod
 
 **설명:** [ Instruction ]    
 • 클래스 ShoppingCart의 instance 인 객체 my_cart 를 작성하라.    
-• 메서드 add_item()의 parameter인 product, price에 자신이 좋아하는 값을 넣어라.    
-• 객체(object) my_cart 의 메서드 add_item()을 통하여 product와 price를 추가하라.
+• 메서드 add_item() 의 parameter 인 product, price 에 자신이 좋아하는 값을 넣어라.    
+• 객체(object) my_cart 의 메서드 add_item() 을 통하여 product 와 price 를 추가하라.
 {: .notice--info}
 
 
@@ -1024,8 +1026,8 @@ my_cart.add_item("Ukelele", 10)
 
 
 **설명:** [ Hint ]     
-• 클래스 ShoppingCart 의 instance인 my_cart 를 생성한다.    
-• 이때, parameter를 *Eric* 을 넣는다.    
+• 클래스 ShoppingCart 의 instance 인 my_cart 를 생성한다.    
+• 이때, parameter 를 *Eric* 을 넣는다.    
 • 객체(object) my_cart 에서 add_item() 메서드를 호출한다.
 {: .notice--info}
 
@@ -1044,6 +1046,7 @@ class ShoppingCart(object):
   def __init__(self, customer_name):
     self.customer_name = customer_name
     self.items_in_cart = {}
+
   def add_item(self, product, price):
     """Add product to the cart."""
     if not product in self.items_in_cart:
@@ -1065,9 +1068,9 @@ my_cart.add_item("Ukelele", 10)
 ```
 
 **설명:** [ Solution ]     
-• 클래스 ShoopingCart("Eric")의 instance인 객체 my_cart 를 생성한다.    
+• 클래스 ShoopingCart("Eric") 의 instance 인 객체 my_cart 를 생성한다.    
 • e.g. my_cart = ShoppingCart("Eric")    
-• 객체(object) my_cart 의 메서드인 add_item("Ukelele", 10)을 호출한다.    
+• 객체(object) my_cart 의 메서드인 add_item("Ukelele", 10) 을 호출한다.    
 • e.g. my_cart.add_item("Ukelele", 10)
 {: .notice--info}
 
@@ -1080,7 +1083,7 @@ Ukelele added.
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1094,13 +1097,13 @@ Inheritance is the process by which one class takes on the attributes and method
 
 
 **설명:** [ Learn ]     
-• Ch11. Warning: Here Be Dragons 에서는 Inheritance(상속)을 학습한다.    
-• Inheritance(상속)에 대해서 배워보자.    
-• Q1. 클래스 Panda는 클래스 Bear의 일부분 이다. 동의 하는가?    
-• Q2. 클래스 Toyota는 클래스 Tractor의 일부분 이다. 동의 하는가?    
-• Q3. 클래스 Toyota는 클래스 Vehicle의 일부분 이다. 동의 하는가?    
-• Q4. 클래스 Tractor는 클래스 Vehicle의 일부분 이다. 동의 하는가?    
-• 위 에서, Q2는 동의 되지 않는다. Toyota는 Tractor의 개념적 하위가 될 수 없다.
+• Ch11. Warning: Here Be Dragons 에서는 Inheritance(상속) 을 학습한다.    
+• Inheritance(상속) 에 대해서 배워보자.    
+• Q1. 클래스 Panda 는 클래스 Bear 의 일부분 이다. 동의 하는가?    
+• Q2. 클래스 Toyota 는 클래스 Tractor 의 일부분 이다. 동의 하는가?    
+• Q3. 클래스 Toyota 는 클래스 Vehicle 의 일부분 이다. 동의 하는가?    
+• Q4. 클래스 Tractor 는 클래스 Vehicle 의 일부분 이다. 동의 하는가?    
+• 위 에서, Q2는 동의 되지 않는다. Toyota 는 Tractor 의 개념적 하위가 될 수 없다.
 {: .notice--info}
 
 
@@ -1117,10 +1120,10 @@ Inheritance is the process by which one class takes on the attributes and method
 
 
 **설명:** [ Instruction ]    
-• Editor 화면에 있는 Code를 살펴보자.    
+• Editor 화면에 있는 Code 를 살펴보자.    
 • 클래스 Customer 가 정의되어 있다.    
-• 클래스 ReturningCustomer가 클래스 Customer를 inheritance(상속)하고 있다.    
-• 주) 클래스 ReturningCustomer 내부에, 메소드 display_cart()를 정의하지 않는다.    
+• 클래스 ReturningCustomer 가 클래스 Customer 를 inheritance(상속) 하고 있다.    
+• 주) 클래스 ReturningCustomer 내부에, 메소드 display_cart() 를 정의하지 않는다.    
 • Run 실행하여, 결과를 살펴보자.
 {: .notice--info}
 
@@ -1179,7 +1182,7 @@ I'm a string that stands in for your order history!
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1254,7 +1257,7 @@ class Triangle(Shape):
 
 
 **설명:** [ Hint ]     
-• 클래스 Shape를 inheritance한 새로운 클래스 Triangle 정의하는 법을 참조한다.
+• 클래스 Shape 를 inheritance 한 새로운 클래스 Triangle 정의하는 법을 참조한다.
 {: .notice--info}
 
 <br>
@@ -1279,9 +1282,9 @@ class Triangle(Shape):
 ```
 
 **설명:** [ Solution ]     
-• 클래스 Triangle(Shape)는 클래스 Shape 를 inheritance 한다.    
-• 메서드 `__init__()` 는 1개 self 와 3개의 매개변수(arguments)를 가진다.    
-• 본문 내부에서는 self.side1 = side1 처럼 입력받은 arguments를 매칭 시킨다.
+• 클래스 Triangle(Shape) 는 클래스 Shape 를 inheritance 한다.    
+• 메서드 `__init__()` 는 1 개 self 와 3 개의 매개변수(arguments)를 가진다.    
+• 본문 내부에서는 self.side1 = side1 처럼 입력받은 arguments 를 매칭 시킨다.
 {: .notice--info}
 
 
@@ -1293,7 +1296,7 @@ class Triangle(Shape):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1330,8 +1333,8 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 • 속성과 메서드 를 포함한 전체를 가져오고 싶을때는 override 를 한다.    
 • 오버라이딩은 클래스의 메서드를 객체의 사유에 따라 덮어쓰기를 할 수 있다.    
 • ceo.greet()를 호출하면 *Get back to work, Emily* 가 출력될 것이라고 예상할 것이다.    
-• ceo.greet(emp)호출하면, *Get back to work, Steve* 가 호출된다.    
-• 이유는 object(객체) emp를 객체 ceo가 override 하였기 때문이다.  
+• ceo.greet(emp) 호출하면, *Get back to work, Steve* 가 호출된다.    
+• 이유는 object(객체) emp 를 객체 ceo 가 override 하였기 때문이다.  
 {: .notice--info}
 
 
@@ -1353,14 +1356,14 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 
 
 **설명:** [ Instruction ]    
-• 클래스 Employee를 inheritance 하는 PartTimeEmployee를 작성하라.    
-• 클래스 Employee의 메서드 calculate_wage()를 클래스 PartTimeEmployee 에서 override 하시오.    
-• Override 한 calculate_wage(self, hours)를 가진다.    
-• Employee.calcuate_wage의 override 한 것은 PartTimeEmployee.calculate_wage 이다.    
+• 클래스 Employee 를 inheritance 하는 PartTimeEmployee 를 작성하라.    
+• 클래스 Employee 의 메서드 calculate_wage() 를 클래스 PartTimeEmployee 에서 override 하시오.    
+• Override 한 calculate_wage(self, hours) 를 가진다.    
+• Employee.calcuate_wage 의 override 한 것은 PartTimeEmployee.calculate_wage 이다.    
 • 클래스 PartTimeEmployee 의 메서드 calculate_wage() 메서드는 다음을 가진다.    
 • e.g. self.hours = hours    
-• 클래스 PartTimeEmployee 의 메서드 calculate_wage(self, hours)의 return 값은 ( hours x 12.00 ) 이다.    
-• 참고로, 상위 클래스 PartTimeEmployee 의 메서드 calculate_wage()의 return 값은 ( hours x 20.00 ) 이다. 
+• 클래스 PartTimeEmployee 의 메서드 calculate_wage(self, hours) 의 return 값은 ( hours x 12.00 ) 이다.    
+• 참고로, 상위 클래스 PartTimeEmployee 의 메서드 calculate_wage() 의 return 값은 ( hours x 20.00 ) 이다. 
 {: .notice--info}
 
 
@@ -1377,7 +1380,7 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 
 **설명:** [ Hint ]     
 • 클래스 PartTimeEmployee 는 메서드 `__init__()` 는 정의하지 않는다.    
-• 클래스 PartTimeEmployee 의 메서드 calculate_wage(self, hours)를 가진다.    
+• 클래스 PartTimeEmployee 의 메서드 calculate_wage(self, hours) 를 가진다.    
 • 클래스 PartTimeEmployee 의 메서드 calculate_wage()는 (hours x 12.00) 을 반환한다. 
 {: .notice--info}
 
@@ -1403,7 +1406,7 @@ class PartTimeEmployee(Employee):
 
 **설명:** [ Solution ]     
 • Override 한 PartTimeEmployee는 메서드 `__init__()`를 정의하지 않는다.    
-• 내부 calculate_wage()는 return 값을 ( hours * 12.00 ) 를 반환한다.
+• 내부 calculate_wage() 는 return 값을 ( hours * 12.00 ) 를 반환한다.
 {: .notice--info}
 
 
@@ -1414,7 +1417,7 @@ class PartTimeEmployee(Employee):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1463,11 +1466,11 @@ Where `m()` is a method from the base class.
 
 
 **설명:** [ Instruction ]    
-• 클래스 PartTimeEmployee 의 메서드 full_time_wage(self, hours)를 추가하라.    
-• 메서드 full_time_wage()는 super 를 이용하여 return 값을 반환한다.    
+• 클래스 PartTimeEmployee 의 메서드 full_time_wage(self, hours) 를 추가하라.    
+• 메서드 full_time_wage() 는 super 를 이용하여 return 값을 반환한다.    
 • return 값은 super 를 이용한다.     
-• super는 상위 클래스 Employee 의 calculate_wage()의 결과값을 호출하여 사용한다.    
-• 객체(objec)를 다음과 같이 생성한다.    
+• super 는 상위 클래스 Employee 의 calculate_wage() 의 결과값을 호출하여 사용한다.    
+• 객체(objec) 를 다음과 같이 생성한다.    
 • e.g. milton = PartTimeEmployee("peter")    
 • 매개변수 parameter 에 이름을 넣는것을 잊지 말라.    
 • 다음과 같이 호출 후, 출력하라.    
@@ -1492,7 +1495,7 @@ def full_time_wage(self, hours):
 
 
 **설명:** [ Hint ]     
-• super를 사용하는 방법을 참조하자.    
+• super 를 사용하는 방법을 참조하자.    
 • .method(args) -> calculate_wage(name) 이라고 변경하라.
 {: .notice--info}
 
@@ -1528,12 +1531,12 @@ print milton.full_time_wage(10)
 ```
 
 **설명:** [ Solution ]     
-• 메서드 full_time_wage()를 다음과 같이 정의한다.    
+• 메서드 full_time_wage() 를 다음과 같이 정의한다.    
 • e.g. def full_time_wage(self, hours):      
 • 결과값을 반환을 다음과 같이 한다.    
 • e.g. return super(PartTimeEmployee, self).calculate_wage(hours)    
-• 이 메서드는 상위클래스의 calculate_wage(hours)를 호출한다.    
-• 클래스 PartTimeEmployee('Milton') 의 instance 인 객체 milton을 만든다.    
+• 이 메서드는 상위클래스의 calculate_wage(hours) 를 호출한다.    
+• 클래스 PartTimeEmployee('Milton') 의 instance 인 객체 milton 을 만든다.    
 • e.g. milton.full_time_wage(10)    
 • milton.full_time_wage(10) 호출후 출력한다.
 {: .notice--info}
@@ -1546,7 +1549,7 @@ print milton.full_time_wage(10)
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1578,7 +1581,7 @@ First things first: let's create a class to work with.
 • 클래스 Triangle 를 작성하라.    
 • 클래스 Triangle 는 다음의 메서드를 가진다.    
 • e.g. `def __init__(self, angle1, angle2, angle3):`    
-• 메서드 `init__()`의 내부에는 다음고 같이 매칭하도록 추가한다.    
+• 메서드 `init__()` 의 내부에는 다음고 같이 매칭하도록 추가한다.    
 • e.g. self.angle1 = angle1    
 • e.g. self.angle2 = angle2    
 • e.g. self.angle3 = angle3
@@ -1620,9 +1623,9 @@ class Triangle(object):
 ```
 
 **설명:** [ Solution ]     
-• 클래스 Triangle은 (object)를 inhertance 한다.    
-• 메서드 `__init__(self, angle1, angle2, angle3)`를 parameter를 가진다.    
-• `__init__()`의 내부를 초기화 한다.    
+• 클래스 Triangle 은 (object)를 inhertance 한다.    
+• 메서드 `__init__(self, angle1, angle2, angle3)` 를 parameter를 가진다.    
+• `__init__()` 의 내부를 초기화 한다.    
 • e.g. self.angle1 = angle1    
 • e.g. self.angle2 = angle2    
 • e.g. self.angle3 = angle3
@@ -1636,7 +1639,7 @@ class Triangle(object):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1649,7 +1652,7 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 
 **설명:** [ Learn ]    
 • Ch16. Class It Up 에서는 클래스 변수와 메서드를 학습한다.     
-• member variable 와 method를 추가해 보자.
+• member variable 와 method 를 추가해 보자.
 {: .notice--info}
 
 
@@ -1672,7 +1675,7 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 • 클래스 Triangle 안에 다음 내용을 추가 하시오.   
 • number_of_sides = 3    
 • def check_angles(self):   
-• 메서드 check_angles()는 True or False를 반환한다.        
+• 메서드 check_angles() 는 True or False 를 반환한다.        
 • True : self.angle1 + self.angle2 + self.angle3 = 합이 180    
 • False : True 가 아닌 경우.
 {: .notice--info}
@@ -1695,7 +1698,7 @@ def check_angles(self):
 
 **설명:** [ Hint ]     
 • 클래스 변수(member variables)를 추가하라.    
-• 메서드 check_angles(self)는 매개변수(parameter) self 만 가진다.    
+• 메서드 check_angles(self) 는 매개변수(parameter) self 만 가진다.    
 • 메서드 작성 방법을 참조하라.
 {: .notice--info}
 
@@ -1722,11 +1725,11 @@ class Triangle(object):
 ```
 
 **설명:** [ Solution ]     
-• 클래스(member) 변수  number_of_sides = 3 를 추가한다.    
+• 클래스(member) 변수 number_of_sides = 3 를 추가한다.    
 • 메서드 check_angles(): 추가한다.    
 • e.g. def check_angles(self):    
-• 클래스에서 입력받은 parameter 값을 합하여 180 이면 True를 반환한다.    
-• 그 외는 False를 반환한다.
+• 클래스에서 입력받은 parameter 값을 합하여 180 이면 True 를 반환한다.    
+• 그 외는 False 를 반환한다.
 {: .notice--info}
 
 
@@ -1737,7 +1740,7 @@ class Triangle(object):
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1772,11 +1775,11 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 
 **설명:** [ Instruction ]    
 • 클래스 Triangle 의 instance 인 객체(object) my_triangle 를 작성하라.    
-• parameter 값으로 3개 합이 180이 되게 넣는다.    
+• parameter 값으로 3 개 합이 180 이 되게 넣는다.    
 • e.g. a=90, b=30, c=60       
-• Instance한 객체 my_triangle 의 변수 number_of_sides 를 호출후 출력한다.      
+• Instance 한 객체 my_triangle 의 변수 number_of_sides 를 호출후 출력한다.      
 • e.g. print my_triangle.number_of_sides    
-• Instance한 객체 my_triangle 의 메서드 check_angles()를 호출후 출력한다.    
+• Instance 한 객체 my_triangle 의 메서드 check_angles() 를 호출후 출력한다.    
 • e.g. print my_triangle.check_angles()
 {: .notice--info}
 
@@ -1844,7 +1847,7 @@ True
 <p style="page-break-before: always;"></p>
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">INTRODUCTION TO CLASSES</font> 
@@ -1857,8 +1860,8 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 
 **설명:** [ Learn ]    
 • Ch18. Inheritance 에서는 상속(inheritance)을 학습한다.      
-• 클래스 Triangle를 inheritance 한 클래스 Equilateral를 만들어 보자.    
-• Equilateral 은 3각 모두가 60˚ 인 삼각형이다.
+• 클래스 Triangle 를 inheritance 한 클래스 Equilateral 를 만들어 보자.    
+• Equilateral 은 3 각 모두가 60˚ 인 삼각형이다.
 {: .notice--info}
 
 
@@ -1880,8 +1883,8 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 **설명:** [ Instruction ]    
 • 클래스 Triangle 를 inheritance 한 클래스 Equilateral 를 작성하라.        
 • 클래스 Equilateral 내부에는 클래스(member) 변수인 angle = 60 을 작성하라.      
-• 내부에 메서드 `__init__(self)`를 작성하라.      
-• 내부 메서드의 변수 3개를 다음과 같이 초기화 하라.    
+• 내부에 메서드 `__init__(self)` 를 작성하라.      
+• 내부 메서드의 변수 3 개를 다음과 같이 초기화 하라.    
 • e.g. self.angle1 = angle     
 • e.g. self.angle2 = angle     
 • e.g. self.angle3 = angle
@@ -1905,7 +1908,7 @@ class DerivedClass(BaseClass):
 
 **설명:** [ Hint ]     
 • Inheritance 는 상위 클래스의 속성과 메서드를 상속 받는다.       
-• Inheritance를 했기에, partamerter 도 inheritance 된다.      
+• Inheritance 를 했기에, partamerter 도 inheritance 된다.      
 • 예제를 참고하라.
 {: .notice--info}
 
@@ -1939,12 +1942,12 @@ class Equilateral(Triangle):
 ```    
 
 **설명:** [ Solution ]     
-• 클래스 Equilateral은 클래스 Triangle를 inheritance 하여 정의한다.    
+• 클래스 Equilateral 은 클래스 Triangle 를 inheritance 하여 정의한다.    
 • 클래스(member) 변수에 60 을 할당한다.    
-• 메서드 `__init__(self)`를 정의한다. 이때, 매개변수(arguments)가 없다.    
+• 메서드 `__init__(self)` 를 정의한다. 이때, 매개변수(arguments)가 없다.    
 • 이유는 inheritance 했기 때문이다.     
 • 하지만, 초기화는 다음과 같다.     
-• e.g. self.angle1 = self.angle의
+• e.g. self.angle1 = self.angle
 {: .notice--info}
 
 
