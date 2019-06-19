@@ -10,24 +10,19 @@ redirect_from:
 # toc: true
 ---
 <hr/>
-<br/>   
 ![signin]({{ site.baseurl }}/assets/images/codecademy/00-login-00.png)
 <hr/>    
 
-**설명:** [ 회원가입 ]     
-1단계    
+**설명:** [ 회원가입 ] 1단계    
 `Username` or `Email` 을 입력 합니다.     
 {: .notice--info}
 
 
-**설명:** [ 회원가입 ]     
-2단계    
+**설명:** [ 회원가입 ] 2단계    
 `Password` 를 입력 합니다.     
 {: .notice--info}
 
 
-**설명:** [ 회원가입 ]     
-3단계        
+**설명:** [ 회원가입 ] 3단계    
 `Log in` 을 누릅니다.     
 {: .notice--info}
-

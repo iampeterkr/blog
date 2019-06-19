@@ -46,6 +46,7 @@ Strings need to be within quotes.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -65,8 +66,6 @@ Strings need to be within quotes.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Do you remember how to declare and assign variables in Python? If not, refresh your memory here!
-
-* There is no difference between using single quotes ' and double quotes ". However, sometimes it is helpful to use one or the other. If we want to include an apostrophe in our string, it would be smart to use double quotes to create the string like "I'm a string". If we want to use quotes in the string, we might want to create the string with single quote like 'The man screamed "I love Python!" so that everyone could hear.'
 
 
 **설명:** [ Hint ]     
@@ -91,6 +90,7 @@ The man screamed "I love Python!" so that everyone could hear.
 The man screamed 'I love Python!' so that everyone could hear.
 ```
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -150,6 +150,7 @@ Excellent! Let's get a little practice in with strings.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -244,6 +245,7 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -260,7 +262,7 @@ This code breaks because Python thinks the apostrophe in 'There's' ends the stri
 • `\` 를 사용하라. 
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
@@ -294,6 +296,7 @@ print (b)
 This isn't flying, this is falling with style!
 This isn't flying, this is falling with style!
 ```    
+
 <p style="page-break-before: always;"></p>
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
@@ -380,6 +383,7 @@ So if you wanted "Y", you could just type
 • 문자열 *MONTY* 에서 *Y* 만 출력 할려면 변수에 *Y* 만 대입해야 한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -446,7 +450,7 @@ Let's start with `len()`, which gets the length (the number of characters) of a 
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -545,6 +549,7 @@ which will return "ryan".
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -604,7 +609,7 @@ Now your **string** is 100% lower case! A similar method exists to make a string
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -706,6 +711,7 @@ would turn `2` into `"2"`.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -792,6 +798,7 @@ On the other hand, `len()` and `str()` can work on other data types.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1118,6 +1125,7 @@ Now try it yourself!
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1204,6 +1212,7 @@ print "03 - %02d - 2019" % (day)
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1211,17 +1220,15 @@ print "03 - %02d - 2019" % (day)
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * Take a look at the code in the editor.    
-* What do you think it'll do?    
-* Click Run when you think you know.
+* What do you think it'll do? , Click Run when you think you know.
 
 
 **설명:** [ Instruction ]     
-• Editor 화면에 있는 소스를 실행하라.    
-• 당신이 예상한대로 출력 되는지 검토하라. 
+• Editor 화면에 있는 소스를 실행하고, 당신이 예상한대로 출력 되는지 검토하라. 
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -1234,7 +1241,7 @@ print "03 - %02d - 2019" % (day)
 • % 와  %() 를 어떻게 사용하는지를 생각하라.
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -1287,7 +1294,7 @@ print "The %s who %s %s!" % ("Knights", "say", "Ni")
 • %s 옵션으로 직접 문자열을 입력하여 치환한다.  
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1335,6 +1342,7 @@ print "%s" % (string_variable)
 • `\` 는 문자열이 계속 된다는 것을 Python interpreter 에게 알려준다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1410,6 +1418,7 @@ print "%s, %s" % (g, h)
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1445,6 +1454,7 @@ print my_variable.upper()
 • 함수 .upper() 를 사용하고, 출력하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1469,6 +1479,3 @@ print my_string.upper()
 3
 HEY
 ```
-<br>
-<br>    
-<br>   

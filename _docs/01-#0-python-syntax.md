@@ -14,7 +14,6 @@ LESSON
 
 This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.    
 
-
 **설명:** [ 학습방향 ]     
 이 장에서는 객체 지향 프로그램 언어인 Python을 소개합니다.     
 Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다.
@@ -28,8 +27,6 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 
 
 If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to speak. In Python, this is accomplished with the `print` statement.
-
-
 
 accomplished with the print statement.
    
@@ -47,8 +44,6 @@ A `print` statement is the easiest way to get your Python program to communicate
 
 **설명:** [ Learn ]     
 • Ch1. Hello World! 에서는 print 문을 학습한다.      
-• 우리가 배워야 할 첫번째 Python 문법은 print 문이다.     
-• print 문은 컴퓨터와 대화 하는것을 실질적으로 사람이 볼수 있게 해준다.     
 • 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.     
 • 우리는 컴퓨터에게 *Hello World!* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
 {: .notice--info}
@@ -147,7 +142,7 @@ In this course we will be using Python 2. If you go on to write Python 3 it will
 • Python3 문법을 사용하여 print 문을 출력하라. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -221,7 +216,7 @@ This code will print out "This is a good string".
 • 문자열은 여러 문자열을 예제와 같이 ( + ) 기호를 사용하여 붙일 수 있다. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -237,7 +232,6 @@ This code will print out "This is a good string".
 {: .notice--info}
 
 
-<br>
 <hr/>
 
 
@@ -273,9 +267,6 @@ print "Hello " + "Wonyoung Lee"
 Hello Wonyoung Lee
 ```   
 
-<br>
-<br>    
-<br>    
 <p style="page-break-before: always;"></p>      
 <br>
 
@@ -361,6 +352,9 @@ print "This is also a good print statement"
 • 문자열은 쿼트(quotes)의 처음과 끝이 같은 모양이어야 한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
+<br>
+<hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
@@ -369,6 +363,7 @@ print "This is also a good print statement"
 print("How do you make a hot dog stand?")
 print("You take away its chair!")
 ```
+
 
 **설명:** [ Solution ]     
 • 문자열을 표현할때는 처음과 끝의 쿼트 모양이 같아야 한다.
@@ -419,6 +414,7 @@ In the above example, we defined a variable called `greeting_message` and set it
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -467,9 +463,6 @@ todays_date = "November 19, 2018"
 #skip
 ```   
 
-<br>
-<br>    
-<br>   
 <p style="page-break-before: always;"></p>     
 <br>
 
@@ -558,6 +551,7 @@ quotient = 30 / 5
 • % 는 나머지를 구하는 모듈(module) 연산자 이다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -673,6 +667,7 @@ annual_rainfall += september_rainfall
 • += 연산자를 사용하라.  
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -758,7 +753,7 @@ row_count = 13
 • 변수 city_pop 위에 주석을 만들어라. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -816,20 +811,20 @@ int3 = -5
 ```
 
 A number with a decimal point is called a **float**. You can define **floats** with numbers after the decimal point or by just including a decimal point at the end:
-
+<br>
 ```python
 float1 = 1.0
 float2 = 10.
 float3 = -5.5
 ```
-
+<br>
 You can also define a **float** using scientific notation, with e indicating the power of `10`:
 
 ```python
 # this evaluates to 150:
 float4 = 1.5e2
 ```
-
+<br>
 
 **설명:** [ Learn ]      
 • Ch9. Numbers 에서는 숫자를 학습한다.     
@@ -842,6 +837,7 @@ float4 = 1.5e2
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -865,7 +861,6 @@ float4 = 1.5e2
 • 변수 total_cost 를 print 문을 사용하여, console 창에 출력하라.
 {: .notice--info}    
 
-
 <br>
 <hr/>
 
@@ -878,6 +873,7 @@ float4 = 1.5e2
 • 연산자 * 를 사용하여 총 합을 계산하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -999,6 +995,7 @@ quotient1 = float(7)/2
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1045,9 +1042,6 @@ print float_cucumbers_per_person
 ```
 
 
-<br>
-<br>    
-<br>    
 <p style="page-break-before: always;"></p>     
 <br>
 
@@ -1173,7 +1167,11 @@ A boolean is actually a special case of an integer. A value of True corresponds 
 • 거짓 의 값은 숫자 *0* 이다. 
 {: .notice--info}
 
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/03-boolean-00.svg){: width="70%" height="70%"}    
 
+<br>
+
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1211,6 +1209,7 @@ some_variable = True
 • 주석 문을 읽고 True, False 를 이용하여 대입하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1320,6 +1319,7 @@ The product was X
 • 변수 big_string 에 *The product was* + str(product) 를 대입하라.   
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1395,6 +1395,7 @@ Great! So far we’ve looked at:
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1439,6 +1440,7 @@ with the value of `point_total` where `X` is.
 
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1469,6 +1471,7 @@ print("This is " + str(1) + " long string!")
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1494,6 +1497,3 @@ print("I got "+str(point_total)+" points!")
 ```
 I got 165 points!
 ```    
-
-<p style="page-break-before: always;"></p>
-<br>
