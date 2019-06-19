@@ -38,6 +38,7 @@ Here we'll use `datetime` to print the date and time in a nice format.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -132,6 +133,7 @@ The second line will `print` out the current **date** and **time**.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -390,7 +392,7 @@ We can again use the variable `now` to print the time.
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -531,13 +533,7 @@ print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour,
 {: .notice--info}
 
 
-
 **결과**
 ```
 11/27/2018 20:59:59
-```
-
-<br>
-<br>    
-<br>    
-
+```    

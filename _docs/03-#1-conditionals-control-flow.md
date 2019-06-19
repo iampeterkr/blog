@@ -42,6 +42,7 @@ The Python programs we've written so far have had one-track minds: they can add 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -70,6 +71,7 @@ The Python programs we've written so far have had one-track minds: they can add 
 • skip
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -192,6 +194,7 @@ Note that `==` compares whether two things are **equal**, and `=` assigns a valu
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -241,6 +244,7 @@ True == True
 • 변수 bool_one 에  True 또는 False 값을 대입하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -317,6 +321,7 @@ But what about extreme expressions and comparators?
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -359,6 +364,8 @@ bool_four = True
 # 100 != 10**2
 bool_five = False
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]    
 • 각 주석의 계산 값이 True  이면, 변수에 True  를 입력하라.    
@@ -442,7 +449,7 @@ bool_two = 8 < 7
 • 변수 bool_two 에 Fasle 값이 들어가게 오른쪽 비교문( 8 < 7 )을 만들어라.
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -504,6 +511,7 @@ We'll go through the operators one by one.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/03-boolean-00.svg)    
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -520,7 +528,7 @@ We'll go through the operators one by one.
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -532,7 +540,7 @@ We'll go through the operators one by one.
 • skip
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -602,7 +610,10 @@ The boolean operator and returns `True` when the expressions on both sides of `a
 
 ```python
 `19 % 4 != 300 / 10 / 10` and `False`
-```    
+```   
+<p style="page-break-before: always;"></p>
+<br>
+
 
 * Set `bool_four` equal to the result of    
 
@@ -639,6 +650,7 @@ bool_one = False and False
 • 변수 bool_one 에 결과값 거짓(False)을 대입한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -721,6 +733,9 @@ True or False
 
 * Set `bool_four` equal to the result of    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 ```python
 True or True
 ```    
@@ -766,6 +781,8 @@ bool_four = True or True
 
 bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • OR 연산자 양 변의 A , B 값이 계산된다.    
@@ -884,6 +901,8 @@ bool_four = not 3**2 + 4**2 != 5**2
 
 bool_five = not not False
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]    
 • 각 변수의 반환값이 무엇일지 생각해 보자. 
@@ -988,6 +1007,7 @@ False or not (True and True)
 • NOT -> AND -> OR 순으로 계산한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1060,6 +1080,7 @@ bool_one = (2 <= 2) and "Alpha" == "Bravo"
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1149,6 +1170,7 @@ If the **indentation** from one line to the next is different and there is no co
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1193,6 +1215,8 @@ if answer == "Left":
 # Will the above print statement print to the console?
 # Set response to 'Y' if you think so, and 'N' if you think not.
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]    
 • 출력문의 내용이 마음에 들지 않으므로 변수 response 에 'N' 를 대입한다. 
@@ -1240,6 +1264,7 @@ Also, make sure you notice the `colons` at the end of the `if` statement. We've 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1280,6 +1305,7 @@ def true_function():
 • if 문 다음의 조건절에 True 값이 되도록 계산식을 만든다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1354,6 +1380,7 @@ else:
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1365,6 +1392,9 @@ else:
 **설명:** [ Hint ]    
 • else 문 부분을 False 로 수정하라.
 {: .notice--info}
+
+<br>
+<hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
@@ -1457,6 +1487,7 @@ In the example above, the `elif` statement is only checked if the original if st
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1502,6 +1533,8 @@ print greater_less_equal_5(5)
 print greater_less_equal_5(6)
 
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 변수 answer 가 5 보다 큰지 or 작은지 or 같은지를 비교하여 그 결과값을 반환한다. 
@@ -1560,6 +1593,7 @@ Let's get to the grand finale.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1644,6 +1678,8 @@ print grade_converter(61)
 • if , elif , else 를 사용하여 점수 구간별 A, B, C, D, F 등급을 반환한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -1651,7 +1687,3 @@ A
 C
 F
 ```
-
-<br>
-<br>    
-<br>    

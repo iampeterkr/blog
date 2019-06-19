@@ -51,6 +51,7 @@ Pig Latin is a language game, where you move the first letter of the word to the
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -142,6 +143,7 @@ print " Hello World"
 • print " Hello World" 라고 사용한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -205,6 +207,7 @@ Once you type in your name and hit Enter, it will be stored in name.
 
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -249,6 +252,7 @@ variable_name = raw_input('Prompt')
 • Prompt 는 console 창에 출력되는 질문 메시지 이다.     
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -321,6 +325,9 @@ We can check that the user's string actually has characters!
 
 * You'll want to run your code multiple times, testing an empty string and a string with characters. When you're confident your code works, continue to the next exercise.
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Instruction ]    
 • if 문을 사용하여 입력 받은 값이 문자열인지 확인한다.    
@@ -365,6 +372,9 @@ if len(original) > 0:
 else:
   print "empty"
 ```
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Solution ]    
 • 변수 original 에 Console 에서 입력한 값이 들어간다.        
@@ -431,6 +441,9 @@ You can use `.isalpha()` to check that a string doesn't contain any non-letter c
 
 * Don't forget to keep the **colon** at the end of the `if` statement!
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Instruction ]     
 • 함수 .isalpha() 를 사용하여 변수에 입력된 값에 알파벳 포함 여부를 획인하라.    
@@ -473,6 +486,9 @@ if len(original) > 0 and original.isalpha():
 else:
   print "empty"
 ```
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Solution ]     
 • if 문에서는 2가지를 비교한다.    
@@ -531,6 +547,7 @@ When you finish one part of your program, it's important to test it multiple tim
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -621,6 +638,7 @@ Let's create a variable to hold our translation suffix.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -695,6 +713,7 @@ Remember that we start counting from zero, not one, so we access the first lette
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -735,6 +754,8 @@ first = "python"[0]
 first # "p"
 ```
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]    
 • 변수 word 를 만들고, 변수 word 에 orginal.lower() 결과값을 저장하라.   
@@ -821,6 +842,7 @@ welcome = greeting + name
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -908,6 +930,7 @@ print s[1:4]
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -956,6 +979,7 @@ my_string[1:] # "ython"
 • my_string[1:] 은 해당 주소 1번부터 끝까지를 잘라낸다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1028,7 +1052,7 @@ You'll also want to take out any `print` statements you were using to help debug
 • Run 을 실행 후, 어떻게 동작되는지 확인한다.
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1076,6 +1100,8 @@ else:
 • else 문에서는 변수 original 에 문자열이 없거나, 모두 알파벳이 아니면 "empty"를 출력한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과** 
@@ -1085,7 +1111,3 @@ a
 abcdefaay
 bcdefaay
 ```
-
-<br>
-<br>    
-<br>    
