@@ -50,7 +50,7 @@ The example above is just to remind you how to create a dictionary and then to a
 • 이 장은 딕셔너리를 생성하고, ky / value 를 읽고, 변경, 삭제 하는것을 학습한다.
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -97,6 +97,8 @@ The example above is just to remind you how to create a dictionary and then to a
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 lloyd = {
@@ -181,8 +183,8 @@ Great work!
 {: .notice--info}    
 
 
+<p style="page-break-before: always;"></p>
 <br>
-<hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
@@ -278,6 +280,8 @@ The above example is just a reminder on how to create a list. Afterwards, my_lis
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * skip
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Hint ]          
@@ -373,6 +377,7 @@ The example above is just to remind you how to create a dictionary and then to a
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -493,6 +498,8 @@ To divide two integers and end up with a float, you must first use `float()` to 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
 
 * Write a function average that takes a list of `numbers` and returns the `average`.
 
@@ -533,6 +540,8 @@ To divide two integers and end up with a float, you must first use `float()` to 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+<p style="page-break-before: always;"></p>
+<br>
 
 
 ```python
@@ -624,10 +633,14 @@ The `\` character is a continuation character. The following line is considered 
 * Write a function called `get_average` that takes a student dictionary (like lloyd, alice, or tyler) as input and returns his/her weighted average.
 
 * Define a function called `get_average` that takes one argument called `student`.
+<p style="page-break-before: always;"></p>
+<br>
+
 * Make a variable homework that stores the average() of student["homework"].
 * Repeat the above step for "quizzes" and "tests".
 * Multiply the 3 averages by their weights and return the sum of those three. Homework is 10%, quizzes are 30% and tests are 60%.
 
+<br>
 
 **설명:** [ Instruction ]          
 • 함수 get_average(students) 를 만들어라.     
@@ -662,6 +675,8 @@ The `\` character is a continuation character. The following line is considered 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 lloyd = {
@@ -755,6 +770,8 @@ Now let's write a `get_letter_grade` function that takes a `number score `as inp
 
 * Print the resulting letter grade with print. Call the `get_letter_grade` function and pass in `get_average(lloyd)`.    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]          
@@ -804,6 +821,8 @@ print get_letter_grade(get_average(lloyd))
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 lloyd = {
@@ -851,6 +870,8 @@ def get_letter_grade(score):
   
 print get_letter_grade(get_average(lloyd))
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • get_average(lloyd) 가 호출되어, lloyd 의 평균값이 계산된다.    
@@ -913,6 +934,7 @@ You need to get the average for each student and then calculate the average of t
 • 함수 average(results) 를 호출하여 계산후 반환(return) 한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -951,7 +973,11 @@ tyler = {
   "quizzes": [0.0, 75.0, 78.0],
   "tests": [100.0, 100.0]
 }
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 # Add your function below!
 def average(numbers):
   total = sum(numbers)
@@ -1039,6 +1065,8 @@ Awesome! You're doing great. Now let's use the functions you've created to check
 
 * print the result of `get_letter_grade` for the class's average.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]          
 • 평균 점수의 등급은 함수 get_letter_grade의 결과로 산출된 값을 출력한다.
@@ -1070,6 +1098,7 @@ tyler = {
   "quizzes": [0.0, 75.0, 78.0],
   "tests": [100.0, 100.0]
 }
+    
 
 # Add your function below!
 def average(numbers):
@@ -1082,7 +1111,8 @@ def get_average(student):
   quizzes = average(student["quizzes"])
   tests = average(student["tests"])
   return 0.1 * homework + 0.3 * quizzes + 0.6 * tests
-
+```    
+```python
 def get_letter_grade(score):
   if score >= 90:
     return "A"
@@ -1109,6 +1139,7 @@ print(avg)
 print(get_letter_grade(avg))
 ```
 
+
 **설명:** [ Solution ]          
 • 함수 get_class_average(students) 에 학생들 이름 리스트가 입력된다.    
 • 함수 get_class_average() 는 학생 전체의 평균값을 계산한다.    
@@ -1126,5 +1157,3 @@ print(get_letter_grade(avg))
 83.8666666667
 B
 ```
-
-<br>    
