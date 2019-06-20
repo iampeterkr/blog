@@ -50,6 +50,9 @@ To build this game we will use our knowledge of lists, conditionals and function
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Click Next to get started with Battleship!
 
 
@@ -136,6 +139,7 @@ lst=[]
 • 리스트 변수 lst=[] 은 변수 lst 를 초기화 하는 것이다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -196,6 +200,8 @@ We'll do this five times to make five rows. (Since we have to do this five times
 * Inside the loop, `.append()` a list containing 5 "O"s to board, just like in the example above.     
 * Note that these are capital letter "O" and not zeros.    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]          
@@ -230,6 +236,7 @@ We'll do this five times to make five rows. (Since we have to do this five times
 {: .notice--info}
 
 <br>
+<br>
 <hr/>
 
 
@@ -244,6 +251,8 @@ for i in range(5):
   
 #print board
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 내부 함수 range(5) 를 발생 시킨다.    
@@ -309,6 +318,9 @@ The easiest way to print the board would be to have Python display it for us usi
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+    
 * The syntax for printing a list is     
 
 ```python
@@ -361,7 +373,7 @@ Now we can see the contents of our list, but clearly it would be easier to play 
 
 We can use the fact that our board is a list of lists to help us do this. Let's set up a for loop to go through each of the elements in the outer list (each of which is a row of our board) and print them.
 
-
+<br>
 
 **설명:** [ Learn ]          
 • Ch5. Custom Print 에서는 print 문을 응용하는 연습을 한다.    
@@ -371,7 +383,7 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 • 리스트가 5 X 5 모양으로 한줄씩 총 5줄이 보이는 형태로 수정하자. 
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -386,6 +398,8 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 
 * Call your function with board to make sure it works.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]          
@@ -398,7 +412,6 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 • 함수 print_board(board) 를 호출하여 정상적으로 동작하는지 확인하라.
 {: .notice--info}
 
-
 <br>
 <hr/>
 
@@ -406,7 +419,7 @@ We can use the fact that our board is a list of lists to help us do this. Let's 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)        
 * Remember that the syntax to declare a function is `def fun_name(parameters):`. The syntax for iterating through a list is `for x in list_name:`
 
-
+<br>
 **설명:** [ Hint ]         
 • 함수는 다음 예제처럼 정의하여 사용한다.    
 • e.g. def fun_name(parameters):    
@@ -433,7 +446,9 @@ def print_board(board_in):
     print row
     
 print_board(board)
-```
+```   
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 빈 리스트 board 를 만든다.    
@@ -503,6 +518,9 @@ We want to turn each row into "O O O O O".
 
 * Inside your function, inside your for loop, use " " as the separator to `.join` the elements of each row.
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Instruction ]          
 • 함수 print board() 를 다음과 같이 동작되도록 작성하라.    
@@ -548,11 +566,13 @@ def print_board(board_in):
 print_board(board)
 ```
 
+<p style="page-break-before: always;"></p>
+<br>
+
+
 **설명:** [ Solution ]          
 • 소스코드 print row 를 print " ".join(row) 로 변경했다.
 {: .notice--info}
-
-
 
 **결과** 
 ``` 
@@ -608,6 +628,8 @@ Let's generate a `random_row` and `random_col` from zero to four!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * Define two new functions, `random_row` and `random_col`, that each take `board_in` as input.
+<p style="page-break-before: always;"></p>
+<br>
 
 * These functions should return a random row index and a random column index from your board, respectively. Use `randint(0, len(board_in) - 1)`.
 
@@ -656,7 +678,11 @@ for x in range(0, 5):
 def print_board(board):
   for row in board:
     print " ".join(row)
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 # Add your code below!
 
 def random_row(board):
@@ -737,6 +763,8 @@ if int(number) == 0:
 * Click `Run` and then answer the prompts by typing in a number and pressing Enter (or Return on some computers).
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]          
@@ -748,7 +776,7 @@ if int(number) == 0:
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -763,7 +791,6 @@ var = int(raw_input("Prompt text"))
 • 참조 : var = int(raw_input("Prompt text)) 
 {: .notice--info}
 
-<br>
 <hr/>
 
 
@@ -787,7 +814,11 @@ def random_row(board):
 
 def random_col(board):
   return randint(0, len(board[0]) - 1)
+```    
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 ship_row = random_row(board)
 ship_col = random_col(board)
 
@@ -857,6 +888,7 @@ Of course, we'll remove this output when we're finished debugging since if we le
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -873,7 +905,7 @@ print (ship_row)
 • 변수 ship_row 를 출력한다. 
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -907,6 +939,9 @@ print ship_col
 guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • Prompt 에서 입력값을 받기 전에    
@@ -968,6 +1003,8 @@ The example above is just a reminder about if statements.
 
 * When you run this code, be sure to enter integer guesses in the panel where it asks for "Guess Row" and then "Guess Col".
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 
@@ -1014,7 +1051,11 @@ def print_board(board):
     print " ".join(row)
 
 print_board(board)
+```    
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 def random_row(board):
   return randint(0, len(board) - 1)
 
@@ -1056,6 +1097,11 @@ Guess Col: 1
 3
 3
 -------------------------
+```    
+<p style="page-break-before: always;"></p>
+<br>
+
+```
 O O O O O
 O O O O O
 O O O O O
@@ -1083,7 +1129,7 @@ print board[2][3]
 ```
 The example above prints out "O", the element in the 3rd row and 4th column.
 
-
+<br>
 
 **설명:** [ Learn ]          
 • Ch11. Danger, Will Robinson!! 에서는 else 문을 학습한다.   
@@ -1091,7 +1137,7 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 • ( print board[2][3] )은 좌표가 3번째, 4번째를 위치를 가리킨다.
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -1108,6 +1154,8 @@ The example above prints out "O", the element in the 3rd row and 4th column.
 * Make sure to enter a col and row that is on the board!
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]          
@@ -1154,7 +1202,10 @@ def print_board(board):
     print " ".join(row)
 
 print_board(board)
+```
+<p style="page-break-before: always;"></p>
 
+```python
 def random_row(board):
   return randint(0, len(board) - 1)
 
@@ -1184,7 +1235,6 @@ else:
 • 전체 board 를 한번 보여준다.     
 • "X" 를 넣는 이유는, 이미 틀린 좌표는 더 이상 입력 하지 않도록 유도하기 위해서이다. 
 {: .notice--info}
-
 
 
 **결과** 
@@ -1250,6 +1300,9 @@ The example above checks if either x or y are outside those ranges. The `\` char
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Add a new if statement that is nested under the else.
 
 * Like the example above, it should check if `guess_row` is not in range(5) or `guess_col` is not in range(5).
@@ -1258,7 +1311,7 @@ The example above checks if either x or y are outside those ranges. The `\` char
 * After your new if statement, add an else that contains your existing handler for an incorrect guess.     
 * Don't forget to indent the code!
 
-
+<br>
 **설명:** [ Instruction ]          
 • else 문의 내부에 추가로 if 문을 넣는다.    
 • 추가한 if 문은 다음과 같은 기능을 한다.    
@@ -1270,7 +1323,7 @@ The example above checks if either x or y are outside those ranges. The `\` char
 • 추가 if 문과, 추가 else 문은 들여 쓰기를 조심하라. 
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -1290,6 +1343,7 @@ if guess_row not in range(your_desired_range) or guess_col not in range(your_des
 • if 문에서 범위에 포함되고 안되고는 ( not in )을 사용한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1337,6 +1391,8 @@ else:
   print_board(board)
 
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • else 문에서는 추가 if/else 문을 표현한다.    
@@ -1432,6 +1488,7 @@ The example above will print an 'X' if already guessed or an 'O' otherwise.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1474,7 +1531,8 @@ print ship_row
 print ship_col
 guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
-
+```
+```python
 # Write your code below!
 if guess_row == ship_row and guess_col == ship_col:
   print "Congratulations! You sank my battleship!"   
@@ -1556,6 +1614,7 @@ In the next step, we'll move on and look at how to give the user 4 guesses to fi
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1600,6 +1659,12 @@ ship_row = random_row(board)
 ship_col = random_col(board)
 print ship_row
 print ship_col
+
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
 guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
 
@@ -1675,6 +1740,7 @@ We can use a for loop to iterate through a range. Each iteration will be a turn.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1719,6 +1785,12 @@ ship_row = random_row(board)
 ship_col = random_col(board)
 print ship_row
 print ship_col
+
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
 
 # Everything from here on should be in your for loop
 # don't forget to properly indent!
@@ -1766,6 +1838,11 @@ O X O O O
 O O O O O
 O O O O O
 O O O O O
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```
 Turn 2
 Guess Row: 2
 Guess Col: 2
@@ -1775,6 +1852,9 @@ O X O O O
 O O X O O
 O O O O O
 O O O O O
+```    
+
+``` 
 Turn 3
 Guess Row: 3
 Guess Col: 4
@@ -1838,6 +1918,8 @@ Since our turn variable starts at 0 and goes to 3, we will want to end the game 
 * If turn equals 3, print "Game Over".
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]          
@@ -1885,6 +1967,12 @@ def print_board(board):
 
 print_board(board)
 
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
+
 def random_row(board):
   return randint(0, len(board) - 1)
 
@@ -1893,6 +1981,7 @@ def random_col(board):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
+
 print ship_row
 print ship_col
 
@@ -1917,13 +2006,18 @@ for turn in range(4):
     if (turn == 3):
       print "Game Over"
     print_board(board)
+
+
 ```
+
 
 **설명:** [ Solution ]          
 • 추가 ( if (turn == 3): )는 따로 위치한다.    
 • 기존 입력값과 좌표를 비교하는 if/elif/else 문과 연계하지 않았다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -2018,6 +2112,8 @@ Guess Row:
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
 
 * Add a break under the win condition to end the loop after a win.
 
@@ -2062,6 +2158,11 @@ print_board(board)
 
 def random_row(board):
   return randint(0, len(board) - 1)
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
 
 def random_col(board):
   return randint(0, len(board[0]) - 1)
@@ -2099,6 +2200,8 @@ for turn in range(4):
 • 컴파일러는 break 문을 만나면 for 문을 강제로 빠져나간다.  
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -2160,6 +2263,8 @@ You may want to take some time to clean up and document your code as well.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * whether remove or comment
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]         
 • Debugging 부분을 삭제하거나, comment 처리한다.
@@ -2196,6 +2301,12 @@ ship_row = random_row(board)
 ship_col = random_col(board)
 #print ship_row
 #print ship_col
+
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
 
 # Everything from here on should be in your for loop
 # don't forget to properly indent!
@@ -2237,6 +2348,12 @@ Turn 1
 Guess Row: 1
 Guess Col: 1
 You missed my battleship!
+```
+
+<p style="page-break-before: always;"></p>
+<br>
+
+```
 O O O O O
 O X O O O
 O O O O O
@@ -2251,6 +2368,8 @@ O X O O O
 O O O O O
 O O O O O
 O O O O O
+```    
+```
 Turn 3
 Guess Row: 1
 Guess Col: 1

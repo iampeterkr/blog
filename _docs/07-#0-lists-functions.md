@@ -53,6 +53,7 @@ This exercise goes over just pulling information from a list, which we've covere
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -141,6 +142,9 @@ You've already learned how to modify elements of a list in a previous section. T
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * An item in a list in Python can be set to a value using the form
 
+<p style="page-break-before: always;"></p>
+<br>
+
 ```python
 x[n] = v
 ```    
@@ -224,6 +228,9 @@ Here, we'll quickly recap how to `.append()` elements to the end of a list.
 ```python
 x.append(item)
 ```    
+<p style="page-break-before: always;"></p>
+<br>
+
 * where `x` is the name of the list and item is the object you want to append.
 
 
@@ -286,6 +293,15 @@ print n
 # prints [3, 5]
 ```    
 
+**설명:** [ Learn ]          
+• Ch4. Removing elements from lists 에서는 리스트의 항목값 삭제를 학습한다.    
+• 리스트의 항목값을 삭제 하는 것을 다시 학습한다.     
+• n.pop(1), index 1번 주소의 값이 삭제 된다.    
+• n.remove(1), 숫자 1의 값을 찾아서 해당 값 1이 삭제된다.    
+• n.remove(1)에서 1이 여러개 있으면 첫번째 값 1만 삭제된다.             
+{: .notice--info}    
+
+
 `del(n[1])` is like `.pop` in that it will remove the item at the given index, but it won't return it:    
 
 ```python
@@ -294,14 +310,11 @@ del(n[1])
 print n
 # prints [1, 5]
 ```    
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Learn ]          
-• Ch4. Removing elements from lists 에서는 리스트의 항목값 삭제를 학습한다.    
-• 리스트의 항목값을 삭제 하는 것을 다시 학습한다.     
-• n.pop(1), index 1번 주소의 값이 삭제 된다.    
-• n.remove(1), 숫자 1의 값을 찾아서 해당 값 1이 삭제된다.    
-• n.remove(1)에서 1이 여러개 있으면 첫번째 값 1만 삭제된다.             
 • del(n[1]) index 값 1 위치에 해당하는 값이 삭제 된다.     
 • 주의, del(n[1])은 결과값이 return 안된다.     
 • e.g. print del(n[0]) 사용불가.    
@@ -343,6 +356,7 @@ n.pop(0)
 • 만약, index 값을 주지 않으면 마지막 인덱스를 지운다.( e.g. n.pop() )
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -414,6 +428,7 @@ In this exercise, you will just be making a minor change to a function to change
 • 연사자 ( + ) 를 ( * ) 로 변경하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -487,6 +502,8 @@ def my_function(argument1, argument2, etc.):
      return argument1 + argument2
 ```
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]          
 • 함수는 다음과 같이 정의한다.    
@@ -568,6 +585,8 @@ This is a basic recap on using strings in functions.
 print "Hello" + "world"
 # outputs "Helloorld"
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]          
 • 연산자 ( + ) 를 사용하여 문자를 이어 붙인다. 
@@ -650,6 +669,7 @@ You pass a list to a function the same way you pass any other argument to a func
 • skip
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -729,6 +749,7 @@ Finally, we call the `first_item` function with `numbers` as its argument, which
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -790,13 +811,14 @@ numbers = [1, 2, 3, 4]
 double_first(numbers)
 print numbers
 ```    
+<br>
 
 We create a list called `numbers`.
 We use the `double_first` function to modify that list.
 Finally, we print out [2, 2, 3, 4]
 When we pass a list to a function and modify that list, like in the double_first function above, we end up modifying the original list.
 
-
+<br>
 
 **설명:** [ Learn ]          
 • Ch10. Modifying an element of a list in a function 에서는 함수를 이용하여 리스트의 특정 값을 변경하는것을 학습한다.
@@ -815,6 +837,8 @@ When we pass a list to a function and modify that list, like in the double_first
   * Store the result back into index 1.
   * Return the list.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]          
 • 함수 list_function 을 수정하라.    
@@ -825,6 +849,7 @@ When we pass a list to a function and modify that list, like in the double_first
 
 
 <br>
+<br>
 <hr/>
 
 
@@ -834,11 +859,12 @@ When we pass a list to a function and modify that list, like in the double_first
 ```python
 x[1] = x[1] + 3
 ```
-
+<br>
 **설명:** [ Hint ]          
 • 결과값 ( x[1] + 3 )을 x[1] 에 저장한다. 
 {: .notice--info}
 
+<br>
 <br>
 <hr/>
 
@@ -854,6 +880,9 @@ def list_function(x):
 n = [3, 5, 7]
 print list_function(n)
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 함수 list_funciton(n) 을 호출한다.    
@@ -919,6 +948,7 @@ The example above is just a reminder of how to append items to a list.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1007,6 +1037,7 @@ Don't worry about the range function quite yet—we'll explain it later in this 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1096,7 +1127,10 @@ This exercise shows how to modify each element in a list. It is useful to do so 
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)   
+<p style="page-break-before: always;"></p>
+<br>
+
 * You can place the code on lines 3 - 5 inside a function definition.     
 * You will need to change the `n[i]`s in the for loop to `x[i]`.    
 * Make sure to indent properly!
@@ -1194,6 +1228,8 @@ If omitted, start defaults to 0 and step defaults to 1.
 • ---------------------      
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Python3 ]          
 • python2 와 python3 에서 range() 의 차이는 리스트를 생성할때 차이가 있다.    
@@ -1238,6 +1274,7 @@ range(0,3,1) # [0,1,2]
 • 내부 함수 range() 를 사용하여 리스트 [0,1,2] 를 만들어 내는 방법은 여러 가지가 있다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1309,6 +1346,9 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Create a function that returns the sum of a list of numbers.
 
 * On line 3, define a function called `total` that accepts one argument called `numbers`. It will be a list.    
@@ -1332,7 +1372,7 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 • 마지막으로, 변수 result 를 반환(return)하라.
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -1343,7 +1383,7 @@ Method 2 uses indexes to loop through the list, making it possible to also modif
 ```python
 for in range(0, len(numbers)):
 ```  
-
+<br>
 
 **설명:** [ Hint ]         
 • 내부 함수 range() 를 Method 2 방법으로 사용할때, 리스트의 산출할 범위를 지정해 주어라. 
@@ -1352,6 +1392,8 @@ for in range(0, len(numbers)):
 <br>
 <hr/>
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
@@ -1431,6 +1473,8 @@ The example above is just a reminder of the two methods for iterating over a lis
 * Finally, **return the result**.
 Don't add spaces between the joined strings!
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 
@@ -1476,7 +1520,11 @@ def join_strings(words):
   for word in words:
     result += word
   return result
+```   
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 # use method 2
 #def join_string(words):
 #  result = ""
@@ -1549,6 +1597,7 @@ Inside that function, **return the result** of concatenating `x` and `y` togethe
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1644,6 +1693,9 @@ We end up printing out:
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Create a function called `flatten` that takes a **single list** and **concatenates** all the **sublists** that are part of it into a single list.
 
 * On line 3, define a function called `flatten` with one argument called `lists`.
@@ -1689,6 +1741,7 @@ into
 • 변수 results 는 리스트 변수이다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1739,7 +1792,4 @@ print flatten(n)
 ``` 
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
-
-<br>
-<br>    
-<br>    
+   
