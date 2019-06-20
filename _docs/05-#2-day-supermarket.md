@@ -43,6 +43,9 @@ This loop will run all of the code in the indented block under the `for x in a:`
 for item in [1, 3, 21]: 
   print item
 ```  
+<p style="page-break-before: always;"></p>
+<br>
+
 would print **1**, then **3**, and then **21**. The variable between for and in can be set to any variable name (currently item), but you should be careful to **avoid using the word** list as a variable, since that's a **reserved word** (that is, it means something special) in the Python language.
 
  
@@ -84,6 +87,7 @@ would print **1**, then **3**, and then **21**. The variable between for and in 
 • 상단의 Learn 에서 설명한 소스 코드를 참조하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -158,6 +162,7 @@ Note that dictionaries are unordered, meaning that any time you loop through a d
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -201,6 +206,8 @@ for word in webster:
 • 해당 key 의 value 를 출력하기 위해서는 리스트 webster[word] 로 출력할 수 있다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -259,6 +266,8 @@ Make sure to keep track of your indentation or you may get confused!
 
 * Like step 3 above, if the `number` is **even**, print it out. You can test if the `item % 2 == 0` to help you out.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]          
 • 리스트 a 에서 항목을 호출하여 변수 number 에 저장하라.     
@@ -307,6 +316,8 @@ for number in a:
 • 짝수가 아니면 다시 for 문에서 리스트의 다음 값을 number 에 저장후, 반복한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과** 
@@ -370,6 +381,7 @@ print small
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -411,6 +423,8 @@ print small
 * At the end, don't forget to return the number of "fizz"s!
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Hint ]          
@@ -500,6 +514,7 @@ As we've mentioned, strings are like lists with characters as elements. You can 
 • 소스를 읽어보고, Run을 실행하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -594,6 +609,8 @@ In the example above, we create a **new dictionary** called `animal_counts` with
 "orange": 1.5,
 "pear": 3
 ```    
+<p style="page-break-before: always;"></p>
+<br>
 
 * Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from the last course.)    
 
@@ -685,6 +702,9 @@ Good work! As a store manager, you’re also in charge of keeping track of your 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Remember to use curly braces to make a dictionary. Don't forget to separate each key/value pair with a comma!
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Hint ]          
 • 딕셔너리를 만들때 ( {} ) 와, key / value 사이에 ( , ) 로 구분 하는것을 잊지말자.    
@@ -759,12 +779,15 @@ Because we know that they have the same keys, we can loop through one dictionary
 * Like the example above, for each key, print out the key along with its price and stock information.
 
 * Print the answer in EXACTLY the following format:    
+<p style="page-break-before: always;"></p>
+<br>
 
 ```
 apple
 price: 2
 stock: 0
 ```    
+<br>
 
 * Like the example above, because you know that the prices and stock dictionary have the same keys, you can access the stock dictionary while you are looping through prices.
 
@@ -804,6 +827,9 @@ stock: 0
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 ```python
@@ -887,7 +913,9 @@ For paperwork and accounting purposes, let's record the total value of your inve
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
+
 <hr/>
 
 
@@ -931,6 +959,8 @@ print total
 • for 문이 완료되면, 전체 제품의 가격을 더한 변수 total 을 출력한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과** 
@@ -986,6 +1016,8 @@ In order for customers to order online, we are going to have to make a consumer 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Remember to use square brackets for a list: `[]`.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]          
 • 이 장은 리스트를 학습한다. 리스트 표현은 ( [] ) 을 사용한다. 
@@ -1057,6 +1089,8 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
 
 * Define a function `compute_bill` that takes one argument `food` as input.
 
@@ -1068,7 +1102,7 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 
 * Ignore whether or not the item you're billing for is in stock. Note that your function should work for any `food` list.
 
-
+<br>
 
 
 **설명:** [ Instruction ]    
@@ -1101,6 +1135,8 @@ Finally, we call the `sum(numbers)` function with the variable `n` and print the
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 shopping_list = ["banana", "orange", "apple"]
@@ -1186,7 +1222,9 @@ Ultimately, if an item isn't in stock, then it shouldn't be included in the tota
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
+
 <hr/>
 
 
@@ -1232,6 +1270,8 @@ def compute_bill(food):
       stock[item] -= 1
   return total
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 함수 compute_bill(food) 에서는 딕셔너리 stock[item] > 0 인 것들만 계산한다.    
@@ -1292,6 +1332,10 @@ Thanks for shopping at the Codecademy supermarket!
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
+
 * skip
 
 
@@ -1339,6 +1383,8 @@ print (compute_bill(shopping_list))
 • 물품의 전체 가격이 저장된 변수 total 을 반환(return)한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 

@@ -54,6 +54,7 @@ Lists are very similar to strings, but there are a few key differences
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -94,6 +95,9 @@ list_name = ["item_0", "item_1", "item_2", "your_item"]
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 ```python
@@ -163,6 +167,9 @@ print "Adding the numbers at indices 1 and 3..."
 # Your code here!
 
 ```    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Instruction ]             
 • *# Your code here !* 밑에 다음 코드를 구현하라.    
@@ -213,6 +220,9 @@ print numbers[1] + numbers[3]
 • 리스트 numbers[3]의 항목 값은 8 이다.    
 • 이 둘의 값을 더한 후, 그 결과 값을 출력하였다.
 {: .notice--info}
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과** 
@@ -270,6 +280,7 @@ zoo_animals[2] = "hyena"
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -301,10 +312,14 @@ zoo_animals[2] = "hyena"
 {: .notice--info}
 
 <br>
+<br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 ```python
@@ -375,6 +390,9 @@ print letters
 
 * Then, set `list_length` equal to the length of the suitcase list.
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Instruction ]    
 • Editor 화면 5, 6, 7 라인에서 리스트 suitcase 에 3개 이상의 항목값을 추가하라.    
@@ -421,6 +439,10 @@ list_length = len(suitcase) # Set this to the length of suitcase
 print "There are %d items in the suitcase." % (list_length)
 print suitcase
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Solution ]    
 • 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 *shirt* 를 추가 하였다.    
@@ -486,6 +508,7 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -504,7 +527,7 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 • 리스트 last 에는, 리스트 suitcase 의 마지막 항목값 2개를 추출하여 저장하라.
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -513,7 +536,7 @@ Finally, we print out `['a', 'b', 'c', 'd', 'e']`, notice that we did not modify
 
 * In order to slice the last two items from the list
 `myList = [0,1,2,3,4]`, the ending index of your slice will be one beyond the actual last index of the list. Check it out:    
-
+<br>
 ```python
 myList[3:5]
 # Returns [3, 4]    
@@ -527,6 +550,7 @@ myList[3:5]
 • 즉, [0, 1, 2, 3, 4] 중  값 [3, 4] 만 잘라낸다.  
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -606,6 +630,7 @@ If your list slice includes the very first or last item in a list (or a string),
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -703,6 +728,9 @@ print animals
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 * Use the `.index(item)` function to find the index of "duck".    
 * Assign that result to a variable called `duck_index`.    
@@ -816,6 +844,7 @@ Then in `list_name` designates `list_name` as the list the loop will work on. Th
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -911,6 +940,9 @@ for animal in animals:
 
 * Write a for-loop that iterates over `start_list` and `.append()`s each number squared (x ** 2) to `square_list`.
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Then sort `square_list`!
 
 
@@ -935,8 +967,6 @@ for animal in animals:
 * Feel free to peek back at previous exercises in this section if you need to!
 
 
-
-
 **설명:** [ Hint ]          
 • for  문을 사용하라.    
 • 메서드 .append() 를 사용하라.    
@@ -944,7 +974,7 @@ for animal in animals:
 • 메서드 .append(), .sort() 사용법이 기억이 나지 않으면, 배운것을 다시 확인하라.
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -962,6 +992,8 @@ square_list.sort()
 
 print square_list
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • for 문에서, 리스트 start_list 의 각 항목값을 변수 number 에 저장한다.    
@@ -1019,7 +1051,10 @@ Dictionaries are great for things like phone books (pairing a name with a phone 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+
 * Print the values stored under the `'Sloth'` and `'Burmese Python'` keys. Accessing dictionary values by key is just like accessing list values by index:    
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 residents['Puffin']# Gets the value 104
@@ -1076,6 +1111,7 @@ print residents['Burmese Python']
 • residents['Sloth'] 와 같이 ( [] ) 에 Key 값을 주면 해당 key와 매치되는 value(값) 105 를 반환한다. 
 {: .notice--info}
 
+<br>
 
 
 **결과** 
@@ -1132,6 +1168,9 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 
 * Add at least three more key-value pairs to the `menu` variable, with the dish name (as a "string") for the key and the price (a float or integer) as the value. Here's an example:    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 ```python
 menu['Spam'] = 2.50
 ```
@@ -1177,6 +1216,9 @@ menu['Salad'] = 10.00
 print "There are " + str(len(menu)) + " items on the menu."
 print menu
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 딕셔너리 menu 에 key 값 'Hamburger' 에 value(값) 8.50 을 매칭시켜 저장한다.    
@@ -1238,6 +1280,9 @@ dict_name[key] = new_value
 
 * Set the value associated with 'Rockhopper Penguin' to anything other than 'Arctic Exhibit'.
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Instruction ]          
 • 딕셔너리의 key 값이 'Sloth', 'Bengal Tiger'인 항목(값)을 삭제하라.    
@@ -1284,6 +1329,9 @@ zoo_animals['Rockhopper Penguin'] = 'Plains Exhibit'
 
 print zoo_animals
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 명령어 del 을 사용하여 딕셔너리 zoo_animals 의 key값 'Sloth' 를 삭제한다.    
@@ -1343,6 +1391,9 @@ This code will print:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * Remove `'dagger'` from the list of items stored in the `backpack` variable.
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]          
@@ -1427,6 +1478,8 @@ print my_dict["fish"][0]
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
 
 * Add a key to `inventory` called `'pocket'`
 
@@ -1477,6 +1530,7 @@ inventory['backpack'].remove('dagger')
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1524,9 +1578,3 @@ print (inventory)
 {'pocket': ['seashell', 'strange berry', 'lint'], 'backpack': ['bedroll', 'bread loaf', 'xylophone'], 'pouch': ['flint', 'gemstone', 'twine'], 'burlap bag': ['apple', 'small ruby', 'three-toed sloth'], 'gold': 550}
 
 ```
-
-
-
-<br>
-<br>    
-<br>    
