@@ -38,8 +38,6 @@ You might have considered the situation where you would like to reuse a piece of
 {: .notice--info}
 
 
-<br>
-<hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
@@ -47,6 +45,9 @@ You might have considered the situation where you would like to reuse a piece of
 * Check out the code in the editor.     
 * If you completed the Tip Calculator lesson, you'll remember going through and calculating `tax` and `tip` in one chunk of program.     
 * Here you can see we've `def`ined two functions: `tax` to calculate the tax on a bill, and `tip` to compute the tip.
+
+<p style="page-break-before: always;"></p>
+<br>
 
 * See how much of the code you understand at first glance (we'll explain it all soon).     
 * When you're ready, click Run to continue.
@@ -73,7 +74,6 @@ You might have considered the situation where you would like to reuse a piece of
 • %s 는 문자열을 출력할때, %f 는 실수를 출력할때 사용한다. 
 {: .notice--info}
 
-<br>
 <hr/>
 
 
@@ -97,6 +97,8 @@ meal_cost = 100
 meal_with_tax = tax(meal_cost)
 meal_with_tip = tip(meal_with_tax)
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 변수 meal_cost 에 100 을 대입한다.    
@@ -164,6 +166,9 @@ def hello_world():
   print "Hello World!"
 ```
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Learn ]     
 • 함수가 처리할 기능을 구현한다.     
@@ -201,6 +206,7 @@ def hello_world():
 • 함수를 선언할때, 함수 끝에 ( : ) 를 주의 하자. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -271,8 +277,6 @@ After defining a function, it must be *called* to be implemented. In the previou
 {: .notice--info}
 
 
-<br>
-<hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
@@ -280,6 +284,8 @@ After defining a function, it must be *called* to be implemented. In the previou
 * like this: `spam()`    
 * You can do the same here with `square()`, only you'll need to put `10` in between the parentheses so square knows what number to... well, square.  
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]    
 • 앞에서 배운 함수 spam() 은 함수를 호출할때 인자값 없이 호출 하였다.    
@@ -359,6 +365,7 @@ When using, or calling, a function, inputs into the function are called argument
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -397,6 +404,7 @@ When using, or calling, a function, inputs into the function are called argument
 • def power(base, exponent): 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -475,6 +483,7 @@ def fun_two(m):
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -562,7 +571,11 @@ Don't forget the **colon** at the end of your function definition!
 • 함수 cube(number): 끝에 ( : ) 를 생략하지 않도록 주의하라.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Make that function return the `cube` of that `number` (i.e. that number multiplied by itself and multiplied by itself once again).
+
 
 **설명:** [ Instruction ]     
 • 함수 cube(number) 를 작성하라.    
@@ -605,6 +618,8 @@ if n % 3 == 0:
 else:
   print "n is not"
 ```    
+<p style="page-break-before: always;"></p>
+<br>
 
 * Make sure both functions return their values rather than printing them.
 
@@ -694,6 +709,7 @@ print sqrt(25)
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -771,6 +787,8 @@ There is a Python module named math that includes a number of useful variables a
   * This tells Python not only to `import math`, but to get the `sqrt()` function from within `math`.     
   * Then hit `Run` to see what Python now knows.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]    
 • 아래와 같이 2가지 작업을 실행하라.    
@@ -819,6 +837,8 @@ print math.sqrt(25)
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -875,6 +895,7 @@ Now you can just type `sqrt()` to get the square root of a number.     no more `
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -953,6 +974,7 @@ from module import *
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1008,6 +1030,8 @@ Even if your own definitions don't directly conflict with names from imported mo
 For these reasons, it's best to stick with either import module and type module.name or just import specific variables and functions from various modules as needed.
 
 
+<br>
+<br>
 
 **설명:** [ Learn ]      
 • Ch11. Here Be Dragons 에서는 함수 모듈을 확인하는 함수 dir()을 학습한다.    
@@ -1024,7 +1048,7 @@ For these reasons, it's best to stick with either import module and type module.
 • 이렇게 하는것이 프로그램 오류를 줄일 수 있는 방법이다. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1071,6 +1095,8 @@ print everything # Prints 'em all!
 • 함수 dir(math) 를 사용하면 볼 수 있다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과** 
@@ -1116,13 +1142,15 @@ You already know about some of the **built-in functions** we've used with string
 {: .notice--info}
 
 
-<br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-
 * skip
+
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Hint ]    
 • skip
@@ -1213,6 +1241,9 @@ For example, max(1,2,3) will return 3 (the largest number in the set of argument
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
 * skip
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]    
 • skip
@@ -1358,6 +1389,9 @@ The `abs()` function returns the absolute value of the number it takes as an arg
 
 * skip
 
+<p style="page-break-before: always;"></p>
+<br>
+
 **설명:**    
 • skip
 {: .notice--info}
@@ -1434,6 +1468,7 @@ Python will output:
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1523,6 +1558,9 @@ Again, the example code above is just there for your reference!
 * First, def a function, `shut_down`, that takes one argument `s`. Don't forget the parentheses or the colon!
 
 * Then, if the `shut_down` function receives an s equal to "yes", it should return "Shutting down"
+
+<p style="page-break-before: always;"></p>
+<br>
 
 * Alternatively, elif s is equal to "no", then the function should return "Shutdown aborted".
 
@@ -1633,6 +1671,8 @@ Good work! Now let's see what you remember about importing modules (and, specifi
 ```python
 from math import sqrt
 ```    
+<p style="page-break-before: always;"></p>
+<br>
 
 * You can figure out the rest. We believe in you!
 
@@ -1710,6 +1750,8 @@ abs(-2) # 2
 
 * Otherwise, the function should return **"Nope"**
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]    
@@ -1761,13 +1803,10 @@ def distance_from_zero(num):
 • 그 외에는 문자열 "Nope"가 반환된다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
 #skip
 ```
-
-
-<br>
-<br>    
-<br>    

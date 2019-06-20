@@ -29,12 +29,13 @@ Hard day at work? Rough day at school? Take a load off with a programming vacati
 ### 1. Before We Begin   
 
 Let's first quickly review functions in Python.
-
+<br>
 ```python
 def bigger(first, second):
   print max(first, second)
   return True   
 ```
+<br>
 In the example above:
 
 * We define a function called `bigger` that has two arguments called `first` and `second`.   
@@ -45,6 +46,8 @@ In the example above:
 
 * Now try creating a function yourself!
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Learn ]    
 • Ch1. Before We Begin 는 내장함수(built-in) max() 를 학습한다.    
@@ -88,6 +91,7 @@ In the example above:
 • skip
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -157,6 +161,7 @@ Let's use functions to calculate your trip's costs.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -204,6 +209,8 @@ def hotel_cost(nights):
 
 You're going to need to take a plane ride to get to your location.
 
+<br>
+
 ```python
 def fruit_color(fruit):
   if fruit == "apple":
@@ -233,6 +240,8 @@ def fruit_color(fruit):
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * Below your existing code, define a function called `plane_ride_cost` that takes a string, `city`, as input.
+<p style="page-break-before: always;"></p>
+<br>
 
 * The function should return a different price depending on the location, similar to the code example above. Below are the valid destinations and their corresponding round-trip prices.
 
@@ -266,6 +275,7 @@ def fruit_color(fruit):
 • 기존 함수 hotel_cost() 는 놔두고, 그 밑에 새로운 함수를 작성하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -338,6 +348,7 @@ In the above example, we first give the player 10 tickets for every point that t
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -378,6 +389,9 @@ Return that cost.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Remember to use an `elif` so you don't subtract both of the discounts! (You'll want to do your check for >= 7 days first.)    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]    
 • 7 일 이상 확인하는것을 먼저 if 문에 넣어야 한다.      
@@ -439,6 +453,8 @@ def rental_car_cost(days):
 
 Great! Now that you've got your 3 main costs figured out, let's put them together in order to find the total cost of your trip.
 
+<br>
+
 ```python
 def double(n):
   return 2 * n
@@ -449,10 +465,13 @@ def triple(p):
 def add(a, b):
   return double(a) + triple(b)
 ```
+<br>
 
 We define two simple functions, `double(n)` and `triple(p)` that return 2 times or 3 times their input. Notice that they have `n` and `p` as their arguments
 
 We define a third function, `add(a, b)` that returns the sum of the previous two functions when called with `a` and `b`, respectively. Notice that even though the names of the parameters for `add(a, b)` are different than the names of the parameters for `double(n)` and `triple(p)` we can still pass them into those functions as arguments
+
+<br>
 
 **설명:** [ Learn ]    
 • Ch5. Pull it Together 에서는 함수에서 함수를 호출하는것을 학습한다.    
@@ -462,6 +481,7 @@ We define a third function, `add(a, b)` that returns the sum of the previous two
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -472,6 +492,7 @@ We define a third function, `add(a, b)` that returns the sum of the previous two
 
 * Notice that we changed the argument of `hotel_costs()` from nights to days - 1. Since we want trip-cost to only depend on two parameters, we have to convert the variable nights into days. If you are going to be staying somewhere, the number of nights you stay there is one less than the number of days you were there (imagine a weekend trip to visit family, you leave Saturday and return Sunday, so you visit for two days, but only stay for one night).
 
+<br>
 
 **설명:** [ Instruction ]    
 • 함수 trip_cost() 를 정의하여라.     
@@ -496,6 +517,7 @@ We define a third function, `add(a, b)` that returns the sum of the previous two
 • skip
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -582,6 +604,8 @@ You can't expect to only spend money on the plane ride, hotel, and rental car wh
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Add to return variables `spending_money`. 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]    
 • return 문에서 합을 구할때, 변수 spending_money 를 추가하라.
@@ -676,6 +700,7 @@ What if we went to Los Angeles for 5 days and brought an extra 600 dollars of sp
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -698,6 +723,7 @@ print trip_cost("SOME CITY", NUM_DAYS, SPENDING_MONEY)
 • e.g. print trip_cost("LA", 7, 1000)
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -744,8 +770,3 @@ print trip_cost("Los Angeles", 5, 600)
 ```
 1955 
 ```
-
-<br>
-<br>    
-<br>    
-
