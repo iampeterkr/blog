@@ -57,6 +57,9 @@ On the right, you'll see the `grades` listed (see what I did there). The data is
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Hit Run to continue.
 
 
@@ -145,6 +148,7 @@ As a refresher, let's start off by writing a function to print out the list of g
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+
 * Need help with your for loop?     
 
 ```python

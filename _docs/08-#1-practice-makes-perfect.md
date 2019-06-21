@@ -49,6 +49,8 @@ The more challenging programs will contain some helpful hints to nudge you in th
 
 * Hit Run to continue.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]          
 • Run 을 클릭 후, 다음으로 넘어 가시오.
@@ -135,6 +137,9 @@ Remember how an even number is a number that is divisible by 2?
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * The modulo `%` operation is useful for determining if one number is divisible by another.
 
 * Make sure to return True instead of printing it!
@@ -226,6 +231,9 @@ If the difference between a number and that same number rounded is greater than 
 
 * Have it return True if the number is an **integer** (as defined above) and **False** otherwise.    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * For example:    
 
 ```python
@@ -271,6 +279,8 @@ def is_int(x):
 print is_int(10)
 print is_int(10.5)
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 is_int(x) 는 다음과 같이 동작한다.    
@@ -333,6 +343,9 @@ Awesome! Now let's try something a little trickier. Try summing the digits of a 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * One way might be to convert the integer to a string with `str()`, iterate over it, and turn the substrings back into integers with `int()` to do the addition.    
 
 * If you're looking for a challenge, try this: to get the rightmost digit of a number, you can modulo `(%)` the number by 10. To remove the rightmost digit you can floor divide (//) the number by 10. (Don't worry if you're not familiar with floor division—you can look up the documentation here. Remember, this is a challenge!)
@@ -376,6 +389,8 @@ def digit_sum(n):
   
 print digit_sum(1234)
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 입력값 n 을 문자열로 바꾼다. (e.g. str(n) )   
@@ -449,6 +464,9 @@ factorial(3) would equal 3 * 2 * 1, which is 6.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * Consider having `factorial()` call itself. When the input is 1, your function could just return 1. Otherwise, it could return the number multiplied by `factorial(n - 1)`.
 
 * Note that mathematically, factorial(0) is 1.
@@ -895,6 +913,12 @@ score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
          "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4, 
          "x": 8, "z": 10}
          
+```
+
+<p style="page-break-before: always;"></p>
+<br>
+
+```python         
 def scrabble_score(word):
   word = word.lower()
   total = 0
@@ -905,11 +929,7 @@ def scrabble_score(word):
   return total
 
 print scrabble_score("pizza")
-```
-<p style="page-break-before: always;"></p>
-<br>
 
-```python
 # def scrabble_score(word):
 #   totla = 0
 #   for i in word:
@@ -996,16 +1016,20 @@ should return:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * You can use    
 
+<br>
 ```python
 string.split()
 # and 
 " ".join(list)
 ```    
-to help you here.    
+<br>    
+
+* to help you here.    
 
 * Remember: "*" * 4 equals "****"
 
-* After splitting the string with string.split(), you can loop through the indices in the list and replace the words you are looking for with their asterisk equivalent. Join the list at the end to get your sentence!
+* After splitting the string with string.split(), you can loop through the indices in the list and replace the words you are looking for with their asterisk equivalent.     
+* Join the list at the end to get your sentence!
 
 
 
@@ -1027,6 +1051,8 @@ to help you here.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 def censor(text, word):
@@ -1041,13 +1067,8 @@ def censor(text, word):
     result =' '.join(words)
 
     return result
-```
-<p style="page-break-before: always;"></p>
-<br>
 
-```python  
 print censor("this hack is wack hack", "hack")
-
 
 # def censor2(text, word):
 #   low_text = text.lower()
@@ -1163,6 +1184,7 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 {: .notice--info}
 
 <br>
+<br>
 <hr/>
 
 
@@ -1178,7 +1200,11 @@ def count(sequence, item):
     return count
   
 print count([1, 2, 1, 1], 1)
+
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 count(sequence, item): 는 다음과 같이 동작한다.     
@@ -1191,7 +1217,6 @@ print count([1, 2, 1, 1], 1)
 {: .notice--info}
 
 
-<p style="page-break-before: always;"></p>
 <br>
 
 **결과** 
@@ -1329,7 +1354,6 @@ Great! Now let's try a little multiplication.
 {: .notice--info}
 
 
-<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1354,6 +1378,9 @@ Great! Now let's try a little multiplication.
 • 변수 total 의 초기값은 1로 초기화 하라.  
 {: .notice--info}
 
+<br>
+<hr/>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
@@ -1367,8 +1394,6 @@ def product(list):
 
 print product([4, 5, 5])
 ```
-<p style="page-break-before: always;"></p>
-<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 product(list):는 다음과 같이 작동한다.    
@@ -1402,8 +1427,6 @@ Awesome! Now for something a bit trickier.
 • Ch14. remove_duplicates 에서는 리스트 값의 중복을 제거하는것을 학습한다.
 {: .notice--info}
 
-
-<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1431,7 +1454,7 @@ Awesome! Now for something a bit trickier.
 • 새로운 빈 리스트 new_lst=[] 를 만들어 저장후 반환(return) 한다.
 {: .notice--info}
 
-<br>
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1441,9 +1464,6 @@ Awesome! Now for something a bit trickier.
 
 * Also, note that destructively modifying a list while you are looping through it is bad practice and will likely lead to bugs somewhere down the line! That's why we always make a fresh copy to work on.
 
-
-<p style="page-break-before: always;"></p>
-<br>
 
 
 **설명:** [ Hint ]          
@@ -1473,7 +1493,11 @@ def remove_duplicates(inputlist):
     inputlist = sorted(inputlist)
     # Initialize the output list, and give it the first value of the now-sorted input list
     outputlist = [inputlist[0]]
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
     # Go through the values of the sorted list and append to the output list
     # ...any values that are greater than the last value of the output list
     for i in inputlist:
@@ -1486,8 +1510,6 @@ print remove_duplicates([1, 1, 2, 2])
 
 ```
 
-<p style="page-break-before: always;"></p>
-<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 remove_duplicates(inputlist): 는 다음과 같이 동작한다.    
@@ -1548,14 +1570,19 @@ sorted([5, 2, 3, 1, 4])
 {: .notice--info}
 
 
+
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Write a function called `median` that takes a list as an input and **returns the median** value of the list.     
-* For example: median([1, 1, 2]) should return 1.
+
+* For example: median([1, 1, 2]) should return 1.    
 
 * The list can be of any size and the numbers are not guaranteed to be in any particular order. Make sure to sort it!    
 * If the list contains an **even number** of elements, your function should **return the average of the middle two**.
@@ -1585,6 +1612,9 @@ sorted([5, 2, 3, 1, 4])
 * Last but not least, note that (2 + 3) / 2 is not the same as (2 + 3) / 2.0! The former is integer division, meaning Python will try to give you an integer back. You'll want a float, so something like (2 + 3) / 2.0 is the way to go.
 
 
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Hint ]          
@@ -1635,8 +1665,13 @@ print median([2, 4, 5, 9])
 • if 절의 block 내용은 리스트의 갯수가 홀수개가 입력 되었을때 동작한다.     
 • if 절의 내용은 다음과 같이 처리한다.    
 • 리스트의 갯수가 홀수이면 index 중간값을 구한다.    
-• e.g. 리스트의 중간값을 ( //2 )로 소수점 버리는 중간값으로 계산한다.    
-• 리스트 sorted_list[index]가 중간 값이므로 해당 값을 반환(return)한다.   
+• e.g. 리스트의 중간값을 ( //2 )로 소수점 버리는 중간값으로 계산한다.
+{: .notice--info}
+
+<p style="page-break-before: always;"></p>
+<br>
+
+• 리스트 sorted_list[index]가 중간 값이므로 해당 값을 반환(return)한다.    
 • else 절의 block 내용은 짝수 개가 입력 되었을때 동작한다.       
 • else 절의 내용은 다음과 같이 처리한다.    
 • 리스트의 길이를 구하여 반으로 나누면 중간 index 값이 된다.    
@@ -1653,7 +1688,3 @@ print median([2, 4, 5, 9])
 ``` 
 4.5
 ```
-
-<br>
-<br>    
-<br>    
