@@ -43,7 +43,7 @@ Bitwise operators often tend to puzzle and mystify new programmers, so don't wor
 • Bit 연산자는 직접적으로 bit 를 조작하여 계산한다. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -87,6 +87,9 @@ print 12 ^ 42 # Bitwise XOR
 print ~88     # Bitwise NOT
 
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • Bit 연산자는 6 종류가 있다.     
@@ -147,6 +150,7 @@ In Python, you can write numbers in binary format by starting the number with 0b
      
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -193,6 +197,9 @@ print "******"
 print 0b1 + 0b11
 print 0b11 * 0b11
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 2 진수 자리수는 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024,...늘어난다.    
@@ -260,6 +267,9 @@ You may recognize these numbers. Do you have a 32 or 64 bit system? Does your co
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 *  Fill out the rest of the numbers with their corresponding binary values up to twelve in the editor to the right, using the 0bxxx format.
 
 
@@ -308,6 +318,8 @@ twelve = 0b1100
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -357,6 +369,7 @@ You can also represent numbers in base 8 and base 16 using the oct() and hex() f
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -444,6 +457,8 @@ When given a string containing a number and the base that number is in, the func
 
 * In the console are several different ways that you can use the int function's second parameter.On line 7, use int to print the base 10 equivalent of the binary number 11001001.     
      
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]     
 • Editor 화면에는 몇개의 함수 int() 를 사용한 예제들이 있다.    
@@ -489,13 +504,16 @@ print int("11001001", 2)
 → 2 진수 "111" 을 10 진수 7 로 변환후 출력.    
 • 함수 int( "0b100", 2 )    
 → 2 진수 "0b100" 을 10 진수 4 로 변환후 출력.    
-• 함수 int( bin(5), 2 )    
+• 함수 int( bin(5), 2 ) 
+{: .notice--info}
+
+<p style="page-break-before: always;"></p>
+<br>
+
 → 2 진수 "110"   을 10 진수 5 로 변환후 출력.    
 • 함수 int( "11001001", 2 )    
 → 2 진수 "11001001" 을  10 진수 201 로 변환후 출력.
 {: .notice--info}
-
-
 
 **결과**     
 ``` 
@@ -518,7 +536,9 @@ print int("11001001", 2)
 The next two operations we are going to talk about are the **left** and **right** shift bitwise operators. These operators work by shifting the bits of a number over by a designated number of slots.
 
 The block below shows how these operators work on the bit level. Note that in the diagram, the shift is always a positive integer:    
+<br>
 ```python
+
 # Left Bit Shift (<<)  
 0b000001 << 2 == 0b000100 (1 << 2 = 4)
 0b000101 << 3 == 0b101000 (5 << 3 = 40)       
@@ -526,7 +546,9 @@ The block below shows how these operators work on the bit level. Note that in th
 # Right Bit Shift (>>)
 0b0010100 >> 3 == 0b000010 (20 >> 3 = 2)
 0b0000010 >> 2 == 0b000000 (2 >> 2 = 0)
+
 ```    
+<br>
 Shift operations are similar to rounding down after **dividing** and **multiplying** by 2 (respectively) for every time you shift, but it's often easier just to think of it as shifting all the 1s and 0s left or right by the specified number of slots.
 
 Note that you can only do bitwise operations on an **integer** Trying to do them on strings or floats will result in nonsensical output!
@@ -544,6 +566,7 @@ Note that you can only do bitwise operations on an **integer** Trying to do them
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -590,6 +613,9 @@ shift_left = shift_left << 2
 print bin(shift_right)
 print bin(shift_left)
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 변수 shift_right 는 오른쪽으로 bit 를 2 칸 이동한후 저장한다.    
@@ -651,6 +677,7 @@ which equals two.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -699,6 +726,8 @@ print (bin(0b110 & 0b101))
 • 그 결과를 출력한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과**     
@@ -743,6 +772,7 @@ Meaning
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -759,7 +789,7 @@ Meaning
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -771,7 +801,7 @@ Meaning
 • AND( & ) 연사자 대신에 OR( | ) 연산자를 사용한다. 
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -833,6 +863,7 @@ Therefore:
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -848,7 +879,7 @@ Therefore:
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -926,6 +957,8 @@ And with that, you've seen all of the basic bitwise operators! We'll see what we
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * skip
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]     
 • skip   
@@ -976,6 +1009,7 @@ print ~123
 ### 11. The Man Behind the Bit Mask    
 
 A **bit mask** is just a variable that aids you with bitwise operations. A bit mask can help you turn specific bits on, turn others off, or just collect data from an integer about which bits are on or off.    
+<br>
 ```python
 num  = 0b1100
 mask = 0b0100
@@ -983,6 +1017,7 @@ mask = 0b0100
 desired = num & mask
 if desired > 0:
   print "Bit was on"
+
 ```    
 In the example above, we want to see if the third bit from the right is on.    
 
@@ -1005,6 +1040,7 @@ In the example above, we want to see if the third bit from the right is on.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1051,6 +1087,7 @@ check_bit4(0b1010) # ==> "on"
 • 입력한 4 번째 bit 값이 1 인지를 확인하는 함수를 작성하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1132,6 +1169,7 @@ Using the bitwise `OR(|)` operator will turn a corresponding bit on if it is off
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1220,6 +1258,7 @@ desired =  a ^ mask # 0b1
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1270,7 +1309,9 @@ print bin(desired)
 ### 14. Slip and Slide    
 
 Finally, you can also use the **left shift** (<<) and **right shift** (>>) operators to slide masks into place.    
+<br>
 ```python
+
 a = 0b101 
 # Tenth bit mask
 mask = (0b1 << 9)  # One less than ten 
@@ -1280,7 +1321,9 @@ desired = a ^ mask
 #0b1000000000
 #----------------
 #0b1000000101
+
 ```    
+<br>
 Let's say that I want to turn on the **10th bit** from the right of the integer `a`.    
 
 Instead of writing out the entire number, we **slide a bit** over using the `<<` operator.    
@@ -1300,6 +1343,7 @@ We use 9 because we only need to slide the mask nine places over from the first 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1342,12 +1386,12 @@ We use 9 because we only need to slide the mask nine places over from the first 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
-
 
 ```python
 def flip_bit(number, n):

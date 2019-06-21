@@ -51,6 +51,7 @@ Note that the .items() method doesn't return key/value pairs in any specific ord
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -95,7 +96,10 @@ my_dict = {
 }
 
 print my_dict.items()
+
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 딕셔너리 my_dict 에 다음과 같은 정보가 key/value 쌍으로 저장되어 있다.    
@@ -153,6 +157,7 @@ You can think of a tuple as an immutable (that is, unchangeable) list. Tuples ar
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -245,6 +250,7 @@ Finally, we iterate through the letters of a string, printing out E r i c.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -292,7 +298,11 @@ my_dict = {
   'age':  31,
   'occupation': 'Dentist',
 }
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 for key in my_dict:
   print key, my_dict[key]
 ```
@@ -353,6 +363,7 @@ Python's answer to this is the list comprehension. List comprehensions are a pow
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -438,6 +449,9 @@ doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Use a list comprehension to build a list called `even_squares` in the editor.
 
 * Your `even_squares` list should include the squares of the even numbers between 1 to 11. Your list should start [4, 16, 36...] and go from there.
@@ -482,6 +496,8 @@ even_squares = [x ** 2 for x in range(1, 12) if x % 2 == 0]
 
 print even_squares
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 리스트 even_squares 를 리스트 컴프레션을 사용하여 다음과 같이 만들어진다.    
@@ -545,7 +561,12 @@ The example above creates and prints out a list containing ['C', 'C', 'C'].
 
 **설명:** [ Instruction ]    
 • 리스트 cubes_by_four 를 리스트 컴프레션을 사용하여 작성하라.    
-• 1 부터 10까지의 숫자를 세제곱(cube) 한다.    
+• 1 부터 10까지의 숫자를 세제곱(cube) 한다. 
+{: .notice--info}
+
+<p style="page-break-before: always;"></p>
+<br>
+
 • 이 값을 4로 나누어 떨어지는 값만 리스트에 저장하라.     
 • 위 결과가 담긴, 리스트 cubes_by_four 를 출력하라.    
 • 리스트 cubes_by_four 는 4로 나누어 떨어지는 값들이다.    
@@ -593,6 +614,9 @@ print cubes_by_four
 • e.g. 숫자 64 는 (64 % 4 == 0)을 충족하고, x=4일때, (4 ** 3)도 충족한다. 
 {: .notice--info}
 
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과**     
@@ -643,6 +667,10 @@ Where start describes where the slice starts (inclusive), end is where it ends (
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * We've generated a list with a list comprehension in the editor to the right, and we're about to print a selection from the list using list slicing.     
+
+<p style="page-break-before: always;"></p>
+<br>
+
 * Can you guess what will be printed out? Click Run when you think you know!
 
 
@@ -692,6 +720,8 @@ print l[2:9:2]
 • 이 사이의 값중 9부터 1칸씩 건너뛰니, [9, 25, 49, 81]가 출력된다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과**     
 ``` 
@@ -746,6 +776,9 @@ The default stride is 1.
 
 * Use list slicing to print out every odd element of `my_list` from start to finish.
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Omit the start and end index. You only need to specify a stride.
 
 * Check the Hint if you need help.
@@ -791,6 +824,8 @@ my_list = range(1, 11) # List of numbers 1 - 10
 # Add your code below!
 print my_list[::2]
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 1부터 10 까지의 정수를 생성한다.    
@@ -859,6 +894,7 @@ In the example above, we print out ['E', 'D', 'C', 'B', 'A'].
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -949,6 +985,7 @@ Further, a stride length of 1 traverses the list "by ones," a stride length of 2
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1016,6 +1053,7 @@ Let's do one more, just to prove you really know your stuff.
 
 
 <br>
+<br>
 <hr/>
 
 
@@ -1036,6 +1074,7 @@ Let's do one more, just to prove you really know your stuff.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1410,7 +1449,9 @@ First, let's review iterating over a `dict`.
 • loop 를 사용할 필요가 없다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
+
 <hr/>
 
 
@@ -1442,7 +1483,7 @@ print ( movies.items() )
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">ADVANCED TOPICS IN PYTHON </font> 
-## 16. Comprehending Comprehensions    
+### 16. Comprehending Comprehensions    
 
 Good! Now let's take another look at list comprehensions.    
 ```python
@@ -1477,6 +1518,9 @@ squares = [x ** 2 for x in range(5)]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Remember, list comprehension syntax looks like this:    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 list_name = [var for var in range]
@@ -1580,6 +1624,7 @@ You can think of a Python string as a list of characters.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1625,6 +1670,8 @@ message = garbled[::-2]
 • 만약, print 문을 실행해 보면, 다음과 같이 결과가 나올 것이다.  
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과**     
 ``` 
@@ -1679,6 +1726,7 @@ We've given you another (slightly different) garbled. Sort it out with a `filter
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1729,7 +1777,3 @@ print message
 ``` 
 I am another secret message!
 ```   
-
-<br>
-<br>    
-<br>    

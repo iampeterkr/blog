@@ -51,14 +51,13 @@ On the right, you'll see the `grades` listed (see what I did there). The data is
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-<p style="page-break-before: always;"></p>
-<br>
 
 * Hit Run to continue.
 
@@ -142,26 +141,30 @@ As a refresher, let's start off by writing a function to print out the list of g
 • 함수 print_grade(grade) 를 출력한다.
 {: .notice--info}
 
-
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 
 * Need help with your for loop?     
 
 ```python
-numbers = [2, 3, 5, 8, 13]
 
+numbers = [2, 3, 5, 8, 13]
 for n in numbers:
   print n
+
 ```    
 
 **설명:** [ Hint ]          
 • for 문을 활용하여 반복(loop)한다. 
 {: .notice--info}
 
+<br>
 <br>
 <hr/>
 
@@ -170,6 +173,7 @@ for n in numbers:
 
 
 ```python
+
 grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 
 def print_grades(grades_input):
@@ -177,6 +181,7 @@ def print_grades(grades_input):
     print grade
 
 print_grades(grades)
+
 ```
 
 **설명:** [ Solution ]          
@@ -186,12 +191,15 @@ print_grades(grades)
 • 변수 grade 를 출력한다.
 {: .notice--info}
 
-
 **결과** 
 ``` 
 100
 100
 90
+```
+<p style="page-break-before: always;"></p>
+<br>
+```
 40
 80
 100
@@ -251,6 +259,9 @@ Onwards.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * skip
 
 
@@ -323,6 +334,8 @@ Computing the sum manually involves computing a rolling sum. As you loop through
 * Returns the computed sum.
 * Call the newly created `grades_sum` function with the list of grades and print the result.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 
@@ -369,6 +382,8 @@ def grades_sum(scores):
 
 print grades_sum(grades)
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 grades_sum(scores): 은 다음과 같이 동작한다.    
@@ -433,6 +448,7 @@ Call the newly created `grades_average` function with the list of grades and pri
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -475,6 +491,8 @@ def grades_average(grades_input):
 
 print grades_average(grades)
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 함수 grades_average(grades_input) 는 전체 성적의 합을 구한다.     
@@ -542,6 +560,7 @@ We're going to use the average for computing the variance. The variance allows u
 • skip
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -600,6 +619,8 @@ A very large variance means that the students' grades were all over the place, w
 * Then, return that result.    
 * Finally, after your function code, print `grades_variance(grades)`.    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]         
@@ -645,6 +666,12 @@ def print_grades(grades_input):
   for grade in grades_input:
     print grade
 
+```
+
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
 def grades_sum(scores):
   total = 0
   for score in scores: 
@@ -733,6 +760,7 @@ The standard deviation is the square root of the variance. You can calculate the
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -776,12 +804,20 @@ def grades_variance(grades):
         variance += (grades_average(grades) - number) ** 2
     return variance / len(grades)
 
+```
+
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
+
 def grades_std_deviation(variance):
   return variance ** 0.5
 
 variance = grades_variance(grades)
 
 print grades_std_deviation(variance)
+
 ```
 
 **설명:** [ Solution ]     
@@ -841,6 +877,8 @@ Who needs to pay for grade calculation software when you can write your own? :)
   * variance
   * standard deviation
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]    
@@ -884,11 +922,16 @@ def grades_sum(scores):
   for score in scores: 
     total += score
   return total
-    
+
 def grades_average(grades_input):
   sum_of_grades = grades_sum(grades_input)
   average = sum_of_grades / float(len(grades_input))
   return average
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
 
 def grades_variance(grades):
     variance = 0
@@ -908,17 +951,17 @@ print grades_sum(grades)
 print grades_average(grades)
 print grades_variance(grades)
 print grades_std_deviation(variance)
+
 ```
 
 **설명:** [ Solution ]     
-• 각 점수를 for문을 통하여 출력한다.        
-• e.g. for grade in grades:    
+• 각 점수를 for문을 통하여 출력한다.     
+• e.g. for grade in grades:        
 • 점수 합 : print grades_sum(grades)    
 • 평균 점수 : print grades_average(grades)    
 • 분산 값 : print grades_variance(grades)   
 • 표준편차 값 : print grades_std_deviation(variance)
 {: .notice--info}
-
 
 
 **결과** 
@@ -935,13 +978,16 @@ print grades_std_deviation(variance)
 65
 90
 85
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```
+
 50.5
 1045.5
 80.4230769231
 334.071005917
 18.2776094147
-```
 
-<br>
-<br>    
-<br>    
+```
