@@ -485,7 +485,7 @@ print factorial(5)
 # print factorial2(5)      
 ```
 
-**설명:** [ Solution ]          
+**설명:** [ Solution 1 ]          
 • 정의된 함수 factorial(x) 에서는 입력값 x 를 가진다.    
 • 변수 total = 1 로 초기화 한다.    
 • while 문에서 입력값 ( x > 0 ) 동안 반복한다.    
@@ -493,7 +493,12 @@ print factorial(5)
 • 입력값 x 의 값을 1씩 줄여준다.    
 • while 문에서 입력값 (x > 0 ) 동안 반복한다.    
 • while 문을 빠져나오면, 변수 total 값을 반환한다.     
---------------------------------       
+{: .notice--info}
+
+<p style="page-break-before: always;"></p>
+<br>
+
+**설명:** [ Solution 2 ]          
 • 다른 방법은 다음과 같다.     
 • 함수에서 함수를 재귀호출 하는 방법이다.     
 • e.g. return  n * factorial2(n-1)     
@@ -549,6 +554,8 @@ If there is a number between 1 and x that goes in evenly, then x is not prime.
 
 * If none of them are, then return True.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]          
 • 함수 is_prime(x) 을 작성하라.    
@@ -572,6 +579,7 @@ If there is a number between 1 and x that goes in evenly, then x is not prime.
 {: .notice--info}
 
 <br>
+<br>
 <hr/>
 
 
@@ -590,7 +598,10 @@ def is_prime(x):
 
 print is_prime(13)
 print is_prime(10)
+
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 is_prime(x): 은 입력값 x 를 가진다.    
@@ -659,6 +670,9 @@ Great work so far! Let's practice writing some functions that work with strings.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * Consider how you would loop through text starting from the last character through the first character.
 
 
@@ -749,6 +763,8 @@ Nice work. Next up: vowels!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * To check to see if `c` is a vowel, you can do: c in "aeiouAEIOU".
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]       
 • 모음 모둠인 *aeiouAEIOU* 에 해당 문자가 속하는지를 점검한다. 
@@ -833,6 +849,9 @@ For example: the word "Helix" would score 15 points due to the sum of the letter
 * Your function should work even if the letters you get are uppercase, lowercase, or a mix.
 * Assume that you're only given non-empty strings.
 
+<p style="page-break-before: always;"></p>
+<br>
+
 
 **설명:** [ Instruction ]          
 • 함수 scrabble_score(word) 를 작성하라.     
@@ -886,7 +905,11 @@ def scrabble_score(word):
   return total
 
 print scrabble_score("pizza")
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 # def scrabble_score(word):
 #   totla = 0
 #   for i in word:
@@ -965,6 +988,7 @@ should return:
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1017,7 +1041,11 @@ def censor(text, word):
     result =' '.join(words)
 
     return result
-  
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python  
 print censor("this hack is wack hack", "hack")
 
 
@@ -1107,6 +1135,11 @@ Great work so far. Let's finish up by practicing with a few functions that take 
 • 이유는 리스트 [1, 2, 1, 1] 에 1 이 3개가 들어 있기 때문이다.    
 • python 자체 함수에는 리스트의 특정 항목의 갯수를 찾아주는 기능이 있다.    
 • e.g. str.count()    
+{: .notice--info}
+
+<p style="page-break-before: always;"></p>
+<br>
+
 • 하지만, 연습을 위해서 이번 장에서 우리는 직접 만들어 본다.     
 • return(반환값)은 정수(integer) 이다.    
 • 입력값은 정수(integer), 문자(string), 실수(float) 또는 다른 것일 수 있다.    
@@ -1158,6 +1191,8 @@ print count([1, 2, 1, 1], 1)
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -1209,6 +1244,8 @@ Awesome! Now let's practice filtering a list.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Your code should share something in common with the `is_even` function you defined earlier.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]     
 • 앞에서 연습한 함수 is_even() 의 기능을 활용하여 홀수인지 짝수인지를 판단하라.    
@@ -1292,11 +1329,15 @@ Great! Now let's try a little multiplication.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * You can use a loop to go through the elements of the list.
 
 * It'll probably be useful to use the `*=` operator.
@@ -1326,6 +1367,8 @@ def product(list):
 
 print product([4, 5, 5])
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 product(list):는 다음과 같이 작동한다.    
@@ -1360,6 +1403,7 @@ Awesome! Now for something a bit trickier.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1387,7 +1431,7 @@ Awesome! Now for something a bit trickier.
 • 새로운 빈 리스트 new_lst=[] 를 만들어 저장후 반환(return) 한다.
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -1398,6 +1442,8 @@ Awesome! Now for something a bit trickier.
 * Also, note that destructively modifying a list while you are looping through it is bad practice and will likely lead to bugs somewhere down the line! That's why we always make a fresh copy to work on.
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Hint ]          
@@ -1410,6 +1456,7 @@ Awesome! Now for something a bit trickier.
 • 새로운 리스트를 잘못 수정했으면, 다시 지우고 만들면 된다. 
 {: .notice--info}
 
+<br>
 <br>
 <hr/>
 
@@ -1436,7 +1483,11 @@ def remove_duplicates(inputlist):
     return outputlist
   
 print remove_duplicates([1, 1, 2, 2])
+
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • 정의된 함수 remove_duplicates(inputlist): 는 다음과 같이 동작한다.    

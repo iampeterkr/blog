@@ -46,6 +46,7 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -64,7 +65,7 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 {: .notice--info}
 
 
-<br>
+
 <hr/>
 
 
@@ -76,7 +77,7 @@ Line 6 decides when the loop will be executed. So, "as long as count is less tha
 • 9 까지만 실행되는 조건문을 만든다. ( count < 10 또는 count <= 9 )
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -93,6 +94,8 @@ while count < 10:
   print "Hello, I am a while and count is", count
   count += 1
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]          
 • if 문은 1 번 출력한다.(조건문이 변수 count 가 10 보다 작은지만 비교)    
@@ -157,6 +160,8 @@ The condition is the expression that decides whether the loop is going to contin
 
 * See how the loop checks its condition, and when it stops executing? When you think you've got the hang of it, click Run to continue.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]          
 • 실행이 멈췄을때, 반복문의 상태를 어떻게 확인 하는지 살펴보라.    
@@ -253,6 +258,9 @@ Inside a while loop, you can do anything you could do elsewhere, including arith
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * Your condition will have to be num <= 10 (or num < 11) so that the loop will always print until num is 11.
 
 
@@ -345,6 +353,9 @@ A common application of a while loop is to check user input to see if it is vali
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * Remember, use the != operator to test if two things are different, such as choice != "y", and the and operator to check more than one thing, such as A and B.
 
 
@@ -426,6 +437,8 @@ while count > 0:
 
 * The loop in the editor has **two problems**: it's missing a colon (a syntax error) and count is never incremented (logical error). The latter will result in an infinite loop, so be sure to **fix** both before running!
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]          
 • while 반복문에 2 개의 문제가 있다.    
@@ -437,7 +450,6 @@ while count > 0:
 
 <br>
 <hr/>
-
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Since count is never incremented (count += 1), count is always 0, and since zero is less than ten, 0 will be printed over and over again forever.
@@ -471,6 +483,8 @@ while count < 10: # Add a colon
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -532,6 +546,7 @@ The difference here is that this loop is guaranteed to run at least once.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -544,7 +559,7 @@ The difference here is that this loop is guaranteed to run at least once.
 • skip
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -559,7 +574,6 @@ while True:
   count += 1
   if count >= 10:
     break
-
 ```
 
 **설명:** [ Solution ]          
@@ -632,6 +646,9 @@ In this example, the loop will break if a 5 is generated, and the else will not 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * skip
 
 
@@ -729,6 +746,9 @@ Remember, `raw_input` turns user input into a **string**, so we use `int()` to m
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Use a while loop to let the user keep guessing so long as guesses_left is greater than zero.    
 * Ask the user for their guess, just like the second example above.    
 * If they guess correctly, print "You win!" and break.    
@@ -771,6 +791,8 @@ Remember, `raw_input` turns user input into a **string**, so we use `int()` to m
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 from random import randint
@@ -788,7 +810,6 @@ while guesses_left > 0:
   guesses_left -= 1
 else:
   print "You lose."
-
 ```
 
 **설명:** [ Solution ]          
@@ -872,6 +893,7 @@ An alternative way to loop is the for loop. The syntax is as shown in the code e
 • 내부 함수 range() 를 사용한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -964,6 +986,7 @@ This kind of loop is useful when you want to do something a **certain number of 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -978,7 +1001,7 @@ This kind of loop is useful when you want to do something a **certain number of 
 • e.g. hobbies.append(hobby)
 {: .notice--info}
 
-<br>
+
 <hr/>
 
 
@@ -1063,6 +1086,7 @@ The example in the editor is almost plain English: "for each character c in thin
 • 3, 4 라인에 있는 for 문을 참조하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1148,6 +1172,9 @@ The `,` character after our print statement means that our next print statement 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Let's filter out the letter "A" from our string.
 
 * Do the following for each character in the `phrase`.
@@ -1191,6 +1218,8 @@ if c == "A" or c == "a":
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 phrase = "A bird in the hand..."
@@ -1268,6 +1297,10 @@ On each iteration, the variable `num` will be the next value in the list. So, th
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Use the `**` operator for exponentiation.    
+
+<p style="page-break-before: always;"></p>
+<br>
+
 * The rest of the loop should be very similar to the first one.
 
 
@@ -1360,6 +1393,8 @@ for key in d:
 
 * On line 5, print the **key**, followed by a space, followed by the value associated with that key.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]          
 • 5 라인에서, key 를 출력하고, 공백을 하나 뛰고 key 의 value 를 출력하라.  
@@ -1406,6 +1441,8 @@ for key in d:
 • key 는 문자열 'a' 이고, 그 값은 d[key] 로 나타낼 수 있다.  
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과** 
 ``` 
@@ -1453,6 +1490,7 @@ A weakness of using this for-each style of iteration is that **you don't know th
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1539,6 +1577,9 @@ It's also common to need to iterate over **two lists at once**. This is where th
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 `a` is an element from `list_a` and `b`is an element of `list_b`.
 
 You have two options: Use an `if/else` statement to compare the two and print whichever is larger. Alternatively, you can use the `max` function that you learned in unit 4.
@@ -1624,6 +1665,8 @@ In this case, the `else` statement is executed after the `for`, but only `if` th
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * skip
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]          
 • skip
@@ -1659,7 +1702,7 @@ else:
 
 
 
-**결과** 
+**결과 1** 
 ```
 # break 문을 만난 경우 
 You have...
@@ -1668,7 +1711,10 @@ A apple
 A orange
 A tomato is not a fruit!
 ```
-**결과** 
+<p style="page-break-before: always;"></p>
+<br>
+
+**결과 2** 
 ```
 # break 문을 만나지 못한  경우 
 You have...
@@ -1721,6 +1767,8 @@ As mentioned, the `else` block won't run in this case, since break executes when
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * You can change the contents of fruits or the contents of the for statement such that the loop doesn't break on "tomato".
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]          
 • else 문이 실행되게 하려면 다음과 같이 하면 된다.    
@@ -1815,6 +1863,7 @@ To wrap up this lesson, let's create our own `for/else` statement from scratch.
 • skip
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
