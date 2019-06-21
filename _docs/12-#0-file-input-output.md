@@ -44,6 +44,7 @@ Check out the code in the editor to the right.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -90,9 +91,13 @@ for item in my_list:
 f.close()
 ```
 
+
+<p style="page-break-before: always;"></p>
+<br>
+
 **설명:** [ Solution ]     
 • 리스트 my_list 에 list comphresion을 이용하여 1부터 10까지의 제곱을 구한다.    
-• 파일 output.txt 파일을 쓰기 모드로 연다.     
+• 파일 output.txt 파일을 쓰기 모드로 연다.  
 • 그리고 그 주소를 변수 f 에 저장한다.       
 • for 문을 통하여 리스트 my_list 값을 하나씩 추출하여, 변수 f 에 값을 저장한다.    
 • for 문이 종료되면, 변수 f 를 종료한다. 
@@ -149,6 +154,8 @@ Doing this opens the file in write-mode and prepares Python to send data into th
 * Create a variable, `my_file`, and set it equal to calling the `open()` function on `output.txt`.     
 * In this case, pass "r+" as a second argument to the function so the file will allow you to read and write to it! (See the Hint for details.)  
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]    
 • 변수 my_file 을 작성하라.    
@@ -195,6 +202,8 @@ my_file = open("output.txt", "r+")
 • File object my_file 은 output.txt 파일을 읽기/쓰기 모드로 오픈한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과**     
 ```
@@ -238,6 +247,9 @@ You must close the file. You do this simply by calling `my_file.close()` (we did
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 * Iterate over `my_list` to get each value.
 
@@ -287,6 +299,8 @@ str(42)
 
 * Make sure to add a newline (+ "\n")     
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]     
 • for 문을 사용하여 저장한다.       
@@ -375,6 +389,7 @@ print my_file.read()
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -471,6 +486,7 @@ If you open a file and call `.readline()` on the file object, you'll get the fir
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -522,11 +538,8 @@ my_file.close()
 **결과**     
 ``` 
 I'm the first line of the file!
-
 I'm the second line.
-
 Third line here, boss.
-
 ```    
 <p style="page-break-before: always;"></p>
 <br>
@@ -569,6 +582,8 @@ Run the code again.
 
 * This time, you'll see the data come through!    
 
+<p style="page-break-before: always;"></p>
+<br>
   
 
 
@@ -619,6 +634,8 @@ print read_file.read()
 
 read_file.close()
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 파일을 write 한 후 더 이상 사용할 일이 없으면 해당 파일을 .close() 해야 한다.     
@@ -670,6 +687,8 @@ with open("file", "mode") as variable:
 * Note that we don't explicitly `close()` our file, and remember that if we don't close a file, our data will get stuck in the buffer. Click Run!     
 * Success! is written to a file called `text.txt`.     
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]    
 • Editor 화면에 있는 내용을 실행후 살펴보라.    
@@ -756,6 +775,8 @@ It worked! Our Python program successfully wrote to text.txt.
 with open("file","mode") as variable:
   # Read or write to the file
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]     
 • with...as 문법을 기억하라.
@@ -832,6 +853,9 @@ By checking `file_object.closed`, we'll know whether our file is closed and can 
 
 * If that's the case, call `.close()` on it.    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * (You don't need an else here, since your if statement should do nothing if closed is True.)
 
 * After your `if` statement, print out the value of `my_file.closed` to make sure your file is really closed.
@@ -878,6 +902,8 @@ if not my_file.closed:
 
 print my_file.closed
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • my_file.closed 호출하였다.    
