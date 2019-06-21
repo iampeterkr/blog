@@ -5,11 +5,11 @@ permalink: /introduction-classes/
 excerpt: "We learn about Classes Syntax."
 # last_modified_at: 2019-02-28T09:00:00-04:00
 redirect_from:
-  - /theme-setup/
+- /theme-setup/
 toc: true
 ---
-    
-   
+  
+  
 <hr style="border: solid 1px #dddddd ;">    
 
 LESSON    
@@ -20,7 +20,7 @@ Classes are a crucial part of object-oriented programming (OOP). In this lesson,
 클래스는 객체지향의 끝판왕 이라고 말할수 있다.    
 이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 학습한다.
 {: .notice--info}     
-     
+    
 <hr style="border: solid 1px #dddddd ;">    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
@@ -38,7 +38,12 @@ my_dict.items()
 ```    
 Python checks to see if my_dict has an items() method (which all dictionaries have) and executes that method if it finds it.    
 
-But what makes "Eric" a string and my_dict a dictionary? The fact that they're instances of the str and dict classes, respectively. A class is just a way of organizing and producing objects with similar attributes and methods.    
+But what makes "Eric" a string and my_dict a dictionary? The fact that they're instances of the str and dict classes, respectively. A class is just a way of organizing and producing objects with similar attributes and methods.   
+
+
+<p style="page-break-before: always;"></p>
+<br>
+
 
 
 **설명:** [ Learn ]     
@@ -85,6 +90,7 @@ But what makes "Eric" a string and my_dict a dictionary? The fact that they're i
 • skip
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -94,21 +100,21 @@ But what makes "Eric" a string and my_dict a dictionary? The fact that they're i
 
 ```python
 class Fruit(object):
-  """A class that makes various tasty fruits."""
-  def __init__(self, name, color, flavor, poisonous):
-    self.name = name
-    self.color = color
-    self.flavor = flavor
-    self.poisonous = poisonous
+"""A class that makes various tasty fruits."""
+def __init__(self, name, color, flavor, poisonous):
+  self.name = name
+  self.color = color
+  self.flavor = flavor
+  self.poisonous = poisonous
 
-  def description(self):
-    print "I'm a %s %s and I taste %s." % (self.color, self.name, self.flavor)
+def description(self):
+  print "I'm a %s %s and I taste %s." % (self.color, self.name, self.flavor)
 
-  def is_edible(self):
-    if not self.poisonous:
-      print "Yep! I'm edible."
-    else:
-      print "Don't eat me! I am super poisonous."
+def is_edible(self):
+  if not self.poisonous:
+    print "Yep! I'm edible."
+  else:
+    print "Don't eat me! I am super poisonous."
 
 lemon = Fruit("lemon", "yellow", "sour", False)
 
@@ -151,7 +157,7 @@ For now, our classes will **inherit** from the object class, like so:
 
 ```python
 class NewClass(object):
-  # Class magic here
+# Class magic here
 ```    
 This gives them the powers and abilities of a Python object.     
 By convention, user-defined Python class names start with a capital letter.    
@@ -187,6 +193,7 @@ By convention, user-defined Python class names start with a capital letter.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -208,7 +215,7 @@ By convention, user-defined Python class names start with a capital letter.
 
 ```python
 class Animal(object):
-  pass
+pass
 
 ```
 
@@ -239,7 +246,7 @@ You may have noticed in our example back in the first exercise that we started o
 This function is required for classes, and it's used to initialize the objects it creates. `__init__()` always takes at least one argument, self, that refers to the object being created.    
 You can think of `__init__()` as the function that "boots up" each object the class creates.
 
- 
+
 
 
 
@@ -264,7 +271,9 @@ You can think of `__init__()` as the function that "boots up" each object the cl
 * Pass it the argument self for now; we'll explain how this works in greater detail in the next section.     
 * Finally, put the pass into the body of the `__init__()` definition, since it will expect an indented block.
 
- 
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]    
@@ -284,7 +293,7 @@ You can think of `__init__()` as the function that "boots up" each object the cl
 
 ```python
 def __init__(self):
-  pass
+pass
 ```
 
 **설명:** [ Hint ]     
@@ -300,8 +309,8 @@ def __init__(self):
 
 ```python
 class Animal(object):
-  def __init__(self):
-    pass
+def __init__(self):
+  pass
 ```
 
 **설명:** [ Solution ]     
@@ -355,7 +364,9 @@ The part that is magic is the fact that `self` is the first parameter passed to 
 * Pass `__init__()` a second parameter, `name`.    
 
 * In the body of `__init__()`, let the function know that `name` refers to the created object's `name` by typing `self.name = name.` (This will become crystal clear in the next section.)
- 
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]    
@@ -372,8 +383,8 @@ The part that is magic is the fact that `self` is the first parameter passed to 
 
 ```python    
 class Animal(object):
-  def __init__(self, name):
-    # Set the name parameter here!
+def __init__(self, name):
+  # Set the name parameter here!
 ```
 
 **설명:** [ Hint ]     
@@ -389,8 +400,8 @@ class Animal(object):
 
 ```python
 class Animal(object):
-  def __init__(self, name):
-    self.name = name
+def __init__(self, name):
+  self.name = name
 ```
 
 **설명:** [ Solution ]     
@@ -418,15 +429,20 @@ class Animal(object):
 Perfect! Now we're ready to start creating objects.
 
 We can access attributes of our objects using dot notation. Here's how it works:     
+<br>
 ```python
+
 class Square(object):
-  def __init__(self):
-    self.sides = 4
+def __init__(self):
+  self.sides = 4
 
 my_shape = Square()
 print my_shape.sides 
 # my_shape. 찍는순간 __init__(self)가 호출된다.
+
 ```
+<br>
+
 * First we create a class named Square with an attribute sides.    
 * Outside the class definition, we create a new instance of Square named my_shape and access that attribute using my_shape.sides.    
 
@@ -446,6 +462,7 @@ print my_shape.sides
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -472,12 +489,16 @@ print my_shape.sides
 You can create a new `Animal` object named "Jeffrey" like this:
 
 ```python
+
 zebra = Animal("Jeffrey")
+
 ```
 You can print out "Jeffrey"'s name like this:
 
 ```python
+
 print zebra.name
+
 ```
 
 
@@ -486,6 +507,7 @@ print zebra.name
 • zebra.name 을 호출하면, 클래스 Animal 의 name 에 있는 내용이 출력된다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -495,9 +517,9 @@ print zebra.name
 
 ```python
 class Animal(object):
-  def __init__(self, name):
-    self.name = name
-    
+def __init__(self, name):
+  self.name = name
+  
 zebra = Animal("Jeffrey")
 
 print zebra.name
@@ -560,6 +582,8 @@ The first argument `__init__()` gets is used to refer to the instance object, an
 * See how `__init__()` "boots up" each object to expect a `name` and an `age`, then uses `self.name` and `self.age` to assign those names and ages to each object?     
 * Add a third attribute, `is_hungry` to `__init__()`, and click Run to see the results.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]    
 • Editor 화면에서 함수 `__init__()` 이 어떻게 기동 되는지 확인하라.    
@@ -578,9 +602,9 @@ The first argument `__init__()` gets is used to refer to the instance object, an
 
 ```python
 def __init__(self, name, age, is_hungry)
-  self.name = name
-  self.age = age
-  self.is_hungry = is_hungry
+self.name = name
+self.age = age
+self.is_hungry = is_hungry
 ```
 
 
@@ -600,13 +624,17 @@ def __init__(self, name, age, is_hungry)
 ```python
 # Class definition
 class Animal(object):
-  """Makes cute animals."""
-  # For initializing our instance objects
-  def __init__(self, name, age, is_hungry):
-    self.name = name
-    self.age = age
-    self.is_hungry = is_hungry
+"""Makes cute animals."""
+# For initializing our instance objects
+def __init__(self, name, age, is_hungry):
+  self.name = name
+  self.age = age
+  self.is_hungry = is_hungry
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 # Note that self is only used in the __init__()
 # function definition; we don't need to pass it
 # to our instance objects.
@@ -659,9 +687,9 @@ The same goes for functions: some are available everywhere, some are only availa
 • 클래스에서 중요한게 변수의 주기(scope)이다.      
 • 우리는 변수는 한번 생성되면 계속 접속 or 사용할수 있다고 생각한다.      
 • 클래스 변수에는 3 종류가 있다.    
-  1 . 전역변수(global variables) : 어디서든 접근 가능    
-  2 . 클래스 변수(member variables) : 클래스 멤버만 접근 가능    
-  3 . 인스탄스 변수(Instance variables) : 클래스의 객체만 접근 가능 
+1 . 전역변수(global variables) : 어디서든 접근 가능    
+2 . 클래스 변수(member variables) : 클래스 멤버만 접근 가능    
+3 . 인스탄스 변수(Instance variables) : 클래스의 객체만 접근 가능 
 {: .notice--info}
 
 
@@ -675,6 +703,8 @@ The same goes for functions: some are available everywhere, some are only availa
 * Note that each individual animal gets its own `name` and `age` (since they're all initialized individually), but they all have access to the member variable `is_alive`, since they're all members of the `Animal` class.     
 * Click Run to see the output!
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]    
 • Editor 안의 코드를 확인하라.        
@@ -705,13 +735,13 @@ The same goes for functions: some are available everywhere, some are only availa
 
 ```python
 class Animal(object):
-  """Makes cute animals."""
-  # class variables
-  is_alive = True 
-  def __init__(self, name, age):
-    # instance variables
-    self.name = name
-    self.age = age
+"""Makes cute animals."""
+# class variables
+is_alive = True 
+def __init__(self, name, age):
+  # instance variables
+  self.name = name
+  self.age = age
 
 zebra = Animal("Jeffrey", 2)
 giraffe = Animal("Bruce", 1)
@@ -722,6 +752,8 @@ print giraffe.name, giraffe.age, giraffe.is_alive
 print panda.name, panda.age, panda.is_alive
 
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 변수 is_alive 는 클래스 변수이다.    
@@ -748,7 +780,7 @@ Chad 7 True
 
 When a class has its own functions, those functions are called **methods**. You've already seen one such method: `__init__()`. But you can also define your own methods!
 
-
+<br>
 
 **설명:** [ Learn ]    
 • Ch8. A Methodical Approach 에서는 메서드를 학습한다.     
@@ -756,7 +788,7 @@ When a class has its own functions, those functions are called **methods**. You'
 • 함수 `__init__()` 도 클래스의 메서드 이다.  
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -767,6 +799,7 @@ When a class has its own functions, those functions are called **methods**. You'
 * Using two separate print statements, it should print out the `name` and `age` of the animal it's called on.     
 * Then, create an instance of Animal, `hippo` (with whatever name and age you like), and call its `description` method. 
 
+<br>
 
 **설명:** [ Instruction ]    
 • Animal 클래스에 메서드 description() 를 추가하라.     
@@ -777,6 +810,7 @@ When a class has its own functions, those functions are called **methods**. You'
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -788,8 +822,8 @@ When a class has its own functions, those functions are called **methods**. You'
 
 ```python
 def description(self):
-  print self.name
-  print self.age
+print self.name
+print self.age
 ```      
 * After that, all you need to do is create a `hippo` and call its description method with `hippo.description()`!    
 
@@ -809,19 +843,22 @@ def description(self):
 
 ```python
 class Animal(object):
-  """Makes cute animals."""
-  is_alive = True
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-  # Add your method here!
-  def description(self):
-    print self.name
-    print self.age
-    
+"""Makes cute animals."""
+is_alive = True
+def __init__(self, name, age):
+  self.name = name
+  self.age = age
+# Add your method here!
+def description(self):
+  print self.name
+  print self.age
+  
 hippo = Animal("Anderson", 36)
 hippo.description()
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 클래스 Animal 내부에 메서드 description(self) 를 만들었다.    
@@ -885,13 +922,16 @@ Let's add another member variable to Animal.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * After line 3, add a second member variable called `health` that contains the string "good".
 
 * Then, create two new Animals: `sloth` and `ocelot`. (Give them whatever names and ages you like.)
 
 * Finally, on three separate lines, print out the `health` of your `hippo`, `sloth`, and `ocelot`.
 
- 
+
 **설명:** [ Instruction ]    
 • 라인 3 에서, 2 번째 클래스(member) 변수 health 를 추가한다.    
 • 클래스 변수 health = "good" 라고 할당한다.   
@@ -931,20 +971,22 @@ print hippo.health
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 class Animal(object):
-  """Makes cute animals."""
-  is_alive = True
-  health = "good"
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-  # Add your method here!
-  def description(self):
-    print self.name
-    print self.age
-    
+"""Makes cute animals."""
+is_alive = True
+health = "good"
+def __init__(self, name, age):
+  self.name = name
+  self.age = age
+# Add your method here!
+def description(self):
+  print self.name
+  print self.age
+  
 hippo = Animal('Anderson', 36)
 sloth = Animal('Dale', 15)
 ocelot = Animal('Fuzzy', 7)
@@ -982,14 +1024,14 @@ Classes like `Animal` and `Fruit` make it easy to understand the concepts of **c
 
 However, classes and objects are often used to model real-world objects. The code in the editor is a more realistic demonstration of the kind of classes and objects you might find in commercial software. Here we have a basic `ShoppingCart` class for creating shopping cart objects for website customers; though basic, it's similar to what you'd see in a real program.
 
-
+<br>
 
 **설명:** [ Learn ]     
 • Ch10. It's Not All Animals and Fruits 에서는 클래스를 실습한다.    
 • 실전에서 클래스, 객체, 인스탄스가 어떻게 사용되는지를 쇼핑몰 카트를 만들어 보면서 이해하자.
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -999,6 +1041,7 @@ However, classes and objects are often used to model real-world objects. The cod
 * Create an **instance** of `ShoppingCart` called `my_cart`.     
 * Initialize it with any values you like, then use the `add_item` method to add an item to your cart. 
 
+<br>
 
 **설명:** [ Instruction ]    
 • 클래스 ShoppingCart의 instance 인 객체 my_cart 를 작성하라.    
@@ -1007,6 +1050,7 @@ However, classes and objects are often used to model real-world objects. The cod
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1040,28 +1084,33 @@ my_cart.add_item("Ukelele", 10)
 
 ```python
 class ShoppingCart(object):
-  """Creates shopping cart objects
-  for users of our fine website."""
-  
-  def __init__(self, customer_name):
-    self.customer_name = customer_name
-    self.items_in_cart = {}
+"""Creates shopping cart objects
+for users of our fine website."""
 
-  def add_item(self, product, price):
-    """Add product to the cart."""
-    if not product in self.items_in_cart:
-      self.items_in_cart[product] = price
-      print product + " added."
-    else:
-      print product + " is already in the cart."
+def __init__(self, customer_name):
+  self.customer_name = customer_name
+  self.items_in_cart = {}
 
-  def remove_item(self, product):
-    """Remove product from the cart."""
-    if product in self.items_in_cart:
-      del self.items_in_cart[product]
-      print product + " removed."
-    else:
-      print product + " is not in the cart."
+def add_item(self, product, price):
+  """Add product to the cart."""
+  if not product in self.items_in_cart:
+    self.items_in_cart[product] = price
+    print product + " added."
+  else:
+    print product + " is already in the cart."
+
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python    
+def remove_item(self, product):
+  """Remove product from the cart."""
+  if product in self.items_in_cart:
+    del self.items_in_cart[product]
+    print product + " removed."
+  else:
+    print product + " is not in the cart."
 
 my_cart = ShoppingCart("Eric")
 my_cart.add_item("Ukelele", 10)
@@ -1106,7 +1155,7 @@ Inheritance is the process by which one class takes on the attributes and method
 • 위 에서, Q2는 동의 되지 않는다. Toyota 는 Tractor 의 개념적 하위가 될 수 없다.
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -1118,6 +1167,8 @@ Inheritance is the process by which one class takes on the attributes and method
 * Note that we don't define the `display_cart` method in the body of `ReturningCustomer`, but it will still have access to that method via **inheritance**.     
 * Click Run to see for yourself! 
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Instruction ]    
 • Editor 화면에 있는 Code 를 살펴보자.    
@@ -1149,22 +1200,25 @@ Inheritance is the process by which one class takes on the attributes and method
 
 ```python
 class Customer(object):
-    """Produces objects that represent customers."""
-    def __init__(self, customer_id):
-        self.customer_id = customer_id
+  """Produces objects that represent customers."""
+  def __init__(self, customer_id):
+      self.customer_id = customer_id
 
-    def display_cart(self):
-        print "I'm a string that stands in for the contents of your shopping cart!"
+  def display_cart(self):
+      print "I'm a string that stands in for the contents of your shopping cart!"
 
 class ReturningCustomer(Customer):
-    """For customers of the repeat variety."""
-    def display_order_history(self):
-        print "I'm a string that stands in for your order history!"
+  """For customers of the repeat variety."""
+  def display_order_history(self):
+      print "I'm a string that stands in for your order history!"
 
 monty_python = ReturningCustomer("ID: 12345")
 monty_python.display_cart()
 monty_python.display_order_history()
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 클래스 ReturningCustomer(Customer) 는 클래스 Customer 를 상속한다.    
@@ -1192,8 +1246,9 @@ I'm a string that stands in for your order history!
 In Python, inheritance works like this:    
 ```python
 class DerivedClass(BaseClass):
-```    
-  # code goes here
+    
+# code goes here
+```
 where `DerivedClass` is the new class you're making and `BaseClass` is the class from which that new class inherits.
 
 
@@ -1223,6 +1278,9 @@ class Triangle(Shape):
 
 * Inside the `Triangle` class, write an `__init__()` function that takes four arguments: `self`, `side1`, `side2`, and `side3`.    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Inside the `__init__()` function, set `self.side1 = side1`, `self.side2 = side2`, and `self.side3 = side3`.    
 
 * Click "Stuck? Get a hint!" for an example. 
@@ -1249,10 +1307,10 @@ class Triangle(Shape):
 
 ```python
 class Triangle(Shape):
-  def __init__(self, side1, side2, side3):
-   self.side1 = side1
-   self.side2 = side2
-   self.side3 = side3
+def __init__(self, side1, side2, side3):
+  self.side1 = side1
+  self.side2 = side2
+  self.side3 = side3
 ```    
 
 
@@ -1266,19 +1324,21 @@ class Triangle(Shape):
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python
 class Shape(object):
-  """Makes shapes!"""
-  def __init__(self, number_of_sides):
-    self.number_of_sides = number_of_sides
+"""Makes shapes!"""
+def __init__(self, number_of_sides):
+  self.number_of_sides = number_of_sides
 
 # Add your Triangle class below!
 class Triangle(Shape):
-  def __init__(self, side1, side2, side3):
-    self.side1 = side1
-    self.side2 = side2
-    self.side3 = side3
+def __init__(self, side1, side2, side3):
+  self.side1 = side1
+  self.side2 = side2
+  self.side3 = side3
 ```
 
 **설명:** [ Solution ]     
@@ -1306,14 +1366,14 @@ class Triangle(Shape):
 Sometimes you'll want one class that inherits from another to not only take on the methods and attributes of its parent, but to **override** one or more of them.    
 ```python
 class Employee(object):
-  def __init__(self, name):
-    self.name = name
-  def greet(self, other):
-    print "Hello, %s" % other.name
+def __init__(self, name):
+  self.name = name
+def greet(self, other):
+  print "Hello, %s" % other.name
 
 class CEO(Employee):
-  def greet(self, other):
-    print "Get back to work, %s!" % other.name
+def greet(self, other):
+  print "Get back to work, %s!" % other.name
 
 ceo = CEO("Emily")
 emp = Employee("Steve")
@@ -1338,6 +1398,7 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1352,7 +1413,7 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 
 * It should return the part-time employee's number of `hours` worked multiplied by 12.00 (that is, they get $12.00 per hour instead of $20.00).
 
- 
+
 
 
 **설명:** [ Instruction ]    
@@ -1377,6 +1438,8 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 * You'll want to add a `calculate_wage()` method to your `PartTimeEmployee` class, and it should also take `self` and `hours` as arguments.     
 * Instead of returning `hours * 20.00`, though, it should return `hours * 12.00`.
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]     
 • 클래스 PartTimeEmployee 는 메서드 `__init__()` 는 정의하지 않는다.    
@@ -1384,24 +1447,27 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 • 클래스 PartTimeEmployee 의 메서드 calculate_wage()는 (hours x 12.00) 을 반환한다. 
 {: .notice--info}
 
+<br>
+<hr/>
+
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 
 ```python
 class Employee(object):
-  """Models real-life employees!"""
-  def __init__(self, employee_name):
-    self.employee_name = employee_name
+"""Models real-life employees!"""
+def __init__(self, employee_name):
+  self.employee_name = employee_name
 
-  def calculate_wage(self, hours):
-    self.hours = hours
-    return hours * 20.00
+def calculate_wage(self, hours):
+  self.hours = hours
+  return hours * 20.00
 
 # Add your code below!
 class PartTimeEmployee(Employee):
-  def calculate_wage(self, hours):
-    self.hours = hours
-    return hours * 12.00
+def calculate_wage(self, hours):
+  self.hours = hours
+  return hours * 12.00
 ```
 
 **설명:** [ Solution ]     
@@ -1429,8 +1495,8 @@ On the flip side, sometimes you'll be working with a derived class (or subclass)
 The syntax looks like this:    
 ```python
 class Derived(Base):
-  def m(self):
-    return super(Derived, self).m()
+def m(self):
+  return super(Derived, self).m()
 ```        
 Where `m()` is a method from the base class.
 
@@ -1453,7 +1519,11 @@ Where `m()` is a method from the base class.
 * First, inside your `PartTimeEmployee` class:
 
 * Add a new method called `full_time_wage` with the arguments `self` and `hours`.
-* That method should return the result of a **super** call to the `calculate_wage` method of PartTimeEmployee's parent class.     
+* That method should return the result of a **super** call to the `calculate_wage` method of PartTimeEmployee's parent class.   
+
+<p style="page-break-before: always;"></p>
+<br>
+
 * Use the example above for help.    
 
 * Then, after your class:
@@ -1462,7 +1532,7 @@ Where `m()` is a method from the base class.
 * Don't forget to give it a **name**.    
 * Finally, print out the result of calling his `full_time_wage` method.    
 * You should see his wage printed out at **$20.00 per hour**! (That is, for 10 hours, the result should be 200.00.)
- 
+
 
 
 **설명:** [ Instruction ]    
@@ -1488,7 +1558,7 @@ Where `m()` is a method from the base class.
 
 ```python
 def full_time_wage(self, hours):
-  return super(PartTimeEmployee, self).method(args)
+return super(PartTimeEmployee, self).method(args)
 ```       
 
 * Where method is the method you want (`calculate_wage`) and args are the arguments that method takes.
@@ -1500,6 +1570,7 @@ def full_time_wage(self, hours):
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1509,22 +1580,22 @@ def full_time_wage(self, hours):
 
 ```python
 class Employee(object):
-  """Models real-life employees!"""
-  def __init__(self, employee_name):
-    self.employee_name = employee_name
+"""Models real-life employees!"""
+def __init__(self, employee_name):
+  self.employee_name = employee_name
 
-  def calculate_wage(self, hours):
-    self.hours = hours
-    return hours * 20.00
+def calculate_wage(self, hours):
+  self.hours = hours
+  return hours * 20.00
 
 # Add your code below!
 class PartTimeEmployee(Employee):
-  def calculate_wage(self, hours):
-    self.hours = hours
-    return hours * 12.00
-  
-  def full_time_wage(self, hours):
-    return super(PartTimeEmployee, self).calculate_wage(hours)
+def calculate_wage(self, hours):
+  self.hours = hours
+  return hours * 12.00
+
+def full_time_wage(self, hours):
+  return super(PartTimeEmployee, self).calculate_wage(hours)
 
 milton = PartTimeEmployee('Milton')
 print milton.full_time_wage(10)
@@ -1593,13 +1664,16 @@ First things first: let's create a class to work with.
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+<p style="page-break-before: always;"></p>
+<br>
+
 * Make sure your Triangle inherits from object.     
 * Remember, class syntax looks like this:    
 
 ```python
 class ClassName(object):
-  def __init__(args):
-    # Set self.args = args
+def __init__(args):
+  # Set self.args = args
 ```
 
 **설명:** [ Hint ]     
@@ -1616,10 +1690,10 @@ class ClassName(object):
 
 ```python
 class Triangle(object):
-  def __init__(self, angle1, angle2, angle3):
-    self.angle1 = angle1
-    self.angle2 = angle2
-    self.angle3 = angle3
+def __init__(self, angle1, angle2, angle3):
+  self.angle1 = angle1
+  self.angle2 = angle2
+  self.angle3 = angle3
 ```
 
 **설명:** [ Solution ]     
@@ -1649,13 +1723,13 @@ class Triangle(object):
 Great! Now let's **add** a **member variable** and a **method** to our class.
 
 
-
+<br>
 **설명:** [ Learn ]    
 • Ch16. Class It Up 에서는 클래스 변수와 메서드를 학습한다.     
 • member variable 와 method 를 추가해 보자.
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -1668,7 +1742,7 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 
 * Create a method named `check_angles`.    
 * The sum of a triangle's three angles should **return True** if the sum of `self.angle1`, `self.angle2`, and `self.angle3` is equal 180, and False otherwise.
- 
+
 
 
 **설명:** [ Instruction ]    
@@ -1681,19 +1755,21 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
+
 * The check_angles method should look something like this:      
 
 ```python
 def check_angles(self):
-  if (self.angle1 + self.angle2 + self.angle3 == 180):
-    return True
-  else:
-    return False
+if (self.angle1 + self.angle2 + self.angle3 == 180):
+  return True
+else:
+  return False
 ```
 
 **설명:** [ Hint ]     
@@ -1711,27 +1787,28 @@ def check_angles(self):
 
 ```python
 class Triangle(object):
-  number_of_sides = 3
-  def __init__(self, angle1, angle2, angle3):
-    self.angle1 = angle1
-    self.angle2 = angle2
-    self.angle3 = angle3
-    
-  def check_angles(self):
-    if (self.angle1 + self.angle2 + self.angle3) == 180:
-      return True
-    else:
-      return False
+number_of_sides = 3
+def __init__(self, angle1, angle2, angle3):
+  self.angle1 = angle1
+  self.angle2 = angle2
+  self.angle3 = angle3
+  
+def check_angles(self):
+  if (self.angle1 + self.angle2 + self.angle3) == 180:
+    return True
+  else:
+    return False
 ```
 
 **설명:** [ Solution ]     
 • 클래스(member) 변수 number_of_sides = 3 를 추가한다.    
-• 메서드 check_angles(): 추가한다.    
-• e.g. def check_angles(self):    
+• 메서드 check_angles(): 추가한다. ( e.g. def check_angles(self): )   
 • 클래스에서 입력받은 parameter 값을 합하여 180 이면 True 를 반환한다.    
 • 그 외는 False 를 반환한다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과**     
 ``` 
@@ -1750,6 +1827,7 @@ class Triangle(object):
 Let's go ahead and create an **instance** of our `Triangle` class.
 
 
+<br> 
 
 **설명:** [ Learn ]     
 • Ch17. Instantiate an Object 에서는 Instance 학습한다.    
@@ -1770,7 +1848,7 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 
 * Print out my_triangle.check_angles()
 
- 
+
 
 
 **설명:** [ Instruction ]    
@@ -1784,6 +1862,7 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1793,6 +1872,7 @@ Let's go ahead and create an **instance** of our `Triangle` class.
 
 ```python
 instance = Class(args)
+
 ```
 * Where args are the arguments `__init__()` takes, not including self.
 
@@ -1811,23 +1891,26 @@ instance = Class(args)
 
 ```python
 class Triangle(object):
-  number_of_sides = 3
-  def __init__(self, angle1, angle2, angle3):
-    self.angle1 = angle1
-    self.angle2 = angle2
-    self.angle3 = angle3
-    
-  def check_angles(self):
-    if (self.angle1 + self.angle2 + self.angle3) == 180:
-      return True
-    else:
-      return False
-    
+number_of_sides = 3
+def __init__(self, angle1, angle2, angle3):
+  self.angle1 = angle1
+  self.angle2 = angle2
+  self.angle3 = angle3
+  
+def check_angles(self):
+  if (self.angle1 + self.angle2 + self.angle3) == 180:
+    return True
+  else:
+    return False
+  
 my_triangle = Triangle(30, 60, 90)
 
 print my_triangle.number_of_sides
 print my_triangle.check_angles()
+
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Solution ]     
 • 객체(object) my_triangle 를 작성한다.    
@@ -1837,7 +1920,6 @@ print my_triangle.check_angles()
 • 객체(object) my_triangle 의 메서드 check_angles() 를 호출한다.    
 • 그리고 그 결과값을 출력한다.
 {: .notice--info}
-
 
 **결과**     
 ``` 
@@ -1877,7 +1959,7 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 
 * Create an `__init__()` function with only the parameter `self`, and set `self.angle1`, `self.angle2`, and `self.angle3` equal to `self.angle` (since an equilateral triangle's angles will always be 60˚).
 
- 
+
 
 
 **설명:** [ Instruction ]    
@@ -1891,6 +1973,7 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -1900,7 +1983,7 @@ Finally, let's create an `Equilateral` class that **inherits** from our `Triangl
 
 ```python
 class DerivedClass(BaseClass):
-  # Your code here
+# Your code here
 ```      
 
 * where `DerivedClass` is the new class you're making, and `BaseClass` is the class it **inherits** from.
@@ -1921,24 +2004,28 @@ class DerivedClass(BaseClass):
 
 ```python
 class Triangle(object):
-  number_of_sides = 3
-  def __init__(self, angle1, angle2, angle3):
-    self.angle1 = angle1
-    self.angle2 = angle2
-    self.angle3 = angle3
-    
-  def check_angles(self):
-    if (self.angle1 + self.angle2 + self.angle3) == 180:
-      return True
-    else:
-      return False
-    
+number_of_sides = 3
+def __init__(self, angle1, angle2, angle3):
+  self.angle1 = angle1
+  self.angle2 = angle2
+  self.angle3 = angle3
+  
+def check_angles(self):
+  if (self.angle1 + self.angle2 + self.angle3) == 180:
+    return True
+  else:
+    return False
+```
+<p style="page-break-before: always;"></p>
+<br>
+
+```python
 class Equilateral(Triangle):
-  angle = 60
-  def __init__(self):
-    self.angle1 = self.angle
-    self.angle2 = self.angle
-    self.angle3 = self.angle
+angle = 60
+def __init__(self):
+  self.angle1 = self.angle
+  self.angle2 = self.angle
+  self.angle3 = self.angle
 ```    
 
 **설명:** [ Solution ]     
@@ -1955,7 +2042,3 @@ class Equilateral(Triangle):
 ``` 
 #skip
 ```   
-
-<br>
-<br>    
-<br>    

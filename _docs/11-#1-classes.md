@@ -42,6 +42,7 @@ class ClassName(object):
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -86,6 +87,8 @@ class Car(object):
 • 클래스 Car 는 object 를 가진다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **결과**     
 ``` 
@@ -138,6 +141,8 @@ newObject = ClassName()
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Reference the description above, how to make new instance
 
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]     
 • 상단의 instace를 만드는 방법을 참조하시오.
@@ -210,6 +215,7 @@ class ClassName(object):
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -292,6 +298,8 @@ Each class object we create has its own set of **member variables**. Since we've
 ```python
 my_car.condition.
 ```
+<p style="page-break-before: always;"></p>
+<br>
 
 **설명:** [ Hint ]     
 • 클래스(member) 변수를 불러올때는 Dot( . ) 을 사용한다.     
@@ -364,6 +372,9 @@ self.new_variable = new_variable
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
+
 * Define the `__init__()` function of the `Car` class to take four inputs: `self`, `model`, `color`, and `mpg`. Assign the last three inputs to member variables of the same name by using the `self` keyword.
 
 * Then, modify the object `my_car` to provide the following inputs at initialization:
@@ -397,7 +408,8 @@ mpg = 88
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 * Creating an instance of a class with many initialization variables looks the same as calling a function with many inputs; put all the values in parentheses, separated by commas.
 
-* In the body of `__init__()`, you'd set the model like this:
+* In the body of `__init__()`, you'd set the model like this:    
+
 ```python
 def __init__(self, model, color, mpg):
   self.model = model
@@ -410,6 +422,7 @@ def __init__(self, model, color, mpg):
 • e.g. self.model = model
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -480,6 +493,8 @@ new_object.new_variable
 * Then print out the `color` of `my_car`.
 * Then print out the `mpg` of `my_car`.
  
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **설명:** [ Instruction ]    
@@ -528,7 +543,11 @@ my_car = Car("DeLorean", "silver", 88)
 # color = "silver"
 # mpg = 88
 # my_car = Car(model, color, mpg)
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 print my_car.model
 print my_car.color
 print my_car.mpg
@@ -587,6 +606,10 @@ Just like when we defined `__init__()`, you need to provide `self` as the first 
 
 * Inside the `Car` class, add a method named `display_car` to `Car` that will reference the Car's member variables to return the string,     
 * "This is a [color] [model] with [mpg] MPG."     
+
+<p style="page-break-before: always;"></p>
+<br>
+
 * You can use the `str()` function to turn your `mpg` into a string when creating the display string.   
 * Replace the individual print statements with a single print command that displays the result of calling `my_car.display_car()`
 
@@ -600,7 +623,7 @@ Just like when we defined `__init__()`, you need to provide `self` as the first 
 • my_car.display_car()를 호출하면, 각각의 color, model, mpg를 출력한다. 
 {: .notice--info}
 
-
+<br>
 <br>
 <hr/>
 
@@ -611,6 +634,7 @@ Just like when we defined `__init__()`, you need to provide `self` as the first 
 ```python
 def display_car(self):
   print self.color
+
 ```  
 
 **설명:** [ Hint ]     
@@ -625,6 +649,8 @@ def display_car(self):
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
+<p style="page-break-before: always;"></p>
+<br>
 
 ```python    
 class Car(object):
@@ -698,6 +724,7 @@ We can modify variables that belong to a class the same way that we initialize t
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -744,6 +771,8 @@ print my_car.condition
 • member 변수 condition 값이 "new" 에서 "used"로 변경 되었다.
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>
+<br>
 
 
 **결과**     
@@ -790,6 +819,10 @@ Normally we use object as the parent class because it is the most basic type of 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * Create a class `ElectricCar` that inherits from `Car`.     
+
+<p style="page-break-before: always;"></p>
+<br>
+
 * Give your new class an `__init__()` method of that includes a `battery_type` member variable in addition to the `model`, `color` and `mpg`.
 
 * Then, create an electric car named `my_car` with a "molten salt" battery_type.     
@@ -824,6 +857,9 @@ Normally we use object as the parent class because it is the most basic type of 
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+<p style="page-break-before: always;"></p>
+<br>
 
 
 ```python
@@ -904,6 +940,7 @@ Since our `ElectricCar` is a more specialized type of `Car`, we can give the `El
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>
 <br>
 <hr/>
 
@@ -946,7 +983,11 @@ class ElectricCar(Car):
     
   def drive_car(self):
     self.condition = "like new"
+```
+<p style="page-break-before: always;"></p>
+<br>
 
+```python
 my_car = ElectricCar("DeLorean", "silver", 88, "molten salt")
 
 print my_car.condition
@@ -1004,15 +1045,20 @@ One useful class method to override is the built-in `__repr__()` method, which i
 * Inside the `Point3D` class, define an `__init__()` function that accepts `self`, `x`, `y`, and `z`, and assigns these numbers to the member variables `self.x`, `self.y`, `self.z`
 
 * Define a `__repr__()` method that returns "(%d, %d, %d)" % (self.x, self.y, self.z).     
-* This tells Python to represent this `object` in the following format: 
+
+
+* This tells Python to represent this `object` in the following format:    
+     
 ```python
 (x, y, z).
 ```
+
+<p style="page-break-before: always;"></p>
+<br>
+
 * Outside the class definition, create a variable named `my_point` containing a new instance of `Point3D` with `x=1`, `y=2`, and `z=3`.
 
 * Finally, print `my_point`.
-
- 
 
 
 **설명:** [ Instruction ]    
@@ -1050,7 +1096,12 @@ my_point = point3D(1,2,3)
 • `__repr__` 이외의 다른 특별한 메서드에 대해서 궁금하면 Python 매뉴얼을 참조하라.    
 • `__repr__` 과 `__str__` 사이의 약간의 차이점도 알아보자.      
 • `__repr__` 는 정확하게 내가 표현할때 사용한다.    
-• `__str__` 은 Python이 제공하는 기능을 참조하여 정해진 기본값을 보여줄때, 사용한다.     
+• `__str__` 은 Python이 제공하는 기능을 참조하여 정해진 기본값을 보여줄때, 사용한다.
+{: .notice--info}
+
+<p style="page-break-before: always;"></p>
+<br>
+
 • 소숫점 20자리의 결과 값을 보여줄때, `__repr__`는 정확히 20자리를 보여줄수 있다.    
 • 하지만, `__str__` 은 Python 해석기가 기본으로 보여줄수 있는 적당한 값 (15자리 or 그보다도 적거나 많을수도 있음)을 보여준다.
 {: .notice--info}
@@ -1086,7 +1137,3 @@ print my_point
 ``` 
 (1,2,3)
 ```   
-
-<br>
-<br>    
-<br>    
