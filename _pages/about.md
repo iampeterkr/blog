@@ -4,6 +4,7 @@ permalink: /about/
 title: "About"
 author_profile: true
 ---
+<br>
 
 *I like to ride road cycle, ski, and golf.*   
 *One time, I used to consider changing my jobs, in order to go skiing at the ski resorts during winter seasons.*    
