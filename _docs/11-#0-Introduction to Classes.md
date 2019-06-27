@@ -101,20 +101,20 @@ But what makes "Eric" a string and my_dict a dictionary? The fact that they're i
 ```python
 class Fruit(object):
 """A class that makes various tasty fruits."""
-def __init__(self, name, color, flavor, poisonous):
-  self.name = name
-  self.color = color
-  self.flavor = flavor
-  self.poisonous = poisonous
+  def __init__(self, name, color, flavor, poisonous):
+    self.name = name
+    self.color = color
+    self.flavor = flavor
+    self.poisonous = poisonous
 
-def description(self):
-  print "I'm a %s %s and I taste %s." % (self.color, self.name, self.flavor)
+  def description(self):
+    print "I'm a %s %s and I taste %s." % (self.color, self.name, self.flavor)
 
-def is_edible(self):
-  if not self.poisonous:
-    print "Yep! I'm edible."
-  else:
-    print "Don't eat me! I am super poisonous."
+  def is_edible(self):
+    if not self.poisonous:
+      print "Yep! I'm edible."
+    else:
+      print "Don't eat me! I am super poisonous."
 
 lemon = Fruit("lemon", "yellow", "sour", False)
 
@@ -215,7 +215,7 @@ By convention, user-defined Python class names start with a capital letter.
 
 ```python
 class Animal(object):
-pass
+    pass
 
 ```
 
@@ -293,7 +293,7 @@ You can think of `__init__()` as the function that "boots up" each object the cl
 
 ```python
 def __init__(self):
-pass
+  pass
 ```
 
 **설명:** [ Hint ]     
@@ -309,8 +309,8 @@ pass
 
 ```python
 class Animal(object):
-def __init__(self):
-  pass
+    def __init__(self):
+      pass
 ```
 
 **설명:** [ Solution ]     
@@ -383,8 +383,8 @@ The part that is magic is the fact that `self` is the first parameter passed to 
 
 ```python    
 class Animal(object):
-def __init__(self, name):
-  # Set the name parameter here!
+  def __init__(self, name):
+    # Set the name parameter here!
 ```
 
 **설명:** [ Hint ]     
@@ -400,8 +400,8 @@ def __init__(self, name):
 
 ```python
 class Animal(object):
-def __init__(self, name):
-  self.name = name
+  def __init__(self, name):
+    self.name = name
 ```
 
 **설명:** [ Solution ]     
@@ -433,8 +433,8 @@ We can access attributes of our objects using dot notation. Here's how it works:
 ```python
 
 class Square(object):
-def __init__(self):
-  self.sides = 4
+  def __init__(self):
+    self.sides = 4
 
 my_shape = Square()
 print my_shape.sides 
@@ -517,8 +517,8 @@ print zebra.name
 
 ```python
 class Animal(object):
-def __init__(self, name):
-  self.name = name
+  def __init__(self, name):
+    self.name = name
   
 zebra = Animal("Jeffrey")
 
@@ -602,9 +602,9 @@ The first argument `__init__()` gets is used to refer to the instance object, an
 
 ```python
 def __init__(self, name, age, is_hungry)
-self.name = name
-self.age = age
-self.is_hungry = is_hungry
+  self.name = name
+  self.age = age
+  self.is_hungry = is_hungry
 ```
 
 
@@ -624,12 +624,12 @@ self.is_hungry = is_hungry
 ```python
 # Class definition
 class Animal(object):
-"""Makes cute animals."""
-# For initializing our instance objects
-def __init__(self, name, age, is_hungry):
-  self.name = name
-  self.age = age
-  self.is_hungry = is_hungry
+  """Makes cute animals."""
+  # For initializing our instance objects
+  def __init__(self, name, age, is_hungry):
+    self.name = name
+    self.age = age
+    self.is_hungry = is_hungry
 ```
 <p style="page-break-before: always;"></p>
 <br>
@@ -735,13 +735,13 @@ The same goes for functions: some are available everywhere, some are only availa
 
 ```python
 class Animal(object):
-"""Makes cute animals."""
-# class variables
-is_alive = True 
-def __init__(self, name, age):
-  # instance variables
-  self.name = name
-  self.age = age
+    """Makes cute animals."""
+    # class variables
+    is_alive = True 
+    def __init__(self, name, age):
+      # instance variables
+      self.name = name
+      self.age = age
 
 zebra = Animal("Jeffrey", 2)
 giraffe = Animal("Bruce", 1)
@@ -822,8 +822,8 @@ When a class has its own functions, those functions are called **methods**. You'
 
 ```python
 def description(self):
-print self.name
-print self.age
+    print self.name
+    print self.age
 ```      
 * After that, all you need to do is create a `hippo` and call its description method with `hippo.description()`!    
 
@@ -843,16 +843,16 @@ print self.age
 
 ```python
 class Animal(object):
-"""Makes cute animals."""
-is_alive = True
-def __init__(self, name, age):
-  self.name = name
-  self.age = age
-# Add your method here!
-def description(self):
-  print self.name
-  print self.age
-  
+    """Makes cute animals."""
+    is_alive = True
+    def __init__(self, name, age):
+      self.name = name
+      self.age = age
+    # Add your method here!
+    def description(self):
+      print self.name
+      print self.age
+      
 hippo = Animal("Anderson", 36)
 hippo.description()
 ```
@@ -976,16 +976,16 @@ print hippo.health
 
 ```python
 class Animal(object):
-"""Makes cute animals."""
-is_alive = True
-health = "good"
-def __init__(self, name, age):
-  self.name = name
-  self.age = age
-# Add your method here!
-def description(self):
-  print self.name
-  print self.age
+    """Makes cute animals."""
+    is_alive = True
+    health = "good"
+    def __init__(self, name, age):
+      self.name = name
+      self.age = age
+    # Add your method here!
+    def description(self):
+      print self.name
+      print self.age
   
 hippo = Animal('Anderson', 36)
 sloth = Animal('Dale', 15)
@@ -1084,20 +1084,20 @@ my_cart.add_item("Ukelele", 10)
 
 ```python
 class ShoppingCart(object):
-"""Creates shopping cart objects
-for users of our fine website."""
+    """Creates shopping cart objects
+    for users of our fine website."""
 
-def __init__(self, customer_name):
-  self.customer_name = customer_name
-  self.items_in_cart = {}
+    def __init__(self, customer_name):
+      self.customer_name = customer_name
+      self.items_in_cart = {}
 
-def add_item(self, product, price):
-  """Add product to the cart."""
-  if not product in self.items_in_cart:
-    self.items_in_cart[product] = price
-    print product + " added."
-  else:
-    print product + " is already in the cart."
+    def add_item(self, product, price):
+      """Add product to the cart."""
+      if not product in self.items_in_cart:
+        self.items_in_cart[product] = price
+        print product + " added."
+      else:
+        print product + " is already in the cart."
 
 ```
 <p style="page-break-before: always;"></p>
@@ -1307,10 +1307,10 @@ class Triangle(Shape):
 
 ```python
 class Triangle(Shape):
-def __init__(self, side1, side2, side3):
-  self.side1 = side1
-  self.side2 = side2
-  self.side3 = side3
+    def __init__(self, side1, side2, side3):
+      self.side1 = side1
+      self.side2 = side2
+      self.side3 = side3
 ```    
 
 
@@ -1329,16 +1329,16 @@ def __init__(self, side1, side2, side3):
 
 ```python
 class Shape(object):
-"""Makes shapes!"""
-def __init__(self, number_of_sides):
-  self.number_of_sides = number_of_sides
+    """Makes shapes!"""
+    def __init__(self, number_of_sides):
+      self.number_of_sides = number_of_sides
 
 # Add your Triangle class below!
 class Triangle(Shape):
-def __init__(self, side1, side2, side3):
-  self.side1 = side1
-  self.side2 = side2
-  self.side3 = side3
+    def __init__(self, side1, side2, side3):
+      self.side1 = side1
+      self.side2 = side2
+      self.side3 = side3
 ```
 
 **설명:** [ Solution ]     
@@ -1366,14 +1366,14 @@ def __init__(self, side1, side2, side3):
 Sometimes you'll want one class that inherits from another to not only take on the methods and attributes of its parent, but to **override** one or more of them.    
 ```python
 class Employee(object):
-def __init__(self, name):
-  self.name = name
-def greet(self, other):
-  print "Hello, %s" % other.name
+    def __init__(self, name):
+      self.name = name
+    def greet(self, other):
+      print "Hello, %s" % other.name
 
 class CEO(Employee):
-def greet(self, other):
-  print "Get back to work, %s!" % other.name
+    def greet(self, other):
+      print "Get back to work, %s!" % other.name
 
 ceo = CEO("Emily")
 emp = Employee("Steve")
@@ -1455,19 +1455,19 @@ Rather than have a separate greet_underling method for our CEO, we override (or 
 
 ```python
 class Employee(object):
-"""Models real-life employees!"""
-def __init__(self, employee_name):
-  self.employee_name = employee_name
+    """Models real-life employees!"""
+    def __init__(self, employee_name):
+      self.employee_name = employee_name
 
-def calculate_wage(self, hours):
-  self.hours = hours
-  return hours * 20.00
+    def calculate_wage(self, hours):
+      self.hours = hours
+      return hours * 20.00
 
 # Add your code below!
 class PartTimeEmployee(Employee):
-def calculate_wage(self, hours):
-  self.hours = hours
-  return hours * 12.00
+    def calculate_wage(self, hours):
+      self.hours = hours
+      return hours * 12.00
 ```
 
 **설명:** [ Solution ]     
@@ -1495,8 +1495,8 @@ On the flip side, sometimes you'll be working with a derived class (or subclass)
 The syntax looks like this:    
 ```python
 class Derived(Base):
-def m(self):
-  return super(Derived, self).m()
+    def m(self):
+      return super(Derived, self).m()
 ```        
 Where `m()` is a method from the base class.
 
@@ -1558,7 +1558,7 @@ Where `m()` is a method from the base class.
 
 ```python
 def full_time_wage(self, hours):
-return super(PartTimeEmployee, self).method(args)
+    return super(PartTimeEmployee, self).method(args)
 ```       
 
 * Where method is the method you want (`calculate_wage`) and args are the arguments that method takes.
@@ -1580,22 +1580,22 @@ return super(PartTimeEmployee, self).method(args)
 
 ```python
 class Employee(object):
-"""Models real-life employees!"""
-def __init__(self, employee_name):
-  self.employee_name = employee_name
+    """Models real-life employees!"""
+    def __init__(self, employee_name):
+      self.employee_name = employee_name
 
-def calculate_wage(self, hours):
-  self.hours = hours
-  return hours * 20.00
+    def calculate_wage(self, hours):
+      self.hours = hours
+      return hours * 20.00
 
 # Add your code below!
 class PartTimeEmployee(Employee):
-def calculate_wage(self, hours):
-  self.hours = hours
-  return hours * 12.00
+    def calculate_wage(self, hours):
+      self.hours = hours
+      return hours * 12.00
 
-def full_time_wage(self, hours):
-  return super(PartTimeEmployee, self).calculate_wage(hours)
+    def full_time_wage(self, hours):
+      return super(PartTimeEmployee, self).calculate_wage(hours)
 
 milton = PartTimeEmployee('Milton')
 print milton.full_time_wage(10)
@@ -1672,8 +1672,8 @@ First things first: let's create a class to work with.
 
 ```python
 class ClassName(object):
-def __init__(args):
-  # Set self.args = args
+    def __init__(args):
+      # Set self.args = args
 ```
 
 **설명:** [ Hint ]     
@@ -1690,10 +1690,10 @@ def __init__(args):
 
 ```python
 class Triangle(object):
-def __init__(self, angle1, angle2, angle3):
-  self.angle1 = angle1
-  self.angle2 = angle2
-  self.angle3 = angle3
+    def __init__(self, angle1, angle2, angle3):
+      self.angle1 = angle1
+      self.angle2 = angle2
+      self.angle3 = angle3
 ```
 
 **설명:** [ Solution ]     
@@ -1766,10 +1766,10 @@ Great! Now let's **add** a **member variable** and a **method** to our class.
 
 ```python
 def check_angles(self):
-if (self.angle1 + self.angle2 + self.angle3 == 180):
-  return True
-else:
-  return False
+    if (self.angle1 + self.angle2 + self.angle3 == 180):
+      return True
+    else:
+      return False
 ```
 
 **설명:** [ Hint ]     
@@ -1787,17 +1787,17 @@ else:
 
 ```python
 class Triangle(object):
-number_of_sides = 3
-def __init__(self, angle1, angle2, angle3):
-  self.angle1 = angle1
-  self.angle2 = angle2
-  self.angle3 = angle3
-  
-def check_angles(self):
-  if (self.angle1 + self.angle2 + self.angle3) == 180:
-    return True
-  else:
-    return False
+    number_of_sides = 3
+    def __init__(self, angle1, angle2, angle3):
+      self.angle1 = angle1
+      self.angle2 = angle2
+      self.angle3 = angle3
+      
+    def check_angles(self):
+      if (self.angle1 + self.angle2 + self.angle3) == 180:
+        return True
+      else:
+        return False
 ```
 
 **설명:** [ Solution ]     
@@ -1891,17 +1891,17 @@ instance = Class(args)
 
 ```python
 class Triangle(object):
-number_of_sides = 3
-def __init__(self, angle1, angle2, angle3):
-  self.angle1 = angle1
-  self.angle2 = angle2
-  self.angle3 = angle3
-  
-def check_angles(self):
-  if (self.angle1 + self.angle2 + self.angle3) == 180:
-    return True
-  else:
-    return False
+    number_of_sides = 3
+    def __init__(self, angle1, angle2, angle3):
+      self.angle1 = angle1
+      self.angle2 = angle2
+      self.angle3 = angle3
+      
+    def check_angles(self):
+      if (self.angle1 + self.angle2 + self.angle3) == 180:
+        return True
+      else:
+        return False
   
 my_triangle = Triangle(30, 60, 90)
 
@@ -2004,28 +2004,28 @@ class DerivedClass(BaseClass):
 
 ```python
 class Triangle(object):
-number_of_sides = 3
-def __init__(self, angle1, angle2, angle3):
-  self.angle1 = angle1
-  self.angle2 = angle2
-  self.angle3 = angle3
-  
-def check_angles(self):
-  if (self.angle1 + self.angle2 + self.angle3) == 180:
-    return True
-  else:
-    return False
+    number_of_sides = 3
+    def __init__(self, angle1, angle2, angle3):
+      self.angle1 = angle1
+      self.angle2 = angle2
+      self.angle3 = angle3
+      
+    def check_angles(self):
+      if (self.angle1 + self.angle2 + self.angle3) == 180:
+        return True
+      else:
+        return False
 ```
 <p style="page-break-before: always;"></p>
 <br>
 
 ```python
 class Equilateral(Triangle):
-angle = 60
-def __init__(self):
-  self.angle1 = self.angle
-  self.angle2 = self.angle
-  self.angle3 = self.angle
+    angle = 60
+    def __init__(self):
+      self.angle1 = self.angle
+      self.angle2 = self.angle
+      self.angle3 = self.angle
 ```    
 
 **설명:** [ Solution ]     
@@ -2042,3 +2042,4 @@ def __init__(self):
 ``` 
 #skip
 ```   
+

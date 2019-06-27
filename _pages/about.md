@@ -16,7 +16,7 @@ author_profile: true
 *I have considered how to learn python easily anyone and figured out a good site finally. so, make a guide site and write a books, "The python grammar guide course of Codecademy", for the beginner programmer and lecture the python grammar Using "Codecademy" sometimes.*    
 *I hope to help everybody.*
 
-
+<br>
 
 ***From Peter***
 
