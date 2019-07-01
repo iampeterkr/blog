@@ -16,6 +16,7 @@ I hope you like it!
 
 * Codecademy 활용한 python2, python3 교육 관련 자료가 있습니다.
 <br>
-
+* POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를 통하여 넘어 가실수 있습니다.
+* 총 POST 의 수는 약 290개 입니다. 
 <br>
 <a href="/codecademy/syllabus/">Python</a> 을 공부하시는 분에게 도움이 되시기를 기도합니다. 
