@@ -11,7 +11,6 @@ redirect_from:
 ---
     
     
-    
 <hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-00.png)    
