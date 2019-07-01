@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Welcome to Peter's Blog !"
+title:  "[Introduce Blog] Welcome to Peter's Blog !"
 ---
 
 
