@@ -120,47 +120,47 @@ docs:
   - title: Python3 
     children:
       - title: " 01. Python Syntax"
-        url: /3-python-syntax/
+        url: /p3-python-syntax/
       - title: " 02. String & Console Output"
-        url: /3-string-console-output/
+        url: /p3-string-console-output/
       - title: " ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time"
-        url: /3-date-and-time/
+        url: /p3-date-and-time/
       - title: " 03. Conditionals and Control Flow"
-        url: /3-conditionals-control-flow/
+        url: /p3-conditionals-control-flow/
       - title: "⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin"
-        url: /3-pyglatin/
+        url: /p3-pyglatin/
       - title: " 04. Functions "
-        url: /3-functions/
+        url: /p3-functions/
       - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation"
-        url: /3-taking-vacation/
+        url: /p3-taking-vacation/
       - title: " 05. Lists & Dictionaries"
-        url: /3-lists-dictionaries/
+        url: /p3-lists-dictionaries/
       - title: "⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket"
-        url: /3-day-supermarket/
+        url: /p3-day-supermarket/
       - title: " 06. Student Becomes the Teacher"
-        url: /3-student-becomes-teacher/
+        url: /p3-student-becomes-teacher/
       - title: " 07. Lists and Functions"
-        url: /3-lists-functions/
+        url: /p3-lists-functions/
       - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!"
-        url: /3-battleship/
+        url: /p3-battleship/
       - title: " 08. Loops"
-        url: /3-loops/
+        url: /p3-loops/
       - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect"
-        url: /3-practice-makes-perfect/
+        url: /p3-practice-makes-perfect/
       - title: " 09. Exam Statistics"
-        url: /3-exam-statistics/
+        url: /p3-exam-statistics/
       - title: " 10. Advanced Topics in Python"
-        url: /3-advanced-topics-python/
+        url: /p3-advanced-topics-python/
       - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators"
-        url: /3-introduction-bitwise-operators/
+        url: /p3-introduction-bitwise-operators/
       - title: " 11. Introduction to Classes"
-        url: /3-introduction-classes/
+        url: /p3-introduction-classes/
       - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Classes"
-        url: /3-classes/
+        url: /p3-classes/
       - title: " 12. File Input and Output"
-        url: /3-file-input-output/
+        url: /p3-file-input-output/
       - title: " 13. PYTHON FINAL PROJECT"
-        url: /3-python-final-project/
+        url: /p3-python-final-project/
 
 sidebar:
   - title: "Parent Page A"
