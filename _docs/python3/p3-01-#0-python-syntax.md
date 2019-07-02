@@ -3,39 +3,46 @@
 title: "Python Syntax"
 permalink: /p3-python-syntax/
 excerpt: "We learn about Python Syntax."
-last_modified_at: 2019-04-08T09:00:00-04:00
+# last_modified_at: 2018-11-19T09:00:00-04:00
 redirect_from:
   - /theme-setup/
 toc: true
 ---
+  
    
 <hr style="border: solid 1px #dddddd ;">    
 LESSON    
 
-In this course we'll learn about the syntax of the Python programming language! We will go over fundamental commands that store variables, print messages, and perform mathematical operations.  
-
+This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.    
 
 **설명:** [ 학습방향 ]     
-이 장에서는 객체 지향 프로그램 언어인 Python을 소개합니다.     
-기본적인 명령어와, 변수, 메시지 출력방법, 수학연산을 배운다.
+이 장에서는 객체 지향 프로그램 언어인 Python3을 소개합니다.     
+Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다.
 {: .notice--info}     
      
- <hr style="border: solid 1px #dddddd ;">
-
+<hr style="border: solid 1px #dddddd ;">    
+<br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 1. Welcome    
+### 1. Hello World!    
 
 
-Python is a programming language. Like other languages, it gives us a way to communicate ideas. In the case of a programming language, these ideas are “commands” that people use to communicate with a computer!
+If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to speak. In Python, this is accomplished with the `print` statement.
 
-We convey our commands to the computer by writing them in a text file using a programming language. These files are called programs. Running a program means telling a computer to read the text file, translate it to the set of operations that it understands, and perform those actions.
+accomplished with the print statement.
+   
 
+```python
+print ("Hello, world!")
+print ("Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?")
+```
+
+
+
+A `print` statement is the easiest way to get your Python program to communicate with you. Being able to command this communication will be one of the most valuable tools in your programming toolbox.
 
 **설명:** [ Learn ]     
 • Ch1. Hello World! 에서는 print 문을 학습한다.      
-• 우리가 배워야 할 첫번째 Python 문법은 print 문이다.     
-• print 문은 컴퓨터와 대화 하는것을 실질적으로 사람이 볼수 있게 해준다.     
 • 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.     
 • 우리는 컴퓨터에게 *Hello World!* 라는 문장을 화면에 출력 시키라고 명령한 것이다. 
 {: .notice--info}
@@ -47,16 +54,11 @@ We convey our commands to the computer by writing them in a text file using a pr
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-Change Codecademy to your name in the script to the right. Run the code to see what it does! As soon as you’re ready, move on to the next exercise to begin learning to write your own Python programs!    
-
-```python
-my_name = "Codecademy"
-print("Hello and welcome " + my_name + "!")
-```
+* Using a print statement, output a message of your choosing to the terminal.   
 
 
 **설명:** [ Instruction ]    
-변수 my_name 의 Codecademy 를 당신의 이름으로 변경하라.    
+• print 문을 사용하여 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜라. 
 {: .notice--info}
 
 
@@ -66,11 +68,15 @@ print("Hello and welcome " + my_name + "!")
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-Skip
+* Print a message by typing `print` followed by your message in quotes, like this:
+
+```python
+print ("Your Message!")
+```
 
 
 **설명:** [ Hint ]    
-skip
+• print 문을 사용하여 *Your Message!* 를 화면에 출력한다. 
 {: .notice--info}
 
 <br>
@@ -79,18 +85,16 @@ skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-my_name = "LWY"
-print("Hello and welcome " + my_name + "!")
+print ("Hello World!")
 ```
 
-
 **설명:** [ Solution ]    
-변수 my_name 의 변경 내용이 출력된다.
+• print 문을 사용하여 *Hello World!* 를 출력하였다.
 {: .notice--info}
 
 **결과**    
 ```
-Hello and welcome LWY !
+Hello World!
 ```
 
 <p style="page-break-before: always;"></p>
@@ -100,36 +104,28 @@ Hello and welcome LWY !
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 2. Comments    
+### 2. Print Statements    
 
-Ironically, the first thing we’re going to do is show how to tell a computer to ignore a part of a program. Text written in a program but not run by the computer is called a comment. Python interprets anything after a # as a comment.
+There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has parentheses.
 
-Comments can:    
-
-* Provide context for why something is written the way it is:
 
 ```python
-# This variable will be used to count the number of times anyone tweets the word persnickety
-persnickety_count = 0    
-```
+print("Hello World!")
+print("Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains bathed in their hill-side blue.")
+```   
 
-* Help other people reading the code understand it faster:    
-
-```python
-# This code will calculate the likelihood that it will rain tomorrow
-complicated_rain_calculation_for_tomorrow()    
-```    
-
-* Ignore a line of code and see how a program will run without it:
-
-```python
-# useful_value = old_sloppy_code()
-useful_value = new_clean_code()
-
+In this course we will be using Python 2. If you go on to write Python 3 it will be useful to note this key difference.
 
 
 
 **설명:** [ Learn ]    
+• Ch2. Print Statements 에서는 python2 vs python3 의 차이를 학습한다.    
+• Python2 와 Python3는 문법이 조금 틀리다.     
+• Python2 는 () 사용하지 않는다.    
+• Python3 는 () 를 사용한다.    
+• 우리는 Python2 를 기본으로 배울 것이다.     
+• Python2와 Python3는 Python을 배우는데, 크게 차이는 없다.     
+• 그리고 Python version 3.x 이상은 Python2 문법이 모두 통용이 된다. 
 {: .notice--info}
 
 
@@ -139,22 +135,28 @@ useful_value = new_clean_code()
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-Documentation is an important step in programming. Write a comment describing the first program you want to write!
+* Print something using Python 3's syntax.
 
 **설명:** [ Instruction ]     
-코멘트 처리를 하여라.
+• Python3 문법을 사용하여 print 문을 출력하라. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-Start your comment with # and write the rest of your comment afterwards.    
+
+* Remember to include parentheses!
+
+```python
+print("Your message!")
+```
 
 
 **설명:** [ Hint ]     
+• Python3 는 print 문을 사용시 괄호`()` 가 필요하다.  
 {: .notice--info}
 
 <br>
@@ -163,15 +165,16 @@ Start your comment with # and write the rest of your comment afterwards.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-# Start your comment with # and write the rest of your comment afterwards.
+print ("Hello World!")
 ```
 
 **설명:** [ Solution ]    
+• Python3 는 print 문을 사용시 괄호`()` 를 사용한다.
 {: .notice--info}
 
 **결과**    
 ```
-Skip
+Hello World!
 ```
 <br>
 <br>
@@ -184,50 +187,62 @@ Skip
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 3. Print    
+### 3. String    
 
-Now what we’re going to do is teach our computer to communicate. The gift of speech is valuable: a computer can answer many questions we have about “how” or “why” or “what” it is doing. In Python, the print() function is used to tell a computer to talk. The message to be printed should be surrounded by quotes:
+When printing things in Python, we are supplying a text block that we want to be printed. Text in Python is considered a specific type of data called a string. A string, so named because they're a series of letters, numbers, or symbols connected in order — as if threaded together by string. Strings can be defined in different ways:
 
 ```python
-# from Mary Shelley's Frankenstein
-print("There is something at work in my soul, which I do not understand.")    
-```
+print ("This is a good string")
+print ('You can use single quotes or double quotes for a string')
+```    
 
-In the above example, we direct our program to print() an excerpt from a notable book. The printed words that appear as a result of the print() function are referred to as output. The output of this example program would be:
+Above we printed two things that are strings and then attempted to print two things that are not strings. While double-quotes (") and single-quotes (') are both acceptable ways to define a string, a string needs to be opened and closed by the same type of quote mark.
 
-```
-There is something at work in my soul, which I do not understand.
-```
+We can combine multiple strings using +, like so:
+
+```python
+print ("This is " + "a good string")
+```    
+
+This code will print out "This is a good string".
+
 
 
 **설명:** [ Learn ]      
+• Ch3. String 에서는 문자열을 학습한다.     
+• 문자열을 Python 에서는 String 이라고 부른다.     
+• String은 작은 따옴표(' ') 또는 큰 따옴표(" ") 사이에 문자를 넣는다.    
+• 이후 부터는 우리는 따옴표를 쿼터(quotes)라고 부른다.     
+• 문자열은 여러 문자열을 예제와 같이 ( + ) 기호를 사용하여 붙일 수 있다. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Print the distinguished greeting “Hello world!”
+* Try adding your name to the print statement with the + operator so that this Python program prints "Hello [your_name]"
+
 
 **설명:** [ Instruction ]     
+• 두개의 문자열 사이에 ( + ) 기호를 사용하여 두 문자열을 연결하라.    
+• e.g.  *Hello Hongkildong* 을 출력하라. 
 {: .notice--info}
 
 
-<br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
 ```python
-print ("Hello world")
+print ("Hello " + "Nicole")
 ```
 
 **설명:** [ Hint ]     
-
+• 우리는 두개의 문자열을 ( + ) 기호를 사용하여, 문장을 연결할 수 있다. 
 {: .notice--info}
 
 
@@ -239,11 +254,11 @@ print ("Hello world")
 
 
 ```python
-print "Hello " + "Wonyoung Lee"
+print ("Hello " + "Wonyoung Lee")
 ```
 
 **설명:** [ Solution ]     
-• 두 개의 스트링을 연결 할때는 ( + )를 사용한다.
+• 두 개의 스트링을 연결 할때는 ( + ) 기호를 사용한다.
 {: .notice--info}
 
 
@@ -252,9 +267,6 @@ print "Hello " + "Wonyoung Lee"
 Hello Wonyoung Lee
 ```   
 
-<br>
-<br>    
-<br>    
 <p style="page-break-before: always;"></p>      
 <br>
 
@@ -269,13 +281,13 @@ Hello Wonyoung Lee
 As we get more familiar with the Python programming language, we run into errors and exceptions. These are complaints that Python makes when it doesn't understand what you want it to do. Everyone runs into these issues, so it is a good habit to read and understand them. Here are some common errors that we might run into when printing strings:
 
 ```python
-print "Mismatched quotes will cause a SyntaxError'
+print ("Mismatched quotes will cause a SyntaxError')
 print Without quotes will cause a NameError
 ```
 
 If the quotes are mismatched Python will notice this and inform you that your code has an error in its syntax because the line ended (called an `EOL`) before the double-quote that was supposed to close the string appeared. The program will abruptly stop running with the following message:
 
-```bash
+```
 SyntaxError: EOL while scanning a string literal
 This means that a string wasn't closed, or wasn't closed 
 with the same quote-character that started it.
@@ -293,7 +305,7 @@ Another issue you might run into is attempting to create a string without quotes
 • *EOL Error*는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.    
 • 시작이 (') 이면 끝도 (') 이어야 한다.    
 • 시작이 (") 이면 끝도 (") 이어야 한다.     
-• 문자열의 양 끝에 쿼트(quotest)가 없으면 Python은 해당 문자열을 변수로 인식한다.    
+• 문자열의 양 끝에 쿼트(quotes)가 없으면 Python은 해당 문자열을 변수로 인식한다.    
 • 또는 print 와 같은 명령문으로 인식한다.    
 • 이런 경우 Python 은 해당 문자열을 명령어(or 변수) 리스트에서 찾는다.    
 • 만약, 리스트에서 찾을수 없으면 *NameError* 를 발생시킨다.
@@ -313,7 +325,7 @@ Another issue you might run into is attempting to create a string without quotes
 
 **설명:** [ Instruction ]    
 • 쿼트(quotes)를 잘못 사용하면 Error 가 발생한다.    
-• 잘못된 Python 프로그램을 고쳐라.  
+• 잘못된 Python 프로그램을 수정하라.  
 {: .notice--info}
 
 
@@ -326,20 +338,23 @@ Another issue you might run into is attempting to create a string without quotes
 * A `print` statement should start with the word print and then should have the message inside matching quote marks.
 
 ```python
-print 'This is a good print statement'
+print ('This is a good print statement')
 ```   
 
 * Double quotes are also fine:
 
 ```python
-print "This is also a good print statement"
+print ("This is also a good print statement")
 ```
 
 
 **설명:** [ Hint ]    
-• 문자열은 쿼트(quotes)의 처음과 끝이 같은 모앙이어야 한다. 
+• 문자열은 쿼트(quotes)의 처음과 끝이 같은 모양이어야 한다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
+<br>
+<hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
@@ -348,6 +363,7 @@ print "This is also a good print statement"
 print("How do you make a hot dog stand?")
 print("You take away its chair!")
 ```
+
 
 **설명:** [ Solution ]     
 • 문자열을 표현할때는 처음과 끝의 쿼트 모양이 같아야 한다.
@@ -366,7 +382,7 @@ You take away its chair!
 <p style="page-break-before: always;"></p>     
 <br>    
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -386,7 +402,7 @@ In the above example, we defined a variable called `greeting_message` and set it
 
 **설명:** [ Learn ]       
 • Ch5. Variables 에서는 변수를 학습한다.    
-• 변수는 문자열이나, 숫자를 저장하기 위한 상자이름 이다.     
+• 변수는 문자열이나, 숫자를 저장하기 위한 상자 이름이다.     
 • 우리는 greeting_message 라는 변수 상자를 만든다.    
 • 그 변수 상자에 *Welcome to Codecademy!* 라는 문자열을 저장한다.    
 • greeting_message 는 문자를 담은 변수 상자가 된다.    
@@ -398,6 +414,7 @@ In the above example, we defined a variable called `greeting_message` and set it
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -407,7 +424,7 @@ In the above example, we defined a variable called `greeting_message` and set it
 * Create a variable called `toodays_date` and assign a value that will represent today's date to that variable.
 
 **설명:** [ Instruction ]     
-• 변수 todays_date 를 만들고, 이 변수에 오늘 날짜를 넣어라.
+• 변수 todays_date 를 만들고, 이 변수 todays_date에 오늘 날짜를 넣어라.
 {: .notice--info}
 
 
@@ -446,9 +463,6 @@ todays_date = "November 19, 2018"
 #skip
 ```   
 
-<br>
-<br>    
-<br>   
 <p style="page-break-before: always;"></p>     
 <br>
 
@@ -466,11 +480,11 @@ amazing_subtraction = 981 - 312
 trippy_multiplication = 38 * 902
 happy_division = 540 / 45
 sassy_combinations = 129 * 1345 + 120 / 6 - 12
-```
+``
 
 Above are a number of arithmetic operations, each assigned to a variable. The variable will **hold the final result** of each operation. Combinations of arithmetical operators follow the usual order of operations.
 
-Python also offers a companion to division called the modulo operator. The modulo operator is indicated by % and returns the remainder after division is performed.
+Python also offers a companion to division called the modulo operator. The modulo operator is indicated by `%` and returns the remainder after division is performed.
 
 ```python
 is_this_number_odd = 15 % 2
@@ -537,6 +551,7 @@ quotient = 30 / 5
 • % 는 나머지를 구하는 모듈(module) 연산자 이다. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -567,7 +582,7 @@ remainder = 1398 % 11
 <br>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -595,7 +610,7 @@ Updating a variable by adding or subtracting a number to the original contents o
 • Ch7. Updating Variables 에서는 변수 변경을 학습한다.    
 • 변수 fish_in_clarks_pond 에 50 을 대입하라.    
 • 변수 number_of_fish_caught 에 10 을 대입하라.    
-• 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught    
+• 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught 값을 저장한다.       
 • 변수 fish_in_clarks_pond 에는 50 - 10 의 값이 계산된 40 이 저장된다. 
 {: .notice--info}
 
@@ -652,6 +667,7 @@ annual_rainfall += september_rainfall
 • += 연산자를 사용하라.  
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -678,7 +694,7 @@ annual_rainfall += november_rainfall
 
 december_rainfall = 4.06
 annual_rainfall += december_rainfall
-print annual_rainfall
+print (annual_rainfall)
 ```
 
 **설명:** [ Solution ]    
@@ -737,7 +753,7 @@ row_count = 13
 • 변수 city_pop 위에 주석을 만들어라. 
 {: .notice--info}
 
-
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -780,7 +796,7 @@ city_pop = 340000
 <p style="page-break-before: always;"></p>     
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
@@ -795,32 +811,33 @@ int3 = -5
 ```
 
 A number with a decimal point is called a **float**. You can define **floats** with numbers after the decimal point or by just including a decimal point at the end:
-
+<br>
 ```python
 float1 = 1.0
 float2 = 10.
 float3 = -5.5
 ```
-
+<br>
 You can also define a **float** using scientific notation, with e indicating the power of `10`:
 
 ```python
 # this evaluates to 150:
 float4 = 1.5e2
 ```
-
+<br>
 
 **설명:** [ Learn ]      
 • Ch9. Numbers 에서는 숫자를 학습한다.     
 • Python 에서는 숫자 관련 변수는 정수(integer)와 실수(float) 2 종류가 있다.    
 • 정수는 소숫점 이하를 표현할수 없다.    
 • 실수는 소수점을 표현할 수 있다.     
-• 생성되는 변수가 정수인지, 실수 인지는 해당 값을 대입 할때 정해진다.    
+• 생성되는 변수가 정수형인지, 실수형인지는 해당 값을 대입 할때 정해진다.    
 • 즉, 변수에 정수를 넣으면 정수형 변수가 되고, 실수를 넣으면 실수형 변수가 된다.   
-• 과학적 표기법인(scientific notation) e 도 실수(float)로 표현한다. 
+• 과학적 표기법인(scientific notation) e 도 실수(float)형으로 표현한다. 
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -844,7 +861,6 @@ float4 = 1.5e2
 • 변수 total_cost 를 print 문을 사용하여, console 창에 출력하라.
 {: .notice--info}    
 
-
 <br>
 <hr/>
 
@@ -857,6 +873,7 @@ float4 = 1.5e2
 • 연산자 * 를 사용하여 총 합을 계산하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -892,11 +909,14 @@ print total_cost
 <p style="page-break-before: always;"></p>     
 <br>
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 10. Two Types of Division     
+
+*In Python 3, This case already solved.*
+*But, let's try to understand the difference python2 and python3.*
 
 In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine:
 
@@ -929,19 +949,20 @@ quotient1 = float(7)/2
 ```
 
 **설명:** [ Learn ]       
-• Ch10. Two Types of Division 에서는 나눗셈의 주의점을 학습한다.    
+• Ch10. Two Types of Division 에서는 나눗셈 계산에서 주의할점을 학습한다.    
 • 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다.    
-• 정수 ( 7/2 ) 은 그 계산하면 3.5 이다. 3.5는 실수이다.    
-• 하지만, Python은 정수( 3 )만 남고, 나머지 0.5는 버린다.    
+• 정수 ( 7/2 ) 를 계산하면 3.5 이다. 3.5는 실수이다.    
+• 하지만, Python2 에서는 정수( 3 )만 남고, 나머지 0.5는 버린다.    
 • 이런 실수를 방지하기 위하여 값을 대입 할때 주의 해야한다.    
-• 항상, 계산한 결과값이 실수 일 것을 대비하여야 한다.     
+• 항상, 계산한 결과값이 실수일 것을 대비하여야 한다.     
 • 입력값을 실수형으로 넣어 준다. ( e.g. 7.0 / 3)    
 • 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.
 {: .notice--info}    
 
 **설명:** [ Python3 ]    
-• python3 에서는 이문제를 해결 하였다.    
-• 정수 ( 7/2 ) 은 그 계산하면 3.5 로 자동 출력된다.
+• python3 에서는 이 문제를 해결 하였다.    
+• 정수 ( 7/2 ) 을 계산하면 3.5 로 자동 계산된다.      
+• 하지만, Python2 에서 사용될 수 있기에, 차이점을 이해는 하고 넘어가자.
 {: .notice--info}
 
 
@@ -978,6 +999,7 @@ quotient1 = float(7)/2
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1024,9 +1046,6 @@ print float_cucumbers_per_person
 ```
 
 
-<br>
-<br>    
-<br>    
 <p style="page-break-before: always;"></p>     
 <br>
 
@@ -1074,7 +1093,7 @@ returns the modified input and a string that says "Success!" or "Failure..."
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a variable called `haiku` and store this haiku as a multi-line string: The old pond, A frog jumps in: Plop!
+* Create a variable called `haiku` and store this `haiku` as a multi-line string: The old pond, A frog jumps in: Plop!
 
 **설명:** [ Instruction ]    
 • 변수 haiku 를 만들어라.    
@@ -1106,7 +1125,7 @@ haiku = """The old pond,
 A frog jumps in:
 Plop!"""
 
-print haiku
+print (haiku)
 ```
 
 **설명:** [ Solution ]    
@@ -1152,7 +1171,11 @@ A boolean is actually a special case of an integer. A value of True corresponds 
 • 거짓 의 값은 숫자 *0* 이다. 
 {: .notice--info}
 
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/03-boolean-00.svg){: width="70%" height="70%"}    
 
+<br>
+
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1190,6 +1213,7 @@ some_variable = True
 • 주석 문을 읽고 True, False 를 이용하여 대입하라. 
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1227,14 +1251,14 @@ Python automatically assigns a variable the appropriate datatype based on the va
 
 ```python
 age = 13
-print "I am " + str(age) + " years old!"
+print ("I am " + str(age) + " years old!")
 ```
 **설명:** [ Learn ]       
 • Ch13. ValueError 에서는 출력시 주의할 점을 학습한다.     
 • 변수 age 는 정수 13 이 대입 되었기에 정수형 변수가 된다.     
 • 정수형 변수 age 를 문자열로 출력 하기 위해선, 함수 str()를 사용한다.    
-• 정수 변수 age를 str(age)로 바꾸면 age 는 문자열 형태로 출력된다.    
-• *주의)* 정수형 age 를 출력 할때 문자열 형태로 출력하는 것이지, age 가 문자열 형 변수가 되는것은 아니다.  
+• 정수형 변수 age 를 str(age)로 바꾸면 변수 age 는 문자열 형태로 출력된다.    
+• *주의)* 정수형 age 를 출력 할때 문자열 형태로 출력하는 것이지, age 가 문자열형 변수가 되는것은 아니다.  
 {: .notice--info}
 
 This would print:
@@ -1258,15 +1282,15 @@ int_addition = int(number1) + int(number2)
 • Python 에서는 문자형 데이타 이지만, 데이타가 숫자를 뜻하면 계산을 할수가 있다.     
 • e.g. 문자열 "4", "5.0"    
 • 단, 계산할때, 함수 int()를 사용하여 정수형으로 바꾸어 주어야 한다.     
-• *주의)* 문자형 number1 , number2를 계산 목적으로 integer 로 바꾸어 주는 것이지, number1 , number2 가 integer 형이 되는것은 아니다.  
+• *주의)* 문자형 number1 , number2를 계산 목적으로 정수형으로 바꾸어 주는 것이지,변수 number1 , number2 에 들어있는 데이타가 정수형이 되는것은 아니다.  
 {: .notice--info}
 
 If you use `int()` on a floating point number, it will round the number down. To preserve the decimal, you can use `float()`:
 
 ```python
 string_num = "7.5"
-print int(string_num)
-print float(string_num)
+print (int(string_num))
+print (float(string_num))
 >>> 7
 >>> 7.5
 ```
@@ -1294,11 +1318,12 @@ The product was X
 
 **설명:** [ Instruction ]     
 • 변수 product 를 만들어라.    
-• 그리고, 그 변수에 float_1 , float_2 곱한 값을 대입하라.  
+• 변수 product 에 변수 float_1 , float_2 곱한 값을 대입하라.  
 • 변수 big_string 를 만들어라.    
-• 그리고, 그 변수에 *The product was* + str(product) 를 대입하라.   
+• 변수 big_string 에 *The product was* + str(product) 를 대입하라.   
 {: .notice--info}
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1330,7 +1355,7 @@ big_string = "The product was " + str(product)
 ```
 
 **설명:** [ Solution ]     
-• float type 변수 product 를 문자열 type 으로 변환 해주고 대입한다. 
+• float 형(type) 변수 product 를 문자열 형(type) 으로 변환 해주고 대입한다. 
 {: .notice--info}
 
 
@@ -1370,10 +1395,11 @@ Great! So far we’ve looked at:
 • 사칙연산    
 • 주석처리    
 • 데이터 종류(integer, float, string, boolean)    
-• 테이터 type 변환을 공부하였다.  
+• 테이터 형(type) 변환을 공부하였다.  
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1410,7 +1436,7 @@ with the value of `point_total` where `X` is.
 • 변수 exercises_completed 에 13 을 대입하라.        
 • 변수 points_per_exercise 에 5 를 대입하라.      
 • 변수 point_total 에  100 을 대입하라.    
-• 변수 point_total 에 변수 exercises_completed * points_per_exercise 곱한 결과 값을 더하라.     
+• 변수 point_total 에 기존 결과값 변수 point_total 값에 변수 exercises_completed * points_per_exercise 곱한 결과 값을 더하라.     
 • *The amount* 부터 *yet* 까지의 문자열을 주석 처리하라.     
 • *I got X points!* 를 콘솔창에 출력하라.    
 • 변수 X 값은 변수 point_total 값이다.
@@ -1418,24 +1444,25 @@ with the value of `point_total` where `X` is.
 
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-• You can add to a variable by using `+=`:
+* You can add to a variable by using `+=`:
 
 ```python
 total += number_to_add
 ```
 
-• which is shorthand for:
+* which is shorthand for:
 
 ```python
 [new value of] total = [old value of] total + number_to_add
 ```
-• You can cast a numerical variable to a string and then add it to another string:
+* You can cast a numerical variable to a string and then add it to another string:
 
 ```python
 print("This is " + str(1) + " long string!")
@@ -1448,6 +1475,7 @@ print("This is " + str(1) + " long string!")
 {: .notice--info}
 
 
+<p style="page-break-before: always;"></p>     
 <br>
 <hr/>
 
@@ -1473,6 +1501,3 @@ print("I got "+str(point_total)+" points!")
 ```
 I got 165 points!
 ```    
-
-<p style="page-break-before: always;"></p>
-<br>
