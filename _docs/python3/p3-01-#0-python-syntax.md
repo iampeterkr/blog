@@ -13,10 +13,10 @@ toc: true
 <hr style="border: solid 1px #dddddd ;">    
 LESSON    
 
-This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.    
+This lesson will introduce you to Python 3, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.    
 
 **설명:** [ 학습방향 ]     
-이 장에서는 객체 지향 프로그램 언어인 Python3을 소개합니다.     
+이 장에서는 객체 지향 프로그램 언어인 Python 3 을 소개합니다.     
 Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다.
 {: .notice--info}     
      
