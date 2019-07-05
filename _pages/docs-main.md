@@ -18,7 +18,7 @@ last_modified_at: 2019-03-11T09:00:00-04:00
 	<tr>
 		<td align="center"><img src="/codecademy/assets/images/codecademy_logo.svg" width="250" height="150"></td>
 		<td><a href="/codecademy/syllabus/">Python2</a> <br>  
-            <a href="/codecademy/syllabus/">Python3</a>
+            <a href="/codecademy/p3-syllabus/">Python3</a>
         </td>
 	</tr>
 </table>
