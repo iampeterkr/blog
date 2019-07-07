@@ -3,10 +3,9 @@ layout: posts
 title:  "[Community and Forums] Python의 커뮤니티와 포럼에 참영하는 방법!!"
 ---
 
-    
-    
-<hr/>
-<br>
+   
+
+[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#7)]
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-community-00.png)    
 <br>

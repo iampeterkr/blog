@@ -3,8 +3,8 @@ layout: posts
 title:  "[Python Syntax] Python 기초 문법 설명 !!"
 ---
 
-<hr/>
-<br>
+[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (01-#0)]
+      
 
 <hr style="border: solid 1px #dddddd ;">    
 LESSON    

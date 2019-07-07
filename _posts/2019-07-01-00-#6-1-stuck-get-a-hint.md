@@ -3,7 +3,11 @@ layout: posts
 title:  "[Stuck? Get a hint] Hint 항목 설명 !!"
 ---
     
-    
+
+
+[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]
+
+
 <hr/>
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-stuck-00.png)    

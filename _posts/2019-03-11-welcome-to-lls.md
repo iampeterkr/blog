@@ -1,7 +1,10 @@
 ---
 layout: posts
-title:  "[Introduce Blog] Welcome to Peter's Blog !"
+title:  "[Introduce Blog] Python Codecademy 한글설명 가이드 프로젝트 블로그 안내!"
 ---
+
+
+[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)]
 
 
 ## Welcome

@@ -3,7 +3,10 @@ layout: posts
 title:  "[Explain Screen] 기본 화면 설명 !!"
 ---
     
-    
+
+
+[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#4)]
+
     
 <hr/>
 
